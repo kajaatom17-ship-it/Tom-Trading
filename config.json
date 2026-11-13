@@ -1,0 +1,63 @@
+{
+  "version": "1.0",
+  "mode": "PAPER_ONLY",
+  "capital_initial_eur": 500,
+  "timezone": "Europe/Paris",
+
+  "frais": {
+    "taker_pct": 0.40,
+    "maker_pct": 0.25,
+    "note": "Kraken Pro, palier le plus bas. Entree et stop = ordre au marche (taker + slippage). Objectif = ordre limite (maker, sans slippage).",
+    "slippage_pct_par_tier": { "A": 0.05, "B": 0.10, "C": 0.25 },
+    "rollover_short_pct_par_4h": 0.02
+  },
+
+  "risque": {
+    "risque_par_trade_pct": 1.0,
+    "max_entrees_par_jour": 3,
+    "max_positions_ouvertes": 3,
+    "rr_net_min": 1.5,
+    "notionnel_max_pct_par_tier": { "A": 30, "B": 20, "C": 10 },
+    "distance_stop_min_pct": 0.8,
+    "distance_stop_max_pct": 8.0,
+    "spread_max_pct": 0.30,
+    "volume_24h_min_eur": 40000,
+    "perte_jour_max_pct": 3.0,
+    "drawdown_coupe_circuit_pct": 15.0,
+    "max_alts_meme_sens": 2,
+    "duree_max_position_h": 24,
+    "derive_prix_max_atr": 0.5
+  },
+
+  "strategies_actives": ["TPB-1", "BRK-1"],
+
+  "univers": [
+    { "sym": "BTC",    "pair": "XBTEUR",    "nom": "Bitcoin",        "cat": "Majeure",  "tier": "A" },
+    { "sym": "ETH",    "pair": "ETHEUR",    "nom": "Ethereum",       "cat": "Majeure",  "tier": "A" },
+    { "sym": "SOL",    "pair": "SOLEUR",    "nom": "Solana",         "cat": "Majeure",  "tier": "A" },
+    { "sym": "XRP",    "pair": "XRPEUR",    "nom": "XRP",            "cat": "Majeure",  "tier": "A" },
+    { "sym": "ADA",    "pair": "ADAEUR",    "nom": "Cardano",        "cat": "Majeure",  "tier": "A" },
+    { "sym": "LTC",    "pair": "LTCEUR",    "nom": "Litecoin",       "cat": "Majeure",  "tier": "A" },
+    { "sym": "LINK",   "pair": "LINKEUR",   "nom": "Chainlink",      "cat": "Infra",    "tier": "A" },
+    { "sym": "AVAX",   "pair": "AVAXEUR",   "nom": "Avalanche",      "cat": "Layer 1",  "tier": "B" },
+    { "sym": "SUI",    "pair": "SUIEUR",    "nom": "Sui",            "cat": "Layer 1",  "tier": "A" },
+    { "sym": "NEAR",   "pair": "NEAREUR",   "nom": "Near",           "cat": "Layer 1",  "tier": "A" },
+    { "sym": "DOT",    "pair": "DOTEUR",    "nom": "Polkadot",       "cat": "Layer 1",  "tier": "B" },
+    { "sym": "INJ",    "pair": "INJEUR",    "nom": "Injective",      "cat": "Layer 1",  "tier": "B" },
+    { "sym": "HYPE",   "pair": "HYPEEUR",   "nom": "Hyperliquid",    "cat": "DeFi",     "tier": "A" },
+    { "sym": "ONDO",   "pair": "ONDOEUR",   "nom": "Ondo",           "cat": "DeFi",     "tier": "B" },
+    { "sym": "ARB",    "pair": "ARBEUR",    "nom": "Arbitrum",       "cat": "Layer 2",  "tier": "B" },
+    { "sym": "OP",     "pair": "OPEUR",     "nom": "Optimism",       "cat": "Layer 2",  "tier": "B" },
+    { "sym": "TAO",    "pair": "TAOEUR",    "nom": "Bittensor",      "cat": "IA",       "tier": "B" },
+    { "sym": "RENDER", "pair": "RENDEREUR", "nom": "Render",         "cat": "IA",       "tier": "B" },
+    { "sym": "FET",    "pair": "FETEUR",    "nom": "Artificial Superintelligence", "cat": "IA", "tier": "B" },
+    { "sym": "DOGE",   "pair": "XDGEUR",    "nom": "Dogecoin",       "cat": "Meme",     "tier": "A" },
+    { "sym": "SHIB",   "pair": "SHIBEUR",   "nom": "Shiba Inu",      "cat": "Meme",     "tier": "B" },
+    { "sym": "PEPE",   "pair": "PEPEEUR",   "nom": "Pepe",           "cat": "Meme",     "tier": "B" },
+    { "sym": "TRUMP",  "pair": "TRUMPEUR",  "nom": "Official Trump", "cat": "Meme",     "tier": "C" },
+    { "sym": "WIF",    "pair": "WIFEUR",    "nom": "dogwifhat",      "cat": "Meme",     "tier": "C" },
+    { "sym": "BONK",   "pair": "BONKEUR",   "nom": "Bonk",           "cat": "Meme",     "tier": "C" },
+    { "sym": "PENGU",  "pair": "PENGUEUR",  "nom": "Pudgy Penguins", "cat": "Meme",     "tier": "C" },
+    { "sym": "PAXG",   "pair": "PAXGEUR",   "nom": "Or (PAX Gold)",  "cat": "Or",       "tier": "A" }
+  ]
+}

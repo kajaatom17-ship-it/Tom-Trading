@@ -1,0 +1,44 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "défavorable",
+   "resume": "Tendance 1 h baissière sur BTC, ETH, SOL et XRP. Seulement 2 signaux : PAXG short (RR net 1,21) et WIF long (RR net 0,91, contre la tendance de BTC). Aucun ne passe le seuil de 1,5 après frais. La volatilité 15 min est faible (ATR 0,4 % sur BTC) : les frais Kraken pèsent lourd.",
+   "donnees": "Kraken OHLC 15 min, scan de 14:14 UTC (15:14 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "L'indice des prix à la production américain (PPI d'octobre) est sorti à 14:30 heure de Paris. Deux membres de la Fed parlent encore : Daly à 18:00 et Jefferson vers 01:00 (heure de Paris). Le marché crypto sort de semaines de baisse : BTC est passé sous 76 000 $ le 5 novembre.",
+   "sources": [
+    "BLS - calendrier des publications novembre 2026 - PPI le 13/11 à 08:30 ET - https://www.bls.gov/schedule/2026/11_sched_list.htm",
+    "TD Economics - agenda du 9 au 13 novembre 2026 (Daly 12:00 ET, Jefferson 19:00 ET) - https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-11-06/upcoming.htm",
+    "Stocktwits - 05/11/2026 - Bitcoin sous 76 000 $ - https://stocktwits.com/news-articles/markets/cryptocurrency/mstr-bmnr-crcl-coin-stocks-tumble-bitcoin-breaks-76-k-wiping-out-1-b-crypto-bets/cNG1sepR94N"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed à 20 (peur extrême). Capitalisation totale -5,2 % sur 24 h, dominance BTC 59 %. Les hausses du jour sont isolées (INJ +10 %, NEAR +4 %) dans un marché qui recule : ce sont des mouvements fragiles, pas une rotation vers les altcoins.",
+   "donnees": "alternative.me et CoinGecko, 14:05 UTC"
+  },
+  "trader": {
+   "avis": "aucune proposition",
+   "proposition": "Pas de trade. Je ne force pas une entrée qui ne respecte pas nos règles.",
+   "pour": [
+    "Un short PAXG suivrait la tendance 1 h de l'or"
+   ],
+   "contre": [
+    "RR net 1,21 sous le seuil",
+    "Or peu volatil : l'objectif 3R est loin pour une journée",
+    "WIF : cassure isolée contre la tendance de BTC, carnet peu profond"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Je valide la décision de rester en liquidités. Aucun candidat n'atteint le RR net de 1,5 et le marché est en peur extrême."
+  }
+ },
+ "synthese": "Première réunion : on reste à 100 % en liquidités. Les deux signaux du scanner rapportent trop peu par rapport à leur risque une fois les frais Kraken payés.",
+ "id": "D-20261113-141505",
+ "cree_le": "2026-11-13T14:15:05Z"
+}

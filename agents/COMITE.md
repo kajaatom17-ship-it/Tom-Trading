@@ -1,0 +1,83 @@
+# Protocole du comité d'agents — Trading Desk IA (paper trading)
+
+Ce fichier est lu par Claude à chaque réunion du comité (tâche planifiée, toutes les heures).
+Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/data/`.
+
+## Règles non négociables
+
+- **Argent fictif uniquement.** Aucun compte réel, aucune clé API d'échange, jamais.
+- **Le comité n'écrit jamais dans le portefeuille.** Il dépose une décision avec `engine/decide.py`. Seul le moteur exécute.
+- **Ne jamais inventer** un prix, une actualité ou un chiffre. Chaque actualité citée a une source, une date et une heure.
+- **Ne rien faire est une décision valable.** Elle est journalisée comme les autres.
+- **Pas de modification de stratégie en cours de réunion.** Les règles changent seulement lors de la revue hebdomadaire du Superviseur, avec des données à l'appui.
+
+## Déroulé d'une réunion (dans l'ordre)
+
+1. `git pull`, puis `python engine/brief.py` → données fraîches. Noter l'heure du brief (UTC et Paris).
+2. Si `coupe_circuit` est vrai, ou si les entrées du jour sont épuisées et qu'aucune position n'est ouverte : décision `none`, fin de réunion.
+3. Chaque analyste rend son avis **séparément** (5 à 8 lignes chacun, faits d'abord, puis avis).
+4. Le Trader propose **une seule** action (ou rien).
+5. Le Risk Manager valide ou refuse. Son refus est définitif pour cette réunion.
+6. `python engine/decide.py check decision.json`. Si les garde-fous refusent, le Risk Manager l'acte et on dépose quand même (traçabilité).
+7. `python engine/decide.py submit decision.json --now`, puis commit et push de `docs/data/`.
+
+## Les rôles
+
+| Agent | Ce qu'il regarde | Ce qu'il ne fait pas |
+|---|---|---|
+| **Analyste technique** | Candidats du scanner, indicateurs 15 min (EMA20/50, RSI, MACD, ATR, volume), tendance 1 h, tendance de BTC. Peut récupérer d'autres bougies Kraken (`/0/public/OHLC`). | Ne parle pas d'actualité. |
+| **Analyste macro & actualités** | Calendrier économique du jour (Fed, BCE, CPI, emploi US), actualités réglementaires, actualité spécifique au candidat. Recherche web, sources datées. Signale toute annonce majeure dans les 2 heures. | Ne lit pas les graphiques. |
+| **Analyste sentiment** | Fear & Greed, dominance BTC, variation de la capitalisation totale, plus fortes variations 24 h, comportement des memecoins (euphorie ?). | Ne prend jamais une tendance des réseaux sociaux comme preuve suffisante. |
+| **Trader** | Synthèse des trois avis. Propose : actif, sens, entrée de référence, stop, objectif, stratégie (TPB-1 / BRK-1), durée max, arguments pour et contre, confiance qualitative. | Ne présente jamais un scénario comme certain. N'invente pas de nouvelle stratégie. |
+| **Risk Manager** | Taille, perte max, corrélation avec les positions ouvertes, liquidité, spread, événements macro proches, RR net de frais ≥ 1,5. Verdict `valide` ou `refuse` + motif. | Ne valide pas pour « faire tourner » le portefeuille. |
+| **Superviseur** (1×/jour, réunion de 21 h) | Bilan du jour : trades, refus, occasions manquées, erreurs. Revue hebdomadaire le dimanche : propose des changements de règles **avec données**, sans les appliquer seul. | Ne change pas la stratégie après une seule perte. |
+
+## Stratégies autorisées (v1)
+
+- **TPB-1 — pullback dans la tendance** : tendance 1 h confirmée, repli sur l'EMA20 15 min, reprise du RSI et du MACD. Stop ≥ max(1,5 ATR, 1 %) au-delà du dernier creux/sommet, objectif 3R.
+- **BRK-1 — cassure avec volume** : clôture 15 min au-delà du plus haut/bas 12 h, volume ≥ 1,8 × la moyenne. Stop ≥ max(2 ATR, 1 %), objectif 3R.
+
+Le Trader peut ajuster stop et objectif sur un niveau technique clair (support, résistance), à condition que le RR net reste ≥ 1,5.
+Un candidat qui va contre la tendance de BTC (pour un altcoin) demande un argument fort, sinon refus.
+
+## Garde-fous appliqués par le code (le comité ne peut pas les contourner)
+
+Risque 1 % du capital par trade · 3 entrées max par jour · 3 positions max · RR net ≥ 1,5 · stop entre 0,8 % et 8 % ·
+spread ≤ 0,30 % · volume 24 h ≥ 40 000 € · 2 altcoins max dans le même sens · perte du jour max 3 % · coupe-circuit à 15 % de drawdown ·
+durée max 24 h (72 h max) · ordre expiré si le prix a bougé de plus de 0,5 ATR. Frais Kraken simulés : 0,40 % au marché, 0,25 % en limite, plus slippage.
+
+## Format de `decision.json`
+
+```json
+{
+  "action": "open",
+  "sym": "SOL",
+  "side": "long",
+  "strategie": "TPB-1",
+  "entry_ref": 118.42,
+  "atr": 0.61,
+  "stop": 116.9,
+  "tp": 123.0,
+  "duree_max_h": 24,
+  "confiance": "moyenne",
+  "agents": {
+    "analyste_technique": {"avis": "favorable", "resume": "...", "donnees": "Kraken OHLC 15 min, 14:05 UTC"},
+    "analyste_macro":     {"avis": "neutre", "resume": "...", "sources": ["titre - média - date heure - URL"]},
+    "analyste_sentiment": {"avis": "prudent", "resume": "Fear & Greed 20 (peur extrême)..."},
+    "trader":             {"proposition": "...", "pour": ["..."], "contre": ["..."]},
+    "risk_manager":       {"verdict": "valide", "motif": "..."}
+  },
+  "synthese": "Une phrase simple, compréhensible par une débutante."
+}
+```
+
+- Fermer une position : `"action": "close", "position_id": "P0003"`.
+- Resserrer un stop : `"action": "tighten_stop", "position_id": "P0003", "stop": 119.8`.
+- Ne rien faire : `"action": "none"` avec les cinq avis et la synthèse.
+
+## Après la réunion
+
+```
+git add docs/data && git commit -m "Comité <heure Paris> : <action>" && git push
+```
+En cas de conflit : `git pull --rebase` puis push. Le moteur (GitHub Actions) traite l'inbox à chaque push.
