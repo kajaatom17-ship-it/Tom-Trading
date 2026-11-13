@@ -16,10 +16,15 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 1. `git pull --rebase -X ours origin main`, puis `python3 engine/brief.py` → données fraîches. Noter l'heure du brief (UTC et Paris).
 2. Si `coupe_circuit` est vrai, ou si les entrées du jour sont épuisées et qu'aucune position n'est ouverte : décision `none`, fin de réunion.
 3. Chaque analyste rend son avis **séparément** (5 à 8 lignes chacun, faits d'abord, puis avis).
-4. Le Trader propose **une seule** action (ou rien).
-5. Le Risk Manager valide ou refuse. Son refus est définitif pour cette réunion.
+4. **Vraie discussion** (champ `discussion`) : les agents se répondent. Au moins 8 messages et 2 tours :
+   tour de table des trois analystes, proposition du Trader, objections (un agent conteste un point précis d'un autre),
+   réponse du Trader ou de l'analyste visé, verdict du Risk Manager. Chaque message dit à qui il répond (`repond_a`)
+   et contient des chiffres réels du brief. Pas de politesse inutile, pas d'accord de façade : si un agent n'est pas d'accord, il le dit.
+5. Le Trader propose **une seule** action (ou rien).
+6. Le Risk Manager valide ou refuse. Son refus est définitif pour cette réunion.
+7. Rédiger le **compte rendu** (champ `compte_rendu`), en mots simples pour une débutante.
 6. `python engine/decide.py check decision.json`. Si les garde-fous refusent, le Risk Manager l'acte et on dépose quand même (traçabilité).
-7. `python3 engine/decide.py submit decision.json` (SANS `--now` : c'est le moteur GitHub qui exécute), puis commit et push du seul dossier `docs/data/inbox/`.
+9. `python3 engine/decide.py submit decision.json` (SANS `--now` : c'est le moteur GitHub qui exécute), puis commit et push du seul dossier `docs/data/inbox/`.
 
 ## Les rôles
 
@@ -67,9 +72,26 @@ durée max 24 h (72 h max) · ordre expiré si le prix a bougé de plus de 0,5 A
     "trader":             {"proposition": "...", "pour": ["..."], "contre": ["..."]},
     "risk_manager":       {"verdict": "valide", "motif": "..."}
   },
+  "discussion": [
+    {"agent": "analyste_technique", "message": "BTC rebondit sur l'EMA20 15 min puis repart à la baisse, RSI 47 → 46. Signal TPB-1 short."},
+    {"agent": "analyste_sentiment", "repond_a": "analyste_technique", "message": "D'accord sur la tendance, mais Fear & Greed est à 20 : en peur extrême, les rebonds sont violents."},
+    {"agent": "analyste_macro", "message": "Rien de majeur avant Daly (Fed) à 18:00. Le CPI de mardi était plus chaud que prévu."},
+    {"agent": "trader", "message": "Je propose un short BTC, stop 63 519, objectif 59 550, RR net 1,63."},
+    {"agent": "risk_manager", "repond_a": "trader", "message": "RR 1,63, c'est juste au-dessus du seuil. Que fais-tu si Daly surprend à 18:00 ?"},
+    {"agent": "trader", "repond_a": "risk_manager", "message": "Le stop est au-dessus du dernier sommet : la perte reste limitée à 4 €, même en cas de surprise."},
+    {"agent": "analyste_sentiment", "repond_a": "trader", "message": "Je maintiens ma réserve, mais je ne bloque pas."},
+    {"agent": "risk_manager", "message": "Validé. Taille plafonnée à 150 €, perte max 4 €."}
+  ],
+  "compte_rendu": {
+    "points": ["Ce que le comité a regardé, en 2 à 4 points simples"],
+    "desaccords": ["Les désaccords, et qui les a portés"],
+    "decision": "La décision en une phrase",
+    "a_surveiller": ["Ce qui ferait changer d'avis à la prochaine réunion"]
+  },
   "synthese": "Une phrase simple, compréhensible par une débutante."
 }
 ```
+(L'exemple de discussion ci-dessus montre le format : le contenu doit toujours venir des données réelles du brief.)
 
 - Fermer une position : `"action": "close", "position_id": "P0003"`.
 - Resserrer un stop : `"action": "tighten_stop", "position_id": "P0003", "stop": 119.8`.

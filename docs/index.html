@@ -62,7 +62,7 @@ a{color:var(--blue)}
   main{max-width:none;padding:22px 28px}
 }
 
-main{max-width:1280px;margin:0 auto;padding:16px}
+main{max-width:1280px;margin:0 auto;padding:16px 16px 140px}
 section[hidden]{display:none}
 h2{font-size:18px;font-weight:600;margin:4px 0 12px}
 h3{font-size:15px;font-weight:600;margin-bottom:8px}
@@ -177,6 +177,45 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 .feedbox{max-height:420px;overflow:auto}
 .banner{font-size:13px;padding:10px 12px;border-radius:var(--r-s);background:rgba(242,184,75,.1);color:var(--amber);border:1px solid rgba(242,184,75,.25)}
 .banner.bad{background:rgba(240,97,109,.1);color:var(--down);border-color:rgba(240,97,109,.3)}
+/* badge gain/perte */
+#pnlBadge{position:fixed;right:16px;bottom:calc(78px + var(--safe-b));z-index:40;min-width:230px;padding:14px 18px;border-radius:14px;text-align:left;color:#fff;box-shadow:0 8px 28px rgba(0,0,0,.45);border:0}
+#pnlBadge.win{background:#16794F} #pnlBadge.loss{background:#B3313C} #pnlBadge.flat{background:#3A4A68}
+#pnlBadge .l1{font-size:15px;font-weight:600}
+#pnlBadge .l2{font-size:30px;font-weight:700;line-height:1.1;margin-top:2px}
+#pnlBadge .l3{font-size:13px;opacity:.9;margin-top:4px}
+@media(min-width:1024px){#pnlBadge{right:24px;bottom:24px;min-width:280px}#pnlBadge .l2{font-size:36px}}
+#pnlPanel{position:fixed;right:16px;bottom:calc(200px + var(--safe-b));z-index:41;width:min(420px,calc(100vw - 32px));max-height:calc(100vh - 260px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 12px 40px rgba(0,0,0,.55)}
+@media(min-width:1024px){#pnlPanel{right:24px;bottom:150px}}
+/* guide de position debutant */
+.guide{border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--panel2)}
+.guide+.guide{margin-top:12px}
+.guide .head{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.guide .state{font-size:22px;font-weight:700}
+.guide .say2{font-size:14px;margin-top:10px;line-height:1.55}
+.gauge{position:relative;height:12px;border-radius:6px;margin:40px 4px 34px;background:linear-gradient(90deg,#F0616D 0%,#3A4A68 50%,#2BC48A 100%)}
+.gauge .mk{position:absolute;top:-6px;width:3px;height:24px;border-radius:2px;transform:translateX(-50%)}
+.gauge .mk span{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:11px;line-height:1.2;text-align:center}
+.gauge .mk.top span{bottom:28px} .gauge .mk.bot span{top:28px}
+.gauge .dot2{position:absolute;top:-5px;width:22px;height:22px;margin-left:-11px;border-radius:50%;background:#fff;border:4px solid var(--ink);box-shadow:0 0 0 2px #fff}
+.gauge .dot2 span{position:absolute;top:26px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:11px;font-weight:700;color:#fff}
+.gauge .mk.l span{left:0;transform:none;text-align:left} .gauge .mk.r span{left:auto;right:0;transform:none;text-align:right}
+.steps{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px;font-size:13px}
+.steps div{background:var(--ink);border-radius:8px;padding:8px 10px}
+.steps b{display:block;font-size:14px}
+/* discussion du comite */
+.chat{display:flex;flex-direction:column;gap:12px;margin:14px 0}
+.msg{display:grid;grid-template-columns:38px 1fr;gap:10px;align-items:start}
+.msg .av{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:13px}
+.msg .bub{background:var(--panel2);border:1px solid var(--line);border-radius:4px 14px 14px 14px;padding:9px 13px;max-width:720px}
+.msg .who2{font-size:12px;font-weight:600;margin-bottom:3px}
+.msg .who2 .re{font-weight:400;color:var(--muted)}
+.msg .txt{font-size:14px;line-height:1.5}
+.msg.rm .bub{border-color:rgba(242,184,75,.45)}
+.cr{border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--ink);margin-top:6px}
+.cr h4{font-size:13px;color:var(--muted);font-weight:600;margin:10px 0 4px}
+.cr h4:first-child{margin-top:0}
+.cr ul{margin:0;padding-left:18px;font-size:14px;line-height:1.55}
+.tabs2{display:flex;gap:6px;margin:12px 0 4px}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 .flash-up{animation:fu .8s} .flash-down{animation:fd .8s}
 @keyframes fu{from{background:rgba(43,196,138,.25)}} @keyframes fd{from{background:rgba(240,97,109,.25)}}
@@ -261,6 +300,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 <section id="positions" hidden class="stack">
   <div class="panel">
     <h2>Positions ouvertes</h2>
+    <div id="posGuide" style="margin-bottom:14px"></div>
     <div id="posTable" class="only-m"></div>
     <div class="scroll only-d"><table class="list num" id="posTableD"></table></div>
     <p class="hint">Stop : prix auquel la position est coupée pour limiter la perte. Objectif : prix auquel le gain est encaissé. Un short gagne quand le prix baisse.</p>
@@ -275,11 +315,12 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 <section id="agents" hidden class="stack">
   <div class="panel">
     <h2>Dernière réunion du comité</h2>
+    <p class="hint" style="margin-top:-6px;margin-bottom:8px">Le comité se réunit toutes les heures. Chaque agent a son rôle : il donne son avis, conteste les autres, puis le Risk Manager tranche.</p>
     <div id="lastMeeting"></div>
   </div>
   <div class="grid g2e">
     <div class="panel"><h3>Journal d'activité</h3><div class="rows feed feedbox" style="max-height:640px" id="feed"></div></div>
-    <div class="panel"><h3>Toutes les décisions</h3><div id="decList"></div></div>
+    <div class="panel"><h3>Toutes les réunions</h3><div id="decList"></div></div>
   </div>
   <div class="panel">
     <h3>Signaux du scanner</h3>
@@ -303,6 +344,8 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 </section>
 </main>
 
+<button id="pnlBadge" class="flat" aria-expanded="false" aria-controls="pnlPanel"><div class="l1">Chargement…</div><div class="l2 num">—</div><div class="l3">Touche pour voir le détail</div></button>
+<div id="pnlPanel" hidden><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><h3 style="margin:0">Où on en est</h3><button id="pnlClose" style="font-size:14px;color:var(--muted)">Fermer</button></div><div id="pnlBody"></div></div>
 <script>
 "use strict";
 const K = "https://api.kraken.com/0/public/";
@@ -356,8 +399,8 @@ function equityLive(){
 }
 
 /* ---------- rendu ---------- */
-function renderAll(){ renderEngineStatus(); renderHome(); renderWatchlist(); renderPositions(); renderAgents(); renderStats(); }
-function renderLive(){ renderTop(); renderHomeNumbers(); renderHomePositions(); renderWatchlist(); renderPositions(true); renderChartHead(); }
+function renderAll(){ renderEngineStatus(); renderHome(); renderBadge(); renderWatchlist(); renderPositions(); renderAgents(); renderStats(); }
+function renderLive(){ renderTop(); renderHomeNumbers(); renderHomePositions(); renderBadge(); renderWatchlist(); renderPositions(true); renderChartHead(); }
 
 function renderEngineStatus(){
   const t=S.status.t; const el=$("engineStatus"); if(!t){ el.innerHTML='<span class="dot"></span><span>Moteur pas encore lancé</span>'; return; }
@@ -400,6 +443,47 @@ function feedRows(n){
 }
 function renderHomeFeed(){ $("homeFeed").innerHTML=feedRows(12); }
 function goChart(sym){ S.sel=sym; location.hash="marche"; }
+const pctS=v=>(v>0?"+":"")+v.toLocaleString("fr-FR",{maximumFractionDigits:2})+" %";
+function guide(p){
+  const pr=livePrice(p.sym)??p.dernier_prix??p.entry; const u=posValue(p,pr)-p.notionnel; const up=u/p.notionnel*100;
+  const short=p.side==="short"; const nom=asset(p.sym).nom||p.sym;
+  const st=u>0.005?"win":u<-0.005?"loss":"flat";
+  const lab=st==="win"?"On gagne":st==="loss"?"On perd":"À l'équilibre";
+  const span=p.tp-p.stop; const f=v=>Math.max(0,Math.min(100,(v-p.stop)/span*100));
+  const dTp=(p.tp/pr-1)*100, dSl=(p.stop/pr-1)*100;
+  const fin=new Date(new Date(p.ouvert_le).getTime()+(p.duree_max_h||24)*3600e3);
+  const gainTp=Math.abs(p.tp-p.entry)*p.qty, lossSl=p.risque_eur||Math.abs(p.stop-p.entry)*p.qty;
+  return `<div class="guide"><div class="head"><div><div class="t" style="font-size:16px">${esc(nom)} (${esc(p.sym)})<span class="pill ${p.side}">${short?"pari à la baisse":"pari à la hausse"}</span></div><div class="s muted" style="font-size:13px">${eur(p.notionnel)} engagés</div></div>
+   <div style="text-align:right"><div class="state ${st==="win"?"up":st==="loss"?"down":"muted"} num">${lab}</div><div class="num ${cls(u)}" style="font-weight:600">${sgn(u)} · ${pctS(up)}</div></div></div>
+   <div class="gauge" aria-hidden="true">
+     <div class="mk top l" style="left:0;background:#F0616D"><span style="color:#F0616D">Stop-loss<br>${px(p.stop)}</span></div>
+     <div class="mk" style="left:${f(p.entry)}%;background:#E6EAF2;width:4px"></div>
+     <div class="mk top r" style="left:100%;background:#2BC48A"><span style="color:#2BC48A">Objectif<br>${px(p.tp)}</span></div>
+     <div class="dot2" style="left:${f(pr)}%"><span>Maintenant</span></div>
+   </div>
+   <div class="steps num">
+     <div><span class="muted">On est entré</span><b>${hm(p.ouvert_le)}</b>à ${px(p.entry)} €</div>
+     <div><span class="muted">Prix maintenant</span><b class="${cls(u)}">${px(pr)} €</b>${pctS((pr/p.entry-1)*100)} depuis l'entrée</div>
+     <div><span class="muted">Sortie gagnante si</span><b class="up">${px(p.tp)} €</b>encore ${pctS(dTp)} · gain ≈ ${eur(gainTp)}</div>
+     <div><span class="muted">Sortie perdante si</span><b class="down">${px(p.stop)} €</b>encore ${pctS(dSl)} · perte ≈ ${eur(lossSl)}</div>
+   </div>
+   <p class="say2">${short?`On a parié que ${esc(p.sym)} allait <b>baisser</b>. Quand le prix descend, on gagne. Quand il monte, on perd.`:`On a parié que ${esc(p.sym)} allait <b>monter</b>. Quand le prix monte, on gagne. Quand il descend, on perd.`}
+   Le rond blanc montre où on est maintenant, le petit trait blanc montre où on est entré. Plus le rond va vers la droite (vert), plus on se rapproche de l'objectif. Vers la gauche (rouge), on se rapproche du stop-loss.
+   Si rien n'est touché, la position est fermée au plus tard le <b>${hm(fin.toISOString())}</b>.</p></div>`;
+}
+function renderBadge(){
+  const e=equityLive(); if(!e) return; const init=S.state.capital_initial; const d=e.eq-init, dp=d/init*100;
+  const ps=S.state.positions; const b=$("pnlBadge");
+  const st=d>0.005?"win":d<-0.005?"loss":"flat"; b.className=st;
+  b.querySelector(".l1").textContent=st==="win"?"On gagne de l'argent":st==="loss"?"On perd de l'argent":"Ni gain ni perte";
+  b.querySelector(".l2").textContent=`${pctS(dp)}  ${sgn(d)}`;
+  b.querySelector(".l3").textContent=ps.length?`${ps.length} position${ps.length>1?"s":""} en cours · touche pour le détail`:"Aucune position en cours · touche pour le détail";
+  const pend=ps.map(guide).join("");
+  $("pnlBody").innerHTML=`<p class="muted" style="font-size:13px;margin-bottom:10px">Depuis le départ (${eur(init,0)} fictifs), frais compris : <b class="${cls(d)}">${sgn(d)} (${pctS(dp)})</b>. Valeur actuelle : <b>${eur(e.eq)}</b>.</p>`+(pend||`<div class="empty">Aucune position ouverte. Le comité attend une bonne occasion.</div>`);
+  if(ps.length){ $("homePos").innerHTML=pend; $("posGuide").innerHTML=pend; } else { $("posGuide").innerHTML=""; }
+}
+$("pnlBadge").addEventListener("click",()=>{const p=$("pnlPanel"); p.hidden=!p.hidden; $("pnlBadge").setAttribute("aria-expanded",!p.hidden);});
+$("pnlClose").addEventListener("click",()=>{$("pnlPanel").hidden=true; $("pnlBadge").setAttribute("aria-expanded","false");});
 function renderAlerts(){
   const a=[]; const st=S.state;
   if(!st) a.push(`<div class="banner">Le moteur n'a pas encore tourné. Les données apparaîtront après son premier passage.</div>`);
@@ -420,6 +504,25 @@ function renderEquityChart(){
 }
 
 /* ---------- comite ---------- */
+const AG={analyste_technique:["Analyste technique","AT","#5B9DFF"],analyste_macro:["Analyste macro & news","MA","#F2B84B"],analyste_sentiment:["Analyste sentiment","SE","#B48CF2"],trader:["Trader","TR","#2BC48A"],risk_manager:["Risk Manager","RM","#F0616D"],superviseur:["Superviseur","SU","#8A97AD"]};
+function chatView(d){
+  let msgs=d.discussion;
+  let note="";
+  if(!msgs||!msgs.length){
+    const ag=d.agents||{};
+    msgs=SEATS.map(([k])=>{const a=ag[k]; if(!a) return null; const t=[a.resume,a.proposition,a.motif].filter(Boolean).join(" "); const pc=[a.pour?.length?"Pour : "+a.pour.join(" ; "):"",a.contre?.length?"Contre : "+a.contre.join(" ; "):""].filter(Boolean).join(" "); return {agent:k,message:(t+" "+pc).trim()};}).filter(Boolean);
+    note=`<p class="hint">Cette réunion date d'avant le format discussion : voici le tour de table, chaque agent dans l'ordre.</p>`;
+  }
+  const bubble=m=>{const a=AG[m.agent]||[m.agent,"?","#8A97AD"]; const re=m.repond_a&&AG[m.repond_a]?` <span class="re">répond à ${AG[m.repond_a][0]}</span>`:"";
+    return `<div class="msg ${m.agent==="risk_manager"?"rm":""}"><div class="av" style="background:${a[2]}22;color:${a[2]}">${a[1]}</div><div class="bub"><div class="who2" style="color:${a[2]}">${esc(a[0])}${re}</div><div class="txt">${esc(m.message)}</div></div></div>`;};
+  return note+`<div class="chat">${msgs.map(bubble).join("")}</div>`;
+}
+function crView(d){
+  const c=d.compte_rendu; const res=d.resultat||{};
+  const li=a=>(a&&a.length)?`<ul>${a.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:`<p class="muted" style="font-size:14px">—</p>`;
+  if(!c) return `<div class="cr"><h4>Décision</h4><p style="font-size:14px">${esc(d.synthese||"")}</p><h4>Résultat</h4><p style="font-size:14px">${esc(statusLabel(res.statut||"en attente"))}</p></div>`;
+  return `<div class="cr"><h4>Ce que le comité a regardé</h4>${li(c.points)}<h4>Désaccords</h4>${li(c.desaccords)}<h4>Décision</h4><p style="font-size:14px">${esc(c.decision)}</p><h4>Résultat dans le portefeuille</h4><p style="font-size:14px">${esc(statusLabel(res.statut||"en attente d'exécution"))}${res.motifs?" : "+res.motifs.map(esc).join(" · "):""}</p><h4>À surveiller à la prochaine réunion</h4>${li(c.a_surveiller)}</div>`;
+}
 const SEATS=[["analyste_technique","Technique","AT"],["analyste_macro","Macro & news","MA"],["analyste_sentiment","Sentiment","SE"],["trader","Trader","TR"],["risk_manager","Risk Manager","RM"]];
 function tone(a){ const v=(a?.verdict||a?.avis||"").toLowerCase(); if(/refus|defavorable|défavorable|contre|baissier|\bnon\b/.test(v)) return "neg"; if(/valide|favorable|haussier|achat|\bok\b/.test(v)) return "fav"; return "neu"; }
 function committeeView(d, compact){
@@ -430,7 +533,7 @@ function committeeView(d, compact){
   const act=d.action==="open"?`${esc(d.sym)} <span class="pill ${d.side}">${esc(d.side)}</span>`:d.action==="none"?"Ne rien faire":esc(d.action);
   let h=`<div class="muted" style="font-size:13px">Réunion du ${hm(d.cree_le)} · ${ago(d.cree_le)}</div><div class="table-ring">${seats}</div>
   <div class="verdict ${vc}"><b>${act}</b> — ${esc(statusLabel(st))}<div style="margin-top:4px">${esc(d.synthese||"")}</div>${res.motifs?`<div class="muted" style="margin-top:4px">${res.motifs.map(esc).join("<br>")}</div>`:""}</div>`;
-  if(!compact) h+=`<div class="say">${SEATS.map(([k,n])=>agentSays(n,ag[k])).join("")}</div>`;
+  if(!compact) h+=`<h3 style="margin-top:18px">La discussion</h3>${chatView(d)}<h3 style="margin-top:6px">Compte rendu</h3>${crView(d)}<details style="margin-top:10px;border:0"><summary class="muted" style="font-size:13px;display:block">Voir l'avis détaillé et les sources de chaque agent</summary><div class="say">${SEATS.map(([k,n])=>agentSays(n,ag[k])).join("")}</div></details>`;
   return h;
 }
 function statusLabel(s){ return ({"execute":"exécuté dans le portefeuille fictif","aucune action":"décision journalisée, aucune transaction","refuse par le Risk Manager IA":"refusé par le Risk Manager","bloque par les garde-fous du code":"bloqué par les garde-fous du code"})[s]||s; }
@@ -582,7 +685,7 @@ function show(tab){
   $("pageTitle").textContent=TITLES[tab];
   if(tab==="marche"){ S.fit=true; renderWatchlist(); loadChart(); loadBook(); renderInd(); requestAnimationFrame(()=>document.querySelector('#watchlist [aria-pressed="true"]')?.scrollIntoView({block:"nearest",inline:"nearest"})); }
   if(tab==="accueil"&&S.charts.eq) requestAnimationFrame(()=>S.charts.eq.applyOptions({width:$("eqChart").clientWidth}));
-  window.scrollTo(0,0);
+  requestAnimationFrame(()=>window.scrollTo(0,0));
 }
 document.querySelector(".tabs").addEventListener("click",e=>{const b=e.target.closest("button"); if(b){ if(location.hash!=="#"+b.dataset.tab) location.hash=b.dataset.tab; else show(b.dataset.tab);} });
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)||"accueil"));

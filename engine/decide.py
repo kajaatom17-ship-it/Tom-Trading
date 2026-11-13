@@ -36,6 +36,13 @@ def main():
         problems.append("avis manquants : " + ", ".join(missing))
     if not d.get("synthese"):
         problems.append("synthese manquante")
+    disc = d.get("discussion") or []
+    if len(disc) < 8:
+        problems.append("discussion trop courte : au moins 8 messages où les agents se répondent")
+    elif not any(m.get("repond_a") for m in disc):
+        problems.append("discussion sans échange : au moins un agent doit répondre à un autre (repond_a)")
+    if not isinstance(d.get("compte_rendu"), dict) or not d["compte_rendu"].get("decision"):
+        problems.append("compte_rendu manquant (points, desaccords, decision, a_surveiller)")
     if action == "open":
         for k in ("sym", "side", "stop", "tp", "entry_ref", "strategie"):
             if k not in d:
