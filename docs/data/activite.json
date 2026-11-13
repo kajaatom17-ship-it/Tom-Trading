@@ -401,5 +401,62 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 6 signal(aux) : MSTR short (TPB-1, 60), SOL short (BRK-1, 43), SUI short (BRK-1, 34)"
+ },
+ {
+  "t": "2026-11-13T22:19:53Z",
+  "agent": "Execution",
+  "type": "objectif",
+  "msg": "PEPE : objectif rapproché de 3.702948e-06 à 3.8e-06"
+ },
+ {
+  "t": "2026-11-13T22:19:54Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "XRP short ouvert à 0.9110442 | 150.45 € engagés | stop 0.926 | objectif 0.868 | risque 3.68 EUR",
+  "data": {
+   "id": "P0004"
+  }
+ },
+ {
+  "t": "2026-11-13T22:19:54Z",
+  "agent": "Execution",
+  "type": "déclenchement",
+  "msg": "Ordre O0003 déclenché : XRP short ouvert à 0.9110442 (P0004)"
+ },
+ {
+  "t": "2026-11-13T22:19:58Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, banque centrale] Spot gold posts worst week since March amid jump in Fed rate hike expectations (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/commodities-news/gold-languishes-near-13month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-5023860",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-13T22:19:58Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Stock Market Today, Nov. 13: Cerebras Surges Over 11% on Record Q3 Revenue and Raised 2026 Guidance - The Motley Fool (The Motley Fool)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZERlWHVYQlp4clZXZk9zdTFLc182VXRJMW52X2lrcmRYYlRySlRPN1JTRjF3UjItNWZSam1IeFYtckN0SmxVTm9aaUNyREtyTEphN2pEb2dtcmRsM3d5cU9QUjBkQ2U2ZFpHMjBsZjllVG0xU2VCaXJlXzFtNzA3UmllZG1sc0thTHpRMUVQWEU4V2RhZTF4WU9KQVVDWlpXazlCWkhzdlBfdTdOS1M2eDQtTW5nMGxNUVRMaGJ3M0dpQUJRUHhFcGlTZTNBTVBLSVBBWFZ5cmc4dlRBSXFjOElFVFV1elNhVzhDTQ?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-13T22:19:58Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue - The Motley Fool (The Motley Fool)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOandubzZRcno4a3NUSXd1UDczbzJtVmRqdEJYalRqb3NhaDY1XzdZeF9OS0hXSDVfU3puaG82SUd5aDZpOVc0eGx4amV1Z29QMzZpbW4wZUNkWEF5VzdzYXFzSTNBUE5VdW95RUdwMjZwOXlEWTJIT3JTNlZhVlpuY0JaSEM4SGtyTHdCTnI3bXhRakc2bnpZQm9LZnNWRHh3VFhvWXBTVFRCdVNfdTFJVGl1UEs3N2lDdHV0WVl2cjhlUVpqYm45MTFqNkNNdGRHdC1kaERUT3V5MjViQk1obWdGLWVmX2lmMERIUk9R?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-13T22:21:00Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 9 signal(aux) : LTC short (TPB-1, 60), SUI short (BRK-1, 45), WIF short (BRK-1, 37)"
  }
 ]
