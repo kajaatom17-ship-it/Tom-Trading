@@ -1292,5 +1292,109 @@
    "nouvel_objectif": 3.8e-06
   },
   "traite_le": "2026-11-13T22:19:53Z"
+ },
+ {
+  "action": "none",
+  "confiance": "faible",
+  "agents": {
+   "analyste_technique": {
+    "avis": "favorable",
+    "resume": "LTC 15 min : rebond sur EMA20 (44,90) puis rechute, RSI 40,8 (47,4 avant), MACD -0,073, tendance 1 h baissière, BTC baissier (RSI 34,7). Volume 0,56x la normale.",
+    "donnees": "brief 2026-11-13 22:25 UTC"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Contexte baissier : Daly (Fed) évoque une hausse de taux (Reuters 18:48 UTC), PPI à +6,5 % annuel (CFO Dive 21:18 UTC), or à son pire cours hebdo depuis mars. Aucune annonce sourcée confirmée pour le week-end.",
+    "sources": [
+     "Fed likely to need to raise rates amid worsening inflation: Daly - Reuters - 2026-11-13 18:48 UTC",
+     "Producer prices surge at 6.5% annual pace - CFO Dive - 2026-11-13 21:18 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 20 (peur extrême), dominance BTC 58,9 %, capitalisation totale -6,07 % sur 24 h : en peur extrême, les rebonds sont violents."
+   },
+   "trader": {
+    "proposition": "Short LTC TPB-1, entrée 44,56, stop 45,18, objectif 42,69, RR net 1,52.",
+    "pour": [
+     "tendance 1 h baissière",
+     "BTC baissier"
+    ],
+    "contre": [
+     "RR net à peine au-dessus du seuil",
+     "volume faible",
+     "déjà deux alts short (PEPE, XRP)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Refus : le code confirme RR net 1,45 < 1,5 et déjà 2 altcoins short (PEPE, XRP). Aucun nouveau trade."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "LTC 44,56 sous l'EMA20 15 min (44,90), RSI 40,8 contre 47,4, MACD -0,073 : signal TPB-1 short, mais volume seulement 0,56x."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Fed : Daly parle de hausse de taux (Reuters 18:48 UTC), PPI +6,5 % (21:18 UTC). Fond baissier, mais rien de daté pour le week-end que je puisse sourcer."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed 20, capitalisation -6,07 % en 24 h. En peur extrême un rebond violent peut balayer un stop à 1,4 %."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "PEPE +2,09 € latent, volume 0,37x, RSI 36,4 : pas d'épuisement net, pas de nouvelle entrée memecoin propre (SHIB RR 1,12, WIF RR 0,91). Je garde PEPE."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je propose short LTC, entrée 44,56, stop 45,18, objectif 42,69, RR net 1,52."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "RR net réel 1,45 après frais, sous le seuil de 1,5. Et ce serait un troisième short altcoin avec PEPE et XRP, tous corrélés à BTC."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je soutiens le refus : trois shorts alts, c'est un seul pari sur la baisse de BTC."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Accepté. XRP est ouvert depuis 8 minutes, le trade se ferait sur un volume faible. Je dépose quand même pour traçabilité."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Refus définitif pour cette réunion."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "PEPE short : +2,09 € latent, stop 4,184e-06 et objectif 3,8e-06 inchangés, on garde.",
+    "XRP short ouvert à 22:17 UTC : -0,85 € latent, on le laisse travailler.",
+    "Seul candidat : LTC short, refusé par le code (RR net 1,45 et 2 altcoins déjà short)."
+   ],
+   "desaccords": [
+    "Le Trader voulait tenter LTC, le Risk Manager et l'analyste sentiment ont refusé (corrélation, RR juste)."
+   ],
+   "decision": "On garde PEPE et XRP, et on ne prend pas LTC.",
+   "a_surveiller": [
+    "BTC qui reprend son EMA20 15 min (62 285)",
+    "Volume de LTC supérieur à la normale",
+    "Le calendrier du week-end n'est pas confirmé par une source"
+   ]
+  },
+  "synthese": "On garde les deux paris à la baisse et on refuse un troisième, trop semblable aux deux autres et trop juste en rapport gain/risque.",
+  "id": "D-20261113-222621",
+  "cree_le": "2026-11-13T22:26:21Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-13T22:26:46Z"
  }
 ]
