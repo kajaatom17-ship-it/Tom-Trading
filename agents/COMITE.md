@@ -59,10 +59,14 @@ Le comité ne se réunit pas en continu. Pour ne pas rater le bon moment, il pla
 - Annuler : `"action": "cancel", "ordre_id": "O0007"`.
 Exemple : PEPE rebondit sous une résistance. Plutôt que d'entrer tout de suite, on place un short « stop » sous le dernier creux : on n'entre que si la baisse reprend vraiment.
 
-## Réunion d'urgence
+## Le trader de garde (entre les réunions)
 
-Une veille d'urgence tourne aussi aux minutes 10, 25 et 40 de chaque heure. Elle lit `urgences` dans le brief : mouvement brusque contre une position, actualité majeure, signal très fort (score ≥ 70 et RR ≥ 2).
-S'il n'y a aucune urgence, elle s'arrête sans rien déposer. S'il y en a une, elle mène une réunion complète, selon ce protocole.
+Le moteur joue le rôle de trader de garde, toutes les 5 minutes, avec des règles fixes et sans IA :
+- **Protection** : à +1R, il remonte le stop au prix d'entrée (plus de perte possible). À +2R, il verrouille +1R de profit. Le stop ne recule jamais.
+- **Entrée seule** : sur un signal exceptionnel du scanner (score ≥ 75, RR net ≥ 2,5, aucune alerte), risque réduit à 0,5 %, une fois par jour maximum.
+- Il exécute aussi les ordres en attente posés par le comité.
+
+À chaque réunion, le comité commence par lire `actions_trader_de_garde` dans le brief et donne son avis : l'action était-elle bonne ? On garde ou on corrige ? Ça fait partie du compte rendu.
 
 ## OPP-1 — l'opportunité à ne pas rater (pari de conviction)
 

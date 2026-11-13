@@ -185,5 +185,13 @@ check("ordre déclenché quand le prix passe sous 98", len(st["positions"]) == 1
       and not st.get("ordres_attente"), str(st.get("ordres_attente")))
 check("urgences calculées", "urgences" in core.load("status.json", {}))
 
+# 11. trader de garde : stop au prix d'entrée à +1R
+st = core.load("state.json", None); p = st["positions"][0]  # short SOL entré vers 97,9, stop 101
+risk = p["stop_initial"] - p["entry"]
+PRICES["SOL"] = p["entry"] - 1.2 * risk
+run()
+st = core.load("state.json", None); p2 = st["positions"][0]
+check("trader de garde : stop au prix d'entrée à +1R", p2["stop"] < p["entry"] and p2["stop"] > p["entry"] * 0.99, f"stop {p2['stop']} entrée {p['entry']}")
+
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

@@ -320,7 +320,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 <section id="agents" hidden class="stack">
   <div class="panel">
     <h2>Dernière réunion du comité</h2>
-    <p class="hint" style="margin-top:-6px;margin-bottom:8px">Le comité se réunit toutes les heures. Chaque agent a son rôle : il donne son avis, conteste les autres, puis le Risk Manager tranche.</p>
+    <p class="hint" style="margin-top:-6px;margin-bottom:8px">Entre les réunions, le trader de garde (le moteur) surveille tout toutes les 5 minutes : il protège les gains et peut entrer seul sur un signal exceptionnel, avec un risque réduit. Le comité se réunit toutes les heures et contrôle ce qu'il a fait. Chaque agent a son rôle : il donne son avis, conteste les autres, puis le Risk Manager tranche.</p>
     <div id="lastMeeting"></div>
   </div>
   <div class="grid g2e">
@@ -455,7 +455,7 @@ function renderHome(){
   $("homeCommittee").innerHTML=committeeView(S.decisions[S.decisions.length-1], true);
 }
 function feedRows(n){
-  const who=a=>a==="Execution"?"ex":a==="Garde-fou"?"gf":a==="Scanner"?"sc":"";
+  const who=a=>a==="Execution"?"ex":a==="Garde-fou"?"gf":a==="Scanner"||a==="Veille"?"sc":"";
   const ev=[...S.act].reverse().slice(0,n);
   return ev.length?ev.map(e=>`<div class="row"><div class="who ${who(e.agent)}">${esc(({Execution:"Exécution",Comite:"Comité"})[e.agent]||e.agent)}<div class="faint" style="font-weight:400">${hm(e.t)}</div></div><div style="font-size:14px">${esc(e.msg)}</div></div>`).join(""):`<div class="empty">Aucune activité enregistrée.</div>`;
 }
@@ -536,7 +536,7 @@ function renderEquityChart(){
 }
 
 /* ---------- comite ---------- */
-const AG={analyste_technique:["Analyste technique","AT","#5B9DFF"],analyste_macro:["Analyste macro & news","MA","#F2B84B"],analyste_sentiment:["Analyste sentiment","SE","#B48CF2"],trader:["Trader","TR","#2BC48A"],risk_manager:["Risk Manager","RM","#F0616D"],superviseur:["Superviseur","SU","#8A97AD"]};
+const AG={analyste_technique:["Analyste technique","AT","#5B9DFF"],analyste_macro:["Analyste macro & news","MA","#F2B84B"],analyste_sentiment:["Analyste sentiment","SE","#B48CF2"],trader:["Trader","TR","#2BC48A"],risk_manager:["Risk Manager","RM","#F0616D"],superviseur:["Superviseur","SU","#8A97AD"],trader_de_garde:["Trader de garde","TG","#F2B84B"]};
 function chatView(d){
   let msgs=d.discussion;
   let note="";

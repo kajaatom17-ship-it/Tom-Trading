@@ -398,5 +398,20 @@
     "rr_net_min": 2.0,
     "max_par_jour": 1,
     "note": "Pari de conviction hors TPB-1/BRK-1 : catalyseur daté et sourcé de moins de 24 h, risque réduit, validé par le Risk Manager."
+  },
+  "trader_de_garde": {
+    "actif": true,
+    "entree_auto": {
+      "score_min": 75,
+      "rr_net_min": 2.5,
+      "risque_par_trade_pct": 0.5,
+      "max_par_jour": 1
+    },
+    "protection": {
+      "seuil_breakeven_R": 1.0,
+      "seuil_verrouillage_R": 2.0,
+      "verrouille_R": 1.0
+    },
+    "note": "Agit seul toutes les 5 min, règles fixes, sans IA. Le comité contrôle ses actions à chaque réunion."
   }
 }

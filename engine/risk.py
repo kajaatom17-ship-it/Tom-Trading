@@ -32,6 +32,8 @@ def check_open(cfg, state, prop, tick, prices):
     O = cfg.get("opportunite", {})
     rr_min = O.get("rr_net_min", 2.0) if opp else R["rr_net_min"]
     risk_pct = O.get("risque_par_trade_pct", 0.5) if opp else R["risque_par_trade_pct"]
+    if prop.get("risque_pct_override"):
+        risk_pct = min(risk_pct, float(prop["risque_pct_override"]))
     if opp:
         cat = prop.get("catalyseur") or {}
         if not (cat.get("evenement") and cat.get("source") and cat.get("date")):

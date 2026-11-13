@@ -282,6 +282,74 @@ def urgences(cfg, state, sig, veille_data):
     return out[:8]
 
 
+# ---------------------------------------------------------- trader de garde
+def guard_protect(cfg, state, tk):
+    """Gestion pro des positions : stop au prix d'entrée à +1R, profit verrouillé à +2R. Le stop ne recule jamais."""
+    G = cfg.get("trader_de_garde", {})
+    if not G.get("actif"):
+        return
+    P = G.get("protection", {})
+    fee = cfg["frais"]["taker_pct"] / 100
+    for p in state["positions"]:
+        t = tk.get(p["sym"])
+        if not t:
+            continue
+        risk_px = abs(p["entry"] - p["stop_initial"])
+        if risk_px <= 0:
+            continue
+        px = t["last"]
+        gain_R = ((px - p["entry"]) if p["side"] == "long" else (p["entry"] - px)) / risk_px
+        new = None; why = ""
+        if gain_R >= P.get("seuil_verrouillage_R", 2.0):
+            lock = P.get("verrouille_R", 1.0) * risk_px
+            new = p["entry"] + lock if p["side"] == "long" else p["entry"] - lock
+            why = f"+{gain_R:.1f}R atteint : profit de {P.get('verrouille_R', 1.0)}R verrouillé"
+        elif gain_R >= P.get("seuil_breakeven_R", 1.0):
+            be = p["entry"] * (1 + 2 * fee) if p["side"] == "long" else p["entry"] * (1 - 2 * fee)
+            new = be; why = f"+{gain_R:.1f}R atteint : stop remonté au prix d'entrée (plus de perte possible)"
+        if new is None:
+            continue
+        tighter = new > p["stop"] if p["side"] == "long" else new < p["stop"]
+        valid = new < t["bid"] if p["side"] == "long" else new > t["ask"]
+        if tighter and valid:
+            old = p["stop"]; p["stop"] = new
+            log_event("Trader de garde", "protection", f"{p['sym']} : stop {rp(old)} → {rp(new)}. {why}.")
+
+
+def guard_entry(cfg, state, tk, sig):
+    """Entrée seule sur un signal exceptionnel du scanner, risque réduit, une fois par jour maximum."""
+    G = cfg.get("trader_de_garde", {})
+    if not G.get("actif") or state.get("coupe_circuit"):
+        return
+    E = G.get("entree_auto", {})
+    day = paris_day()
+    if state.get("garde_par_jour", {}).get(day, 0) >= E.get("max_par_jour", 1):
+        return
+    held = {p["sym"] for p in state["positions"]}
+    pending = {o["sym"] for o in state.get("ordres_attente", [])}
+    for c in sig.get("candidats", []):
+        if c["score"] < E.get("score_min", 75) or c["rr_net"] < E.get("rr_net_min", 2.5) or c.get("alertes"):
+            continue
+        if c["sym"] in held or c["sym"] in pending:
+            continue
+        prop = {"id": f"G-{now_utc().strftime('%Y%m%d-%H%M%S')}", "action": "open", "sym": c["sym"], "side": c["side"],
+                "strategie": c["strategie"], "entry_ref": c["entry_ref"], "atr": c["atr"], "stop": c["stop"], "tp": c["tp"],
+                "duree_max_h": 24, "risque_pct_override": E.get("risque_par_trade_pct", 0.5),
+                "agents": {"trader_de_garde": {"avis": "favorable", "resume": c["pourquoi"]},
+                           "risk_manager": {"verdict": "valide", "motif": "Règles automatiques du trader de garde (risque 0,5 %)."}},
+                "synthese": f"Le trader de garde a agi seul : signal {c['strategie']} très fort sur {c['sym']} (score {c['score']}, RR net {c['rr_net']}). À contrôler à la prochaine réunion du comité."}
+        ok, reasons, sizing = check_open(cfg, state, prop, tk.get(c["sym"]), {s: x["last"] for s, x in tk.items()})
+        if not ok:
+            continue
+        pid = open_position(cfg, state, prop, sizing)
+        state.setdefault("garde_par_jour", {})[day] = state.get("garde_par_jour", {}).get(day, 0) + 1
+        prop["resultat"] = {"statut": "execute", "position_id": pid, "prix": rp(sizing["fill"]), "risque_eur": r2(sizing["risque_eur"])}
+        prop["cree_le"] = prop["traite_le"] = iso()
+        decisions = load("decisions.json", []); decisions.append(prop); save("decisions.json", decisions[-500:])
+        log_event("Trader de garde", "entrée", f"Entrée seule : {c['sym']} {c['side']} ({c['strategie']}, score {c['score']}, RR net {c['rr_net']}), risque {sizing['risque_eur']:.2f} €.")
+        return
+
+
 # ----------------------------------------------------------------- scanner
 DIAG = []
 
@@ -379,6 +447,7 @@ def main():
     manage_positions(cfg, state, tk)
     process_inbox(cfg, state, tk)
     process_pending(cfg, state, tk)
+    guard_protect(cfg, state, tk)
 
     eq = equity(state, prices)
     state["pic_equity"] = max(state["pic_equity"], eq)
@@ -407,6 +476,11 @@ def main():
     if do_scan:
         sig = scan(cfg)
         save("signals.json", sig)
+        try:
+            guard_entry(cfg, state, tk, sig)
+            save("state.json", state)
+        except Exception as e:
+            log_event("Trader de garde", "erreur", str(e)[:150])
         n = len(sig["candidats"])
         top = ", ".join(f"{c['sym']} {c['side']} ({c['strategie']}, {c['score']})" for c in sig["candidats"][:3])
         prev = load("activite.json", [])
