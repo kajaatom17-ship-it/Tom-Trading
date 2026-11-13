@@ -95,5 +95,23 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 16 signal(aux) : NVDA short (BRK-1, 75), ADA short (TPB-1, 70), ARB short (TPB-1, 70)"
+ },
+ {
+  "t": "2026-11-13T15:51:38Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, hausse] Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally (CoinDesk)",
+  "data": {
+   "lien": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-13T15:52:40Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 16 signal(aux) : ADA short (TPB-1, 70), LINK short (TPB-1, 70), ONDO short (TPB-1, 70)"
  }
 ]
