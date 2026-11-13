@@ -29,8 +29,8 @@ def main():
     d.setdefault("cree_le", iso())
     problems = []
     action = d.get("action")
-    if action not in ("open", "close", "tighten_stop", "none", "pending", "cancel", "agenda"):
-        problems.append("action doit être open, close, tighten_stop, pending, cancel, agenda ou none")
+    if action not in ("open", "close", "tighten_stop", "none", "pending", "cancel", "agenda", "ajouter_actif"):
+        problems.append("action doit être open, close, tighten_stop, pending, cancel, agenda, ajouter_actif ou none")
     if action == "agenda":
         if not d.get("evenements"):
             problems.append("evenements manquants (titre, quand_utc, impact, actifs, source)")
@@ -41,7 +41,11 @@ def main():
         for k in ("sym", "side", "stop", "tp", "declencheur", "type_ordre", "expire_h", "strategie"):
             if k not in d:
                 problems.append(f"champ manquant : {k}")
-    if action != "agenda":
+    if action == "ajouter_actif":
+        for k in ("sym", "raison", "source"):
+            if not d.get(k):
+                problems.append(f"champ manquant : {k}")
+    if action not in ("agenda", "ajouter_actif"):
         missing = [a for a in REQUIRED_AGENTS if a not in d.get("agents", {})]
         if missing:
             problems.append("avis manquants : " + ", ".join(missing))
@@ -63,6 +67,12 @@ def main():
                 problems.append(f"champ manquant : {k}")
         if d.get("strategie") not in ("TPB-1", "BRK-1", "OPP-1"):
             problems.append("strategie doit être TPB-1, BRK-1 ou OPP-1")
+    if action == "ajouter_actif" and not problems:
+        from tick import add_asset
+        prev = add_asset(config(), d, dry=True)
+        print(json.dumps({"verification_kraken": prev}, ensure_ascii=False, indent=1))
+        if prev["statut"] != "ok":
+            problems.extend(prev.get("motifs", []))
     if problems:
         print(json.dumps({"ok": False, "problemes": problems}, ensure_ascii=False, indent=1)); return 1
 

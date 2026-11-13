@@ -62,8 +62,19 @@ def save(name, obj, compact=False):
 
 
 def config():
+    """config.json + actifs ajoutés par le spécialiste memecoins (docs/data/univers_ajouts.json)."""
     with open(os.path.join(ROOT, "config.json"), encoding="utf-8") as f:
-        return json.load(f)
+        cfg = json.load(f)
+    try:
+        extra = load("univers_ajouts.json", [])
+    except Exception:
+        extra = []
+    known = {a["sym"] for a in cfg["univers"]}
+    for a in extra:
+        if a.get("sym") and a["sym"] not in known:
+            cfg["univers"].append({k: a[k] for k in ("sym", "pair", "nom", "cat", "tier") if k in a})
+            known.add(a["sym"])
+    return cfg
 
 
 def r2(x):
@@ -258,6 +269,16 @@ def new_state(cfg):
         "maj": iso(),
         "seq": 0,
     }
+
+
+MEME_CATS = ("Meme", "Emergent")
+
+
+def is_meme(cfg, sym):
+    for a in cfg["univers"]:
+        if a["sym"] == sym:
+            return a.get("cat") in MEME_CATS
+    return False
 
 
 def tier_of(cfg, sym):

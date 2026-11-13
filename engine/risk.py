@@ -3,7 +3,7 @@
 Le Risk Manager IA donne son avis ; ces regles sont la derniere barriere.
 Un ordre qui echoue a une seule regle n'est jamais execute.
 """
-from core import (costs_roundtrip_pct, equity, is_stock, net_rr, pair_of, paris_day, tier_of)
+from core import (costs_roundtrip_pct, equity, is_meme, is_stock, load, net_rr, pair_of, paris_day, parse_iso, tier_of)
 
 MAJEURES_HORS_CORRELATION = {"BTC", "PAXG"}
 
@@ -34,6 +34,10 @@ def check_open(cfg, state, prop, tick, prices):
     risk_pct = O.get("risque_par_trade_pct", 0.5) if opp else R["risque_par_trade_pct"]
     if prop.get("risque_pct_override"):
         risk_pct = min(risk_pct, float(prop["risque_pct_override"]))
+    M = cfg.get("memecoins", {})
+    meme = bool(M) and is_meme(cfg, sym)
+    if meme:  # budget serré pour les memecoins et cryptos émergentes
+        risk_pct = min(risk_pct, M.get("risque_par_trade_pct", 0.4))
     if opp:
         cat = prop.get("catalyseur") or {}
         if not (cat.get("evenement") and cat.get("source") and cat.get("date")):
@@ -77,7 +81,7 @@ def check_open(cfg, state, prop, tick, prices):
 
     # limites de portefeuille
     day = paris_day()
-    if state["entrees_par_jour"].get(day, 0) >= R["max_entrees_par_jour"]:
+    if not meme and state["entrees_par_jour"].get(day, 0) >= R["max_entrees_par_jour"]:  # le memecoin a son propre compteur (+1)
         reasons.append(f"Déjà {R['max_entrees_par_jour']} entrées aujourd'hui.")
     if len(state["positions"]) >= R["max_positions_ouvertes"]:
         reasons.append(f"Déjà {R['max_positions_ouvertes']} positions ouvertes.")
@@ -93,6 +97,24 @@ def check_open(cfg, state, prop, tick, prices):
         if len(same) >= R["max_alts_meme_sens"]:
             reasons.append(f"Déjà {len(same)} altcoins dans le même sens (risque de corrélation).")
 
+    meme_budget_left = None
+    if meme:
+        open_memes = [p for p in state["positions"] if is_meme(cfg, p["sym"])]
+        if len(open_memes) >= M.get("max_positions", 1):
+            reasons.append(f"Budget memecoins : déjà {len(open_memes)} position(s) memecoin ouverte(s) (maximum {M.get('max_positions', 1)}).")
+        if state.get("entrees_meme_par_jour", {}).get(day, 0) >= M.get("max_entrees_par_jour", 1):
+            reasons.append(f"Budget memecoins : déjà {M.get('max_entrees_par_jour', 1)} entrée memecoin aujourd'hui (maximum).")
+        perte_meme = 0.0
+        for t in load("trades.json", []):
+            try:
+                if is_meme(cfg, t["sym"]) and paris_day(parse_iso(t["ferme_le"])) == day and t["pnl_net"] < 0:
+                    perte_meme += t["pnl_net"]
+            except Exception:
+                continue
+        if perte_meme <= -M.get("perte_jour_max_pct", 1.0) / 100 * state["capital_initial"]:
+            reasons.append(f"Budget memecoins : perte du jour sur les memecoins {perte_meme:.2f} EUR, limite atteinte. Plus de memecoin aujourd'hui.")
+        meme_budget_left = sum(p["notionnel"] for p in open_memes)
+
     eq = equity(state, prices)
     day_pnl = eq - state.get("equity_debut_jour", {}).get(day, eq)
     if day_pnl <= -R["perte_jour_max_pct"] / 100 * state["capital_initial"]:
@@ -103,6 +125,9 @@ def check_open(cfg, state, prop, tick, prices):
     per_unit = abs(fill - stop) + F["taker_pct"] / 100 * (fill + stop)
     qty = risk_eur / per_unit if per_unit > 0 else 0
     cap = eq * R["notionnel_max_pct_par_tier"][tier] / 100
+    if meme:
+        cap = min(cap, eq * M.get("notionnel_max_pct", 6) / 100,
+                  max(0.0, eq * M.get("budget_total_pct", 6) / 100 - (meme_budget_left or 0.0)))
     fee_rate = F["taker_pct"] / 100
     cap = min(cap, state["cash"] / (1 + fee_rate))
     capped = False

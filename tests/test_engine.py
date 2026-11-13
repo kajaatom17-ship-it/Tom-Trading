@@ -254,5 +254,42 @@ check("agenda enregistré", len(core.load("calendrier.json", [])) == 1)
 check("urgence annonce < 2 h", any("Annonce" in u for u in core.load("status.json", {}).get("urgences", [])))
 check("agenda pas dans les décisions", not any(d.get("id") == "AG1" for d in core.load("decisions.json", [])))
 
+# 14. budget memecoins : risque réduit, 1 entrée par jour, ajout d'un actif émergent vérifié
+st = core.load("state.json", None); st["positions"] = []; st["entrees_par_jour"] = {}; st["entrees_meme_par_jour"] = {}; st["cash"] = 500.0
+st["ordres_attente"] = []; st["coupe_circuit"] = False; core.save("state.json", st)
+core.save("trades.json", [])
+PRICES["PEPE"] = 100.0
+drop({"id": "M1", "action": "open", "sym": "PEPE", "side": "long", "stop": 97.0, "tp": 109.0, "entry_ref": 100.0, "strategie": "TPB-1",
+      "agents": AGENTS_OK, "synthese": "test"})
+run()
+st = core.load("state.json", None); pm = [p for p in st["positions"] if p["sym"] == "PEPE"]
+check("memecoin ouvert", len(pm) == 1, str(core.load("decisions.json", [])[-1].get("resultat")))
+check("risque memecoin réduit (≤ 0,4 % du capital)", pm and pm[0]["risque_eur"] <= 0.004 * 505 + 0.05, str(pm and pm[0]["risque_eur"]))
+check("mise memecoin plafonnée (≤ 6 % du capital)", pm and pm[0]["notionnel"] <= 0.06 * 505 + 0.5, str(pm and pm[0]["notionnel"]))
+check("durée max memecoin ≤ 6 h", pm and pm[0]["duree_max_h"] <= 6, str(pm and pm[0]["duree_max_h"]))
+drop({"id": "M2", "action": "open", "sym": "DOGE", "side": "long", "stop": 97.0, "tp": 109.0, "entry_ref": 100.0, "strategie": "TPB-1",
+      "agents": AGENTS_OK, "synthese": "test"})
+run()
+d = core.load("decisions.json", [])[-1]
+check("2e memecoin refusé (1 max)", d["id"] == "M2" and d["resultat"]["statut"] != "execute", str(d["resultat"]))
+st = core.load("state.json", None); st["positions"] = []; core.save("state.json", st)
+drop({"id": "M3", "action": "open", "sym": "WIF", "side": "long", "stop": 97.0, "tp": 109.0, "entry_ref": 100.0, "strategie": "TPB-1",
+      "agents": AGENTS_OK, "synthese": "test"})
+run()
+d = core.load("decisions.json", [])[-1]
+check("memecoin ne consomme pas les 3 entrées normales", core.load("state.json", None)["entrees_par_jour"].get(core.paris_day(), 0) == 0)
+check("1 seule entrée memecoin par jour", d["id"] == "M3" and d["resultat"]["statut"] != "execute" and any("entrée memecoin" in m for m in d["resultat"].get("motifs", [])), str(d["resultat"]))
+
+tick.kraken = lambda m, p=None: {"NEWEUR": {"altname": "NEWEUR", "quote": "ZEUR", "status": "online"}}
+drop({"id": "AJ1", "action": "ajouter_actif", "sym": "NEW", "pair": "NEWEUR", "nom": "New Coin", "cat": "Emergent",
+      "raison": "listing annoncé", "source": "https://exemple.test/annonce"})
+drop({"id": "AJ2", "action": "ajouter_actif", "sym": "BTC", "pair": "XBTEUR", "raison": "x", "source": "y"})
+run()
+aj = core.load("univers_ajouts.json", [])
+check("actif émergent ajouté après vérification Kraken", [a["sym"] for a in aj] == ["NEW"] and aj[0]["tier"] == "C", str(aj))
+check("actif déjà présent refusé", "BTC" not in [a["sym"] for a in aj])
+check("l'actif ajouté est dans la config fusionnée", any(a["sym"] == "NEW" for a in core.config()["univers"]))
+check("config de l'interface mise à jour", any(a["sym"] == "NEW" for a in json.load(open(os.path.join(os.path.dirname(core.DATA), "config.json")))["univers"]))
+
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

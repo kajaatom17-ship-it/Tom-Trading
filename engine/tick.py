@@ -5,6 +5,7 @@ Usage local : python engine/tick.py [--no-scan]
 """
 import glob
 import json
+import re
 import os
 import shutil
 import sys
@@ -13,7 +14,7 @@ import urllib.request
 from datetime import timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from core import (ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
+from core import (is_meme, ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
                   now_utc, ohlc, pair_of, paris_day, parse_iso, position_value, r2, rp, save, tickers, tier_of)
 from risk import check_open
 from strategy import analyse, signals
@@ -163,7 +164,10 @@ def open_position(cfg, state, prop, sizing):
     state["cash"] -= sizing["notionnel"] + fee
     state["frais_cumules"] += fee
     day = paris_day()
-    state["entrees_par_jour"][day] = state["entrees_par_jour"].get(day, 0) + 1
+    if cfg.get("memecoins") and is_meme(cfg, prop["sym"]):  # l'entrée memecoin s'ajoute aux 3 entrées normales
+        state.setdefault("entrees_meme_par_jour", {})[day] = state.get("entrees_meme_par_jour", {}).get(day, 0) + 1
+    else:
+        state["entrees_par_jour"][day] = state["entrees_par_jour"].get(day, 0) + 1
     if prop.get("strategie") == "OPP-1":
         state.setdefault("opp_par_jour", {})[day] = state.get("opp_par_jour", {}).get(day, 0) + 1
     p = {
@@ -172,7 +176,8 @@ def open_position(cfg, state, prop, sizing):
         "notionnel": sizing["notionnel"], "frais_entree": fee, "stop": float(prop["stop"]),
         "stop_initial": float(prop["stop"]), "tp": float(prop["tp"]), "risque_eur": sizing["risque_eur"],
         "rr_net": round(sizing["rr_net"], 2), "ouvert_le": iso(), "verifie_jusqu_a": iso(),
-        "duree_max_h": min(float(prop.get("duree_max_h", cfg["risque"]["duree_max_position_h"])), 72),
+        "duree_max_h": min(float(prop.get("duree_max_h", cfg["risque"]["duree_max_position_h"])), 72,
+                           *( [cfg["memecoins"]["duree_max_h"]] if cfg.get("memecoins") and is_meme(cfg, prop["sym"]) else [] )),
         "decision_id": prop["id"], "dernier_prix": sizing["fill"],
         **({"catalyseur": prop.get("catalyseur")} if prop.get("strategie") == "OPP-1" else {}),
     }
@@ -198,6 +203,11 @@ def process_inbox(cfg, state, tk):
         prop.setdefault("id", os.path.basename(path)[:-5])
         if prop["id"] in known:
             shutil.move(path, os.path.join(ARCHIVE, os.path.basename(path)))
+            continue
+        if prop.get("action") == "ajouter_actif":
+            add_asset(cfg, prop)
+            shutil.move(path, os.path.join(ARCHIVE, os.path.basename(path)))
+            known.add(prop["id"])
             continue
         if prop.get("action") == "agenda":
             add_agenda(prop)
@@ -233,6 +243,61 @@ def add_agenda(prop):
     if n:
         log_event("News & Macro", "agenda", f"{n} annonce(s) ajoutée(s) au calendrier")
     return {"statut": "execute", "ajoutes": n}
+
+
+def add_asset(cfg, prop, dry=False):
+    """Ajoute une crypto émergente à l'univers. Le moteur vérifie tout lui-même sur Kraken."""
+    A = cfg.get("memecoins", {}).get("ajouts", {})
+    sym = str(prop.get("sym", "")).upper().strip()
+    problems = []
+    if not re.fullmatch(r"[A-Z0-9]{2,12}", sym):
+        return {"statut": "refuse", "motifs": ["Symbole invalide (2 à 12 lettres ou chiffres)."]}
+    if not prop.get("raison") or not prop.get("source"):
+        problems.append("Il faut une raison précise et une source (lien) pour ajouter un actif.")
+    if sym in {a["sym"] for a in cfg["univers"]}:
+        return {"statut": "refuse", "motifs": [f"{sym} est déjà dans l'univers."]}
+    extra = load("univers_ajouts.json", [])
+    if len(extra) >= A.get("max_total", 12):
+        problems.append(f"Déjà {len(extra)} actifs ajoutés (maximum {A.get('max_total', 12)}).")
+    jour = paris_day()
+    n_jour = sum(1 for e in extra if paris_day(parse_iso(e["ajoute_le"])) == jour)
+    if n_jour >= A.get("max_par_jour", 2):
+        problems.append(f"Déjà {n_jour} ajouts aujourd'hui (maximum {A.get('max_par_jour', 2)}).")
+    pair = str(prop.get("pair") or f"{sym}EUR").upper()
+    alt = None
+    if not problems:
+        try:
+            res = kraken("AssetPairs", {"pair": pair})
+            v = next(iter(res.values()))
+            alt = v.get("altname", pair)
+            if v.get("quote") not in ("ZEUR", "EUR"):
+                problems.append("La paire n'est pas cotée en euros sur Kraken.")
+            if v.get("status", "online") != "online":
+                problems.append(f"Paire non disponible (statut : {v.get('status')}).")
+        except (KrakenError, StopIteration):
+            problems.append(f"Paire {pair} introuvable sur Kraken.")
+    if not problems and alt:
+        tkr = tickers([{"sym": sym, "pair": alt, "nom": sym, "cat": "Emergent", "tier": "C"}]).get(sym)
+        if not tkr:
+            problems.append("Pas de prix Kraken pour cette paire.")
+        else:
+            if tkr["vol_eur"] < A.get("volume_24h_min_eur", 40000):
+                problems.append(f"Volume 24 h trop faible ({tkr['vol_eur']:.0f} EUR < {A.get('volume_24h_min_eur', 40000)}).")
+            if tkr["spread_pct"] > A.get("spread_max_pct", 0.5):
+                problems.append(f"Spread trop large ({tkr['spread_pct']:.2f} %).")
+    if problems:
+        if not dry:
+            log_event("Spécialiste memecoins", "ajout refusé", f"{sym} : " + " | ".join(problems))
+        return {"statut": "refuse", "motifs": problems}
+    if dry:
+        return {"statut": "ok", "pair": alt}
+    cat = prop.get("cat") if prop.get("cat") in ("Meme", "Emergent") else "Emergent"
+    extra.append({"sym": sym, "pair": alt, "nom": prop.get("nom") or sym, "cat": cat, "tier": "C",
+                  "ajoute_le": iso(), "raison": prop["raison"], "source": prop["source"]})
+    save("univers_ajouts.json", extra)
+    log_event("Spécialiste memecoins", "ajout actif",
+              f"{sym} ajouté à l'univers (catégorie {cat}, budget memecoin) : {prop['raison']}")
+    return {"statut": "execute", "pair": alt}
 
 
 def execute_decision(cfg, state, prop, tk):
@@ -589,7 +654,10 @@ def sentiment(market):
 def main():
     cfg = config()
     from core import ROOT, DATA
-    shutil.copyfile(os.path.join(ROOT, "config.json"), os.path.join(os.path.dirname(DATA), "config.json"))
+    def write_ui_config():
+        with open(os.path.join(os.path.dirname(DATA), "config.json"), "w", encoding="utf-8") as fh:
+            json.dump(config(), fh, ensure_ascii=False, indent=1)
+    write_ui_config()
     do_scan = "--no-scan" not in sys.argv
     state = load("state.json", None) or new_state(cfg)
     status = {"t": iso(), "version": ENGINE_VERSION, "mode": "PAPER_ONLY", "ok": True, "erreurs": []}
@@ -609,6 +677,7 @@ def main():
     manage_positions(cfg, state, tk)
     process_inbox(cfg, state, tk)
     process_pending(cfg, state, tk)
+    write_ui_config()  # un actif ajouté pendant ce passage apparaît tout de suite dans l'application
     guard_protect(cfg, state, tk)
 
     eq = equity(state, prices)

@@ -56,6 +56,15 @@ Règles du comité pour eux :
 6. **Corrélation.** Les memecoins suivent BTC. Si BTC casse un support en 15 min, les positions memecoins sont revues en premier. Maximum 2 altcoins dans le même sens (garde-fou du code).
 7. **Pas de pari sans plan.** Chaque entrée a un stop, un objectif et une raison écrite. « Ça monte » n'est pas une raison.
 
+**Budget serré (appliqué par le code, le comité ne peut pas le contourner) :**
+- 3 entrées par jour comme d'habitude, **plus 1 entrée memecoin par jour au maximum** (elle ne consomme pas les 3 autres). Jusqu'à 4 positions ouvertes en tout, dont 1 seule memecoin.
+- Risque 0,4 % du capital par trade (au lieu de 1 %), mise plafonnée à 6 % du capital, durée max 6 h.
+- Si les memecoins perdent 1 % du capital dans la journée, plus aucun memecoin jusqu'au lendemain.
+
+**Ajouter une crypto émergente.** Le spécialiste peut proposer d'ajouter à l'univers une crypto qui peut bouger fort (nouveau listing Kraken, annonce, catalyseur daté). Fichier déposé via `engine/decide.py submit` (pas de discussion requise, mais la raison doit apparaître dans le compte rendu de la réunion) :
+`{"action":"ajouter_actif","sym":"XXX","pair":"XXXEUR","nom":"Nom","cat":"Emergent","raison":"ce qui peut se passer et pourquoi","source":"https://..."}`
+`decide.py check` interroge Kraken : la paire doit exister en euros, avoir au moins 40 000 € de volume sur 24 h et un spread ≤ 0,5 %. Maximum 2 ajouts par jour et 12 en tout. Une crypto ajoutée suit les mêmes règles que les memecoins (budget serré). Jamais de symbole inventé : si Kraken ne le connaît pas, on n'ajoute rien.
+
 ## Stratégies autorisées (v1)
 
 - **TPB-1 — pullback dans la tendance** : tendance 1 h confirmée, repli sur l'EMA20 15 min, reprise du RSI et du MACD. Stop ≥ max(1,5 ATR, 1 %) au-delà du dernier creux/sommet, objectif 3R.

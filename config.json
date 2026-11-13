@@ -17,7 +17,7 @@
  "risque": {
   "risque_par_trade_pct": 1.0,
   "max_entrees_par_jour": 3,
-  "max_positions_ouvertes": 3,
+  "max_positions_ouvertes": 4,
   "rr_net_min": 1.5,
   "notionnel_max_pct_par_tier": {
    "A": 30,
@@ -438,5 +438,20 @@
  },
  "ordres_attente": {
   "slippage_annonce_pct": 0.3
+ },
+ "memecoins": {
+  "risque_par_trade_pct": 0.4,
+  "max_positions": 1,
+  "notionnel_max_pct": 6,
+  "budget_total_pct": 6,
+  "perte_jour_max_pct": 1.0,
+  "duree_max_h": 6,
+  "ajouts": {
+   "max_total": 12,
+   "max_par_jour": 2,
+   "volume_24h_min_eur": 40000,
+   "spread_max_pct": 0.5
+  },
+  "max_entrees_par_jour": 1
  }
 }
