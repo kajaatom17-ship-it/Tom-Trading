@@ -311,5 +311,33 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 3 signal(aux) : PAXG short (TPB-1, 40), PEPE short (TPB-1, 30), FET long (TPB-1, 25)"
+ },
+ {
+  "t": "2026-11-13T20:27:13Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "Le comité ne prend pas de nouveau trade : rien ne rapporte assez par rapport au risque. On garde le pari à la baisse sur PEPE (+1,06 € fictifs)."
+ },
+ {
+  "t": "2026-11-13T20:27:13Z",
+  "agent": "Execution",
+  "type": "expiration",
+  "msg": "Ordre en attente O0002 (ADA) expiré sans être déclenché"
+ },
+ {
+  "t": "2026-11-13T20:27:16Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Earnings call transcript: Grupo Mateus posts mixed Q3 2026 results as shares jump (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-grupo-mateus-posts-mixed-q3-2026-results-as-shares-jump-93CH-5026413",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-13T20:28:14Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : ARB short (TPB-1, 30), HYPE long (TPB-1, 15)"
  }
 ]
