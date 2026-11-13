@@ -467,5 +467,121 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-13T17:57:58Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "defavorable",
+    "resume": "Brief 18:55 UTC. Scanner (17:59 UTC) : seulement FET long TPB-1 (RR net 1,33, contre la tendance BTC) et BONK long BRK-1 (RR net 1,11, contre BTC) : les deux sous le seuil de 1,5. BTC 62 594 € : tendance 1 h baissière, mais rebond 15 min au-dessus de l'EMA20 (62 385), RSI 46,2 -> 54,3, MACD repassé positif ; il bute sous l'EMA50 (62 617). Pas encore de reprise baissière nette, donc pas de TPB-1 short propre. Actions : SPY 681,70 (RSI 36,4) et QQQ 614,04 (RSI 36,7) sous leur EMA20, AMD RSI 23,6 après -9,6 % : survente, pas un repli sur EMA20. PEPE (position) : clôture 15 min 4,101e-6, sous le plus haut 12 h 4,2e-6, stop 4,184e-6 intact, tendance 1 h toujours baissière. ADA 0,1562, loin du déclencheur 0,1533, tendance 1 h passée de baissière à neutre.",
+    "donnees": "Kraken OHLC 15 min et Ticker, brief 2026-11-13 18:55 UTC (19:55 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Contexte : CPI américain du 10/11 plus chaud que prévu, paris sur une hausse de taux de la Fed, rendements du Trésor à 5 % (Yahoo Finance 13/11 17:35 UTC). Nasdaq en forte baisse avec la crise Nvidia (départ de Jensen Huang le 12/11), AMD -9,6 % sur 24 h. Bitcoin au plus bas depuis 12 semaines (Decrypt 13/11 17:22 UTC). Séance américaine close à 22:00 Paris, puis week-end : xStocks peu liquides jusqu'à lundi. Aucune annonce à fort impact confirmée dans les 2 h ni pendant le week-end ; je n'ajoute rien au calendrier faute de date confirmée par une source officielle. Rien de spécifique à PEPE ou ADA.",
+    "sources": [
+     "Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally - Decrypt - 2026-11-13 17:22 UTC - https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally",
+     "Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5% - Yahoo Finance - 2026-11-13 17:35 UTC (veille du brief)",
+     "Bitcoin slides below $74,000 after hotter-than-expected CPI - The Block - 2026-11-10 - https://theblock.co/news/markets/2026-11-10-bitcoin-price-cpi-inflation-73000-support-437301",
+     "Bitcoin Falls Sharply After Above-Forecast U.S. Inflation Data - Morningstar/Dow Jones - 2026-11-10 - https://www.morningstar.com/news/dow-jones/202611107196/bitcoin-falls-sharply-after-above-forecast-us-inflation-data-update"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 20 (peur extrême), capitalisation totale -5,47 % sur 24 h, dominance BTC 58,98 %. ETH -3,61 % sur 24 h. Memecoins plutôt en rebond (PEPE +4,8 %, BONK +4,46 % sur 24 h, BONK volume x6,79) : petite chasse aux rebonds, pas d'euphorie. En peur extrême, les rebonds courts sont violents : vendre maintenant, c'est vendre après la baisse."
+   },
+   "trader": {
+    "proposition": "Aucune nouvelle entrée. Position PEPE short (P0001) gardée telle quelle, ordre ADA (O0002) laissé jusqu'à son expiration à 20:01 UTC.",
+    "pour": [
+     "Les deux signaux du scanner ont un RR net < 1,5 et vont contre BTC",
+     "BTC en rebond 15 min : un short maintenant serait en retard, un long irait contre la tendance 1 h",
+     "Actions en survente à 2 h de la clôture, puis week-end illiquide"
+    ],
+    "contre": [
+     "Tendance de fond baissière : une reprise de la baisse de BTC sous 61 950 € pourrait offrir un bon short qu'on ne capture pas",
+     "Le portefeuille reste presque entièrement en liquidités (cash 399,60 €)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Ne rien faire est validé. 1 position sur 3, 1 entrée sur 3 aujourd'hui, 2 altcoins short engagés (PEPE + ordre ADA) : la limite altcoins est atteinte. Un short BTC ajouterait un risque corrélé (jusqu'à ~3 % si tous les stops sautent) en peur extrême. Aucun candidat ne passe RR net 1,5."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Brief 18:55 UTC. Le scanner ne sort que FET long (RR net 1,33) et BONK long (RR net 1,11), tous deux contre la tendance 1 h de BTC. BTC rebondit à 62 594 €, au-dessus de l'EMA20 15 min (62 385) mais sous l'EMA50 (62 617), RSI 54,3, MACD redevenu positif. Pas de setup propre."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Côté actu, la baisse a une vraie cause : CPI du 10/11 plus chaud que prévu, rendements US à 5 %, crise Nvidia. Decrypt (17:22 UTC) : BTC au plus bas depuis 12 semaines. Aucune annonce majeure confirmée d'ici lundi. La séance américaine ferme à 22:00 Paris."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_macro",
+    "message": "Fear & Greed 20, capi -5,47 % sur 24 h. Les memecoins rebondissent déjà (PEPE +4,8 %, BONK +4,46 %). En peur extrême, ces rebonds peuvent aller loin. C'est un risque direct pour notre short PEPE."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "Sur PEPE : prix 4,056e-6 au ticker contre une entrée à 4,0669e-6, gain latent +0,27 €. Le stop à 4,184e-6 reste au-dessus du plus haut récent 4,112e-6, et la tendance 1 h est encore baissière. Pas de raison de fermer ni de resserrer : on garde."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Et pour une nouvelle entrée ? AMD a pris -9,6 % sur 24 h, le Nasdaq souffre. Un short AMD ou QQQ suit le récit macro."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_macro",
+    "message": "Je conteste : AMD a un RSI de 23,6, QQQ de 36,7. Ce n'est pas un repli sur l'EMA20, c'est une survente. Vendre ici, c'est vendre juste parce que ça a baissé, ce que nos règles interdisent. En plus, xStocks deviennent illiquides dans 2 h pour tout le week-end."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "D'accord. J'ai regardé un ordre stop short BTC sous 61 950 €, mais le stop logique au-dessus de 62 654 € et le support 12 h à 61 115 € laissent un objectif trop court pour 3R. Et ça ajoute un troisième short crypto corrélé. Je ne propose rien."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je soutiens. Ajouter un short en peur extrême, pendant un rebond des memecoins, c'est s'exposer au short squeeze. L'ordre ADA, lui, expire à 20:01 UTC et ne se déclenche que si la baisse reprend : on peut le laisser."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "Petite réserve sur ADA : sa tendance 1 h est passée de baissière à neutre et il est à 0,1562, à 1,9 % du déclencheur. Il ne se déclenchera sans doute pas, et le code revérifiera les règles au déclenchement. Je ne demande pas d'annulation."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Verdict : pas de nouvelle entrée, validé. 1 position sur 3, 1 entrée sur 3 aujourd'hui, limite de 2 altcoins short déjà atteinte avec PEPE et l'ordre ADA. Aucun candidat ne passe RR net 1,5. On garde PEPE et l'ordre ADA sans changement."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Trader de garde : aucune action depuis la dernière réunion, rien à corriger.",
+    "Position PEPE à la baisse gardée : petit gain latent de +0,27 €, stop et objectif inchangés.",
+    "Les deux signaux du scanner (FET, BONK) rapportent trop peu par rapport au risque après frais.",
+    "Les actions (AMD, Nasdaq) ont déjà beaucoup baissé et la bourse ferme bientôt pour le week-end : pas d'entrée."
+   ],
+   "desaccords": [
+    "L'analyste macro voulait étudier un short AMD/QQQ ; l'analyste technique a refusé : survente et pas de repli sur l'EMA20.",
+    "L'analyste technique note que l'ordre ADA a perdu sa tendance 1 h baissière, mais ne demande pas son annulation (expiration à 20:01 UTC)."
+   ],
+   "decision": "Aucune nouvelle position : on garde le short PEPE et l'ordre ADA tels quels.",
+   "a_surveiller": [
+    "Une clôture 15 min de BTC sous 61 950 € avec volume : un short pourrait redevenir intéressant.",
+    "PEPE au-dessus de 4,112e-6 (plus haut récent) : le rebond des memecoins menacerait le stop.",
+    "Liquidité faible des actions et du marché crypto pendant le week-end."
+   ]
+  },
+  "synthese": "Le comité ne prend pas de nouveau trade ce soir : rien ne rapporte assez par rapport au risque, et la bourse ferme pour le week-end. On garde le pari à la baisse sur PEPE (+0,27 € fictifs) et le piège sur ADA.",
+  "id": "D-20261113-185705",
+  "cree_le": "2026-11-13T18:57:05Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-13T18:58:00Z"
  }
 ]

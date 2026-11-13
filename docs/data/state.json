@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 399.6,
+ "cash": 399.58000000000004,
  "positions": [
   {
    "id": "P0001",
@@ -20,13 +20,15 @@
    "risque_eur": 3.6987889387791366,
    "rr_net": 2.11,
    "ouvert_le": "2026-11-13T14:54:03Z",
-   "verifie_jusqu_a": "2026-11-13T17:57:00Z",
+   "verifie_jusqu_a": "2026-11-13T18:57:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261113-145353",
-   "dernier_prix": 4.091e-06
+   "dernier_prix": 4.049e-06,
+   "rollover": 0.019999999999999997,
+   "rollover_periodes": 1
   }
  ],
- "frais_cumules": 0.39999999999999997,
+ "frais_cumules": 0.42,
  "pnl_realise": 0.0,
  "pic_equity": 500.80309452168945,
  "entrees_par_jour": {
@@ -34,7 +36,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-13T17:57:59Z",
+ "maj": "2026-11-13T18:58:01Z",
  "seq": 2,
  "equity_debut_jour": {
   "2026-11-13": 500.0
@@ -95,7 +97,7 @@
    "catalyseur": null,
    "groupe": null,
    "evenement": null,
-   "verifie_le": "2026-11-13T17:57:00Z"
+   "verifie_le": "2026-11-13T18:58:00Z"
   }
  ]
 }
