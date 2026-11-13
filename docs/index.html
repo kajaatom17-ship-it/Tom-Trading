@@ -178,14 +178,14 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 .banner{font-size:13px;padding:10px 12px;border-radius:var(--r-s);background:rgba(242,184,75,.1);color:var(--amber);border:1px solid rgba(242,184,75,.25)}
 .banner.bad{background:rgba(240,97,109,.1);color:var(--down);border-color:rgba(240,97,109,.3)}
 /* badge gain/perte */
-#pnlBadge{position:fixed;right:16px;bottom:calc(78px + var(--safe-b));z-index:40;min-width:230px;padding:14px 18px;border-radius:14px;text-align:left;color:#fff;box-shadow:0 8px 28px rgba(0,0,0,.45);border:0}
+#pnlBadge{position:fixed;right:12px;bottom:calc(74px + var(--safe-b));z-index:40;min-width:0;padding:8px 14px;border-radius:14px;text-align:left;color:#fff;box-shadow:0 8px 28px rgba(0,0,0,.45);border:0}
 #pnlBadge.win{background:#16794F} #pnlBadge.loss{background:#B3313C} #pnlBadge.flat{background:#3A4A68}
-#pnlBadge .l1{font-size:15px;font-weight:600}
-#pnlBadge .l2{font-size:30px;font-weight:700;line-height:1.1;margin-top:2px}
-#pnlBadge .l3{font-size:13px;opacity:.9;margin-top:4px}
-@media(min-width:1024px){#pnlBadge{right:24px;bottom:24px;min-width:280px}#pnlBadge .l2{font-size:36px}}
-#pnlPanel{position:fixed;right:16px;bottom:calc(200px + var(--safe-b));z-index:41;width:min(420px,calc(100vw - 32px));max-height:calc(100vh - 260px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 12px 40px rgba(0,0,0,.55)}
-@media(min-width:1024px){#pnlPanel{right:24px;bottom:150px}}
+#pnlBadge .l1{font-size:12px;font-weight:500;opacity:.9}
+#pnlBadge .l2{font-size:22px;font-weight:700;line-height:1.15}
+#pnlBadge .l3{font-size:13px;font-weight:600;opacity:.95}
+@media(min-width:1024px){#pnlBadge{right:20px;bottom:20px}#pnlBadge .l2{font-size:24px}}
+#pnlPanel{position:fixed;right:12px;bottom:calc(150px + var(--safe-b));z-index:41;width:min(420px,calc(100vw - 32px));max-height:calc(100vh - 260px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 12px 40px rgba(0,0,0,.55)}
+@media(min-width:1024px){#pnlPanel{right:20px;bottom:100px}}
 /* guide de position debutant */
 .guide{border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--panel2)}
 .guide+.guide{margin-top:12px}
@@ -287,7 +287,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
         <div id="chart"></div>
         <div id="rsiChart"></div>
         <div class="legend"><span><i style="background:#F2B84B"></i>EMA 20</span><span><i style="background:#5B9DFF"></i>EMA 50</span><span><i style="background:#B48CF2"></i>RSI 14</span><span id="posLegend"></span></div>
-        <p class="hint">Prix en direct de Kraken, mis à jour toutes les 5 secondes. Les lignes pointillées montrent l'entrée, le stop et l'objectif d'une position ouverte.</p>
+        <p class="hint">Prix en direct de Kraken, mis à jour toutes les 5 secondes. Les actions sont des jetons Kraken (xStocks) cotés en dollars, convertis en euros. Les lignes pointillées montrent l'entrée, le stop et l'objectif d'une position ouverte.</p>
       </div>
       <div class="mkside stack">
         <div class="panel"><h3>Ce que voit l'analyste technique</h3><div id="cInd"></div></div>
@@ -344,7 +344,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 </section>
 </main>
 
-<button id="pnlBadge" class="flat" aria-expanded="false" aria-controls="pnlPanel"><div class="l1">Chargement…</div><div class="l2 num">—</div><div class="l3">Touche pour voir le détail</div></button>
+<button id="pnlBadge" class="flat" aria-expanded="false" aria-controls="pnlPanel"><div class="l1">Chargement…</div><div class="l2 num">—</div><div class="l3 num">—</div></button>
 <div id="pnlPanel" hidden><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><h3 style="margin:0">Où on en est</h3><button id="pnlClose" style="font-size:14px;color:var(--muted)">Fermer</button></div><div id="pnlBody"></div></div>
 <script>
 "use strict";
@@ -362,6 +362,8 @@ const hm = iso => iso ? new Date(iso).toLocaleString("fr-FR",{day:"2-digit",mont
 const asset = sym => (S.cfg?.univers||[]).find(a=>a.sym===sym)||{sym,nom:sym,pair:sym+"EUR"};
 
 async function getJSON(path){ const r=await fetch(path+"?t="+Date.now(),{cache:"no-store"}); if(!r.ok) throw new Error(path+" "+r.status); return r.json(); }
+const isStock=pair=>/xUSD$/.test(pair);
+async function fx(){ if(S.fx&&Date.now()-S.fxT<600000) return S.fx; const r=await kraken("Ticker",{pair:"EURUSD"}); S.fx=+Object.values(r)[0].c[0]; S.fxT=Date.now(); return S.fx; }
 async function kraken(method, params){ const r=await fetch(K+method+"?"+new URLSearchParams(params)); const d=await r.json(); if(d.error&&d.error.length) throw new Error(d.error.join(",")); return d.result; }
 
 /* ---------- donnees du moteur (portefeuille, agents) ---------- */
@@ -377,12 +379,16 @@ let pairMap=null;
 async function loadTickers(){
   if(!S.cfg) return;
   try{
-    const alts = S.cfg.univers.map(a=>a.pair).join(",");
-    if(!pairMap){ const ap=await kraken("AssetPairs",{pair:alts}); pairMap={}; for(const [k,v] of Object.entries(ap)){ const a=S.cfg.univers.find(u=>u.pair===v.altname); if(a) pairMap[k]=a.sym; } }
-    const res = await kraken("Ticker",{pair:alts});
+    const cr=S.cfg.univers.filter(a=>!isStock(a.pair)), st=S.cfg.univers.filter(a=>isStock(a.pair));
+    const alts = cr.map(a=>a.pair).join(",");
+    if(!pairMap){ const ap=await kraken("AssetPairs",{pair:alts}); pairMap={}; for(const [k,v] of Object.entries(ap)){ const a=cr.find(u=>u.pair===v.altname); if(a) pairMap[k]=a.sym; } st.forEach(a=>pairMap[a.pair]=a.sym); }
+    const [res,res2,f]=await Promise.all([kraken("Ticker",{pair:alts}), st.length?kraken("Ticker",{pair:st.map(a=>a.pair).join(","),asset_class:"tokenized_asset"}).catch(()=>({})):{}, st.length?fx().catch(()=>null):1]);
     const prev = S.tk; const out={};
-    for(const [k,v] of Object.entries(res)){ const sym=pairMap[k]; if(!sym) continue; const last=+v.c[0], op=+v.o;
-      out[sym]={bid:+v.b[0],ask:+v.a[0],last,open:op,high:+v.h[1],low:+v.l[1],vol_eur:+v.v[1]*+v.p[1],chg_pct:op?(last/op-1)*100:0,_prev:prev[sym]?.last}; }
+    const put=(k,v,d)=>{ const sym=pairMap[k]; if(!sym||!d) return; const last=+v.c[0]/d, op=+v.o/d;
+      out[sym]={bid:+v.b[0]/d,ask:+v.a[0]/d,last,open:op,high:+v.h[1]/d,low:+v.l[1]/d,vol_eur:+v.v[1]*+v.p[1]/d,chg_pct:op?(last/op-1)*100:0,_prev:prev[sym]?.last}; };
+    for(const [k,v] of Object.entries(res)) put(k,v,1);
+    for(const [k,v] of Object.entries(res2)) put(k,v,f);
+    for(const sym of Object.keys(prev)) if(!out[sym]) out[sym]=prev[sym];
     S.tk=out; S.live=Date.now(); S.liveErr=null;
     renderLive();
   }catch(e){ S.liveErr=String(e); }
@@ -448,13 +454,13 @@ function guide(p){
   const pr=livePrice(p.sym)??p.dernier_prix??p.entry; const u=posValue(p,pr)-p.notionnel; const up=u/p.notionnel*100;
   const short=p.side==="short"; const nom=asset(p.sym).nom||p.sym;
   const st=u>0.005?"win":u<-0.005?"loss":"flat";
-  const lab=st==="win"?"On gagne":st==="loss"?"On perd":"À l'équilibre";
+  const lab=sgn(u);
   const span=p.tp-p.stop; const f=v=>Math.max(0,Math.min(100,(v-p.stop)/span*100));
   const dTp=(p.tp/pr-1)*100, dSl=(p.stop/pr-1)*100;
   const fin=new Date(new Date(p.ouvert_le).getTime()+(p.duree_max_h||24)*3600e3);
   const gainTp=Math.abs(p.tp-p.entry)*p.qty, lossSl=p.risque_eur||Math.abs(p.stop-p.entry)*p.qty;
   return `<div class="guide"><div class="head"><div><div class="t" style="font-size:16px">${esc(nom)} (${esc(p.sym)})<span class="pill ${p.side}">${short?"pari à la baisse":"pari à la hausse"}</span></div><div class="s muted" style="font-size:13px">${eur(p.notionnel)} engagés</div></div>
-   <div style="text-align:right"><div class="state ${st==="win"?"up":st==="loss"?"down":"muted"} num">${lab}</div><div class="num ${cls(u)}" style="font-weight:600">${sgn(u)} · ${pctS(up)}</div></div></div>
+   <div style="text-align:right"><div class="state ${st==="win"?"up":st==="loss"?"down":"muted"} num">${lab}</div><div class="num ${cls(u)}" style="font-weight:600">${pctS(up)}</div></div></div>
    <div class="gauge" aria-hidden="true">
      <div class="mk top l" style="left:0;background:#F0616D"><span style="color:#F0616D">Stop-loss<br>${px(p.stop)}</span></div>
      <div class="mk" style="left:${f(p.entry)}%;background:#E6EAF2;width:4px"></div>
@@ -475,9 +481,9 @@ function renderBadge(){
   const e=equityLive(); if(!e) return; const init=S.state.capital_initial; const d=e.eq-init, dp=d/init*100;
   const ps=S.state.positions; const b=$("pnlBadge");
   const st=d>0.005?"win":d<-0.005?"loss":"flat"; b.className=st;
-  b.querySelector(".l1").textContent=st==="win"?"On gagne de l'argent":st==="loss"?"On perd de l'argent":"Ni gain ni perte";
-  b.querySelector(".l2").textContent=`${pctS(dp)}  ${sgn(d)}`;
-  b.querySelector(".l3").textContent=ps.length?`${ps.length} position${ps.length>1?"s":""} en cours · touche pour le détail`:"Aucune position en cours · touche pour le détail";
+  b.querySelector(".l1").textContent=ps.length?`Total · ${ps.length} position${ps.length>1?"s":""} en cours`:"Total depuis le départ";
+  b.querySelector(".l2").textContent=sgn(d);
+  b.querySelector(".l3").textContent=pctS(dp);
   const pend=ps.map(guide).join("");
   $("pnlBody").innerHTML=`<p class="muted" style="font-size:13px;margin-bottom:10px">Depuis le départ (${eur(init,0)} fictifs), frais compris : <b class="${cls(d)}">${sgn(d)} (${pctS(dp)})</b>. Valeur actuelle : <b>${eur(e.eq)}</b>.</p>`+(pend||`<div class="empty">Aucune position ouverte. Le comité attend une bonne occasion.</div>`);
   if(ps.length){ $("homePos").innerHTML=pend; $("posGuide").innerHTML=pend; } else { $("posGuide").innerHTML=""; }
@@ -593,14 +599,15 @@ function renderStats(){
 }
 
 /* ---------- marche ---------- */
-const CATS=["Tout","Majeure","Layer 1","Layer 2","DeFi","Infra","IA","Meme","Or"];
+const CATS=["Tout","Crypto","Actions","Majeure","Layer 1","Layer 2","DeFi","IA","Meme","Or"];
 S.cat="Tout"; S.q="";
 $("wlCats").innerHTML=CATS.map(c=>`<button aria-pressed="${c==="Tout"}" data-c="${c}">${c==="Majeure"?"Majeures":c==="Meme"?"Memecoins":c}</button>`).join("");
 $("wlCats").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b) return; S.cat=b.dataset.c; [...$("wlCats").children].forEach(x=>x.setAttribute("aria-pressed",x===b)); renderWatchlist();});
 $("wlSearch").addEventListener("input",e=>{S.q=e.target.value.trim().toLowerCase(); renderWatchlist();});
 function renderWatchlist(){
   if(!S.cfg) return; const el=$("watchlist");
-  const list=S.cfg.univers.filter(a=>(S.cat==="Tout"||a.cat===S.cat)&&(!S.q||a.sym.toLowerCase().includes(S.q)||a.nom.toLowerCase().includes(S.q)));
+  const inCat=a=>S.cat==="Tout"||(S.cat==="Actions"?a.classe==="action":S.cat==="Crypto"?a.classe!=="action":a.cat===S.cat);
+  const list=S.cfg.univers.filter(a=>inCat(a)&&(!S.q||a.sym.toLowerCase().includes(S.q)||a.nom.toLowerCase().includes(S.q)));
   if(!list.length){ el.innerHTML=`<div class="empty">Aucun actif ne correspond.</div>`; return; }
   el.innerHTML=list.map(a=>{const t=S.tk[a.sym]; const fl=t&&t._prev!=null&&t.last!==t._prev?(t.last>t._prev?"flash-up":"flash-down"):"";
     return `<button aria-pressed="${a.sym===S.sel}" data-sym="${a.sym}" class="${fl}"><div><b>${a.sym}</b><div class="cat">${esc(a.nom)}</div></div><div class="num" style="text-align:right">${t?px(t.last):"—"}<div class="${cls(t?.chg_pct)}" style="font-size:12px">${t?pct(t.chg_pct):""}</div></div></button>`}).join("");
@@ -634,9 +641,10 @@ async function loadChart(){
   if(!S.charts.c) initCharts();
   const tok=++chartToken; const a=asset(S.sel);
   try{
-    const res=await kraken("OHLC",{pair:a.pair,interval:S.tf}); if(tok!==chartToken) return;
+    const stk=isStock(a.pair); const d=stk?await fx():1;
+    const res=await kraken("OHLC",stk?{pair:a.pair,interval:S.tf,asset_class:"tokenized_asset"}:{pair:a.pair,interval:S.tf}); if(tok!==chartToken) return;
     const rows=res[Object.keys(res).find(k=>k!=="last")];
-    const cd=rows.map(r=>({time:+r[0],open:+r[1],high:+r[2],low:+r[3],close:+r[4],v:+r[6]}));
+    const cd=rows.map(r=>({time:+r[0],open:+r[1]/d,high:+r[2]/d,low:+r[3]/d,close:+r[4]/d,v:+r[6]}));
     const p=Math.max(2,Math.min(10,-Math.floor(Math.log10(cd[cd.length-1].close))+5));
     const fmt={type:"price",precision:p,minMove:Math.pow(10,-p)};
     S.charts.candles.applyOptions({priceFormat:fmt}); S.charts.e20.applyOptions({priceFormat:fmt}); S.charts.e50.applyOptions({priceFormat:fmt});
@@ -667,7 +675,9 @@ function renderInd(){
 }
 async function loadBook(){
   if($("marche").hidden||!S.cfg) return;
-  try{ const res=await kraken("Depth",{pair:asset(S.sel).pair,count:10}); const b=Object.values(res)[0];
+  try{ const pa=asset(S.sel).pair, stk=isStock(pa), d=stk?await fx():1;
+    const res=await kraken("Depth",stk?{pair:pa,count:10,asset_class:"tokenized_asset"}:{pair:pa,count:10}); const b0=Object.values(res)[0];
+    const b={bids:b0.bids.map(x=>[+x[0]/d,x[1]]),asks:b0.asks.map(x=>[+x[0]/d,x[1]])};
     const max=Math.max(...b.bids.map(x=>+x[1]),...b.asks.map(x=>+x[1]));
     const side=(rows,col)=>`<table>${rows.map(r=>`<tr><td style="color:${col}">${px(+r[0])}</td><td>${(+r[1]).toLocaleString("fr-FR",{maximumFractionDigits:3})}<span class="bar" style="width:${(+r[1]/max*100).toFixed(0)}%;background:${col}"></span></td></tr>`).join("")}</table>`;
     $("book").innerHTML=side(b.bids,"#2BC48A")+side(b.asks,"#F0616D");

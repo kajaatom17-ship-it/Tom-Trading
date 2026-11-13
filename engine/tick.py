@@ -109,6 +109,8 @@ def open_position(cfg, state, prop, sizing):
     state["frais_cumules"] += fee
     day = paris_day()
     state["entrees_par_jour"][day] = state["entrees_par_jour"].get(day, 0) + 1
+    if prop.get("strategie") == "OPP-1":
+        state.setdefault("opp_par_jour", {})[day] = state.get("opp_par_jour", {}).get(day, 0) + 1
     p = {
         "id": pid, "sym": prop["sym"], "pair": pair_of(cfg, prop["sym"]), "side": prop["side"],
         "strategie": prop.get("strategie", "?"), "qty": sizing["qty"], "entry": rp(sizing["fill"]),
@@ -117,6 +119,7 @@ def open_position(cfg, state, prop, sizing):
         "rr_net": round(sizing["rr_net"], 2), "ouvert_le": iso(), "verifie_jusqu_a": iso(),
         "duree_max_h": min(float(prop.get("duree_max_h", cfg["risque"]["duree_max_position_h"])), 72),
         "decision_id": prop["id"], "dernier_prix": sizing["fill"],
+        **({"catalyseur": prop.get("catalyseur")} if prop.get("strategie") == "OPP-1" else {}),
     }
     state["positions"].append(p)
     log_event("Execution", "ouverture",

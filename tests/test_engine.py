@@ -153,5 +153,22 @@ drop({"id": "T6", "action": "none", "agents": AGENTS_OK, "synthese": "Marche san
 run()
 check("decision 'aucune action' journalisee", core.load("decisions.json", [])[-1]["resultat"]["statut"] == "aucune action")
 
+# 9. OPP-1 : sans catalyseur -> refus ; avec -> execute avec risque reduit 0,5 %
+st = core.load("state.json", None); st["entrees_par_jour"] = {}; core.save("state.json", st)
+PRICES["NVDA"] = 150.0
+drop({"id": "T7", "action": "open", "sym": "NVDA", "side": "short", "entry_ref": 150, "atr": 1,
+      "stop": 153, "tp": 140, "strategie": "OPP-1", "agents": AGENTS_OK, "synthese": "test"})
+run()
+d = core.load("decisions.json", [])[-1]
+check("OPP-1 sans catalyseur refusé", any("catalyseur" in m for m in d["resultat"].get("motifs", [])))
+drop({"id": "T8", "action": "open", "sym": "NVDA", "side": "short", "entry_ref": 150, "atr": 1,
+      "stop": 153, "tp": 135, "strategie": "OPP-1", "agents": AGENTS_OK, "synthese": "test",
+      "catalyseur": {"evenement": "test", "source": "test", "date": "2026-11-13"}})
+run()
+d = core.load("decisions.json", [])[-1]
+eq = core.load("status.json", {})["equity"]
+check("OPP-1 avec catalyseur exécuté", d["resultat"]["statut"] == "execute", str(d["resultat"]))
+check("OPP-1 risque limité à 0,5 % du capital", d["resultat"].get("risque_eur", 99) <= 0.005 * 507 + 0.01, str(d["resultat"].get("risque_eur")))
+
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

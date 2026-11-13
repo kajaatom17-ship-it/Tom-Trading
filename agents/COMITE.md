@@ -15,12 +15,15 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 
 1. `git pull --rebase -X ours origin main`, puis `python3 engine/brief.py` → données fraîches. Noter l'heure du brief (UTC et Paris).
 2. Si `coupe_circuit` est vrai, ou si les entrées du jour sont épuisées et qu'aucune position n'est ouverte : décision `none`, fin de réunion.
+   **Deux sujets à chaque réunion, toujours dans cet ordre :**
+   a) **Les positions ouvertes.** Par défaut on les garde : le stop et l'objectif ont été posés pour ça. On ne ferme ou on ne resserre le stop que s'il y a une vraie raison (actualité qui casse le scénario, objectif presque atteint).
+   b) **Une nouvelle entrée**, même si des positions sont déjà ouvertes, tant que les limites le permettent (3 positions, 3 entrées par jour). Le comité cherche dans TOUT l'univers : cryptos, memecoins, or, actions.
 3. Chaque analyste rend son avis **séparément** (5 à 8 lignes chacun, faits d'abord, puis avis).
 4. **Vraie discussion** (champ `discussion`) : les agents se répondent. Au moins 8 messages et 2 tours :
    tour de table des trois analystes, proposition du Trader, objections (un agent conteste un point précis d'un autre),
    réponse du Trader ou de l'analyste visé, verdict du Risk Manager. Chaque message dit à qui il répond (`repond_a`)
    et contient des chiffres réels du brief. Pas de politesse inutile, pas d'accord de façade : si un agent n'est pas d'accord, il le dit.
-5. Le Trader propose **une seule** action (ou rien).
+5. Le Trader propose au plus **deux décisions** : une sur les positions ouvertes (garder = rien à déposer) et une nouvelle entrée. Chaque décision a son propre fichier JSON et sa propre discussion.
 6. Le Risk Manager valide ou refuse. Son refus est définitif pour cette réunion.
 7. Rédiger le **compte rendu** (champ `compte_rendu`), en mots simples pour une débutante.
 6. `python engine/decide.py check decision.json`. Si les garde-fous refusent, le Risk Manager l'acte et on dépose quand même (traçabilité).
@@ -45,9 +48,29 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 Le Trader peut ajuster stop et objectif sur un niveau technique clair (support, résistance), à condition que le RR net reste ≥ 1,5.
 Un candidat qui va contre la tendance de BTC (pour un altcoin) demande un argument fort, sinon refus.
 
+## OPP-1 — l'opportunité à ne pas rater (pari de conviction)
+
+La stratégie de base (TPB-1, BRK-1) reste la priorité. OPP-1 sert uniquement quand une occasion **exceptionnelle** apparaît hors de ces règles :
+un événement réel qui change la donne (résultats d'entreprise, décision de banque centrale, régulation, faillite, chute ou envolée brutale avec une cause identifiée).
+
+Conditions, toutes obligatoires :
+- un champ `"catalyseur": {"evenement": "...", "source": "média - titre - URL", "date": "AAAA-MM-JJ HH:MM"}`, avec une source vérifiée de moins de 24 h ;
+- le mouvement n'est pas déjà entièrement fait (le prix n'a pas déjà fait l'essentiel du chemin) ;
+- RR net ≥ 2 (au lieu de 1,5), risque réduit à 0,5 % du capital, une seule OPP-1 par jour (le code l'impose) ;
+- l'analyste macro porte l'idée, le Risk Manager doit la valider explicitement comme « pari » ;
+- dans la discussion, au moins un agent joue l'avocat du diable et dit pourquoi ça pourrait rater.
+
+En marché baissier, le short est souvent la bonne idée : on peut profiter des baisses, mais sans levier et sans dépasser les limites. On ne vend jamais à découvert un actif juste parce qu'il a déjà beaucoup baissé.
+
+## Actions (xStocks Kraken)
+
+Les actions sont des jetons Kraken cotés en dollars, convertis en euros par le moteur. Les prix bougent surtout pendant la séance américaine (15:30 à 22:00 heure de Paris). Hors séance, le volume est faible : prudence.
+Avant de trader une action : vérifier son calendrier (résultats trimestriels, annonces) et la tendance du Nasdaq (QQQ) et du S&P 500 (SPY).
+Limite : 2 actions maximum dans le même sens.
+
 ## Garde-fous appliqués par le code (le comité ne peut pas les contourner)
 
-Risque 1 % du capital par trade · 3 entrées max par jour · 3 positions max · RR net ≥ 1,5 · stop entre 0,8 % et 8 % ·
+Risque 1 % du capital par trade (0,5 % pour OPP-1) · 3 entrées max par jour · 3 positions max · RR net ≥ 1,5 · stop entre 0,8 % et 8 % ·
 spread ≤ 0,30 % · volume 24 h ≥ 40 000 € · 2 altcoins max dans le même sens · perte du jour max 3 % · coupe-circuit à 15 % de drawdown ·
 durée max 24 h (72 h max) · ordre expiré si le prix a bougé de plus de 0,5 ATR. Frais Kraken simulés : 0,40 % au marché, 0,25 % en limite, plus slippage.
 

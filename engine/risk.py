@@ -3,7 +3,7 @@
 Le Risk Manager IA donne son avis ; ces regles sont la derniere barriere.
 Un ordre qui echoue a une seule regle n'est jamais execute.
 """
-from core import (costs_roundtrip_pct, equity, net_rr, paris_day, tier_of)
+from core import (costs_roundtrip_pct, equity, is_stock, net_rr, pair_of, paris_day, tier_of)
 
 MAJEURES_HORS_CORRELATION = {"BTC", "PAXG"}
 
@@ -27,6 +27,18 @@ def check_open(cfg, state, prop, tick, prices):
         return False, reasons, None
 
     stop, tp = float(prop["stop"]), float(prop["tp"])
+    stock = is_stock(pair_of(cfg, sym) or "")
+    opp = prop.get("strategie") == "OPP-1"
+    O = cfg.get("opportunite", {})
+    rr_min = O.get("rr_net_min", 2.0) if opp else R["rr_net_min"]
+    risk_pct = O.get("risque_par_trade_pct", 0.5) if opp else R["risque_par_trade_pct"]
+    if opp:
+        cat = prop.get("catalyseur") or {}
+        if not (cat.get("evenement") and cat.get("source") and cat.get("date")):
+            reasons.append("OPP-1 : il faut un catalyseur précis avec événement, source et date.")
+        n_opp = state.get("opp_par_jour", {}).get(paris_day(), 0)
+        if n_opp >= O.get("max_par_jour", 1):
+            reasons.append("OPP-1 : déjà une opportunité prise aujourd'hui.")
     tier = tier_of(cfg, sym)
     slip = F["slippage_pct_par_tier"][tier]
     fill = tick["ask"] * (1 + slip / 100) if side == "long" else tick["bid"] * (1 - slip / 100)
@@ -44,8 +56,8 @@ def check_open(cfg, state, prop, tick, prices):
         reasons.append(f"Stop trop loin ({dist_pct:.2f} % > {R['distance_stop_max_pct']} %).")
 
     rr = net_rr(cfg, sym, side, fill, stop, tp)
-    if rr < R["rr_net_min"]:
-        reasons.append(f"Ratio rendement/risque net de frais {rr:.2f} < {R['rr_net_min']}.")
+    if rr < rr_min:
+        reasons.append(f"Ratio rendement/risque net de frais {rr:.2f} < {rr_min}.")
 
     # derive de prix depuis la proposition (l'ordre arrive quelques minutes apres)
     ref = prop.get("entry_ref"); a = prop.get("atr")
@@ -57,7 +69,8 @@ def check_open(cfg, state, prop, tick, prices):
     # liquidite
     if tick["spread_pct"] > R["spread_max_pct"]:
         reasons.append(f"Spread trop large ({tick['spread_pct']:.2f} %).")
-    if tick["vol_eur"] < R["volume_24h_min_eur"]:
+    vmin = R.get("volume_24h_min_eur_actions", 2000) if stock else R["volume_24h_min_eur"]
+    if tick["vol_eur"] < vmin:
         reasons.append(f"Volume 24 h trop faible ({tick['vol_eur']:.0f} EUR).")
 
     # limites de portefeuille
@@ -68,8 +81,13 @@ def check_open(cfg, state, prop, tick, prices):
         reasons.append(f"Déjà {R['max_positions_ouvertes']} positions ouvertes.")
     if any(p["sym"] == sym for p in state["positions"]):
         reasons.append(f"Une position {sym} est déjà ouverte.")
-    if sym not in MAJEURES_HORS_CORRELATION:
-        same = [p for p in state["positions"] if p["side"] == side and p["sym"] not in MAJEURES_HORS_CORRELATION]
+    if stock:
+        same = [p for p in state["positions"] if p["side"] == side and is_stock(p.get("pair", ""))]
+        if len(same) >= R.get("max_actions_meme_sens", 2):
+            reasons.append(f"Déjà {len(same)} actions dans le même sens (risque de corrélation).")
+    elif sym not in MAJEURES_HORS_CORRELATION:
+        same = [p for p in state["positions"] if p["side"] == side and p["sym"] not in MAJEURES_HORS_CORRELATION
+                and not is_stock(p.get("pair", ""))]
         if len(same) >= R["max_alts_meme_sens"]:
             reasons.append(f"Déjà {len(same)} altcoins dans le même sens (risque de corrélation).")
 
@@ -79,7 +97,7 @@ def check_open(cfg, state, prop, tick, prices):
         reasons.append(f"Perte du jour {day_pnl:.2f} EUR : limite journalière atteinte.")
 
     # dimensionnement : on risque au plus X % du capital, frais compris
-    risk_eur = eq * R["risque_par_trade_pct"] / 100
+    risk_eur = eq * risk_pct / 100
     per_unit = abs(fill - stop) + F["taker_pct"] / 100 * (fill + stop)
     qty = risk_eur / per_unit if per_unit > 0 else 0
     cap = eq * R["notionnel_max_pct_par_tier"][tier] / 100

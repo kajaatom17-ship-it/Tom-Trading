@@ -108,38 +108,72 @@ def kraken(method, params=None, retries=3):
     raise KrakenError(f"{method}: {last}")
 
 
+def is_stock(pair):
+    return pair.endswith("xUSD")
+
+
+_FX = {}
+
+
+def eurusd():
+    """Taux EUR/USD Kraken (1 EUR = x USD), mis en cache 10 min."""
+    if _FX.get("t", 0) > time.time() - 600:
+        return _FX["v"]
+    r = kraken("Ticker", {"pair": "EURUSD"})
+    v = float(list(r.values())[0]["c"][0])
+    _FX.update(t=time.time(), v=v)
+    return v
+
+
+def _row(v, fx=1.0):
+    last = float(v["c"][0]) / fx; bid = float(v["b"][0]) / fx; ask = float(v["a"][0]) / fx
+    op = float(v["o"]) / fx
+    return {
+        "bid": bid, "ask": ask, "last": last, "open": op,
+        "high": float(v["h"][1]) / fx, "low": float(v["l"][1]) / fx,
+        "vol_eur": r2(float(v["v"][1]) * float(v["p"][1]) / fx),
+        "spread_pct": round((ask - bid) / last * 100, 4) if last else 99,
+        "chg_pct": round((last / op - 1) * 100, 2) if op else 0,
+    }
+
+
 def tickers(universe):
-    """Retourne {sym: {bid, ask, last, open, high, low, vol_eur, spread_pct, chg_pct}}."""
-    alt = {a["pair"]: a["sym"] for a in universe}
-    names = kraken("AssetPairs", {"pair": ",".join(alt)})
-    canon = {k: alt[v["altname"]] for k, v in names.items() if v["altname"] in alt}
-    res = kraken("Ticker", {"pair": ",".join(alt)})
+    """Retourne {sym: {bid, ask, last, open, high, low, vol_eur, spread_pct, chg_pct}}, tout en EUR."""
     out = {}
-    for k, v in res.items():
-        sym = canon.get(k)
-        if not sym:
-            continue
-        last = float(v["c"][0]); bid = float(v["b"][0]); ask = float(v["a"][0])
-        op = float(v["o"])
-        out[sym] = {
-            "bid": bid, "ask": ask, "last": last, "open": op,
-            "high": float(v["h"][1]), "low": float(v["l"][1]),
-            "vol_eur": r2(float(v["v"][1]) * float(v["p"][1])),
-            "spread_pct": round((ask - bid) / last * 100, 4) if last else 99,
-            "chg_pct": round((last / op - 1) * 100, 2) if op else 0,
-        }
+    crypto = [a for a in universe if not is_stock(a["pair"])]
+    stocks = [a for a in universe if is_stock(a["pair"])]
+    if crypto:
+        alt = {a["pair"]: a["sym"] for a in crypto}
+        names = kraken("AssetPairs", {"pair": ",".join(alt)})
+        canon = {k: alt[v["altname"]] for k, v in names.items() if v["altname"] in alt}
+        for k, v in kraken("Ticker", {"pair": ",".join(alt)}).items():
+            if k in canon:
+                out[canon[k]] = _row(v)
+    if stocks:
+        try:
+            fx = eurusd()
+            alt = {a["pair"]: a["sym"] for a in stocks}
+            for k, v in kraken("Ticker", {"pair": ",".join(alt), "asset_class": "tokenized_asset"}).items():
+                if k in alt:
+                    out[alt[k]] = _row(v, fx)
+        except KrakenError as e:
+            log_event("Moteur", "erreur", f"Prix des actions indisponibles : {e}")
     return out
 
 
 def ohlc(pair, interval, since=None):
-    """Bougies Kraken : liste de dicts t,o,h,l,c,v (la derniere est en cours)."""
+    """Bougies Kraken en EUR : liste de dicts t,o,h,l,c,v (la derniere est en cours)."""
     p = {"pair": pair, "interval": interval}
     if since:
         p["since"] = int(since)
+    fx = 1.0
+    if is_stock(pair):
+        p["asset_class"] = "tokenized_asset"
+        fx = eurusd()
     res = kraken("OHLC", p)
     key = [k for k in res if k != "last"][0]
-    return [{"t": int(c[0]), "o": float(c[1]), "h": float(c[2]), "l": float(c[3]),
-             "c": float(c[4]), "v": float(c[6])} for c in res[key]]
+    return [{"t": int(c[0]), "o": float(c[1]) / fx, "h": float(c[2]) / fx, "l": float(c[3]) / fx,
+             "c": float(c[4]) / fx, "v": float(c[6])} for c in res[key]]
 
 
 # --------------------------------------------------------------- indicateurs
