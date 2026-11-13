@@ -35,6 +35,9 @@ def main():
     movers = sorted(tk.items(), key=lambda kv: -abs(kv[1]["chg_pct"]))[:8]
     out["plus_fortes_variations_24h"] = [{"sym": s, "chg_pct": t["chg_pct"], "prix": t["last"], "vol_eur": round(t["vol_eur"])} for s, t in movers]
     out["indicateurs_15m"] = sig.get("indicateurs", {})
+    v = load("veille.json", {})
+    out["veille"] = {"t": v.get("t"), "alertes_prix": v.get("alertes", [])[:15],
+                     "actus_importantes": [x for x in v.get("actus", []) if x.get("score", 0) >= 3][:25]}
     out["derniers_trades"] = load("trades.json", [])[-5:]
     out["dernieres_decisions"] = [{"id": d["id"], "action": d.get("action"), "sym": d.get("sym"),
                                    "synthese": d.get("synthese"), "resultat": d.get("resultat", {}).get("statut")}

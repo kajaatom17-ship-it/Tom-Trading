@@ -6,7 +6,7 @@ import json, os, shutil, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "publish")
 CODE = ["config.json", "README.md", "agents/COMITE.md", "engine/core.py", "engine/risk.py", "engine/strategy.py",
-        "engine/tick.py", "engine/brief.py", "engine/decide.py", "engine/pack.py", "tests/test_engine.py", "docs/index.html"]
+        "engine/tick.py", "engine/brief.py", "engine/decide.py", "engine/pack.py", "engine/veille.py", "tests/test_engine.py", "docs/index.html"]
 STATE = ["state.json", "trades.json", "decisions.json", "activite.json", "equity.json", "signals.json", "market.json", "status.json"]
 
 

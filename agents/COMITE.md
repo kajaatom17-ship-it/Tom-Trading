@@ -14,6 +14,8 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 ## Déroulé d'une réunion (dans l'ordre)
 
 1. `git pull --rebase -X ours origin main`, puis `python3 engine/brief.py` → données fraîches. Noter l'heure du brief (UTC et Paris).
+   Lire en priorité la section `veille` du brief : alertes de prix (mouvements brusques, surtout « contre nous ») et actualités marquées importantes.
+   Une alerte « contre nous » sur une position ouverte se discute EN PREMIER : garder (le stop protège) ou fermer tout de suite si l'actualité casse le scénario.
 2. Si `coupe_circuit` est vrai, ou si les entrées du jour sont épuisées et qu'aucune position n'est ouverte : décision `none`, fin de réunion.
    **Deux sujets à chaque réunion, toujours dans cet ordre :**
    a) **Les positions ouvertes.** Par défaut on les garde : le stop et l'objectif ont été posés pour ça. On ne ferme ou on ne resserre le stop que s'il y a une vraie raison (actualité qui casse le scénario, objectif presque atteint).

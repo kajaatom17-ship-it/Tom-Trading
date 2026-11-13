@@ -308,6 +308,11 @@ def main():
 
     market = load("market.json", {})
     market.update({"t": iso(), "tickers": tk, "sentiment": sentiment(market)})
+    try:
+        import veille
+        veille.run(cfg, tk, market, state)
+    except Exception as e:  # la veille ne doit jamais bloquer le moteur
+        log_event("Veille", "erreur", f"Veille indisponible : {str(e)[:150]}")
     save("market.json", market)
 
     if do_scan:

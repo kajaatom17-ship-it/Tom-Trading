@@ -183,6 +183,11 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 #pnlBadge .l1{font-size:12px;font-weight:500;opacity:.9}
 #pnlBadge .l2{font-size:22px;font-weight:700;line-height:1.15}
 #pnlBadge .l3{font-size:13px;font-weight:600;opacity:.95}
+#pnlBadge .live{font-size:11px;font-weight:500;opacity:.8;margin-top:2px;display:flex;align-items:center;gap:5px}
+#pnlBadge .live i{width:7px;height:7px;border-radius:50%;background:#fff;display:inline-block;animation:pl 2s infinite}
+@keyframes pl{50%{opacity:.25}}
+#pnlBadge.bump{animation:bp .6s}
+@keyframes bp{30%{transform:scale(1.06)}}
 @media(min-width:1024px){#pnlBadge{right:20px;bottom:20px}#pnlBadge .l2{font-size:24px}}
 #pnlPanel{position:fixed;right:12px;bottom:calc(150px + var(--safe-b));z-index:41;width:min(420px,calc(100vw - 32px));max-height:calc(100vh - 260px);overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 12px 40px rgba(0,0,0,.55)}
 @media(min-width:1024px){#pnlPanel{right:20px;bottom:100px}}
@@ -323,6 +328,12 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
     <div class="panel"><h3>Toutes les réunions</h3><div id="decList"></div></div>
   </div>
   <div class="panel">
+    <h3>Veille en direct</h3>
+    <p class="hint" style="margin-top:-4px;margin-bottom:10px">L'agent de veille lit l'actualité crypto, bourse et économie toutes les 10 minutes (Cointelegraph, Decrypt, CoinDesk, MarketWatch, Investing, Google Actualités) et surveille les mouvements brusques de prix toutes les 5 minutes.</p>
+    <div id="veilleAlerts"></div>
+    <div class="rows" id="veilleNews"></div>
+  </div>
+  <div class="panel">
     <h3>Signaux du scanner</h3>
     <div class="rows" id="sigTable"></div>
     <p class="hint">Le scanner applique les règles TPB-1 (repli dans la tendance) et BRK-1 (cassure avec volume) toutes les 5 minutes. Il propose, le comité décide.</p>
@@ -344,12 +355,12 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 </section>
 </main>
 
-<button id="pnlBadge" class="flat" aria-expanded="false" aria-controls="pnlPanel"><div class="l1">Chargement…</div><div class="l2 num">—</div><div class="l3 num">—</div></button>
+<button id="pnlBadge" class="flat" aria-expanded="false" aria-controls="pnlPanel"><div class="l1">Chargement…</div><div class="l2 num">—</div><div class="l3 num">—</div><div class="live"><i></i><span id="pnlLive">en direct</span></div></button>
 <div id="pnlPanel" hidden><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><h3 style="margin:0">Où on en est</h3><button id="pnlClose" style="font-size:14px;color:var(--muted)">Fermer</button></div><div id="pnlBody"></div></div>
 <script>
 "use strict";
 const K = "https://api.kraken.com/0/public/";
-const S = {cfg:null,state:null,trades:[],decisions:[],act:[],equity:[],signals:{},market:{},status:{},tk:{},sel:"BTC",tf:15,charts:{}};
+const S = {veille:{},cfg:null,state:null,trades:[],decisions:[],act:[],equity:[],signals:{},market:{},status:{},tk:{},sel:"BTC",tf:15,charts:{}};
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const eur = (v, d=2) => v==null||isNaN(v) ? "—" : v.toLocaleString("fr-FR",{minimumFractionDigits:d,maximumFractionDigits:d})+" €";
@@ -368,7 +379,7 @@ async function kraken(method, params){ const r=await fetch(K+method+"?"+new URLS
 
 /* ---------- donnees du moteur (portefeuille, agents) ---------- */
 async function loadEngine(){
-  const files = {cfg:"config.json",state:"data/state.json",trades:"data/trades.json",decisions:"data/decisions.json",act:"data/activite.json",equity:"data/equity.json",signals:"data/signals.json",market:"data/market.json",status:"data/status.json"};
+  const files = {cfg:"config.json",state:"data/state.json",trades:"data/trades.json",decisions:"data/decisions.json",act:"data/activite.json",equity:"data/equity.json",signals:"data/signals.json",market:"data/market.json",status:"data/status.json",veille:"data/veille.json"};
   await Promise.all(Object.entries(files).map(async([k,p])=>{ try{ S[k]=await getJSON(p); }catch(e){} }));
   if(!Object.keys(S.tk).length && S.market.tickers) S.tk = S.market.tickers;
   renderAll();
@@ -405,7 +416,7 @@ function equityLive(){
 }
 
 /* ---------- rendu ---------- */
-function renderAll(){ renderEngineStatus(); renderHome(); renderBadge(); renderWatchlist(); renderPositions(); renderAgents(); renderStats(); }
+function renderAll(){ renderEngineStatus(); renderHome(); renderBadge(); try{renderVeille();}catch(e){} renderWatchlist(); renderPositions(); renderAgents(); renderStats(); }
 function renderLive(){ renderTop(); renderHomeNumbers(); renderHomePositions(); renderBadge(); renderWatchlist(); renderPositions(true); renderChartHead(); }
 
 function renderEngineStatus(){
@@ -415,6 +426,7 @@ function renderEngineStatus(){
   el.innerHTML=h; $("engineStatus2").innerHTML=h;
 }
 function renderLiveStatus(){
+  const el=document.getElementById("pnlLive"); if(el){ const sec=S.live?Math.round((Date.now()-S.live)/1000):null; el.textContent=sec==null?"connexion…":sec<8?"en direct · à l'instant":`en direct · il y a ${sec} s`; }
   const ok=S.live&&Date.now()-S.live<20000;
   $("liveStatus").innerHTML=`<span class="dot ${ok?"ok":S.live?"late":"bad"}"></span><span>${ok?"connecté":S.liveErr?"indisponible":"connexion…"}</span>`;
 }
@@ -482,7 +494,8 @@ function renderBadge(){
   const ps=S.state.positions; const b=$("pnlBadge");
   const st=d>0.005?"win":d<-0.005?"loss":"flat"; b.className=st;
   b.querySelector(".l1").textContent=ps.length?`Total · ${ps.length} position${ps.length>1?"s":""} en cours`:"Total depuis le départ";
-  b.querySelector(".l2").textContent=sgn(d);
+  const txt=sgn(d); if(S.lastBadge&&S.lastBadge!==txt){ b.classList.remove("bump"); void b.offsetWidth; b.classList.add("bump"); } S.lastBadge=txt;
+  b.querySelector(".l2").textContent=txt;
   b.querySelector(".l3").textContent=pctS(dp);
   const pend=ps.map(guide).join("");
   $("pnlBody").innerHTML=`<p class="muted" style="font-size:13px;margin-bottom:10px">Depuis le départ (${eur(init,0)} fictifs), frais compris : <b class="${cls(d)}">${sgn(d)} (${pctS(dp)})</b>. Valeur actuelle : <b>${eur(e.eq)}</b>.</p>`+(pend||`<div class="empty">Aucune position ouverte. Le comité attend une bonne occasion.</div>`);
@@ -493,6 +506,7 @@ $("pnlClose").addEventListener("click",()=>{$("pnlPanel").hidden=true; $("pnlBad
 function renderAlerts(){
   const a=[]; const st=S.state;
   if(!st) a.push(`<div class="banner">Le moteur n'a pas encore tourné. Les données apparaîtront après son premier passage.</div>`);
+  (S.veille?.alertes||[]).filter(x=>x.position==="contre nous"&&(Date.now()-new Date(x.t))<3600e3).forEach(x=>a.push(`<div class="banner bad">Alerte veille : ${esc(x.sym)} ${pctS(x.variation_pct)} en ${esc(x.horizon)}, contre notre position. Le stop-loss reste en place.</div>`));
   if(st?.coupe_circuit) a.push(`<div class="banner bad">Coupe-circuit actif : le portefeuille a perdu plus de 15 % depuis son plus haut. Plus aucune entrée jusqu'à la revue.</div>`);
   if(S.status.t && (Date.now()-new Date(S.status.t))/60000>40) a.push(`<div class="banner bad">Le moteur n'a pas tourné depuis ${ago(S.status.t).replace("il y a ","")}. Vérifie l'onglet Actions sur GitHub.</div>`);
   $("alerts").innerHTML=a.join("");
@@ -558,6 +572,12 @@ function renderAgents(){
   $("sigTable").innerHTML=c.length?c.map(s=>`<div class="row click" data-go="${esc(s.sym)}"><div><div class="t">${esc(s.sym)}<span class="pill ${s.side}">${s.side}</span><span class="pill n">${esc(s.strategie)}</span></div><div class="s">${esc(s.pourquoi)}${(s.alertes||[]).length?` <span style="color:var(--amber)">${esc(s.alertes.join(", "))}</span>`:""}</div></div><div class="r num"><div>score ${s.score}</div><div class="s ${s.rr_net>=1.5?"up":"down"}">RR net ${String(s.rr_net).replace(".",",")}</div></div></div>`).join(""):`<div class="empty">Aucun signal au dernier scan (${ago(S.signals.t)}). Tendance BTC 1 h : ${esc(S.signals.btc_trend_1h||"—")}.</div>`;
 }
 
+function renderVeille(){
+  const v=S.veille||{}; const al=v.alertes||[];
+  $("veilleAlerts").innerHTML=al.length?al.slice(0,8).map(a=>`<div class="banner ${a.position==="contre nous"?"bad":""}" style="margin-bottom:8px;${a.variation_pct>0&&a.position!=="contre nous"?"color:var(--up);border-color:rgba(43,196,138,.3);background:rgba(43,196,138,.08)":""}"><b>${esc(a.sym)}</b> ${pctS(a.variation_pct)} en ${esc(a.horizon)}${a.position?` · position ${esc(a.position)}`:""} <span class="faint">· ${hm(a.t)}</span></div>`).join(""):`<p class="muted" style="font-size:14px;margin-bottom:8px">Aucun mouvement brusque détecté sur les 47 actifs.</p>`;
+  const news=(v.actus||[]).filter(x=>x.score>=2).slice(0,25);
+  $("veilleNews").innerHTML=news.length?news.map(x=>`<div class="row"><div><div style="font-size:14px"><a href="${esc(x.lien)}" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none">${esc(x.titre)}</a></div><div class="s">${esc(x.source)} · ${ago(x.t)}${x.themes?.length?" · "+x.themes.map(esc).join(", "):""}${x.actifs?.length?` · <b style="color:var(--amber)">${x.actifs.map(esc).join(", ")}</b>`:""}</div></div><div class="r"><span class="pill ${x.score>=4?"short":"n"}" style="margin:0">${x.score>=4?"important":"à suivre"}</span></div></div>`).join(""):`<div class="empty">Pas encore d'actualités : elles arrivent au prochain passage du moteur.</div>`;
+}
 /* ---------- positions & historique ---------- */
 function renderPositions(liveOnly){
   const ps=S.state?.positions||[];
