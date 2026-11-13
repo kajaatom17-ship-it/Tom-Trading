@@ -1,6 +1,6 @@
 # Protocole du comité d'agents — Trading Desk IA (paper trading)
 
-Ce fichier est lu par Claude à chaque réunion du comité (tâche planifiée, toutes les heures).
+Ce fichier est lu par Claude à chaque réunion du comité (deux tâches planifiées décalées, une réunion toutes les 30 minutes).
 Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/data/`.
 
 ## Règles non négociables
@@ -19,7 +19,7 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 2. Si `coupe_circuit` est vrai, ou si les entrées du jour sont épuisées et qu'aucune position n'est ouverte : décision `none`, fin de réunion.
    **Deux sujets à chaque réunion, toujours dans cet ordre :**
    a) **Les positions ouvertes.** Par défaut on les garde : le stop et l'objectif ont été posés pour ça. On ne ferme ou on ne resserre le stop que s'il y a une vraie raison (actualité qui casse le scénario, objectif presque atteint).
-   b) **Une nouvelle entrée**, même si des positions sont déjà ouvertes, tant que les limites le permettent (3 positions, 3 entrées par jour). Le comité cherche dans TOUT l'univers, avec ces priorités : **bourse (actions, ETF, indices) et crypto au même niveau, à scruter avec le même soin** ; l'or juste derrière ; les memecoins en second plan (seulement si un signal ou un pari OPP-1 est vraiment net). Le brief marque chaque candidat « prioritaire » ou « secondaire ».
+   b) **Une nouvelle entrée**, même si des positions sont déjà ouvertes, tant que les limites le permettent (3 positions, 3 entrées par jour). Le comité cherche dans TOUT l'univers, avec ces priorités : **bourse (actions, ETF, indices), crypto et memecoins au même niveau, à scruter avec le même soin** ; l'or juste derrière. Le brief marque chaque candidat « prioritaire » ou « secondaire ».
 3. Chaque analyste rend son avis **séparément** (5 à 8 lignes chacun, faits d'abord, puis avis).
 4. **Vraie discussion** (champ `discussion`) : les agents se répondent. Au moins 8 messages et 2 tours :
    tour de table des trois analystes, proposition du Trader, objections (un agent conteste un point précis d'un autre),
@@ -38,9 +38,23 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 | **Analyste technique** | Candidats du scanner, indicateurs 15 min (EMA20/50, RSI, MACD, ATR, volume), tendance 1 h, tendance de BTC. Peut récupérer d'autres bougies Kraken (`/0/public/OHLC`). | Ne parle pas d'actualité. |
 | **Analyste macro & actualités** | Calendrier économique du jour (Fed, BCE, CPI, emploi US), actualités réglementaires, actualité spécifique au candidat. Recherche web, sources datées. Signale toute annonce majeure dans les 2 heures. | Ne lit pas les graphiques. |
 | **Analyste sentiment** | Fear & Greed, dominance BTC, variation de la capitalisation totale, plus fortes variations 24 h, comportement des memecoins (euphorie ?). | Ne prend jamais une tendance des réseaux sociaux comme preuve suffisante. |
+| **Spécialiste memecoins** | DOGE, SHIB, PEPE, TRUMP, WIF, BONK, PENGU (bloc `memecoins` du brief + alertes de prix + actualités marquées « meme »). Il lit les mouvements violents : impulsion (bougies 15 min, volume très au-dessus de la normale), extension, épuisement (mèches, volume qui baisse, RSI extrême), retour sur la zone. Dit si le mouvement est « poursuivable » ou « déjà fini ». Vérifie le spread et la profondeur du carnet (`/0/public/Depth`) avant tout avis. | Ne propose jamais d'entrer sur une bougie verticale (plus de 2,5 ATR depuis le dernier creux). Ne se fie pas aux réseaux sociaux comme preuve. Ne dépasse jamais les garde-fous de taille. |
 | **Trader** | Synthèse des trois avis. Propose : actif, sens, entrée de référence, stop, objectif, stratégie (TPB-1 / BRK-1), durée max, arguments pour et contre, confiance qualitative. | Ne présente jamais un scénario comme certain. N'invente pas de nouvelle stratégie. |
 | **Risk Manager** | Taille, perte max, corrélation avec les positions ouvertes, liquidité, spread, événements macro proches, RR net de frais ≥ 1,5. Verdict `valide` ou `refuse` + motif. | Ne valide pas pour « faire tourner » le portefeuille. |
 | **Superviseur** (1×/jour, réunion de 21 h) | Bilan du jour : trades, refus, occasions manquées, erreurs. Revue hebdomadaire le dimanche : propose des changements de règles **avec données**, sans les appliquer seul. | Ne change pas la stratégie après une seule perte. |
+
+## Mode memecoins : vif, court, discipliné
+
+Les memecoins sont suivis avec le même soin que la bourse et les cryptos principales. Le spécialiste memecoins parle à chaque réunion, même pour dire « rien de propre ». Ils bougent par vagues : impulsion violente, extension, puis retour rapide de 50 à 70 % du mouvement. Le piège est d'entrer au sommet de la vague.
+
+Règles du comité pour eux :
+1. **Ne pas poursuivre.** Pas d'entrée sur une bougie verticale. On entre après un retour sur la zone (TPB-1) ou sur une cassure confirmée avec volume (BRK-1), en préparant si besoin un ordre en attente `stop` juste au-dessus du plus haut (ou en dessous du plus bas pour un short).
+2. **Les deux sens.** Un memecoin épuisé (mèche haute, volume qui baisse, RSI très élevé) est un bon short à étudier, avec le stop au-dessus de la mèche.
+3. **Court terme.** `duree_max_h` entre 2 et 6 h. Objectif 3R, puis le trader de garde protège à +1R et laisse courir les gains.
+4. **Vérifier la liquidité avant tout.** Spread, profondeur du carnet, volume des 24 h. Spread au-dessus de 0,30 % : pas d'ordre.
+5. **Réactivité.** Une réunion toutes les 30 minutes, et les alertes de prix de la veille sur les memecoins se lisent en premier. Un mouvement de plus de 5 % en 15 minutes se discute tout de suite : garder, resserrer le stop ou prendre les gains.
+6. **Corrélation.** Les memecoins suivent BTC. Si BTC casse un support en 15 min, les positions memecoins sont revues en premier. Maximum 2 altcoins dans le même sens (garde-fou du code).
+7. **Pas de pari sans plan.** Chaque entrée a un stop, un objectif et une raison écrite. « Ça monte » n'est pas une raison.
 
 ## Stratégies autorisées (v1)
 

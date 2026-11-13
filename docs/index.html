@@ -324,7 +324,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 <section id="agents" hidden class="stack">
   <div class="panel">
     <h2>Dernière réunion du comité</h2>
-    <p class="hint" style="margin-top:-6px;margin-bottom:8px">Entre les réunions, le trader de garde (le moteur) surveille tout toutes les 5 minutes : il protège les gains et peut entrer seul sur un signal exceptionnel, avec un risque réduit. Le comité se réunit toutes les heures et contrôle ce qu'il a fait. Chaque agent a son rôle : il donne son avis, conteste les autres, puis le Risk Manager tranche.</p>
+    <p class="hint" style="margin-top:-6px;margin-bottom:8px">Entre les réunions, le trader de garde (le moteur) surveille tout toutes les 5 minutes : il protège les gains et peut entrer seul sur un signal exceptionnel, avec un risque réduit. Le comité se réunit toutes les 30 minutes et contrôle ce qu'il a fait. Chaque agent a son rôle : il donne son avis, conteste les autres, puis le Risk Manager tranche.</p>
     <div id="lastMeeting"></div>
   </div>
   <div class="grid g2e">
@@ -565,7 +565,7 @@ function crView(d){
 const SEATS=[["analyste_technique","Technique","AT"],["analyste_macro","Macro & news","MA"],["analyste_sentiment","Sentiment","SE"],["trader","Trader","TR"],["risk_manager","Risk Manager","RM"]];
 function tone(a){ const v=(a?.verdict||a?.avis||"").toLowerCase(); if(/refus|defavorable|défavorable|contre|baissier|\bnon\b/.test(v)) return "neg"; if(/valide|favorable|haussier|achat|\bok\b/.test(v)) return "fav"; return "neu"; }
 function committeeView(d, compact){
-  if(!d) return `<div class="empty">Pas encore de réunion. Le comité se réunit toutes les heures.</div>`;
+  if(!d) return `<div class="empty">Pas encore de réunion. Le comité se réunit toutes les 30 minutes.</div>`;
   const ag=d.agents||{}; const res=d.resultat||{};
   const seats=SEATS.map(([k,n,i])=>{ const a=ag[k]||{}; const v=a.verdict||a.avis||"—"; return `<div class="seat ${tone(a)}"><div class="av">${i}</div><div class="nm">${n}</div><div class="vd">${esc(v)}</div></div>`; }).join("");
   const st=res.statut||"en attente d'exécution"; const vc=st==="execute"?"ok":/refus|bloque/.test(st)?"no":"";

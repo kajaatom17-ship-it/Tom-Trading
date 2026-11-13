@@ -58,6 +58,10 @@ def main():
     for c in out["scanner"]["candidats"]:
         c["priorite"] = "prioritaire" if cat.get(c["sym"]) in focus else "secondaire"
     out["scanner"]["candidats"].sort(key=lambda c: c["priorite"] != "prioritaire")
+    memes = [a["sym"] for a in cfg["univers"] if a["cat"] == "Meme"]
+    out["memecoins"] = [{"sym": s, "prix": tk[s]["last"], "chg_24h_pct": tk[s]["chg_pct"], "spread_pct": tk[s]["spread_pct"],
+                         "vol_24h_eur": round(tk[s]["vol_eur"]), "indicateurs_15m": sig.get("indicateurs", {}).get(s)}
+                        for s in memes if s in tk]
     out["derniers_trades"] = load("trades.json", [])[-5:]
     out["dernieres_decisions"] = [{"id": d["id"], "action": d.get("action"), "sym": d.get("sym"),
                                    "synthese": d.get("synthese"), "resultat": d.get("resultat", {}).get("statut")}
