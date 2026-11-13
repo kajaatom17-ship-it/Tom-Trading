@@ -113,5 +113,39 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 16 signal(aux) : ADA short (TPB-1, 70), LINK short (TPB-1, 70), ONDO short (TPB-1, 70)"
+ },
+ {
+  "t": "2026-11-13T16:01:38Z",
+  "agent": "Execution",
+  "type": "ordre en attente",
+  "msg": "Ordre O0002 : on vend à découvert ADA si le prix passe sous 0.1533 (valable jusqu'à 20:01 UTC)"
+ },
+ {
+  "t": "2026-11-13T16:01:43Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Earnings call transcript: Suncrete Q3 2026 revenue jumps, but guidance cut hits shares (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-suncrete-q3-2026-revenue-jumps-but-guidance-cut-hits-shares-93CH-5026119",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-13T16:01:43Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "INJ +2.71 % en 15 min"
+ },
+ {
+  "t": "2026-11-13T16:01:43Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "CRCL +1.68 % en 15 min"
+ },
+ {
+  "t": "2026-11-13T16:02:44Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : MSFT long (BRK-1, 27)"
  }
 ]

@@ -110,5 +110,127 @@
    "plafonne": true
   },
   "traite_le": "2026-11-13T14:54:03Z"
+ },
+ {
+  "action": "pending",
+  "sym": "ADA",
+  "side": "short",
+  "type_ordre": "stop",
+  "declencheur": 0.1533,
+  "stop": 0.1578,
+  "tp": 0.1413,
+  "atr": 0.000876,
+  "expire_h": 4,
+  "strategie": "TPB-1",
+  "duree_max_h": 24,
+  "confiance": "faible a moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "favorable sous condition",
+    "resume": "Scanner 15:52 UTC : ADA short TPB-1 (entrée 0,15367, stop 0,15781, objectif 0,14126, RR net 2,05). Tendance 1 h baissière, BTC 1 h baissière. Mais à 16:01 UTC le ticker Kraken donne ADA 0,15558, revenu au-dessus de l'EMA20 15 min (0,15541) : le signal a bougé de ~2 ATR, il ne faut pas entrer au marché. BTC est remonté de 61 786 à 62 406 € après un RSI 15 min de 30,6. Je ne veux un short que si le creux récent 0,1534 casse.",
+    "donnees": "Kraken OHLC 15 min (brief 16:00 UTC) + Ticker 16:01 UTC"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Marchés actions sous pression depuis le 5 novembre (correction tech après les midterms). Jensen Huang a démissionné de Nvidia le 12/11 (NVDA -4 % à la clôture), NVDA légèrement en hausse ce 13/11 selon CNBC. Bloomberg 13/11 14:52 UTC : actions US hésitantes avant un test d'inflation pour les paris sur la Fed. Aucune annonce majeure confirmée dans les 2 h ; week-end ensuite. Rien de spécifique à Cardano.",
+    "sources": [
+     "Nvidia stock inches higher as investors continue to weigh Jensen Huang's departure - CNBC - 2026-11-13 - https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html",
+     "Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation - CNBC - 2026-11-12 - https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+     "US Stocks Drift Before Inflation Test of Fed Bets: Markets Wrap - Bloomberg - 2026-11-13 14:52 UTC (via veille du brief)",
+     "Bitcoin erases post-election gains as Wall Street selloff triggers over $1 billion in crypto liquidations - The Block - 2026-11-05 - https://theblock.co/news/markets/2026-11-05-bitcoin-erases-post-election-gains-wall-street-selloff-liquidations-435434"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 20 (peur extrême), capitalisation totale -5,14 % sur 24 h, dominance BTC 58,89 %. ETH -4 % sur 24 h. En peur extrême, les rebonds de court terme sont brutaux : BTC vient d'en faire un de +1 %. Les memecoins ne sont pas euphoriques (PEPE +3,35 % 24 h, reste calme). Je refuse une vente au marché ; une entrée conditionnelle à la cassure est acceptable."
+   },
+   "trader": {
+    "proposition": "Ordre en attente : short ADA de type stop, déclenché à 0,1533 (sous le creux récent 0,1534), stop 0,1578 (au-dessus du haut récent 0,157548), objectif 0,1413, expiration 4 h. Position PEPE gardée sans changement.",
+    "pour": [
+     "Tendance 1 h ADA et BTC baissière",
+     "Volume ADA 2,22x la moyenne sur la rechute",
+     "On n'entre que si la baisse reprend vraiment, pas en retard",
+     "RR brut ~2,7 sur l'objectif du scanner"
+    ],
+    "contre": [
+     "BTC rebondit depuis un RSI 30,6, peur extrême",
+     "Deuxième altcoin short avec PEPE : risques corrélés (2 % si les deux stops sautent)",
+     "Stop large (~2,9 %)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Ordre conditionnel, risque 1 % fixé par le code, 2 altcoins short = limite atteinte mais respectée, 1 entrée sur 3 aujourd'hui, 1 position sur 3. Pas d'annonce majeure confirmée dans les 2 h. Garde-fous re-vérifiés au déclenchement."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Point positions d'abord : PEPE short, entrée 4,0669e-6, prix 4,086e-6, perte latente -0,47 €, stop 4,184e-6 intact. Aucune raison technique de couper. Pour l'entrée : le scanner signalait ADA short à 0,15367, mais ADA est à 0,15558 au ticker de 16:01, au-dessus de l'EMA20 15 min (0,15541)."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Côté actu, rien qui casse le scénario PEPE. Huang a quitté Nvidia hier, NVDA -4 % à la clôture, légère reprise aujourd'hui (CNBC 13/11). Pas d'annonce majeure confirmée dans les 2 h, puis week-end."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed 20, capi totale -5,14 %. BTC est passé de 61 786 à 62 406 € en quelques minutes : c'est exactement le rebond violent de la peur extrême. Shorter ADA maintenant serait courir derrière un signal périmé."
+   },
+   {
+    "agent": "trader",
+    "message": "D'accord : je ne propose pas d'entrée au marché. Je propose un ordre stop short ADA à 0,1533, sous le creux 0,1534, stop 0,1578, objectif 0,1413, expiration 4 h. On ne vend que si la rechute reprend. PEPE : on garde."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Ton stop à 0,1578 fait ~2,9 % de risque sur le prix. Avec PEPE short à côté, on a deux paris sur la même baisse crypto. Si BTC rebondit, on perd les deux."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "Exact, la corrélation est réelle. Mais la taille est calculée par le code pour 1 % du capital, donc ~5 € de perte max sur ADA, ~3,65 € sur PEPE : 1,7 % du capital au pire. Et si BTC rebondit, l'ordre ADA ne se déclenche simplement pas."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "Je préfère LINK pour le RR (2,19), mais LINK est aussi remonté à 8,99 contre 8,899. ADA est le plus proche de son EMA20, c'est le moins étiré. Je soutiens l'ordre conditionnel sur ADA."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Je vérifie : 1 position ouverte sur 3, 1 entrée sur 3 aujourd'hui, ADA serait le 2e altcoin short, c'est la limite. Spread ADA ~0,11 % (0,155468/0,155641). Pas d'annonce dans les 2 h."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Validé en ordre en attente, expiration 4 h. Si decide.py refuse pour RR ou prix, on ne déplace rien : décision none. PEPE gardé tel quel, le trader de garde gère la protection à +1R."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "La position PEPE (pari à la baisse) perd 0,47 € : on la garde, le stop protège.",
+    "Le scanner voyait des ventes sur ADA, LINK, ONDO, mais les prix sont remontés juste après : entrer maintenant serait entrer en retard.",
+    "Le marché crypto est en peur extrême (indice 20) et BTC vient de rebondir.",
+    "Aucune annonce économique majeure confirmée dans les 2 prochaines heures."
+   ],
+   "desaccords": [
+    "L'analyste sentiment s'inquiète d'avoir deux paris liés à la même baisse (PEPE et ADA).",
+    "L'analyste technique préférait LINK pour son meilleur ratio, mais LINK est plus étiré."
+   ],
+   "decision": "On garde PEPE et on place un ordre en attente : vente d'ADA seulement si son prix casse 0,1533 dans les 4 prochaines heures.",
+   "a_surveiller": [
+    "Un retour de BTC au-dessus de 63 000 € annulerait l'idée.",
+    "Si l'ordre ADA se déclenche, le risque total crypto à la baisse atteint ~1,7 % du capital."
+   ]
+  },
+  "synthese": "On garde le pari à la baisse sur PEPE et on pose un piège : on ne vend ADA que si son prix recasse sous 0,1533, sinon rien ne se passe.",
+  "id": "D-20261113-160126",
+  "cree_le": "2026-11-13T16:01:26Z",
+  "resultat": {
+   "statut": "execute",
+   "ordre_id": "O0002"
+  },
+  "traite_le": "2026-11-13T16:01:38Z"
  }
 ]
