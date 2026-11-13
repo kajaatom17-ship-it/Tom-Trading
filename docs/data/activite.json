@@ -187,5 +187,57 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 8 signal(aux) : PEPE short (TPB-1, 60), PENGU short (TPB-1, 40), ADA short (TPB-1, 30)"
+ },
+ {
+  "t": "2026-11-13T17:57:58Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "Le comité ne prend pas de nouveau trade : rien ne rapporte assez par rapport au risque. On garde le pari à la baisse sur PEPE (petite perte de 0,59 € fictifs pour l'instant) et le piège sur ADA."
+ },
+ {
+  "t": "2026-11-13T17:58:02Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Earnings call transcript: Elite Pharmaceuticals Q2 2027 revenue rises 10% as stock jumps (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-elite-pharmaceuticals-q2-2027-revenue-rises-10-as-stock-jumps-93CH-5026262",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-13T17:58:02Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, banque centrale] Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally (Decrypt)",
+  "data": {
+   "lien": "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-13T17:58:02Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, banque centrale] Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally - Yahoo Finance (Yahoo Finance)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRUVhbWQ5aU1SMExHYTRIeHhhYjZ6Nll0elk5VDQxNzl2czM3aFNFY2ExSXd0VEZlZmh6OE5TYV9Ib1RWOWlNM3k1S1Btb0ZwLXV2Zkt5OE9rbTM3RlFVODlmbjJ1ZURYQkxSNVk2QWVHM1Z2djA3dmV6QnBUTGZOdnNMM3prVGpxZjhwYkh1R2NhMVE?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-13T17:58:02Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "AVGO +1.96 % en 15 min"
+ },
+ {
+  "t": "2026-11-13T17:59:01Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : BONK long (BRK-1, 30), FET long (TPB-1, 25)"
  }
 ]
