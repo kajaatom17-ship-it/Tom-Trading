@@ -96,11 +96,24 @@ PRICES["SOL"] = 109.1
 run()
 st = core.load("state.json", None)
 tr = core.load("trades.json", [])
-check("position fermee a l'objectif", len(st["positions"]) == 0 and tr and tr[-1]["raison_sortie"] == "objectif atteint")
-exp_net = p["qty"] * 109 * (1 - 0.0025) - p["notionnel"] * 1.004
-check("PnL net = gain - frais entree 0,40 % - frais sortie 0,25 %", abs(tr[-1]["pnl_net"] - round(exp_net, 2)) < 0.011,
+check("objectif : moitié encaissée, le reste court", len(st["positions"]) == 1 and st["positions"][0].get("runner")
+      and tr and tr[-1]["raison_sortie"].startswith("objectif atteint"))
+exp_net = 0.5 * (p["qty"] * 109 * (1 - 0.0025) - p["notionnel"] * 1.004)
+check("PnL net de la moitié = gain - frais entrée - frais sortie", abs(tr[-1]["pnl_net"] - round(exp_net, 2)) < 0.011,
       f"pnl {tr[-1]['pnl_net']} vs {exp_net:.2f}")
-check("cash final coherent", abs(st["cash"] - (500 + exp_net)) < 0.01, f"cash {st['cash']:.2f}")
+run_p = st["positions"][0]
+check("stop du reste verrouille du profit", run_p["stop"] > p["entry"], f"stop {run_p['stop']}")
+# le prix continue a monter puis redescend : le stop suiveur ferme avec un gain
+t0b = int(time.time()) - 120
+CANDLES["SOLEUR"] = [{"t": t0b, "o": 109, "h": 115, "l": 108.9, "c": 114.5, "v": 1},
+                     {"t": t0b + 60, "o": 114.5, "h": 114.6, "l": 110, "c": 110.5, "v": 1},
+                     {"t": t0b + 120, "o": 110.5, "h": 110.6, "l": 110.4, "c": 110.5, "v": 1}]
+st["positions"][0]["verifie_jusqu_a"] = core.iso(core.now_utc().fromtimestamp(t0b - 1, tz=core.now_utc().tzinfo))
+core.save("state.json", st); PRICES["SOL"] = 110.5
+run()
+st = core.load("state.json", None); tr = core.load("trades.json", [])
+check("stop suiveur ferme le reste avec un gain", not st["positions"] and tr[-1]["pnl_net"] > 0 and "suiveur" in tr[-1]["raison_sortie"],
+      f"{tr[-1]['raison_sortie']} {tr[-1]['pnl_net']}")
 
 # 4. short ETH touche par le stop
 PRICES["ETH"] = 3000.0

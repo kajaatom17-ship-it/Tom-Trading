@@ -51,6 +51,54 @@ def close_position(cfg, state, p, exit_px, reason, when=None, maker=False):
     return trade
 
 
+def partial_close(cfg, state, p, frac, exit_px, reason, when, maker=True):
+    """Encaisse une partie de la position ; le reste continue."""
+    part = dict(p)
+    for k in ("qty", "notionnel", "frais_entree", "risque_eur"):
+        part[k] = p[k] * frac
+        p[k] = p[k] * (1 - frac)
+    part["rollover"] = p.get("rollover", 0) * frac
+    p["rollover"] = p.get("rollover", 0) * (1 - frac)
+    part["id"] = p["id"] + "a"
+    state["positions"].append(part)
+    close_position(cfg, state, part, exit_px, reason, when, maker=maker)
+
+
+def runner_step(cfg, p, c):
+    """Position « laissée courir » : le stop suit le meilleur prix à 1R, il ne recule jamais."""
+    L = cfg.get("trader_de_garde", {}).get("laisser_courir", {})
+    dist = L.get("stop_suiveur_R", 1.0) * abs(p["entry"] - p["stop_initial"])
+    if p["side"] == "long":
+        p["meilleur"] = max(p.get("meilleur", p["entry"]), c["h"])
+        new = p["meilleur"] - dist
+        if new > p["stop"]:
+            p["stop"] = new
+    else:
+        p["meilleur"] = min(p.get("meilleur", p["entry"]), c["l"])
+        new = p["meilleur"] + dist
+        if new < p["stop"]:
+            p["stop"] = new
+
+
+def take_profit(cfg, state, p, when):
+    """Objectif atteint : soit on ferme tout, soit on encaisse la moitié et on laisse courir le reste."""
+    L = cfg.get("trader_de_garde", {}).get("laisser_courir", {})
+    if not (L.get("actif") and not p.get("runner")):
+        close_position(cfg, state, p, p["tp"], "objectif atteint", when, maker=True)
+        return True
+    partial_close(cfg, state, p, L.get("part_encaissee", 0.5), p["tp"], "objectif atteint (moitié encaissée)", when)
+    R1 = abs(p["entry"] - p["stop_initial"])
+    p["runner"] = True
+    p["meilleur"] = p["tp"]
+    lock = p["tp"] - R1 if p["side"] == "long" else p["tp"] + R1
+    p["stop"] = max(p["stop"], lock) if p["side"] == "long" else min(p["stop"], lock)
+    p["tp"] = p["entry"] + 50 * R1 if p["side"] == "long" else max(p["entry"] - 50 * R1, p["entry"] * 0.02)
+    p["duree_max_h"] = max(p.get("duree_max_h", 24), L.get("duree_max_h", 72))
+    log_event("Trader de garde", "laisser courir",
+              f"{p['sym']} : objectif atteint, moitié encaissée. Le reste continue, stop suiveur à {rp(p['stop'])}.")
+    return False
+
+
 def manage_positions(cfg, state, tk):
     F = cfg["frais"]
     for p in list(state["positions"]):
@@ -69,16 +117,22 @@ def manage_positions(cfg, state, tk):
                 hit_stop = c["l"] <= p["stop"]; hit_tp = c["h"] >= p["tp"]
                 if hit_stop:  # prudence : si les deux sont touches dans la minute, on retient le stop
                     px = min(c["o"], p["stop"]) * (1 - slip / 100)
-                    close_position(cfg, state, p, px, "stop-loss" if p["stop"] <= p["stop_initial"] else "stop suiveur", when); closed = True; break
+                    close_position(cfg, state, p, px, ("stop suiveur (gains encaissés)" if p.get("runner") else "stop-loss" if p["stop"] <= p["stop_initial"] else "stop protégé"), when); closed = True; break
                 if hit_tp:
-                    close_position(cfg, state, p, p["tp"], "objectif atteint", when, maker=True); closed = True; break
+                    if take_profit(cfg, state, p, when):
+                        closed = True; break
+                if p.get("runner"):
+                    runner_step(cfg, p, c)
             else:
                 hit_stop = c["h"] >= p["stop"]; hit_tp = c["l"] <= p["tp"]
                 if hit_stop:
                     px = max(c["o"], p["stop"]) * (1 + slip / 100)
-                    close_position(cfg, state, p, px, "stop-loss" if p["stop"] >= p["stop_initial"] else "stop suiveur", when); closed = True; break
+                    close_position(cfg, state, p, px, ("stop suiveur (gains encaissés)" if p.get("runner") else "stop-loss" if p["stop"] >= p["stop_initial"] else "stop protégé"), when); closed = True; break
                 if hit_tp:
-                    close_position(cfg, state, p, p["tp"], "objectif atteint", when, maker=True); closed = True; break
+                    if take_profit(cfg, state, p, when):
+                        closed = True; break
+                if p.get("runner"):
+                    runner_step(cfg, p, c)
             p["verifie_jusqu_a"] = iso(now_utc().fromtimestamp(c["t"] + 60, tz=now_utc().tzinfo))
         if closed:
             continue
@@ -292,7 +346,7 @@ def guard_protect(cfg, state, tk):
     fee = cfg["frais"]["taker_pct"] / 100
     for p in state["positions"]:
         t = tk.get(p["sym"])
-        if not t:
+        if not t or p.get("runner"):
             continue
         risk_px = abs(p["entry"] - p["stop_initial"])
         if risk_px <= 0:

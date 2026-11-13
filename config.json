@@ -412,6 +412,13 @@
       "seuil_verrouillage_R": 2.0,
       "verrouille_R": 1.0
     },
-    "note": "Agit seul toutes les 5 min, règles fixes, sans IA. Le comité contrôle ses actions à chaque réunion."
+    "note": "Agit seul toutes les 5 min, règles fixes, sans IA. Le comité contrôle ses actions à chaque réunion.",
+    "laisser_courir": {
+      "actif": true,
+      "part_encaissee": 0.5,
+      "stop_suiveur_R": 1.0,
+      "duree_max_h": 72,
+      "note": "À l'objectif : on encaisse la moitié, le reste continue avec un stop qui suit le prix à 1R. La perte, elle, reste toujours plafonnée."
+    }
   }
 }

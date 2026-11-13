@@ -64,7 +64,11 @@ Exemple : PEPE rebondit sous une résistance. Plutôt que d'entrer tout de suite
 Le moteur joue le rôle de trader de garde, toutes les 5 minutes, avec des règles fixes et sans IA :
 - **Protection** : à +1R, il remonte le stop au prix d'entrée (plus de perte possible). À +2R, il verrouille +1R de profit. Le stop ne recule jamais.
 - **Entrée seule** : sur un signal exceptionnel du scanner (score ≥ 75, RR net ≥ 2,5, aucune alerte), risque réduit à 0,5 %, une fois par jour maximum.
+- **Laisser courir les gains** : quand l'objectif est atteint, il encaisse la moitié et laisse courir le reste, avec un stop qui suit le meilleur prix à 1R. Si la baisse (ou la hausse) continue, on en profite jusqu'au bout. Durée maximale portée à 72 h.
+- **Ne rien faire est normal** : s'il n'y a ni signal exceptionnel ni gain à protéger, il n'agit pas.
 - Il exécute aussi les ordres en attente posés par le comité.
+
+Ce qui ne change JAMAIS : la perte maximale d'un trade reste fixée à l'entrée. On laisse courir les gains, jamais les pertes : on ne recule pas un stop-loss, on ne « tient » pas une position perdante en espérant qu'elle revienne.
 
 À chaque réunion, le comité commence par lire `actions_trader_de_garde` dans le brief et donne son avis : l'action était-elle bonne ? On garde ou on corrige ? Ça fait partie du compte rendu.
 
