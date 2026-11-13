@@ -199,6 +199,11 @@ def process_inbox(cfg, state, tk):
         if prop["id"] in known:
             shutil.move(path, os.path.join(ARCHIVE, os.path.basename(path)))
             continue
+        if prop.get("action") == "agenda":
+            add_agenda(prop)
+            shutil.move(path, os.path.join(ARCHIVE, os.path.basename(path)))
+            known.add(prop["id"])
+            continue
         res = execute_decision(cfg, state, prop, tk)
         prop["resultat"] = res
         prop["traite_le"] = iso()
@@ -207,12 +212,37 @@ def process_inbox(cfg, state, tk):
     save("decisions.json", decisions[-500:])
 
 
+def add_agenda(prop):
+    """Ajoute des événements au calendrier des annonces (docs/data/calendrier.json)."""
+    cal = load("calendrier.json", [])
+    known = {(e["titre"], e["quand_utc"]) for e in cal}
+    n = 0
+    for e in prop.get("evenements", []):
+        if not e.get("titre") or not e.get("quand_utc"):
+            continue
+        key = (e["titre"], e["quand_utc"])
+        if key in known:
+            continue
+        cal.append({"titre": e["titre"], "quand_utc": e["quand_utc"], "impact": e.get("impact", "moyen"),
+                    "actifs": e.get("actifs", []), "source": e.get("source", ""), "attendu": e.get("attendu", "")})
+        known.add(key); n += 1
+    limite = now_utc() - timedelta(hours=6)
+    cal = [e for e in cal if parse_iso(e["quand_utc"]) > limite]
+    cal.sort(key=lambda e: e["quand_utc"])
+    save("calendrier.json", cal[-80:])
+    if n:
+        log_event("News & Macro", "agenda", f"{n} annonce(s) ajoutée(s) au calendrier")
+    return {"statut": "execute", "ajoutes": n}
+
+
 def execute_decision(cfg, state, prop, tk):
     action = prop.get("action", "none")
     risk_ai = (prop.get("agents", {}).get("risk_manager", {}) or {}).get("verdict", "").lower()
     if action == "none":
         log_event("Comité", "aucune action", prop.get("synthese", "Le comité a décidé de ne pas trader."))
         return {"statut": "aucune action"}
+    if action == "agenda":
+        return add_agenda(prop)
     if action == "open":
         label = f"{prop.get('sym')} {prop.get('side')}"
         if risk_ai != "valide":
@@ -282,7 +312,8 @@ def place_pending(cfg, state, prop, tk):
          "declencheur": trig, "stop": float(prop["stop"]), "tp": float(prop["tp"]),
          "strategie": prop.get("strategie", "TPB-1"), "duree_max_h": prop.get("duree_max_h", 24),
          "place_le": iso(), "expire_le": iso(now_utc() + timedelta(hours=min(float(prop.get("expire_h", 4)), 24))),
-         "decision_id": prop["id"], "agents": prop.get("agents"), "catalyseur": prop.get("catalyseur")}
+         "decision_id": prop["id"], "agents": prop.get("agents"), "catalyseur": prop.get("catalyseur"),
+         "groupe": prop.get("groupe"), "evenement": prop.get("evenement"), "verifie_le": iso()}
     state.setdefault("ordres_attente", []).append(o)
     sens = "vend à découvert" if side == "short" else "achète"
     cond = ("passe sous" if side == "short" else "passe au-dessus de") if kind == "stop" else ("remonte à" if side == "short" else "redescend à")
@@ -290,8 +321,25 @@ def place_pending(cfg, state, prop, tk):
     return {"statut": "execute", "ordre_id": o["id"]}
 
 
+def _pending_hit(o, c):
+    """Prix d'exécution théorique si la bougie c déclenche l'ordre o, sinon None.
+    Si le prix ouvre en 'gap' au-delà du déclencheur, on est exécuté au prix d'ouverture (pas au déclencheur)."""
+    trig = o["declencheur"]
+    if o["type_ordre"] == "stop":
+        if o["side"] == "short":
+            return min(trig, c["o"]) if c["l"] <= trig else None
+        return max(trig, c["o"]) if c["h"] >= trig else None
+    if o["side"] == "short":
+        return max(trig, c["o"]) if c["h"] >= trig else None
+    return min(trig, c["o"]) if c["l"] <= trig else None
+
+
 def process_pending(cfg, state, tk):
-    keep = []
+    """Ordres en attente, vérifiés minute par minute (bougies 1 min) depuis la dernière vérification.
+    Autour d'une annonce, un ordre « stop » est exécuté moins bien que prévu (glissement d'annonce).
+    Ordres jumeaux (même 'groupe') : dès que l'un se déclenche, l'autre est annulé."""
+    slip_ann = float(cfg.get("ordres_attente", {}).get("slippage_annonce_pct", 0.30))
+    triggered, keep = [], []
     for o in state.get("ordres_attente", []):
         t = tk.get(o["sym"])
         if now_utc() >= parse_iso(o["expire_le"]):
@@ -299,23 +347,76 @@ def process_pending(cfg, state, tk):
             continue
         if not t:
             keep.append(o); continue
-        px = t["last"]; trig = o["declencheur"]
-        if o["type_ordre"] == "stop":
-            hit = px <= trig if o["side"] == "short" else px >= trig
+        since = parse_iso(o.get("verifie_le") or o["place_le"]).timestamp()
+        hit = None
+        try:
+            candles = [c for c in ohlc(pair_of(cfg, o["sym"]), 1, since - 60) if c["t"] >= since - 60]
+            time.sleep(1.0)
+            closed = candles[:-1]
+            for c in closed:
+                if c["t"] + 60 <= since:
+                    continue
+                px = _pending_hit(o, c)
+                if px is not None:
+                    hit = (c["t"] + 60, px, c); break
+            if not hit:
+                o["verifie_le"] = iso(now_utc().fromtimestamp(closed[-1]["t"] + 60, tz=now_utc().tzinfo)) if closed else o.get("verifie_le", o["place_le"])
+                # la bougie en cours : on regarde aussi le dernier prix (déclenchement en direct)
+                cur = candles[-1] if candles else None
+                if cur and cur["t"] + 60 > since:
+                    px = _pending_hit(o, cur)
+                    if px is not None:
+                        hit = (int(now_utc().timestamp()), px, cur)
+            if not hit:  # filet de sécurité : dernier prix en direct (les bougies peuvent avoir du retard)
+                last = t["last"]
+                px = _pending_hit(o, {"o": last, "h": last, "l": last})
+                if px is not None:
+                    hit = (int(now_utc().timestamp()), px, {"o": last, "h": last, "l": last})
+        except KrakenError as e:
+            log_event("Execution", "erreur", f"Bougies 1 min indisponibles pour l'ordre {o['id']} : {e}")
+            last = t["last"]
+            fake = {"o": last, "h": last, "l": last}
+            px = _pending_hit(o, fake)
+            if px is not None:
+                hit = (int(now_utc().timestamp()), px, fake)
+        if hit:
+            triggered.append((hit, o))
         else:
-            hit = px >= trig if o["side"] == "short" else px <= trig
-        if not hit:
-            keep.append(o); continue
+            keep.append(o)
+    # ordres déclenchés : le plus tôt d'abord ; son jumeau est annulé
+    triggered.sort(key=lambda x: (x[0][0], abs(x[0][1] - x[0][2]["o"])))
+    cancelled = set()
+    for (when_ts, px, c), o in triggered:
+        if o["id"] in cancelled:
+            continue
+        for (_, _), o2 in [((0, 0), x[1]) for x in triggered]:
+            if o2 is not o and o.get("groupe") and o2.get("groupe") == o["groupe"] and o2["id"] not in cancelled:
+                cancelled.add(o2["id"])
+                log_event("Execution", "annulation", f"Ordre {o2['id']} ({o2['sym']}) annulé : son jumeau {o['id']} s'est déclenché")
+        for o2 in list(keep):
+            if o.get("groupe") and o2.get("groupe") == o["groupe"]:
+                keep.remove(o2)
+                log_event("Execution", "annulation", f"Ordre {o2['id']} ({o2['sym']}) annulé : son jumeau {o['id']} s'est déclenché")
+        t = tk[o["sym"]]
+        fill = px
+        extra = slip_ann if (o.get("evenement") and o["type_ordre"] == "stop") else 0.0
+        fill = px * (1 + extra / 100) if o["side"] == "long" else px * (1 - extra / 100)
+        when = iso(now_utc().fromtimestamp(when_ts, tz=now_utc().tzinfo))
         prop = {"id": o["decision_id"] + "-" + o["id"], "action": "open", "sym": o["sym"], "side": o["side"],
                 "strategie": o["strategie"], "stop": o["stop"], "tp": o["tp"], "duree_max_h": o["duree_max_h"],
                 "agents": o.get("agents") or {}, "catalyseur": o.get("catalyseur")}
-        ok, reasons, sizing = check_open(cfg, state, prop, t, {s: x["last"] for s, x in tk.items()})
+        ok, reasons, sizing = check_open(cfg, state, prop, {**t, "bid": fill, "ask": fill, "last": fill},
+                                         {s: x["last"] for s, x in tk.items()})
         if ok:
             pid = open_position(cfg, state, prop, sizing)
-            log_event("Execution", "déclenchement", f"Ordre {o['id']} déclenché : {o['sym']} {o['side']} ouvert ({pid})")
+            pos = state["positions"][-1]
+            pos["ouvert_le"] = when
+            pos["verifie_jusqu_a"] = when  # on rejoue les minutes suivantes : un retournement brutal touche le stop
+            note = f" (glissement d'annonce +{extra:.2f} %)" if extra else ""
+            log_event("Execution", "déclenchement", f"Ordre {o['id']} déclenché : {o['sym']} {o['side']} ouvert à {rp(pos['entry'])}{note} ({pid})")
         else:
             log_event("Garde-fou", "refus", f"Ordre {o['id']} déclenché mais bloqué : " + " | ".join(reasons))
-    state["ordres_attente"] = keep
+    state["ordres_attente"] = [o for o in keep if o["id"] not in cancelled]
 
 
 def urgences(cfg, state, sig, veille_data):
@@ -330,6 +431,13 @@ def urgences(cfg, state, sig, veille_data):
             out.append(f"Actualité majeure : {n['titre'][:120]}")
         elif n.get("score", 0) >= 3 and set(n.get("actifs", [])) & held and (now_utc() - parse_iso(n["t"])).total_seconds() < 1800:
             out.append(f"Actualité sur une position ouverte : {n['titre'][:120]}")
+    try:
+        for e in load("calendrier.json", []):
+            dt = (parse_iso(e["quand_utc"]) - now_utc()).total_seconds() / 60
+            if e.get("impact") == "haut" and 0 < dt <= 120:
+                out.append(f"Annonce à fort impact dans {round(dt)} min : {e['titre']}")
+    except Exception:
+        pass
     strong = [c for c in (sig or {}).get("candidats", []) if c["score"] >= 70 and c["rr_net"] >= 2.0 and c["sym"] not in held]
     if strong:
         out.append("Signal fort : " + ", ".join(f"{c['sym']} {c['side']} (RR {c['rr_net']})" for c in strong[:3]))

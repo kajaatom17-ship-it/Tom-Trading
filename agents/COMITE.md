@@ -19,7 +19,7 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 2. Si `coupe_circuit` est vrai, ou si les entrées du jour sont épuisées et qu'aucune position n'est ouverte : décision `none`, fin de réunion.
    **Deux sujets à chaque réunion, toujours dans cet ordre :**
    a) **Les positions ouvertes.** Par défaut on les garde : le stop et l'objectif ont été posés pour ça. On ne ferme ou on ne resserre le stop que s'il y a une vraie raison (actualité qui casse le scénario, objectif presque atteint).
-   b) **Une nouvelle entrée**, même si des positions sont déjà ouvertes, tant que les limites le permettent (3 positions, 3 entrées par jour). Le comité cherche dans TOUT l'univers : cryptos, memecoins, or, actions.
+   b) **Une nouvelle entrée**, même si des positions sont déjà ouvertes, tant que les limites le permettent (3 positions, 3 entrées par jour). Le comité cherche dans TOUT l'univers, avec ces priorités : **bourse (actions, ETF, indices) et crypto au même niveau, à scruter avec le même soin** ; l'or juste derrière ; les memecoins en second plan (seulement si un signal ou un pari OPP-1 est vraiment net). Le brief marque chaque candidat « prioritaire » ou « secondaire ».
 3. Chaque analyste rend son avis **séparément** (5 à 8 lignes chacun, faits d'abord, puis avis).
 4. **Vraie discussion** (champ `discussion`) : les agents se répondent. Au moins 8 messages et 2 tours :
    tour de table des trois analystes, proposition du Trader, objections (un agent conteste un point précis d'un autre),
@@ -49,6 +49,24 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 
 Le Trader peut ajuster stop et objectif sur un niveau technique clair (support, résistance), à condition que le RR net reste ≥ 1,5.
 Un candidat qui va contre la tendance de BTC (pour un altcoin) demande un argument fort, sinon refus.
+
+## Annonces prévues : on réfléchit avant, pendant, après
+
+Le brief contient `calendrier_annonces` (annonces des 48 h, avec `dans_minutes` et un statut).
+
+**Tenir le calendrier à jour.** S'il est vide ou périmé : recherche web (sources officielles : calendrier Fed/BCE, BLS, résultats d'entreprises, annonces de la SEC/ETF, déblocages de jetons) et dépôt d'un fichier `{"action":"agenda","evenements":[{"titre":"CPI américain","quand_utc":"2026-11-14T13:30:00Z","impact":"haut","actifs":["BTC","ETH","NASDAQ"],"source":"...","attendu":"consensus ..."}]}` via `engine/decide.py submit`. Pas de discussion requise pour cette action. Ne jamais inventer une date : si elle n'est pas confirmée par une source, ne pas l'ajouter.
+
+**AVANT (statut « A PREPARER », annonce à fort impact dans moins de 2 h).** Le comité choisit explicitement l'une de ces trois options et l'écrit dans le compte rendu :
+1. **Ne rien faire** (le plus souvent le bon choix : spread large, glissement fort, mouvement dans un sens puis l'autre).
+2. **Ordres jumeaux** : deux ordres `stop` en attente, un achat juste au-dessus de la zone et une vente à découvert juste en dessous, avec le même `groupe`, `"evenement": "<titre>"`, `expire_h` ≤ 2. Dès que l'un se déclenche, le moteur annule l'autre. Stop serré mais pas collé (≥ 1 ATR 15 min, sinon l'ordre est refusé par les garde-fous), et objectif 3R : on vise un gros gain rapide, pas une attente longue.
+3. **Attendre la réaction** : aucun ordre avant l'annonce, on regarde les 15 à 30 minutes suivantes (voir APRÈS).
+
+Les ordres jumeaux sont exécutés avec un **glissement d'annonce** (+0,30 %) et sont vérifiés minute par minute, un retournement brutal dans la même minute les touche. Le comité compte ce coût dans le RR net : si le RR net ne passe plus 1,5, pas d'ordre.
+
+**PENDANT / APRÈS (statut « vient de sortir »).** On ne court pas derrière le premier mouvement. Le comité décrypte : le chiffre est-il au-dessus ou au-dessous de ce qui était attendu ? Le prix a-t-il fait un premier mouvement violent puis un retour (piège) ? Règle de réflexion :
+- Premier mouvement pris par un ordre jumeau : le trader de garde protège vite (point mort à +1R) ; on accepte de sortir avec un gain correct plutôt que d'attendre le retournement.
+- Pas de position : attendre une bougie 15 min fermée au-delà du plus haut/bas de l'annonce avec volume (cassure confirmée, BRK-1) ou un retour dans la zone (faux mouvement), puis seulement entrer.
+- Écrire dans le compte rendu : « premier mouvement pris », « on attend le second » ou « on ne touche pas », avec la raison.
 
 ## Ordres en attente (pour ne pas entrer en retard)
 

@@ -6,7 +6,8 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from core import config, equity, iso, load, paris_day, rp, tickers, unrealized
+from datetime import timedelta
+from core import config, equity, iso, load, now_utc, paris_day, parse_iso, rp, tickers, unrealized
 
 
 def main():
@@ -42,6 +43,21 @@ def main():
     v = load("veille.json", {})
     out["veille"] = {"t": v.get("t"), "alertes_prix": v.get("alertes", [])[:15],
                      "actus_importantes": [x for x in v.get("actus", []) if x.get("score", 0) >= 3][:25]}
+    cal = load("calendrier.json", [])
+    now = now_utc(); proches = []
+    for e in cal:
+        dt = (parse_iso(e["quand_utc"]) - now).total_seconds() / 60
+        if -180 <= dt <= 48 * 60:
+            proches.append({**e, "dans_minutes": round(dt),
+                            "statut": "A PREPARER (ordres jumeaux avant l'heure)" if 0 < dt <= 120 and e.get("impact") == "haut"
+                            else "vient de sortir : décrypter, ne pas courir" if dt <= 0 else "à venir"})
+    out["calendrier_annonces"] = {"evenements": proches, "dernier_ajout_ou_vide": not cal,
+                                  "note": "Si vide ou périmé : chercher sur le web les annonces à fort impact des 48 h et les déposer (action agenda)."}
+    focus = set(cfg.get("focus", {}).get("categories_prioritaires", []))
+    cat = {a["sym"]: a["cat"] for a in cfg["univers"]}
+    for c in out["scanner"]["candidats"]:
+        c["priorite"] = "prioritaire" if cat.get(c["sym"]) in focus else "secondaire"
+    out["scanner"]["candidats"].sort(key=lambda c: c["priorite"] != "prioritaire")
     out["derniers_trades"] = load("trades.json", [])[-5:]
     out["dernieres_decisions"] = [{"id": d["id"], "action": d.get("action"), "sym": d.get("sym"),
                                    "synthese": d.get("synthese"), "resultat": d.get("resultat", {}).get("statut")}

@@ -330,6 +330,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
   <div class="panel">
     <h3>Veille en direct</h3>
     <p class="hint" style="margin-top:-4px;margin-bottom:10px">L'agent de veille lit l'actualité crypto, bourse et économie toutes les 10 minutes (Cointelegraph, Decrypt, CoinDesk, MarketWatch, Investing, Google Actualités) et surveille les mouvements brusques de prix toutes les 5 minutes.</p>
+    <h4 style="margin:4px 0 8px;font-size:14px">Prochaines annonces</h4><div id="veilleCal"></div>
     <div id="veilleAlerts"></div>
     <div class="rows" id="veilleNews"></div>
   </div>
@@ -360,7 +361,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 <script>
 "use strict";
 const K = "https://api.kraken.com/0/public/";
-const S = {veille:{},cfg:null,state:null,trades:[],decisions:[],act:[],equity:[],signals:{},market:{},status:{},tk:{},sel:"BTC",tf:15,charts:{}};
+const S = {cal:[],veille:{},cfg:null,state:null,trades:[],decisions:[],act:[],equity:[],signals:{},market:{},status:{},tk:{},sel:"BTC",tf:15,charts:{}};
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const eur = (v, d=2) => v==null||isNaN(v) ? "—" : v.toLocaleString("fr-FR",{minimumFractionDigits:d,maximumFractionDigits:d})+" €";
@@ -379,7 +380,7 @@ async function kraken(method, params){ const r=await fetch(K+method+"?"+new URLS
 
 /* ---------- donnees du moteur (portefeuille, agents) ---------- */
 async function loadEngine(){
-  const files = {cfg:"config.json",state:"data/state.json",trades:"data/trades.json",decisions:"data/decisions.json",act:"data/activite.json",equity:"data/equity.json",signals:"data/signals.json",market:"data/market.json",status:"data/status.json",veille:"data/veille.json"};
+  const files = {cfg:"config.json",state:"data/state.json",trades:"data/trades.json",decisions:"data/decisions.json",act:"data/activite.json",equity:"data/equity.json",signals:"data/signals.json",market:"data/market.json",status:"data/status.json",veille:"data/veille.json",cal:"data/calendrier.json"};
   await Promise.all(Object.entries(files).map(async([k,p])=>{ try{ S[k]=await getJSON(p); }catch(e){} }));
   if(!Object.keys(S.tk).length && S.market.tickers) S.tk = S.market.tickers;
   renderAll();
@@ -495,10 +496,10 @@ function pendingView(){
   return `<h3 style="margin:16px 0 8px">Ordres en attente</h3>`+os.map(o=>{const pr=livePrice(o.sym); const dist=pr?(o.declencheur/pr-1)*100:null;
     const sens=o.side==="short"?"pari à la baisse":"pari à la hausse";
     const cond=o.type_ordre==="stop"?(o.side==="short"?"passe sous":"passe au-dessus de"):(o.side==="short"?"remonte à":"redescend à");
-    return `<div class="guide"><div class="head"><div><div class="t">${esc(o.sym)}<span class="pill ${o.side}">${sens}</span><span class="pill n">${esc(o.strategie)}</span></div>
+    return `<div class="guide"><div class="head"><div><div class="t">${esc(o.sym)}<span class="pill ${o.side}">${sens}</span><span class="pill n">${esc(o.strategie)}</span>${o.groupe?`<span class="pill n">ordre jumeau</span>`:""}</div>
     <div class="s muted" style="font-size:13px">On entre automatiquement si le prix ${cond} <b style="color:var(--text)">${px(o.declencheur)} €</b>${dist!=null?` (encore ${pctS(dist)})`:""}</div></div></div>
     <div class="steps num"><div><span class="muted">Stop prévu</span><b class="down">${px(o.stop)} €</b></div><div><span class="muted">Objectif prévu</span><b class="up">${px(o.tp)} €</b></div></div>
-    <p class="hint">Valable jusqu'au ${hm(o.expire_le)}. Sinon l'ordre est annulé tout seul.</p></div>`}).join("");
+    <p class="hint">Valable jusqu'au ${hm(o.expire_le)}. Sinon l'ordre est annulé tout seul.${o.groupe?" Si son jumeau se déclenche d'abord, celui-ci est annulé.":""}${o.evenement?" Prévu pour : "+esc(o.evenement)+".":""}</p></div>`}).join("");
 }
 function renderBadge(){
   const e=equityLive(); if(!e) return; const init=S.state.capital_initial; const d=e.eq-init, dp=d/init*100;
@@ -519,6 +520,7 @@ $("pnlClose").addEventListener("click",()=>{$("pnlPanel").hidden=true; $("pnlBad
 function renderAlerts(){
   const a=[]; const st=S.state;
   if(!st) a.push(`<div class="banner">Le moteur n'a pas encore tourné. Les données apparaîtront après son premier passage.</div>`);
+  (S.cal||[]).filter(e=>e.impact==="haut"&&new Date(e.quand_utc)>Date.now()&&new Date(e.quand_utc)-Date.now()<7200e3).forEach(e=>a.push(`<div class="banner">Annonce importante à ${hm(e.quand_utc)} : ${esc(e.titre)}. Le comité décide avant si on prépare des ordres ou si on reste à l'écart.</div>`));
   (S.veille?.alertes||[]).filter(x=>x.position==="contre nous"&&(Date.now()-new Date(x.t))<3600e3).forEach(x=>a.push(`<div class="banner bad">Alerte veille : ${esc(x.sym)} ${pctS(x.variation_pct)} en ${esc(x.horizon)}, contre notre position. Le stop-loss reste en place.</div>`));
   if(st?.coupe_circuit) a.push(`<div class="banner bad">Coupe-circuit actif : le portefeuille a perdu plus de 15 % depuis son plus haut. Plus aucune entrée jusqu'à la revue.</div>`);
   if(S.status.t && (Date.now()-new Date(S.status.t))/60000>40) a.push(`<div class="banner bad">Le moteur n'a pas tourné depuis ${ago(S.status.t).replace("il y a ","")}. Vérifie l'onglet Actions sur GitHub.</div>`);
@@ -586,6 +588,9 @@ function renderAgents(){
 }
 
 function renderVeille(){
+  const cal=(S.cal||[]).filter(e=>new Date(e.quand_utc)>Date.now()-3*3600e3).slice(0,8);
+  $("veilleCal").innerHTML=cal.length?cal.map(e=>{const m=Math.round((new Date(e.quand_utc)-Date.now())/60000); const qd=m>0?(m<90?`dans ${m} min`:`dans ${Math.round(m/60)} h`):"vient de sortir";
+    return `<div class="row"><div><div style="font-size:14px">${esc(e.titre)}</div><div class="s">${hm(e.quand_utc)} · ${qd}${e.actifs?.length?" · "+e.actifs.map(esc).join(", "):""}${e.attendu?" · attendu : "+esc(e.attendu):""}</div></div><div class="r"><span class="pill ${e.impact==="haut"?"short":"n"}" style="margin:0">${e.impact==="haut"?"fort impact":"à suivre"}</span></div></div>`}).join(""):`<p class="muted" style="font-size:14px;margin-bottom:8px">Aucune annonce importante enregistrée pour l'instant. Le comité remplit ce calendrier à chaque réunion.</p>`;
   const v=S.veille||{}; const al=v.alertes||[];
   $("veilleAlerts").innerHTML=al.length?al.slice(0,8).map(a=>`<div class="banner ${a.position==="contre nous"?"bad":""}" style="margin-bottom:8px;${a.variation_pct>0&&a.position!=="contre nous"?"color:var(--up);border-color:rgba(43,196,138,.3);background:rgba(43,196,138,.08)":""}"><b>${esc(a.sym)}</b> ${pctS(a.variation_pct)} en ${esc(a.horizon)}${a.position?` · position ${esc(a.position)}`:""} <span class="faint">· ${hm(a.t)}</span></div>`).join(""):`<p class="muted" style="font-size:14px;margin-bottom:8px">Aucun mouvement brusque détecté sur les 47 actifs.</p>`;
   const news=(v.actus||[]).filter(x=>x.score>=2).slice(0,25);

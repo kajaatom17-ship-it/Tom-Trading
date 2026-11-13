@@ -206,5 +206,53 @@ run()
 st = core.load("state.json", None); p2 = st["positions"][0]
 check("trader de garde : stop au prix d'entrée à +1R", p2["stop"] < p["entry"] and p2["stop"] > p["entry"] * 0.99, f"stop {p2['stop']} entrée {p['entry']}")
 
+# 12. ordres jumeaux autour d'une annonce : le premier déclenché annule l'autre, glissement d'annonce appliqué
+st = core.load("state.json", None); st["positions"] = []; st["entrees_par_jour"] = {}; st["cash"] = 500.0
+st["ordres_attente"] = []; core.save("state.json", st)
+cfg = core.config(); pair = core.pair_of(cfg, "ETH")
+PRICES["ETH"] = 100.0
+now = int(time.time()); t0 = now - 600
+for k, (grp, side, trig, stop, tp) in enumerate([("A1", "long", 101.0, 98.9, 107.3), ("A1", "short", 99.0, 101.1, 91.5)]):
+    drop({"id": f"TJ{k}", "action": "pending", "sym": "ETH", "side": side, "type_ordre": "stop", "declencheur": trig,
+          "stop": stop, "tp": tp, "expire_h": 2, "strategie": "BRK-1", "groupe": grp, "evenement": "CPI test",
+          "agents": AGENTS_OK, "synthese": "test"})
+CANDLES[pair] = []
+run()
+st = core.load("state.json", None)
+check("deux ordres jumeaux posés", len(st.get("ordres_attente", [])) == 2 and st["ordres_attente"][0]["groupe"] == "A1")
+st = core.load("state.json", None)
+for o in st["ordres_attente"]:
+    o["verifie_le"] = core.iso(core.now_utc() - __import__("datetime").timedelta(minutes=10))  # posés il y a 10 min
+core.save("state.json", st)
+base = (now - 300) // 60 * 60
+CANDLES[pair] = [
+    {"t": base, "o": 100.0, "h": 100.4, "l": 99.8, "c": 100.2, "v": 1},
+    {"t": base + 60, "o": 100.2, "h": 101.8, "l": 100.1, "c": 101.6, "v": 9},   # casse à la hausse
+    {"t": base + 120, "o": 101.6, "h": 101.7, "l": 98.0, "c": 98.5, "v": 9},    # puis retournement violent
+    {"t": base + 180, "o": 98.5, "h": 98.9, "l": 98.2, "c": 98.6, "v": 3},
+    {"t": base + 240, "o": 98.6, "h": 98.7, "l": 98.5, "c": 98.6, "v": 1},      # bougie en cours
+]
+PRICES["ETH"] = 98.6
+run()
+st = core.load("state.json", None)
+act = core.load("activite.json", [])
+check("jumeau annulé quand le premier se déclenche", not st.get("ordres_attente"), str(st.get("ordres_attente")))
+tj = [p for p in st["positions"] if str(p["decision_id"]).startswith("TJ")] + [x for x in core.load("trades.json", []) if str(x.get("decision_id", "")).startswith("TJ")]
+check("un seul ordre jumeau est devenu position", len(tj) == 1, str(tj))
+check("annulation journalisée", any("jumeau" in json.dumps(e, ensure_ascii=False) for e in act))
+check("entrée à la hausse avec glissement d'annonce (> 101,0)", tj and tj[0]["side"] == "long" and tj[0]["entry"] > 101.0, str(tj and (tj[0]["side"], tj[0]["entry"])))
+run()  # passage suivant : les minutes après le déclenchement sont rejouées
+closed = [x for x in core.load("trades.json", []) if str(x.get("decision_id", "")).startswith("TJ")]
+check("retournement brutal : stop touché sur les minutes rejouées", bool(closed) and closed[0]["raison_sortie"].startswith("stop"), str(closed))
+
+# 13. agenda : ajout d'annonces, sans passer par les décisions
+core.save("calendrier.json", [])
+drop({"id": "AG1", "action": "agenda", "evenements": [{"titre": "CPI test", "quand_utc": core.iso(core.now_utc() + __import__("datetime").timedelta(minutes=50)),
+                                                    "impact": "haut", "actifs": ["BTC"], "source": "test"}]})
+run()
+check("agenda enregistré", len(core.load("calendrier.json", [])) == 1)
+check("urgence annonce < 2 h", any("Annonce" in u for u in core.load("status.json", {}).get("urgences", [])))
+check("agenda pas dans les décisions", not any(d.get("id") == "AG1" for d in core.load("decisions.json", [])))
+
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

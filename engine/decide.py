@@ -29,24 +29,34 @@ def main():
     d.setdefault("cree_le", iso())
     problems = []
     action = d.get("action")
-    if action not in ("open", "close", "tighten_stop", "none", "pending", "cancel"):
-        problems.append("action doit être open, close, tighten_stop, pending, cancel ou none")
+    if action not in ("open", "close", "tighten_stop", "none", "pending", "cancel", "agenda"):
+        problems.append("action doit être open, close, tighten_stop, pending, cancel, agenda ou none")
+    if action == "agenda":
+        if not d.get("evenements"):
+            problems.append("evenements manquants (titre, quand_utc, impact, actifs, source)")
+        for e in d.get("evenements", []):
+            if not e.get("titre") or not e.get("quand_utc"):
+                problems.append("chaque événement a besoin de titre et quand_utc (format 2026-11-14T13:30:00Z)")
     if action == "pending":
         for k in ("sym", "side", "stop", "tp", "declencheur", "type_ordre", "expire_h", "strategie"):
             if k not in d:
                 problems.append(f"champ manquant : {k}")
-    missing = [a for a in REQUIRED_AGENTS if a not in d.get("agents", {})]
-    if missing:
-        problems.append("avis manquants : " + ", ".join(missing))
-    if not d.get("synthese"):
-        problems.append("synthese manquante")
-    disc = d.get("discussion") or []
-    if len(disc) < 8:
-        problems.append("discussion trop courte : au moins 8 messages où les agents se répondent")
-    elif not any(m.get("repond_a") for m in disc):
-        problems.append("discussion sans échange : au moins un agent doit répondre à un autre (repond_a)")
-    if not isinstance(d.get("compte_rendu"), dict) or not d["compte_rendu"].get("decision"):
-        problems.append("compte_rendu manquant (points, desaccords, decision, a_surveiller)")
+    if action != "agenda":
+        missing = [a for a in REQUIRED_AGENTS if a not in d.get("agents", {})]
+        if missing:
+            problems.append("avis manquants : " + ", ".join(missing))
+        if not d.get("synthese"):
+            problems.append("synthese manquante")
+        disc = d.get("discussion") or []
+        if len(disc) < 8:
+            problems.append("discussion trop courte : au moins 8 messages où les agents se répondent")
+        elif not any(m.get("repond_a") for m in disc):
+            problems.append("discussion sans échange : au moins un agent doit répondre à un autre (repond_a)")
+        if not isinstance(d.get("compte_rendu"), dict) or not d["compte_rendu"].get("decision"):
+            problems.append("compte_rendu manquant (points, desaccords, decision, a_surveiller)")
+    if action == "pending":
+        for k in ("groupe", "evenement"):
+            pass
     if action == "open":
         for k in ("sym", "side", "stop", "tp", "entry_ref", "strategie"):
             if k not in d:
