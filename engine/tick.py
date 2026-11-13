@@ -214,22 +214,21 @@ def scan(cfg):
             DIAG.append(f"{a['sym']}: {type(e).__name__} {str(e)[:120]}")
             ind = None
         time.sleep(1.1)
-        if not os.environ.get("TD_SNAPSHOT"):
-            continue  # la page lit Kraken en direct : pas besoin d'archiver bougies et carnets
-        for tf, n in ((60, 400), (1440, 200)):
+        if os.environ.get("TD_SNAPSHOT"):  # archive bougies et carnets (inutile quand la page lit Kraken en direct)
+            for tf, n in ((60, 400), (1440, 200)):
+                try:
+                    candles.setdefault(a["sym"], {})[str(tf)] = compact(ohlc(a["pair"], tf), n)
+                except KrakenError:
+                    pass
+                time.sleep(1.1)
             try:
-                candles.setdefault(a["sym"], {})[str(tf)] = compact(ohlc(a["pair"], tf), n)
-            except KrakenError:
+                d = kraken("Depth", {"pair": a["pair"], "count": 12})
+                b = list(d.values())[0]
+                books[a["sym"]] = {"bids": [[float(x[0]), float(x[1])] for x in b["bids"]],
+                                   "asks": [[float(x[0]), float(x[1])] for x in b["asks"]]}
+            except Exception:
                 pass
             time.sleep(1.1)
-        try:
-            d = kraken("Depth", {"pair": a["pair"], "count": 12})
-            b = list(d.values())[0]
-            books[a["sym"]] = {"bids": [[float(x[0]), float(x[1])] for x in b["bids"]],
-                               "asks": [[float(x[0]), float(x[1])] for x in b["asks"]]}
-        except Exception:
-            pass
-        time.sleep(1.1)
         if not ind:
             continue
         if a["sym"] == "BTC":
