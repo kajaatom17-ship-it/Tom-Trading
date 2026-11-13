@@ -192,6 +192,9 @@ def execute_decision(cfg, state, prop, tk):
 
 
 # ----------------------------------------------------------------- scanner
+DIAG = []
+
+
 def compact(cs, n):
     return [[c["t"], rp(c["o"]), rp(c["h"]), rp(c["l"]), rp(c["c"]), round(c["v"], 4)] for c in cs[-n:]]
 
@@ -204,9 +207,11 @@ def scan(cfg):
         try:
             c = ohlc(a["pair"], 15)
             ind = analyse(c)
+            if not ind:
+                DIAG.append(f"{a['sym']}: {len(c)} bougies")
             candles[a["sym"]] = {"15": compact(c, 300)}
-        except KrakenError as e:
-            log_event("Scanner", "erreur", f"{a['sym']} : {e}")
+        except Exception as e:
+            DIAG.append(f"{a['sym']}: {type(e).__name__} {str(e)[:120]}")
             ind = None
         time.sleep(1.1)
         if not os.environ.get("TD_SNAPSHOT"):
@@ -315,6 +320,8 @@ def main():
             log_event("Scanner", "scan", msg)
 
     status["equity"] = r2(eq); status["drawdown_pct"] = round(dd, 2)
+    if DIAG:
+        status["diagnostic_scanner"] = DIAG[:30]
     save("status.json", status)
     print(json.dumps({"equity": r2(eq), "cash": r2(state["cash"]), "positions": len(state["positions"])}))
     return 0
