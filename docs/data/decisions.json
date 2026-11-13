@@ -1128,5 +1128,133 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-13T21:26:48Z"
+ },
+ {
+  "action": "pending",
+  "sym": "XRP",
+  "side": "short",
+  "type_ordre": "stop",
+  "declencheur": 0.9115,
+  "stop": 0.926,
+  "tp": 0.868,
+  "atr": 0.0045,
+  "expire_h": 4,
+  "duree_max_h": 24,
+  "strategie": "BRK-1",
+  "confiance": "faible a moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "favorable sous condition",
+    "resume": "BTC 62 029 € (Kraken 21:56 UTC), tendance 1 h baissière, RSI 15 min 39,7, sous EMA20 62 463 et EMA50 62 565. XRP 0,9194 €, tendance 1 h baissière, sous EMA20 0,9276 ; plus bas 21:15 UTC à 0,9125 puis rebond à 0,9204. Le signal TPB-1 du scanner (21:27 UTC, RR 1,73) date du rebond précédent ; entrer maintenant, au milieu du rebond, serait mal placé. Une cassure sous 0,9125 relancerait la baisse. LINK : le prix a déjà glissé de 8,984 à 8,960 (≈0,55 ATR), signal périmé.",
+    "donnees": "Kraken Ticker + OHLC 15 min, 21:56 UTC ; brief 21:56 UTC ; scanner 21:27 UTC"
+   },
+   "analyste_macro": {
+    "avis": "neutre a defavorable au risque",
+    "resume": "Contexte du jour : prix à la production +6,5 % sur un an et responsables Fed qui évoquent une hausse (CFO Dive, 13/11 21:18 UTC) ; Daly (Fed) : hausse probablement nécessaire (Reuters, 13/11 18:48 UTC) ; AMD -10,5 %, Nasdaq 100 -1,7 % (Benzinga, 13/11 18:41 UTC) ; BTC au plus bas de 12 semaines (Decrypt/Yahoo, 13/11 17:22 UTC). Bourse US fermée (22 h Paris passé) et week-end : actions exclues. Aucune annonce macro majeure trouvée dans les 2 prochaines heures (CPI américain déjà publié le 10/11 selon thriveinmarkets.com).",
+    "sources": [
+     "Producer prices surge at 6.5% annual pace as Fed officials signal hike - CFO Dive - 2026-11-13 21:18 UTC - lien Google News du brief",
+     "Fed likely to need to raise rates amid worsening inflation: Daly - Reuters - 2026-11-13 18:48 UTC - lien Google News du brief",
+     "AMD Sinks 10.5% as Chip Rally Unwinds, Nasdaq 100 Falls 1.7% - Benzinga - 2026-11-13 18:41 UTC",
+     "Next CPI release - thriveinmarkets.com/calendar/dates/cpi-2026/ - consulté 2026-11-13 21:58 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 20 (peur extrême, 20:57 UTC), capitalisation totale -5,42 % sur 24 h, dominance BTC 58,95 %. Tout le marché baisse ensemble : aucun signe d'euphorie, mais en peur extrême les rebonds de week-end peuvent être brusques. Vente à découvert possible seulement si la baisse reprend d'elle-même."
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "PEPE 3,991e-06 (spread 0,025 %, volume 24 h 758 k€), RSI 41,2, sous EMA20 4,045e-06 : notre short travaille. DOGE short TPB-1 (RR 1,54) impossible : une seule position memecoin à la fois et PEPE l'occupe. WIF : spread 0,149 % et volume 38 k€ < 40 k€, RR 0,91 : non. Rien de poursuivable, rien d'épuisé à shorter."
+   },
+   "trader": {
+    "proposition": "Garder PEPE tel quel. Ordre en attente short XRP type stop : déclencheur 0,9115 (sous le plus bas 0,9125 de 21:15 UTC), stop 0,926 (au-dessus du haut du rebond 0,9204 et de l'EMA20 0,9276 n'est pas atteint mais 1,6 % de distance, ≥ 2 ATR), objectif 0,868 (3R), expire dans 4 h. RR net calculé par le moteur : 1,63.",
+    "pour": [
+     "Tendance 1 h baissière sur BTC et XRP",
+     "On n'entre que si la baisse reprend vraiment (cassure du plus bas)",
+     "Liquidité excellente : spread 0,01 %, gros volume"
+    ],
+    "contre": [
+     "Volume XRP faible au dernier signal (ratio 0,43)",
+     "Peur extrême : risque de rebond brutal de week-end",
+     "Deuxième altcoin short avec PEPE : positions corrélées"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Ordre conditionnel, pas d'entrée immédiate. RR net 1,63 ≥ 1,5, stop 1,59 % dans la plage 0,8–8 %, spread 0,01 %. Avec PEPE, 2 altcoins short = limite atteinte, pas un de plus. Perte max ≈ 1 % du capital (~5 €) fixée à l'entrée. Le moteur revérifie au déclenchement."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "PEPE short : prix 3,991e-06 contre entrée 4,067e-06, latent +1,87 €, RSI 41,2 sous EMA20. Rien ne casse le scénario. Pour une nouvelle entrée, le scanner de 21:27 UTC propose LINK (RR 1,58) et XRP (RR 1,73) en short TPB-1."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_technique",
+    "message": "D'accord pour garder PEPE : spread 0,025 %, pas de bougie de retournement. DOGE est bloqué par la règle d'une seule memecoin, et WIF a 38 k€ de volume et 0,149 % de spread : non."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Toile de fond baissière et datée : PPI +6,5 % et Fed qui parle de hausse (CFO Dive 21:18 UTC, Reuters 18:48 UTC), Nasdaq 100 -1,7 %. Bourse US fermée et week-end : j'écarte AMD, COIN, MSTR malgré leurs signaux."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_macro",
+    "message": "Fear & Greed 20, capitalisation -5,42 % en 24 h. Le sens est clair, mais en peur extrême un short pris au mauvais moment se fait rattraper par un rebond de 2 %."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "Justement : XRP rebondit déjà de 0,9125 à 0,9204. Entrer au marché à 0,919 serait entrer en plein rebond. LINK, lui, a glissé de 8,984 à 8,960, soit 0,55 ATR : signal périmé."
+   },
+   {
+    "agent": "trader",
+    "message": "Alors pas d'entrée au marché. Je propose un ordre stop short XRP à 0,9115, juste sous le plus bas de 21:15 UTC : on n'entre que si la baisse reprend. Stop 0,926, objectif 0,868, RR net 1,63, expire en 4 h."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je conteste : le ratio de volume XRP était 0,43 au dernier signal. Une cassure sans volume, la nuit, peut être un faux mouvement."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "C'est le risque principal, je l'accepte : le stop à 0,926 est au-dessus du rebond, la perte reste fixée à ~1 % du capital. Et XRP traite 12,6 M de jetons sur 24 h, la liquidité n'est pas un problème."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "PEPE + XRP = deux altcoins short, c'est le maximum et ils suivent tous deux BTC. Si BTC rebondit, les deux perdent ensemble : perte cumulée possible ≈ 1,4 % du capital. Acceptable, mais aucun autre short altcoin ce soir."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Validé comme ordre en attente : RR net 1,63, stop 1,59 %, spread 0,01 %. PEPE gardé sans changement."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Le pari à la baisse sur PEPE gagne +1,87 € fictifs : on le garde, le stop et l'objectif ne bougent pas.",
+    "Le trader de garde n'a rien fait depuis la dernière réunion : normal, PEPE n'a pas encore atteint +1R.",
+    "Bourse américaine fermée pour le week-end : pas d'action ce soir.",
+    "XRP et LINK baissent avec BTC, mais les signaux du scanner étaient déjà un peu vieux."
+   ],
+   "desaccords": [
+    "L'analyste sentiment craint une cassure sans volume la nuit ; le trader accepte ce risque car la perte est limitée par le stop."
+   ],
+   "decision": "On garde PEPE et on place un ordre en attente : vente à découvert de XRP seulement si le prix passe sous 0,9115 € dans les 4 prochaines heures.",
+   "a_surveiller": [
+    "Un rebond de BTC au-dessus de 62 560 € (EMA50 15 min) affaiblirait les deux shorts.",
+    "Si XRP repasse au-dessus de 0,9276 € avant le déclenchement, annuler l'ordre à la prochaine réunion."
+   ]
+  },
+  "synthese": "On garde le pari à la baisse sur PEPE (+1,87 € fictifs) et on prépare un pari à la baisse sur XRP qui ne s'active que si le prix casse 0,9115 €.",
+  "id": "D-20261113-215728",
+  "cree_le": "2026-11-13T21:57:28Z",
+  "resultat": {
+   "statut": "execute",
+   "ordre_id": "O0003"
+  },
+  "traite_le": "2026-11-13T21:58:03Z"
  }
 ]
