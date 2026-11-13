@@ -1,0 +1,53 @@
+{
+ "action": "open",
+ "sym": "PEPE",
+ "side": "short",
+ "strategie": "TPB-1",
+ "entry_ref": 4.064e-06,
+ "atr": 3.7836e-08,
+ "stop": 4.184351e-06,
+ "tp": 3.702948e-06,
+ "duree_max_h": 24,
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "favorable",
+   "resume": "PEPE est en tendance baissière sur 1 h. Il a rebondi sur l'EMA20 15 min puis rechuté : RSI de 51 à 43, MACD qui passe négatif, volume ×1,64. C'est le schéma TPB-1. Stop au-dessus du dernier sommet, à 0,000004184 €. Objectif 3R à 0,000003703 €.",
+   "donnees": "Kraken OHLC 15 min, bougie clôturée de 14:45 UTC, scan GitHub de 14:52 UTC"
+  },
+  "analyste_macro": {
+   "avis": "favorable",
+   "resume": "Le contexte reste négatif pour la crypto. L'inflation américaine de septembre, publiée le 10 novembre, est sortie au-dessus des attentes. BlackRock a vendu du bitcoin pour 105 M$, son cinquième jour de ventes. Aucune actualité propre à PEPE. Prochain rendez-vous : Daly (Fed) à 18:00, heure de Paris.",
+   "sources": [
+    "CryptoPotato - 10/11/2026 - BTC recule après un CPI américain plus élevé que prévu (via coinalyze.net)",
+    "U.Today - novembre 2026 - BlackRock vend 105 M$ de bitcoin, 5e jour de ventes (via coinalyze.net)",
+    "TD Economics - agenda du 9 au 13/11/2026 - Daly 12:00 ET - https://economics.td.com/domains/economics.td.com/documents/reports/bottom-line/tables/2026-11-06/upcoming.htm"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Peur extrême (Fear & Greed 20). Ça va dans le sens d'une baisse. Mais un memecoin peut rebondir très vite. Je demande une taille réduite."
+  },
+  "trader": {
+   "avis": "favorable",
+   "proposition": "Short PEPE au marché, stop 0,000004184 €, objectif 0,000003703 €, durée max 24 h. Le signal BTC a été refusé par les garde-fous : le prix avait déjà trop bougé.",
+   "pour": [
+    "RR net 2,15 après frais",
+    "Tendance 1 h et contexte macro alignés",
+    "Carnet d'ordres profond, spread faible"
+   ],
+   "contre": [
+    "Memecoin : risque de hausse brutale",
+    "Peur extrême : rebond possible",
+    "PEPE est en hausse de 1,9 % sur 24 h"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Taille plafonnée à 20 % du capital (100 €), car c'est un memecoin. Perte maximale d'environ 3,65 €, soit 0,73 % du capital. Aucune autre position ouverte."
+  }
+ },
+ "synthese": "Le comité ouvre un premier trade fictif : il parie sur une baisse de PEPE avec 100 € fictifs. Si PEPE monte d'environ 3 %, la position est coupée automatiquement, pour une perte d'environ 3,65 €.",
+ "id": "D-20261113-145353",
+ "cree_le": "2026-11-13T14:53:53Z"
+}
