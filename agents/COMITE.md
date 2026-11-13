@@ -13,13 +13,13 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 
 ## Déroulé d'une réunion (dans l'ordre)
 
-1. `git pull`, puis `python engine/brief.py` → données fraîches. Noter l'heure du brief (UTC et Paris).
+1. `git pull --rebase -X ours origin main`, puis `python3 engine/brief.py` → données fraîches. Noter l'heure du brief (UTC et Paris).
 2. Si `coupe_circuit` est vrai, ou si les entrées du jour sont épuisées et qu'aucune position n'est ouverte : décision `none`, fin de réunion.
 3. Chaque analyste rend son avis **séparément** (5 à 8 lignes chacun, faits d'abord, puis avis).
 4. Le Trader propose **une seule** action (ou rien).
 5. Le Risk Manager valide ou refuse. Son refus est définitif pour cette réunion.
 6. `python engine/decide.py check decision.json`. Si les garde-fous refusent, le Risk Manager l'acte et on dépose quand même (traçabilité).
-7. `python engine/decide.py submit decision.json --now`, puis commit et push de `docs/data/`.
+7. `python3 engine/decide.py submit decision.json` (SANS `--now` : c'est le moteur GitHub qui exécute), puis commit et push du seul dossier `docs/data/inbox/`.
 
 ## Les rôles
 
@@ -78,6 +78,13 @@ durée max 24 h (72 h max) · ordre expiré si le prix a bougé de plus de 0,5 A
 ## Après la réunion
 
 ```
-git add docs/data && git commit -m "Comité <heure Paris> : <action>" && git push
+git pull --rebase -X ours origin main
+git add docs/data/inbox && git commit -m "Comité <heure Paris> : <action>" && git push origin main
 ```
-En cas de conflit : `git pull --rebase` puis push. Le moteur (GitHub Actions) traite l'inbox à chaque push.
+Ne jamais committer `state.json`, `trades.json` ni les autres fichiers de données : seul le moteur GitHub les écrit.
+Le push de l'inbox déclenche le moteur (GitHub Actions), qui exécute la décision en moins d'une minute.
+Pour vérifier : `gh run list -R kajaatom17-ship-it/Tom-Trading --limit 1`, puis `git pull` et lire `docs/data/decisions.json`.
+
+## Si un signal a déjà bougé
+Si `decide.py check` refuse pour « prix trop bougé » ou « RR insuffisant », on ne court pas après le prix.
+On passe au candidat suivant, ou on décide `none`. On ne déplace pas le stop pour faire passer un trade.
