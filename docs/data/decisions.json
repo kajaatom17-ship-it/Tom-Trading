@@ -232,5 +232,120 @@
    "ordre_id": "O0002"
   },
   "traite_le": "2026-11-13T16:01:38Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Brief 16:56 UTC. PEPE short P0001 : entrée 4,0669e-6, prix 4,016e-6 (Ticker Kraken 16:56 UTC), +1,25 € latent, stop 4,1844e-6, objectif 3,7029e-6 ; tendance 1 h toujours baissière, RSI 15 min 49,1 : rien ne casse le scénario. Nouvelle entrée : le scanner (16:02 UTC) ne sort que MSFT BRK-1 long, RR net 0,91 et contre la tendance BTC : rejeté. BTC 62 255 € sous EMA50 15 min (62 723), tendance 1 h baissière, RSI remonté de 30,6 à 48,6 : rebond en cours, pas de repli propre à shorter. Actions : QQQ RSI 26,3, SPY 29,4, AMD 20,5, AVGO 9,7 : très survendus, aucun pullback TPB-1 ni cassure BRK-1 avec volume. ADA 0,15468, l'ordre stop O0002 à 0,1533 reste pertinent.",
+    "donnees": "Kraken OHLC 15 min (brief 16:56 UTC) + Ticker 16:56 UTC"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "13/11 : les prix à la production (PPI) US ont monté moins que prévu (StockTitan, TheStreet 13/11), mais la tech est vendue : AMD a ouvert en baisse de 5,4 % et chute ~10 % en séance (TradingKey, Investing.com 13/11), NVDA digère la démission de Jensen Huang (Yahoo Finance 13/11), panne Microsoft (Bloomberg 13/11). Aucune annonce à fort impact confirmée dans les 2 h ; vendredi soir puis week-end (actions xStocks peu liquides hors séance US, clôture 22:00 Paris). Calendrier de la semaine prochaine (CPI, ventes au détail) non confirmé par une source datée : rien ajouté à l'agenda. Pas de catalyseur OPP-1 exploitable : la chute d'AMD est déjà faite, sa cause n'est pas claire dans les sources.",
+    "sources": [
+     "Stocks Hold Gains in the Stock Market Today Live, November 13, 2026, After Wholesale Prices Rise Less Than Expected - StockTitan - 2026-11-13 - https://www.stocktitan.net/articles/stock-market-today-live-november-13-2026",
+     "Stock Market Today (Nov. 13, 2026): Dow rises on Nvidia CEO resignation, cooler inflation data - TheStreet - 2026-11-13 - https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026",
+     "Advanced Micro Devices Inc Stock (AMD) Opened Down by 5.37% on Nov 13 - TradingKey - 2026-11-13 - https://www.tradingkey.com/news/market-movers/262304759-market-movers-amd-20261113",
+     "Why is Advanced Micro Devices stock sliding today? - Investing.com - 2026-11-13 - https://www.investing.com/news/stock-market-news/why-is-advanced-micro-devices-stock-sliding-today-93CH-5025995",
+     "Microsoft Outage Puts Software Stocks in Spotlight as US Futures Rise - Bloomberg - 2026-11-13 - https://www.bloomberg.com/news/articles/2026-11-13/us-futures-gain-with-microsoft-outage-producer-prices-in-focus"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 20 (peur extrême, 15:10 UTC), capitalisation totale -5,14 % sur 24 h, dominance BTC 58,89 %. ETH -4,37 % sur 24 h, MSTR -4,69 %, HOOD -5,63 %. Memecoins calmes (PEPE +3,8 % 24 h, pas d'euphorie). INJ +9,18 % mais déjà alerté à 16:01 : poursuivre serait courir après le prix. En peur extrême les rebonds sont brutaux : pas de nouveau short au marché."
+   },
+   "trader": {
+    "proposition": "Aucune nouvelle entrée. On garde PEPE short P0001 avec stop et objectif inchangés, et on laisse vivre l'ordre en attente ADA O0002 (expire 20:01 UTC).",
+    "pour": [
+     "PEPE va dans notre sens (+1,25 €), scénario intact",
+     "Aucun signal scanner valable (MSFT RR net 0,91)",
+     "Actions très survendues : ni short tardif ni achat à contre-tendance"
+    ],
+    "contre": [
+     "On peut rater un rebond technique sur les actions tech en fin de séance",
+     "Une seule position ouverte : capital peu utilisé"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Ne rien faire est cohérent : aucun candidat ne passe RR net ≥ 1,5. Exposition actuelle : 1 position (PEPE, risque ~1 %), 1 ordre en attente (ADA, même sens altcoin short : limite de 2 atteinte si déclenché). 1 entrée sur 3 aujourd'hui. Pas d'événement macro proche, mais week-end et liquidité xStocks faible."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Positions d'abord : PEPE short à 4,016e-6 contre une entrée à 4,0669e-6, +1,25 €. Tendance 1 h baissière, stop 4,1844e-6 loin (+4,2 %). Je garde. Nouvelle entrée : seul candidat scanner MSFT BRK-1 long, RR net 0,91 et contre BTC. Je ne le porte pas."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "PPI plus doux que prévu ce 13/11, mais la tech chute : AMD ~-10 %, AVGO -7 %, NVDA -4,9 % après la démission de Huang. Rien de majeur dans les 2 h, puis week-end. La cause précise de la chute d'AMD n'est pas établie dans mes sources : pas d'OPP-1."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "D'accord pour garder PEPE : pas d'euphorie memecoins (+3,8 % 24 h). Mais Fear & Greed 20 et capi -5,14 % : BTC a déjà rebondi d'un RSI 30,6 à 48,6. Tout short ajouté maintenant arrive après la baisse."
+   },
+   {
+    "agent": "trader",
+    "message": "Je regarde quand même les actions : QQQ RSI 26,3 sous EMA20 619,7 à 612,4 ; AMD 481,7 bien sous EMA20 503,9. Un short de continuation sur QQQ, stop au-dessus de 619,7 ?"
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "Non : ce n'est ni un TPB-1 (pas de repli sur l'EMA20, RSI 26 très survendu) ni un BRK-1 (pas de clôture sous le plus bas 12 h 609,99 avec volume). Ce serait vendre parce que ça a déjà baissé, ce que le protocole interdit."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Et vendredi soir : la séance US ferme à 22:00 Paris, ensuite les xStocks sont peu liquides tout le week-end. Une position action ouverte maintenant subirait l'écart d'ouverture de lundi."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Accepté, je retire l'idée QQQ. INJ (+9,18 %, tendance 1 h haussière, RSI 67,6) ? Non plus : déjà alerté à +2,71 % en 15 min, on courrait après. Je propose : aucune entrée, PEPE gardé tel quel, ordre ADA O0002 maintenu."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Pourquoi ne pas resserrer le stop PEPE pour sécuriser les 1,25 € ? "
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Le gain n'est que de ~0,4R ; le trader de garde remonte le stop au prix d'entrée à +1R. Resserrer maintenant dans un marché en peur extrême, c'est se faire sortir par le bruit (ATR 15 min 0,94 %)."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Validé : aucune nouvelle entrée, PEPE gardé, ordre ADA conservé. Si ADA se déclenche, on aura 2 altcoins short, la limite est atteinte mais respectée ; risque total ~2 %."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Trader de garde : aucune action depuis la dernière réunion, normal (pas de gain à protéger, pas de signal exceptionnel).",
+    "PEPE (pari à la baisse) gagne 1,25 € fictifs : on garde, stop et objectif inchangés.",
+    "Le seul signal du scanner (Microsoft à l'achat) rapporte trop peu après frais (RR 0,91).",
+    "Les actions tech ont déjà beaucoup baissé (AMD -10 %, Nasdaq -2,4 %) : vendre maintenant serait arriver trop tard, et le week-end approche."
+   ],
+   "desaccords": [
+    "Le Trader voulait vendre le Nasdaq (QQQ) ; l'analyste technique et l'analyste macro s'y sont opposés (pas de signal de la stratégie, survente, week-end). Le Trader a retiré l'idée.",
+    "Le Risk Manager a demandé de resserrer le stop PEPE ; le Trader a refusé (gain trop petit, bruit du marché) et le Risk Manager a accepté."
+   ],
+   "decision": "Aucune nouvelle position : on garde le pari à la baisse sur PEPE et l'ordre en attente sur ADA.",
+   "a_surveiller": [
+    "ADA casse 0,1533 (ordre O0002 déclenché, expire à 21:01 Paris)",
+    "PEPE remonte vers 4,13e-6 (haut récent) ou atteint +1R (stop remonté au prix d'entrée)",
+    "Clôture US à 22:00 Paris et réaction du Nasdaq après la démission de Jensen Huang"
+   ]
+  },
+  "synthese": "Le comité ne prend pas de nouveau trade : aucun signal ne rapporte assez par rapport au risque. On garde le pari à la baisse sur PEPE (+1,25 € fictifs) et le piège sur ADA.",
+  "id": "D-20261113-165719",
+  "cree_le": "2026-11-13T16:57:19Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-13T16:57:35Z"
  }
 ]
