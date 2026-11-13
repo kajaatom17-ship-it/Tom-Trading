@@ -291,5 +291,24 @@ check("actif déjà présent refusé", "BTC" not in [a["sym"] for a in aj])
 check("l'actif ajouté est dans la config fusionnée", any(a["sym"] == "NEW" for a in core.config()["univers"]))
 check("config de l'interface mise à jour", any(a["sym"] == "NEW" for a in json.load(open(os.path.join(os.path.dirname(core.DATA), "config.json")))["univers"]))
 
+# 15. objectif rapproché sur demande : seulement vers le prix, du côté du gain
+st = core.load("state.json", None); st["positions"] = []; st["entrees_meme_par_jour"] = {}; st["entrees_par_jour"] = {}; core.save("state.json", st)
+core.save("trades.json", [])
+st = core.load("state.json", None); st["equity_debut_jour"] = {core.paris_day(): st["cash"]}; st["cash"] = 500.0; core.save("state.json", st)
+PRICES["SOL"] = 100.0
+drop({"id": "S1", "action": "open", "sym": "SOL", "side": "short", "stop": 104.0, "tp": 88.0, "entry_ref": 100.0, "strategie": "TPB-1", "agents": AGENTS_OK, "synthese": "test"})
+run()
+check("position SOL short ouverte pour le test", any(p["sym"] == "SOL" for p in core.load("state.json", None)["positions"]), str(core.load("decisions.json", [])[-1].get("resultat")))
+PRICES["SOL"] = 97.0
+drop({"id": "S2", "action": "set_target", "sym": "SOL", "tp": 80.0, "origine": "tom"})   # plus loin : refusé
+drop({"id": "S3", "action": "set_target", "sym": "SOL", "tp": 96.9, "origine": "tom"})   # collé au prix : refusé
+drop({"id": "S4", "action": "set_target", "sym": "SOL", "tp": 93.0, "origine": "tom"})   # plus proche, bon côté : accepté
+run()
+dec = {x["id"]: x["resultat"]["statut"] for x in core.load("decisions.json", []) if x["id"] in ("S2", "S3", "S4")}
+check("objectif plus loin refusé", dec.get("S2") == "refuse", str(dec))
+check("objectif collé au prix refusé", dec.get("S3") == "refuse", str(dec))
+check("objectif rapproché accepté", dec.get("S4") == "execute", str(dec))
+check("objectif mis à jour dans la position", [p["tp"] for p in core.load("state.json", None)["positions"] if p["sym"] == "SOL"] == [93.0])
+
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

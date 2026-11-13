@@ -29,7 +29,7 @@ def main():
     d.setdefault("cree_le", iso())
     problems = []
     action = d.get("action")
-    if action not in ("open", "close", "tighten_stop", "none", "pending", "cancel", "agenda", "ajouter_actif"):
+    if action not in ("open", "close", "tighten_stop", "none", "pending", "cancel", "agenda", "ajouter_actif", "set_target"):
         problems.append("action doit être open, close, tighten_stop, pending, cancel, agenda, ajouter_actif ou none")
     if action == "agenda":
         if not d.get("evenements"):
@@ -45,7 +45,7 @@ def main():
         for k in ("sym", "raison", "source"):
             if not d.get(k):
                 problems.append(f"champ manquant : {k}")
-    if action not in ("agenda", "ajouter_actif"):
+    if action not in ("agenda", "ajouter_actif", "set_target"):
         missing = [a for a in REQUIRED_AGENTS if a not in d.get("agents", {})]
         if missing:
             problems.append("avis manquants : " + ", ".join(missing))

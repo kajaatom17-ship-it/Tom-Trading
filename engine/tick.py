@@ -14,7 +14,7 @@ import urllib.request
 from datetime import timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from core import (is_meme, ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
+from core import (costs_roundtrip_pct, is_meme, ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
                   now_utc, ohlc, pair_of, paris_day, parse_iso, position_value, r2, rp, save, tickers, tier_of)
 from risk import check_open
 from strategy import analyse, signals
@@ -350,6 +350,18 @@ def execute_decision(cfg, state, prop, tk):
         old = pos["stop"]; pos["stop"] = new
         log_event("Execution", "stop", f"{pos['sym']} : stop resserré de {rp(old)} a {rp(new)}")
         return {"statut": "execute"}
+    if action == "set_target":
+        new = float(prop["tp"])
+        cost = costs_roundtrip_pct(cfg, pos["sym"]) / 100
+        short = pos["side"] == "short"
+        closer = new > pos["tp"] if short else new < pos["tp"]
+        profit_side = new < pos["entry"] * (1 - cost) if short else new > pos["entry"] * (1 + cost)
+        valid = (new < t["ask"] * 0.997) if short else (new > t["bid"] * 1.003)
+        if not (closer and profit_side and valid):
+            return {"statut": "refuse", "motifs": ["Un objectif ne peut que se rapprocher, rester du côté du gain (frais compris) et à au moins 0,3 % du prix actuel."]}
+        old = pos["tp"]; pos["tp"] = new
+        log_event("Execution", "objectif", f"{pos['sym']} : objectif rapproché de {rp(old)} à {rp(new)}")
+        return {"statut": "execute", "ancien_objectif": old, "nouvel_objectif": new}
     return {"statut": "ignore", "motifs": [f"Action inconnue : {action}"]}
 
 

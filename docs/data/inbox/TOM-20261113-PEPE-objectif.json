@@ -1,0 +1,30 @@
+{
+ "id": "TOM-20261113-PEPE-objectif",
+ "action": "set_target",
+ "sym": "PEPE",
+ "tp": 3.8e-06,
+ "origine": "tom",
+ "synthese": "Demande de Tom : rapprocher l'objectif du short PEPE de 3,703e-06 à 3,800e-06 pour sécuriser un gain plus tôt.",
+ "agents": {},
+ "discussion": [
+  {
+   "agent": "trader",
+   "message": "Tom demande un objectif plus proche sur PEPE : 3,800e-06 au lieu de 3,703e-06. Le prix est à 3,991e-06, l'entrée à 4,067e-06."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Un objectif qu'on rapproche réduit le gain visé mais pas le risque : le stop ne bouge pas. Le moteur n'accepte que de rapprocher l'objectif, du côté du gain."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Objectif PEPE rapproché à 3,800e-06"
+  ],
+  "desaccords": [],
+  "decision": "Objectif PEPE ramené de 3,703e-06 à 3,800e-06, à la demande de Tom.",
+  "a_surveiller": [
+   "Le prix doit passer sous 3,800e-06 pour encaisser"
+  ]
+ }
+}
