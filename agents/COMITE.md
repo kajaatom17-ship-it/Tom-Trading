@@ -50,6 +50,20 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 Le Trader peut ajuster stop et objectif sur un niveau technique clair (support, résistance), à condition que le RR net reste ≥ 1,5.
 Un candidat qui va contre la tendance de BTC (pour un altcoin) demande un argument fort, sinon refus.
 
+## Ordres en attente (pour ne pas entrer en retard)
+
+Le comité ne se réunit pas en continu. Pour ne pas rater le bon moment, il place des **ordres en attente** que le moteur exécute seul, dans les 5 minutes où le prix atteint le niveau :
+- `"action": "pending"`, avec `"type_ordre": "stop"` (on entre si le prix casse un niveau dans notre sens : cassure) ou `"limite"` (on entre si le prix revient sur un niveau : repli),
+  `"declencheur": <prix>`, `"stop"`, `"tp"`, `"expire_h"` (4 h par défaut, 24 h maximum), `"strategie"`, plus la discussion et le compte rendu habituels.
+- Le code vérifie les règles à la pose (RR, stop…) et à nouveau au déclenchement. Quatre ordres en attente maximum.
+- Annuler : `"action": "cancel", "ordre_id": "O0007"`.
+Exemple : PEPE rebondit sous une résistance. Plutôt que d'entrer tout de suite, on place un short « stop » sous le dernier creux : on n'entre que si la baisse reprend vraiment.
+
+## Réunion d'urgence
+
+Une veille d'urgence tourne aussi aux minutes 10, 25 et 40 de chaque heure. Elle lit `urgences` dans le brief : mouvement brusque contre une position, actualité majeure, signal très fort (score ≥ 70 et RR ≥ 2).
+S'il n'y a aucune urgence, elle s'arrête sans rien déposer. S'il y en a une, elle mène une réunion complète, selon ce protocole.
+
 ## OPP-1 — l'opportunité à ne pas rater (pari de conviction)
 
 La stratégie de base (TPB-1, BRK-1) reste la priorité. OPP-1 sert uniquement quand une occasion **exceptionnelle** apparaît hors de ces règles :

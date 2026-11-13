@@ -489,6 +489,16 @@ function guide(p){
    Le rond blanc montre où on est maintenant, le petit trait blanc montre où on est entré. Plus le rond va vers la droite (vert), plus on se rapproche de l'objectif. Vers la gauche (rouge), on se rapproche du stop-loss.
    Si rien n'est touché, la position est fermée au plus tard le <b>${hm(fin.toISOString())}</b>.</p></div>`;
 }
+function pendingView(){
+  const os=S.state?.ordres_attente||[]; if(!os.length) return "";
+  return `<h3 style="margin:16px 0 8px">Ordres en attente</h3>`+os.map(o=>{const pr=livePrice(o.sym); const dist=pr?(o.declencheur/pr-1)*100:null;
+    const sens=o.side==="short"?"pari à la baisse":"pari à la hausse";
+    const cond=o.type_ordre==="stop"?(o.side==="short"?"passe sous":"passe au-dessus de"):(o.side==="short"?"remonte à":"redescend à");
+    return `<div class="guide"><div class="head"><div><div class="t">${esc(o.sym)}<span class="pill ${o.side}">${sens}</span><span class="pill n">${esc(o.strategie)}</span></div>
+    <div class="s muted" style="font-size:13px">On entre automatiquement si le prix ${cond} <b style="color:var(--text)">${px(o.declencheur)} €</b>${dist!=null?` (encore ${pctS(dist)})`:""}</div></div></div>
+    <div class="steps num"><div><span class="muted">Stop prévu</span><b class="down">${px(o.stop)} €</b></div><div><span class="muted">Objectif prévu</span><b class="up">${px(o.tp)} €</b></div></div>
+    <p class="hint">Valable jusqu'au ${hm(o.expire_le)}. Sinon l'ordre est annulé tout seul.</p></div>`}).join("");
+}
 function renderBadge(){
   const e=equityLive(); if(!e) return; const init=S.state.capital_initial; const d=e.eq-init, dp=d/init*100;
   const ps=S.state.positions; const b=$("pnlBadge");
@@ -499,7 +509,9 @@ function renderBadge(){
   b.querySelector(".l3").textContent=pctS(dp);
   const pend=ps.map(guide).join("");
   $("pnlBody").innerHTML=`<p class="muted" style="font-size:13px;margin-bottom:10px">Depuis le départ (${eur(init,0)} fictifs), frais compris : <b class="${cls(d)}">${sgn(d)} (${pctS(dp)})</b>. Valeur actuelle : <b>${eur(e.eq)}</b>.</p>`+(pend||`<div class="empty">Aucune position ouverte. Le comité attend une bonne occasion.</div>`);
-  if(ps.length){ $("homePos").innerHTML=pend; $("posGuide").innerHTML=pend; } else { $("posGuide").innerHTML=""; }
+  const pv=pendingView();
+  $("pnlBody").innerHTML+=pv;
+  if(ps.length){ $("homePos").innerHTML=pend+pv; $("posGuide").innerHTML=pend+pv; } else { $("posGuide").innerHTML=pv; if(pv) $("homePos").innerHTML=`<div class="empty">Aucune position ouverte.</div>`+pv; }
 }
 $("pnlBadge").addEventListener("click",()=>{const p=$("pnlPanel"); p.hidden=!p.hidden; $("pnlBadge").setAttribute("aria-expanded",!p.hidden);});
 $("pnlClose").addEventListener("click",()=>{$("pnlPanel").hidden=true; $("pnlBadge").setAttribute("aria-expanded","false");});

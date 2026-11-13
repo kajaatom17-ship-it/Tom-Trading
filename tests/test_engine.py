@@ -170,5 +170,20 @@ eq = core.load("status.json", {})["equity"]
 check("OPP-1 avec catalyseur exécuté", d["resultat"]["statut"] == "execute", str(d["resultat"]))
 check("OPP-1 risque limité à 0,5 % du capital", d["resultat"].get("risque_eur", 99) <= 0.005 * 507 + 0.01, str(d["resultat"].get("risque_eur")))
 
+# 10. ordre en attente : placé, pas déclenché, puis déclenché quand le prix passe le niveau
+st = core.load("state.json", None); st["positions"] = []; st["entrees_par_jour"] = {}; st["cash"] = 500.0; core.save("state.json", st)
+PRICES["SOL"] = 100.0
+drop({"id": "T9", "action": "pending", "sym": "SOL", "side": "short", "type_ordre": "stop", "declencheur": 98,
+      "stop": 101, "tp": 89, "expire_h": 4, "strategie": "BRK-1", "agents": AGENTS_OK, "synthese": "test"})
+run()
+st = core.load("state.json", None)
+check("ordre en attente enregistré", len(st.get("ordres_attente", [])) == 1 and not st["positions"])
+PRICES["SOL"] = 97.9
+run()
+st = core.load("state.json", None)
+check("ordre déclenché quand le prix passe sous 98", len(st["positions"]) == 1 and st["positions"][0]["side"] == "short"
+      and not st.get("ordres_attente"), str(st.get("ordres_attente")))
+check("urgences calculées", "urgences" in core.load("status.json", {}))
+
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

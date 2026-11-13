@@ -10,6 +10,7 @@ import shutil
 import sys
 import time
 import urllib.request
+from datetime import timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from core import (ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
@@ -171,6 +172,15 @@ def execute_decision(cfg, state, prop, tk):
         return {"statut": "execute", "position_id": pid, "prix": rp(sizing["fill"]), "qty": sizing["qty"],
                 "notionnel": r2(sizing["notionnel"]), "risque_eur": r2(sizing["risque_eur"]),
                 "rr_net": round(sizing["rr_net"], 2), "plafonne": sizing["plafonne"]}
+    if action == "pending":
+        return place_pending(cfg, state, prop, tk)
+    if action == "cancel":
+        before = len(state.get("ordres_attente", []))
+        state["ordres_attente"] = [o for o in state.get("ordres_attente", []) if o["id"] != prop.get("ordre_id")]
+        if len(state["ordres_attente"]) < before:
+            log_event("Execution", "annulation", f"Ordre en attente {prop.get('ordre_id')} annulé par le comité")
+            return {"statut": "execute"}
+        return {"statut": "ignore", "motifs": ["Ordre en attente introuvable"]}
     pos = next((p for p in state["positions"] if p["id"] == prop.get("position_id") or p["sym"] == prop.get("sym")), None)
     if not pos:
         return {"statut": "ignore", "motifs": ["Position introuvable"]}
@@ -192,6 +202,84 @@ def execute_decision(cfg, state, prop, tk):
         log_event("Execution", "stop", f"{pos['sym']} : stop resserré de {rp(old)} a {rp(new)}")
         return {"statut": "execute"}
     return {"statut": "ignore", "motifs": [f"Action inconnue : {action}"]}
+
+
+# ------------------------------------------------------- ordres en attente
+def place_pending(cfg, state, prop, tk):
+    """Ordre conditionnel : le moteur ouvre la position quand le prix atteint le déclencheur."""
+    t = tk.get(prop.get("sym"))
+    if not t:
+        return {"statut": "ignore", "motifs": ["Pas de prix pour cet actif"]}
+    trig = float(prop["declencheur"]); kind = prop.get("type_ordre", "stop")
+    side = prop.get("side")
+    test = dict(prop, entry_ref=trig)
+    test.pop("atr", None)
+    # contrôle à l'avance, comme si le prix était au déclencheur
+    ok, reasons, _ = check_open(cfg, state, dict(test, sym=prop["sym"]),
+                                {**t, "bid": trig, "ask": trig, "last": trig}, {s: x["last"] for s, x in tk.items()})
+    reasons = [r for r in reasons if "entrées aujourd'hui" not in r and "positions ouvertes" not in r]
+    if reasons:
+        log_event("Garde-fou", "refus", f"Ordre en attente {prop['sym']} refusé : " + " | ".join(reasons))
+        return {"statut": "bloque par les garde-fous du code", "motifs": reasons}
+    if len(state.get("ordres_attente", [])) >= 4:
+        return {"statut": "bloque par les garde-fous du code", "motifs": ["Déjà 4 ordres en attente."]}
+    state["seq"] += 1
+    o = {"id": f"O{state['seq']:04d}", "sym": prop["sym"], "side": side, "type_ordre": kind,
+         "declencheur": trig, "stop": float(prop["stop"]), "tp": float(prop["tp"]),
+         "strategie": prop.get("strategie", "TPB-1"), "duree_max_h": prop.get("duree_max_h", 24),
+         "place_le": iso(), "expire_le": iso(now_utc() + timedelta(hours=min(float(prop.get("expire_h", 4)), 24))),
+         "decision_id": prop["id"], "agents": prop.get("agents"), "catalyseur": prop.get("catalyseur")}
+    state.setdefault("ordres_attente", []).append(o)
+    sens = "vend à découvert" if side == "short" else "achète"
+    cond = ("passe sous" if side == "short" else "passe au-dessus de") if kind == "stop" else ("remonte à" if side == "short" else "redescend à")
+    log_event("Execution", "ordre en attente", f"Ordre {o['id']} : on {sens} {o['sym']} si le prix {cond} {rp(trig)} (valable jusqu'à {o['expire_le'][11:16]} UTC)")
+    return {"statut": "execute", "ordre_id": o["id"]}
+
+
+def process_pending(cfg, state, tk):
+    keep = []
+    for o in state.get("ordres_attente", []):
+        t = tk.get(o["sym"])
+        if now_utc() >= parse_iso(o["expire_le"]):
+            log_event("Execution", "expiration", f"Ordre en attente {o['id']} ({o['sym']}) expiré sans être déclenché")
+            continue
+        if not t:
+            keep.append(o); continue
+        px = t["last"]; trig = o["declencheur"]
+        if o["type_ordre"] == "stop":
+            hit = px <= trig if o["side"] == "short" else px >= trig
+        else:
+            hit = px >= trig if o["side"] == "short" else px <= trig
+        if not hit:
+            keep.append(o); continue
+        prop = {"id": o["decision_id"] + "-" + o["id"], "action": "open", "sym": o["sym"], "side": o["side"],
+                "strategie": o["strategie"], "stop": o["stop"], "tp": o["tp"], "duree_max_h": o["duree_max_h"],
+                "agents": o.get("agents") or {}, "catalyseur": o.get("catalyseur")}
+        ok, reasons, sizing = check_open(cfg, state, prop, t, {s: x["last"] for s, x in tk.items()})
+        if ok:
+            pid = open_position(cfg, state, prop, sizing)
+            log_event("Execution", "déclenchement", f"Ordre {o['id']} déclenché : {o['sym']} {o['side']} ouvert ({pid})")
+        else:
+            log_event("Garde-fou", "refus", f"Ordre {o['id']} déclenché mais bloqué : " + " | ".join(reasons))
+    state["ordres_attente"] = keep
+
+
+def urgences(cfg, state, sig, veille_data):
+    """Liste des raisons de réunir le comité en urgence (lue par la veille d'urgence)."""
+    out = []
+    held = {p["sym"] for p in state.get("positions", [])}
+    for a in (veille_data or {}).get("alertes", []):
+        if (now_utc() - parse_iso(a["t"])).total_seconds() < 1200 and (a.get("position") == "contre nous" or abs(a["variation_pct"]) >= 4):
+            out.append(f"Mouvement brusque {a['sym']} {a['variation_pct']} % en {a['horizon']}" + (f", position {a['position']}" if a.get("position") else ""))
+    for n in (veille_data or {}).get("actus", []):
+        if n.get("score", 0) >= 5 and (now_utc() - parse_iso(n["t"])).total_seconds() < 1800:
+            out.append(f"Actualité majeure : {n['titre'][:120]}")
+        elif n.get("score", 0) >= 3 and set(n.get("actifs", [])) & held and (now_utc() - parse_iso(n["t"])).total_seconds() < 1800:
+            out.append(f"Actualité sur une position ouverte : {n['titre'][:120]}")
+    strong = [c for c in (sig or {}).get("candidats", []) if c["score"] >= 70 and c["rr_net"] >= 2.0 and c["sym"] not in held]
+    if strong:
+        out.append("Signal fort : " + ", ".join(f"{c['sym']} {c['side']} (RR {c['rr_net']})" for c in strong[:3]))
+    return out[:8]
 
 
 # ----------------------------------------------------------------- scanner
@@ -290,6 +378,7 @@ def main():
 
     manage_positions(cfg, state, tk)
     process_inbox(cfg, state, tk)
+    process_pending(cfg, state, tk)
 
     eq = equity(state, prices)
     state["pic_equity"] = max(state["pic_equity"], eq)
@@ -327,6 +416,10 @@ def main():
             log_event("Scanner", "scan", msg)
 
     status["equity"] = r2(eq); status["drawdown_pct"] = round(dd, 2)
+    try:
+        status["urgences"] = urgences(cfg, state, load("signals.json", {}), load("veille.json", {}))
+    except Exception as e:
+        status["urgences_erreur"] = str(e)[:120]
     if DIAG:
         status["diagnostic_scanner"] = DIAG[:30]
     save("status.json", status)

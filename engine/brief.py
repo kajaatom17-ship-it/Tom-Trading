@@ -29,6 +29,9 @@ def main():
                            "pnl_latent": round(unrealized(p, prices.get(p["sym"], p["entry"])), 2),
                            "ouvert_le": p["ouvert_le"], "strategie": p["strategie"]} for p in st["positions"]],
         }
+    out["urgences"] = load("status.json", {}).get("urgences", [])
+    if st:
+        out["ordres_attente"] = st.get("ordres_attente", [])
     out["scanner"] = {"t": sig.get("t"), "tendance_btc_1h": sig.get("btc_trend_1h"),
                       "candidats": sig.get("candidats", [])[:10]}
     out["sentiment"] = mk.get("sentiment")

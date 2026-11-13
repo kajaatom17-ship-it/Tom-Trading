@@ -29,8 +29,12 @@ def main():
     d.setdefault("cree_le", iso())
     problems = []
     action = d.get("action")
-    if action not in ("open", "close", "tighten_stop", "none"):
-        problems.append("action doit etre open, close, tighten_stop ou none")
+    if action not in ("open", "close", "tighten_stop", "none", "pending", "cancel"):
+        problems.append("action doit être open, close, tighten_stop, pending, cancel ou none")
+    if action == "pending":
+        for k in ("sym", "side", "stop", "tp", "declencheur", "type_ordre", "expire_h", "strategie"):
+            if k not in d:
+                problems.append(f"champ manquant : {k}")
     missing = [a for a in REQUIRED_AGENTS if a not in d.get("agents", {})]
     if missing:
         problems.append("avis manquants : " + ", ".join(missing))
