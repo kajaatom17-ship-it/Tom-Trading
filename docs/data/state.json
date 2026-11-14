@@ -13,37 +13,37 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T16:30:32Z",
+ "maj": "2026-11-14T16:56:55Z",
  "seq": 6,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T16:26:42Z",
+ "chasseur_t": "2026-11-14T16:56:41Z",
  "tendance": [
-  "KAVA",
   "BTC",
   "HYPE",
-  "PENGU",
-  "XRP",
+  "KAVA",
   "TAO",
-  "PEARL",
   "ETH",
-  "ADA",
-  "SOL",
+  "PEARL",
+  "XRP",
+  "AVAX",
+  "UNI",
+  "ZEC",
   "SUI",
-  "AKE",
-  "NEAR",
-  "ENA",
-  "QTC"
+  "SOL",
+  "LIT",
+  "AERO",
+  "PENGU"
  ],
- "tendance_t": "2026-11-14T15:28:50Z",
+ "tendance_t": "2026-11-14T16:56:41Z",
  "buzz": {
   "AGI": {
    "source": "Reddit",
    "mentions": 31,
-   "x_vs_hier": 4.4
+   "x_vs_hier": 6.2
   },
   "BTC": {
    "source": "StockTwits",
@@ -55,32 +55,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HBAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QNT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JNJ": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -90,7 +65,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DAL": {
+  "ETH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -100,55 +80,75 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "PEPE": {
+  "DAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
+  "SMMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TRUMP": {
+  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
+  "XAGUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AMTM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MELANIA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HBAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ADA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T16:26:43Z",
- "sources_t": "2026-11-14T16:26:49Z",
+ "buzz_t": "2026-11-14T16:56:42Z",
+ "sources_t": "2026-11-14T16:56:46Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 10,
    "sentiment": "bearish",
    "titres": [
-    "Coinbase Reveals the True Why BTC Price Is Falling",
-    "URGENT $BTC UPDATE! Are we going Lower?"
+    "$BTC TREND IS STARTING TO TURN",
+    "BTC DOMINANCE UPDATE — ALTCOINS UNDER PRESSURE?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Goldman Sachs forecasts stable growth, warns on AI trade in 2027 outlook",
-    "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts"
+    "Behind Nvidia Affair is a Vast Chinese Spying Machine - How China won the AI war",
+    "Goldman Sachs forecasts stable growth, warns on AI trade in 2027 outlook"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Binance",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "以太坊基金会再次卖出 2500 枚 ETH，四日合计卖出 7500 枚 ETH",
-    "江卓尔：已在比特币 65,720 美元处开出 200% 仓位对冲空单，目前整体仓位相当于空仓"
+    "BNB -6.85% to 585.58, 1.98x normal range: 622.41 is the lid",
+    "Binance Reopens 87 Networks Following Historic $6.3 Billion Breach"
    ]
   },
   {
@@ -185,11 +185,11 @@
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts"
+    "以太坊基金会再次卖出 2500 枚 ETH，四日合计卖出 7500 枚 ETH"
    ]
   }
  ],
