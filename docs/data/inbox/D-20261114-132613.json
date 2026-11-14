@@ -1,0 +1,106 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "Aucune position ouverte. Les 10 candidats TPB-1 du scanner (12:57 UTC) sont tous des shorts avec un RR net entre 1,12 et 1,22, sous le seuil de 1,5 (SOL 1,21, ADA 1,22, BTC 1,21). BTC 60 909 €, RSI 43, volume 0,58x la normale : repli sans conviction.",
+   "donnees": "Brief Kraken 13:25 UTC, 14 nov 2026"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Samedi : bourses US fermées. Actualités du brief : Bitcoin sous 68 000 $ avec sept jours de sorties d'ETF (Investing.com, 14 nov 12:56 UTC), vente de valeurs IA liée à Nvidia/AMD (Yahoo Finance, 14 nov 10:23 UTC), prix à la production en hausse de 6,5 % sur un an avec des responsables de la Fed qui évoquent une hausse de taux (CFO Dive, 13 nov 21:18 UTC). Mes recherches web n'ont pas donné de calendrier daté fiable pour lundi : je n'invente rien. Aucun catalyseur daté de moins de 24 h exploitable pour OPP-1.",
+   "sources": [
+    "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 12:56 UTC",
+    "Producer prices surge at 6.5% annual pace as Fed officials signal hike - CFO Dive - 2026-11-13 21:18 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), dominance BTC 59,49 %, capitalisation totale -6,55 % sur 24 h. En peur extrême les rebonds sont violents : vendre à découvert après une telle chute est risqué.",
+   "donnees": "Brief 12:56 UTC"
+  },
+  "trader": {
+   "proposition": "Garder la liquidité, aucune nouvelle entrée.",
+   "pour": [
+    "Tendance 1 h baissière sur tous les candidats"
+   ],
+   "contre": [
+    "RR net 1,21 < 1,5 partout",
+    "Volumes faibles un samedi",
+    "Peur extrême : risque de rebond brutal"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "Aucun candidat n'atteint un RR net de 1,5 ; pas de trade pour faire tourner le portefeuille."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Aucune position ouverte. Meilleurs candidats : ADA short RR net 1,22 et SOL short 1,21 (score 40). BTC 60 909 € sous l'EMA20 (61 011) avec RSI 43 : baissier mais volume à 0,58x."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Samedi, bourses US fermées. Contexte : sorties d'ETF Bitcoin pour le 7e jour (Investing.com, 12:56 UTC) et prix à la production à +6,5 % avec la Fed qui évoque une hausse. Pas de catalyseur daté < 24 h pour OPP-1."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed 13, capitalisation -6,55 % en 24 h. Je me méfie des shorts après une telle chute : les rebonds en peur extrême sont violents."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Rien de propre : DOGE RSI 49, volume 0,63x ; SHIB volume nul ; PEPE RSI 56 mais -5,18 % sur 24 h sans impulsion. TRUMP a un spread de 0,21 %, proche de la limite de 0,30 %. Pas de mouvement poursuivable."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je serais tenté par ADA short, stop 0,1488, objectif 0,1429. Mais un RR net de 1,22 est sous le seuil de 1,5."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Refusé : 1,22 < 1,5. Élargir l'objectif sans niveau technique clair serait déplacer les règles pour faire passer un trade."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je ne bloquerais pas un short, mais je n'ai aucun argument pour le défendre : la peur extrême joue contre lui."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "risk_manager",
+   "message": "D'accord. SOL a un volume de 1,72x mais seulement 0,40 % d'ATR : le gain visé ne couvre pas les frais."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Entendu, je ne force rien. Décision : ne rien faire, on garde 502,38 € de liquidités."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict confirmé : aucune entrée. À revoir à la prochaine réunion si un RR net ≥ 1,5 apparaît."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte : rien à garder ni à fermer.",
+   "Les 10 candidats du scanner sont des shorts avec un gain/risque net de 1,12 à 1,22, sous le minimum de 1,5.",
+   "Marché en peur extrême (indice 13), samedi, volumes faibles."
+  ],
+  "desaccords": [
+   "Le trader aurait volontiers pris ADA short ; le Risk Manager a refusé (RR 1,22).",
+   "L'analyste sentiment craint un rebond violent contre les shorts."
+  ],
+  "decision": "Aucune action : on reste en liquidités.",
+  "a_surveiller": [
+   "Un candidat avec RR net ≥ 1,5",
+   "Reprise des volumes à l'ouverture lundi",
+   "Calendrier macro de la semaine (non confirmé par mes recherches)"
+  ]
+ },
+ "synthese": "On n'ouvre rien : aucune occasion ne rapporte assez par rapport au risque, dans un marché très apeuré.",
+ "id": "D-20261114-132613",
+ "cree_le": "2026-11-14T13:26:13Z"
+}
