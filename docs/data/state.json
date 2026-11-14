@@ -13,7 +13,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T23:30:48Z",
+ "maj": "2026-11-14T23:57:45Z",
  "seq": 7,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -21,25 +21,25 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T23:27:07Z",
+ "chasseur_t": "2026-11-14T23:57:21Z",
  "tendance": [
   "BTC",
-  "ASTER",
-  "HYPE",
   "SOL",
-  "NEAR",
-  "ETH",
+  "HYPE",
   "UNI",
   "LIT",
-  "LINK",
-  "AAVE",
-  "ENA",
-  "ADA",
-  "AVAX",
-  "MON",
-  "TAO"
+  "XRP",
+  "TAO",
+  "PEARL",
+  "DRV",
+  "ETH",
+  "NEAR",
+  "ASTER",
+  "SUI",
+  "ZEC",
+  "LINK"
  ],
- "tendance_t": "2026-11-14T22:56:46Z",
+ "tendance_t": "2026-11-14T23:57:22Z",
  "buzz": {
   "BTC": {
    "source": "StockTwits",
@@ -52,6 +52,11 @@
    "x_vs_hier": null
   },
   "ETH": {
+   "source": "Reddit + StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -61,17 +66,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SOL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -81,12 +76,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZEC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LHX": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -96,7 +86,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "COIN": {
+  "SHIB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ADA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JNJ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -105,15 +105,10 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
-  },
-  "QNT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T23:18:12Z",
- "sources_t": "2026-11-14T23:18:16Z",
+ "buzz_t": "2026-11-14T23:57:23Z",
+ "sources_t": "2026-11-14T23:57:28Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",

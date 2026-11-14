@@ -4907,5 +4907,113 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T23:27:01Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "BTC 57 918 €, RSI 30,3, sous EMA20 (58 755) et EMA50 (59 509), tendance 1 h baissière, volume 0,56x la normale. Toutes les cryptos suivies sont en survente (XRP RSI 18,6, ETH 27,5). Seul candidat du scanner : GOOGL short TPB-1, RR net 1,48 < 1,5, volume 0,06x (marché fermé).",
+    "donnees": "brief Kraken 2026-11-14 23:56 UTC (00:56 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Samedi soir : marchés actions fermés, calendrier de la semaine du 16 nov non confirmé par une source datée exploitable, donc rien ajouté à l'agenda. Actualités du brief : sorties ETF bitcoin sur sept jours (Investing.com, 14 nov 23:29 UTC) et probabilité de hausse de taux Fed jugée quasi certaine (Cryptonews.net, 14 nov 20:37 UTC) : interprétations de médias, à confirmer.",
+    "sources": [
+     "Bitcoin falls ... ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 23:29 UTC",
+     "Fed Rate Hike Odds Reach Near-Certainty ... - Cryptonews.net - 2026-11-14 20:37 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -9,24 % en 24 h, dominance BTC 58,74 %. Peur extrême = rebonds violents possibles dans les deux sens."
+   },
+   "trader": {
+    "proposition": "Garder (aucune position ouverte) et ne rien ouvrir.",
+    "pour": [
+     "Tendance baissière claire sur les cryptos"
+    ],
+    "contre": [
+     "Short tardif après -6 à -12 % en 24 h",
+     "Volumes faibles, GOOGL sous le seuil de RR",
+     "Rebond de survente probable"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Aucun candidat avec RR net ≥ 1,5 et entrée non tardive ; aucune position à protéger."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "BTC 57 918 €, RSI 30,3, sous EMA20 58 755 et EMA50 59 509, volume 0,56x. Tendance 1 h baissière, mais toutes les cryptos sont déjà sous leur EMA20 avec RSI entre 18 et 35."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed à 13 et capitalisation totale -9,24 % sur 24 h. À ce niveau de peur, shorter après la chute est le trade le plus encombré."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Samedi soir, actions fermées. Les titres sur les sorties ETF et la hausse de taux Fed sont des interprétations de médias, pas des faits vérifiés par nous. Pas de date d'annonce confirmée à ajouter à l'agenda."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "DOGE -11,2 %, PEPE -12 %, TRUMP -14 %, volume 15 min à 0,36x, 0,13x et 0,17x. DOGE RSI 27 : mouvement épuisé, pas d'impulsion. SHIB seul à 2,25x mais RSI 30 et spread 0,09 %. Rien de propre."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je regarde GOOGL short TPB-1 : entrée 263,37, stop 267,22, objectif 251,84. Le RR net est de 1,48 selon le scanner."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "1,48 < 1,5 : refus. Volume 0,06x, marché fermé, score 30. Je ne valide pas pour faire tourner le portefeuille."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "D'accord avec le refus. L'ATR de GOOGL est de 0,99 pour un stop à 3,84 : le stop est trop large pour le gain visé."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "specialiste_memecoins",
+    "message": "Je confirme : aucune euphorie, donc aucun short de memecoin sur épuisement haussier. Ils chutent déjà, un short serait tardif."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_sentiment",
+    "message": "Oui, et le spread de WIF à 0,17 % avec 75 k€ de volume est mince. Je ne propose rien."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Verdict : refus de toute entrée. Aucune position ouverte, donc rien à garder ni à resserrer. Équité 503,97 €, perte du jour nulle."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte, portefeuille à 503,97 € (+0,79 %).",
+    "Le marché crypto a déjà chuté de 6 à 12 % en 24 h et tout est en survente.",
+    "Le seul candidat (GOOGL short) a un gain/risque de 1,48, sous le minimum de 1,5, et le marché actions est fermé."
+   ],
+   "desaccords": [
+    "Le trader a étudié GOOGL ; le Risk Manager a refusé, l'analyste technique a confirmé."
+   ],
+   "decision": "Aucune entrée : ne rien faire.",
+   "a_surveiller": [
+    "Réouverture des actions lundi 15:30 Paris",
+    "Un rebond de survente sur BTC avec volume, ou une cassure sous 57 518 €",
+    "Confirmation datée de l'agenda de la semaine (Fed)"
+   ]
+  },
+  "synthese": "On ne fait rien : le marché a déjà beaucoup chuté et aucun trade n'offre assez de gain pour le risque.",
+  "id": "D-20261114-235657",
+  "cree_le": "2026-11-14T23:56:57Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T23:57:15Z"
  }
 ]
