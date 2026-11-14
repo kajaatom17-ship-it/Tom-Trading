@@ -71,7 +71,7 @@ def main():
     out["actus_et_videos"] = {"actus_crypto_tendance": st.get("actus_tendance", []),
                               "videos_recentes_48h": load("videos.json", [])[-15:],
                               "comptes_tiktok_a_verifier": cfg.get("sources_externes", {}).get("tiktok", []),
-                              "note": "Indices seulement. Un sujet qui monte dans l'actualité ou une vidéo de pro ne justifie une entrée que si le prix et le volume confirment."}
+                              "note": "Indices seulement. Un sujet qui monte dans l'actualité ou une vidéo de pro ne justifie une entrée que si le prix et le volume confirment. Garder un esprit critique : qui parle, quel intérêt, déjà dans le prix ? Voir COMITE.md."}
     out["derniers_trades"] = load("trades.json", [])[-5:]
     out["dernieres_decisions"] = [{"id": d["id"], "action": d.get("action"), "sym": d.get("sym"),
                                    "synthese": d.get("synthese"), "resultat": d.get("resultat", {}).get("statut")}
