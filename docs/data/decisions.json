@@ -2088,5 +2088,111 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T10:56:32Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "BTC 1 h baissier. XRP short : prix 0,8997, EMA20 15 min 0,8987, RSI 51,5, volume x1,73, stop déjà remonté à 0,9038 (sous l entrée 0,9110 : gain protégé). Candidats scanner tous sous le seuil : AVAX RR 1,12, BONK 1,29, PENGU 1,01, SUI 1,21, ONDO 1,12, FET 1,49.",
+    "donnees": "Brief 11:25 UTC (12:25 Paris), Kraken API publique"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Samedi : Bourse US fermée, pas de donnée macro majeure confirmée aujourd'hui, calendrier vide (aucune date confirmée par source, rien ajouté). Actualités du brief : piratage Binance de 6,3 Md$ (retrait à rétablir la semaine prochaine), analyste Balchunas évoque une base du BTC vers 60 000 $ après la chute liée à Nvidia.",
+    "sources": [
+     "Binance aims to restore all withdrawals next week after $6.3 billion hack - Investing.com - 2026-11-14 10:56 UTC - https://www.investing.com/news/company-news/binance-aims-to-restore-all-withdrawals-next-week-after-63-billion-hack-5027266",
+     "Wall St Week Ahead: As tech swoon roils market, US inflation data on tap - Khaleej Times (daté non vérifié)"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), dominance BTC 59,5 %, capitalisation totale -4,92 % sur 24 h. En peur extrême, les rebonds sont violents : mauvais moment pour ouvrir un short au rabais."
+   },
+   "trader": {
+    "proposition": "Garder XRP. Aucune nouvelle entrée : aucun candidat n'atteint RR net 1,5 (meilleur : FET 1,49).",
+    "pour": [
+     "Tendance 1 h baissière sur toute la liste"
+    ],
+    "contre": [
+     "RR net insuffisant partout",
+     "Peur extrême, risque de rebond",
+     "Samedi : volumes faibles"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Pas de nouvelle position : aucun RR net >= 1,5, corrélation déjà forte avec XRP short, 3 entrées autorisées mais aucune n'est de qualité."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Tendance 1 h baissière sur XRP, AVAX, SUI, FET. Mais RR net : AVAX 1,12, SUI 1,21, BONK 1,29, FET 1,49 : tous sous 1,5."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Samedi, Bourse US fermée, calendrier vide. Binance (piratage 6,3 Md$) et la chute liée à Nvidia pèsent déjà sur le marché : la mauvaise nouvelle est largement connue."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_macro",
+    "message": "Fear & Greed 13 et capitalisation -4,92 % en 24 h : c'est une zone où un rebond sec peut retourner un short fraîchement ouvert."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_technique",
+    "message": "BONK : RR 1,29, volume 24 h 46 000 €, très mince. PEPE vol_ratio 0,04, DOGE 0,33 : pas d'impulsion, rien à suivre. TRUMP vol x2,05 mais RSI 42 déjà bas, mouvement en partie fait. Rien de propre."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je vois FET à 1,49 : à 0,01 du seuil. Je propose un short FET, stop 0,1288, objectif 0,1213."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Refus : FET a déjà perdu 6 % en 24 h (plus forte baisse de la liste), RR net 1,49 < 1,5 et j'ajouterais un deuxième altcoin short corrélé à XRP. On ne déplace pas le stop pour faire passer un trade."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Accepté. Je retire FET. Pour XRP : stop 0,9038 sous l'entrée 0,9110, gain latent +1,88 €, objectif 0,868 : on garde."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "D'accord pour garder XRP : volume x1,73, MACD positif mais RSI 51,5 sans cassure au-dessus de l'EMA50 0,9045. Si XRP repasse au-dessus, le stop protège."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Décision : aucune nouvelle entrée. Position XRP conservée, risque déjà verrouillé."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "XRP short gardé : stop remonté au-dessus de zéro perte, gain latent +1,88 €.",
+    "Marché en peur extrême (13), Bourse US fermée samedi.",
+    "Aucun des 6 candidats n'atteint un rapport gain/risque net de 1,5."
+   ],
+   "desaccords": [
+    "Le Trader voulait FET (1,49), le Risk Manager a refusé : seuil non atteint et corrélation avec XRP."
+   ],
+   "decision": "On garde XRP et on n'ouvre rien de nouveau.",
+   "a_surveiller": [
+    "Rebond de XRP au-dessus de l'EMA50 15 min (0,9045)",
+    "Un candidat avec RR net >= 1,5",
+    "Reprise des retraits Binance la semaine prochaine"
+   ]
+  },
+  "synthese": "On garde le pari à la baisse sur XRP, déjà protégé, et on n'ouvre rien de nouveau car aucun candidat n'a un gain assez grand par rapport au risque.",
+  "id": "D-20261114-112614",
+  "cree_le": "2026-11-14T11:26:14Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T11:27:38Z"
  }
 ]
