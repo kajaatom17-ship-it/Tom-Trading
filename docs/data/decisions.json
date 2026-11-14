@@ -4682,5 +4682,117 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T22:28:31Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "défavorable",
+    "resume": "BTC 58 126 € (RSI 29, volume x2,54), ETH RSI 27, XRP RSI 17 : tout est sur-vendu, tendance 1 h baissière partout. Les 4 candidats du scanner (TSLA, NVDA, SPY, QQQ en short) ont un RR net de 1,12 à 1,41, sous le seuil de 1,5. Marché actions fermé le samedi soir.",
+    "donnees": "Kraken OHLC 15 min, brief de 22:56 UTC (23:56 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Actualités du jour : BTC sous 68 000 $, sorties d'ETF pour le 7e jour de suite (Investing.com, 14/11 22:28 UTC), craintes de hausse des taux de la Fed (Cryptonews, 14/11 20:37 UTC), exploit sur Kava (Crypto Briefing, 14/11 14:35 UTC). Le calendrier du brief est vide et mes recherches web n'ont pas donné de date fiable pour lundi : rien n'est ajouté à l'agenda.",
+    "sources": [
+     "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 14/11 22:28 UTC",
+     "Fed Rate Hike Odds Reach Near-Certainty as Bitcoin Price Falls to $65K - Cryptonews.net - 14/11 20:37 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -9 % en 24 h, dominance BTC 58,97 %. En peur extrême les rebonds sont violents et piègent les shorts tardifs."
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "DOGE -13 %, PEPE -14,7 %, TRUMP -17,2 %, BONK -17,2 %, PENGU -22,5 % sur 24 h, RSI entre 19 et 32. Le mouvement est déjà fait : entrer maintenant serait poursuivre une bougie verticale. WIF (spread 0,26 %) et TRUMP (0,24 %) frôlent la limite de 0,30 %."
+   },
+   "trader": {
+    "proposition": "Aucune position à gérer, aucune nouvelle entrée.",
+    "pour": [
+     "Tendance baissière claire"
+    ],
+    "contre": [
+     "RR net sous 1,5 sur tous les candidats",
+     "Actifs déjà -10 à -20 % sur 24 h",
+     "RSI sur-vendus, risque de rebond violent"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Aucun trade ne passe le RR net de 1,5 et entrer après une chute de -9 % sur le marché est une entrée tardive. Pas de trade pour faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "BTC 58 126 €, RSI 29 contre 33,7 avant, sous l'EMA20 (59 157) et l'EMA50 (59 780), tendance 1 h baissière. Les shorts du scanner (NVDA RR 1,41, TSLA 1,12, SPY 1,12, QQQ 1,12) sont tous sous 1,5."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "BTC sous 68 000 $ avec 7 jours de sorties d'ETF et des craintes de hausse des taux de la Fed (sources du 14/11 au soir). C'est le contexte qui explique la chute, ce sont des faits, pas des rumeurs. Aucune annonce datée confirmée dans les 48 h dans le brief."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed 13, capitalisation -9 % sur 24 h. Je suis d'accord sur la tendance, mais à ce niveau de peur un rebond brutal est probable : un short ici peut se faire balayer."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "PENGU -22,5 % avec un volume x5,55, TRUMP -17,2 %, BONK -17,2 %, RSI 20 à 28. Le mouvement est fini côté impulsion, rien de poursuivable. Pour un short, il faudrait un rebond sur l'EMA20 15 min, pas encore là."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "specialiste_memecoins",
+    "message": "Je confirme : DOGE RSI 19,1 et volume x3,12, c'est une phase d'épuisement vendeur, pas un point d'entrée. Un TPB-1 short attendrait un retour sur l'EMA20 (0,0533 pour DOGE) que le prix n'a pas fait."
+   },
+   {
+    "agent": "trader",
+    "message": "Je ne vois aucune proposition propre. Pas de position ouverte, donc rien à garder ou fermer, et pas de nouvelle entrée : RR trop faible, actions fermées, cryptos déjà très basses."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Avocat du diable : et si la chute continue ? Alors on la regardera à la prochaine réunion avec un vrai rebond à vendre. Entrer à -9 % sur la journée, c'est l'entrée tardive que Tom nous a demandé de surveiller."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "risk_manager",
+    "message": "D'accord pour ne rien faire. Les actualités sont toutes baissières, donc tout le monde les voit déjà : le prix les a en grande partie intégrées. Je n'ai pas de catalyseur daté de moins de 24 h pour justifier un OPP-1."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je ne bloque pas, je confirme la prudence : on attend un rebond puis un signal propre."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Verdict : refus de toute nouvelle entrée. Rien n'est ouvert, donc le capital de 503,97 € est intact."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte, capital 503,97 € (+0,79 %).",
+    "Marché crypto en chute (-9 % en 24 h), peur extrême (13/100), tout est sur-vendu.",
+    "Les 4 candidats actions ont un gain/risque trop faible après frais (1,12 à 1,41 pour 1,5 requis) et la bourse est fermée."
+   ],
+   "desaccords": [
+    "Aucun désaccord de fond. Le Risk Manager a joué l'avocat du diable sur une éventuelle poursuite de la chute."
+   ],
+   "decision": "On ne prend aucun trade : rien à garder, aucune entrée propre.",
+   "a_surveiller": [
+    "Un rebond sur l'EMA20 15 min pour un short TPB-1 propre",
+    "Ouverture des marchés actions lundi",
+    "Calendrier des annonces à confirmer avec une source datée"
+   ]
+  },
+  "synthese": "Le marché crypto a beaucoup chuté et aucun trade n'offre assez de gain pour le risque, donc on ne fait rien cette fois.",
+  "id": "D-20261114-225631",
+  "cree_le": "2026-11-14T22:56:31Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T22:56:40Z"
  }
 ]

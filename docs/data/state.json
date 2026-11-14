@@ -13,38 +13,33 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T22:32:27Z",
+ "maj": "2026-11-14T22:56:53Z",
  "seq": 7,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T22:28:36Z",
+ "chasseur_t": "2026-11-14T22:56:46Z",
  "tendance": [
   "BTC",
-  "MIHAO",
+  "ASTER",
   "HYPE",
   "SOL",
-  "ETH",
-  "KAVA",
-  "ZEC",
-  "ASTER",
-  "XRP",
-  "LINK",
-  "LIT",
-  "BNB",
   "NEAR",
-  "PUMP",
-  "AERO"
+  "ETH",
+  "UNI",
+  "LIT",
+  "LINK",
+  "AAVE",
+  "ENA",
+  "ADA",
+  "AVAX",
+  "MON",
+  "TAO"
  ],
- "tendance_t": "2026-11-14T21:56:50Z",
+ "tendance_t": "2026-11-14T22:56:46Z",
  "buzz": {
-  "AGI": {
-   "source": "Reddit",
-   "mentions": 31,
-   "x_vs_hier": 3.4
-  },
   "BTC": {
    "source": "StockTwits",
    "mentions": null,
@@ -60,7 +55,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPCX": {
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -75,17 +70,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
+  "BMNR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HYPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -95,56 +95,51 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLM": {
+  "LHX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMP": {
+  "OCUL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KLAR": {
+  "SPCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PYTH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XCN": {
+  "NEAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T22:28:37Z",
- "sources_t": "2026-11-14T22:28:42Z",
+ "buzz_t": "2026-11-14T22:56:47Z",
+ "sources_t": "2026-11-14T22:56:51Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 18,
+   "mentions": 14,
    "sentiment": "bearish",
    "titres": [
-    "BTC Daily Market Structure & Deep Discount Demand Analysis",
-    "Sharp crypto drop: how our real portfolio is doing"
+    "BITCOIN: THE BATTLE OF THE BIG BOYS BEGINS!",
+    "Peter Schiff argues Bitcoin may fall below $16,500 by year-end if $50,000 breaks next"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 5,
+   "mentions": 7,
    "sentiment": "bearish",
    "titres": [
-    "Ethereum prepares for a major rise · Correction ends",
-    "ETH – Building small swing longs"
+    "$ETH WEEKLY: BULL TRAP OR THE START OF A NEW HIGHER LOW?",
+    "Peter Schiff argues Bitcoin may fall below $16,500 by year-end if $50,000 breaks next"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
     "BTC/NVIDIA: A Potential 12-Year Wyckoff Reaccumulation",
@@ -158,15 +153,6 @@
    "titres": [
     "Can Private Protocols Keep North Korea Out? Aztec’s Zac Williamson Thinks So",
     "MegaETH Cuts 20% of Workforce as It Shifts Focus Toward AI Marketplace"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "US Crypto Trust Charters Face Senate Scrutiny as Coinbase Receives Final Approval",
-    "US government holds about $20 billion in Bitcoin and Ether"
    ]
   },
   {
@@ -191,6 +177,14 @@
    "sentiment": "neutral",
    "titres": [
     "BTCUSDT long closed by stop-loss: -3.18%"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "US Crypto Trust Charters Face Senate Scrutiny as Coinbase Receives Final Approval"
    ]
   }
  ],
