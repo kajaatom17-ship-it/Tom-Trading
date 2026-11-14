@@ -228,3 +228,6 @@ Les actus, vidéos, influenceurs, buzz Reddit/StockTwits et tendances CoinGecko 
 
 ## Actifs exclus par Tom
 La liste `exclusions` de config.json est interdite en nouvelle entrée. Elle est vide : Tom ne veut interdire aucun actif (NEAR compris). Ne l'utiliser que si Tom le demande clairement.
+
+## Point de vigilance : entrées tardives (14 nov)
+Le short NEAR du trader de garde est arrivé après environ -6 % dans la journée : entrée un peu tardive. Tom garde les règles telles quelles. Le filtre « mouvement déjà fait » existe mais est désactivé (`deja_fait_max_pct` à 100 dans config.json). Dans les comptes rendus, noter quand une entrée arrive après un gros mouvement, pour juger avec des chiffres après quelques trades.
