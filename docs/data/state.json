@@ -2,35 +2,10 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 391.00866261546594,
- "positions": [
-  {
-   "id": "P0006",
-   "sym": "NEAR",
-   "pair": "NEAREUR",
-   "side": "short",
-   "strategie": "BRK-1",
-   "qty": 37.84608713354319,
-   "entry": 2.931034,
-   "notionnel": 110.92815869385586,
-   "frais_entree": 0.44371263477542344,
-   "stop": 2.973786,
-   "stop_initial": 2.973786,
-   "tp": 2.798643,
-   "risque_eur": 2.5119026697204863,
-   "rr_net": 1.62,
-   "ouvert_le": "2026-11-14T14:45:17Z",
-   "verifie_jusqu_a": "2026-11-14T15:00:00Z",
-   "duree_max_h": 24.0,
-   "decision_id": "G-20261114-144517",
-   "dernier_prix": 2.9303,
-   "atr": 0.02189281,
-   "fermer_si_positif": true,
-   "seuil_gain_eur": 0.05
-  }
- ],
- "frais_cumules": 3.7006405643774953,
- "pnl_realise": 2.3805339440972006,
+ "cash": 502.4423500700241,
+ "positions": [],
+ "frais_cumules": 4.14057139861923,
+ "pnl_realise": 2.442350070024083,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -38,40 +13,40 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T15:00:27Z",
+ "maj": "2026-11-14T15:28:58Z",
  "seq": 6,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T14:58:32Z",
+ "chasseur_t": "2026-11-14T15:28:50Z",
  "tendance": [
   "KAVA",
-  "HYPE",
   "BTC",
-  "SOL",
-  "PEARL",
+  "HYPE",
   "PENGU",
-  "SUI",
-  "AVAX",
-  "TAO",
-  "MON",
-  "ETH",
   "XRP",
-  "INJ",
-  "KNTQ",
-  "ZEC"
+  "TAO",
+  "PEARL",
+  "ETH",
+  "ADA",
+  "SOL",
+  "SUI",
+  "AKE",
+  "NEAR",
+  "ENA",
+  "QTC"
  ],
- "tendance_t": "2026-11-14T14:16:33Z",
+ "tendance_t": "2026-11-14T15:28:50Z",
  "buzz": {
   "AGI": {
    "source": "Reddit",
    "mentions": 32,
-   "x_vs_hier": 4.0
+   "x_vs_hier": 4.6
   },
   "BTC": {
-   "source": "Reddit + StockTwits",
+   "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
@@ -85,42 +60,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ALGO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZEC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SUI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LINK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "TRUMP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZBCN": {
+  "UNI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HBAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XLM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SMMT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -130,81 +105,83 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ACAD": {
+  "SUI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SBUX": {
+  "JASMY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZBCN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T14:58:33Z",
- "sources_t": "2026-11-14T14:44:13Z",
+ "buzz_t": "2026-11-14T15:28:51Z",
+ "sources_t": "2026-11-14T15:28:57Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
+   "mentions": 11,
    "sentiment": "bearish",
    "titres": [
-    "BTC.D—Bitcoin Dominance Confirms Biggest Bull-Market since 2021",
-    "Weekly Recap: Bitcoin Crashes, Strategy Faces MSCI Removal, and Solana Scores Major Wall Street Win"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "Trump administration divided over Nvidia AI chip exports to China",
-    "SpaceX plans more than $74 billion for two AI supercomputing campuses"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "bullish",
-   "titres": [
-    "Ethereum Staking Hits Record 36.3% Of Supply As ETH Holders Lock In",
-    "$ETH - WHEN TO BUY?"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "KAVA token sinks 40% as exploit hits Kava Lend, exchanges halt withdrawals",
-    "Sui Price Slips 4% as Trendline Support Faces Its Biggest Test Since August"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "KAVA token sinks 40% as exploit hits Kava Lend, exchanges halt withdrawals",
-    "Binance Withdrawals Return While Hackers Keep Billions"
+    "Bitcoin 1H: Lost 66.4K, Testing the 65K Daily Gap",
+    "Bitcoin: Sellers Remain in Control Below $67,800"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "mentions": 3,
+   "sentiment": "bearish",
    "titres": [
-    "Sorry folks, but USDT dominance says this",
-    "Chainfir Capital Sees Distribution as Key Competitive Edge in Stablecoin Market"
+    "Today or tomorrow POSSIBLE CRASH in Sight for BTC!!!",
+    "Nakamoto Debt Dwarfs Market Cap as Bitcoin Price Plunges Below $67K"
    ]
   },
   {
-   "sujet": "Coinbase",
-   "mentions": 2,
+   "sujet": "AI",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "OpenAI Launches ChatGPT Wallet to Let AI Agents Shop—Without Crypto",
-    "Arthur Hayes Says He Is Flattered as Coinbase Backs US Stock Perpetuals"
+    "Bill Ackman says Wall Street is misreading Amazon, Microsoft, Meta, and Alphabet",
+    "Trump administration divided over Nvidia AI chip exports to China"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "This Analyst’s XRP Forecast Plays Out Faster Than Expected",
+    "XRP Ledger Activity Hits New November Highs as Batch, Ticket Usage Surge"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin ETFs witnessed $2.35 billions in sell-off over the past two weeks"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "KAVA token sinks 40% as exploit hits Kava Lend, exchanges halt withdrawals"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "KAVA token sinks 40% as exploit hits Kava Lend, exchanges halt withdrawals"
    ]
   },
   {

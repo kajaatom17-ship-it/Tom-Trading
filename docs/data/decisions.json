@@ -3013,5 +3013,120 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T14:58:28Z"
+ },
+ {
+  "action": "none",
+  "confiance": "faible",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "Tendance 1 h baissière partout. Seul candidat du scanner : XRP short TPB-1 (entrée 0,8932, stop 0,906975, objectif 0,8519, RR net 1,61, score 70). Mais XRP a seulement -4,46 % sur 24 h contre -7 % pour le marché, RSI 38,9. Les autres cryptos sont écrasées (RSI 10 à 27) : vendre là est un pari sur la poursuite d'une chute déjà faite. PAXG short : RR net 1,21, refusé.",
+    "donnees": "Kraken OHLC 15 min, brief 15:25 UTC (16:25 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Samedi : marchés actions fermés, calendrier du comité vide, aucune annonce à fort impact confirmée dans les 48 h. Mes recherches web n'ont renvoyé que des articles anciens ou sans date fiable de 2026 : je ne cite donc aucune source non vérifiée. Le brief signale des actus du jour (Benzinga, Forbes, Investing.com, The Defiant) : chute du BTC sous 68 000 $, sorties d'ETF depuis 7 jours, liquidations en hausse. Fait : crash en cours. Interprétation : capitulation possible, mais rien de daté ni de sourcé ne donne un catalyseur OPP-1.",
+    "sources": [
+     "Benzinga - Crypto Market Crashes... Fear and Greed 17 - 2026-11-14 14:30 UTC - brief veille",
+     "Investing.com - Bitcoin falls below $68,000, ETF outflows 7th day - 2026-11-14 12:56 UTC - brief veille"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -7,37 % sur 24 h, dominance BTC 58,72 %. En peur extrême, les rebonds sont violents et brusques : c'est le pire moment pour entrer à la baisse tard dans le mouvement."
+   },
+   "memecoins": {
+    "avis": "rien de propre",
+    "resume": "Les 7 memecoins sont en baisse (-6 % à -12 %), RSI de 10 à 26, volumes sous la normale (0 à 0,84 sauf DOGE 1,11) : mouvement épuisé et pas poursuivable. Spreads : WIF 0,32 % (au-dessus du plafond 0,30 %), TRUMP 0,22 %, PENGU 0,21 %. Aucun long ni short propre."
+   },
+   "trader": {
+    "proposition": "Garder NEAR short. Pas de nouvelle entrée.",
+    "pour": [
+     "XRP TPB-1 short valide sur le papier (RR net 1,61)"
+    ],
+    "contre": [
+     "Marge au-dessus du seuil de 1,5 très mince",
+     "Marché en capitulation, rebond violent possible",
+     "Samedi, volume faible, déjà un short altcoin ouvert"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse la nouvelle entrée",
+    "motif": "RR 1,61 contre seuil 1,5, une surprise de frais ou de glissement le fait tomber. Corrélation avec NEAR short, même sens. Pas de validation pour faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Tendance 1 h baissière sur BTC (RSI 22,5), ETH (20,8), SOL (24,1). Seul candidat propre du scanner : XRP short TPB-1, RR net 1,61, score 70. Le trader de garde a ouvert NEAR short à 14:45 (BRK-1, score 75), il est à +0,82 € latent."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed est à 13 et la capitalisation totale perd 7,37 % en 24 h. Après une chute pareille, les rebonds sont brutaux. Un short supplémentaire maintenant est tardif."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Samedi, actions fermées, calendrier vide. Les actus du brief (BTC sous 68 000 $, ETF en sortie depuis 7 jours, liquidations) expliquent la baisse mais ne sont pas un catalyseur neuf daté de moins de 24 h pour OPP-1. Mes recherches web n'ont rien donné de fiable et daté de 2026, je ne cite rien d'autre."
+   },
+   {
+    "agent": "memecoins",
+    "message": "DOGE -6,14 %, PEPE -7,09 %, TRUMP -8,55 %, PENGU -12,17 % (RSI 10,2). Volumes sous la normale (PEPE 0,62, TRUMP 0,84, SHIB 0,28), spread WIF 0,32 % hors limite. Mouvement fini, pas poursuivable : rien de propre."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je regarde XRP short : entrée 0,8932, stop 0,906975 (1,5 %), objectif 0,8519, RR net 1,61. Valide sur le papier. Je propose de la tenter, risque 1 %."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "Objection : XRP ne perd que 4,46 % contre -7 % pour le marché, elle résiste mieux. Et le volume 15 min est à 1,79 fois la normale : le mouvement baissier est déjà bien entamé, TPB-1 demande un repli propre."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Fair. La résistance relative d'XRP est un argument pour un rebond avant une nouvelle baisse. Le RR de 1,61 ne laisse presque pas de marge."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Refus. RR 1,61 pour un seuil de 1,5 : 0,1 point de frais ou de glissement et on passe en dessous. NEAR est déjà short dans le même sens, et une capitulation en peur extrême est le contexte où les shorts se font piéger. Le comité de 14:57 a déjà écarté XRP pour la même raison."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "risk_manager",
+    "message": "D'accord, et je précise que ce n'est pas un consensus mou : je voulais initialement un petit short, c'est le RR et la résistance relative qui m'ont fait changer d'avis."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Entendu. Positions : on garde NEAR short, le stop 2,973786 et l'objectif 2,798643 restent, et la consigne de Tom (fermer dès gain net positif) s'applique. Nouvelle entrée : aucune."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Le marché crypto s'effondre (BTC sous 68 000 $, Fear & Greed 13, capitalisation totale -7,37 % en 24 h).",
+    "La position NEAR short ouverte à 14:45 par le trader de garde gagne 0,82 € ; on la garde, avec le stop et l'objectif en place (entrée un peu tardive : le marché avait déjà beaucoup baissé).",
+    "Un seul candidat du scanner, XRP short, avec un rapport gain/risque de 1,61 contre 1,5 minimum : trop juste.",
+    "Memecoins et actions : rien de propre (memecoins épuisés, actions fermées le samedi)."
+   ],
+   "desaccords": [
+    "Le trader voulait tenter XRP short ; l'analyste technique (XRP résiste mieux que le marché) et le Risk Manager (RR trop juste, même sens que NEAR) ont refusé."
+   ],
+   "decision": "Aucune nouvelle entrée ; on garde NEAR short.",
+   "a_surveiller": [
+    "Rebond violent après la capitulation : le stop NEAR protège.",
+    "XRP : un nouveau repli propre sur l'EMA20 15 min avec un RR net supérieur à 1,8.",
+    "Annonces de la semaine prochaine : à confirmer par une source officielle avant de remplir le calendrier."
+   ]
+  },
+  "synthese": "On n'ouvre rien de nouveau : le marché a déjà beaucoup chuté, le seul pari possible (XRP) rapportait à peine plus que le minimum exigé, et on garde la position NEAR.",
+  "id": "D-20261114-152636",
+  "cree_le": "2026-11-14T15:26:36Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T15:28:47Z"
  }
 ]
