@@ -1,0 +1,112 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "Aucune position ouverte (PEPE et XRP sont sortis, équity 502,38 €). Seul candidat au-dessus du seuil : DOGE short TPB-1, RR net 1,53, score 70, entrée de réf. 0,0566475, stop 0,05745, objectif 0,05424. BTC 60 627 € sous EMA20 (60 859) et EMA50 (61 110), RSI 36 : baissier, mais déjà -3,4 % en 24 h. Les autres candidats sont à RR 0,91-1,40.",
+   "donnees": "Brief Kraken 13:56 UTC + bougies 15 min Kraken 13:45 UTC, 14 nov 2026"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Samedi : bourses US fermées, donc rien à trader sur les actions. Actualités du brief : Bitcoin sous 68 000 $ avec sept jours consécutifs de sorties d'ETF (Investing.com, 14 nov 13:26 UTC), vente des valeurs IA liée à Nvidia (Yahoo Finance, 14 nov 10:23 UTC). Mes recherches web n'ont donné aucun calendrier daté et fiable pour lundi : je n'invente rien. Aucun catalyseur daté de moins de 24 h exploitable pour OPP-1.",
+   "sources": [
+    "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 13:26 UTC",
+    "Eric Balchunas calls Nvidia-driven sell-off the '280th nervous breakdown' - Yahoo Finance - 2026-11-14 10:23 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), dominance BTC 59,49 %, capitalisation totale -6,55 % sur 24 h. Après une chute pareille, les rebonds sont violents : vendre à découvert maintenant, c'est arriver tard.",
+   "donnees": "Brief 12:56 UTC"
+  },
+  "specialiste_memecoins": {
+   "avis": "prudent",
+   "resume": "DOGE : volume 7,7 fois la normale sur la dernière bougie, RSI 37,9, spread 0,026 %, 554 k€ de volume 24 h, liquidité correcte. C'est le seul mouvement vivant, mais une bougie de volume de cette taille peut être une capitulation autant qu'un début de baisse. PEPE RSI 49 et SHIB volume quasi nul : rien de propre. TRUMP spread 0,21 %, WIF 0,15 %, BONK 0,17 % : trop proches de la limite.",
+   "donnees": "Bloc memecoins du brief 13:56 UTC"
+  },
+  "trader": {
+   "proposition": "Pas de nouvelle entrée : DOGE short passe tout juste le seuil (RR 1,53) dans un marché en peur extrême, un samedi.",
+   "pour": [
+    "Tendance 1 h baissière, BTC sous ses moyennes",
+    "DOGE : signal TPB-1 valide, liquidité correcte"
+   ],
+   "contre": [
+    "RR net 1,53 contre 1,5 exigé : aucune marge pour le glissement",
+    "Objectif 0,05424 sous le plus bas 12 h (0,05638) : il faut une vraie cassure",
+    "Peur extrême à 13 : risque de rebond violent contre un short",
+    "Week-end, volumes faibles"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "RR net 1,53 trop proche du seuil de 1,5 pour absorber glissement et frais. Pas de trade pour faire tourner le portefeuille."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Aucune position ouverte. Seul DOGE short passe le seuil : RR net 1,53, score 70, stop 0,05745 (+1,4 %), objectif 0,05424. BTC 60 627 € sous EMA20 (60 859) et EMA50 (61 110), RSI 36. ADA est à RSI 28 : survendu, je ne vends pas là."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Samedi, bourses US fermées. Contexte : sorties d'ETF Bitcoin pour le 7e jour (Investing.com, 13:26 UTC) et vente des valeurs IA autour de Nvidia (Yahoo Finance, 10:23 UTC). Pas de calendrier daté fiable pour lundi, pas de catalyseur < 24 h pour OPP-1."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed 13, capitalisation -6,55 % en 24 h. Je me méfie de tout short après une telle chute : en peur extrême, les rebonds sont brutaux."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "DOGE a un volume de 7,7 fois la normale sur la dernière bougie 15 min, RSI 37,9, spread 0,026 %. Je ne sais pas encore si c'est le début de la baisse ou une capitulation. PEPE (RSI 49) et SHIB (volume nul) : rien de propre."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je propose DOGE short TPB-1 : entrée 0,05665, stop 0,05745, objectif 0,05424, RR net 1,53, risque 0,4 % du capital car memecoin."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "1,53 pour un seuil à 1,5 : il ne reste rien pour le glissement. Et ton objectif est sous le plus bas 12 h (0,05638) : le prix doit casser ce support en plein week-end. Qu'est-ce qui te dit que ce n'est pas le creux ?"
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "repond_a": "trader",
+   "message": "Je rejoins le Risk Manager : un volume 7,7 fois la normale sans suite pourrait être la capitulation. Pour entrer, je veux voir une bougie fermée sous 0,05638 avec du volume, pas une anticipation."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Rien ne me le garantit. L'avantage est mince, la perte maximale est de 0,4 % du capital, mais le rapport ne justifie pas l'entrée. Je retire la proposition."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Bonne décision : en peur extrême, on attend une cassure confirmée plutôt que d'anticiper."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict final : pas d'entrée. Avec 502,38 € et 0 position, rester en liquidités est une décision valable."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte : PEPE et XRP sont déjà sortis, le capital fictif est à 502,38 €, tout en liquidités.",
+   "Le seul candidat valide, DOGE short, a un gain potentiel de 1,53 fois le risque, à peine au-dessus du minimum de 1,5.",
+   "Marché en peur extrême (indice 13), Bitcoin sous 68 000 $ avec sept jours de sorties d'ETF, week-end sans bourse américaine."
+  ],
+  "desaccords": [
+   "Le Trader voulait DOGE short ; le Risk Manager et le spécialiste memecoins ont objecté que la marge est trop mince et que le volume anormal peut être une capitulation. Le Trader a retiré sa proposition."
+  ],
+  "decision": "On n'ouvre rien : les liquidités restent intactes.",
+  "a_surveiller": [
+   "Une bougie 15 min de DOGE fermée sous 0,05638 avec du volume (cassure confirmée BRK-1)",
+   "BTC qui perd 60 115 € ou qui rebondit au-dessus de l'EMA50 15 min (60 859 € actuellement)",
+   "Réouverture des bourses US lundi et calendrier macro de la semaine, à vérifier avec des sources datées"
+  ]
+ },
+ "synthese": "On n'ouvre rien : le seul pari possible, DOGE à la baisse, rapportait à peine plus que le minimum exigé dans un marché très apeuré.",
+ "id": "D-20261114-135719",
+ "cree_le": "2026-11-14T13:57:19Z"
+}
