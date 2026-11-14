@@ -1,0 +1,109 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "XRP 0,9005 € sous l'EMA50 15 min (0,9037), tendance 1 h baissière, RSI 51,6, volume 0,49 x la normale. Les 5 candidats du scanner (BTC, NVDA, ONDO, DOGE, MSTR) ont tous un RR net entre 1,12 et 1,21, sous le seuil de 1,5.",
+   "donnees": "Kraken OHLC 15 min, brief 12:26 UTC / 13:26 Paris"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Samedi : bourses américaines fermées, pas d'annonce à fort impact trouvée pour aujourd'hui, calendrier du brief vide. Actualité XRP : Franklin Templeton déclare 293 M de XRP (Coinpaper, 14/11 11:38 UTC), plutôt favorable à XRP mais information d'archive SEC, pas de choc nouveau. Binance vise la reprise des retraits la semaine prochaine après un piratage de 6,3 Md$ (Investing.com, 14/11 11:57 UTC). Les recherches web n'ont renvoyé que des titres, sans détail daté fiable sur le calendrier du jour.",
+   "sources": [
+    "Franklin Templeton 293 M XRP - Coinpaper - 14/11/2026 11:38 UTC - brief",
+    "Binance withdrawals after $6.3bn hack - Investing.com - 14/11/2026 11:57 UTC - https://www.investing.com/news/company-news/binance-aims-to-restore-all-withdrawals-next-week-after-63-billion-hack-5027266"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), dominance BTC 59,49 %, capitalisation totale -6,24 % sur 24 h. En peur extrême les rebonds sont brutaux : un short neuf est risqué."
+  },
+  "specialiste_memecoins": {
+   "avis": "neutre",
+   "resume": "DOGE RSI 46,5, volume 0,64 x. PEPE RSI 56,2 avec volume 4,5 x mais spread 0,05 %, rebond déjà en cours après notre gain. TRUMP -5 %, RSI 28,4, spread 0,21 % : déjà épuisé, short poursuivi interdit. Rien de propre."
+  },
+  "trader": {
+   "proposition": "Garder XRP short (entrée 0,9110, prix 0,9020, stop 0,9038 au point mort, objectif 0,868). Aucune nouvelle entrée : pas de candidat à RR net ≥ 1,5.",
+   "pour": [
+    "XRP déjà protégé, perte impossible",
+    "marché baissier, tendance 1 h baissière"
+   ],
+   "contre": [
+    "Franklin Templeton favorable à XRP",
+    "peur extrême = rebonds violents"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Garder XRP : risque nul grâce au stop au prix d'entrée. Refus de toute nouvelle entrée : RR net 1,12 à 1,21 < 1,5. Pas de OPP-1 : aucun catalyseur daté de moins de 24 h avec une direction claire."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "XRP à 0,9005 €, EMA20 0,8989, EMA50 0,9037, tendance 1 h baissière, RSI 51,6. Le short reste valide tant que le prix reste sous 0,9037 (notre stop)."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Samedi, bourses US fermées, calendrier vide. Franklin Templeton déclare 293 M XRP (Coinpaper, 11:38 UTC) : c'est une publication SEC, pas un nouveau catalyseur, mais elle penche contre notre short."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed 13, capitalisation -6,24 % sur 24 h. En peur extrême un rebond de soulagement est possible, ce qui menace le short XRP."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "DOGE RSI 46,5, volume 0,64 x : rien de propre. TRUMP RSI 28,4 et spread 0,21 % : mouvement déjà fait, je ne propose aucun short. PEPE RSI 56,2 avec volume 4,5 x : trop agité pour entrer."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_macro",
+   "message": "Je garde XRP : stop à 0,9038 = point mort, objectif 0,868. Pas de nouvelle entrée, le meilleur candidat BTC short a un RR net de 1,21 pour 1,5 exigé."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je conteste : garder XRP avec le titre Franklin Templeton et une peur extrême, c'est parier contre un rebond. Pourquoi ne pas fermer maintenant à +1,49 € ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_sentiment",
+   "message": "Le stop est au prix d'entrée : le pire cas est zéro perte hors frais, le meilleur est l'objectif à 0,868, soit environ 3R. Fermer maintenant abandonne ce gain pour une information qui date d'une publication SEC."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Le volume de XRP n'est qu'à 0,49 x la normale : il n'y a pas de pression acheteuse confirmée. Je suis pour garder."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "repond_a": "trader",
+   "message": "D'accord sur l'absence d'entrée memecoin : spread DOGE 0,03 % correct, mais RR net 1,21 insuffisant."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Validé : garder XRP, risque nul. Refus de toute nouvelle entrée (RR net 1,12 à 1,21 < 1,5). Je ne valide pas d'OPP-1 : pas de catalyseur daté et direction claire."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Position ouverte : le pari à la baisse sur XRP est protégé (stop au prix d'entrée) et gagne 1,49 € en latent. On le garde.",
+   "Nouvelle entrée : les 5 candidats du scanner (BTC, NVDA, ONDO, DOGE, MSTR) ont un gain/risque net de 1,12 à 1,21, sous le minimum de 1,5.",
+   "Contexte : samedi, bourses américaines fermées, calendrier du brief vide, peur extrême sur les cryptos."
+  ],
+  "desaccords": [
+   "L'analyste sentiment aurait préféré encaisser XRP à cause de l'annonce Franklin Templeton et du risque de rebond ; le Trader et l'analyste technique ont préféré garder, car le stop protège déjà."
+  ],
+  "decision": "On ne fait rien : XRP est gardé et aucune nouvelle position n'est ouverte.",
+  "a_surveiller": [
+   "Un rebond de XRP au-dessus de 0,9038 (stop)",
+   "Un candidat avec un RR net ≥ 1,5",
+   "Annonces de reprise des retraits Binance la semaine prochaine"
+  ]
+ },
+ "synthese": "On garde le pari à la baisse sur XRP, déjà protégé, et on n'ouvre rien de nouveau car aucun candidat n'offre assez de gain pour le risque.",
+ "id": "D-20261114-122639",
+ "cree_le": "2026-11-14T12:26:39Z"
+}
