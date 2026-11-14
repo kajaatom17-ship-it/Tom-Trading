@@ -1760,5 +1760,112 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T09:27:20Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "XRP short : clôture 0,896 sous l'EMA20 15 min (0,898), RSI 42,9, volume faible (0,44x), tendance 1 h baissière : le scénario tient. Seul candidat du scanner : INJ long (RR net 1,52, tendance 1 h haussière mais BTC baissier).",
+    "donnees": "Kraken OHLC 15 min, brief 09:57 UTC"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Samedi : marchés actions fermés, pas d'annonce datée confirmée par source officielle dans les recherches (résultats partiels, aucun ajout à l'agenda). Contexte : hausse de taux évoquée par des responsables de la Fed, PPI à 6,5 % annualisé, rendements US vers 5 %, chute des puces (Nvidia, AMD). Sources : CFO Dive 13/11 21:18 UTC, Yahoo Finance 13/11 17:35 UTC, The Defiant 14/11 06:52 UTC.",
+    "sources": [
+     "Producer prices surge at 6.5% annual pace as Fed officials signal hike - CFO Dive - 2026-11-13 21:18 UTC",
+     "Stock Market Midday, Nov. 13 - Yahoo Finance - 2026-11-13 17:35 UTC",
+     "Bitcoin Drops Below $67,000 as Crypto Selloff Deepens - The Defiant - 2026-11-14 06:52 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), dominance BTC 58,8 %, capitalisation totale -4,64 % sur 24 h. En peur extrême les rebonds sont violents : mauvais moment pour un long, et pour un nouveau short en bas de mouvement."
+   },
+   "trader": {
+    "proposition": "Garder XRP short (stop au-dessus du prix d'entrée : plus de perte possible). Aucune nouvelle entrée.",
+    "pour": [
+     "XRP sous l'EMA20, tendance baissière",
+     "INJ a un RR de 1,52, juste au seuil"
+    ],
+    "contre": [
+     "INJ long contre la tendance de BTC",
+     "week-end, volumes faibles",
+     "peur extrême = rebonds brusques"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "INJ : RR net 1,52 pour un seuil de 1,5, long contre BTC baissier, sans argument fort. Pas de validation pour faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "XRP clôture à 0,896 sous l'EMA20 15 min (0,898), RSI 42,9, volume 0,44x : la baisse est calme, le short tient. Le stop est à 0,9038, au-dessus du prix."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Rien de daté et confirmé avant lundi dans mes recherches. Mais le PPI à 6,5 % annualisé et les signaux de hausse de taux de la Fed (13/11) restent un vent contraire pour la crypto : je ne casse pas le short."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_macro",
+    "message": "Fear & Greed 13, capitalisation -4,64 % sur 24 h. Dans ce cas, un rebond violent est possible à tout moment : je ne voudrais pas ouvrir un nouveau short ici."
+   },
+   {
+    "agent": "memecoins",
+    "message": "DOGE clôture 0,0570 juste sous l'EMA20, volume 0,57x ; TRUMP 0,956, RSI 38,4, volume 1,19x. Pas d'impulsion ni d'épuisement : rien de propre. PEPE est déjà encaissé, pas d'entrée memecoin."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "D'accord sur les shorts. Le seul candidat du scanner est INJ long : RR net 1,52, tendance 1 h haussière, volume 2,04x, mais l'alerte « contre la tendance de BTC »."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de garder XRP et de ne rien ouvrir. INJ ne vaut pas le risque : RR 1,52 contre un seuil de 1,5."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Je soutiens. Un long altcoin le samedi, avec BTC baissier et des taux qui montent, demanderait un argument fort : il n'y en a pas."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je ne bloque pas le choix de ne rien faire. Je note qu'on laisse passer un possible rebond, mais sans plan on n'entre pas."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "INJ refusé : RR 1,52 à peine au-dessus de 1,5 après frais, long contre BTC (RSI 46,1, tendance 1 h baissière). XRP : gardé, perte maximale déjà neutralisée par le stop. Une position ouverte sur 4 possibles, 1 entrée du jour utilisée."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "XRP short ouvert, stop au-dessus du prix : on le garde.",
+    "Aucune nouvelle entrée : le seul candidat, INJ long, va contre BTC et son RR est limite (1,52).",
+    "Samedi, volumes faibles, peur extrême (13), taux qui montent : prudence.",
+    "Recherches web : aucune annonce datée confirmée, donc aucun ajout à l'agenda."
+   ],
+   "desaccords": [
+    "Le sentiment signale un rebond possible mais ne s'oppose pas à rester sorti."
+   ],
+   "decision": "On garde XRP et on n'ouvre rien.",
+   "a_surveiller": [
+    "Cassure de 0,897 (haut récent XRP) vers le haut : revoir le short.",
+    "BTC qui repasse au-dessus de 61 124 €.",
+    "Annonces macro de lundi."
+   ]
+  },
+  "synthese": "On garde le pari à la baisse sur XRP, déjà protégé, et on n'ajoute rien car INJ est trop juste et va contre le marché.",
+  "id": "D-20261114-095734",
+  "cree_le": "2026-11-14T09:57:34Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T09:57:47Z"
  }
 ]
