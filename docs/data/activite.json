@@ -579,5 +579,20 @@
   "agent": "Comité",
   "type": "aucune action",
   "msg": "On garde les deux paris à la baisse déjà ouverts et on n'en ajoute pas, car aucune occasion ne rapporte assez par rapport au risque."
+ },
+ {
+  "t": "2026-11-14T09:17:45Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "NEAR short fermé (clôture décidée par le comité) à 3.014106 : -1.89 € net",
+  "data": {
+   "id": "P0005"
+  }
+ },
+ {
+  "t": "2026-11-14T09:18:45Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : INJ long (TPB-1, 55)"
  }
 ]
