@@ -1,0 +1,104 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "BTC 59 560 €, RSI 15 min 17,5, tendance 1 h baissière, volume x2,55 : capitulation. Seul candidat du scanner : HOOD short BRK-1, RR net 1,13 (score 33). Rien d'autre ne passe le filtre.",
+   "donnees": "brief.py 15:55 UTC, Kraken"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Samedi : bourses US fermées, xStocks peu liquides. Calendrier du comité vide ; la recherche web n'a pas donné de date d'annonce confirmée par une source officielle pour la semaine du 16/11, donc rien n'est ajouté à l'agenda. Benzinga (14/11 14:30 UTC) parle de chute crypto avec liquidations et Fear & Greed 17.",
+   "sources": [
+    "Crypto Market Crashes... - Benzinga - 14/11/2026 14:30 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -7,37 % sur 24 h, dominance BTC 58,72 %. En peur extrême les rebonds sont violents : short tardif risqué, long contre la tendance sans signal.",
+   "donnees": "brief 14:55 UTC"
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "Tous les memecoins sont en RSI 14 à 28 (SHIB 13,7, BONK 15,1, PENGU 16,5, TRUMP 19,9), volume souvent faible (PEPE x0,18) : mouvement déjà fini, pas de retour sur zone exploitable pour un short. PENGU -13,5 % sur 24 h."
+  },
+  "trader": {
+   "proposition": "Ne rien déposer sur les positions (aucune ouverte) et pas de nouvelle entrée.",
+   "pour": [
+    "Marché très survendu, rebond possible"
+   ],
+   "contre": [
+    "Aucun RR net >= 1,5",
+    "Shorts tardifs après -5 à -13 % en 24 h"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Ne pas trader est cohérent : le seul candidat (HOOD) a un RR net de 1,13, sous le seuil de 1,5."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 59 560 €, RSI 17,5, volume x2,55, tendance 1 h baissière. Le seul candidat du scanner est HOOD short, RR net 1,13."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed est à 13 et la capitalisation totale perd 7,37 % sur 24 h. En peur extrême, les rebonds sont brutaux : un short maintenant est risqué."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Samedi, bourses US fermées, donc HOOD n'a presque pas de liquidité réelle. Aucune annonce datée confirmée par une source pour les prochaines heures ; Benzinga (14/11, 14:30 UTC) rapporte une chute crypto avec liquidations."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "SHIB RSI 13,7, BONK 15,1, PENGU 16,5 (-13,5 % sur 24 h) : vague déjà faite. PEPE a un volume x0,18, TRUMP x0,33 : pas d'entrée propre, ni short ni long."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je n'ai aucune position à gérer et aucun trade à proposer : HOOD est à 1,13 de RR net, sous 1,5."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Confirmé, et je cherche une raison de refuser un éventuel short crypto : RSI sous 20 partout, entrée tardive, aucun volume de confirmation. Refus des entrées."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "specialiste_memecoins",
+   "message": "D'accord, et côté long, BTC reste sous EMA20 (60 493) et EMA50 (60 900) : pas de signal de renversement."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "risk_manager",
+   "message": "Je ne contredis pas : le seul risque de ne rien faire est de rater un rebond, ce qui coûte 0 € en paper trading."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Décision finale : on ne fait rien. On reprend à la prochaine réunion avec des données fraîches."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte, portefeuille à 502,44 € (+2,44 €).",
+   "Marché en forte chute : BTC RSI 17,5, Fear & Greed 13.",
+   "Seul candidat : HOOD short, rapport gain/risque 1,13, sous le minimum de 1,5.",
+   "Le trader de garde a bien fermé NEAR dès le gain (+0,06 €), conforme à la consigne de Tom."
+  ],
+  "desaccords": [
+   "Aucun désaccord de fond ; le sentiment a rappelé qu'un rebond violent est possible."
+  ],
+  "decision": "Ne rien faire : pas de position à gérer, pas d'entrée valable.",
+  "a_surveiller": [
+   "Un signal BRK-1 ou TPB-1 avec RR net >= 1,5",
+   "Un rebond de BTC au-dessus de 60 900 (EMA50)",
+   "Une annonce macro confirmée (calendrier vide pour l'instant)"
+  ]
+ },
+ "synthese": "On n'ouvre rien : le marché a déjà beaucoup chuté et le seul trade possible rapportait trop peu par rapport au risque.",
+ "id": "D-20261114-155626",
+ "cree_le": "2026-11-14T15:56:26Z"
+}
