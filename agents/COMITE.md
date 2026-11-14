@@ -227,4 +227,4 @@ Les actus, vidéos, influenceurs, buzz Reddit/StockTwits et tendances CoinGecko 
 8. **Ne pas intervenir est une décision valable.** « Pas de trade, source douteuse » est une bonne réponse.
 
 ## Actifs exclus par Tom
-La liste `exclusions` de config.json est interdite en nouvelle entrée, pour le comité comme pour le trader de garde et le moteur. Actuellement : NEAR (14 nov, « il sert à rien »). Ne pas le proposer.
+La liste `exclusions` de config.json est interdite en nouvelle entrée. Elle est vide : Tom ne veut interdire aucun actif (NEAR compris). Ne l'utiliser que si Tom le demande clairement.
