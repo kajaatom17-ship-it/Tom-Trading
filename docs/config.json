@@ -405,7 +405,7 @@
    "score_min": 75,
    "rr_net_min": 2.5,
    "risque_par_trade_pct": 0.5,
-   "max_par_jour": 1
+   "max_par_jour": 2
   },
   "protection": {
    "seuil_breakeven_R": 1.0,
@@ -419,6 +419,20 @@
    "stop_suiveur_R": 1.0,
    "duree_max_h": 72,
    "note": "À l'objectif : on encaisse la moitié, le reste continue avec un stop qui suit le prix à 1R. La perte, elle, reste toujours plafonnée."
+  },
+  "cassure_fraiche": {
+   "actif": true,
+   "score_min": 70,
+   "rr_net_min": 1.5,
+   "retard_max_atr": 0.5,
+   "risque_par_trade_pct": 0.5,
+   "note": "Entrée seule sur une cassure BRK-1 qui vient de se produire, si le prix n'a pas déjà trop couru (moins de 0,5 ATR après le signal)."
+  },
+  "sortie_rapide": {
+   "actif": true,
+   "cassure_ratee_atr": 1.0,
+   "fenetre_h": 3,
+   "note": "Une position BRK-1 qui revient de 1 ATR contre nous dans les 3 h est fermée tout de suite : la cassure a échoué. Perte divisée par deux par rapport au stop."
   }
  },
  "focus": {

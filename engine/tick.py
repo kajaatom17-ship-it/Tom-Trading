@@ -195,6 +195,7 @@ def open_position(cfg, state, prop, sizing):
         "duree_max_h": min(float(prop.get("duree_max_h", cfg["risque"]["duree_max_position_h"])), 72,
                            *( [cfg["memecoins"]["duree_max_h"]] if cfg.get("memecoins") and is_meme(cfg, prop["sym"]) else [] )),
         "decision_id": prop["id"], "dernier_prix": sizing["fill"],
+        **({"atr": float(prop["atr"])} if prop.get("atr") else {}),
         **({"catalyseur": prop.get("catalyseur")} if prop.get("strategie") == "OPP-1" else {}),
     }
     state["positions"].append(p)
@@ -576,6 +577,36 @@ def guard_protect(cfg, state, tk):
             log_event("Trader de garde", "protection", f"{p['sym']} : stop {rp(old)} → {rp(new)}. {why}.")
 
 
+def guard_exit(cfg, state, tk):
+    """Sortie rapide : une cassure (BRK-1) qui échoue est coupée tout de suite, sans attendre le stop."""
+    G = cfg.get("trader_de_garde", {})
+    X = G.get("sortie_rapide", {})
+    if not G.get("actif") or not X.get("actif"):
+        return
+    for p in list(state["positions"]):
+        if p.get("strategie") != "BRK-1":
+            continue
+        t = tk.get(p["sym"])
+        if not t:
+            continue
+        atr_v = p.get("atr")
+        if not atr_v:
+            d = next((x for x in load("decisions.json", []) if x.get("id") == p.get("decision_id")), None)
+            atr_v = float(d["atr"]) if d and d.get("atr") else None
+        if not atr_v:
+            continue
+        age_h = (now_utc() - parse_iso(p["ouvert_le"])).total_seconds() / 3600
+        if age_h > X.get("fenetre_h", 3):
+            continue
+        px = t["last"]
+        against = (p["entry"] - px) if p["side"] == "long" else (px - p["entry"])
+        if against >= X.get("cassure_ratee_atr", 1.0) * atr_v:
+            slip = cfg["frais"]["slippage_pct_par_tier"][tier_of(cfg, p["sym"])]
+            fx = t["bid"] * (1 - slip / 100) if p["side"] == "long" else t["ask"] * (1 + slip / 100)
+            log_event("Trader de garde", "sortie rapide", f"{p['sym']} : la cassure a échoué (le prix revient de {against / atr_v:.1f} ATR contre nous). Fermeture immédiate.")
+            close_position(cfg, state, p, fx, "cassure ratée : sortie rapide")
+
+
 def guard_entry(cfg, state, tk, sig):
     """Entrée seule sur un signal exceptionnel du scanner, risque réduit, une fois par jour maximum."""
     G = cfg.get("trader_de_garde", {})
@@ -587,14 +618,21 @@ def guard_entry(cfg, state, tk, sig):
         return
     held = {p["sym"] for p in state["positions"]}
     pending = {o["sym"] for o in state.get("ordres_attente", [])}
+    F = G.get("cassure_fraiche", {})
     for c in sig.get("candidats", []):
-        if c["score"] < E.get("score_min", 75) or c["rr_net"] < E.get("rr_net_min", 2.5) or c.get("alertes"):
+        fresh = False
+        if F.get("actif") and c["strategie"] == "BRK-1" and c["score"] >= F.get("score_min", 70) and c["rr_net"] >= F.get("rr_net_min", 1.5) and not c.get("alertes"):
+            t0 = tk.get(c["sym"])
+            if t0:  # le prix n'a pas déjà trop couru depuis le signal
+                run = (c["entry_ref"] - t0["ask"]) if c["side"] == "short" else (t0["bid"] - c["entry_ref"])
+                fresh = run <= F.get("retard_max_atr", 0.5) * c["atr"]
+        if not fresh and (c["score"] < E.get("score_min", 75) or c["rr_net"] < E.get("rr_net_min", 2.5) or c.get("alertes")):
             continue
         if c["sym"] in held or c["sym"] in pending:
             continue
         prop = {"id": f"G-{now_utc().strftime('%Y%m%d-%H%M%S')}", "action": "open", "sym": c["sym"], "side": c["side"],
                 "strategie": c["strategie"], "entry_ref": c["entry_ref"], "atr": c["atr"], "stop": c["stop"], "tp": c["tp"],
-                "duree_max_h": 24, "risque_pct_override": E.get("risque_par_trade_pct", 0.5),
+                "duree_max_h": 24, "risque_pct_override": (F if fresh else E).get("risque_par_trade_pct", 0.5),
                 "agents": {"trader_de_garde": {"avis": "favorable", "resume": c["pourquoi"]},
                            "risk_manager": {"verdict": "valide", "motif": "Règles automatiques du trader de garde (risque 0,5 %)."}},
                 "synthese": f"Le trader de garde a agi seul : signal {c['strategie']} très fort sur {c['sym']} (score {c['score']}, RR net {c['rr_net']}). À contrôler à la prochaine réunion du comité."}
@@ -711,6 +749,7 @@ def main():
     process_inbox(cfg, state, tk)
     process_pending(cfg, state, tk)
     write_ui_config()  # un actif ajouté pendant ce passage apparaît tout de suite dans l'application
+    guard_exit(cfg, state, tk)
     guard_protect(cfg, state, tk)
 
     eq = equity(state, prices)

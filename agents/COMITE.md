@@ -198,3 +198,9 @@ Pour vérifier : `gh run list -R kajaatom17-ship-it/Tom-Trading --limit 1`, puis
 ## Si un signal a déjà bougé
 Si `decide.py check` refuse pour « prix trop bougé » ou « RR insuffisant », on ne court pas après le prix.
 On passe au candidat suivant, ou on décide `none`. On ne déplace pas le stop pour faire passer un trade.
+
+
+## Trader de garde (règles automatiques, toutes les 5 minutes)
+- **Entrée seule sur cassure fraîche (BRK-1)** : score ≥ 70, rapport gain/risque net ≥ 1,5, aucune alerte, et le prix n'a pas couru de plus de 0,5 ATR depuis le signal. Risque 0,5 %. Maximum 2 entrées seules par jour. Le comité contrôle ces entrées à la réunion suivante.
+- **Sortie rapide** : une position BRK-1 qui revient de 1 ATR contre nous dans les 3 h est fermée tout de suite (la cassure a échoué), sans attendre le stop.
+- Le comité ne doit pas entrer sur une cassure vieille de plus de 30 à 45 minutes, surtout après plus de 5 % de mouvement sur 24 h.

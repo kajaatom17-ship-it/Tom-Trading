@@ -322,5 +322,32 @@ check("fermé dès que le gain net est positif", not any(p["sym"] == "SOL" for p
 tr = [t for t in core.load("trades.json", []) if t["sym"] == "SOL"]
 check("trade fermé avec gain net > 0", bool(tr) and tr[-1]["pnl_net"] > 0 and "Tom" in tr[-1]["raison_sortie"], str(tr[-1:] ))
 
+# 17. trader de garde : entrée seule sur cassure fraîche, puis sortie rapide si la cassure échoue
+st = core.load("state.json", None); st["positions"] = []; st["garde_par_jour"] = {}; st["entrees_par_jour"] = {}; st["entrees_meme_par_jour"] = {}
+st["cash"] = 500.0; st["equity_debut_jour"] = {core.paris_day(): 500.0}; core.save("state.json", st); core.save("trades.json", [])
+PRICES["NEAR"] = 3.0
+cand = {"sym": "NEAR", "strategie": "BRK-1", "side": "short", "entry_ref": 3.0012, "stop": 3.0506, "tp": 2.853, "atr": 0.0247, "rr_net": 1.65, "score": 75, "pourquoi": "test", "alertes": []}
+tick.scan = lambda cfg: {"t": core.iso(), "btc_trend_1h": "baissiere", "candidats": [cand], "indicateurs": {}}
+run()
+ps = [p for p in core.load("state.json", None)["positions"] if p["sym"] == "NEAR"]
+check("trader de garde entre seul sur cassure fraîche", len(ps) == 1 and ps[0]["strategie"] == "BRK-1", str(core.load("decisions.json", [])[-1:]))
+check("atr mémorisé dans la position", bool(ps) and abs(ps[0].get("atr", 0) - 0.0247) < 1e-9)
+# cassure déjà trop courue : pas d'entrée
+st = core.load("state.json", None); st["positions"] = []; st["garde_par_jour"] = {}; st["entrees_par_jour"] = {}; st["cash"] = 500.0; core.save("state.json", st)
+PRICES["NEAR"] = 2.95
+run()
+check("pas d'entrée si le prix a déjà trop couru", not any(p["sym"] == "NEAR" for p in core.load("state.json", None)["positions"]))
+# nouvelle entrée puis retour contre nous de plus de 1 ATR : sortie rapide
+st = core.load("state.json", None); st["garde_par_jour"] = {}; st["entrees_par_jour"] = {}; st["cash"] = 500.0; core.save("state.json", st)
+PRICES["NEAR"] = 3.0
+tick.scan = lambda cfg: {"t": core.iso(), "btc_trend_1h": "baissiere", "candidats": [cand], "indicateurs": {}}
+run()
+check("position rouverte pour le test", any(p["sym"] == "NEAR" for p in core.load("state.json", None)["positions"]))
+tick.scan = lambda cfg: {"t": core.iso(), "btc_trend_1h": "baissiere", "candidats": [], "indicateurs": {}}
+PRICES["NEAR"] = 3.04   # +0,04 > 1 ATR (0,0247) contre le short, mais sous le stop (3,0506)
+run()
+tr = [t for t in core.load("trades.json", []) if t["sym"] == "NEAR"]
+check("sortie rapide : cassure ratée fermée avant le stop", bool(tr) and "cassure ratée" in tr[-1]["raison_sortie"] and tr[-1]["pnl_net"] > -3.7, str(tr[-1:]))
+
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)
