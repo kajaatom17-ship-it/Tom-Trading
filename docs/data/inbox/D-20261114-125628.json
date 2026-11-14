@@ -1,0 +1,106 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "Tendance 1 h baissière sur BTC (60 972 €, EMA20 61 028, EMA50 61 239, RSI 45,9). Tous les candidats TPB-1 short du scanner (ADA, BTC, LTC, LINK, SUI, DOT, ONDO, NVDA, MSTR) ont un RR net de 1,12 à 1,21, sous le seuil de 1,5.",
+   "donnees": "Brief Kraken, 12:56 UTC (13:56 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Marché sous pression : BTC sous 68 000 $ avec 7 jours de sorties d'ETF (Investing.com, 14/11 12:28 UTC) et vente liée à Nvidia sur les actions. Calendrier d'annonces vide dans le dépôt ; mes recherches web n'ont pas donné de date d'annonce confirmée, donc aucune ajoutée. Aucun catalyseur daté de moins de 24 h exploitable pour OPP-1.",
+   "sources": [
+    "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 12:28 UTC",
+    "Eric Balchunas ... Nvidia-Driven Market Sell-Off - Yahoo Finance - 2026-11-14 10:23 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -6,24 % sur 24 h, dominance BTC 59,49 %. En peur extrême, les rebonds sont brutaux : shorter maintenant est risqué."
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE 0,0569 € (-2,84 % 24 h, volume 15 min à 0,44 fois la normale, RSI 49,9) : pas d'impulsion ni d'épuisement. SHIB spread 0,106 %, volume 24 h 96 k€. Aucune bougie verticale, rien à poursuivre."
+  },
+  "trader": {
+   "proposition": "Aucune position ouverte à gérer ; aucune nouvelle entrée : pas de candidat au-dessus de RR net 1,5.",
+   "pour": [
+    "Tendance baissière claire"
+   ],
+   "contre": [
+    "RR net 1,21 maximum",
+    "Peur extrême, risque de rebond violent",
+    "Volume 15 min faible"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse toute nouvelle entrée",
+   "motif": "RR net sous 1,5 pour tous les candidats ; ne pas forcer pour faire tourner le portefeuille."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 60 972 €, sous EMA20 (61 028) et EMA50 (61 239), RSI 45,9 en baisse, tendance 1 h baissière. Les neuf candidats TPB-1 sont des shorts."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "BTC sous 68 000 $ avec 7 jours de sorties d'ETF (Investing.com, 12:28 UTC) et vente d'actions liée à Nvidia. Pas de date d'annonce confirmée dans mes recherches, pas de catalyseur OPP-1."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed 13, capitalisation -6,24 % sur 24 h. Le marché est déjà très vendu."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "DOGE : volume 0,44 fois la normale, RSI 49,9, rien de poursuivable. SHIB a un spread de 0,106 % et seulement 96 k€ de volume. Pas de setup propre sur les memecoins."
+  },
+  {
+   "agent": "trader",
+   "message": "Je regarde ADA short : entrée 0,14829, stop 0,14977, objectif 0,14384, mais RR net 1,21 seulement. Idem BTC, LTC, LINK, SUI à 1,21."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "RR net 1,21 contre 1,5 exigé. Refus : on ne baisse pas le seuil pour entrer."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je soutiens le refus : avec Fear & Greed à 13, un rebond sec peut toucher un stop serré (ATR BTC 0,28 %)."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Pas totalement d'accord : la tendance reste baissière et la structure est propre. Mais le volume (0,87 fois pour BTC) ne confirme pas, donc j'attends un RR meilleur."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "D'accord : on attend un repli plus net sur l'EMA20 ou une cassure du bas 12 h (60 323) avec volume. Rien à ouvrir maintenant."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Décision none validée. Aucune position ouverte, perte max actuelle : 0 €."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte : rien à garder ni à fermer.",
+   "Neuf signaux de vente à découvert, mais tous avec un gain potentiel trop faible face au risque (RR net 1,12 à 1,21 pour 1,5 exigé).",
+   "Marché en peur extrême (13) avec sorties d'ETF bitcoin et vente liée à Nvidia ; memecoins calmes."
+  ],
+  "desaccords": [
+   "L'analyste technique trouvait la structure baissière propre ; sentiment et Risk Manager ont jugé le risque de rebond trop élevé pour ce gain."
+  ],
+  "decision": "Aucune action : ni position à gérer, ni nouvelle entrée.",
+  "a_surveiller": [
+   "Cassure du plus bas 12 h de BTC (60 323) avec volume",
+   "Rebond sur l'EMA20 15 min offrant un RR net ≥ 1,5",
+   "Annonces macro confirmées par une source officielle"
+  ]
+ },
+ "synthese": "On n'ouvre rien : aucune occasion ne rapporte assez par rapport au risque dans un marché très apeuré.",
+ "id": "D-20261114-125628",
+ "cree_le": "2026-11-14T12:56:28Z"
+}
