@@ -1,0 +1,105 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "BTC 61 030 €, sous EMA50 (61 315), tendance 1 h baissière, RSI 48,6. Candidats scanner (AVAX, HYPE, OP, MSTR, ONDO) en TPB-1 short mais RR net entre 1,12 et 1,21, sous le seuil de 1,5. XRP short : prix 0,899 pour une entrée à 0,911, volume faible (0,3x).",
+   "donnees": "Brief engine/brief.py 10:55 UTC (11:55 Paris), Kraken"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Samedi 14 novembre : pas de publication américaine majeure, bourses US fermées. Agenda vide, aucune date d'annonce confirmée par une source pour les 48 h. Actualités du brief (09:05-09:16 UTC) : saisie DOJ de 1,2 Md$ liée à Binance, failles de sécurité ; rien qui casse le scénario XRP.",
+   "sources": [
+    "Cointribune - Crypto Hack: DOJ Seeks to Seize $1.2B Stolen from Binance - 14/11/2026 09:05 UTC - veille du brief",
+    "CoinMarketCap - Filecoin Drops 6% Amid Broad Crypto Selloff - 14/11/2026 07:04 UTC - veille du brief"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), dominance BTC 58,8 %, capitalisation totale -3,17 % sur 24 h. En peur extrême les rebonds sont violents : shorter de nouveaux creux est risqué."
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE, SHIB, PEPE, TRUMP en baisse de 2,5 à 5 %, sans bougie verticale ni extension à exploiter. PEPE volume 0,05x : marché mort. WIF volume 24 h 44 925 € : liquidité juste. Pas d'entrée."
+  },
+  "trader": {
+   "proposition": "Garder XRP short (stop au point d'entrée, plus de perte possible). Aucune nouvelle entrée.",
+   "pour": [
+    "Marché baissier cohérent",
+    "XRP protégé"
+   ],
+   "contre": [
+    "RR net des candidats < 1,5",
+    "Week-end, volumes faibles",
+    "Peur extrême : risque de rebond"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Aucun candidat ne passe RR net 1,5. Ne rien faire est la bonne décision."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 61 030 sous l'EMA50 à 61 315, tendance 1 h baissière, RSI 48,6 en baisse. Le scanner sort cinq shorts TPB-1 mais leur RR net va de 1,12 à 1,21."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Samedi, bourses US fermées, aucune publication majeure et aucune annonce datée confirmée. Seules actualités : saisie DOJ de 1,2 Md$ (Binance) et la baisse générale, rien de neuf sur XRP."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed à 13, capitalisation -3,17 % sur 24 h. Un marché aussi survendu peut rebondir fort, donc shorter AVAX ou HYPE maintenant est tardif."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Aucun memecoin avec impulsion ou épuisement exploitable : PEPE vol 0,05x, WIF 44 925 € de volume 24 h, TRUMP -3,9 % avec volume 2,9x mais RSI 43 sans mèche claire. Rien de propre."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je ne propose aucune entrée : le meilleur candidat, HYPE, est à RR net 1,21 pour 1,5 requis. XRP short est à 0,899 pour 0,911 d'entrée, stop 0,9038 au point d'entrée : on garde."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "D'accord pour garder XRP. Le volume XRP est à 0,3x, donc le mouvement manque de conviction, mais le stop protège."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Oui, mais XRP reste sous l'EMA50 (0,9049) et la tendance 1 h est baissière : pas de raison technique de fermer avant l'objectif 0,868."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Objection : élargir le stop ou l'objectif pour faire passer HYPE serait tricher. Refusé. Garder XRP, aucune nouvelle entrée. Exposition actuelle faible, cash 351 €."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Entendu, je n'ajuste rien. Je réévalue à la prochaine réunion si un RR net ≥ 1,5 apparaît."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "XRP short ouvert : +1,99 € latent, stop remonté au prix d'entrée, on le garde.",
+   "Le trader de garde a bien protégé XRP et laissé courir PEPE : actions jugées bonnes.",
+   "Cinq candidats scanner mais tous sous le seuil de rentabilité (RR net 1,12 à 1,21).",
+   "Week-end, bourses US fermées, marché en peur extrême (13)."
+  ],
+  "desaccords": [
+   "L'analyste sentiment craint un rebond violent en peur extrême ; l'analyste technique reste baissier tant que le prix est sous l'EMA50."
+  ],
+  "decision": "On garde XRP et on n'ouvre aucune nouvelle position.",
+  "a_surveiller": [
+   "Un candidat avec RR net ≥ 1,5",
+   "Un rebond de BTC au-dessus de 61 315 (EMA50)",
+   "Ouverture de la séance US lundi"
+  ]
+ },
+ "synthese": "On garde le pari à la baisse sur XRP, déjà protégé, et on n'ajoute rien car aucune occasion ne rapporte assez par rapport au risque.",
+ "id": "D-20261114-105615",
+ "cree_le": "2026-11-14T10:56:15Z"
+}
