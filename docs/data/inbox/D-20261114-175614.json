@@ -1,0 +1,105 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 59 165 € sous EMA20 (59 854) et EMA50 (60 474), RSI 15 min 25,6, tendance 1 h baissière. Scanner : aucun candidat. Un short maintenant serait pris en bas de range (plus bas 12 h 59 009), RSI écrasé, stop trop loin pour un RR net 1,5.",
+   "donnees": "Brief Kraken 17:55 UTC (18:55 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Samedi : bourses US fermées, aucune donnée majeure programmée ; calendrier d'annonces vide, aucune date confirmée trouvée pour les 48 h donc rien ajouté. Recherches web du jour : résultats génériques et mélangés en dates, aucune annonce datée de moins de 24 h exploitable pour OPP-1.",
+   "sources": [
+    "Why is the crypto market going down Nov 14 - crypto.news - https://crypto.news/why-is-the-crypto-market-going-down-nov-14/",
+    "Bitcoin loses 50-week moving average as 24h long liquidations top $1B - The Block - 2026-11-09 - https://theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), dominance BTC 58,81 %, capitalisation totale -7,2 % sur 24 h. Les rebonds en peur extrême sont violents : mauvais moment pour un short tardif.",
+   "donnees": "Brief 16:56 UTC"
+  },
+  "trader": {
+   "proposition": "Aucune entrée. Positions : aucune ouverte, rien à gérer.",
+   "pour": [
+    "Tendance baissière claire"
+   ],
+   "contre": [
+    "Mouvement déjà fait (PEPE -9,7 %, PENGU -16 %)",
+    "RSI 12 à 26 sur tout l'univers",
+    "Aucun signal scanner"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Ne rien faire : pas de signal, short tardif, risque de rebond violent. Capital préservé (502,44 €)."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 59 165 sous EMA20 59 854 et EMA50 60 474, RSI 25,6, MACD -58. Tendance 1 h baissière, mais le scanner n'a aucun candidat et le prix colle au plus bas 12 h (59 009)."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed à 13, capi totale -7,2 % en 24 h. En peur extrême, les rebonds sont brutaux : un short ici ressemble à une entrée tardive."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Samedi, bourses US fermées, calendrier vide. Mes recherches ne donnent aucune annonce datée de moins de 24 h exploitable ; je n'invente rien, donc pas d'OPP-1."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "PEPE RSI 12,4, -9,7 % sur 24 h ; PENGU -16 % ; TRUMP -10 %. Tout est épuisé vers le bas, pas poursuivable. Pas de rebond confirmé non plus : rien de propre."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je n'ai aucun setup TPB-1 ni BRK-1 : pas de repli sur l'EMA20 avec reprise, pas de cassure avec volume. Je propose none sur les deux sujets."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Je cherche une raison de refuser le none : le portefeuille est à 100 % cash, donc pas de risque ouvert. Mais forcer un short à RSI 12-26 donnerait un RR net sous 1,5 avec stop au-dessus de l'EMA20."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "risk_manager",
+   "message": "D'accord. Les 5 réunions précédentes ont aussi conclu none pour la même raison ; je préfère attendre un rebond vers l'EMA20 pour un TPB-1 short."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Condition précise : rebond de BTC vers 59 850 (EMA20) puis rejet avec RSI qui repart sous 40 et MACD qui reste négatif."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Noté. Je ne place pas d'ordre en attente : le niveau est trop incertain et un ordre limite sur un marché si survendu risque d'être pris puis balayé."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Validé : aucune position, aucune entrée. Capital 502,44 €, perte max 0 €."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte, rien à garder ni à fermer.",
+   "Marché très baissier (BTC 59 165 €, Fear & Greed 13) mais déjà très survendu (RSI 12 à 26).",
+   "Scanner sans candidat ; samedi, bourses US fermées, pas d'annonce majeure confirmée."
+  ],
+  "desaccords": [
+   "Le Risk Manager a cherché une raison de refuser le none ; il n'a rien trouvé, le sentiment a appuyé la prudence."
+  ],
+  "decision": "Aucune nouvelle entrée, aucune position à gérer.",
+  "a_surveiller": [
+   "Rebond de BTC vers l'EMA20 15 min (~59 850) puis rejet pour un short TPB-1",
+   "Rebond violent de fin de panique à ne pas contrer",
+   "Annonces majeures dans les 48 h (aucune confirmée)"
+  ]
+ },
+ "synthese": "On n'ouvre rien : le marché a déjà beaucoup chuté, il n'y a aucun bon signal, et rester en cash vaut mieux que de forcer un trade.",
+ "id": "D-20261114-175614",
+ "cree_le": "2026-11-14T17:56:14Z"
+}
