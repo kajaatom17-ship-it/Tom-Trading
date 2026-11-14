@@ -524,15 +524,16 @@ function renderDigest(){
   $("digest").innerHTML=o;
 }
 function renderBadge(){
-  const e=equityLive(); if(!e) return; const init=S.state.capital_initial; const d=e.eq-init, dp=d/init*100;
+  const e=equityLive(); if(!e) return; const init=S.state.capital_initial; const dTot=e.eq-init, dpTot=dTot/init*100;
   const ps=S.state.positions; const b=$("pnlBadge");
-  const st=d>0.005?"win":d<-0.005?"loss":"flat"; b.className=st;
-  const oP=ps.reduce((a,p)=>a+openPnl(p),0);
-  b.querySelector(".l1").textContent="Total depuis le départ";
-  b.querySelector(".l4").textContent=`Terminés ${sgn(d-oP)} · En cours ${sgn(oP)}`;
-  const txt=sgn(d); if(S.lastBadge&&S.lastBadge!==txt){ b.classList.remove("bump"); void b.offsetWidth; b.classList.add("bump"); } S.lastBadge=txt;
+  const oP=ps.reduce((a,p)=>a+openPnl(p),0), oInv=ps.reduce((a,p)=>a+p.notionnel,0), oPct=oInv?oP/oInv*100:0;
+  const st=oP>0.005?"win":oP<-0.005?"loss":"flat"; b.className=st;
+  b.querySelector(".l1").textContent=ps.length?`En cours · ${ps.length} position${ps.length>1?"s":""}`:"Aucune position en cours";
+  const txt=ps.length?sgn(oP):"—"; if(S.lastBadge&&S.lastBadge!==txt){ b.classList.remove("bump"); void b.offsetWidth; b.classList.add("bump"); } S.lastBadge=txt;
   b.querySelector(".l2").textContent=txt;
-  b.querySelector(".l3").textContent=pctS(dp);
+  b.querySelector(".l3").textContent=ps.length?pctS(oPct):"";
+  b.querySelector(".l4").textContent="";
+  const d=dTot, dp=dpTot;
   const pend=ps.map(guide).join(""); renderDigest();
   $("pnlBody").innerHTML=`<p class="muted" style="font-size:13px;margin-bottom:10px">Tous les montants sont frais déduits. Depuis le départ (${eur(init,0)} fictifs), frais compris : <b class="${cls(d)}">${sgn(d)} (${pctS(dp)})</b>. Valeur actuelle : <b>${eur(e.eq)}</b>.</p>`+(pend||`<div class="empty">Aucune position ouverte. Le comité attend une bonne occasion.</div>`);
   const pv=pendingView();
