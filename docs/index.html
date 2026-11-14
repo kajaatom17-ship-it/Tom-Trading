@@ -36,6 +36,9 @@ a{color:var(--blue)}
   display:flex;align-items:center;gap:14px;padding:10px 16px}
 .brand{font-weight:700;letter-spacing:-.01em}
 .brand small{font-weight:500;color:var(--amber);margin-left:6px;font-size:12px;border:1px solid rgba(242,184,75,.4);padding:1px 6px;border-radius:20px}
+#btnRefresh{flex:none;width:40px;height:40px;margin-left:10px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.06);color:var(--text,#E8EEF9);display:grid;place-items:center;cursor:pointer}
+#btnRefresh svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+#btnRefresh.spin svg{animation:rf .8s linear infinite} @keyframes rf{to{transform:rotate(360deg)}}
 .top .eq{margin-left:auto;text-align:right;line-height:1.15}
 .top .eq b{font-size:17px}
 .engine{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
@@ -240,6 +243,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
   </div>
   <div class="pagetitle" id="pageTitle">Accueil</div>
   <div class="eq"><b class="num" id="topEq">—</b><div class="num" id="topPerf" style="font-size:12px">—</div></div>
+  <button id="btnRefresh" type="button" aria-label="Actualiser l'appli" title="Actualiser"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.6-5.9M20 4v5h-5"/></svg></button>
 </header>
 
 <nav class="tabs" role="tablist" aria-label="Sections">
@@ -763,7 +767,13 @@ function show(tab){
 document.querySelector(".tabs").addEventListener("click",e=>{const b=e.target.closest("button"); if(b){ if(location.hash!=="#"+b.dataset.tab) location.hash=b.dataset.tab; else show(b.dataset.tab);} });
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)||"accueil"));
 
+const BUILD="20261114b";
+function hardReload(){ const u=new URL(location.href); u.searchParams.set("v",Date.now()); location.replace(u.toString()); }
+$("btnRefresh").addEventListener("click",()=>{ $("btnRefresh").classList.add("spin"); hardReload(); });
+async function checkVersion(){ try{ const r=await fetch(location.pathname+"?t="+Date.now(),{cache:"no-store"}); const m=(await r.text()).match(/const BUILD="([^"]+)"/); if(m&&m[1]!==BUILD) hardReload(); }catch(e){} }
+document.addEventListener("visibilitychange",()=>{ if(!document.hidden){ checkVersion(); loadEngine(); } });
 (async function start(){
+  checkVersion();
   await loadEngine();
   show(location.hash.slice(1)||"accueil");
   await loadTickers();
