@@ -14,16 +14,16 @@
    "entry": 0.2104825,
    "notionnel": 25.122117503501205,
    "frais_entree": 0.10048847001400482,
-   "stop": 0.20879863999999998,
+   "stop": 0.20649499999999998,
    "stop_initial": 0.21447,
    "tp": 0.19717,
    "risque_eur": 0.6788113625115966,
    "rr_net": 1.7,
    "ouvert_le": "2026-11-14T20:27:38Z",
-   "verifie_jusqu_a": "2026-11-14T21:01:00Z",
+   "verifie_jusqu_a": "2026-11-14T21:26:00Z",
    "duree_max_h": 2.0,
    "decision_id": "M-20261114-202738-KNTQ",
-   "dernier_prix": 0.20295,
+   "dernier_prix": 0.20067,
    "atr": 0.0069200000000000095,
    "mom": true,
    "impulsion": 0.0069200000000000095,
@@ -40,14 +40,14 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T21:02:00Z",
+ "maj": "2026-11-14T21:27:12Z",
  "seq": 7,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T20:57:57Z",
+ "chasseur_t": "2026-11-14T21:26:50Z",
  "tendance": [
   "MIHAO",
   "BTC",
@@ -69,8 +69,8 @@
  "buzz": {
   "AGI": {
    "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 4.1
+   "mentions": 32,
+   "x_vs_hier": 4.0
   },
   "BTC": {
    "source": "StockTwits",
@@ -82,32 +82,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ETH": {
-   "source": "StockTwits",
+   "source": "Reddit + StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LHX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QNT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SHIB": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -117,17 +97,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BONK": {
+  "QNT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DRTS": {
+  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ADA": {
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AMP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -137,19 +122,29 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "SHIB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SUI": {
+  "BONK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ADA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T20:57:58Z",
- "sources_t": "2026-11-14T20:58:04Z",
+ "buzz_t": "2026-11-14T21:26:51Z",
+ "sources_t": "2026-11-14T21:26:57Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
