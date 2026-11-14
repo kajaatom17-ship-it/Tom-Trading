@@ -3458,5 +3458,117 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T16:56:37Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "BTC 59 301 € (RSI 15 min 27,5, tendance 1 h baissière, volume 0,73x la moyenne), ETH RSI 21,9, SOL RSI 24,9, XRP RSI 20,6. Tout l'univers crypto est en survente extrême et sous l'EMA20 15 min. Le scanner ne remonte aucun candidat. Un short maintenant serait pris après -5 à -11 % de baisse sur 24 h, loin de l'EMA20 : pas de pullback propre pour TPB-1, pas de cassure fraîche avec volume pour BRK-1.",
+    "donnees": "Brief Kraken 17:25 UTC (18:25 Paris), bougies 15 min"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Samedi : bourses américaines fermées, pas d'annonce macro majeure prévue aujourd'hui (calendrier du brief vide, recherches web sans événement daté confirmé pour le jour). Actualités crypto négatives : Investing.com 14/11 16:56 UTC, BTC sous 68 000 $ avec sept jours consécutifs de sorties d'ETF ; Yahoo Finance / 24/7 Wall St 14/11 16:10 UTC, BTC proche de 66 000 $. Benzinga 14/11 15:30 UTC : l'or glisse vers un support, sorties GLD. Faits : sorties d'ETF. Interprétation : pression vendeuse déjà largement exprimée. Aucun catalyseur daté et sourcé de moins de 24 h ne justifie OPP-1.",
+    "sources": [
+     "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 16:56 UTC",
+     "Bitcoin Just Crashed Toward $66,000 - Yahoo Finance - 2026-11-14 16:10 UTC",
+     "Gold Price Slips to Key Support as Fed Rate Risks and GLD ETF Outflows Build - Benzinga - 2026-11-14 15:30 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -7,2 % sur 24 h, dominance BTC 58,81 %. Memecoins en baisse de -6 à -15 % (PENGU -15,26 %, PEPE -11,43 %). Les extrêmes de peur produisent souvent des rebonds violents : un short tardif est dangereux, un long contre la tendance 1 h n'a pas de signal.",
+    "donnees": "Brief 17:25 UTC"
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "DOGE RSI 27,5 volume 0,39x, PEPE RSI 12,3 volume 0,21x, TRUMP RSI 15,9 volume 0,20x, WIF RSI 26,9. Le mouvement est déjà fini et sans volume : pas de bougie d'impulsion exploitable, pas de retour sur la zone. Le volume qui s'éteint avec un RSI à 12 annonce plutôt un rebond de soulagement. Aucune entrée memecoin."
+   },
+   "trader": {
+    "proposition": "Positions ouvertes : aucune. Nouvelle entrée : aucune. On reste en cash.",
+    "pour": [
+     "Marché baissier, tendance 1 h baissière partout"
+    ],
+    "contre": [
+     "Entrée tardive après -5 à -11 % sur 24 h",
+     "RSI 12 à 30 partout : risque de rebond violent contre un short",
+     "Scanner sans candidat, volumes faibles (0,2 à 0,8x)",
+     "Week-end : actions fermées, rien à étudier côté bourse"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Aucune position ouverte, cash 502,44 €, 2 entrées déjà prises aujourd'hui sur 3. Aucun trade proposé n'atteindrait un rapport gain/risque net sûr de 1,5. Je refuse de forcer une entrée pour faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "BTC 59 301 €, RSI 15 min 27,5, volume 0,73x, sous EMA20 (59 993) et EMA50 (60 578). Même image sur ETH (RSI 21,9), SOL (24,9), XRP (20,6). Le scanner ne donne aucun candidat."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed est à 13 et la capitalisation totale perd 7,2 % sur 24 h. Quand tout est en survente, un rebond de 3 à 5 % peut arriver sans prévenir : vendre à découvert maintenant, c'est payer le prix fort."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Aujourd'hui samedi, les bourses US sont fermées et je ne confirme aucune annonce macro datée. Côté actualité : sept jours de sorties d'ETF bitcoin (Investing.com, 14/11 16:56 UTC) et BTC proche de 66 000 $ (Yahoo Finance, 16:10 UTC). C'est un fait déjà dans les prix, pas un nouveau catalyseur."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_macro",
+    "message": "Je confirme : PEPE à -11,43 % sur 24 h avec RSI 12,3 et volume 0,21x, TRUMP RSI 15,9 volume 0,20x. Le mouvement est fini, pas poursuivable. Aucune bougie d'impulsion nouvelle, donc ni TPB-1 ni BRK-1."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "specialiste_memecoins",
+    "message": "Je ne suis pas d'accord sur un point : INJ perd 6,55 % en 1 h, c'est la seule alerte « contre nous » du brief. Mais sa tendance est « neutre » (RSI 21,7), il n'y a pas de cassure confirmée avec volume. Alerte notée, pas de signal."
+   },
+   {
+    "agent": "trader",
+    "message": "Je ne propose aucune entrée. Pas de position ouverte à gérer, pas de trade propre à ouvrir. Je préfère rester en cash que d'entrer tard après -5 à -11 % de baisse."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "D'accord pour ne pas shorter. Je ne vois pas non plus de long : la tendance 1 h est baissière sur la quasi-totalité de l'univers, un pari de rebond n'a pas de signal."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Ça me va. Si une annonce majeure tombe ce week-end, on réévalue. Le calendrier du brief est vide, je ne le remplis pas sans date confirmée."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Cash 502,44 €, 2 entrées sur 3 déjà utilisées aujourd'hui. Les décisions « none » des 5 dernières réunions étaient pour la même raison. Je ne cherche pas de raison de refuser car il n'y a rien à valider. Je valide la décision « ne rien faire »."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte : le portefeuille est entièrement en cash (502,44 €), gain total +2,44 €.",
+    "Marché crypto en forte baisse : BTC 59 301 €, Fear & Greed 13, capitalisation totale -7,2 % sur 24 h, RSI 15 min entre 12 et 31 presque partout.",
+    "Le scanner ne remonte aucun candidat, les volumes sont faibles, les bourses US sont fermées (samedi) et le calendrier d'annonces est vide.",
+    "Memecoins : mouvement déjà fait et sans volume, rien de propre à saisir."
+   ],
+   "desaccords": [
+    "L'analyste technique a rappelé que l'alerte INJ (-6,55 % en 1 h) existait, mais sans cassure confirmée avec volume, ce n'est pas un signal d'entrée."
+   ],
+   "decision": "Ne rien faire : pas de position à gérer et pas de nouvelle entrée, car un short arriverait trop tard après la chute et un long n'a aucun signal.",
+   "a_surveiller": [
+    "Un rebond de survente (RSI 15 min qui remonte avec volume) qui permettrait un pullback TPB-1 propre sous l'EMA20.",
+    "Une cassure du plus bas 12 h de BTC (59 046 €) avec volume supérieur à 1,8x la moyenne (BRK-1).",
+    "Réouverture des actions US lundi 16/11 (15:30 Paris), à étudier avec QQQ et SPY."
+   ]
+  },
+  "synthese": "On n'ouvre rien : le marché a déjà beaucoup chuté, il n'y a aucun bon signal et rester en cash vaut mieux que de forcer un trade.",
+  "id": "D-20261114-172630",
+  "cree_le": "2026-11-14T17:26:30Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T17:26:49Z"
  }
 ]
