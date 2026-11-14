@@ -492,5 +492,41 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 14 signal(aux) : ARB short (TPB-1, 70), NEAR short (TPB-1, 60), ADA short (TPB-1, 40)"
+ },
+ {
+  "t": "2026-11-14T07:50:57Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "PEPE short fermé (objectif atteint (moitié encaissée)) à 3.8e-06 : +2.94 € net",
+  "data": {
+   "id": "P0001a"
+  }
+ },
+ {
+  "t": "2026-11-14T07:50:57Z",
+  "agent": "Trader de garde",
+  "type": "laisser courir",
+  "msg": "PEPE : objectif atteint, moitié encaissée. Le reste continue, stop suiveur à 3.917422e-06."
+ },
+ {
+  "t": "2026-11-14T07:50:57Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "PEPE short fermé (stop suiveur (gains encaissés)) à 3.91233e-06 : +1.49 € net",
+  "data": {
+   "id": "P0001"
+  }
+ },
+ {
+  "t": "2026-11-14T07:50:59Z",
+  "agent": "Trader de garde",
+  "type": "protection",
+  "msg": "XRP : stop 0.926 → 0.9037558. +1.3R atteint : stop remonté au prix d'entrée (plus de perte possible)."
+ },
+ {
+  "t": "2026-11-14T07:52:04Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 6 signal(aux) : NEAR short (BRK-1, 75), XRP short (BRK-1, 45), BTC short (TPB-1, 30)"
  }
 ]
