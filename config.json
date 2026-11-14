@@ -1,505 +1,554 @@
 {
- "version": "1.0",
- "mode": "PAPER_ONLY",
- "capital_initial_eur": 500,
- "timezone": "Europe/Paris",
- "frais": {
-  "taker_pct": 0.4,
-  "maker_pct": 0.25,
-  "note": "Kraken Pro, palier le plus bas. Entree et stop = ordre au marche (taker + slippage). Objectif = ordre limite (maker, sans slippage).",
-  "slippage_pct_par_tier": {
-   "A": 0.05,
-   "B": 0.1,
-   "C": 0.25
+  "version": "1.0",
+  "mode": "PAPER_ONLY",
+  "capital_initial_eur": 500,
+  "timezone": "Europe/Paris",
+  "frais": {
+    "taker_pct": 0.4,
+    "maker_pct": 0.25,
+    "note": "Kraken Pro, palier le plus bas. Entree et stop = ordre au marche (taker + slippage). Objectif = ordre limite (maker, sans slippage).",
+    "slippage_pct_par_tier": {
+      "A": 0.05,
+      "B": 0.1,
+      "C": 0.25
+    },
+    "rollover_short_pct_par_4h": 0.02
   },
-  "rollover_short_pct_par_4h": 0.02
- },
- "risque": {
-  "risque_par_trade_pct": 1.0,
-  "max_entrees_par_jour": 3,
-  "max_positions_ouvertes": 5,
-  "rr_net_min": 1.5,
-  "notionnel_max_pct_par_tier": {
-   "A": 30,
-   "B": 20,
-   "C": 10
+  "risque": {
+    "risque_par_trade_pct": 1.0,
+    "max_entrees_par_jour": 3,
+    "max_positions_ouvertes": 5,
+    "rr_net_min": 1.5,
+    "notionnel_max_pct_par_tier": {
+      "A": 30,
+      "B": 20,
+      "C": 10
+    },
+    "distance_stop_min_pct": 0.8,
+    "distance_stop_max_pct": 8.0,
+    "spread_max_pct": 0.3,
+    "volume_24h_min_eur": 40000,
+    "perte_jour_max_pct": 3.0,
+    "drawdown_coupe_circuit_pct": 15.0,
+    "max_alts_meme_sens": 2,
+    "duree_max_position_h": 24,
+    "derive_prix_max_atr": 0.5,
+    "volume_24h_min_eur_actions": 2000,
+    "max_actions_meme_sens": 2
   },
-  "distance_stop_min_pct": 0.8,
-  "distance_stop_max_pct": 8.0,
-  "spread_max_pct": 0.3,
-  "volume_24h_min_eur": 40000,
-  "perte_jour_max_pct": 3.0,
-  "drawdown_coupe_circuit_pct": 15.0,
-  "max_alts_meme_sens": 2,
-  "duree_max_position_h": 24,
-  "derive_prix_max_atr": 0.5,
-  "volume_24h_min_eur_actions": 2000,
-  "max_actions_meme_sens": 2
- },
- "strategies_actives": [
-  "TPB-1",
-  "BRK-1",
-  "OPP-1"
- ],
- "univers": [
-  {
-   "sym": "BTC",
-   "pair": "XBTEUR",
-   "nom": "Bitcoin",
-   "cat": "Majeure",
-   "tier": "A"
-  },
-  {
-   "sym": "ETH",
-   "pair": "ETHEUR",
-   "nom": "Ethereum",
-   "cat": "Majeure",
-   "tier": "A"
-  },
-  {
-   "sym": "SOL",
-   "pair": "SOLEUR",
-   "nom": "Solana",
-   "cat": "Majeure",
-   "tier": "A"
-  },
-  {
-   "sym": "XRP",
-   "pair": "XRPEUR",
-   "nom": "XRP",
-   "cat": "Majeure",
-   "tier": "A"
-  },
-  {
-   "sym": "ADA",
-   "pair": "ADAEUR",
-   "nom": "Cardano",
-   "cat": "Majeure",
-   "tier": "A"
-  },
-  {
-   "sym": "LTC",
-   "pair": "LTCEUR",
-   "nom": "Litecoin",
-   "cat": "Majeure",
-   "tier": "A"
-  },
-  {
-   "sym": "LINK",
-   "pair": "LINKEUR",
-   "nom": "Chainlink",
-   "cat": "Infra",
-   "tier": "A"
-  },
-  {
-   "sym": "AVAX",
-   "pair": "AVAXEUR",
-   "nom": "Avalanche",
-   "cat": "Layer 1",
-   "tier": "B"
-  },
-  {
-   "sym": "SUI",
-   "pair": "SUIEUR",
-   "nom": "Sui",
-   "cat": "Layer 1",
-   "tier": "A"
-  },
-  {
-   "sym": "NEAR",
-   "pair": "NEAREUR",
-   "nom": "Near",
-   "cat": "Layer 1",
-   "tier": "A"
-  },
-  {
-   "sym": "DOT",
-   "pair": "DOTEUR",
-   "nom": "Polkadot",
-   "cat": "Layer 1",
-   "tier": "B"
-  },
-  {
-   "sym": "INJ",
-   "pair": "INJEUR",
-   "nom": "Injective",
-   "cat": "Layer 1",
-   "tier": "B"
-  },
-  {
-   "sym": "HYPE",
-   "pair": "HYPEEUR",
-   "nom": "Hyperliquid",
-   "cat": "DeFi",
-   "tier": "A"
-  },
-  {
-   "sym": "ONDO",
-   "pair": "ONDOEUR",
-   "nom": "Ondo",
-   "cat": "DeFi",
-   "tier": "B"
-  },
-  {
-   "sym": "ARB",
-   "pair": "ARBEUR",
-   "nom": "Arbitrum",
-   "cat": "Layer 2",
-   "tier": "B"
-  },
-  {
-   "sym": "OP",
-   "pair": "OPEUR",
-   "nom": "Optimism",
-   "cat": "Layer 2",
-   "tier": "B"
-  },
-  {
-   "sym": "TAO",
-   "pair": "TAOEUR",
-   "nom": "Bittensor",
-   "cat": "IA",
-   "tier": "B"
-  },
-  {
-   "sym": "RENDER",
-   "pair": "RENDEREUR",
-   "nom": "Render",
-   "cat": "IA",
-   "tier": "B"
-  },
-  {
-   "sym": "FET",
-   "pair": "FETEUR",
-   "nom": "Artificial Superintelligence",
-   "cat": "IA",
-   "tier": "B"
-  },
-  {
-   "sym": "DOGE",
-   "pair": "XDGEUR",
-   "nom": "Dogecoin",
-   "cat": "Meme",
-   "tier": "A"
-  },
-  {
-   "sym": "SHIB",
-   "pair": "SHIBEUR",
-   "nom": "Shiba Inu",
-   "cat": "Meme",
-   "tier": "B"
-  },
-  {
-   "sym": "PEPE",
-   "pair": "PEPEEUR",
-   "nom": "Pepe",
-   "cat": "Meme",
-   "tier": "B"
-  },
-  {
-   "sym": "TRUMP",
-   "pair": "TRUMPEUR",
-   "nom": "Official Trump",
-   "cat": "Meme",
-   "tier": "C"
-  },
-  {
-   "sym": "WIF",
-   "pair": "WIFEUR",
-   "nom": "dogwifhat",
-   "cat": "Meme",
-   "tier": "C"
-  },
-  {
-   "sym": "BONK",
-   "pair": "BONKEUR",
-   "nom": "Bonk",
-   "cat": "Meme",
-   "tier": "C"
-  },
-  {
-   "sym": "PENGU",
-   "pair": "PENGUEUR",
-   "nom": "Pudgy Penguins",
-   "cat": "Meme",
-   "tier": "C"
-  },
-  {
-   "sym": "PAXG",
-   "pair": "PAXGEUR",
-   "nom": "Or (PAX Gold)",
-   "cat": "Or",
-   "tier": "A"
-  },
-  {
-   "sym": "NVDA",
-   "pair": "NVDAxUSD",
-   "nom": "Nvidia",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "TSLA",
-   "pair": "TSLAxUSD",
-   "nom": "Tesla",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "AAPL",
-   "pair": "AAPLxUSD",
-   "nom": "Apple",
-   "cat": "Action",
-   "tier": "C",
-   "classe": "action"
-  },
-  {
-   "sym": "MSFT",
-   "pair": "MSFTxUSD",
-   "nom": "Microsoft",
-   "cat": "Action",
-   "tier": "C",
-   "classe": "action"
-  },
-  {
-   "sym": "AMZN",
-   "pair": "AMZNxUSD",
-   "nom": "Amazon",
-   "cat": "Action",
-   "tier": "C",
-   "classe": "action"
-  },
-  {
-   "sym": "GOOGL",
-   "pair": "GOOGLxUSD",
-   "nom": "Alphabet (Google)",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "META",
-   "pair": "METAxUSD",
-   "nom": "Meta",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "AMD",
-   "pair": "AMDxUSD",
-   "nom": "AMD",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "AVGO",
-   "pair": "AVGOxUSD",
-   "nom": "Broadcom",
-   "cat": "Action",
-   "tier": "C",
-   "classe": "action"
-  },
-  {
-   "sym": "NFLX",
-   "pair": "NFLXxUSD",
-   "nom": "Netflix",
-   "cat": "Action",
-   "tier": "C",
-   "classe": "action"
-  },
-  {
-   "sym": "PLTR",
-   "pair": "PLTRxUSD",
-   "nom": "Palantir",
-   "cat": "Action",
-   "tier": "C",
-   "classe": "action"
-  },
-  {
-   "sym": "ORCL",
-   "pair": "ORCLxUSD",
-   "nom": "Oracle",
-   "cat": "Action",
-   "tier": "C",
-   "classe": "action"
-  },
-  {
-   "sym": "INTC",
-   "pair": "INTCxUSD",
-   "nom": "Intel",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "COIN",
-   "pair": "COINxUSD",
-   "nom": "Coinbase",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "MSTR",
-   "pair": "MSTRxUSD",
-   "nom": "MicroStrategy",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "HOOD",
-   "pair": "HOODxUSD",
-   "nom": "Robinhood",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "CRCL",
-   "pair": "CRCLxUSD",
-   "nom": "Circle",
-   "cat": "Action",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "SPY",
-   "pair": "SPYxUSD",
-   "nom": "S&P 500 (ETF)",
-   "cat": "Indice",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "QQQ",
-   "pair": "QQQxUSD",
-   "nom": "Nasdaq 100 (ETF)",
-   "cat": "Indice",
-   "tier": "B",
-   "classe": "action"
-  },
-  {
-   "sym": "GLD",
-   "pair": "GLDxUSD",
-   "nom": "Or (ETF GLD)",
-   "cat": "Or",
-   "tier": "C",
-   "classe": "action"
-  }
- ],
- "opportunite": {
-  "strategie": "OPP-1",
-  "risque_par_trade_pct": 0.5,
-  "rr_net_min": 2.0,
-  "max_par_jour": 1,
-  "note": "Pari de conviction hors TPB-1/BRK-1 : catalyseur daté et sourcé de moins de 24 h, risque réduit, validé par le Risk Manager."
- },
- "trader_de_garde": {
-  "actif": true,
-  "entree_auto": {
-   "score_min": 75,
-   "rr_net_min": 2.5,
-   "risque_par_trade_pct": 0.5,
-   "max_par_jour": 2
-  },
-  "protection": {
-   "seuil_breakeven_R": 1.0,
-   "seuil_verrouillage_R": 2.0,
-   "verrouille_R": 1.0
-  },
-  "note": "Agit seul toutes les 5 min, règles fixes, sans IA. Le comité contrôle ses actions à chaque réunion.",
-  "laisser_courir": {
-   "actif": true,
-   "part_encaissee": 0.5,
-   "stop_suiveur_R": 1.0,
-   "duree_max_h": 72,
-   "note": "À l'objectif : on encaisse la moitié, le reste continue avec un stop qui suit le prix à 1R. La perte, elle, reste toujours plafonnée."
-  },
-  "cassure_fraiche": {
-   "actif": true,
-   "score_min": 70,
-   "rr_net_min": 1.5,
-   "retard_max_atr": 0.5,
-   "risque_par_trade_pct": 0.5,
-   "note": "Entrée seule sur une cassure BRK-1 qui vient de se produire, si le prix n'a pas déjà trop couru (moins de 0,5 ATR après le signal)."
-  },
-  "sortie_rapide": {
-   "actif": true,
-   "cassure_ratee_atr": 1.0,
-   "fenetre_h": 3,
-   "note": "Une position BRK-1 qui revient de 1 ATR contre nous dans les 3 h est fermée tout de suite : la cassure a échoué. Perte divisée par deux par rapport au stop."
-  },
-  "impulsion": {
-   "actif": true,
-   "actifs": "memecoins",
-   "bougie_min": 5,
-   "nb_bougies": 3,
-   "mouvement_min_pct": 2.5,
-   "exces_max_pct": 15,
-   "volume_x": 3.0,
-   "cloture_pres_extreme": 0.3,
-   "stop_part_impulsion": 0.5,
-   "objectif_part_impulsion": 2.0,
-   "risque_par_trade_pct": 0.5,
-   "max_par_jour": 3,
-   "duree_max_h": 2,
-   "eteinte_apres_min": 30,
-   "encaisse_a_R": 1.0,
-   "part_encaissee": 0.5,
-   "note": "Impulsion violente sur un memecoin (3 bougies de 5 min, volume x3) : entrée immédiate dans le sens du mouvement, stop à la moitié de l'impulsion, moitié encaissée à +1R, sortie si l'impulsion s'éteint en 30 min."
-  }
- },
- "focus": {
-  "categories_prioritaires": [
-   "Action",
-   "Indice",
-   "Majeure",
-   "Layer 1",
-   "Layer 2",
-   "IA",
-   "DeFi",
-   "Infra",
-   "Meme",
-   "Or"
+  "strategies_actives": [
+    "TPB-1",
+    "BRK-1",
+    "OPP-1"
   ],
-  "note": "Bourse, crypto et memecoins suivis avec le même soin (spécialiste memecoins au comité), or juste derrière."
- },
- "ordres_attente": {
-  "slippage_annonce_pct": 0.3
- },
- "memecoins": {
-  "risque_par_trade_pct": 0.5,
-  "max_positions": 2,
-  "notionnel_max_pct": 12,
-  "budget_total_pct": 15,
-  "perte_jour_max_pct": 1.5,
-  "duree_max_h": 6,
-  "ajouts": {
-   "max_total": 40,
-   "max_par_jour": 8,
-   "volume_24h_min_eur": 40000,
-   "spread_max_pct": 0.5
+  "univers": [
+    {
+      "sym": "BTC",
+      "pair": "XBTEUR",
+      "nom": "Bitcoin",
+      "cat": "Majeure",
+      "tier": "A"
+    },
+    {
+      "sym": "ETH",
+      "pair": "ETHEUR",
+      "nom": "Ethereum",
+      "cat": "Majeure",
+      "tier": "A"
+    },
+    {
+      "sym": "SOL",
+      "pair": "SOLEUR",
+      "nom": "Solana",
+      "cat": "Majeure",
+      "tier": "A"
+    },
+    {
+      "sym": "XRP",
+      "pair": "XRPEUR",
+      "nom": "XRP",
+      "cat": "Majeure",
+      "tier": "A"
+    },
+    {
+      "sym": "ADA",
+      "pair": "ADAEUR",
+      "nom": "Cardano",
+      "cat": "Majeure",
+      "tier": "A"
+    },
+    {
+      "sym": "LTC",
+      "pair": "LTCEUR",
+      "nom": "Litecoin",
+      "cat": "Majeure",
+      "tier": "A"
+    },
+    {
+      "sym": "LINK",
+      "pair": "LINKEUR",
+      "nom": "Chainlink",
+      "cat": "Infra",
+      "tier": "A"
+    },
+    {
+      "sym": "AVAX",
+      "pair": "AVAXEUR",
+      "nom": "Avalanche",
+      "cat": "Layer 1",
+      "tier": "B"
+    },
+    {
+      "sym": "SUI",
+      "pair": "SUIEUR",
+      "nom": "Sui",
+      "cat": "Layer 1",
+      "tier": "A"
+    },
+    {
+      "sym": "NEAR",
+      "pair": "NEAREUR",
+      "nom": "Near",
+      "cat": "Layer 1",
+      "tier": "A"
+    },
+    {
+      "sym": "DOT",
+      "pair": "DOTEUR",
+      "nom": "Polkadot",
+      "cat": "Layer 1",
+      "tier": "B"
+    },
+    {
+      "sym": "INJ",
+      "pair": "INJEUR",
+      "nom": "Injective",
+      "cat": "Layer 1",
+      "tier": "B"
+    },
+    {
+      "sym": "HYPE",
+      "pair": "HYPEEUR",
+      "nom": "Hyperliquid",
+      "cat": "DeFi",
+      "tier": "A"
+    },
+    {
+      "sym": "ONDO",
+      "pair": "ONDOEUR",
+      "nom": "Ondo",
+      "cat": "DeFi",
+      "tier": "B"
+    },
+    {
+      "sym": "ARB",
+      "pair": "ARBEUR",
+      "nom": "Arbitrum",
+      "cat": "Layer 2",
+      "tier": "B"
+    },
+    {
+      "sym": "OP",
+      "pair": "OPEUR",
+      "nom": "Optimism",
+      "cat": "Layer 2",
+      "tier": "B"
+    },
+    {
+      "sym": "TAO",
+      "pair": "TAOEUR",
+      "nom": "Bittensor",
+      "cat": "IA",
+      "tier": "B"
+    },
+    {
+      "sym": "RENDER",
+      "pair": "RENDEREUR",
+      "nom": "Render",
+      "cat": "IA",
+      "tier": "B"
+    },
+    {
+      "sym": "FET",
+      "pair": "FETEUR",
+      "nom": "Artificial Superintelligence",
+      "cat": "IA",
+      "tier": "B"
+    },
+    {
+      "sym": "DOGE",
+      "pair": "XDGEUR",
+      "nom": "Dogecoin",
+      "cat": "Meme",
+      "tier": "A"
+    },
+    {
+      "sym": "SHIB",
+      "pair": "SHIBEUR",
+      "nom": "Shiba Inu",
+      "cat": "Meme",
+      "tier": "B"
+    },
+    {
+      "sym": "PEPE",
+      "pair": "PEPEEUR",
+      "nom": "Pepe",
+      "cat": "Meme",
+      "tier": "B"
+    },
+    {
+      "sym": "TRUMP",
+      "pair": "TRUMPEUR",
+      "nom": "Official Trump",
+      "cat": "Meme",
+      "tier": "C"
+    },
+    {
+      "sym": "WIF",
+      "pair": "WIFEUR",
+      "nom": "dogwifhat",
+      "cat": "Meme",
+      "tier": "C"
+    },
+    {
+      "sym": "BONK",
+      "pair": "BONKEUR",
+      "nom": "Bonk",
+      "cat": "Meme",
+      "tier": "C"
+    },
+    {
+      "sym": "PENGU",
+      "pair": "PENGUEUR",
+      "nom": "Pudgy Penguins",
+      "cat": "Meme",
+      "tier": "C"
+    },
+    {
+      "sym": "PAXG",
+      "pair": "PAXGEUR",
+      "nom": "Or (PAX Gold)",
+      "cat": "Or",
+      "tier": "A"
+    },
+    {
+      "sym": "NVDA",
+      "pair": "NVDAxUSD",
+      "nom": "Nvidia",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "TSLA",
+      "pair": "TSLAxUSD",
+      "nom": "Tesla",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "AAPL",
+      "pair": "AAPLxUSD",
+      "nom": "Apple",
+      "cat": "Action",
+      "tier": "C",
+      "classe": "action"
+    },
+    {
+      "sym": "MSFT",
+      "pair": "MSFTxUSD",
+      "nom": "Microsoft",
+      "cat": "Action",
+      "tier": "C",
+      "classe": "action"
+    },
+    {
+      "sym": "AMZN",
+      "pair": "AMZNxUSD",
+      "nom": "Amazon",
+      "cat": "Action",
+      "tier": "C",
+      "classe": "action"
+    },
+    {
+      "sym": "GOOGL",
+      "pair": "GOOGLxUSD",
+      "nom": "Alphabet (Google)",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "META",
+      "pair": "METAxUSD",
+      "nom": "Meta",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "AMD",
+      "pair": "AMDxUSD",
+      "nom": "AMD",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "AVGO",
+      "pair": "AVGOxUSD",
+      "nom": "Broadcom",
+      "cat": "Action",
+      "tier": "C",
+      "classe": "action"
+    },
+    {
+      "sym": "NFLX",
+      "pair": "NFLXxUSD",
+      "nom": "Netflix",
+      "cat": "Action",
+      "tier": "C",
+      "classe": "action"
+    },
+    {
+      "sym": "PLTR",
+      "pair": "PLTRxUSD",
+      "nom": "Palantir",
+      "cat": "Action",
+      "tier": "C",
+      "classe": "action"
+    },
+    {
+      "sym": "ORCL",
+      "pair": "ORCLxUSD",
+      "nom": "Oracle",
+      "cat": "Action",
+      "tier": "C",
+      "classe": "action"
+    },
+    {
+      "sym": "INTC",
+      "pair": "INTCxUSD",
+      "nom": "Intel",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "COIN",
+      "pair": "COINxUSD",
+      "nom": "Coinbase",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "MSTR",
+      "pair": "MSTRxUSD",
+      "nom": "MicroStrategy",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "HOOD",
+      "pair": "HOODxUSD",
+      "nom": "Robinhood",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "CRCL",
+      "pair": "CRCLxUSD",
+      "nom": "Circle",
+      "cat": "Action",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "SPY",
+      "pair": "SPYxUSD",
+      "nom": "S&P 500 (ETF)",
+      "cat": "Indice",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "QQQ",
+      "pair": "QQQxUSD",
+      "nom": "Nasdaq 100 (ETF)",
+      "cat": "Indice",
+      "tier": "B",
+      "classe": "action"
+    },
+    {
+      "sym": "GLD",
+      "pair": "GLDxUSD",
+      "nom": "Or (ETF GLD)",
+      "cat": "Or",
+      "tier": "C",
+      "classe": "action"
+    }
+  ],
+  "opportunite": {
+    "strategie": "OPP-1",
+    "risque_par_trade_pct": 0.5,
+    "rr_net_min": 2.0,
+    "max_par_jour": 1,
+    "note": "Pari de conviction hors TPB-1/BRK-1 : catalyseur daté et sourcé de moins de 24 h, risque réduit, validé par le Risk Manager."
   },
-  "max_entrees_par_jour": 3
- },
- "chasseur": {
-  "actif": true,
-  "intervalle_min": 5,
-  "seuil_variation_jour_pct": 5.0,
-  "seuil_variation_jour_actions_pct": 2.5,
-  "seuil_tendance_pct": 3.0,
-  "volume_min_eur": 40000,
-  "spread_max_pct": 0.5,
-  "candidats_analyses": 8,
-  "max_ajouts_par_jour": 6,
-  "duree_vie_jours": 3,
-  "inclure_actions": true,
-  "mouvement_min_actions_pct": 1.2,
-  "note": "Scanne toutes les cryptos en euros et toutes les actions xStocks de Kraken. Les actifs qui explosent ou s'effondrent sont ajoutés tout seuls à l'univers, puis le spécialiste entre sur l'impulsion et sort vite."
- }
+  "trader_de_garde": {
+    "actif": true,
+    "entree_auto": {
+      "score_min": 75,
+      "rr_net_min": 2.5,
+      "risque_par_trade_pct": 0.5,
+      "max_par_jour": 2
+    },
+    "protection": {
+      "seuil_breakeven_R": 1.0,
+      "seuil_verrouillage_R": 2.0,
+      "verrouille_R": 1.0
+    },
+    "note": "Agit seul toutes les 5 min, règles fixes, sans IA. Le comité contrôle ses actions à chaque réunion.",
+    "laisser_courir": {
+      "actif": true,
+      "part_encaissee": 0.5,
+      "stop_suiveur_R": 1.0,
+      "duree_max_h": 72,
+      "note": "À l'objectif : on encaisse la moitié, le reste continue avec un stop qui suit le prix à 1R. La perte, elle, reste toujours plafonnée."
+    },
+    "cassure_fraiche": {
+      "actif": true,
+      "score_min": 70,
+      "rr_net_min": 1.5,
+      "retard_max_atr": 0.5,
+      "risque_par_trade_pct": 0.5,
+      "note": "Entrée seule sur une cassure BRK-1 qui vient de se produire, si le prix n'a pas déjà trop couru (moins de 0,5 ATR après le signal)."
+    },
+    "sortie_rapide": {
+      "actif": true,
+      "cassure_ratee_atr": 1.0,
+      "fenetre_h": 3,
+      "note": "Une position BRK-1 qui revient de 1 ATR contre nous dans les 3 h est fermée tout de suite : la cassure a échoué. Perte divisée par deux par rapport au stop."
+    },
+    "impulsion": {
+      "actif": true,
+      "actifs": "memecoins",
+      "bougie_min": 5,
+      "nb_bougies": 3,
+      "mouvement_min_pct": 2.5,
+      "exces_max_pct": 15,
+      "volume_x": 3.0,
+      "cloture_pres_extreme": 0.3,
+      "stop_part_impulsion": 0.5,
+      "objectif_part_impulsion": 2.0,
+      "risque_par_trade_pct": 0.5,
+      "max_par_jour": 3,
+      "duree_max_h": 2,
+      "eteinte_apres_min": 30,
+      "encaisse_a_R": 1.0,
+      "part_encaissee": 0.5,
+      "note": "Impulsion violente sur un memecoin (3 bougies de 5 min, volume x3) : entrée immédiate dans le sens du mouvement, stop à la moitié de l'impulsion, moitié encaissée à +1R, sortie si l'impulsion s'éteint en 30 min."
+    }
+  },
+  "focus": {
+    "categories_prioritaires": [
+      "Action",
+      "Indice",
+      "Majeure",
+      "Layer 1",
+      "Layer 2",
+      "IA",
+      "DeFi",
+      "Infra",
+      "Meme",
+      "Or"
+    ],
+    "note": "Bourse, crypto et memecoins suivis avec le même soin (spécialiste memecoins au comité), or juste derrière."
+  },
+  "ordres_attente": {
+    "slippage_annonce_pct": 0.3
+  },
+  "memecoins": {
+    "risque_par_trade_pct": 0.5,
+    "max_positions": 2,
+    "notionnel_max_pct": 12,
+    "budget_total_pct": 15,
+    "perte_jour_max_pct": 1.5,
+    "duree_max_h": 6,
+    "ajouts": {
+      "max_total": 40,
+      "max_par_jour": 8,
+      "volume_24h_min_eur": 40000,
+      "spread_max_pct": 0.5
+    },
+    "max_entrees_par_jour": 3
+  },
+  "chasseur": {
+    "actif": true,
+    "intervalle_min": 5,
+    "seuil_variation_jour_pct": 5.0,
+    "seuil_variation_jour_actions_pct": 2.5,
+    "seuil_tendance_pct": 3.0,
+    "volume_min_eur": 40000,
+    "spread_max_pct": 0.5,
+    "candidats_analyses": 8,
+    "max_ajouts_par_jour": 6,
+    "duree_vie_jours": 3,
+    "inclure_actions": true,
+    "mouvement_min_actions_pct": 1.2,
+    "note": "Scanne toutes les cryptos en euros et toutes les actions xStocks de Kraken. Les actifs qui explosent ou s'effondrent sont ajoutés tout seuls à l'univers, puis le spécialiste entre sur l'impulsion et sort vite."
+  },
+  "sources_externes": {
+    "actus_crypto_gratuites": true,
+    "intervalle_min": 20,
+    "youtube": [
+      {
+        "nom": "roro el guapo (influenceur, à prendre avec recul)",
+        "channel_id": "UCOtVWmnz4kBmeJHWdTjc_dA"
+      },
+      {
+        "nom": "CoinDesk",
+        "channel_id": "UC7TghOL755nBk7HelHoi9LQ"
+      },
+      {
+        "nom": "Decrypt",
+        "channel_id": "UCWHxGRzzlsQe0V-9a8CLr6Q"
+      },
+      {
+        "nom": "Cointelegraph Markets",
+        "channel_id": "UCOZRnhGFjclZcBFHDoIn2Ig"
+      },
+      {
+        "nom": "Cryptoast (FR)",
+        "channel_id": "UCD9yJ3yOv6hCMeYLYAVi7zw"
+      },
+      {
+        "nom": "Unchained",
+        "channel_id": "UCWiiMnsnw5Isc2PP1to9nNw"
+      },
+      {
+        "nom": "Bankless",
+        "channel_id": "UCAl9Ld79qaZxp9JzEOwd3aA"
+      },
+      {
+        "nom": "CNBC Television",
+        "channel_id": "UCvJJ_dzjViJCoLf5uKUTwoA"
+      },
+      {
+        "nom": "Yahoo Finance",
+        "channel_id": "UCEAZeUIeJs0IjQiqTCdVSIg"
+      }
+    ],
+    "tiktok": [
+      {
+        "nom": "roroelguapo",
+        "compte": "@roroelguapo"
+      }
+    ],
+    "note": "youtube : liste de {nom, channel_id}. Le moteur lit le flux public de chaque chaîne. tiktok : pas de flux public gratuit, les comptes sont relus par le comité via recherche web."
+  }
 }

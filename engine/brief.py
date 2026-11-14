@@ -68,6 +68,10 @@ def main():
     out["chasseur_de_mouvements"] = {"t": ch.get("t"), "nb_actifs_analyses": ch.get("nb_analyses"), "tendance_reseaux": ch.get("tendance"), "buzz_reseaux_sociaux": ch.get("buzz_reseaux"),
                                      "candidats": ch.get("candidats", [])[:8], "ajoutes_automatiquement": ch.get("ajoutes", []),
                                      "note": "Cryptos et actions Kraken hors univers qui bougent beaucoup. Ceux avec une impulsion sont ajoutés et traités seuls par le moteur. Pour en ajouter un dont on parle (réseaux, actualité), utiliser l'action ajouter_actif."}
+    out["actus_et_videos"] = {"actus_crypto_tendance": st.get("actus_tendance", []),
+                              "videos_recentes_48h": load("videos.json", [])[-15:],
+                              "comptes_tiktok_a_verifier": cfg.get("sources_externes", {}).get("tiktok", []),
+                              "note": "Indices seulement. Un sujet qui monte dans l'actualité ou une vidéo de pro ne justifie une entrée que si le prix et le volume confirment."}
     out["derniers_trades"] = load("trades.json", [])[-5:]
     out["dernieres_decisions"] = [{"id": d["id"], "action": d.get("action"), "sym": d.get("sym"),
                                    "synthese": d.get("synthese"), "resultat": d.get("resultat", {}).get("statut")}

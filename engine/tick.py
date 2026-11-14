@@ -697,6 +697,50 @@ def social_buzz(state, get=_get_json):
     return buzz
 
 
+def _get_text(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "trading-desk-paper/1.0"})
+    with urllib.request.urlopen(req, timeout=15) as r:
+        return r.read().decode("utf-8", "replace")
+
+
+def sources_externes(cfg, state, get=_get_json, get_text=_get_text):
+    """Actualités crypto tendance (cryptocurrency.cv, gratuit) et nouvelles vidéos des chaînes YouTube suivies."""
+    X = cfg.get("sources_externes", {})
+    last = state.get("sources_t")
+    if last and (now_utc() - parse_iso(last)).total_seconds() < X.get("intervalle_min", 20) * 60 - 20:
+        return
+    state["sources_t"] = iso()
+    if X.get("actus_crypto_gratuites"):
+        try:
+            tr = get("https://cryptocurrency.cv/api/trending").get("trending", [])[:8]
+            state["actus_tendance"] = [{"sujet": t.get("topic"), "mentions": t.get("count"), "sentiment": t.get("sentiment"),
+                                        "titres": (t.get("recentHeadlines") or [])[:2]} for t in tr]
+        except Exception:
+            pass
+    vids = load("videos.json", [])
+    seen = {v["id"] for v in vids}
+    nouveaux = []
+    import xml.etree.ElementTree as ET
+    ns = {"a": "http://www.w3.org/2005/Atom", "yt": "http://www.youtube.com/xml/schemas/2015"}
+    for ch in X.get("youtube", []):
+        try:
+            root = ET.fromstring(get_text(f"https://www.youtube.com/feeds/videos.xml?channel_id={ch['channel_id']}"))
+            for e in root.findall("a:entry", ns)[:5]:
+                vid = e.findtext("yt:videoId", namespaces=ns)
+                pub = e.findtext("a:published", namespaces=ns)
+                if vid and vid not in seen and pub and (now_utc() - parse_iso(pub[:19] + "Z")).total_seconds() < 48 * 3600:
+                    v = {"id": vid, "chaine": ch.get("nom", ch["channel_id"]), "titre": e.findtext("a:title", namespaces=ns),
+                         "publie_le": pub[:19] + "Z", "lien": f"https://www.youtube.com/watch?v={vid}"}
+                    vids.append(v); nouveaux.append(v); seen.add(vid)
+        except Exception:
+            continue
+    cut = now_utc() - timedelta(days=3)
+    vids = [v for v in vids if parse_iso(v["publie_le"]) > cut]
+    save("videos.json", vids[-60:])
+    for v in nouveaux:
+        log_event("Chasseur de mouvements", "vidéo", f"Nouvelle vidéo de {v['chaine']} : {v['titre']}", {"lien": v["lien"]})
+
+
 def trending_symbols(state):
     """Cryptos les plus recherchées du moment (CoinGecko, public, sans clé) : un indice de ce dont on parle."""
     last = state.get("tendance_t")
@@ -1025,6 +1069,10 @@ def main():
         chasseur_scan(cfg, state, tk)
     except Exception as e:
         log_event("Chasseur de mouvements", "erreur", str(e)[:150])
+    try:
+        sources_externes(cfg, state)
+    except Exception as e:
+        log_event("Chasseur de mouvements", "erreur", f"Sources externes : {str(e)[:120]}")
 
     eq = equity(state, prices)
     state["pic_equity"] = max(state["pic_equity"], eq)

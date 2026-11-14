@@ -43,6 +43,8 @@ tick.chasseur_scan = lambda *a, **k: None   # désactivé sauf dans son propre t
 tick.trending_symbols = lambda state: []
 _social = tick.social_buzz
 tick.social_buzz = lambda state: {}
+_sources = tick.sources_externes
+tick.sources_externes = lambda *a, **k: None
 
 
 def run():
@@ -432,6 +434,19 @@ def fake_get(url):
 b = _social({}, get=fake_get)
 check("réseaux : mentions qui explosent repérées", set(b) == {"PEPE", "GME", "SOL"} and b["PEPE"]["source"] == "Reddit + StockTwits", str(b))
 check("réseaux : forte baisse ou hausse faible ignorées", "NVDA" not in b and "BTC" not in b)
+
+# 21. sources externes : actus tendance et nouvelles vidéos YouTube
+def fake_text(url):
+    now = core.iso()
+    return ('<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns="http://www.w3.org/2005/Atom">'
+            '<entry><yt:videoId>abc123</yt:videoId><title>Bitcoin va exploser ?</title><published>%s</published></entry>'
+            '<entry><yt:videoId>old999</yt:videoId><title>Vieille vidéo</title><published>2020-01-01T00:00:00+00:00</published></entry></feed>') % now
+cfg_x = dict(core.config()); cfg_x["sources_externes"] = {"actus_crypto_gratuites": True, "intervalle_min": 20, "youtube": [{"nom": "Pro Crypto", "channel_id": "UCtest"}], "tiktok": []}
+stx = {}
+_sources(cfg_x, stx, get=lambda u: {"trending": [{"topic": "Solana", "count": 9, "sentiment": "bullish", "recentHeadlines": ["a", "b", "c"]}]}, get_text=fake_text)
+vids = core.load("videos.json", [])
+check("youtube : nouvelle vidéo récente enregistrée, vieille ignorée", [v["id"] for v in vids] == ["abc123"] and vids[0]["chaine"] == "Pro Crypto", str(vids))
+check("actus tendance enregistrées", stx.get("actus_tendance", [{}])[0].get("sujet") == "Solana")
 
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)
