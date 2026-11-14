@@ -3679,5 +3679,117 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T17:56:27Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Aucune position ouverte, scanner vide. BTC 59 949 € : tendance 1 h baissière, RSI 48,8 (il était à 39), prix collé à l'EMA20 15 min (59 838), à 1,6 % au-dessus du plus bas 12 h (59 009). Presque tout l'univers crypto est baissier avec un RSI de 29 à 45 : le repli est déjà fait, un short arriverait tard (NEAR -10,4 %, PENGU -15,6 %). Les actions xStocks ont un volume quasi nul (vol_ratio 0 à 0,05) : weekend, signaux inutilisables.",
+    "donnees": "Brief 18:26 UTC (19:26 Paris), Kraken API publique, bougies 15 min"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Calendrier du brief vide. Mes recherches web du jour (calendrier de la semaine du 16 nov.) n'ont renvoyé que des pages génériques ou d'anciennes années : aucune date d'annonce confirmée, donc rien déposé dans l'agenda. Côté actualité (flux du brief, 17:19-17:32 UTC) : titres sur 1 Md$ de liquidations et BTC proche de 65 000 $, et un titre Traders Union évoquant des signaux de hausse de taux de la Fed. Ce sont des interprétations de presse, pas des décisions officielles vérifiées. Séance américaine fermée le samedi.",
+    "sources": [
+     "Bitcoin Slides to $65,000 as $1 Billion in Bets Are Liquidated - trendingtopics.eu - 2026-11-14 17:19 UTC - flux du brief",
+     "Solana falls as Federal Reserve rate hike signals weigh on crypto risk appetite - Traders Union - 2026-11-14 17:32 UTC - flux du brief"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -6,7 % sur 24 h, dominance BTC 58,84 %. Les ETF Bitcoin perdent 1 Md$ pour la deuxième semaine (titre du flux). La peur extrême produit des rebonds violents autant que des cascades : le sentiment ne désigne pas de côté.",
+    "donnees": "Alternative.me via brief 17:56 UTC"
+   },
+   "specialiste_memecoins": {
+    "avis": "ne rien faire",
+    "resume": "PEPE -10,6 %, TRUMP -11,4 %, BONK -11 %, PENGU -16,9 % sur 24 h, tous RSI 24 à 40, volume faible (vol_ratio 0,46 à 0,74 sauf PEPE 1,58). Mouvement déjà fini, pas d'impulsion ni de rebond propre. Spread TRUMP 0,227 %, proche de la limite de 0,30 %. Pas d'entrée sur bougie verticale."
+   },
+   "trader": {
+    "proposition": "Aucune position ouverte à gérer. Pas de nouvelle entrée : aucun candidat du scanner, pas de cassure confirmée avec volume, pas de repli TPB-1 propre.",
+    "pour": [
+     "Cash intact, 502,44 € (+0,49 %)",
+     "Une entrée encore disponible aujourd'hui, à garder pour un vrai signal"
+    ],
+    "contre": [
+     "Marché très survendu : un short maintenant est tardif",
+     "Un long contre la tendance 1 h de BTC n'a pas d'argument fort"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Ne rien faire. Aucun trade ne passe les critères (RR net ≥ 1,5 avec stop ≥ 1,5 ATR) sans courir après le prix, et le weekend réduit la liquidité des actions."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Aucune position ouverte, scanner sans candidat. BTC 59 949 €, RSI 48,8 contre 39,0 à la bougie précédente, collé à l'EMA20 (59 838) mais sous l'EMA50 (60 419) et en tendance 1 h baissière. Pas de setup TPB-1 ni BRK-1."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed à 13 et capitalisation -6,7 % sur 24 h. En peur extrême, un rebond violent est aussi probable qu'une nouvelle cascade, donc je ne vois pas de côté clair. Les ETF qui perdent 1 Md$ pour la deuxième semaine sont un fait de presse, pas un signal de prix."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_sentiment",
+    "message": "Je n'ai aucune annonce datée et sourcée dans les 48 h : mes recherches ont renvoyé des pages d'autres années, donc je ne dépose rien dans l'agenda. Le titre sur une hausse de taux de la Fed vient d'un site secondaire (Traders Union) : interprétation, pas fait vérifié. Les actions américaines sont fermées."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "PEPE -10,6 % (RSI 39,2), TRUMP -11,4 % (RSI 35,2), BONK -11 %, PENGU -16,9 % (RSI 24,2). Mouvement déjà fait, volume 0,46 à 0,74 fois la normale sauf PEPE 1,58. Aucune impulsion à poursuivre, et vendre PENGU à RSI 24 serait entrer en bas de vague."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "specialiste_memecoins",
+    "message": "D'accord sur PENGU, mais LTC (vol_ratio 5,66) et DOT (4,53) montrent du volume. LTC clôture à 41,69 pour un plus bas 12 h à 41,06 : pas de cassure, juste du volume dans la zone. Si LTC clôture sous 41,06 avec ce volume, ce sera un BRK-1 à étudier, pas maintenant."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de ne rien ouvrir. Un short BTC sous 59 009 aurait un stop d'au moins 1,5 ATR (≈ 554 €) pour un plus bas 12 h à seulement 940 € plus bas : le RR est trop juste. Je garde l'entrée restante du jour."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je conteste un point : si tout est survendu, pourquoi ne pas chercher un long de rebond ? Le RSI de AVAX est à 28,8 et celui de PENGU à 24,2."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "Parce que la tendance 1 h de BTC est baissière et que toutes les altcoins la suivent. Un long de rebond contre cette tendance demande un argument fort, et un RSI bas n'en est pas un : AVAX est à -10 % sur 24 h avec un volume de 0,62 fois la normale, donc pas de capitulation confirmée."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Rester en cash est cohérent : 502,44 €, entrée possible 1 sur 3 restante, pas de position à surveiller. Aucun trade ne passe RR net ≥ 1,5 sans courir après le prix. Les actions xStocks ont un volume à zéro ce samedi : spread et glissement imprévisibles. Je valide « ne rien faire ». Je note que le même constat a été fait aux cinq dernières réunions : ce n'est pas du conformisme, les chiffres n'ont pas changé."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position n'est ouverte : rien à garder ni à resserrer. Le trader de garde n'a pas agi depuis son entrée NEAR de 14:45 UTC, clôturée à +0,06 €.",
+    "Le marché crypto est très survendu (Fear & Greed 13, BTC 59 949 €, altcoins -7 à -17 % sur 24 h) : vendre maintenant serait tard, acheter irait contre la tendance.",
+    "Actions et or : le samedi, les actions xStocks n'ont presque aucun volume, donc pas de signal fiable.",
+    "Calendrier des annonces : vide. Mes recherches web du jour n'ont donné aucune date confirmée par une source fiable, donc rien n'a été ajouté (pas de date inventée)."
+   ],
+   "desaccords": [
+    "L'analyste sentiment a défendu l'idée d'un long de rebond sur actifs survendus (AVAX RSI 28,8, PENGU RSI 24,2) ; le trader a refusé car la tendance 1 h de BTC reste baissière et le volume ne confirme pas.",
+    "L'analyste technique a signalé LTC et DOT (volume 5,7 fois et 4,5 fois la normale) comme à surveiller ; le spécialiste memecoins et le trader n'y voient pas de cassure confirmée."
+   ],
+   "decision": "On ne fait rien : positions ouvertes (aucune) et nouvelle entrée (aucune), en gardant l'entrée restante du jour pour un vrai signal.",
+   "a_surveiller": [
+    "Clôture 15 min de LTC sous 41,06 avec volume élevé (BRK-1 short à étudier)",
+    "BTC sous 59 009 (plus bas 12 h) avec volume, ou reprise nette de l'EMA50 15 min à 60 419",
+    "Ouverture des marchés américains lundi pour les actions",
+    "Annonces datées et sourcées à ajouter à l'agenda"
+   ]
+  },
+  "synthese": "On n'ouvre rien : le marché a déjà beaucoup chuté, aucun signal propre n'apparaît et rester en cash vaut mieux que de forcer un trade.",
+  "id": "D-20261114-182649",
+  "cree_le": "2026-11-14T18:26:49Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T18:27:06Z"
  }
 ]
