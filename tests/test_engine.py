@@ -62,6 +62,9 @@ AGENTS_OK = {"analyste_technique": {"avis": "test"}, "analyste_macro": {"avis": 
              "analyste_sentiment": {"avis": "test"}, "trader": {"avis": "test"},
              "risk_manager": {"verdict": "valide", "motif": "test"}}
 
+_cfg0 = core.config
+core.config = lambda: {**_cfg0(), "exclusions": []}  # les tests utilisent NEAR
+tick.config = core.config
 cfg = core.config()
 fails = 0
 

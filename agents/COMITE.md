@@ -225,3 +225,6 @@ Les actus, vidéos, influenceurs, buzz Reddit/StockTwits et tendances CoinGecko 
 6. **Pas de consensus mou.** Si tout le comité est d'accord trop vite, le risk manager doit chercher une raison de refuser. Un désaccord argumenté vaut mieux qu'un oui rapide.
 7. **Ne pas suivre Tom aveuglément non plus.** Si une demande de Tom paraît risquée, le comité le dit et explique, puis exécute si Tom confirme.
 8. **Ne pas intervenir est une décision valable.** « Pas de trade, source douteuse » est une bonne réponse.
+
+## Actifs exclus par Tom
+La liste `exclusions` de config.json est interdite en nouvelle entrée, pour le comité comme pour le trader de garde et le moteur. Actuellement : NEAR (14 nov, « il sert à rien »). Ne pas le proposer.

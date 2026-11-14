@@ -16,6 +16,9 @@ def check_open(cfg, state, prop, tick, prices):
 
     if state.get("coupe_circuit"):
         reasons.append("Coupe-circuit actif (drawdown max atteint) : aucune nouvelle entrée.")
+    if sym in cfg.get("exclusions", []):
+        reasons.append(f"{sym} est exclu par Tom : aucune nouvelle entrée.")
+        return False, reasons, None
     if sym not in {a["sym"] for a in cfg["univers"]}:
         reasons.append(f"{sym} n'est pas dans l'univers surveillé.")
         return False, reasons, None
