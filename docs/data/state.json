@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 248.52935562096513,
+ "cash": 248.50935562096512,
  "positions": [
   {
    "id": "P0001",
@@ -20,12 +20,12 @@
    "risque_eur": 3.6987889387791366,
    "rr_net": 2.11,
    "ouvert_le": "2026-11-13T14:54:03Z",
-   "verifie_jusqu_a": "2026-11-13T22:26:00Z",
+   "verifie_jusqu_a": "2026-11-14T01:25:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261113-145353",
-   "dernier_prix": 3.981e-06,
-   "rollover": 0.019999999999999997,
-   "rollover_periodes": 1
+   "dernier_prix": 3.995e-06,
+   "rollover": 0.039999999999999994,
+   "rollover_periodes": 2
   },
   {
    "id": "P0004",
@@ -43,13 +43,13 @@
    "risque_eur": 3.683246060718949,
    "rr_net": 1.58,
    "ouvert_le": "2026-11-13T22:17:00Z",
-   "verifie_jusqu_a": "2026-11-13T22:26:00Z",
+   "verifie_jusqu_a": "2026-11-14T01:25:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261113-215728-O0003",
-   "dernier_prix": 0.91656
+   "dernier_prix": 0.91448
   }
  ],
- "frais_cumules": 1.02179539593241,
+ "frais_cumules": 1.04179539593241,
  "pnl_realise": 0.0,
  "pic_equity": 501.4469861214691,
  "entrees_par_jour": {
@@ -57,10 +57,11 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-13T22:26:46Z",
+ "maj": "2026-11-14T01:25:02Z",
  "seq": 4,
  "equity_debut_jour": {
-  "2026-11-13": 500.0
+  "2026-11-13": 500.0,
+  "2026-11-14": 500.18
  },
  "ordres_attente": []
 }
