@@ -3236,5 +3236,115 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T15:57:35Z"
+ },
+ {
+  "action": "none",
+  "strategie": "aucune",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Aucun candidat du scanner (liste vide à 15:59 UTC). BTC 59 661 €, tendance 1 h baissière, RSI 15 min 31,8 contre 14,2 à la bougie d'avant : rebond de survente sous l'EMA20 (60 301). ETH RSI 23,5, SOL 29,3, XRP 27,0, ADA 19,0 : tout est survendu, donc un short serait une entrée tardive et un long irait contre la tendance.",
+    "donnees": "Kraken OHLC 15 min, brief 16:25 UTC (17:25 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Samedi : bourses US fermées, pas d'annonce macro au calendrier (calendrier_annonces vide, aucune date vérifiée à déposer). Actualités du brief : Bitcoin sous 68 000 $, 7e jour de sorties des ETF (Investing.com, 14 nov 15:58 UTC) ; baisse de l'or avec risque de taux Fed et sorties du ETF GLD (Benzinga, 14 nov 15:30 UTC). Mes recherches web sur la clôture de Wall Street ne donnent que des résultats flous ou anciens : je ne cite aucun chiffre d'indice.",
+    "sources": [
+     "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 15:58 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), dominance BTC 58,68 %, capitalisation totale -7,07 % sur 24 h. Les plus fortes baisses : PENGU -16 %, PEPE -11 %, BONK -11 %, TRUMP -10 %.",
+    "donnees": "brief 16:25 UTC"
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "RSI 15 min : SHIB 11,5, TRUMP 15,5, PENGU 17,4, PEPE 21,0. Mouvement déjà fini pour les shorts, pas de retour sur la zone pour un TPB-1. SHIB : volume 0,26 fois la normale, WIF volume 50 k€ sur 24 h, sous le seuil de 40 k€ à peine. Spread TRUMP 0,22 % et WIF 0,24 % : limite."
+   },
+   "trader": {
+    "proposition": "Ne rien ouvrir.",
+    "pour": [
+     "Marché très baissier, la tendance est claire"
+    ],
+    "contre": [
+     "Tout est survendu : entrée tardive",
+     "Aucun candidat du scanner",
+     "RR insuffisant sur les shorts, stop trop loin des plus bas récents"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Aucune position ouverte, donc rien à garder ni à resserrer. Ne pas trader pour faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Aucune position ouverte et aucun candidat du scanner. BTC 59 661 €, sous l'EMA20 (60 301) et l'EMA50 (60 786), tendance 1 h baissière, mais RSI 31,8 après 14,2 : le marché rebondit dans une zone de survente."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed 13, capitalisation -7,07 % sur 24 h. En peur extrême les rebonds sont violents : un short ici arrive après le mouvement, pas avant."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Samedi, pas d'annonce majeure au calendrier. Fait vérifié : 7e jour de sorties des ETF bitcoin (Investing.com, 15:58 UTC). Je n'ai pas de chiffre fiable sur la clôture de Wall Street, donc aucun candidat action."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_sentiment",
+    "message": "Les memecoins sont épuisés : RSI SHIB 11,5, TRUMP 15,5, PENGU 17,4, PEPE 21,0. PENGU -16 % sur 24 h : je ne poursuis pas une bougie déjà tombée. Pas de retour sur zone, donc pas de TPB-1."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de ne rien ouvrir. J'ai regardé un short ETH (RSI 23,5, plus bas 12 h 1 660 pour un prix de 1 670) : on serait collé au support, donc rien à gagner avant l'objectif."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "D'accord pour ETH : prix 1 670,7 à 10 € du plus bas 12 h et ATR 12,1. En revanche je conteste l'idée que tout rebond est dangereux : si BTC repasse l'EMA20 15 min à 60 301 avec du volume, un TPB-1 short sur repli deviendrait plausible."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Oui, mais ce n'est pas le cas maintenant, et le trader de garde nous a déjà donné deux entrées aujourd'hui sur 3. On garde la dernière pour un vrai signal."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Avocat du diable : si on attend, on rate la baisse. Réponse : le buzz et la peur ne sont pas des preuves, et l'or comme les cryptos reculent sur des sorties de fonds déjà connues, donc rien de nouveau à exploiter."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Je valide la non-décision. Rien à garder, aucune position. Un short sur actif en survente avec stop à plus de 1 ATR du support donnerait un RR sous 1,5 net de frais : je l'aurais refusé."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte, cash 502,44 € ; le scanner ne propose aucun candidat.",
+    "Crypto en peur extrême (13/100), BTC 59 661 €, tous les indicateurs de survente (RSI entre 11 et 31).",
+    "Samedi : bourses US fermées, pas d'annonce macro vérifiée au calendrier."
+   ],
+   "desaccords": [
+    "L'analyste technique a rappelé qu'un rebond de BTC au-dessus de 60 301 € pourrait rouvrir un short sur repli ; le trader préfère attendre ce signal."
+   ],
+   "decision": "Ne rien ouvrir pour cette réunion.",
+   "a_surveiller": [
+    "BTC qui repasse l'EMA20 15 min (60 301 €) avec du volume puis repli : TPB-1 short possible",
+    "Cassure sous 59 147 € (plus bas 12 h) avec volume 1,8 fois la normale : BRK-1",
+    "Ouverture des marchés actions lundi"
+   ]
+  },
+  "synthese": "On n'ouvre rien : le marché a déjà beaucoup chuté, il n'y a aucun bon signal et se protéger du risque vaut mieux que de forcer un trade.",
+  "id": "D-20261114-162620",
+  "cree_le": "2026-11-14T16:26:20Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T16:26:37Z"
  }
 ]

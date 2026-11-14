@@ -13,14 +13,14 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T16:01:44Z",
+ "maj": "2026-11-14T16:26:51Z",
  "seq": 6,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T15:57:40Z",
+ "chasseur_t": "2026-11-14T16:26:42Z",
  "tendance": [
   "KAVA",
   "BTC",
@@ -42,8 +42,8 @@
  "buzz": {
   "AGI": {
    "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 4.6
+   "mentions": 31,
+   "x_vs_hier": 4.4
   },
   "BTC": {
    "source": "StockTwits",
@@ -55,37 +55,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XLM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TRUMP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DAL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UNI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -95,12 +65,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
+  "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOT": {
+  "HBAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -110,54 +80,108 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AAL": {
+  "JNJ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JNJ": {
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DAL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PEPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DOGE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TRUMP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T15:57:41Z",
- "sources_t": "2026-11-14T15:57:46Z",
+ "buzz_t": "2026-11-14T16:26:43Z",
+ "sources_t": "2026-11-14T16:26:49Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 11,
+   "mentions": 9,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin 1H: Lost 66.4K, Testing the 65K Daily Gap",
-    "Bitcoin: Sellers Remain in Control Below $67,800"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "Today or tomorrow POSSIBLE CRASH in Sight for BTC!!!",
-    "Nakamoto Debt Dwarfs Market Cap as Bitcoin Price Plunges Below $67K"
+    "Coinbase Reveals the True Why BTC Price Is Falling",
+    "URGENT $BTC UPDATE! Are we going Lower?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Bill Ackman says Wall Street is misreading Amazon, Microsoft, Meta, and Alphabet",
-    "Trump administration divided over Nvidia AI chip exports to China"
+    "Goldman Sachs forecasts stable growth, warns on AI trade in 2027 outlook",
+    "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "Ethereum",
    "mentions": 2,
-   "sentiment": "bullish",
+   "sentiment": "neutral",
    "titres": [
-    "This Analyst’s XRP Forecast Plays Out Faster Than Expected",
-    "XRP Ledger Activity Hits New November Highs as Batch, Ticket Usage Surge"
+    "以太坊基金会再次卖出 2500 枚 ETH，四日合计卖出 7500 枚 ETH",
+    "江卓尔：已在比特币 65,720 美元处开出 200% 仓位对冲空单，目前整体仓位相当于空仓"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "# BTC/USDT | Macro Reversal Setup at Weekly Demand –",
+    "AVAX/USDT: Is This the Beginning of Another Major Sell-Off?"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Solana Confirms Breakpoint 2026 Speakers Including London"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Coinbase Reveals the True Why BTC Price Is Falling"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "My Idea on $BTC Final Flush and next bull run."
    ]
   },
   {
@@ -165,31 +189,7 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin ETFs witnessed $2.35 billions in sell-off over the past two weeks"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "KAVA token sinks 40% as exploit hits Kava Lend, exchanges halt withdrawals"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "KAVA token sinks 40% as exploit hits Kava Lend, exchanges halt withdrawals"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "Weekly Recap: Bitcoin Crashes, Strategy Faces MSCI Removal, and Solana Scores Major Wall Street Win"
+    "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts"
    ]
   }
  ],
