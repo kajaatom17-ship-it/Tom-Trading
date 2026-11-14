@@ -1,0 +1,114 @@
+{
+ "action": "open",
+ "sym": "NEAR",
+ "side": "short",
+ "strategie": "BRK-1",
+ "entry_ref": 3.0012,
+ "atr": 0.02469807,
+ "stop": 3.050596,
+ "tp": 2.853012,
+ "duree_max_h": 24,
+ "confiance": "moyenne-faible",
+ "agents": {
+  "analyste_technique": {
+   "avis": "favorable",
+   "resume": "NEAR casse son plus bas 12 h (3,0045) : clôture 15 min à 3,0012, volume x5,71. Tendance 1 h baissière, sous EMA20 (3,0526) et EMA50 (3,0881). RSI 33,4 (en chute depuis 40,2). Attention : déjà -5,62 % sur 24 h.",
+   "donnees": "Brief engine/brief.py 08:25 UTC, bougies Kraken 15 min"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Aucun catalyseur daté confirmé trouvé pour NEAR (recherche web du 14/11 : seulement d'anciennes nouvelles de gouvernance). Contexte : vente générale du marché crypto, actualités BTC (portefeuille de l'ère Satoshi qui bouge 75 BTC, CoinDesk 14/11 04:30 UTC) et valeurs tech US sous pression avant les résultats Nvidia. Bourse US fermée ce week-end. Calendrier du jour vide, rien de confirmé dans les 2 h.",
+   "sources": [
+    "Satoshi-era wallet moves 75 BTC - CoinDesk - 2026-11-14 04:30 UTC - https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -5,07 % sur 24 h, dominance BTC 58,81 %. En peur extrême les rebonds sont violents : risque de squeeze sur un short."
+  },
+  "trader": {
+   "proposition": "Short NEAR BRK-1, entrée 3,0012, stop 3,0506, objectif 2,8530, RR net 1,66.",
+   "pour": [
+    "Cassure du bas 12 h avec volume x5,71",
+    "Tendance 1 h et BTC baissières",
+    "Score scanner 75, aucune alerte"
+   ],
+   "contre": [
+    "Déjà -5,6 % sur 24 h",
+    "Peur extrême : risque de rebond",
+    "Corrélé au short XRP déjà ouvert"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "RR net 1,66 (≥1,5), stop à 1,65 % (2 ATR), risque plafonné par le code, spread et volume 24 h OK (2,1 M€). Un seul altcoin short déjà ouvert (XRP) : limite de 2 respectée. Perte max limitée à environ 1 % du capital."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "NEAR clôture 15 min à 3,0012, sous le plus bas 12 h de 3,0045, volume x5,71 la moyenne. EMA20 3,0526 et EMA50 3,0881 au-dessus : signal BRK-1 short, score 75."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Pas de catalyseur propre à NEAR dans mes recherches du jour. Le marché subit une vente générale ; aucune annonce confirmée dans les 2 prochaines heures, bourse US fermée."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed à 13 et capitalisation -5,07 % sur 24 h. Je suis prudent : en peur extrême, un rebond violent peut balayer un stop serré."
+  },
+  {
+   "agent": "memecoins",
+   "message": "Rien de propre côté memecoins : PEPE volume x0,14, DOGE x0,67, WIF x0. Aucune bougie verticale, pas d'entrée. Mon avis ne bloque pas NEAR."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose un short NEAR : entrée 3,0012, stop 3,0506 (2 ATR), objectif 2,8530, RR net 1,66."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "NEAR a déjà perdu 5,62 % en 24 h et son RSI est à 33. Tu entres tard dans la baisse. Qu'est-ce qui prouve que ce n'est pas le bas ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_sentiment",
+   "message": "Le volume x5,71 confirme la cassure, la tendance 1 h et BTC sont baissiers. Si tu as raison, le stop à 3,0506 limite la perte à environ 1 % du capital."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Ce short est corrélé au short XRP ouvert. XRP est déjà au point mort (stop remonté à l'entrée) : le risque cumulé reste borné. Le RR de 1,66 est juste au-dessus du seuil de 1,5."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Le RSI à 33 n'est pas extrême comme DOT à 25,6 ou PLTR à 19,4. Le MACD baisse (0,00046 contre 0,0032). Je maintiens favorable."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Validé : taille plafonnée par le code, stop 1,65 %, durée max 24 h. Si le prix repasse au-dessus de 3,05, on est sorti, on ne bouge pas le stop."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Marché crypto en forte baisse : Fear & Greed à 13, capitalisation -5,07 % sur 24 h.",
+   "Le short XRP reste ouvert, +2,66 € fictifs, stop au point mort : on le garde.",
+   "NEAR casse son plus bas 12 h avec un volume x5,71 : signal BRK-1 valide, RR net 1,66.",
+   "Bourse US fermée, aucun catalyseur daté trouvé pour NEAR."
+  ],
+  "desaccords": [
+   "Sentiment prudent : NEAR a déjà perdu 5,62 % en 24 h, risque de rebond violent.",
+   "Risk Manager : trade corrélé au short XRP."
+  ],
+  "decision": "Ouvrir un petit short NEAR (BRK-1) ; garder le short XRP sans changement.",
+  "a_surveiller": [
+   "Retour de NEAR au-dessus de 3,05 (stop)",
+   "Rebond brutal du marché en peur extrême",
+   "Résultats Nvidia et données US de la semaine prochaine"
+  ]
+ },
+ "synthese": "On garde le pari à la baisse sur XRP et on ouvre un petit pari à la baisse sur NEAR, car il vient de casser son plus bas avec beaucoup de volume ; la perte maximale est limitée par un stop.",
+ "id": "D-20261114-082615",
+ "cree_le": "2026-11-14T08:26:15Z"
+}
