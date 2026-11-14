@@ -13,45 +13,40 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T19:36:09Z",
+ "maj": "2026-11-14T19:58:40Z",
  "seq": 6,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T19:32:28Z",
+ "chasseur_t": "2026-11-14T19:58:31Z",
  "tendance": [
   "MIHAO",
   "BTC",
   "SOL",
-  "KAVA",
   "HYPE",
-  "LIT",
   "ETH",
+  "UNI",
+  "PEARL",
   "PUMP",
-  "ENA",
-  "NEAR",
-  "ADA",
-  "ZEC",
   "TAO",
-  "DRV",
-  "XRP"
+  "XRP",
+  "ZEC",
+  "ENA",
+  "MON",
+  "KAVA",
+  "LIT"
  ],
- "tendance_t": "2026-11-14T18:56:50Z",
+ "tendance_t": "2026-11-14T19:58:31Z",
  "buzz": {
   "AGI": {
    "source": "Reddit",
    "mentions": 32,
-   "x_vs_hier": 4.6
+   "x_vs_hier": 4.0
   },
   "BTC": {
    "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XRP": {
-   "source": "Reddit + StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
@@ -60,27 +55,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FROG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AERO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TOSHI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SMMT": {
+  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -95,12 +70,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHIB": {
+  "AERO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "EBAY": {
+  "AVAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SMMT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "FROG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -110,22 +105,41 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLM": {
+  "TOSHI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LUNC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ADA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T19:32:28Z",
- "sources_t": "2026-11-14T19:32:33Z",
+ "buzz_t": "2026-11-14T19:58:32Z",
+ "sources_t": "2026-11-14T19:58:38Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 10,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin Weekly: The Line Is Under Pressure",
-    "What It Would Take for BTC to Reclaim $80K While Rising Yields Drain Risk Appetite"
+    "BTCUSD | 15M Bullish Reversal – Rounded Retest Setup",
+    "BTC Falls Under $67,000 as a Broad Crypto Selloff Leaves Only 2 of 44 Tokens Green"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.132721435 | 🚶 0.132734488 | 🚀 0.155066969 Gwei",
+    "ETH Price Prediction: Deeper Correction Possible as a Fed Hike Pushes It Below $2,000"
    ]
   },
   {
@@ -138,12 +152,12 @@
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 4,
+   "sujet": "XRP",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "ETH Foundation Wallet Sells 2,000 Ethereum as ETF Exits Run 87 Times Bigger",
-    "ETH's Path Back to $2,300 Runs Through Ether Funds That Lost $215M in Two Days"
+    "XRP MARKET CAP – BEARISH TREND CONTINUES | SUPPORT BREAKDOWN",
+    "XRP Weekly | Could $0.75–$0.80 Be Home for a While?"
    ]
   },
   {
@@ -151,42 +165,33 @@
    "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "ETH Foundation Wallet Sells 2,000 Ethereum as ETF Exits Run 87 Times Bigger",
-    "JPMorgan Lifts Strategy Stake 36% and Holds $540M in BlackRock’s Bitcoin ETF"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP Weekly | Could $0.75–$0.80 Be Home for a While?",
-    "Egrag Crypto to XRP and Holders: The Hardest Part Is Behind Us. Here’s why"
+    "ETH Price Prediction: Deeper Correction Possible as a Fed Hike Pushes It Below $2,000",
+    "ETH Foundation Wallet Sells 2,000 Ethereum as ETF Exits Run 87 Times Bigger"
    ]
   },
   {
    "sujet": "AI",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "Allegro reports $277M in Q2 sales as AI data centers and cars lift chip demand",
-    "Nvidia CEO Jensen Huang resigns amid scandal, CFO Colette Kress steps in"
+    "Monolithic Power crosses $1 billion in quarterly revenue as AI data center demand surges",
+    "Allegro reports $277M in Q2 sales as AI data centers and cars lift chip demand"
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "Binance",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Unocoin Admits $200K Crypto Loss, Warns of Customer Data Breach"
+    "TCB Daily Edition: What Happened in Crypto on November 14, 2026"
    ]
   },
   {
-   "sujet": "Institutions",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "JPMorgan Lifts Strategy Stake 36% and Holds $540M in BlackRock’s Bitcoin ETF"
+    "SOL Falls Below $80 as $1.9M Leaves US Solana Funds Despite DTCC's 2027 Plan"
    ]
   }
  ],

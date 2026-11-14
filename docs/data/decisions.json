@@ -4008,5 +4008,103 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T19:32:23Z"
+ },
+ {
+  "action": "none",
+  "confiance": "haute",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "BTC 59 527 €, tendance 1 h baissière, RSI 40,2, volume à 0,4x la normale. Seuls candidats du scanner : NVDA, GOOGL, SPY, QQQ en TPB-1 short, tous avec RR net 1,12-1,13 (seuil 1,5), score 30. Les memecoins sont déjà à -7 à -19 % sur 24 h avec RSI 19 à 36 : zone d'épuisement, pas d'entrée short propre.",
+    "donnees": "brief 19:56 UTC (20:56 Paris), Kraken OHLC 15 min"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Les recherches web n'ont pas confirmé de date d'annonce majeure précise pour lundi : aucun événement ajouté à l'agenda. Actualités du brief (Investing.com 14/11 19:32 UTC) : ETF bitcoin en sortie pour le 7e jour de suite, BTC sous 68 000 $ ; signaux de hausse de taux de la Fed pèsent sur le risque. Interprétation, pas certitude.",
+    "sources": [
+     "Bitcoin falls below $68,000 as ETF outflows extend - Investing.com - 14/11/2026 19:32 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -7,28 % sur 24 h, dominance BTC 58,87 %. En peur extrême, les rebonds sont violents : shorter après une telle chute est risqué."
+   },
+   "trader": {
+    "proposition": "Aucune nouvelle entrée, aucune position à gérer.",
+    "pour": [
+     "Tendance baissière claire sur tout l'univers"
+    ],
+    "contre": [
+     "RR net 1,12 sur tous les candidats",
+     "Marché déjà -7 à -19 % sur 24 h",
+     "Volume faible (0,2x à 0,6x)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Aucun candidat n'atteint RR net 1,5. Pas de trade pour faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "BTC 59 527 €, RSI 40,2, volume 0,4x. Scanner : NVDA, GOOGL, SPY, QQQ en TPB-1 short, mais RR net 1,12-1,13 et score 30. Rien de propre."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed 13 et capitalisation -7,28 % sur 24 h. En peur extrême les rebonds sont brutaux : les shorts tardifs sont dangereux."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "ETF bitcoin en sortie 7 jours de suite et signaux de hausse de taux de la Fed (Investing.com / Traders Union, 14/11). Aucune date d'annonce lundi confirmée par une source : je n'ajoute rien à l'agenda."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "PENGU -18,6 % (RSI 19,1), TRUMP -13,2 % (RSI 28,9, spread 0,23 %), PEPE -11,2 % (volume 0,19x). Mouvement déjà fini et épuisé : pas de short, pas de long sans signe de retournement."
+   },
+   {
+    "agent": "trader",
+    "message": "Je ne propose aucune entrée. Les actions donnent RR 1,12, les memecoins sont épuisés, et aucune position n'est ouverte à gérer."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je confirme : un short sur PEPE ou TRUMP maintenant serait une entrée tardive après -11 à -13 %."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "specialiste_memecoins",
+    "message": "D'accord. DOGE touche l'EMA20 15 min mais RSI 32,6 et volume 0,6x : pas de reprise de la baisse confirmée."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Refusé par défaut : RR net 1,12 < 1,5. Je ne valide pas pour faire tourner le portefeuille. Équité 502,44 €, 2 entrées déjà prises aujourd'hui sur 3."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte, équité 502,44 € (+2,44 €).",
+    "Marché en peur extrême (indice 13), toutes les cryptos fortement en baisse.",
+    "Les 4 candidats du scanner ont un gain/risque trop faible (1,12 pour 1,5 requis)."
+   ],
+   "desaccords": [
+    "Aucun désaccord : tout le comité est prudent ; le Risk Manager a vérifié qu'aucune raison ne justifiait un trade."
+   ],
+   "decision": "Aucune entrée : rester en cash.",
+   "a_surveiller": [
+    "Un signal avec RR net ≥ 1,5 et volume qui revient",
+    "Rebond de BTC au-dessus de l'EMA50 15 min",
+    "Annonces de la Fed la semaine prochaine (dates à confirmer)"
+   ]
+  },
+  "synthese": "On n'ouvre rien : le marché a déjà beaucoup chuté, aucun signal n'offre assez de gain pour le risque, et rester en cash vaut mieux que forcer un trade.",
+  "id": "D-20261114-195704",
+  "cree_le": "2026-11-14T19:57:04Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T19:58:26Z"
  }
 ]
