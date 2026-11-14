@@ -2194,5 +2194,114 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T11:27:38Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "BTC 61 035 € sous EMA50 (61 277), tendance 1 h baissière, RSI 48,6, volume 0,86x. HYPE : signal TPB-1 short (62,47 ; RSI 39,1 contre 43,8 ; MACD quasi nul 0,0007 contre 0,026) mais volume 0,15x la normale.",
+    "donnees": "Brief Kraken 11:55 UTC (12:55 Paris), bougies 15 min"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Samedi : aucun chiffre macro US au calendrier (calendrier vide). Actu du jour : Binance vise la reprise des retraits la semaine prochaine après un piratage de 6,3 Md$ (Investing.com, 14/11 11:27 UTC) ; vente de valeurs IA, AMD -8,75 % le 13/11 (The Motley Fool). Ma recherche web sur HYPE n'a donné aucune actualité datée fiable pour aujourd'hui.",
+    "sources": [
+     "Binance aims to restore all withdrawals next week after $6.3 billion hack - Investing.com - 2026-11-14 11:27 UTC",
+     "Stock Market Today, Nov. 13: AMD Sinks 8.75% - The Motley Fool - 2026-11-14 06:18 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -4,92 % sur 24 h, dominance BTC 59,5 %. En peur extrême, les rebonds sont brutaux contre les shorts."
+   },
+   "trader": {
+    "proposition": "Garder le short XRP (stop au prix d'entrée). Pas d'entrée sur HYPE : RR net 1,52 pour un seuil de 1,5.",
+    "pour": [
+     "Tendance 1 h baissière",
+     "HYPE -5,76 % sur 24 h, RSI 39,1"
+    ],
+    "contre": [
+     "RR net 1,52 : aucune marge",
+     "Volume 0,15x",
+     "HYPE déjà en baisse, risque de rebond en peur extrême",
+     "Corrélé à XRP (2 alts short)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Entrée HYPE refusée : RR net 1,52 collé au seuil, volume 0,15x, week-end, pas de catalyseur daté. Positions gardées."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "XRP : prix 0,90235 pour un stop à 0,90376 (point mort), RSI 48,3, EMA20 0,8987. Rien ne casse le scénario baissier, je garde."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Pas de donnée macro US ce samedi. Le piratage Binance (6,3 Md$) et la chute des valeurs IA (AMD -8,75 %) pèsent sur le risque, dans le sens de notre short XRP."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 13 et capitalisation -4,92 % sur 24 h : marché de panique. Un rebond violent est possible, c'est le risque du short XRP."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "DOGE RSI 50,3 volume 0,54x, PEPE volume 0,14x, TRUMP spread 0,21 % : rien de propre. Seul SHIB a un volume 6,3x mais pour 95 000 € par jour, trop mince. Pas de memecoin aujourd'hui."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je propose un short HYPE TPB-1 : entrée 62,47, stop 63,339, objectif 59,863, RR net 1,52."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "RR 1,52 pour un seuil de 1,5 : le moindre glissement le fait passer dessous. Et le volume est à 0,15x : le signal est bien peu confirmé."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "risk_manager",
+    "message": "D'accord sur le volume : le MACD tombe de 0,026 à 0,0007, l'élan baissier s'essouffle. Sous 62,47 (bas récent), je serais plus convaincu."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "HYPE a déjà perdu 5,76 % sur 24 h en peur extrême : je crains un rebond. Et ce serait un second short altcoin corrélé à XRP."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "Objection reçue. Je retire HYPE : on garde XRP seul, on ne force rien."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Verdict : refus de HYPE. XRP gardé, perte max déjà nulle grâce au stop au point mort."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Short XRP gardé : le stop est au prix d'entrée, on ne peut plus perdre dessus (+1,44 € latent).",
+    "Candidat HYPE (short) étudié : signal correct mais gain/risque 1,52 pour un minimum de 1,5, volume très faible.",
+    "Journée de samedi sans chiffre macro ; peur extrême sur le marché."
+   ],
+   "desaccords": [
+    "Le sentiment et le Risk Manager contre l'analyste technique et le Trader sur HYPE : Trader retire sa proposition."
+   ],
+   "decision": "Garder XRP, pas de nouvelle entrée.",
+   "a_surveiller": [
+    "Cassure de HYPE sous 62,47 avec volume",
+    "Rebond de BTC au-dessus de 61 277 (EMA50)",
+    "Calendrier vide : aucune annonce confirmée par source à ajouter"
+   ]
+  },
+  "synthese": "On garde le pari à la baisse sur XRP, déjà protégé, et on n'ouvre rien de nouveau car HYPE offre à peine le gain minimum exigé pour un volume très faible.",
+  "id": "D-20261114-115619",
+  "cree_le": "2026-11-14T11:56:19Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T11:57:42Z"
  }
 ]
