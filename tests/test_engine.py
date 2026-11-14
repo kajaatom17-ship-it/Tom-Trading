@@ -41,6 +41,8 @@ tick.time.sleep = lambda s: None
 _chasseur = tick.chasseur_scan
 tick.chasseur_scan = lambda *a, **k: None   # désactivé sauf dans son propre test (pas de réseau)
 tick.trending_symbols = lambda state: []
+_social = tick.social_buzz
+tick.social_buzz = lambda state: {}
 
 
 def run():
@@ -419,6 +421,17 @@ pz = [p for p in core.load("state.json", None)["positions"] if p["sym"] == "ZZZ"
 check("chasseur : entrée rapide long sur l'impulsion", len(pz) == 1 and pz[0]["side"] == "long" and pz[0]["strategie"] == "MOM-1", str(core.load("decisions.json", [])[-1:]))
 ch = core.load("chasseur.json", {})
 check("chasseur : rapport écrit pour le comité", ch.get("candidats") and ch["candidats"][0]["sym"] == "ZZZ" and ch["candidats"][0]["impulsion"], str(ch))
+
+# 20. réseaux sociaux : mentions qui explosent (Reddit via ApeWisdom, StockTwits)
+def fake_get(url):
+    if "all-crypto" in url:
+        return {"results": [{"ticker": "PEPE.X", "mentions": 80, "mentions_24h_ago": 20}, {"ticker": "BTC.X", "mentions": 200, "mentions_24h_ago": 190}]}
+    if "all-stocks" in url:
+        return {"results": [{"ticker": "NVDA", "mentions": 900, "mentions_24h_ago": 2000}, {"ticker": "GME", "mentions": 100, "mentions_24h_ago": 30}]}
+    return {"symbols": [{"symbol_display": "SOL"}, {"symbol_display": "PEPE"}]}
+b = _social({}, get=fake_get)
+check("réseaux : mentions qui explosent repérées", set(b) == {"PEPE", "GME", "SOL"} and b["PEPE"]["source"] == "Reddit + StockTwits", str(b))
+check("réseaux : forte baisse ou hausse faible ignorées", "NVDA" not in b and "BTC" not in b)
 
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

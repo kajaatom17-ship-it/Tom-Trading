@@ -662,6 +662,41 @@ def momentum_entry(cfg, state, tk, only=None):
 STABLES = {"USDT", "USDC", "DAI", "PYUSD", "EURT", "EURR", "USD1", "RLUSD", "USDG", "TUSD", "FDUSD", "EUROP", "EURC", "XUSD", "USDQ"}
 
 
+def _get_json(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "trading-desk-paper/1.0"})
+    with urllib.request.urlopen(req, timeout=15) as r:
+        return json.loads(r.read().decode())
+
+
+def social_buzz(state, get=_get_json):
+    """Ce dont on parle sur Reddit (ApeWisdom) et StockTwits : tickers dont les mentions explosent. Public, sans clé."""
+    last = state.get("buzz_t")
+    if last and (now_utc() - parse_iso(last)).total_seconds() < 840:
+        return state.get("buzz", {})
+    buzz = {}
+    for url, minimum in (("https://apewisdom.io/api/v1.0/filter/all-crypto/page/1", 15), ("https://apewisdom.io/api/v1.0/filter/all-stocks/page/1", 30)):
+        try:
+            for r in get(url).get("results", []):
+                m, m0 = r.get("mentions", 0), r.get("mentions_24h_ago") or 0
+                ratio = m / max(m0, 1)
+                if m >= minimum and ratio >= 2:
+                    buzz[str(r["ticker"]).replace(".X", "").upper()] = {"source": "Reddit", "mentions": m, "x_vs_hier": round(ratio, 1)}
+        except Exception:
+            pass
+    try:
+        for x in get("https://api.stocktwits.com/api/2/trending/symbols.json").get("symbols", [])[:15]:
+            sym = str(x.get("symbol_display") or x.get("symbol", "")).replace(".X", "").upper()
+            if sym:
+                buzz.setdefault(sym, {"source": "StockTwits", "mentions": None, "x_vs_hier": None})["source"] = (
+                    "Reddit + StockTwits" if sym in buzz else "StockTwits")
+    except Exception:
+        pass
+    if buzz and set(buzz) != set(state.get("buzz", {})):
+        log_event("Chasseur de mouvements", "réseaux sociaux", "On en parle beaucoup (Reddit, StockTwits) : " + ", ".join(sorted(buzz)[:12]))
+    state["buzz"] = buzz; state["buzz_t"] = iso()
+    return buzz
+
+
 def trending_symbols(state):
     """Cryptos les plus recherchées du moment (CoinGecko, public, sans clé) : un indice de ce dont on parle."""
     last = state.get("tendance_t")
@@ -691,7 +726,7 @@ def chasseur_scan(cfg, state, tk):
     state["chasseur_t"] = iso()
     known_pairs = {a["pair"] for a in cfg["univers"]}
     known_syms = {a["sym"] for a in cfg["univers"]}
-    trend = set(trending_symbols(state))
+    trend = set(trending_symbols(state)) | set(social_buzz(state))
     rows = []
     try:
         ap = kraken("AssetPairs", {})
@@ -762,7 +797,7 @@ def chasseur_scan(cfg, state, tk):
                             e["auto"] = True
                     save("univers_ajouts.json", extra2)
         out.append(entry)
-    save("chasseur.json", {"t": iso(), "nb_analyses": len(rows), "nb_en_mouvement": len(cands), "tendance": sorted(trend), "candidats": out,
+    save("chasseur.json", {"t": iso(), "nb_analyses": len(rows), "nb_en_mouvement": len(cands), "tendance": sorted(trend), "buzz_reseaux": state.get("buzz", {}), "candidats": out,
                            "ajoutes": added})
     if out:
         top3 = ", ".join(f"{e['sym']} {e['variation_24h_pct']:+.1f} %" for e in out[:3])
