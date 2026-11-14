@@ -212,3 +212,16 @@ On passe au candidat suivant, ou on décide `none`. On ne déplace pas le stop p
 - **Au comité**, le chasseur lit le bloc `chasseur_de_mouvements` du brief. Il signale les mouvements en cours, les actifs ajoutés tout seuls et ce dont on parle (CoinGecko, actualités, réseaux sociaux relayés par la presse). Quand une crypto ou une action est évoquée dans l'actualité ou par Tom, il la **fait ajouter tout de suite** avec l'action `ajouter_actif` (raison + source), puis le spécialiste surveille l'impulsion. Il ne se fie jamais à une rumeur seule : il lui faut un volume réel.
 - Les actifs ajoutés automatiquement disparaissent de l'univers après 3 jours s'ils ne sont pas utilisés.
 - **Réseaux sociaux (gratuit, sans clé)** : le moteur lit toutes les 15 minutes Reddit (ApeWisdom : tickers dont les mentions ont au moins doublé en 24 h) et StockTwits (symboles tendance). Le résultat est dans `buzz_reseaux_sociaux` du brief. C'est un indice, jamais une preuve : on n'entre que si le prix et le volume confirment. Pour les actifs hors univers, le seuil de détection baisse (3 % au lieu de 5 %).
+
+## Esprit critique face aux sources (règle de Tom, 14 nov)
+
+Les actus, vidéos, influenceurs, buzz Reddit/StockTwits et tendances CoinGecko sont des **pistes**, jamais des ordres.
+
+1. **Source seule = pas de trade.** Il faut une confirmation dans le prix : volume, cassure, structure. Si le prix n'a pas bougé, l'info est peut-être déjà passée.
+2. **Se demander qui parle et pourquoi.** Un influenceur peut avoir acheté avant, vendre une formation ou pousser un token. Un média peut titrer pour le clic. Noter l'intérêt possible de la source.
+3. **Chercher l'avis contraire.** Avant d'entrer sur une idée venue des réseaux, un membre du comité joue l'avocat du diable : qu'est-ce qui prouve que c'est déjà trop tard, ou faux ?
+4. **Méfiance maximale sur le buzz.** Beaucoup de mentions d'un coup sur un memecoin déjà monté de +20 % = souvent la fin du mouvement (pump and dump). Pas d'entrée tardive.
+5. **Séparer fait, interprétation, rumeur.** Écrire lequel c'est dans chaque décision.
+6. **Pas de consensus mou.** Si tout le comité est d'accord trop vite, le risk manager doit chercher une raison de refuser. Un désaccord argumenté vaut mieux qu'un oui rapide.
+7. **Ne pas suivre Tom aveuglément non plus.** Si une demande de Tom paraît risquée, le comité le dit et explique, puis exécute si Tom confirme.
+8. **Ne pas intervenir est une décision valable.** « Pas de trade, source douteuse » est une bonne réponse.
