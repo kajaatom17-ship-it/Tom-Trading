@@ -1877,5 +1877,50 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-14T22:28:31Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "KNTQ short fermé (durée maximale atteinte) à 0.1997381 : +1.09 € net",
+  "data": {
+   "id": "P0007"
+  }
+ },
+ {
+  "t": "2026-11-14T22:28:31Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde la position gagnante et on n'ouvre rien : le marché a déjà énormément chuté et aucun trade n'offre assez de gain pour le risque."
+ },
+ {
+  "t": "2026-11-14T22:28:37Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AGI, AMP, BTC, DOGE, ETH, HBAR, KLAR, LTC, MSTR, PYTH, QNT, SOL"
+ },
+ {
+  "t": "2026-11-14T22:28:42Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "458 actifs hors univers analysés, 57 en mouvement : USELESS -21.6 %, UNI -16.5 %, PUMP -16.0 %."
+ },
+ {
+  "t": "2026-11-14T22:28:48Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "CRCL -3.29 % en 15 min"
+ },
+ {
+  "t": "2026-11-14T22:28:48Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "GOOGL +1.8 % en 15 min"
+ },
+ {
+  "t": "2026-11-14T22:29:49Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 4 signal(aux) : TSLA short (BRK-1, 45), NVDA short (TPB-1, 40), SPY short (TPB-1, 30)"
  }
 ]

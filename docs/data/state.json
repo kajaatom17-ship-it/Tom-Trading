@@ -2,37 +2,10 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 477.66238660352286,
- "positions": [
-  {
-   "id": "P0007",
-   "sym": "KNTQ",
-   "pair": "KNTQEUR",
-   "side": "short",
-   "strategie": "MOM-1",
-   "qty": 119.35491305630649,
-   "entry": 0.2104825,
-   "notionnel": 25.122117503501205,
-   "frais_entree": 0.10048847001400482,
-   "stop": 0.20649499999999998,
-   "stop_initial": 0.21447,
-   "tp": 0.19717,
-   "risque_eur": 0.6788113625115966,
-   "rr_net": 1.7,
-   "ouvert_le": "2026-11-14T20:27:38Z",
-   "verifie_jusqu_a": "2026-11-14T22:00:00Z",
-   "duree_max_h": 2.0,
-   "decision_id": "M-20261114-202738-KNTQ",
-   "dernier_prix": 0.19907,
-   "atr": 0.0069200000000000095,
-   "mom": true,
-   "impulsion": 0.0069200000000000095,
-   "moitie_prise": true,
-   "rollover": 0.0
-  }
- ],
- "frais_cumules": 4.439472599644634,
- "pnl_realise": 2.8849925770381035,
+ "cash": 503.9715421406281,
+ "positions": [],
+ "frais_cumules": 4.534831493882761,
+ "pnl_realise": 3.97154214062815,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -40,14 +13,14 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T22:00:36Z",
+ "maj": "2026-11-14T22:28:45Z",
  "seq": 7,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T21:56:50Z",
+ "chasseur_t": "2026-11-14T22:28:36Z",
  "tendance": [
   "BTC",
   "MIHAO",
@@ -69,8 +42,8 @@
  "buzz": {
   "AGI": {
    "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 3.6
+   "mentions": 31,
+   "x_vs_hier": 3.4
   },
   "BTC": {
    "source": "StockTwits",
@@ -87,6 +60,11 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SPCX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "DOGE": {
    "source": "StockTwits",
    "mentions": null,
@@ -97,42 +75,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SPCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LHX": {
+  "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
+  "LTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "HBAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "UNI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZEC": {
+  "XLM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -142,22 +105,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "LINK": {
+  "KLAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PYTH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XCN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T21:56:50Z",
- "sources_t": "2026-11-14T21:56:55Z",
+ "buzz_t": "2026-11-14T22:28:37Z",
+ "sources_t": "2026-11-14T22:28:42Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 15,
+   "mentions": 18,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin Plunges, but Michael Saylor Says STRC Still Delivers Gains",
-    "BTCUSD: Potential Bullish Reversal After Liquidity Sweep"
+    "BTC Daily Market Structure & Deep Discount Demand Analysis",
+    "Sharp crypto drop: how our real portfolio is doing"
    ]
   },
   {
@@ -165,17 +138,17 @@
    "mentions": 5,
    "sentiment": "bearish",
    "titres": [
-    "⛽ ETH Gas: 🐢 1.062664617 | 🚶 1.062796617 | 🚀 1.112664617 Gwei",
+    "Ethereum prepares for a major rise · Correction ends",
     "ETH – Building small swing longs"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Nigeria's upcoming election marred by rising AI disinformation",
-    "MegaETH Cuts 20% of Workforce as It Shifts Focus Toward AI Marketplace"
+    "BTC/NVIDIA: A Potential 12-Year Wyckoff Reaccumulation",
+    "Nigeria's upcoming election marred by rising AI disinformation"
    ]
   },
   {
