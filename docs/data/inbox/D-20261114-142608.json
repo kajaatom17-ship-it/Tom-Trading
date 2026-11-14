@@ -1,0 +1,103 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "BTC 60 300 € sous EMA20 (60 809) et EMA50 (61 079), RSI 28,6, tendance 1 h baissière. Dix candidats BRK-1 short (LINK, AVAX, DOT, ONDO, FET, DOGE, SHIB, BONK, HOOD, ETH) mais tous avec RR net entre 0,91 et 1,21, sous le seuil de 1,5. Les stops sont à 1 % : le seuil minimum, donc les frais pèsent trop.",
+   "donnees": "Brief Kraken 14:25 UTC (15:25 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Samedi : marchés actions fermés, pas de publication majeure. Investing.com signale le 14/11 (14:16 UTC) que BTC passe sous 68 000 $ avec une 7e journée de sorties des ETF. IBD (13:03 UTC) : prudence avant les résultats Nvidia et l'IPO d'Anthropic. Calendrier d'annonces du moteur vide, aucune date confirmée par une source officielle trouvée : rien ajouté.",
+   "sources": [
+    "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 14:16 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -5,68 % sur 24 h, dominance BTC 58,74 %. En peur extrême les rebonds sont violents : shorter après une chute de volume x12 est risqué."
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE -5,08 %, PEPE -6,26 %, TRUMP -7,75 %, PENGU -12,91 % sur 24 h, volume 15 min x5 à x12. Mouvement déjà fait, RSI SHIB 24,3 : épuisement probable, pas de poursuite."
+  },
+  "trader": {
+   "proposition": "Aucune entrée. Pas de position ouverte à gérer.",
+   "pour": [
+    "Tendance baissière claire"
+   ],
+   "contre": [
+    "RR net < 1,5 partout",
+    "Extension vendeuse déjà faite, RSI 24 à 34",
+    "Risque de rebond violent"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "Aucun candidat n'atteint RR net 1,5. Ne pas valider pour faire tourner le portefeuille."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 60 300 sous EMA20 60 809 et EMA50 61 079, RSI 28,6 (38,1 avant), tendance 1 h baissière. Dix cassures BRK-1 short en vue."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "analyste_technique",
+   "message": "Samedi, actions fermées, aucune publication. Le seul moteur est le flux : BTC sous 68 000 $, 7e jour de sorties ETF (Investing.com, 14:16 UTC)."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_macro",
+   "message": "Fear & Greed 13 et capitalisation -5,68 % : c'est de la capitulation. Les rebonds en peur extrême sont violents, un short ici est tardif."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "repond_a": "analyste_technique",
+   "message": "Je conteste les shorts DOGE/SHIB/BONK : volume x12,41 sur DOGE, RSI SHIB 24,3. Le mouvement est déjà fini, pas poursuivable. BONK a un RR net de 0,91."
+  },
+  {
+   "agent": "trader",
+   "message": "Je regarde le meilleur candidat, ETH short 1 699,56, stop 1 716,56, objectif 1 648,57 : RR net 1,21. LINK et DOGE aussi à 1,21."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "1,21 est sous 1,5. Le stop est au minimum de 1 % : élargir le stop pour passer le seuil coûterait un objectif irréaliste. Refus."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "risk_manager",
+   "message": "D'accord. Pas de retest de l'EMA20 15 min non plus : un TPB-1 propre n'est pas formé, il faudrait attendre un rebond vers 1 722 sur ETH."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "specialiste_memecoins",
+   "message": "Pas de position ouverte, rien à garder. Décision : none, on attend un rebond puis un échec sous les EMA."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Validé : aucune entrée. Perte max 0 €, capital 502,38 €."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte, capital 502,38 € (+2,38 €).",
+   "Le marché crypto chute fortement (BTC 60 300 €, Fear & Greed 13), samedi sans annonce majeure.",
+   "Dix shorts possibles, mais le gain potentiel ne couvre pas assez les frais (RR net 0,91 à 1,21)."
+  ],
+  "desaccords": [
+   "Le spécialiste memecoins et le sentiment jugent un short trop tardif après une chute si forte ; l'analyste technique voit la tendance baissière."
+  ],
+  "decision": "Ne rien faire : aucune entrée ne passe le seuil de 1,5 de gain net pour 1 de risque.",
+  "a_surveiller": [
+   "Rebond de BTC vers 60 800-61 100 € (EMA20/50) puis échec : TPB-1 short.",
+   "Nouvelle cassure avec RR net ≥ 1,5.",
+   "Nvidia et IPO Anthropic en semaine."
+  ]
+ },
+ "synthese": "Le marché chute fort mais aucun trade n'offre un rapport gain/risque suffisant après frais, donc on ne fait rien aujourd'hui.",
+ "id": "D-20261114-142608",
+ "cree_le": "2026-11-14T14:26:08Z"
+}
