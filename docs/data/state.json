@@ -20,11 +20,13 @@
    "risque_eur": 2.5119026697204863,
    "rr_net": 1.62,
    "ouvert_le": "2026-11-14T14:45:17Z",
-   "verifie_jusqu_a": "2026-11-14T14:47:00Z",
+   "verifie_jusqu_a": "2026-11-14T14:52:00Z",
    "duree_max_h": 24.0,
    "decision_id": "G-20261114-144517",
-   "dernier_prix": 2.951,
-   "atr": 0.02189281
+   "dernier_prix": 2.9223,
+   "atr": 0.02189281,
+   "fermer_si_positif": true,
+   "seuil_gain_eur": 0.05
   }
  ],
  "frais_cumules": 3.7006405643774953,
@@ -36,14 +38,14 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T14:47:55Z",
+ "maj": "2026-11-14T14:52:18Z",
  "seq": 6,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T14:44:07Z",
+ "chasseur_t": "2026-11-14T14:52:13Z",
  "tendance": [
   "KAVA",
   "HYPE",

@@ -2891,5 +2891,17 @@
   },
   "cree_le": "2026-11-14T14:45:17Z",
   "traite_le": "2026-11-14T14:45:17Z"
+ },
+ {
+  "id": "TOM-20261114-NEAR-fermer-au-gain-2",
+  "action": "fermer_si_positif",
+  "sym": "NEAR",
+  "seuil_gain_eur": 0.05,
+  "origine": "tom",
+  "synthese": "Consigne de Tom : NEAR est exclu. Fermer la position ouverte dès que le gain net est positif.",
+  "resultat": {
+   "statut": "execute"
+  },
+  "traite_le": "2026-11-14T14:52:08Z"
  }
 ]

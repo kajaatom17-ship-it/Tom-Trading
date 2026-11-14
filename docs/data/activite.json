@@ -1121,5 +1121,23 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 8 signal(aux) : NEAR short (BRK-1, 75), PEPE short (BRK-1, 74), XRP short (TPB-1, 70)"
+ },
+ {
+  "t": "2026-11-14T14:52:08Z",
+  "agent": "Execution",
+  "type": "consigne",
+  "msg": "NEAR : fermeture automatique dès que le gain net dépasse 0.05 € (consigne de Tom)."
+ },
+ {
+  "t": "2026-11-14T14:52:18Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "461 actifs hors univers analysés, 34 en mouvement : KNTQ -24.1 %, USELESS -14.3 %, UNI -10.3 %."
+ },
+ {
+  "t": "2026-11-14T14:53:19Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : XRP short (TPB-1, 70), PAXG short (TPB-1, 40)"
  }
 ]
