@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 451.99713812299365,
+ "cash": 477.66238660352286,
  "positions": [
   {
    "id": "P0007",
@@ -10,27 +10,29 @@
    "pair": "KNTQEUR",
    "side": "short",
    "strategie": "MOM-1",
-   "qty": 238.70982611261297,
+   "qty": 119.35491305630649,
    "entry": 0.2104825,
-   "notionnel": 50.24423500700241,
-   "frais_entree": 0.20097694002800964,
-   "stop": 0.21447,
+   "notionnel": 25.122117503501205,
+   "frais_entree": 0.10048847001400482,
+   "stop": 0.20879863999999998,
    "stop_initial": 0.21447,
    "tp": 0.19717,
-   "risque_eur": 1.3576227250231931,
+   "risque_eur": 0.6788113625115966,
    "rr_net": 1.7,
    "ouvert_le": "2026-11-14T20:27:38Z",
-   "verifie_jusqu_a": "2026-11-14T20:31:00Z",
+   "verifie_jusqu_a": "2026-11-14T20:57:00Z",
    "duree_max_h": 2.0,
    "decision_id": "M-20261114-202738-KNTQ",
-   "dernier_prix": 0.20903,
+   "dernier_prix": 0.20449,
    "atr": 0.0069200000000000095,
    "mom": true,
-   "impulsion": 0.0069200000000000095
+   "impulsion": 0.0069200000000000095,
+   "moitie_prise": true,
+   "rollover": 0.0
   }
  ],
- "frais_cumules": 4.3415483386472395,
- "pnl_realise": 2.442350070024083,
+ "frais_cumules": 4.439472599644634,
+ "pnl_realise": 2.8849925770381035,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -38,37 +40,37 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T20:31:27Z",
+ "maj": "2026-11-14T20:58:20Z",
  "seq": 7,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T20:27:30Z",
+ "chasseur_t": "2026-11-14T20:57:57Z",
  "tendance": [
   "MIHAO",
   "BTC",
   "SOL",
-  "HYPE",
-  "ETH",
-  "UNI",
-  "PEARL",
-  "PUMP",
-  "TAO",
-  "XRP",
   "ZEC",
-  "ENA",
-  "MON",
+  "ASTER",
+  "HYPE",
+  "AVAX",
+  "NEAR",
+  "XRP",
+  "UNI",
+  "TAO",
+  "PUMP",
   "KAVA",
-  "LIT"
+  "ETH",
+  "ADA"
  ],
- "tendance_t": "2026-11-14T19:58:31Z",
+ "tendance_t": "2026-11-14T20:57:57Z",
  "buzz": {
   "AGI": {
    "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 4.0
+   "mentions": 33,
+   "x_vs_hier": 4.1
   },
   "BTC": {
    "source": "StockTwits",
@@ -85,6 +87,11 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "AVAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ETH": {
    "source": "StockTwits",
    "mentions": null,
@@ -95,7 +102,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
+  "QNT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -105,17 +112,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "BONK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -125,29 +127,29 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "WLD": {
+  "ADA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HD": {
+  "LINK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "FROG": {
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LION": {
+  "SUI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T20:27:31Z",
- "sources_t": "2026-11-14T20:27:38Z",
+ "buzz_t": "2026-11-14T20:57:58Z",
+ "sources_t": "2026-11-14T20:58:04Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
