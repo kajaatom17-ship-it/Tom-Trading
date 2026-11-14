@@ -1867,5 +1867,117 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T09:57:47Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "Le scanner et les indicateurs du brief datent du 13/11 15:45 UTC (environ 19 h). Depuis, ADA est passé de 0,1537 à 0,1487 €, LINK de 8,90 à 8,73 €, ONDO de 0,307 à 0,299 €, DOGE de 0,0583 à 0,0572 € : les shorts du scanner ont déjà fait leur chemin. BTC 61 030 € (bougie 15 min de 10:00 UTC), proche du plus bas 12 h à 60 323 €.",
+    "donnees": "Kraken OHLC 15 min, 14/11 10:00 UTC"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Samedi 14/11 : marchés actions fermés, pas de publication US majeure. Le calendrier du brief est vide et mes recherches web n'ont renvoyé que des listes de liens sans date exploitable : je n'ajoute aucun événement à l'agenda et je n'ai aucun catalyseur daté de moins de 24 h, donc pas d'OPP-1. Titres du brief (veille du 13/11) : Fed divisée sur l'inflation, entrée d'une série de nominés SEC/CFTC.",
+    "sources": [
+     "Investor's Business Daily / Bloomberg / Washington Post - veille brief du 2026-11-13 14:30-15:06 UTC - via news.google.com (liens dans veille.json)"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Dernière lecture disponible (13/11 15:10 UTC) : Fear & Greed 20 (peur extrême), dominance BTC 58,89 %, capitalisation totale -5,14 % sur 24 h. En peur extrême, les rebonds sont violents : un short après une chute de 3 % est risqué."
+   },
+   "specialiste_memecoins": {
+    "avis": "attendre",
+    "resume": "PEPE (notre short) est à 3,89e-6 contre 4,07e-6 à l'entrée. DOGE, SHIB, PENGU sont déjà proches de leurs plus bas 12 h : mouvement en grande partie fait, pas de retour sur zone à shorter. Rien de propre."
+   },
+   "trader": {
+    "proposition": "Positions : garder le short PEPE. Nouvelle entrée : aucune. Les candidats du scanner sont périmés et déjà descendus.",
+    "pour": [
+     "Tendance 1 h baissière sur tout l'univers",
+     "Plusieurs candidats avec RR 2+ hier"
+    ],
+    "contre": [
+     "Données du scanner vieilles de 19 h",
+     "Prix déjà 2 à 3 % plus bas que les entrées de référence",
+     "Peur extrême : risque de rebond violent",
+     "Samedi : marché actions fermé, liquidité faible"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse toute nouvelle entrée",
+    "motif": "Signaux périmés, prix qui a déjà bougé de plus de 0,5 ATR, aucune source datée pour un catalyseur. Position PEPE ouverte conservée : stop 4,184e-6, objectif 3,703e-6, perte max d'environ 3,65 €."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Attention : le scanner date du 13/11 15:52 UTC. ADA short proposé à 0,1537, maintenant 0,1487 : -3,2 %. LINK 8,90 → 8,73, ONDO 0,307 → 0,299."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Samedi, actions fermées, pas de chiffre US. Mes recherches ne donnent aucune annonce datée qui justifierait un pari. Le calendrier reste vide, je ne l'invente pas."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed 20 et capitalisation -5,14 % hier. Après une telle chute, un rebond vers l'EMA20 est plausible : shorter maintenant, c'est vendre le bas."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_sentiment",
+    "message": "D'accord pour les memecoins : SHIB 3,774e-6 contre plus bas 12 h 3,735e-6, PENGU 0,005346 contre 0,005286. Déjà au plancher. Notre PEPE est à 3,89e-6, entrée 4,07e-6, c'est le bon exemple : on garde."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je proposais ADA/LINK/ONDO short hier. Avec 3 % déjà faits et un ATR d'environ 0,6 %, ça fait 5 ATR de dérive : refusé par la règle des 0,5 ATR. Je ne propose rien de neuf."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "J'objecte : BTC reste sous ses EMA avec 61 030 € contre un plus bas 12 h à 60 323 €. Une cassure du plus bas avec volume ouvrirait un BRK-1 short. Mais ce n'est pas encore là."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Exact, on le note dans à surveiller. Sans clôture sous 60 323 € avec volume, je n'entre pas."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "specialiste_memecoins",
+    "message": "Pas de catalyseur pour les memecoins non plus. PEPE : garder, le stop à 4,184e-6 protège."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Je valide de ne rien ajouter. Une seule position ouverte, 399,6 € de cash, 0 entrée aujourd'hui : rien ne presse. Je refuse toute entrée sur des signaux de 19 h."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Les signaux du scanner datent d'hier après-midi : les prix ont déjà baissé de 2 à 3 % depuis.",
+    "Samedi : actions fermées, pas d'annonce majeure trouvée, calendrier non rempli faute de source datée.",
+    "Le short PEPE reste ouvert : prix 3,89e-6 contre 4,07e-6 à l'entrée, le stop et l'objectif n'ont pas bougé."
+   ],
+   "desaccords": [
+    "L'analyste technique a rappelé qu'une cassure de BTC sous 60 323 € avec volume ouvrirait une entrée ; le trader attend cette confirmation."
+   ],
+   "decision": "On garde PEPE short et on ne prend aucune nouvelle position.",
+   "a_surveiller": [
+    "Clôture 15 min de BTC sous 60 323 € avec volume",
+    "Rebond vers l'EMA20 sur ADA/LINK/ONDO pour un vrai TPB-1 short",
+    "Scanner à jour avant toute entrée"
+   ]
+  },
+  "synthese": "On ne fait rien de nouveau : les occasions de la veille sont déjà passées et notre pari sur PEPE continue tranquillement.",
+  "id": "D-20261114-102636",
+  "cree_le": "2026-11-14T10:26:36Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T10:26:47Z"
  }
 ]
