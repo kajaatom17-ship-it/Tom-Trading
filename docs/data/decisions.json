@@ -1521,5 +1521,17 @@
    "plafonne": true
   },
   "traite_le": "2026-11-14T08:26:26Z"
+ },
+ {
+  "id": "TOM-20261114-NEAR-fermer-au-gain",
+  "action": "fermer_si_positif",
+  "sym": "NEAR",
+  "seuil_gain_eur": 0.05,
+  "origine": "tom",
+  "synthese": "Consigne de Tom : fermer NEAR dès que le gain net (frais compris) est positif.",
+  "resultat": {
+   "statut": "execute"
+  },
+  "traite_le": "2026-11-14T08:42:42Z"
  }
 ]
