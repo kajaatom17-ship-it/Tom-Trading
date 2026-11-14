@@ -1,0 +1,108 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "Candidats scanner : shorts BRK-1 sur ARB (RR net 1,53), RENDER (1,69), HYPE (1,69). Mais la cassure est déjà faite : RSI 15 min ARB 28,4, RENDER 26,0, HYPE 30,9, BTC 26,7, ETH 19,9. Prix sous EMA20 et EMA50, tendance 1 h baissière partout. Entrer maintenant, c'est vendre après le mouvement, près des creux.",
+   "donnees": "brief Kraken 16:55 UTC (17:55 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Samedi : bourses US fermées. Titres du brief : « Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day » (Investing.com, 16:26 UTC) et « Bitcoin Just Crashed Toward $66,000 » (Yahoo Finance, 16:10 UTC). Ces niveaux ne collent pas avec le close 15 min BTC du brief (59 279 €) : à vérifier, je ne tire aucune conclusion chiffrée. Mes recherches web n'ont pas donné de calendrier daté et fiable pour la semaine prochaine : je n'ajoute aucun événement à l'agenda.",
+   "sources": [
+    "Investing.com - Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - 2026-11-14 16:26 UTC",
+    "Yahoo Finance - Bitcoin Just Crashed Toward $66,000 - 2026-11-14 16:10 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -7,07 % sur 24 h, dominance BTC 58,68 %. En peur extrême les rebonds sont violents et peuvent balayer un short tardif."
+  },
+  "trader": {
+   "proposition": "Ne rien ouvrir. Short HYPE le moins mauvais (stop 61,44, objectif 57,35, RR net 1,69) mais entrée tardive après -9 % en 24 h.",
+   "pour": [
+    "tendance 1 h baissière partout",
+    "volume x2,3 sur HYPE"
+   ],
+   "contre": [
+    "RSI déjà très bas",
+    "-9 % en 24 h : entrée tardive",
+    "RR net à peine au-dessus de 1,5",
+    "rebond de capitulation possible"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "RR net 1,53 à 1,69 juste au-dessus du seuil, entrées après un gros mouvement, risque de rebond. Aucune position ouverte, 2 entrées déjà faites aujourd'hui : on préserve le capital."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Trois shorts BRK-1 au scanner : ARB RR 1,53, RENDER 1,69, HYPE 1,69. Tendance 1 h baissière partout, volumes x2,3 à x3,3."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed est à 13 et la capitalisation totale perd 7,07 % en 24 h. Ce sont des conditions de capitulation, où les rebonds sont brutaux."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Samedi, bourses US fermées. Titres du brief : sorties d'ETF Bitcoin sur sept jours (Investing.com, 16:26 UTC). Je n'ai pas de calendrier daté fiable pour la semaine prochaine, donc rien à ajouter."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose le short HYPE : stop 61,44, objectif 57,35, RR net 1,69. C'est le plus propre des trois."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "Je conteste : HYPE a perdu 8,99 % en 24 h et son RSI 15 min est passé de 41,3 à 30,9. La cassure du plus bas 12 h (60,46) est faite, le prix est à 60,42. Tu entres au creux."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Le volume x2,32 confirme la cassure, et le stop est au-dessus du haut récent 61,95 pour HYPE. Mais je reconnais que le RR de 1,69 laisse peu de marge pour les frais et le glissement."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Sur ARB et RENDER, les RSI sont à 28,4 et 26,0 après des chutes de 8,4 % et 6,5 % sur 24 h. Même problème. Et le short NEAR du trader de garde de ce matin était déjà une entrée tardive."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "risk_manager",
+   "message": "Aucune annonce confirmée dans les 2 heures. Le risque est le rebond technique, pas un événement daté."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Refusé. RR net 1,53 à 1,69, juste au-dessus du seuil de 1,5, avec entrée après un gros mouvement dans un marché en peur extrême. Un bon short, c'est un repli dans la tendance, pas la poursuite d'une chute. On attend un rebond vers l'EMA20 15 min."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "D'accord. Je ne force pas. Prochain point d'entrée à étudier : rebond vers l'EMA20 (HYPE 61,56) puis rejet."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte, donc rien à garder ni à fermer.",
+   "Trois shorts proposés par le scanner (ARB, RENDER, HYPE), mais le marché a déjà beaucoup baissé : RSI 15 min entre 26 et 31.",
+   "Fear & Greed à 13 (peur extrême), capitalisation crypto -7,07 % sur 24 h.",
+   "Les titres de presse sur BTC (68 000 / 66 000) ne correspondent pas au prix du brief : écart non expliqué, aucun chiffre repris."
+  ],
+  "desaccords": [
+   "Le Trader proposait le short HYPE ; l'analyste technique et le Risk Manager ont refusé (entrée tardive, RR 1,69 trop juste)."
+  ],
+  "decision": "Ne rien ouvrir : entrer après la chute serait une entrée tardive à faible marge.",
+  "a_surveiller": [
+   "Rebond de HYPE vers l'EMA20 15 min (61,56) puis rejet : short TPB-1 possible",
+   "Retour de BTC au-dessus de 60 140 (haut récent) : fin de la pression baissière ?",
+   "Calendrier économique de la semaine à confirmer par source officielle"
+  ]
+ },
+ "synthese": "On n'ouvre rien : le marché a déjà chuté fort et un short maintenant arriverait trop tard, avec trop peu de marge.",
+ "id": "D-20261114-165622",
+ "cree_le": "2026-11-14T16:56:22Z"
+}
