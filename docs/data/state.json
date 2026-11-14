@@ -2,25 +2,48 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 502.38053394409724,
- "positions": [],
- "frais_cumules": 3.256927929602072,
+ "cash": 391.00866261546594,
+ "positions": [
+  {
+   "id": "P0006",
+   "sym": "NEAR",
+   "pair": "NEAREUR",
+   "side": "short",
+   "strategie": "BRK-1",
+   "qty": 37.84608713354319,
+   "entry": 2.931034,
+   "notionnel": 110.92815869385586,
+   "frais_entree": 0.44371263477542344,
+   "stop": 2.973786,
+   "stop_initial": 2.973786,
+   "tp": 2.798643,
+   "risque_eur": 2.5119026697204863,
+   "rr_net": 1.62,
+   "ouvert_le": "2026-11-14T14:45:17Z",
+   "verifie_jusqu_a": "2026-11-14T14:45:17Z",
+   "duree_max_h": 24.0,
+   "decision_id": "G-20261114-144517",
+   "dernier_prix": 2.93103375,
+   "atr": 0.02189281
+  }
+ ],
+ "frais_cumules": 3.7006405643774953,
  "pnl_realise": 2.3805339440972006,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
-  "2026-11-14": 1
+  "2026-11-14": 2
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T14:31:10Z",
- "seq": 5,
+ "maj": "2026-11-14T14:44:14Z",
+ "seq": 6,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T14:27:26Z",
+ "chasseur_t": "2026-11-14T14:44:07Z",
  "tendance": [
   "KAVA",
   "HYPE",
@@ -43,7 +66,7 @@
   "AGI": {
    "source": "Reddit",
    "mentions": 32,
-   "x_vs_hier": 3.2
+   "x_vs_hier": 3.6
   },
   "BTC": {
    "source": "StockTwits",
@@ -51,11 +74,6 @@
    "x_vs_hier": null
   },
   "XRP": {
-   "source": "Reddit + StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZEC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -65,32 +83,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ZEC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ACAD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SHIB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IMMX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LINK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADMA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -105,16 +103,123 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "DOGE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SBUX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LINK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "UNI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PINS": {
+  "AZN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NIGHT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T14:27:27Z"
+ "buzz_t": "2026-11-14T14:44:08Z",
+ "sources_t": "2026-11-14T14:44:13Z",
+ "actus_tendance": [
+  {
+   "sujet": "Bitcoin",
+   "mentions": 7,
+   "sentiment": "bearish",
+   "titres": [
+    "BTC.D—Bitcoin Dominance Confirms Biggest Bull-Market since 2021",
+    "Weekly Recap: Bitcoin Crashes, Strategy Faces MSCI Removal, and Solana Scores Major Wall Street Win"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Trump administration divided over Nvidia AI chip exports to China",
+    "SpaceX plans more than $74 billion for two AI supercomputing campuses"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "bullish",
+   "titres": [
+    "Ethereum Staking Hits Record 36.3% Of Supply As ETH Holders Lock In",
+    "$ETH - WHEN TO BUY?"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "KAVA token sinks 40% as exploit hits Kava Lend, exchanges halt withdrawals",
+    "Sui Price Slips 4% as Trendline Support Faces Its Biggest Test Since August"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "KAVA token sinks 40% as exploit hits Kava Lend, exchanges halt withdrawals",
+    "Binance Withdrawals Return While Hackers Keep Billions"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Sorry folks, but USDT dominance says this",
+    "Chainfir Capital Sees Distribution as Key Competitive Edge in Stablecoin Market"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "OpenAI Launches ChatGPT Wallet to Let AI Agents Shop—Without Crypto",
+    "Arthur Hayes Says He Is Flattered as Coinbase Backs US Stock Perpetuals"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Weekly Recap: Bitcoin Crashes, Strategy Faces MSCI Removal, and Solana Scores Major Wall Street Win"
+   ]
+  }
+ ],
+ "garde_par_jour": {
+  "2026-11-14": 1
+ }
 }

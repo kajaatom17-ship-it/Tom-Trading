@@ -2859,5 +2859,37 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T14:27:22Z"
+ },
+ {
+  "id": "G-20261114-144517",
+  "action": "open",
+  "sym": "NEAR",
+  "side": "short",
+  "strategie": "BRK-1",
+  "entry_ref": 2.93,
+  "atr": 0.02189281,
+  "stop": 2.973786,
+  "tp": 2.798643,
+  "duree_max_h": 24,
+  "risque_pct_override": 0.5,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Cassure du plus bas 12 h avec volume x6.95."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques du trader de garde (risque 0,5 %)."
+   }
+  },
+  "synthese": "Le trader de garde a agi seul : signal BRK-1 très fort sur NEAR (score 75, RR net 1.58). À contrôler à la prochaine réunion du comité.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0006",
+   "prix": 2.931034,
+   "risque_eur": 2.51
+  },
+  "cree_le": "2026-11-14T14:45:17Z",
+  "traite_le": "2026-11-14T14:45:17Z"
  }
 ]
