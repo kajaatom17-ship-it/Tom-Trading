@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 353.32236487212776,
+ "cash": 200.75262666842795,
  "positions": [
   {
    "id": "P0004",
@@ -20,24 +20,46 @@
    "risque_eur": 3.683246060718949,
    "rr_net": 1.58,
    "ouvert_le": "2026-11-13T22:17:00Z",
-   "verifie_jusqu_a": "2026-11-14T07:50:00Z",
+   "verifie_jusqu_a": "2026-11-14T08:26:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261113-215728-O0003",
-   "dernier_prix": 0.8911,
+   "dernier_prix": 0.89428,
    "rollover": 0.060179539593240995,
    "rollover_periodes": 2
+  },
+  {
+   "id": "P0005",
+   "sym": "NEAR",
+   "pair": "NEAREUR",
+   "side": "short",
+   "strategie": "BRK-1",
+   "qty": 50.64047883154023,
+   "entry": 3.000799,
+   "notionnel": 151.96189064113528,
+   "frais_entree": 0.6078475625645412,
+   "stop": 3.050596,
+   "stop_initial": 3.050596,
+   "tp": 2.853012,
+   "risque_eur": 3.7475336516568922,
+   "rr_net": 1.65,
+   "ouvert_le": "2026-11-14T08:26:26Z",
+   "verifie_jusqu_a": "2026-11-14T08:26:26Z",
+   "duree_max_h": 24.0,
+   "decision_id": "D-20261114-082615",
+   "dernier_prix": 3.0007988500000002
   }
  ],
- "frais_cumules": 1.4111679616148696,
+ "frais_cumules": 2.0190155241794105,
  "pnl_realise": 4.4331887907558825,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
-  "2026-11-13": 2
+  "2026-11-13": 2,
+  "2026-11-14": 1
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T07:50:59Z",
- "seq": 4,
+ "maj": "2026-11-14T08:26:26Z",
+ "seq": 5,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
