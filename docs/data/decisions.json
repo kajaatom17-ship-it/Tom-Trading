@@ -4106,5 +4106,145 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T19:58:26Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Tendance 1 h baissière sur quasiment tout l'univers. BTC 59 763 € (RSI 47,3, volume 0,72x la normale) colle à son EMA20 15 min (59 750) sous l'EMA50 (60 219) : pas de pullback propre ni de cassure avec volume. Le scanner ne remonte aucun candidat.",
+    "donnees": "Brief Kraken 20:25 UTC (21:25 Paris), bougies 15 min"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Samedi soir, marchés actions fermés. Presse crypto : BTC sous 68 000 $, 7e jour de sorties des ETF bitcoin américains (Investing.com, Blockworks, 14/11/2026). Aucun catalyseur daté et sourcé de moins de 24 h trouvé pour un pari OPP-1. Calendrier de la semaine prochaine non confirmé par une source fiable : je n'ajoute aucune date.",
+    "sources": [
+     "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 14/11/2026 19:58 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106",
+     "US bitcoin ETFs see seventh straight day of outflows, tying record - Blockworks - https://www.blockworks.com/news/us-bitcoin-etf-seventh-day-outflows"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -7,2 % sur 24 h, dominance BTC 58,9 %. En peur extrême les rebonds sont violents et les baisses aussi : pas d'avantage clair. Aucun buzz réseaux sociaux exploitable (seul AGI sur Reddit, x4, hors univers, sans impulsion de prix).",
+    "donnees": "Brief 19:58 UTC"
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "Tous les memecoins sont déjà en chute de 8 à 21 % sur 24 h (PENGU -20,8 %, TRUMP -14,3 %, PEPE -12 %). RSI très bas (PENGU 18, TRUMP 25, SHIB 29) et volumes 15 min faibles (PEPE 0,18x, SHIB 0) : mouvement déjà fait, short tardif. Pas de rebond confirmé non plus."
+   },
+   "trader": {
+    "proposition": "Aucune position ouverte. Aucune nouvelle entrée : pas de signal TPB-1 ni BRK-1 valable.",
+    "pour": [
+     "Rebond possible en peur extrême"
+    ],
+    "contre": [
+     "Tendance 1 h baissière partout",
+     "Volumes très faibles (week-end, actions fermées)",
+     "Shorts qui arriveraient après de gros mouvements"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Pas de trade proposé qui passe le RR net >= 1,5 sans courir derrière le prix. Capital préservé : 502,44 €."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Univers entièrement en tendance 1 h baissière. BTC 59 763 € : RSI 47,3, volume 0,72x, prix sur l'EMA20 sous l'EMA50. Rien de net, scanner vide."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Actions fermées jusqu'à lundi. Seule info datée : 7e jour de sorties des ETF bitcoin (Investing.com, 19:58 UTC). C'est un fait, mais le prix a déjà réagi (BTC -4,5 % sur 24 h). Pas de catalyseur OPP-1."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 13, capitalisation -7,2 %. Extrême peur = rebonds brutaux possibles, donc un short maintenant est risqué même dans la tendance."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_sentiment",
+    "message": "Je confirme : PENGU -20,8 % avec RSI 18, TRUMP -14,3 % avec RSI 25. Ce sont des mouvements épuisés, pas poursuivables. Volumes 15 min quasi nuls (PEPE 0,18x)."
+   },
+   {
+    "agent": "trader",
+    "message": "Je n'ai ni pullback propre ni cassure avec volume. Je penche pour ne rien faire ; seul un short BTC sous 59 009 (plus bas 12 h) avec volume serait à étudier."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "Une cassure de 59 009 avec volume >= 1,8x serait BRK-1, mais le volume actuel est à 0,72x : elle ne serait pas confirmée. J'attends."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_sentiment",
+    "message": "Je nuance : la peur extrême n'est pas un signal d'achat. Sans catalyseur ni structure, on reste spectateurs."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Avocat du diable : et si BTC plonge pendant la nuit sans nous ? On perd une occasion, pas du capital. Et le trader de garde peut entrer seul sur une cassure fraîche. Aucun trade validé. On reste à 502,44 €."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "D'accord. Aucune position ouverte à garder, aucune entrée forcée. Décision : none."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte : rien à garder ni à fermer.",
+    "Marché très baissier (Fear & Greed 13, capitalisation -7,2 % sur 24 h), mais tout est déjà tombé et les volumes sont faibles.",
+    "Aucun signal propre du scanner ; les memecoins ont déjà chuté de 8 à 21 %."
+   ],
+   "desaccords": [
+    "Le sentiment voit des rebonds violents possibles en peur extrême, la technique voit la tendance baissière : personne n'a assez de preuves pour entrer."
+   ],
+   "decision": "Aucune entrée, on reste en cash.",
+   "a_surveiller": [
+    "Cassure de 59 009 € sur BTC avec volume >= 1,8x",
+    "Ouverture des marchés actions lundi et calendrier de la semaine (non confirmé ici)",
+    "Flux des ETF bitcoin"
+   ]
+  },
+  "synthese": "On n'ouvre rien : le marché a déjà beaucoup chuté, il n'y a aucun signal propre et rester en cash vaut mieux que de forcer un trade.",
+  "id": "D-20261114-202609",
+  "cree_le": "2026-11-14T20:26:09Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T20:27:25Z"
+ },
+ {
+  "id": "M-20261114-202738-KNTQ",
+  "action": "open",
+  "sym": "KNTQ",
+  "side": "short",
+  "strategie": "MOM-1",
+  "entry_ref": 0.21101,
+  "atr": 0.0069200000000000095,
+  "stop": 0.21447,
+  "tp": 0.19717,
+  "duree_max_h": 2,
+  "risque_pct_override": 0.5,
+  "agents": {
+   "specialiste_memecoins": {
+    "avis": "favorable",
+    "resume": "Impulsion -3.2 % en 15 min, volume x3.1."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques (budget memecoins)."
+   }
+  },
+  "synthese": "Le spécialiste a agi seul : impulsion -3.2 % sur KNTQ, volume x3.1. À contrôler à la prochaine réunion.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0007",
+   "prix": 0.2104825,
+   "risque_eur": 1.36
+  },
+  "cree_le": "2026-11-14T20:27:38Z",
+  "traite_le": "2026-11-14T20:27:38Z"
  }
 ]

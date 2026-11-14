@@ -1601,5 +1601,59 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-14T20:27:25Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On n'ouvre rien : le marché a déjà beaucoup chuté, il n'y a aucun signal propre et rester en cash vaut mieux que de forcer un trade."
+ },
+ {
+  "t": "2026-11-14T20:27:31Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AGI, AVAX, BMNR, BTC, DOGE, DRTS, ETH, FROG, HD, LHX, LION, SHIB"
+ },
+ {
+  "t": "2026-11-14T20:27:33Z",
+  "agent": "Spécialiste memecoins",
+  "type": "ajout actif",
+  "msg": "KNTQ ajouté à l'univers (catégorie Emergent, budget memecoin) : Impulsion -3.2 % en 15 min, volume x3.1, variation du jour -20.1 %"
+ },
+ {
+  "t": "2026-11-14T20:27:37Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "460 actifs hors univers analysés, 54 en mouvement : USELESS -20.1 %, KNTQ -20.1 %, ASTER -19.1 %. Ajoutés : KNTQ."
+ },
+ {
+  "t": "2026-11-14T20:27:38Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "KNTQ short ouvert à 0.2104825 | 50.24 € engagés | stop 0.21447 | objectif 0.19717 | risque 1.36 EUR",
+  "data": {
+   "id": "P0007"
+  }
+ },
+ {
+  "t": "2026-11-14T20:27:38Z",
+  "agent": "Spécialiste memecoins",
+  "type": "entrée rapide",
+  "msg": "KNTQ short sur impulsion -3.2 % (volume x3.1), risque 1.36 €."
+ },
+ {
+  "t": "2026-11-14T20:27:39Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Unchained : Which Crypto Use Cases Are Actually Growing? Jeff Dorman Says Bitcoin Isn't One",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=O4z6-QTakTs"
+  }
+ },
+ {
+  "t": "2026-11-14T20:28:47Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 5 signal(aux) : WIF short (BRK-1, 45), DOT short (BRK-1, 34), BTC short (TPB-1, 30)"
  }
 ]

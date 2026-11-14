@@ -2,9 +2,34 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 502.4423500700241,
- "positions": [],
- "frais_cumules": 4.14057139861923,
+ "cash": 451.99713812299365,
+ "positions": [
+  {
+   "id": "P0007",
+   "sym": "KNTQ",
+   "pair": "KNTQEUR",
+   "side": "short",
+   "strategie": "MOM-1",
+   "qty": 238.70982611261297,
+   "entry": 0.2104825,
+   "notionnel": 50.24423500700241,
+   "frais_entree": 0.20097694002800964,
+   "stop": 0.21447,
+   "stop_initial": 0.21447,
+   "tp": 0.19717,
+   "risque_eur": 1.3576227250231931,
+   "rr_net": 1.7,
+   "ouvert_le": "2026-11-14T20:27:38Z",
+   "verifie_jusqu_a": "2026-11-14T20:27:38Z",
+   "duree_max_h": 2.0,
+   "decision_id": "M-20261114-202738-KNTQ",
+   "dernier_prix": 0.210482475,
+   "atr": 0.0069200000000000095,
+   "mom": true,
+   "impulsion": 0.0069200000000000095
+  }
+ ],
+ "frais_cumules": 4.3415483386472395,
  "pnl_realise": 2.442350070024083,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
@@ -13,14 +38,14 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T20:02:21Z",
- "seq": 6,
+ "maj": "2026-11-14T20:27:39Z",
+ "seq": 7,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T19:58:31Z",
+ "chasseur_t": "2026-11-14T20:27:30Z",
  "tendance": [
   "MIHAO",
   "BTC",
@@ -50,11 +75,6 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "XRP": {
    "source": "StockTwits",
    "mentions": null,
@@ -65,17 +85,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ETH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "LHX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AERO": {
+  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
+  "SHIB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -90,7 +115,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "BMNR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DRTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "WLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -100,37 +140,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UNI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TOSHI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LUNC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADA": {
+  "LION": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T19:58:32Z",
- "sources_t": "2026-11-14T19:58:38Z",
+ "buzz_t": "2026-11-14T20:27:31Z",
+ "sources_t": "2026-11-14T20:27:38Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
+   "mentions": 8,
    "sentiment": "bearish",
    "titres": [
-    "BTCUSD | 15M Bullish Reversal – Rounded Retest Setup",
-    "BTC Falls Under $67,000 as a Broad Crypto Selloff Leaves Only 2 of 44 Tokens Green"
+    "BTC longing - catching the knife ?",
+    "BTCUSD | 15M Bullish Reversal – Rounded Retest Setup"
    ]
   },
   {
@@ -138,17 +163,8 @@
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.132721435 | 🚶 0.132734488 | 🚀 0.155066969 Gwei",
+    "ETH's Path Back to $2,300 Runs Through Ether Funds That Lost $215M in Two Days",
     "ETH Price Prediction: Deeper Correction Possible as a Fed Hike Pushes It Below $2,000"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "CFTC sues Louisiana to block order shutting out prediction markets",
-    "Alberta and Ontario Compared: How Canada's Two Open iGaming Markets Work and Where Crypto Fits"
    ]
   },
   {
@@ -162,7 +178,7 @@
   },
   {
    "sujet": "ETF",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
     "ETH Price Prediction: Deeper Correction Possible as a Fed Hike Pushes It Below $2,000",
@@ -170,20 +186,20 @@
    ]
   },
   {
-   "sujet": "AI",
+   "sujet": "SEC/Regulation",
    "mentions": 2,
-   "sentiment": "bullish",
+   "sentiment": "neutral",
    "titres": [
-    "Monolithic Power crosses $1 billion in quarterly revenue as AI data center demand surges",
-    "Allegro reports $277M in Q2 sales as AI data centers and cars lift chip demand"
+    "CFTC sues Louisiana to block order shutting out prediction markets",
+    "Alberta and Ontario Compared: How Canada's Two Open iGaming Markets Work and Where Crypto Fits"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "AI",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "TCB Daily Edition: What Happened in Crypto on November 14, 2026"
+    "Monolithic Power crosses $1 billion in quarterly revenue as AI data center demand surges"
    ]
   },
   {
@@ -196,6 +212,12 @@
   }
  ],
  "garde_par_jour": {
+  "2026-11-14": 1
+ },
+ "entrees_meme_par_jour": {
+  "2026-11-14": 1
+ },
+ "impulsion_par_jour": {
   "2026-11-14": 1
  }
 }
