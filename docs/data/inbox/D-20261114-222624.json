@@ -1,0 +1,99 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "Aucun candidat du scanner. BTC 58 865 €, RSI 37,8 (31,8 avant), volume 0,53x la normale, sous EMA20 (59 340) et EMA50 (59 901), tendance 1 h baissière. Short = chasser après la chute (-4,75 % sur 24 h) ; long = contre la tendance.",
+   "donnees": "brief 22:25 UTC, Kraken 15 min"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Samedi soir : actions fermées. Calendrier du brief vide ; mes 2 recherches n'ont pas donné de date confirmée pour lundi, donc rien n'est ajouté à l'agenda. Titres vus dans le brief (interprétation, pas faits vérifiés) : sorties des ETF bitcoin pour le 7e jour (Investing.com, 14 nov 21:56 UTC) et probabilité de hausse de taux de la Fed jugée forte (Cryptonews.net, 14 nov 20:37 UTC).",
+   "sources": [
+    "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 21:56 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -9,0 % sur 24 h, dominance BTC 58,97 %. En peur extrême, les rebonds sont brutaux et dans les deux sens."
+  },
+  "trader": {
+   "proposition": "Garder KNTQ (short). Aucune nouvelle entrée ce soir.",
+   "pour": [
+    "Tendance baissière partout",
+    "KNTQ protégé à +1R"
+   ],
+   "contre": [
+    "Entrées tardives après -10 à -24 % sur 24 h",
+    "Pas de candidat du scanner",
+    "Volume faible sur BTC (0,53x)"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Non-trade validé : aucun setup propre, 2 entrées déjà prises aujourd'hui, risque de rebond violent."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 58 865 €, sous EMA20 59 340 et EMA50 59 901, RSI 37,8, volume 0,53x : tendance baissière mais sans élan. Le scanner ne remonte aucun candidat."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed 13 et capitalisation -9,0 % en 24 h : après une telle chute, un rebond sec est plausible. Un short maintenant serait une entrée tardive."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Samedi soir, actions fermées. Le calendrier est vide et je n'ai pas de date confirmée pour lundi : je n'invente rien. Les titres sur les sorties ETF (7e jour) et la Fed sont des interprétations de presse, pas des faits vérifiés."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "DOGE -12,04 %, RSI 23,4, volume 4,81x : capitulation, pas impulsion poursuivable. PENGU -22,47 % et TRUMP -17 % avec un spread de 0,28 % et 0,24 %, trop près de la limite de 0,30 %. Rien de propre."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je pourrais proposer un short sur la baisse mais le RR net passe sous 1,5 car l'ATR de BTC n'est que de 0,668 % et le stop minimum est de 1 %. Je ne propose rien de neuf."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Tu as raison de ne pas forcer. Une chute de -9 % de la capitalisation sans candidat, c'est le moment où on se fait piéger. Que fais-tu de KNTQ ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "KNTQ short : prix 0,19907, stop 0,206495 (1R verrouillé), objectif 0,19717, gain latent 1,36 €. Le stop protège, je garde."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Alerte de prix sur KNTQ -2,91 % en 15 min en notre faveur. Pas d'argument pour fermer ; en revanche, KNTQ est à -23,94 % sur 24 h : je note que le mouvement est déjà très avancé, d'où l'intérêt du stop verrouillé."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : KNTQ gardé, aucune nouvelle entrée. Je valide ce non-trade, justifié par les chiffres et non par un accord de façade."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Marché très baissier : BTC 58 865 €, Fear & Greed 13, capitalisation -9 % en 24 h.",
+   "KNTQ (short) en gain latent de 1,36 €, stop déjà remonté pour verrouiller +1R : on garde.",
+   "Aucun candidat du scanner, memecoins en capitulation (DOGE RSI 23,4), actions fermées : pas de setup propre."
+  ],
+  "desaccords": [
+   "Le Risk Manager a challengé le Trader sur un éventuel short : retiré (RR net < 1,5, entrée tardive)."
+  ],
+  "decision": "On ne fait rien : garder KNTQ, pas de nouvelle entrée.",
+  "a_surveiller": [
+   "Rebond de BTC vers l'EMA20 15 min (59 340) puis rechute avec RR net >= 1,5",
+   "Calendrier de lundi à confirmer avec une source officielle",
+   "Ouverture des actions lundi (séance US dès 15:30 Paris)"
+  ]
+ },
+ "synthese": "On garde la position gagnante et on n'ouvre rien : le marché a déjà énormément chuté et aucun trade n'offre assez de gain pour le risque.",
+ "id": "D-20261114-222624",
+ "cree_le": "2026-11-14T22:26:24Z"
+}
