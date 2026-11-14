@@ -13,14 +13,14 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T19:32:14Z",
+ "maj": "2026-11-14T19:32:34Z",
  "seq": 6,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T19:28:12Z",
+ "chasseur_t": "2026-11-14T19:32:28Z",
  "tendance": [
   "MIHAO",
   "BTC",
@@ -43,7 +43,7 @@
   "AGI": {
    "source": "Reddit",
    "mentions": 32,
-   "x_vs_hier": 5.3
+   "x_vs_hier": 4.6
   },
   "BTC": {
    "source": "StockTwits",
@@ -116,16 +116,34 @@
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T19:28:13Z",
- "sources_t": "2026-11-14T19:28:18Z",
+ "buzz_t": "2026-11-14T19:32:28Z",
+ "sources_t": "2026-11-14T19:32:33Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 11,
+   "mentions": 10,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
-    "WILL BITCOIN SWEEP THE REALIZED PRICE OF $53K?"
+    "Bitcoin Weekly: The Line Is Under Pressure",
+    "What It Would Take for BTC to Reclaim $80K While Rising Yields Drain Risk Appetite"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "CFTC sues Louisiana to block order shutting out prediction markets",
+    "Alberta and Ontario Compared: How Canada's Two Open iGaming Markets Work and Where Crypto Fits"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "ETH Foundation Wallet Sells 2,000 Ethereum as ETF Exits Run 87 Times Bigger",
+    "ETH's Path Back to $2,300 Runs Through Ether Funds That Lost $215M in Two Days"
    ]
   },
   {
@@ -133,26 +151,17 @@
    "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
-    "Bitcoin Hits Extreme Fear — Could $65K Trigger a Recovery?"
+    "ETH Foundation Wallet Sells 2,000 Ethereum as ETF Exits Run 87 Times Bigger",
+    "JPMorgan Lifts Strategy Stake 36% and Holds $540M in BlackRock’s Bitcoin ETF"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 2,
+   "sujet": "XRP",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Binance says stolen crypto has been replaced but some customers have to wait",
-    "BNB -6.85% to 585.58, 1.98x normal range: 622.41 is the lid"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin's $65K Test: Breakdown or Reclaim?",
-    "Bitcoin’s $67,000 crash puts $57 billion holder cluster at risk as ETF investors flee"
+    "XRP Weekly | Could $0.75–$0.80 Be Home for a While?",
+    "Egrag Crypto to XRP and Holders: The Hardest Part Is Behind Us. Here’s why"
    ]
   },
   {
@@ -160,32 +169,24 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "四家非营利组织起诉 OpenAI 等五家 AI 公司，要求冻结模型开发",
-    "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze"
+    "Allegro reports $277M in Q2 sales as AI data centers and cars lift chip demand",
+    "Nvidia CEO Jensen Huang resigns amid scandal, CFO Colette Kress steps in"
    ]
   },
   {
-   "sujet": "Avalanche",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding"
+    "Unocoin Admits $200K Crypto Loss, Warns of Customer Data Breach"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Institutions",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "2022 Vibes: $26 Billion Vanishes From Stablecoin Market Since May Peak"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Crypto Pundit to XRP Holders: It’s Time To Face Reality. Here’s why"
+    "JPMorgan Lifts Strategy Stake 36% and Holds $540M in BlackRock’s Bitcoin ETF"
    ]
   }
  ],
