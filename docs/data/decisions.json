@@ -1533,5 +1533,108 @@
    "statut": "execute"
   },
   "traite_le": "2026-11-14T08:43:59Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "BTC 60 907 €, tendance 1 h baissière, RSI 43, volume 0,81x la normale. Tous les candidats TPB-1 short (PAXG, BTC, ETH, SOL, HYPE, DOGE, MSTR) ont un RR net de 1,21 ou moins, sous le seuil de 1,5. AAPL BRK-1 long a un RR net de 0,91.",
+    "donnees": "brief.py, Kraken, 08:55 UTC (09:55 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Samedi : bourses US fermées. Actualités du brief : vente massive des puces IA vendredi (AMD -8,75 %, Yahoo Finance, 13/11), résultats Nvidia à venir, Fed face à un problème d'inflation (Marketplace, 13/11). Aucune date d'annonce confirmée par une source officielle trouvée : calendrier non complété pour ne pas inventer.",
+    "sources": [
+     "Stock Market Today, Nov. 13: AMD Sinks 8.75% - Yahoo Finance - 13/11/2026 22:13 UTC",
+     "The AI boom has handed the Fed an inflation problem - Marketplace.org - 13/11/2026 22:15 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), dominance BTC 58,81 %, capitalisation totale -5,07 % sur 24 h. En peur extrême, les rebonds sont violents : risque pour des shorts déjà ouverts."
+   },
+   "trader": {
+    "proposition": "Garder XRP et NEAR short, ne rien ajouter.",
+    "pour": [
+     "XRP +3,19 € latent, stop au point d'entrée",
+     "NEAR garde son stop et son objectif"
+    ],
+    "contre": [
+     "Marché très survendu, rebond possible",
+     "Déjà 2 altcoins short : limite atteinte"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Aucun candidat n'atteint RR net 1,5. 2 altcoins short déjà ouverts, un troisième dépasserait la limite de corrélation."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "XRP short : prix 0,89175, stop 0,9037558 (point d'entrée), objectif 0,868, RSI 38,3, MACD qui remonte vers zéro. NEAR short : 3,0015 contre 3,0008 d'entrée, RSI 37,6, pas de volume (0,78x)."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Pas de donnée US ce samedi. Vendredi : AMD -8,75 % et vente des puces IA, Nvidia attendu. Pas d'annonce datée confirmée, donc je n'ajoute rien à l'agenda."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed 13, capitalisation -5,07 % sur 24 h, BTC 58,81 % de dominance. Ça ressemble à de la capitulation : je me méfie d'ajouter des shorts maintenant."
+   },
+   {
+    "agent": "trader",
+    "message": "Je garde XRP et NEAR. Pour une nouvelle entrée, le meilleur candidat est PAXG short, score 40, mais son RR net est de 1,21."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "Je confirme : PAXG, BTC, ETH, SOL, HYPE et DOGE affichent tous RR net 1,21. Aucun ne passe le seuil. Les chiffres sont trop serrés après frais."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Et le volume est faible (BTC 0,81x, SOL 0,51x, DOGE 0,12x) : les cassures de support seraient peu fiables."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Je conteste l'idée de shorter l'or (PAXG) : les puces IA s'effondrent, l'inflation inquiète la Fed, mais rien de daté ne justifie un pari de conviction (OPP-1 exige un catalyseur de moins de 24 h)."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Refus d'une nouvelle entrée : RR net 1,21 inférieur à 1,5, et un troisième short altcoin dépasserait la limite de 2. Garder XRP et NEAR est validé."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "D'accord. Aucun ordre en attente non plus : sans volume, un ordre stop se déclencherait sur du bruit."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "XRP (short) gagne environ 3,19 € fictifs et son stop est déjà au prix d'entrée : plus de perte possible.",
+    "NEAR (short) vient d'être ouvert et n'a presque pas bougé.",
+    "Aucun candidat n'a un rapport gain/risque suffisant après frais (1,21 pour les meilleurs, il faut 1,5)."
+   ],
+   "desaccords": [
+    "L'analyste sentiment s'inquiète d'un rebond violent après une peur extrême ; l'analyste technique reste baissier mais sans signal propre."
+   ],
+   "decision": "On garde XRP et NEAR, aucune nouvelle entrée.",
+   "a_surveiller": [
+    "Un rebond de BTC au-dessus de 61 192 €",
+    "Résultats Nvidia et réaction des puces IA",
+    "Un candidat avec RR net au moins 1,5 et volume correct"
+   ]
+  },
+  "synthese": "On garde les deux paris à la baisse déjà ouverts et on n'en ajoute pas, car aucune occasion ne rapporte assez par rapport au risque.",
+  "id": "D-20261114-085610",
+  "cree_le": "2026-11-14T08:56:10Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T08:58:22Z"
  }
 ]
