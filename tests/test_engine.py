@@ -350,6 +350,14 @@ st = core.load("state.json", None); st["positions"] = []; st["garde_par_jour"] =
 PRICES["NEAR"] = 2.95
 run()
 check("pas d'entrée si le prix a déjà trop couru", not any(p["sym"] == "NEAR" for p in core.load("state.json", None)["positions"]))
+# mouvement déjà fait (-6 % sur la journée) : pas d'entrée en short, même sur une cassure fraîche
+st = core.load("state.json", None); st["positions"] = []; st["garde_par_jour"] = {}; st["cash"] = 500.0
+tkx = {"NEAR": {"bid": 3.0, "ask": 3.001, "last": 3.0005, "open": 3.19, "high": 3.2, "low": 2.99, "vol_eur": 5e6, "spread_pct": 0.03, "chg_pct": -6.0}}
+tick.guard_entry(core.config(), st, tkx, {"candidats": [cand]})
+check("pas d'entrée si le mouvement est déjà fait (-6 %)", not st["positions"])
+tkx["NEAR"].update(open=3.01, high=3.02, chg_pct=-0.3)
+tick.guard_entry(core.config(), st, tkx, {"candidats": [cand]})
+check("entrée possible si le mouvement n'est pas fait", len(st["positions"]) == 1)
 # nouvelle entrée puis retour contre nous de plus de 1 ATR : sortie rapide
 st = core.load("state.json", None); st["garde_par_jour"] = {}; st["entrees_par_jour"] = {}; st["cash"] = 500.0; core.save("state.json", st)
 PRICES["NEAR"] = 3.0

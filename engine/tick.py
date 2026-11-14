@@ -928,6 +928,14 @@ def guard_entry(cfg, state, tk, sig):
     pending = {o["sym"] for o in state.get("ordres_attente", [])}
     F = G.get("cassure_fraiche", {})
     for c in sig.get("candidats", []):
+        t1 = tk.get(c["sym"])
+        if t1:  # trop tard : le mouvement est déjà fait (règle de Tom, NEAR -6 % le 14 nov)
+            if c["side"] == "short":
+                deja = max(-t1.get("chg_pct", 0), (t1["high"] - t1["last"]) / t1["high"] * 100 if t1.get("high") else 0)
+            else:
+                deja = max(t1.get("chg_pct", 0), (t1["last"] - t1["low"]) / t1["low"] * 100 if t1.get("low") else 0)
+            if deja > G.get("deja_fait_max_pct", 3.0):
+                continue
         fresh = False
         if F.get("actif") and c["strategie"] == "BRK-1" and c["score"] >= F.get("score_min", 70) and c["rr_net"] >= F.get("rr_net_min", 1.5) and not c.get("alertes"):
             t0 = tk.get(c["sym"])
