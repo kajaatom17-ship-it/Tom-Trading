@@ -1,0 +1,104 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 59 730 €, tendance 1 h baissière. Seuls candidats du scanner : BTC short TPB-1 (score 30, RR net 1,21) et SPY short (score 30, RR net 1,12), tous deux sous le seuil de 1,5. Les memecoins sont tous sous l'EMA20 15 min avec RSI 27 à 37 : survendus, pas de retour sur la zone.",
+   "donnees": "brief Kraken 2026-11-14 19:26 UTC (20:26 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Samedi : pas de séance actions, calendrier du brief vide. Actualités du brief (Investing.com, 18:57 UTC) : sorties des ETF Bitcoin pour le 7e jour de suite. Mes recherches web n'ont renvoyé que des sources de dates mélangées (2025 et 2026) : je n'en tire aucun fait daté fiable, et je n'ajoute aucun événement à l'agenda sans date confirmée.",
+   "sources": [
+    "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 18:57 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), dominance BTC 58,87 %, capitalisation totale -7,28 % sur 24 h. Les rebonds peuvent être violents en peur extrême, mais rien ne dit quand."
+  },
+  "analyste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "PENGU -18 %, TRUMP -11 %, PEPE -11 %, BONK -11 % sur 24 h. Mouvement déjà fait, volume faible (vol_ratio 0,04 à 0,69 sauf PEPE 1,46), spreads 0,06 à 0,20 %. Short tardif = piège du retour rapide."
+  },
+  "trader": {
+   "proposition": "Aucun trade. Garder le cash.",
+   "pour": [
+    "BTC baissier, short TPB-1 théoriquement cohérent"
+   ],
+   "contre": [
+    "RR net 1,21 < 1,5",
+    "marché déjà à -7 % sur 24 h",
+    "actions fermées le week-end"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide la décision none",
+   "motif": "Aucun candidat ne passe RR net ≥ 1,5. Pas de position ouverte, cash 502,44 €, 2 entrées déjà prises aujourd'hui sur 3."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 59 730 €, tendance 1 h baissière. Le seul vrai candidat est un short TPB-1 (entrée 59 730, stop 60 328, objectif 57 938), mais RR net 1,21 et score 30."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Samedi, pas de séance actions, calendrier du brief vide. Les ETF Bitcoin sortent depuis 7 jours (Investing.com, 18:57 UTC). Mes recherches web n'ont pas donné de date fiable pour une annonce : je n'invente rien."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed est à 13 et la capitalisation totale perd 7,28 % en 24 h. En peur extrême un short tardif risque de se faire prendre par un rebond brutal."
+  },
+  {
+   "agent": "analyste_memecoins",
+   "repond_a": "analyste_sentiment",
+   "message": "D'accord. PENGU -18 %, TRUMP -11 %, PEPE -11 %, RSI 27 à 33 : c'est la zone d'épuisement, pas d'impulsion à suivre. Volume 15 min très faible (WIF 0,04, PENGU 0,12)."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose un short BTC TPB-1 pour tester le scénario, stop 60 328, objectif 57 938."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "RR net 1,21 après frais : refus. Pourquoi ne pas attendre un meilleur point d'entrée plutôt que de baisser l'exigence ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Fair. Le stop de 1,0 % est serré face à un ATR de 343 € et l'objectif ne paie pas assez. Je retire ma proposition."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "trader",
+   "message": "Pour SPY, la séance est fermée : le RR 1,12 est lui aussi insuffisant et le volume hors séance est faible. Je ne le soutiens pas."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Décision none validée. Aucune position ouverte, cash 502,44 €. Rester en cash vaut mieux que forcer un trade sous 1,5 de RR."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte : rien à garder ni à fermer.",
+   "Le marché crypto est en peur extrême (13) et déjà en forte baisse sur 24 h ; BTC est baissier mais le short testé n'offre que 1,21 de RR net.",
+   "Memecoins survendus avec peu de volume : pas d'entrée sur un mouvement déjà fait.",
+   "Samedi : actions fermées, agenda vide, aucune annonce datée confirmée."
+  ],
+  "desaccords": [
+   "Le trader voulait tester un short BTC ; le Risk Manager l'a refusé pour RR insuffisant et le trader a retiré sa proposition."
+  ],
+  "decision": "Aucune position à ajuster et aucune nouvelle entrée : on reste en cash.",
+  "a_surveiller": [
+   "Un rebond de BTC sur l'EMA20 15 min avec RR net ≥ 1,5",
+   "Une cassure de bougie 15 min avec volume ≥ 1,8 × la moyenne",
+   "Réouverture des actions lundi"
+  ]
+ },
+ "synthese": "On n'ouvre rien : le marché a déjà beaucoup chuté, aucun signal n'offre assez de gain pour le risque, et rester en cash vaut mieux que forcer un trade.",
+ "id": "D-20261114-192703",
+ "cree_le": "2026-11-14T19:27:03Z"
+}
