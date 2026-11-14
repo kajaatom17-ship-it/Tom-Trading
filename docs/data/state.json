@@ -20,10 +20,10 @@
    "risque_eur": 0.6788113625115966,
    "rr_net": 1.7,
    "ouvert_le": "2026-11-14T20:27:38Z",
-   "verifie_jusqu_a": "2026-11-14T21:30:00Z",
+   "verifie_jusqu_a": "2026-11-14T21:56:00Z",
    "duree_max_h": 2.0,
    "decision_id": "M-20261114-202738-KNTQ",
-   "dernier_prix": 0.20067,
+   "dernier_prix": 0.19907,
    "atr": 0.0069200000000000095,
    "mom": true,
    "impulsion": 0.0069200000000000095,
@@ -40,37 +40,37 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T21:31:02Z",
+ "maj": "2026-11-14T21:56:56Z",
  "seq": 7,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T21:26:50Z",
+ "chasseur_t": "2026-11-14T21:56:50Z",
  "tendance": [
-  "MIHAO",
   "BTC",
+  "MIHAO",
+  "HYPE",
   "SOL",
+  "ETH",
+  "KAVA",
   "ZEC",
   "ASTER",
-  "HYPE",
-  "AVAX",
-  "NEAR",
   "XRP",
-  "UNI",
-  "TAO",
+  "LINK",
+  "LIT",
+  "BNB",
+  "NEAR",
   "PUMP",
-  "KAVA",
-  "ETH",
-  "ADA"
+  "AERO"
  ],
- "tendance_t": "2026-11-14T20:57:57Z",
+ "tendance_t": "2026-11-14T21:56:50Z",
  "buzz": {
   "AGI": {
    "source": "Reddit",
    "mentions": 32,
-   "x_vs_hier": 4.0
+   "x_vs_hier": 3.6
   },
   "BTC": {
    "source": "StockTwits",
@@ -83,16 +83,11 @@
    "x_vs_hier": null
   },
   "ETH": {
-   "source": "Reddit + StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOL": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -102,12 +97,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
+  "SOL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SPCX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UNI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZEC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -121,65 +146,45 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
-  },
-  "SHIB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BONK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BMNR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T21:26:51Z",
- "sources_t": "2026-11-14T21:26:57Z",
+ "buzz_t": "2026-11-14T21:56:50Z",
+ "sources_t": "2026-11-14T21:56:55Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
+   "mentions": 15,
    "sentiment": "bearish",
    "titres": [
-    "BTC longing - catching the knife ?",
-    "BTCUSD | 15M Bullish Reversal – Rounded Retest Setup"
+    "Bitcoin Plunges, but Michael Saylor Says STRC Still Delivers Gains",
+    "BTCUSD: Potential Bullish Reversal After Liquidity Sweep"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 4,
-   "sentiment": "neutral",
+   "mentions": 5,
+   "sentiment": "bearish",
    "titres": [
-    "ETH's Path Back to $2,300 Runs Through Ether Funds That Lost $215M in Two Days",
-    "ETH Price Prediction: Deeper Correction Possible as a Fed Hike Pushes It Below $2,000"
+    "⛽ ETH Gas: 🐢 1.062664617 | 🚶 1.062796617 | 🚀 1.112664617 Gwei",
+    "ETH – Building small swing longs"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "AI",
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "XRP MARKET CAP – BEARISH TREND CONTINUES | SUPPORT BREAKDOWN",
-    "XRP Weekly | Could $0.75–$0.80 Be Home for a While?"
+    "Nigeria's upcoming election marred by rising AI disinformation",
+    "MegaETH Cuts 20% of Workforce as It Shifts Focus Toward AI Marketplace"
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "Layer 2",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "ETH Price Prediction: Deeper Correction Possible as a Fed Hike Pushes It Below $2,000",
-    "ETH Foundation Wallet Sells 2,000 Ethereum as ETF Exits Run 87 Times Bigger"
+    "Can Private Protocols Keep North Korea Out? Aztec’s Zac Williamson Thinks So",
+    "MegaETH Cuts 20% of Workforce as It Shifts Focus Toward AI Marketplace"
    ]
   },
   {
@@ -187,16 +192,8 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "CFTC sues Louisiana to block order shutting out prediction markets",
-    "Alberta and Ontario Compared: How Canada's Two Open iGaming Markets Work and Where Crypto Fits"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 1,
-   "sentiment": "bullish",
-   "titres": [
-    "Monolithic Power crosses $1 billion in quarterly revenue as AI data center demand surges"
+    "US Crypto Trust Charters Face Senate Scrutiny as Coinbase Receives Final Approval",
+    "US government holds about $20 billion in Bitcoin and Ether"
    ]
   },
   {
@@ -204,7 +201,23 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SOL Falls Below $80 as $1.9M Leaves US Solana Funds Despite DTCC's 2027 Plan"
+    "SOLANA: Is Another Massive Liquidation Coming?"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "USDT.D just spiked hard to 8.15%"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BTCUSDT long closed by stop-loss: -3.18%"
    ]
   }
  ],

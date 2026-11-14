@@ -4467,5 +4467,117 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T21:26:44Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "Tendance 1 h baissière sur presque tout l'univers. BTC 58 342 €, RSI 15 min 23,8, sous EMA20 (59 471) et EMA50 (59 997). Candidats du scanner : NVDA short RR net 1,13, BTC short 1,41, SPY short 1,12, tous sous le seuil de 1,5.",
+    "donnees": "Brief Kraken, 21:55 UTC (22:55 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Actualités du brief (Investing.com 21:27 UTC) : sorties des ETF bitcoin pour le 7e jour de suite ; Cryptonews 20:37 UTC : probabilité de hausse de taux de la Fed jugée très élevée. Ce sont des faits rapportés par des médias, pas vérifiés à la source officielle. Mes 3 recherches web n'ont pas donné de calendrier daté fiable pour lundi : je n'ajoute aucune annonce à l'agenda.",
+    "sources": [
+     "Bitcoin falls below $68,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-14 21:27 UTC",
+     "Fed Rate Hike Odds Reach Near-Certainty as Bitcoin Price Falls to $65K - Cryptonews.net - 2026-11-14 20:37 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation crypto totale -8,71 % sur 24 h, dominance BTC 58,98 %. Le buzz réseaux est une piste, jamais une preuve.",
+    "donnees": "Brief, sentiment 20:58 UTC"
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "DOGE RSI 15,7, SHIB 12,1, PEPE 20,9, TRUMP 13,9 : tous déjà vendus à fond, volumes SHIB x3,85. Shorter maintenant serait entrer après le mouvement ; aucune cassure ni retour sur zone propre."
+   },
+   "trader": {
+    "proposition": "Garder KNTQ (short MOM-1, +1,36 € latent, stop à 0,2065, sous l'entrée 0,2105 : gain verrouillé). Aucune nouvelle entrée.",
+    "pour": [
+     "Position en gain, stop au-dessus du prix d'entrée"
+    ],
+    "contre": [
+     "Marché très survendu : un rebond violent est possible"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Aucun candidat n'atteint RR net 1,5. Entrer sur un marché déjà en chute libre expose à un rebond. Pas de trade forcé."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "BTC 58 342 €, RSI 23,8 et sous les deux moyennes ; ETH RSI 19,0, SOL 17,3. Tendance baissière partout, mais plus personne n'est 'en retard' : le mouvement est fait."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed 13 et capitalisation -8,71 % en 24 h. En peur extrême les rebonds sont brutaux et piègent les shorts tardifs."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Faits : sorties d'ETF bitcoin pour le 7e jour (Investing.com, 21:27 UTC) et hausse de taux de la Fed jugée très probable (Cryptonews, 20:37 UTC). Je ne trouve pas de calendrier daté sûr pour lundi, donc je n'invente rien."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_sentiment",
+    "message": "PEPE -14,6 %, TRUMP -15,5 %, SHIB RSI 12,1. Ils sont déjà épuisés à la baisse : pas de bon short, pas de long. Rien de propre."
+   },
+   {
+    "agent": "trader",
+    "message": "Je garde KNTQ : +1,36 € latent, stop à 0,2065 sous le prix d'entrée 0,2105 (short), donc gain verrouillé. Pour une nouvelle entrée, le meilleur short est BTC BRK-1 : RR net 1,41."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "1,41 est sous 1,5 et BTC est à RSI 23,8 : tu veux vendre le creux. Quel est ton argument contre un rebond ?"
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Je n'en ai pas d'assez fort : volume x3,15 mais cassure déjà faite et RR insuffisant. Je retire la proposition."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "NVDA short ressort à RR net 1,13 malgré volume x14,41 : trop cher après frais. Je ne le défends pas."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Objection au 'tout est baissier' : l'or (PAXG) a RSI 13,1 avec volume x4,12, ce n'est pas un refuge ce soir. Pas d'idée à tirer de là."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Verdict : aucune nouvelle entrée, KNTQ gardé. Je valide ce non-trade ; aucun accord de façade, la prudence vient des chiffres."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Marché en chute : BTC 58 342 €, Fear & Greed 13, RSI très bas presque partout.",
+    "Position KNTQ (short) en gain latent de 1,36 €, stop déjà protégé : on la garde.",
+    "Candidats du scanner (NVDA, BTC, SPY short) : RR net entre 1,12 et 1,41, tous sous le seuil de 1,5."
+   ],
+   "desaccords": [
+    "Le Trader a d'abord proposé un short BTC ; le Risk Manager l'a contesté (RSI 23,8, rebond possible) et le Trader l'a retiré."
+   ],
+   "decision": "On ne fait rien : garder KNTQ, pas de nouvelle entrée.",
+   "a_surveiller": [
+    "Un rebond sur l'EMA20 15 min de BTC (59 471) puis rechute avec RR net ≥ 1,5",
+    "Calendrier lundi (Fed, inflation) non confirmé : à vérifier avant d'agir",
+    "Entrées tardives : aucune prise ce soir malgré -6 à -24 % sur 24 h de nombreux actifs"
+   ]
+  },
+  "synthese": "On garde la position gagnante et on n'ouvre rien : le marché a déjà beaucoup chuté et aucun trade n'offre assez de gain pour le risque.",
+  "id": "D-20261114-215632",
+  "cree_le": "2026-11-14T21:56:32Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-14T21:56:45Z"
  }
 ]
