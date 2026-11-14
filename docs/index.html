@@ -187,6 +187,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 #pnlBadge .l1{font-size:12px;font-weight:500;opacity:.9}
 #pnlBadge .l2{font-size:22px;font-weight:700;line-height:1.15}
 #pnlBadge .l3{font-size:13px;font-weight:600;opacity:.95}
+#pnlBadge .l4{font-size:11px;font-weight:500;opacity:.9;margin-top:2px}
 #pnlBadge .live{font-size:11px;font-weight:500;opacity:.8;margin-top:2px;display:flex;align-items:center;gap:5px}
 #pnlBadge .live i{width:7px;height:7px;border-radius:50%;background:#fff;display:inline-block;animation:pl 2s infinite}
 @keyframes pl{50%{opacity:.25}}
@@ -255,6 +256,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 <!-- ============================ ACCUEIL ============================ -->
 <section id="accueil" class="stack">
   <div id="alerts"></div>
+  <div class="panel"><h3>Compte rendu</h3><div id="digest"></div></div>
   <div class="grid g2">
     <div class="panel capital">
       <div class="muted" style="font-size:13px">Valeur du portefeuille</div>
@@ -360,7 +362,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 </section>
 </main>
 
-<button id="pnlBadge" class="flat" aria-expanded="false" aria-controls="pnlPanel"><div class="l1">Chargement…</div><div class="l2 num">—</div><div class="l3 num">—</div><div class="live"><i></i><span id="pnlLive">en direct</span></div></button>
+<button id="pnlBadge" class="flat" aria-expanded="false" aria-controls="pnlPanel"><div class="l1">Chargement…</div><div class="l2 num">—</div><div class="l3 num">—</div><div class="l4 num"></div><div class="live"><i></i><span id="pnlLive">en direct</span></div></button>
 <div id="pnlPanel" hidden><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px"><h3 style="margin:0">Où on en est</h3><button id="pnlClose" style="font-size:14px;color:var(--muted)">Fermer</button></div><div id="pnlBody"></div></div>
 <script>
 "use strict";
@@ -505,15 +507,33 @@ function pendingView(){
     <div class="steps num"><div><span class="muted">Stop prévu</span><b class="down">${px(o.stop)} €</b></div><div><span class="muted">Objectif prévu</span><b class="up">${px(o.tp)} €</b></div></div>
     <p class="hint">Valable jusqu'au ${hm(o.expire_le)}. Sinon l'ordre est annulé tout seul.${o.groupe?" Si son jumeau se déclenche d'abord, celui-ci est annulé.":""}${o.evenement?" Prévu pour : "+esc(o.evenement)+".":""}</p></div>`}).join("");
 }
+function openPnl(p){ const pr=livePrice(p.sym)??p.dernier_prix??p.entry; return posValue(p,pr)-p.notionnel-((p.frais_entree||0)+(p.rollover||0)); }
+function renderDigest(){
+  const st=S.state; if(!st) return; const now=Date.now(), day=24*3600e3;
+  const closed=[...S.trades].filter(t=>now-new Date(t.ferme_le)<day).reverse();
+  const cTot=S.trades.reduce((a,t)=>a+t.pnl_net,0), c24=closed.reduce((a,t)=>a+t.pnl_net,0);
+  const oTot=st.positions.reduce((a,p)=>a+openPnl(p),0);
+  const way=s=>s==="short"?"vente à découvert":"achat";
+  const why=t=>esc(t.raison_sortie||"");
+  const row=(l,r,s)=>`<div class="row"><div><div style="font-size:14px">${l}</div><div class="s muted" style="font-size:12px">${s}</div></div><div class="r num">${r}</div></div>`;
+  const amt=v=>`<b class="${cls(v)}">${sgn(v)}</b>`;
+  let o=`<p style="margin-bottom:10px;font-size:14px">Depuis le départ : ${amt(cTot+oTot)} <span class="muted">(terminés ${sgn(cTot)} · en cours ${sgn(oTot)})</span></p>`;
+  o+=`<h4 style="margin:6px 0">Terminés (dernières 24 h)</h4>`+(closed.length?closed.map(t=>row(`${esc(t.sym)} · ${way(t.side)}`,amt(t.pnl_net),`Entrée ${hm(t.ouvert_le)} · sortie ${hm(t.ferme_le)} · ${why(t)}`)).join("")+`<p class="muted" style="font-size:12px;margin:4px 0 10px">Total des dernières 24 h : ${sgn(c24)}</p>`:`<p class="muted" style="font-size:13px;margin-bottom:10px">Aucun trade terminé.</p>`);
+  o+=`<h4 style="margin:6px 0">En cours</h4>`+(st.positions.length?st.positions.map(p=>{const pr=livePrice(p.sym)??p.dernier_prix??p.entry; return row(`${esc(p.sym)} · ${way(p.side)}`,amt(openPnl(p)),`Entrée ${hm(p.ouvert_le)} à ${px(p.entry)} € · maintenant ${px(pr)} € · stop ${px(p.stop)} € · objectif ${px(p.tp)} €`)}).join(""):`<p class="muted" style="font-size:13px">Aucun trade en cours.</p>`);
+  const os=st.ordres_attente||[]; if(os.length) o+=`<h4 style="margin:10px 0 6px">En attente</h4>`+os.map(x=>row(`${esc(x.sym)} · ${way(x.side)}`,"",`Se déclenche à ${px(x.declencheur)} € · valable jusqu'à ${hm(x.expire_le)}`)).join("");
+  $("digest").innerHTML=o;
+}
 function renderBadge(){
   const e=equityLive(); if(!e) return; const init=S.state.capital_initial; const d=e.eq-init, dp=d/init*100;
   const ps=S.state.positions; const b=$("pnlBadge");
   const st=d>0.005?"win":d<-0.005?"loss":"flat"; b.className=st;
-  b.querySelector(".l1").textContent=ps.length?`Total · ${ps.length} position${ps.length>1?"s":""} en cours`:"Total depuis le départ";
+  const oP=ps.reduce((a,p)=>a+openPnl(p),0);
+  b.querySelector(".l1").textContent="Total depuis le départ";
+  b.querySelector(".l4").textContent=`Terminés ${sgn(d-oP)} · En cours ${sgn(oP)}`;
   const txt=sgn(d); if(S.lastBadge&&S.lastBadge!==txt){ b.classList.remove("bump"); void b.offsetWidth; b.classList.add("bump"); } S.lastBadge=txt;
   b.querySelector(".l2").textContent=txt;
   b.querySelector(".l3").textContent=pctS(dp);
-  const pend=ps.map(guide).join("");
+  const pend=ps.map(guide).join(""); renderDigest();
   $("pnlBody").innerHTML=`<p class="muted" style="font-size:13px;margin-bottom:10px">Tous les montants sont frais déduits. Depuis le départ (${eur(init,0)} fictifs), frais compris : <b class="${cls(d)}">${sgn(d)} (${pctS(dp)})</b>. Valeur actuelle : <b>${eur(e.eq)}</b>.</p>`+(pend||`<div class="empty">Aucune position ouverte. Le comité attend une bonne occasion.</div>`);
   const pv=pendingView();
   $("pnlBody").innerHTML+=pv;
