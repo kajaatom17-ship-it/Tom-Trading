@@ -33,7 +33,7 @@ jobs:
             git add docs/data archive
             if ! git diff --cached --quiet; then
               git commit -m "tick $(date -u +%H:%M)Z" -q
-              for j in 1 2 3; do git push -q && break; git pull --rebase -q -X theirs || true; done
+              for j in 1 2 3; do git push -q && break; git pull --rebase --autostash -q -X theirs || { git rebase --abort 2>/dev/null; git reset -q --hard origin/main 2>/dev/null; } ; done
             fi
             [ "$i" = "4" ] || sleep 45
           done
