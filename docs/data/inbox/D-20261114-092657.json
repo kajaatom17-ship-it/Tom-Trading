@@ -1,0 +1,108 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "XRP (short ouvert) 0,8959 €, sous EMA20 (0,8985) et EMA50 (0,9060) 15 min, tendance 1 h baissière, RSI 42,9, volume 0,44x : la baisse respire mais la structure tient. BTC 60 964 €, baissier 1 h, RSI 46. Seul candidat du scanner : INJ long TPB-1, score 55, RR net 1,52, alerte « contre la tendance de BTC », MACD encore négatif (-0,007).",
+   "donnees": "Brief Kraken 2026-11-14 09:26 UTC (11:26 Paris), scanner 09:18 UTC"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Samedi : pas de publication majeure. Contexte du 13/11 : prix à la production +6,5 % annualisé, responsables Fed évoquant une hausse de taux, rendements américains à 5 %, Nasdaq en chute (Nvidia, AMD). Aucune actualité sourcée de moins de 24 h propre à INJ ou XRP : recherches web sans catalyseur daté. Pas d'OPP-1.",
+   "sources": [
+    "Marketplace.org - The AI boom has handed the Fed an inflation problem - 13/11/2026 22:15 UTC",
+    "CFO Dive - Producer prices surge at 6.5% annual pace as Fed officials signal hike - 13/11/2026 21:18 UTC",
+    "Yahoo Finance - Stock Market Midday, Nov. 13 - 13/11/2026 17:35 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 13 (peur extrême), dominance BTC 58,8 %, capitalisation totale -4,64 % sur 24 h. En peur extrême, les rebonds sont violents dans les deux sens ; les altcoins suivent BTC.",
+   "donnees": "sentiment 08:58 UTC"
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE, SHIB, PEPE, TRUMP, WIF, BONK, PENGU tous entre -2,3 % et -4,1 % sur 24 h, tendance 1 h baissière. WIF (volume 13x, RSI 31,8) et BONK (volume 7x) ont des volumes anormaux mais sur des carnets très fins (volume 24 h ~44 000 €, spread 0,15-0,17 %) : pas d'entrée. Pas de bougie verticale, pas de mèche d'épuisement exploitable pour un short."
+  },
+  "trader": {
+   "proposition": "Garder le short XRP (stop au prix d'entrée). Pas de nouvelle entrée : INJ rejeté.",
+   "pour": [
+    "INJ : tendance 1 h haussière, +5,77 % sur 24 h, volume 2x"
+   ],
+   "contre": [
+    "Contre la tendance de BTC",
+    "RR net 1,52, juste au-dessus du seuil de 1,5",
+    "MACD encore négatif",
+    "Week-end, liquidité faible, macro hawkish"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "INJ long : RR net 1,52 trop juste après frais et glissement, contre BTC baissier, sans argument fort. Garder XRP : perte maximale nulle depuis le stop remonté à l'entrée."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "XRP short : 0,8959 contre une entrée à 0,9110, stop à 0,9038 (point mort), objectif 0,868. RSI 42,9, volume 0,44x : pas d'épuisement vendeur net. BTC reste baissier 1 h (60 964, RSI 46)."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "analyste_technique",
+   "message": "Rien ne casse le scénario baissier : PPI à +6,5 % annualisé, rendements à 5 % et propos de hausse de taux de la Fed hier soir. Pas de publication prévue ce samedi, calendrier vide."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_macro",
+   "message": "Fear & Greed à 13 et capitalisation -4,64 % : le marché est déjà très vendeur. Garder le short est cohérent, mais un rebond violent est possible ; le stop au point mort protège."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "repond_a": "analyste_sentiment",
+   "message": "Aucun memecoin propre. WIF a un volume 13x mais seulement 44 000 € sur 24 h, spread 0,15 % : trop fin. DOGE (RSI 44, volume 0,57x) n'a ni impulsion ni épuisement."
+  },
+  {
+   "agent": "trader",
+   "message": "Je garde XRP. Seul candidat : INJ long TPB-1, entrée 7,29, stop 7,178, objectif 7,627, RR net 1,52, score 55."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "Je conteste INJ : le MACD 15 min est encore à -0,007, la reprise n'est pas confirmée, et l'alerte « contre la tendance de BTC » est active. Le setup est correct mais fragile."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "trader",
+   "message": "Aucun catalyseur sourcé pour INJ dans les dernières 24 h (recherches web sans résultat daté). Acheter un altcoin le samedi avec la Fed hawkish est un pari sans argument."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_macro",
+   "message": "Admis. Avec un RR à 1,52, le moindre glissement fait passer sous 1,5. Je retire la proposition INJ."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Refus d'INJ : RR 1,52, contre BTC, liquidité du week-end. XRP : perte maximale nulle depuis le stop au prix d'entrée, on garde. Ne rien faire est la bonne décision."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Le short XRP est à +2,51 € latent, son stop est au point mort : plus de perte possible.",
+   "Marché en peur extrême (13), BTC baissier, Fed hawkish, samedi calme.",
+   "Aucun memecoin propre, aucun catalyseur daté pour une OPP-1."
+  ],
+  "desaccords": [
+   "L'analyste technique et l'analyste macro ont contesté INJ ; le Trader a retiré sa proposition."
+  ],
+  "decision": "On garde XRP et on n'ouvre aucune nouvelle position.",
+  "a_surveiller": [
+   "XRP : cassure sous 0,8884 (plus bas 12 h) ou retour au-dessus de 0,9038",
+   "INJ : MACD 15 min positif et BTC qui se stabilise",
+   "Reprise des marchés actions lundi"
+  ]
+ },
+ "synthese": "On garde le pari à la baisse sur XRP, déjà protégé, et on n'ajoute rien car INJ est trop juste et va contre le marché.",
+ "id": "D-20261114-092657",
+ "cree_le": "2026-11-14T09:26:57Z"
+}
