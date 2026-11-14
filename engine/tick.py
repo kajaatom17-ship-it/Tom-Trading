@@ -52,6 +52,13 @@ def close_position(cfg, state, p, exit_px, reason, when=None, maker=False):
     return trade
 
 
+def net_if_closed(cfg, p, exit_px, maker=False):
+    """Gain ou perte net (frais d'entrée, de sortie et de financement compris) si on ferme à exit_px."""
+    rate = cfg["frais"]["maker_pct"] if maker else cfg["frais"]["taker_pct"]
+    fee = p["qty"] * exit_px * rate / 100
+    return position_value(p, exit_px) - p["notionnel"] - fee - p["frais_entree"] - p.get("rollover", 0)
+
+
 def partial_close(cfg, state, p, frac, exit_px, reason, when, maker=True):
     """Encaisse une partie de la position ; le reste continue."""
     part = dict(p)
@@ -134,12 +141,21 @@ def manage_positions(cfg, state, tk):
                         closed = True; break
                 if p.get("runner"):
                     runner_step(cfg, p, c)
+            if p.get("fermer_si_positif"):
+                px = c["c"] * (1 + slip / 100) if p["side"] == "short" else c["c"] * (1 - slip / 100)
+                if net_if_closed(cfg, p, px) >= p.get("seuil_gain_eur", 0.05):
+                    close_position(cfg, state, p, px, "fermé dès le gain (demandé par Tom)", when); closed = True; break
             p["verifie_jusqu_a"] = iso(now_utc().fromtimestamp(c["t"] + 60, tz=now_utc().tzinfo))
         if closed:
             continue
         t = tk.get(p["sym"])
         if t:
             p["dernier_prix"] = t["last"]
+            if p.get("fermer_si_positif"):
+                px = t["bid"] * (1 - slip / 100) if p["side"] == "long" else t["ask"] * (1 + slip / 100)
+                if net_if_closed(cfg, p, px) >= p.get("seuil_gain_eur", 0.05):
+                    close_position(cfg, state, p, px, "fermé dès le gain (demandé par Tom)")
+                    continue
         # frais de financement simules pour les shorts (emprunt de l'actif)
         if p["side"] == "short":
             hours = (now_utc() - parse_iso(p["ouvert_le"])).total_seconds() / 3600
@@ -349,6 +365,11 @@ def execute_decision(cfg, state, prop, tk):
             return {"statut": "refuse", "motifs": ["Un stop ne peut que se resserrer et doit rester du bon côté du prix."]}
         old = pos["stop"]; pos["stop"] = new
         log_event("Execution", "stop", f"{pos['sym']} : stop resserré de {rp(old)} a {rp(new)}")
+        return {"statut": "execute"}
+    if action == "fermer_si_positif":
+        pos["fermer_si_positif"] = True
+        pos["seuil_gain_eur"] = float(prop.get("seuil_gain_eur", 0.05))
+        log_event("Execution", "consigne", f"{pos['sym']} : fermeture automatique dès que le gain net dépasse {pos['seuil_gain_eur']:.2f} € (consigne de Tom).")
         return {"statut": "execute"}
     if action == "set_target":
         new = float(prop["tp"])

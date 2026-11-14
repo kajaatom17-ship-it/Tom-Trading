@@ -310,5 +310,17 @@ check("objectif collé au prix refusé", dec.get("S3") == "refuse", str(dec))
 check("objectif rapproché accepté", dec.get("S4") == "execute", str(dec))
 check("objectif mis à jour dans la position", [p["tp"] for p in core.load("state.json", None)["positions"] if p["sym"] == "SOL"] == [93.0])
 
+# 16. fermeture automatique dès le gain (consigne de Tom)
+PRICES["SOL"] = 99.0   # encore en perte (frais)
+drop({"id": "F1", "action": "fermer_si_positif", "sym": "SOL", "origine": "tom"})
+run()
+check("consigne enregistrée", [p.get("fermer_si_positif") for p in core.load("state.json", None)["positions"] if p["sym"] == "SOL"] == [True])
+check("pas fermé tant que le gain net est négatif", any(p["sym"] == "SOL" for p in core.load("state.json", None)["positions"]))
+PRICES["SOL"] = 97.5   # gain net positif après frais
+run()
+check("fermé dès que le gain net est positif", not any(p["sym"] == "SOL" for p in core.load("state.json", None)["positions"]))
+tr = [t for t in core.load("trades.json", []) if t["sym"] == "SOL"]
+check("trade fermé avec gain net > 0", bool(tr) and tr[-1]["pnl_net"] > 0 and "Tom" in tr[-1]["raison_sortie"], str(tr[-1:] ))
+
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)
