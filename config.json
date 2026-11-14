@@ -17,7 +17,7 @@
  "risque": {
   "risque_par_trade_pct": 1.0,
   "max_entrees_par_jour": 3,
-  "max_positions_ouvertes": 4,
+  "max_positions_ouvertes": 5,
   "rr_net_min": 1.5,
   "notionnel_max_pct_par_tier": {
    "A": 30,
@@ -433,6 +433,25 @@
    "cassure_ratee_atr": 1.0,
    "fenetre_h": 3,
    "note": "Une position BRK-1 qui revient de 1 ATR contre nous dans les 3 h est fermée tout de suite : la cassure a échoué. Perte divisée par deux par rapport au stop."
+  },
+  "impulsion": {
+   "actif": true,
+   "actifs": "memecoins",
+   "bougie_min": 5,
+   "nb_bougies": 3,
+   "mouvement_min_pct": 2.5,
+   "exces_max_pct": 15,
+   "volume_x": 3.0,
+   "cloture_pres_extreme": 0.3,
+   "stop_part_impulsion": 0.5,
+   "objectif_part_impulsion": 2.0,
+   "risque_par_trade_pct": 0.5,
+   "max_par_jour": 3,
+   "duree_max_h": 2,
+   "eteinte_apres_min": 30,
+   "encaisse_a_R": 1.0,
+   "part_encaissee": 0.5,
+   "note": "Impulsion violente sur un memecoin (3 bougies de 5 min, volume x3) : entrée immédiate dans le sens du mouvement, stop à la moitié de l'impulsion, moitié encaissée à +1R, sortie si l'impulsion s'éteint en 30 min."
   }
  },
  "focus": {
@@ -454,18 +473,33 @@
   "slippage_annonce_pct": 0.3
  },
  "memecoins": {
-  "risque_par_trade_pct": 0.4,
-  "max_positions": 1,
-  "notionnel_max_pct": 6,
-  "budget_total_pct": 6,
-  "perte_jour_max_pct": 1.0,
+  "risque_par_trade_pct": 0.5,
+  "max_positions": 2,
+  "notionnel_max_pct": 12,
+  "budget_total_pct": 15,
+  "perte_jour_max_pct": 1.5,
   "duree_max_h": 6,
   "ajouts": {
-   "max_total": 12,
-   "max_par_jour": 2,
+   "max_total": 40,
+   "max_par_jour": 8,
    "volume_24h_min_eur": 40000,
    "spread_max_pct": 0.5
   },
-  "max_entrees_par_jour": 1
+  "max_entrees_par_jour": 3
+ },
+ "chasseur": {
+  "actif": true,
+  "intervalle_min": 5,
+  "seuil_variation_jour_pct": 5.0,
+  "seuil_variation_jour_actions_pct": 2.5,
+  "seuil_tendance_pct": 3.0,
+  "volume_min_eur": 40000,
+  "spread_max_pct": 0.5,
+  "candidats_analyses": 8,
+  "max_ajouts_par_jour": 6,
+  "duree_vie_jours": 3,
+  "inclure_actions": true,
+  "mouvement_min_actions_pct": 1.2,
+  "note": "Scanne toutes les cryptos en euros et toutes les actions xStocks de Kraken. Les actifs qui explosent ou s'effondrent sont ajoutés tout seuls à l'univers, puis le spécialiste entre sur l'impulsion et sort vite."
  }
 }

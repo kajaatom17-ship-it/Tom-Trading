@@ -38,6 +38,9 @@ tick.ohlc = fake_ohlc
 tick.scan = lambda cfg: {"t": core.iso(), "btc_trend_1h": "neutre", "candidats": [], "indicateurs": {}}
 tick.sentiment = lambda m: {}
 tick.time.sleep = lambda s: None
+_chasseur = tick.chasseur_scan
+tick.chasseur_scan = lambda *a, **k: None   # désactivé sauf dans son propre test (pas de réseau)
+tick.trending_symbols = lambda state: []
 
 
 def run():
@@ -264,21 +267,24 @@ drop({"id": "M1", "action": "open", "sym": "PEPE", "side": "long", "stop": 97.0,
 run()
 st = core.load("state.json", None); pm = [p for p in st["positions"] if p["sym"] == "PEPE"]
 check("memecoin ouvert", len(pm) == 1, str(core.load("decisions.json", [])[-1].get("resultat")))
-check("risque memecoin réduit (≤ 0,4 % du capital)", pm and pm[0]["risque_eur"] <= 0.004 * 505 + 0.05, str(pm and pm[0]["risque_eur"]))
-check("mise memecoin plafonnée (≤ 6 % du capital)", pm and pm[0]["notionnel"] <= 0.06 * 505 + 0.5, str(pm and pm[0]["notionnel"]))
+MC = cfg["memecoins"]
+check("risque memecoin réduit (≤ budget)", pm and pm[0]["risque_eur"] <= MC["risque_par_trade_pct"] / 100 * 505 + 0.05, str(pm and pm[0]["risque_eur"]))
+check("mise memecoin plafonnée (≤ budget)", pm and pm[0]["notionnel"] <= MC["notionnel_max_pct"] / 100 * 505 + 0.5, str(pm and pm[0]["notionnel"]))
 check("durée max memecoin ≤ 6 h", pm and pm[0]["duree_max_h"] <= 6, str(pm and pm[0]["duree_max_h"]))
-drop({"id": "M2", "action": "open", "sym": "DOGE", "side": "long", "stop": 97.0, "tp": 109.0, "entry_ref": 100.0, "strategie": "TPB-1",
-      "agents": AGENTS_OK, "synthese": "test"})
-run()
-d = core.load("decisions.json", [])[-1]
-check("2e memecoin refusé (1 max)", d["id"] == "M2" and d["resultat"]["statut"] != "execute", str(d["resultat"]))
-st = core.load("state.json", None); st["positions"] = []; core.save("state.json", st)
-drop({"id": "M3", "action": "open", "sym": "WIF", "side": "long", "stop": 97.0, "tp": 109.0, "entry_ref": 100.0, "strategie": "TPB-1",
-      "agents": AGENTS_OK, "synthese": "test"})
-run()
-d = core.load("decisions.json", [])[-1]
+for i, sym in enumerate(("DOGE", "WIF", "BONK"), start=2):
+    drop({"id": f"M{i}", "action": "open", "sym": sym, "side": "long", "stop": 97.0, "tp": 109.0, "entry_ref": 100.0, "strategie": "TPB-1",
+          "agents": AGENTS_OK, "synthese": "test"})
+    run()
+res = {x["id"]: x["resultat"] for x in core.load("decisions.json", []) if x["id"] in ("M2", "M3", "M4")}
+check("2e memecoin accepté (max positions %d)" % MC["max_positions"], res["M2"]["statut"] == "execute", str(res["M2"]))
+check("memecoin au-delà du maximum de positions refusé", res["M3"]["statut"] != "execute" and any("position" in m for m in res["M3"].get("motifs", [])), str(res["M3"]))
 check("memecoin ne consomme pas les 3 entrées normales", core.load("state.json", None)["entrees_par_jour"].get(core.paris_day(), 0) == 0)
-check("1 seule entrée memecoin par jour", d["id"] == "M3" and d["resultat"]["statut"] != "execute" and any("entrée memecoin" in m for m in d["resultat"].get("motifs", [])), str(d["resultat"]))
+st = core.load("state.json", None); st["positions"] = []; st["entrees_meme_par_jour"] = {core.paris_day(): MC["max_entrees_par_jour"]}; core.save("state.json", st)
+drop({"id": "M5", "action": "open", "sym": "WIF", "side": "long", "stop": 97.0, "tp": 109.0, "entry_ref": 100.0, "strategie": "TPB-1",
+      "agents": AGENTS_OK, "synthese": "test"})
+run()
+d = core.load("decisions.json", [])[-1]
+check("limite d'entrées memecoin par jour respectée", d["id"] == "M5" and d["resultat"]["statut"] != "execute" and any("entrée memecoin" in m for m in d["resultat"].get("motifs", [])), str(d["resultat"]))
 
 tick.kraken = lambda m, p=None: {"NEWEUR": {"altname": "NEWEUR", "quote": "ZEUR", "status": "online"}}
 drop({"id": "AJ1", "action": "ajouter_actif", "sym": "NEW", "pair": "NEWEUR", "nom": "New Coin", "cat": "Emergent",
@@ -294,7 +300,7 @@ check("config de l'interface mise à jour", any(a["sym"] == "NEW" for a in json.
 # 15. objectif rapproché sur demande : seulement vers le prix, du côté du gain
 st = core.load("state.json", None); st["positions"] = []; st["entrees_meme_par_jour"] = {}; st["entrees_par_jour"] = {}; core.save("state.json", st)
 core.save("trades.json", [])
-st = core.load("state.json", None); st["equity_debut_jour"] = {core.paris_day(): st["cash"]}; st["cash"] = 500.0; core.save("state.json", st)
+st = core.load("state.json", None); st["cash"] = 500.0; st["equity_debut_jour"] = {core.paris_day(): 500.0}; st["pic_equity"] = 500.0; st["coupe_circuit"] = False; core.save("state.json", st)
 PRICES["SOL"] = 100.0
 drop({"id": "S1", "action": "open", "sym": "SOL", "side": "short", "stop": 104.0, "tp": 88.0, "entry_ref": 100.0, "strategie": "TPB-1", "agents": AGENTS_OK, "synthese": "test"})
 run()
@@ -348,6 +354,71 @@ PRICES["NEAR"] = 3.04   # +0,04 > 1 ATR (0,0247) contre le short, mais sous le s
 run()
 tr = [t for t in core.load("trades.json", []) if t["sym"] == "NEAR"]
 check("sortie rapide : cassure ratée fermée avant le stop", bool(tr) and "cassure ratée" in tr[-1]["raison_sortie"] and tr[-1]["pnl_net"] > -3.7, str(tr[-1:]))
+
+# 18. spécialiste memecoins : entrée rapide sur impulsion, moitié encaissée à +1R, sortie si l'impulsion s'éteint
+def mk(closes_vols):
+    base = int(time.time()) - 60 * 5 * len(closes_vols)
+    out = []; prev = closes_vols[0][0]
+    for i, (c, v) in enumerate(closes_vols):
+        hi = max(prev, c) * (1.0005 if c >= prev else 1.0); lo = min(prev, c) * (1.0 if c >= prev else 0.9995)
+        out.append({"t": base + 300 * i, "o": prev, "h": hi, "l": lo, "c": c, "v": v}); prev = c
+    return out
+st = core.load("state.json", None); st["positions"] = []; st["cash"] = 500.0; st["impulsion_par_jour"] = {}; st["entrees_meme_par_jour"] = {}; st["entrees_par_jour"] = {}
+st["pic_equity"] = 500.0; st["coupe_circuit"] = False; st["garde_par_jour"] = {}
+st["equity_debut_jour"] = {core.paris_day(): 500.0}; core.save("state.json", st); core.save("trades.json", [])
+tick.scan = lambda cfg: {"t": core.iso(), "btc_trend_1h": "neutre", "candidats": [], "indicateurs": {}}
+flat = [(0.0570, 100)] * 40
+imp = [(0.0562, 600), (0.0553, 700), (0.0540, 900)]            # -5,3 % en 15 min, volume très fort, clôture sur le plus bas
+CANDLES["XDGEUR"] = mk(flat + imp + [(0.0540, 50)])
+PRICES["DOGE"] = 0.0540
+run()
+pd = [p for p in core.load("state.json", None)["positions"] if p["sym"] == "DOGE"]
+check("entrée rapide du spécialiste memecoins sur impulsion", len(pd) == 1 and pd[0]["side"] == "short" and pd[0]["strategie"] == "MOM-1", str(core.load("decisions.json", [])[-1:] ))
+# le prix continue de baisser : +1R -> moitié encaissée
+if pd:
+    risk_px = abs(pd[0]["entry"] - pd[0]["stop_initial"])
+    PRICES["DOGE"] = pd[0]["entry"] - 1.2 * risk_px
+    CANDLES["XDGEUR"] = []
+    run()
+    tr = [t for t in core.load("trades.json", []) if t["sym"] == "DOGE"]
+    pd2 = [p for p in core.load("state.json", None)["positions"] if p["sym"] == "DOGE"]
+    check("moitié encaissée à +1R", bool(tr) and "encaissé" in tr[-1]["raison_sortie"] and tr[-1]["pnl_net"] > 0 and len(pd2) == 1, str(tr[-1:]))
+# impulsion trop faible : pas d'entrée
+st = core.load("state.json", None); st["positions"] = []; st["cash"] = 500.0; st["impulsion_par_jour"] = {}; st["entrees_meme_par_jour"] = {}; core.save("state.json", st)
+CANDLES["XDGEUR"] = mk(flat + [(0.0569, 120), (0.0568, 120), (0.0567, 120), (0.0567, 50)])
+PRICES["DOGE"] = 0.0567
+run()
+check("pas d'entrée sur un petit mouvement", not any(p["sym"] == "DOGE" for p in core.load("state.json", None)["positions"]))
+
+# 19. chasseur de mouvements : repère une crypto hors univers qui explose, l'ajoute, entre vite
+tick.chasseur_scan = _chasseur
+def raw(last, op, vol_units, bid, ask):
+    return {"c": [str(last)], "b": [str(bid)], "a": [str(ask)], "o": str(op), "h": ["0", str(last)], "l": ["0", str(op)], "v": ["0", str(vol_units)], "p": ["0", str(last)]}
+def fake_kraken(method, params=None):
+    params = params or {}
+    if method == "AssetPairs":
+        if params.get("aclass_base"):
+            return {}
+        return {"ZZZEUR": {"altname": "ZZZEUR", "quote": "ZEUR", "status": "online", "base": "ZZZ"},
+                "USDTEUR": {"altname": "USDTEUR", "quote": "ZEUR", "status": "online", "base": "USDT"}}
+    if method == "Ticker":
+        return {"ZZZEUR": raw(0.0100, 0.0080, 8e6, 0.00999, 0.01001), "USDTEUR": raw(0.86, 0.859, 9e9, 0.8599, 0.8601)}
+    raise AssertionError(method)
+tick.kraken = fake_kraken
+st = core.load("state.json", None); st["positions"] = []; st["cash"] = 500.0; st["impulsion_par_jour"] = {}; st["entrees_meme_par_jour"] = {}
+st["pic_equity"] = 500.0; st["coupe_circuit"] = False; st.pop("chasseur_t", None); core.save("state.json", st)
+core.save("univers_ajouts.json", [])
+core.save("trades.json", [])
+CANDLES["ZZZEUR"] = mk([(0.0094, 100)] * 40 + [(0.0096, 600), (0.0098, 700), (0.0100, 900)] + [(0.0100, 50)])
+PRICES["ZZZ"] = 0.0100
+run()
+aj = core.load("univers_ajouts.json", [])
+check("chasseur : crypto hors univers ajoutée automatiquement", [a["sym"] for a in aj] == ["ZZZ"] and aj[0].get("auto") and aj[0]["cat"] == "Emergent", str(aj))
+check("chasseur : stablecoin ignoré", "USDT" not in [a["sym"] for a in aj])
+pz = [p for p in core.load("state.json", None)["positions"] if p["sym"] == "ZZZ"]
+check("chasseur : entrée rapide long sur l'impulsion", len(pz) == 1 and pz[0]["side"] == "long" and pz[0]["strategie"] == "MOM-1", str(core.load("decisions.json", [])[-1:]))
+ch = core.load("chasseur.json", {})
+check("chasseur : rapport écrit pour le comité", ch.get("candidats") and ch["candidats"][0]["sym"] == "ZZZ" and ch["candidats"][0]["impulsion"], str(ch))
 
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

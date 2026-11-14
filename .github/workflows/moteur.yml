@@ -18,20 +18,22 @@ permissions:
 jobs:
   tick:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 9
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Tick du moteur (prix Kraken publics, aucun ordre reel)
-        run: python engine/tick.py
-      - name: Sauvegarde de l'etat
+      - name: Moteur en boucle (un passage par minute pendant ~4 min, aucun ordre reel)
         run: |
           git config user.name "moteur-paper"
           git config user.email "moteur-paper@users.noreply.github.com"
-          git add docs/data archive
-          git diff --cached --quiet && exit 0
-          git commit -m "tick $(date -u +%H:%M)Z" -q
-          for i in 1 2 3; do git push -q && exit 0; git pull --rebase -q -X theirs || true; done
-          exit 1
+          for i in 1 2 3 4; do
+            if [ "$i" = "1" ]; then python engine/tick.py; else python engine/tick.py --no-scan; fi
+            git add docs/data archive
+            if ! git diff --cached --quiet; then
+              git commit -m "tick $(date -u +%H:%M)Z" -q
+              for j in 1 2 3; do git push -q && break; git pull --rebase -q -X theirs || true; done
+            fi
+            [ "$i" = "4" ] || sleep 45
+          done

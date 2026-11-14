@@ -64,6 +64,10 @@ def main():
     out["memecoins"] = [{"sym": s, "prix": tk[s]["last"], "chg_24h_pct": tk[s]["chg_pct"], "spread_pct": tk[s]["spread_pct"],
                          "vol_24h_eur": round(tk[s]["vol_eur"]), "indicateurs_15m": sig.get("indicateurs", {}).get(s)}
                         for s in memes if s in tk]
+    ch = load("chasseur.json", {})
+    out["chasseur_de_mouvements"] = {"t": ch.get("t"), "nb_actifs_analyses": ch.get("nb_analyses"), "tendance_reseaux": ch.get("tendance"),
+                                     "candidats": ch.get("candidats", [])[:8], "ajoutes_automatiquement": ch.get("ajoutes", []),
+                                     "note": "Cryptos et actions Kraken hors univers qui bougent beaucoup. Ceux avec une impulsion sont ajoutés et traités seuls par le moteur. Pour en ajouter un dont on parle (réseaux, actualité), utiliser l'action ajouter_actif."}
     out["derniers_trades"] = load("trades.json", [])[-5:]
     out["dernieres_decisions"] = [{"id": d["id"], "action": d.get("action"), "sym": d.get("sym"),
                                    "synthese": d.get("synthese"), "resultat": d.get("resultat", {}).get("statut")}

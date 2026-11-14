@@ -5,6 +5,7 @@ Usage local : python engine/tick.py [--no-scan]
 """
 import glob
 import json
+import math
 import re
 import os
 import shutil
@@ -14,7 +15,7 @@ import urllib.request
 from datetime import timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from core import (costs_roundtrip_pct, is_meme, ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
+from core import (_row as _row_public, eurusd, costs_roundtrip_pct, is_meme, ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
                   now_utc, ohlc, pair_of, paris_day, parse_iso, position_value, r2, rp, save, tickers, tier_of)
 from risk import check_open
 from strategy import analyse, signals
@@ -284,10 +285,11 @@ def add_asset(cfg, prop, dry=False):
     alt = None
     if not problems:
         try:
-            res = kraken("AssetPairs", {"pair": pair})
+            stock_pair = pair.endswith("XUSD") or pair.endswith("xUSD")
+            res = kraken("AssetPairs", {"pair": pair, **({"aclass_base": "tokenized_asset"} if stock_pair else {})})
             v = next(iter(res.values()))
             alt = v.get("altname", pair)
-            if v.get("quote") not in ("ZEUR", "EUR"):
+            if v.get("quote") not in ("ZEUR", "EUR") and not (stock_pair and v.get("quote") == "ZUSD"):
                 problems.append("La paire n'est pas cotée en euros sur Kraken.")
             if v.get("status", "online") != "online":
                 problems.append(f"Paire non disponible (statut : {v.get('status')}).")
@@ -577,13 +579,240 @@ def guard_protect(cfg, state, tk):
             log_event("Trader de garde", "protection", f"{p['sym']} : stop {rp(old)} → {rp(new)}. {why}.")
 
 
+def impulse_signal(cs, I, min_move=None):
+    """Détecte une impulsion violente sur des bougies fermées. Retourne {side, move, ratio, size, c1} ou None."""
+    nb = I.get("nb_bougies", 3)
+    if len(cs) < nb + 12:
+        return None
+    last = cs[-nb:]; prev = cs[-nb - 24:-nb]
+    o0, c1 = last[0]["o"], last[-1]["c"]
+    if not o0:
+        return None
+    move = (c1 - o0) / o0 * 100
+    if abs(move) < (min_move or I.get("mouvement_min_pct", 2.5)) or abs(move) > I.get("exces_max_pct", 15):
+        return None
+    side = "long" if move > 0 else "short"
+    vol3 = sum(x["v"] for x in last)
+    avg3 = (sum(x["v"] for x in prev) / max(1, len(prev))) * nb
+    if avg3 <= 0 or vol3 < I.get("volume_x", 3.0) * avg3:
+        return None
+    lc = last[-1]; rng = lc["h"] - lc["l"]
+    if rng <= 0:
+        return None
+    pos_close = (lc["c"] - lc["l"]) / rng
+    ext = I.get("cloture_pres_extreme", 0.3)
+    if (side == "long" and pos_close < 1 - ext) or (side == "short" and pos_close > ext):
+        return None  # la dernière bougie a rendu une partie du mouvement : l'impulsion s'éteint déjà
+    return {"side": side, "move": move, "ratio": vol3 / avg3, "size": abs(c1 - o0), "c1": c1}
+
+
+def momentum_entry(cfg, state, tk, only=None):
+    """Impulsion violente sur un memecoin ou une crypto/action émergente : entrée immédiate, sans attendre le comité."""
+    G = cfg.get("trader_de_garde", {})
+    I = G.get("impulsion", {})
+    if not G.get("actif") or not I.get("actif") or state.get("coupe_circuit"):
+        return
+    day = paris_day()
+    if state.get("impulsion_par_jour", {}).get(day, 0) >= I.get("max_par_jour", 3):
+        return
+    held = {p["sym"] for p in state["positions"]}
+    pending = {o["sym"] for o in state.get("ordres_attente", [])}
+    nb = I.get("nb_bougies", 3)
+    for a in cfg["univers"]:
+        sym = a["sym"]
+        if not is_meme(cfg, sym) or sym in held or sym in pending or sym not in tk or (only is not None and sym not in only):
+            continue
+        try:
+            cs = ohlc(a["pair"], I.get("bougie_min", 5), now_utc().timestamp() - 3 * 3600)
+            time.sleep(0.4)
+        except KrakenError:
+            continue
+        stock = a["pair"].endswith("xUSD")
+        sig = impulse_signal(cs[:-1], I, cfg.get("chasseur", {}).get("mouvement_min_actions_pct") if stock else None)
+        if not sig:
+            continue
+        side, move, size = sig["side"], sig["move"], sig["size"]
+        t = tk[sym]
+        entry = t["ask"] if side == "long" else t["bid"]
+        stop = entry - I.get("stop_part_impulsion", 0.5) * size if side == "long" else entry + I.get("stop_part_impulsion", 0.5) * size
+        tp = entry + I.get("objectif_part_impulsion", 2.0) * size if side == "long" else entry - I.get("objectif_part_impulsion", 2.0) * size
+        prop = {"id": f"M-{now_utc().strftime('%Y%m%d-%H%M%S')}-{sym}", "action": "open", "sym": sym, "side": side, "strategie": "MOM-1",
+                "entry_ref": entry, "atr": size, "stop": rp(stop), "tp": rp(tp), "duree_max_h": I.get("duree_max_h", 2),
+                "risque_pct_override": I.get("risque_par_trade_pct", 0.5),
+                "agents": {"specialiste_memecoins": {"avis": "favorable", "resume": f"Impulsion {move:+.1f} % en {nb * I.get('bougie_min', 5)} min, volume x{sig['ratio']:.1f}."},
+                           "risk_manager": {"verdict": "valide", "motif": "Règles automatiques (budget memecoins)."}},
+                "synthese": f"Le spécialiste a agi seul : impulsion {move:+.1f} % sur {sym}, volume x{sig['ratio']:.1f}. À contrôler à la prochaine réunion."}
+        ok, reasons, sizing = check_open(cfg, state, prop, t, {s2: x["last"] for s2, x in tk.items()})
+        if not ok:
+            if os.environ.get("TD_DEBUG"):
+                print("MOM refus", sym, reasons)
+            continue
+        pid = open_position(cfg, state, prop, sizing)
+        for p in state["positions"]:
+            if p["id"] == pid:
+                p["mom"] = True; p["impulsion"] = size
+        state.setdefault("impulsion_par_jour", {})[day] = state.get("impulsion_par_jour", {}).get(day, 0) + 1
+        prop["resultat"] = {"statut": "execute", "position_id": pid, "prix": rp(sizing["fill"]), "risque_eur": r2(sizing["risque_eur"])}
+        prop["cree_le"] = prop["traite_le"] = iso()
+        decisions = load("decisions.json", []); decisions.append(prop); save("decisions.json", decisions[-500:])
+        log_event("Spécialiste memecoins", "entrée rapide", f"{sym} {side} sur impulsion {move:+.1f} % (volume x{sig['ratio']:.1f}), risque {sizing['risque_eur']:.2f} €.")
+        return
+
+
+STABLES = {"USDT", "USDC", "DAI", "PYUSD", "EURT", "EURR", "USD1", "RLUSD", "USDG", "TUSD", "FDUSD", "EUROP", "EURC", "XUSD", "USDQ"}
+
+
+def trending_symbols(state):
+    """Cryptos les plus recherchées du moment (CoinGecko, public, sans clé) : un indice de ce dont on parle."""
+    last = state.get("tendance_t")
+    if last and (now_utc() - parse_iso(last)).total_seconds() < 3500:
+        return state.get("tendance", [])
+    try:
+        req = urllib.request.Request("https://api.coingecko.com/api/v3/search/trending", headers={"User-Agent": "trading-desk-paper"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            syms = [c["item"]["symbol"].upper() for c in json.loads(r.read().decode()).get("coins", [])]
+    except Exception:
+        syms = state.get("tendance", [])
+    if syms and syms != state.get("tendance"):
+        log_event("Chasseur de mouvements", "tendance", "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : " + ", ".join(syms[:8]))
+    state["tendance"] = syms; state["tendance_t"] = iso()
+    return syms
+
+
+def chasseur_scan(cfg, state, tk):
+    """Agent Chasseur de mouvements : scrute toutes les cryptos en euros et toutes les actions xStocks de Kraken,
+    ajoute celles qui explosent ou s'effondrent à l'univers, puis laisse le spécialiste entrer sur l'impulsion."""
+    C = cfg.get("chasseur", {})
+    if not C.get("actif"):
+        return
+    last = state.get("chasseur_t")
+    if last and (now_utc() - parse_iso(last)).total_seconds() < C.get("intervalle_min", 5) * 60 - 20:
+        return
+    state["chasseur_t"] = iso()
+    known_pairs = {a["pair"] for a in cfg["univers"]}
+    known_syms = {a["sym"] for a in cfg["univers"]}
+    trend = set(trending_symbols(state))
+    rows = []
+    try:
+        ap = kraken("AssetPairs", {})
+        eur = {k: v for k, v in ap.items() if v.get("quote") in ("ZEUR", "EUR") and v.get("status") == "online"}
+        names = {k: v["altname"] for k, v in eur.items()}
+        for k, v in kraken("Ticker", {}).items():
+            if k in eur and names[k] not in known_pairs:
+                row = _row_public(v)
+                sym = names[k][:-3] if names[k].endswith("EUR") else names[k]
+                if sym in STABLES or sym in known_syms:
+                    continue
+                rows.append({"sym": sym, "pair": names[k], "stock": False, **row})
+    except KrakenError as e:
+        log_event("Chasseur de mouvements", "erreur", f"Cryptos indisponibles : {str(e)[:100]}")
+    if C.get("inclure_actions"):
+        try:
+            fx = eurusd()
+            ap = kraken("AssetPairs", {"aclass_base": "tokenized_asset"})
+            xs = {k: v for k, v in ap.items() if v.get("status") == "online" and v.get("altname", "").endswith("xUSD") and k == v.get("altname")}
+            if xs:
+                for k, v in kraken("Ticker", {"pair": ",".join(xs), "asset_class": "tokenized_asset"}).items():
+                    if k in xs and xs[k]["altname"] not in known_pairs:
+                        sym = xs[k]["altname"][:-4]
+                        if sym in known_syms:
+                            continue
+                        rows.append({"sym": sym, "pair": xs[k]["altname"], "stock": True, **_row_public(v, fx)})
+        except KrakenError as e:
+            log_event("Chasseur de mouvements", "erreur", f"Actions indisponibles : {str(e)[:100]}")
+    cands = []
+    for r in rows:
+        if r["vol_eur"] < C.get("volume_min_eur", 40000) or r["spread_pct"] > C.get("spread_max_pct", 0.5):
+            continue
+        seuil = C.get("seuil_variation_jour_actions_pct", 2.5) if r["stock"] else C.get("seuil_variation_jour_pct", 5.0)
+        if r["sym"] in trend:
+            seuil = min(seuil, C.get("seuil_tendance_pct", 3.0))
+        if abs(r["chg_pct"]) >= seuil:
+            r["tendance"] = r["sym"] in trend
+            r["score"] = abs(r["chg_pct"]) * math.log10(max(10, r["vol_eur"]))
+            cands.append(r)
+    cands.sort(key=lambda r: -r["score"])
+    top = cands[:C.get("candidats_analyses", 8)]
+    I = cfg.get("trader_de_garde", {}).get("impulsion", {})
+    day = paris_day()
+    extra = load("univers_ajouts.json", [])
+    n_jour = sum(1 for e in extra if e.get("auto") and paris_day(parse_iso(e["ajoute_le"])) == day)
+    out = []; added = []
+    for r in top:
+        entry = {"sym": r["sym"], "pair": r["pair"], "action": r["stock"], "variation_24h_pct": r["chg_pct"], "volume_24h_eur": r["vol_eur"],
+                 "spread_pct": r["spread_pct"], "tendance": r["tendance"], "impulsion": None}
+        try:
+            cs = ohlc(r["pair"], I.get("bougie_min", 5), now_utc().timestamp() - 3 * 3600)
+            time.sleep(0.4)
+            sig = impulse_signal(cs[:-1], I, C.get("mouvement_min_actions_pct") if r["stock"] else None) if I else None
+        except KrakenError:
+            sig = None
+        if sig:
+            entry["impulsion"] = {"sens": sig["side"], "mouvement_pct": round(sig["move"], 2), "volume_x": round(sig["ratio"], 1)}
+            if n_jour < C.get("max_ajouts_par_jour", 6):
+                prop = {"sym": r["sym"], "pair": r["pair"], "nom": r["sym"], "cat": "Emergent",
+                        "raison": f"Impulsion {sig['move']:+.1f} % en 15 min, volume x{sig['ratio']:.1f}, variation du jour {r['chg_pct']:+.1f} %" + (" ; sur la liste des cryptos tendance" if r["tendance"] else ""),
+                        "source": "Kraken (scan automatique du chasseur de mouvements)"}
+                res = add_asset(cfg, prop)
+                if res.get("statut") == "execute":
+                    n_jour += 1; added.append(r["sym"])
+                    extra2 = load("univers_ajouts.json", [])
+                    for e in extra2:
+                        if e["sym"] == r["sym"]:
+                            e["auto"] = True
+                    save("univers_ajouts.json", extra2)
+        out.append(entry)
+    save("chasseur.json", {"t": iso(), "nb_analyses": len(rows), "nb_en_mouvement": len(cands), "tendance": sorted(trend), "candidats": out,
+                           "ajoutes": added})
+    if out:
+        top3 = ", ".join(f"{e['sym']} {e['variation_24h_pct']:+.1f} %" for e in out[:3])
+        log_event("Chasseur de mouvements", "scan", f"{len(rows)} actifs hors univers analysés, {len(cands)} en mouvement : {top3}" + (f". Ajoutés : {', '.join(added)}." if added else "."))
+    if added:
+        cfg2 = config()
+        new_tk = tickers([a for a in cfg2["univers"] if a["sym"] in added])
+        tk.update(new_tk)
+        momentum_entry(cfg2, state, tk, only=set(added))
+    # ménage : les actifs ajoutés automatiquement disparaissent après quelques jours s'ils ne sont pas utilisés
+    keep, drop_n = [], 0
+    used = {p["sym"] for p in state["positions"]} | {o["sym"] for o in state.get("ordres_attente", [])}
+    for e in load("univers_ajouts.json", []):
+        old = (now_utc() - parse_iso(e["ajoute_le"])).total_seconds() > C.get("duree_vie_jours", 3) * 86400
+        if e.get("auto") and old and e["sym"] not in used:
+            drop_n += 1
+        else:
+            keep.append(e)
+    if drop_n:
+        save("univers_ajouts.json", keep)
+
+
 def guard_exit(cfg, state, tk):
     """Sortie rapide : une cassure (BRK-1) qui échoue est coupée tout de suite, sans attendre le stop."""
     G = cfg.get("trader_de_garde", {})
     X = G.get("sortie_rapide", {})
     if not G.get("actif") or not X.get("actif"):
         return
+    I = G.get("impulsion", {})
     for p in list(state["positions"]):
+        if p.get("mom") and I.get("actif"):
+            t = tk.get(p["sym"])
+            if not t:
+                continue
+            slip = cfg["frais"]["slippage_pct_par_tier"][tier_of(cfg, p["sym"])]
+            fx = t["bid"] * (1 - slip / 100) if p["side"] == "long" else t["ask"] * (1 + slip / 100)
+            age_min = (now_utc() - parse_iso(p["ouvert_le"])).total_seconds() / 60
+            risk_px = abs(p["entry"] - p["stop_initial"])
+            gain_R = ((t["last"] - p["entry"]) if p["side"] == "long" else (p["entry"] - t["last"])) / risk_px if risk_px else 0
+            if not p.get("moitie_prise") and gain_R >= I.get("encaisse_a_R", 1.0):
+                be = p["entry"] * (1 + 2 * cfg["frais"]["taker_pct"] / 100) if p["side"] == "long" else p["entry"] * (1 - 2 * cfg["frais"]["taker_pct"] / 100)
+                part = I.get("part_encaissee", 0.5)
+                p["moitie_prise"] = True
+                p["stop"] = max(p["stop"], be) if p["side"] == "long" else min(p["stop"], be)
+                partial_close(cfg, state, p, part, fx, "gain encaissé vite (+1R)", iso(), maker=False)
+                log_event("Spécialiste memecoins", "encaisse", f"{p['sym']} : moitié encaissée à +{gain_R:.1f}R, stop au prix d'entrée pour le reste.")
+            elif age_min >= I.get("eteinte_apres_min", 30) and net_if_closed(cfg, p, fx) <= 0:
+                log_event("Spécialiste memecoins", "sortie rapide", f"{p['sym']} : l'impulsion s'est éteinte après {age_min:.0f} min sans gain. Fermeture.")
+                close_position(cfg, state, p, fx, "impulsion éteinte : sortie rapide")
+            continue
         if p.get("strategie") != "BRK-1":
             continue
         t = tk.get(p["sym"])
@@ -661,6 +890,8 @@ def scan(cfg):
     btc_trend = "neutre"
     candles, books = {}, {}
     for a in cfg["univers"]:
+        if a.get("cat") == "Emergent":  # suivis par le chasseur de mouvements, pas par le scanner lent
+            continue
         try:
             c = ohlc(a["pair"], 15)
             ind = analyse(c)
@@ -751,6 +982,14 @@ def main():
     write_ui_config()  # un actif ajouté pendant ce passage apparaît tout de suite dans l'application
     guard_exit(cfg, state, tk)
     guard_protect(cfg, state, tk)
+    try:
+        momentum_entry(cfg, state, tk)
+    except Exception as e:
+        log_event("Spécialiste memecoins", "erreur", str(e)[:150])
+    try:
+        chasseur_scan(cfg, state, tk)
+    except Exception as e:
+        log_event("Chasseur de mouvements", "erreur", str(e)[:150])
 
     eq = equity(state, prices)
     state["pic_equity"] = max(state["pic_equity"], eq)
