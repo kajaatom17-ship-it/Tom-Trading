@@ -13,32 +13,32 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-14T17:30:43Z",
+ "maj": "2026-11-14T17:56:38Z",
  "seq": 6,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T17:26:54Z",
+ "chasseur_t": "2026-11-14T17:56:31Z",
  "tendance": [
   "BTC",
   "HYPE",
-  "KAVA",
-  "TAO",
   "ETH",
+  "KAVA",
+  "UNI",
   "PEARL",
   "XRP",
-  "AVAX",
-  "UNI",
-  "ZEC",
-  "SUI",
+  "NEAR",
   "SOL",
-  "LIT",
-  "AERO",
-  "PENGU"
+  "TAO",
+  "INJ",
+  "LINK",
+  "QTC",
+  "AAVE",
+  "QNT"
  ],
- "tendance_t": "2026-11-14T16:56:41Z",
+ "tendance_t": "2026-11-14T17:56:31Z",
  "buzz": {
   "AGI": {
    "source": "Reddit",
@@ -60,17 +60,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SOL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LHX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -80,12 +70,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DAL": {
+  "LHX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "QNT": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -95,17 +85,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "JASMY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "CASHCAT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SMMT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "QNT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -115,31 +105,50 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
+  "TRUMP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PEPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XLM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T17:26:55Z",
- "sources_t": "2026-11-14T17:27:01Z",
+ "buzz_t": "2026-11-14T17:56:32Z",
+ "sources_t": "2026-11-14T17:56:36Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
+   "mentions": 11,
    "sentiment": "bearish",
    "titres": [
-    "Strategy’s Michael Saylor proposes $10B-$30B digital credit plan",
-    "Bitcoin's $65K Test: Breakdown or Reclaim?"
+    "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+    "WILL BITCOIN SWEEP THE REALIZED PRICE OF $53K?"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 4,
+   "sujet": "ETF",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
+    "Bitcoin Hits Extreme Fear — Could $65K Trigger a Recovery?"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "四家非营利组织起诉 OpenAI 等五家 AI 公司，要求冻结模型开发",
-    "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze"
+    "Binance says stolen crypto has been replaced but some customers have to wait",
+    "BNB -6.85% to 585.58, 1.98x normal range: 622.41 is the lid"
    ]
   },
   {
@@ -148,16 +157,24 @@
    "sentiment": "bearish",
    "titres": [
     "Bitcoin's $65K Test: Breakdown or Reclaim?",
-    "Coinbase Reveals the True Why BTC Price Is Falling"
+    "Bitcoin’s $67,000 crash puts $57 billion holder cluster at risk as ETF investors flee"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "AI",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Crypto Pundit to XRP Holders: It’s Time To Face Reality. Here’s why",
-    "Technical Analyst Warns XRP Could Revisit $0.60 Before Any Run"
+    "四家非营利组织起诉 OpenAI 等五家 AI 公司，要求冻结模型开发",
+    "OpenAI, Anthropic, Google and Other AI Giants Face Lawsuit Demanding Development Freeze"
+   ]
+  },
+  {
+   "sujet": "Avalanche",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding"
    ]
   },
   {
@@ -169,27 +186,11 @@
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BNB -6.85% to 585.58, 1.98x normal range: 622.41 is the lid"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana Confirms Breakpoint 2026 Speakers Including London"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "My Idea on $BTC Final Flush and next bull run."
+    "Crypto Pundit to XRP Holders: It’s Time To Face Reality. Here’s why"
    ]
   }
  ],
