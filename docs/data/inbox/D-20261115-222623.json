@@ -1,0 +1,109 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "TAO short : prix 176,14 €, stop 178,22 € (à ~1,2 %), objectif 161,07 €. Sur 15 min, RSI 53,2 en baisse (54,2), MACD en baisse, volume très faible (x0,07), tendance 1 h baissière. Le scanner ne propose que OP et RENDER en short TPB-1, avec RR net 0,96 et 0,80 : sous le seuil de 1,5.",
+   "donnees": "brief engine/brief.py, 2026-11-15 22:25 UTC (23:25 Paris), Kraken"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Titres du brief (flux presse, 15/11 vers 21:45 UTC) : Benzinga « Crypto Market Loses $750 Billion ... ETF Demand Fades and Liquidations Surge », bloomingbit « $1.71 Billion in Liquidations ». Ce sont des faits de presse, non vérifiés par nous. Mes recherches web de ce soir n'ont pas donné de calendrier daté fiable pour lundi 16/11 : je n'ajoute aucun événement à l'agenda sans source confirmée. Actions fermées le dimanche.",
+   "sources": [
+    "Benzinga - Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - 2026-11-15 21:45 UTC - via brief",
+    "bloomingbit - Crypto Market Loses $130 Billion as Bitcoin Slump Triggers $1.71 Billion in Liquidations - 2026-11-15 21:45 UTC - via brief"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,39 %, capitalisation totale -2,93 % sur 24 h. En peur extrême, les rebonds sont violents : le short TAO peut être secoué, d'où le stop.",
+   "donnees": "brief sentiment 21:57 UTC"
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE RSI 52,8, volume x1,77, tendance 1 h baissière, pas de cassure. PEPE RSI 35,9 sous l'EMA20 mais volume x0,61 : pas d'impulsion. TRUMP spread 0,115 %, volume 24 h ~108 k€. WIF et BONK : volume 24 h ~30 k€, sous le minimum de 40 k€. Aucun signal propre."
+  },
+  "trader": {
+   "proposition": "Garder TAO short tel quel ; aucune nouvelle entrée.",
+   "pour": [
+    "Tendance 1 h baissière, marché en peur extrême",
+    "Stop en place : perte max connue"
+   ],
+   "contre": [
+    "TAO +5,47 % sur 24 h, position en perte latente de 1,37 €",
+    "Volume 15 min quasi nul"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse toute nouvelle entrée",
+   "motif": "3 entrées sur 3 déjà utilisées aujourd'hui ; les deux candidats ont un RR net sous 1,5 ; aucun memecoin n'a de signal propre."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "TAO short à 176,14 €, stop 178,22 €. RSI 15 min 53,2 contre 54,2 avant, MACD en baisse, tendance 1 h baissière : le scénario TPB-1 tient encore."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed est à 10. En peur extrême les rebonds sont brutaux, et TAO est déjà à +5,47 % sur 24 h : je ne ferais pas confiance au scénario baissier sans le stop."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Le flux de presse parle de liquidations et de sorties des ETF (Benzinga, bloomingbit, 21:45 UTC). C'est un fait de presse non vérifié par nous. Je n'ai pas de calendrier confirmé pour lundi, donc je n'invente rien."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Rien de propre : DOGE RSI 52,8 sans cassure, PEPE volume x0,61, WIF et BONK sous 40 k€ de volume 24 h. Aucun mouvement poursuivable."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder le short TAO, sans changer le stop (178,22) ni l'objectif (161,07), et de ne rien ouvrir."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Pourquoi ne pas resserrer le stop, vu la perte latente de -1,37 € ? Et OP ou RENDER ne valent-ils pas un essai ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Resserrer sans raison, c'est se faire sortir par le bruit : le volume 15 min est à x0,07, le prix n'a rien cassé. OP (RR net 0,96) et RENDER (0,80) sont sous 1,5, je ne les propose pas."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "D'accord pour TAO. Le plus haut 12 h est à 177,92 €, le stop à 178,22 € est juste au-dessus : si ce niveau casse, le scénario est invalidé."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "specialiste_memecoins",
+   "message": "Je suis d'accord, aucun memecoin n'est assez propre. Je précise que la peur extrême ne suffit pas pour entrer : il faut du volume."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : on garde TAO. Nouvelle entrée refusée : quota de 3 entrées atteint, RR net des candidats sous 1,5, aucun memecoin avec signal."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Position TAO short gardée : prix 176,14 €, stop 178,22 €, objectif 161,07 €, perte latente -1,37 €.",
+   "Marché en peur extrême (indice 10), presse sur liquidations et sorties des ETF crypto (non vérifié par nous).",
+   "Les deux candidats du scanner (OP, RENDER) ont un gain/risque net sous 1,5 ; aucun memecoin n'a de signal."
+  ],
+  "desaccords": [
+   "Analyste sentiment : prudent sur TAO car les rebonds sont violents en peur extrême. Trader : on garde, le stop suffit."
+  ],
+  "decision": "Ne rien faire : on garde le short TAO et on n'ouvre rien de nouveau.",
+  "a_surveiller": [
+   "TAO au-dessus de 177,92 € puis 178,22 € : le scénario est invalidé",
+   "Un volume qui revient sur les memecoins",
+   "Un calendrier confirmé pour lundi 16/11"
+  ]
+ },
+ "synthese": "On garde le short TAO et on n'ouvre rien : le quota du jour est atteint et aucun candidat n'est assez rentable après frais.",
+ "id": "D-20261115-222623",
+ "cree_le": "2026-11-15T22:26:23Z"
+}
