@@ -6075,5 +6075,117 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T04:27:27Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Scanner : aucun candidat. BTC 59 000 €, tendance 1 h baissière, RSI 56, clôture 15 min au-dessus de l'EMA20 (58 524) mais sous le plus haut 12 h (60 100), volume 0,21x la normale : rebond sans conviction dans une tendance baissière. KNTQ long : 0,2253 contre entrée 0,2169, stop 0,2187 (au-dessus de l'entrée), objectif 0,2412.",
+    "donnees": "brief engine/brief.py, 2026-11-15 04:56 UTC (05:56 Paris), Kraken public"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Dimanche : bourses US fermées, calendrier du brief vide. Ma recherche web n'a renvoyé que des pages mélangées (semaines 2025, pages d'aperçu sans dates vérifiables) : aucune annonce datée et confirmée pour lundi 16/11/2026, donc rien déposé à l'agenda. Fait (brief, presse) : Bloomberg 15/11 04:01 UTC « Bitcoin à un plus bas de trois mois, liquidations en hausse ». Interprétation : vente forcée déjà largement exécutée.",
+    "sources": [
+     "Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate - Bloomberg - 2026-11-15 04:01 UTC (brief)",
+     "Recherche web 2026-11-15 : calendrier semaine du 16/11 non confirmé par une source officielle datée"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -6,43 % sur 24 h, dominance BTC 58,61 %. Alertes de +5 % en 1 h sur ETH, SOL, XRP, FET, NEAR vers 03:00 UTC : rebond de panique, fragile. Buzz réseaux sans chiffres : aucune preuve.",
+    "donnees": "brief 04:56 UTC"
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "DOGE 0,0533 (RSI 57,9, volume 0,18x), PEPE 3,58e-06 (volume 0,13x), SHIB volume 1,96x mais seulement 83 658 € sur 24 h et spread 0,11 %. TRUMP spread 0,23 % (limite 0,30 %), volume 0. Tous rebondissent sous l'EMA50 en tendance 1 h baissière : pas de retour sur zone ni de cassure avec volume, rien de poursuivable."
+   },
+   "trader": {
+    "proposition": "Garder KNTQ ; pas de nouvelle entrée. Un short de rebond sur ETH ou SOL (touche EMA20 15 min, RSI 61 / 57) est possible sur le papier mais le volume est trop faible pour valider un BRK-1 ou un TPB-1.",
+    "pour": [
+     "Tendance 1 h baissière sur tous les majeurs",
+     "ETH RSI 61,5 : rebond étiré"
+    ],
+    "contre": [
+     "Volumes 15 min à 0,08 à 0,45x la normale",
+     "Le short ADA de cette nuit a pris son stop (-2,56 €) après une entrée en pleine panique",
+     "Peur extrême : rebonds violents dans les deux sens"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Aucune nouvelle entrée : pas de signal propre, RR net non démontré. KNTQ gardée : stop au-dessus du prix d'entrée, perte impossible sauf glissement. Exposition faible (cash 477 € sur 503 €)."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Scanner vide. BTC 59 000 €, RSI 56, volume 0,21x : rebond mou sous le plus haut 12 h (60 100). Rien de propre."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Dimanche, bourses US fermées, calendrier vide. Ma recherche web ne donne aucune annonce datée et confirmée pour lundi : je ne dépose rien plutôt qu'inventer une date. Seul fait : Bloomberg, plus bas de trois mois sur BTC avec liquidations."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_macro",
+    "message": "Cohérent : Fear & Greed 10, capi totale -6,43 % sur 24 h. Les +5 % en 1 h sur ETH, SOL, XRP sont des rebonds de panique, pas un retournement."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "DOGE volume 0,18x, PEPE 0,13x, SHIB 1,96x mais 83 658 € sur 24 h seulement. Rien de poursuivable, rien à shorter proprement : pas de mèche d'épuisement, juste du vide."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "ETH touche l'EMA20 15 min avec RSI 61,5 sous une tendance 1 h baissière : je pensais à un short de rebond, stop au-dessus de 1 667, objectif 3R."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "Je conteste : volume ETH 0,27x, il n'y a ni TPB-1 (pas de reprise MACD, MACD_h 8,7 en baisse) ni BRK-1 (pas de cassure du bas 12 h à 1 556)."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Le short ADA de cette nuit a pris son stop (-2,56 €) pour une entrée en pleine panique. Même scénario : en peur extrême, les rebonds sont violents. Je m'oppose."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "Entendu. Je retire la proposition ; sur KNTQ, +0,97 € latent, stop 0,2187 au-dessus de l'entrée, je garde jusqu'à l'objectif 0,2412."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Aucun signal ne passe RR net 1,5 avec ce volume. Je valide : garder KNTQ, aucune nouvelle entrée. Je ne valide pas pour faire tourner le portefeuille."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Positions : seule KNTQ (long) est ouverte, +0,97 € latent, stop remonté au-dessus de l'entrée : on la garde.",
+    "Marché : peur extrême (indice 10), BTC 59 000 €, tendance 1 h baissière, rebonds sans volume.",
+    "Dimanche : bourses US fermées, aucune annonce lundi confirmée par une source datée, donc rien ajouté à l'agenda.",
+    "Mémecoins : volumes quasi nuls, rien de poursuivable."
+   ],
+   "desaccords": [
+    "Le Trader voyait un short de rebond sur ETH ; la technique (volume 0,27x, pas de signal) et le sentiment (short ADA stoppé cette nuit) l'ont contesté, il a retiré l'idée."
+   ],
+   "decision": "Garder KNTQ et ne prendre aucune nouvelle entrée.",
+   "a_surveiller": [
+    "Cassure du plus bas 12 h de BTC (56 388) avec volume >= 1,8x",
+    "Calendrier macro de lundi à confirmer par une source officielle",
+    "KNTQ vers 0,2412 (objectif) ou retour sur 0,2187 (stop)"
+   ]
+  },
+  "synthese": "On garde la petite position KNTQ et on ne prend rien de nouveau : le marché est en panique, les rebonds manquent de volume et aucun trade n'offre un bon rapport gain/risque.",
+  "id": "D-20261115-045706",
+  "cree_le": "2026-11-15T04:57:06Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T04:58:14Z"
  }
 ]
