@@ -1,0 +1,99 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 58 667 €, tendance 1 h baissière, RSI 38,1, volume 0,66x. TAO short (entrée 173,76, prix 173,36, stop 178,22, objectif 161,07) : RSI 43,9, volume 0,26x, pas de signal de retournement. Seul candidat propre du scanner : NVDA short (RR net 2,13, score 60), mais jeton xStocks un dimanche, séance fermée.",
+   "donnees": "Brief Kraken 18:56 UTC (19:56 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Titres du brief : BTC au plus bas depuis juillet après la chute du week-end (Investing.com, 15 nov 15:34 UTC) ; MSTR sorti de l'indice MSCI (Yahoo Finance, 15 nov 17:28 UTC) ; piratage Binance/DeFi (Altcoin Buzz, 15 nov 17:12 UTC) ; résultats Nvidia attendus cette semaine (MarketWatch, 15 nov 15:00 UTC). Mes 2 recherches web n'ont pas donné de date officielle fiable : je n'ajoute rien à l'agenda.",
+   "sources": [
+    "Bitcoin hovers near $65,000 after weekend selloff to lowest since July - Investing.com - 15 nov 15:34 UTC",
+    "Nvidia is gearing up for one of Wall Street's most anticipated earnings calls in years - MarketWatch - 15 nov 15:00 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,3 %, capitalisation totale -4,68 % sur 24 h. En peur extrême les rebonds sont brusques : risque pour notre short."
+  },
+  "trader": {
+   "proposition": "Garder TAO short sans toucher au stop. Pas de nouvelle entrée : entrées du jour 3/3.",
+   "pour": [
+    "Tendance 1 h baissière générale",
+    "Stop 178,22 inchangé, perte max fixée à l'entrée"
+   ],
+   "contre": [
+    "Rebond possible en peur extrême",
+    "Volume TAO faible (0,26x)"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Position unique, pnl latent +0,23 €. Aucun serrage justifié, objectif loin. Pas de nouvelle entrée : quota atteint, et les candidats memecoins ont un volume trop faible (SHIB 0,57x, PEPE 0,33x, WIF 0x)."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 58 667 €, RSI 38,1, tendance 1 h baissière. TAO short : prix 173,36 vs entrée 173,76, RSI 43,9, volume 0,26x. Rien ne casse le scénario."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Aucune alerte « contre nous » sur TAO. Le marché digère la chute du week-end (BTC plus bas depuis juillet) et le piratage Binance/DeFi ; Nvidia cette semaine, mais pas de date confirmée par mes recherches."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed 10, capi totale -4,68 % sur 24 h. En peur extrême un rebond brusque est possible, donc le short TAO n'est pas sans risque."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Rien de propre. DOGE RSI 47, volume 0,8x ; SHIB 0,57x ; PEPE 0,33x ; WIF 0x ; TRUMP volume 2,17x mais spread 0,234 %, RSI 36,3, déjà bas. Pas d'impulsion ni d'épuisement exploitable."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je garde TAO : stop 178,22, objectif 161,07, pnl latent +0,23 €. Je ne propose pas NVDA short (RR net 2,13) : séance fermée le dimanche, volume jeton quasi nul."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "D'accord sur NVDA, mais l'argument décisif est le quota : 3 entrées sur 3 utilisées. Et les 3 derniers stops (ADA, HYPE, SKY) ont pris -1R : je ne force rien."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "specialiste_memecoins",
+   "message": "TRUMP à 2,17x de volume te tente-t-il ? À RSI 36 et -3,39 % sur 24 h, ce serait un short tardif."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "repond_a": "analyste_sentiment",
+   "message": "Non : déjà sous l'EMA20 avec RSI 36,3, spread 0,234 % proche du plafond 0,30 %. Short tardif, pas de trade."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : TAO gardé, aucune nouvelle entrée. Valide la décision none."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "TAO short toujours ouvert : prix 173,36 pour une entrée à 173,76, gain latent +0,23 €, stop 178,22 et objectif 161,07 inchangés.",
+   "Marché en peur extrême (indice 10), BTC en tendance baissière sur 1 h.",
+   "Aucun candidat exploitable : NVDA est un jeton fermé le dimanche, les memecoins n'ont pas de volume, les cryptos du scanner ont un RR net sous 1,5."
+  ],
+  "desaccords": [
+   "Le sentiment craint un rebond brusque en peur extrême, mais ne demande pas de fermer TAO car le stop protège."
+  ],
+  "decision": "On garde TAO short et on n'ouvre rien de nouveau.",
+  "a_surveiller": [
+   "Rebond de BTC au-dessus de 59 000 € (haut récent 59 016)",
+   "Ouverture de Wall Street lundi : NVDA short si le signal tient",
+   "Résultats Nvidia cette semaine, date à confirmer"
+  ]
+ },
+ "synthese": "On garde le short TAO et on n'ouvre rien de nouveau : le quota du jour est atteint et aucun candidat n'est assez solide.",
+ "id": "D-20261115-185629",
+ "cree_le": "2026-11-15T18:56:29Z"
+}
