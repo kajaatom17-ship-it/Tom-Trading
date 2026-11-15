@@ -1,35 +1,5 @@
 [
  {
-  "t": "2026-11-14T16:56:58Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "INJ -5.85 % en 1 h"
- },
- {
-  "t": "2026-11-14T16:57:57Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
-  "t": "2026-11-14T17:26:49Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On n'ouvre rien : le marché a déjà beaucoup chuté, il n'y a aucun bon signal et rester en cash vaut mieux que de forcer un trade."
- },
- {
-  "t": "2026-11-14T17:26:55Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AGI, AVAX, BTC, CASHCAT, DAL, DOGE, DOT, ETH, HBAR, JASMY, LHX, LTC"
- },
- {
-  "t": "2026-11-14T17:27:01Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "460 actifs hors univers analysés, 40 en mouvement : KNTQ -24.2 %, USELESS -16.7 %, UNI -12.5 %."
- },
- {
   "t": "2026-11-14T17:56:27Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2654,5 +2624,35 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-15T21:27:26Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde le short TAO (perte latente -0,54 €, stop en place) et on n'ouvre rien : le quota d'entrées du jour est atteint et aucun candidat n'est assez solide."
+ },
+ {
+  "t": "2026-11-15T21:27:32Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MACCA, MIHAO, IMD, DACITYCOIN, GATO, BTC, ASTER, PENGU"
+ },
+ {
+  "t": "2026-11-15T21:27:32Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : BB.TSX, BTC, DCTH, DOGE, DRTS, ETH, EURUSD, HD, IONS, LTC, MSTR, NVDA"
+ },
+ {
+  "t": "2026-11-15T21:27:37Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 12 en mouvement : RARE +52.3 %, DRV +23.6 %, VVV +16.7 %."
+ },
+ {
+  "t": "2026-11-15T21:28:53Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : ETH short (TPB-1, 30)"
  }
 ]
