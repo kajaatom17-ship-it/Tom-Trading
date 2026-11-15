@@ -2,9 +2,34 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 502.827735834843,
- "positions": [],
- "frais_cumules": 5.598110499221151,
+ "cash": 452.34383115702474,
+ "positions": [
+  {
+   "id": "P0010",
+   "sym": "SKY",
+   "pair": "SKYEUR",
+   "side": "long",
+   "strategie": "MOM-1",
+   "qty": 982.5147920303904,
+   "entry": 0.05117762,
+   "notionnel": 50.28277358348431,
+   "frais_entree": 0.20113109433393722,
+   "stop": 0.049985,
+   "stop_initial": 0.049985,
+   "tp": 0.05531,
+   "risque_eur": 1.5693468056977338,
+   "rr_net": 1.98,
+   "ouvert_le": "2026-11-15T06:26:29Z",
+   "verifie_jusqu_a": "2026-11-15T06:26:29Z",
+   "duree_max_h": 2.0,
+   "decision_id": "M-20261115-062629-SKY",
+   "dernier_prix": 0.051177625,
+   "atr": 0.00213,
+   "mom": true,
+   "impulsion": 0.00213
+  }
+ ],
+ "frais_cumules": 5.799241593555088,
  "pnl_realise": 2.827735834842975,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
@@ -14,15 +39,15 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T06:01:28Z",
- "seq": 9,
+ "maj": "2026-11-15T06:26:37Z",
+ "seq": 10,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T05:57:24Z",
+ "chasseur_t": "2026-11-15T06:26:21Z",
  "tendance": [
   "BTC",
   "SUI",
@@ -57,12 +82,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UPS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TOSHI": {
+  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -72,37 +92,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TOST": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NIGHT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CVS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DAL": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -112,40 +102,75 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "OCUL": {
+  "BCRX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DIS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CVX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SHIB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CART": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ALGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T05:57:25Z",
- "sources_t": "2026-11-15T05:57:30Z",
+ "buzz_t": "2026-11-15T06:26:22Z",
+ "sources_t": "2026-11-15T06:26:29Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 13,
+   "mentions": 11,
    "sentiment": "bearish",
    "titres": [
-    "Analyst: Bitcoin short-term holders' overall loss ratio rises to 73%, trapped positions may continue to suppress rebound",
-    "BTC market cap briefly dropped out of the top 15 global assets"
+    "Flood 晒出 Hyperliquid 仓位：BTC 20 倍多单浮亏超 37 万美元",
+    "矿企 MARA 六周出售 13597 枚 BTC 套现 11 亿美元，用于支付 AI 数据中心费用"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 6,
-   "sentiment": "bearish",
+   "mentions": 4,
+   "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.210847636 | 🚶 0.212831146 | 🚀 0.23411426 Gwei",
-    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
+    "⛽ ETH Gas: 🐢 0.274932143 | 🚶 0.274932143 | 🚀 0.302425357 Gwei",
+    "麻吉大哥五年前以 125 ETH 買的無聊猿，如今以 7.3 ETH 割肉賣出"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "AI helped hackers gain access at 10 unnamed organizations, researchers say",
-    "What Nvidia’s CEO Ouster and Bitcoin Have in Common"
+    "Could universal basic income be part of the solution in an AI economy?",
+    "AI helped hackers gain access at 10 unnamed organizations, researchers say"
    ]
   },
   {
@@ -167,6 +192,14 @@
    ]
   },
   {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "The Bank of Korea increased its holdings of gold ETFs by more than 40% in the third quarter, taking advantage of lower gold prices for strategic allocation."
+   ]
+  },
+  {
    "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
@@ -181,14 +214,6 @@
    "titres": [
     "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
    ]
-  },
-  {
-   "sujet": "Dogecoin",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
-   ]
   }
  ],
  "garde_par_jour": {
@@ -197,10 +222,10 @@
  },
  "entrees_meme_par_jour": {
   "2026-11-14": 1,
-  "2026-11-15": 1
+  "2026-11-15": 2
  },
  "impulsion_par_jour": {
   "2026-11-14": 1,
-  "2026-11-15": 1
+  "2026-11-15": 2
  }
 }

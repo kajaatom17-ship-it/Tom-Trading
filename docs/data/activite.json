@@ -1,79 +1,5 @@
 [
  {
-  "t": "2026-11-13T15:23:33Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[régulation, chute] SEC enforcement plunges, ex-director urges insiders to blow whistle - CoinGeek (CoinGeek)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUWpuVzhfME10QjY2dmZmZUJLWi14MXhUSXJVcXkwc3g1YXh1SkJFbURtZHZIQ2dsWDRTeElYQmVqZFE5QTl5dERrOE5iaVZ0N3doZnFhVWNzbjZDNzZqd3ljdmtWd2hOa3hpNmV3NmFJZHUxSy1ldVFKS285UUhNQ3Z6WUZINm5GRjFGUE9zQ2tXdw?oc=5",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-13T15:23:33Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[liquidations, hausse] Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion (CoinDesk)",
-  "data": {
-   "lien": "https://www.coindesk.com/markets/2026/11/13/bitcoin-hits-12-week-low-as-dollar-rallies-on-interest-rate-outlook-liquidations-top-usd1-6-billion",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-13T15:23:33Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[liquidations, hausse] Bitcoin falls below $70,000 as dollar surges and $1.6 billion liquidated - CoinDesk (CoinDesk)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbmN2SHc5R3NaLW95Rkw4bzdvbzA5NldfS0ZDTFlES0hYZjAwVlBXS2t1bk5ocDJfZjlkS0NmTWFqUjdVWFVmYThReUxyWmFueEU5RXQ4NXZoRGxXS3N1UVc4enJueVdwdlZYc2xSQmtsVnNaZTJWWExFU0s5c1N1YjhJMkpIOGtxSmlQbEpveU44OWxSWUtJVC11R09KQlB4TktFd296RE5RODdicENOemhtZU5YLWxmdWhxc0RZZmt3Y24tN1ZES05vSFM5elVsVGYyNjRkUC00cTg?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-13T15:38:43Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 16 signal(aux) : NVDA short (BRK-1, 75), ADA short (TPB-1, 70), ARB short (TPB-1, 70)"
- },
- {
-  "t": "2026-11-13T15:51:38Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[chute, hausse] Live updates: Bitcoin plunges back towards bear market lows, wiping out late summer rally (CoinDesk)",
-  "data": {
-   "lien": "https://www.coindesk.com/tech/2026/11/13/live-news-bitcoin-drops-below-200-week-moving-average-as-dollar-strength-pressures-risk-assets",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-13T15:52:40Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 16 signal(aux) : ADA short (TPB-1, 70), LINK short (TPB-1, 70), ONDO short (TPB-1, 70)"
- },
- {
-  "t": "2026-11-13T16:01:38Z",
-  "agent": "Execution",
-  "type": "ordre en attente",
-  "msg": "Ordre O0002 : on vend à découvert ADA si le prix passe sous 0.1533 (valable jusqu'à 20:01 UTC)"
- },
- {
-  "t": "2026-11-13T16:01:43Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, résultats] Earnings call transcript: Suncrete Q3 2026 revenue jumps, but guidance cut hits shares (Investing.com)",
-  "data": {
-   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-suncrete-q3-2026-revenue-jumps-but-guidance-cut-hits-shares-93CH-5026119",
-   "actifs": []
-  }
- },
- {
   "t": "2026-11-13T16:01:43Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2756,5 +2682,62 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-15T06:26:15Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne prend aucun trade : le marché est en panique, les volumes sont faibles et aucun signal n'est propre."
+ },
+ {
+  "t": "2026-11-15T06:26:22Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ALGO, AVAX, BCRX, BTC, CAPR, CART, CVX, DIS, DOGE, DVN, GLD, MELANIA"
+ },
+ {
+  "t": "2026-11-15T06:26:25Z",
+  "agent": "Spécialiste memecoins",
+  "type": "ajout actif",
+  "msg": "SKY ajouté à l'univers (catégorie Emergent, budget memecoin) : Impulsion +4.3 % en 15 min, volume x4.0, variation du jour +7.2 %"
+ },
+ {
+  "t": "2026-11-15T06:26:28Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "458 actifs hors univers analysés, 9 en mouvement : VVV +13.2 %, DRV +9.9 %, NIGHT +5.9 %. Ajoutés : SKY."
+ },
+ {
+  "t": "2026-11-15T06:26:29Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "SKY long ouvert à 0.05117762 | 50.28 € engagés | stop 0.049985 | objectif 0.05531 | risque 1.57 EUR",
+  "data": {
+   "id": "P0010"
+  }
+ },
+ {
+  "t": "2026-11-15T06:26:29Z",
+  "agent": "Spécialiste memecoins",
+  "type": "entrée rapide",
+  "msg": "SKY long sur impulsion +4.3 % (volume x4.0), risque 1.57 €."
+ },
+ {
+  "t": "2026-11-15T06:26:40Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, liquidations] Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify - Investing.com (Investing.com)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSXpXdC1Qeng0eEJORnVwaDlIbURad0NMazJVaEtsckhTVWhfemdUdTJ4bzdOQmVhQXNodXlicnJpTVNFQll6TmlVSnNXdmRfTUlCX3JTNllGZ1JqOFQtbU1fSjBsUzVHY2tROUFkOC1UM0JCYTJLOUNwckVNald1VjRxV0ZZeC04cDgyMm1lam1GY1pqTTFjVDRxVFgxQzljMjRUUTNxcnFhbTZxTE5yaG9mR0ctNVpndnBRVnhERG5SQ0E0LWhuTQ?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T06:27:41Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 24 signal(aux) : NEAR short (TPB-1, 70), HYPE short (TPB-1, 70), FET short (TPB-1, 70)"
  }
 ]
