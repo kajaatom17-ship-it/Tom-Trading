@@ -2,82 +2,70 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 452.34383115702474,
+ "cash": 350.4822226446757,
  "positions": [
   {
-   "id": "P0010",
-   "sym": "SKY",
-   "pair": "SKYEUR",
-   "side": "long",
-   "strategie": "MOM-1",
-   "qty": 982.5147920303904,
-   "entry": 0.05117762,
-   "notionnel": 50.28277358348431,
-   "frais_entree": 0.20113109433393722,
-   "stop": 0.049985,
-   "stop_initial": 0.049985,
-   "tp": 0.05531,
-   "risque_eur": 1.5693468056977338,
-   "rr_net": 1.98,
-   "ouvert_le": "2026-11-15T06:26:29Z",
-   "verifie_jusqu_a": "2026-11-15T06:30:00Z",
-   "duree_max_h": 2.0,
-   "decision_id": "M-20261115-062629-SKY",
-   "dernier_prix": 0.05112,
-   "atr": 0.00213,
-   "mom": true,
-   "impulsion": 0.00213
+   "id": "P0011",
+   "sym": "HYPE",
+   "pair": "HYPEEUR",
+   "side": "short",
+   "strategie": "TPB-1",
+   "qty": 2.5273117298039876,
+   "entry": 59.59019,
+   "notionnel": 150.6029861682483,
+   "frais_entree": 0.6024119446729932,
+   "stop": 60.39828,
+   "stop_initial": 60.39828,
+   "tp": 56.28515,
+   "risque_eur": 3.25528840642624,
+   "rr_net": 2.15,
+   "ouvert_le": "2026-11-15T06:57:51Z",
+   "verifie_jusqu_a": "2026-11-15T06:57:51Z",
+   "duree_max_h": 24.0,
+   "decision_id": "D-20261115-065630",
+   "dernier_prix": 59.59019,
+   "atr": 0.4942784
   }
  ],
- "frais_cumules": 5.799241593555088,
- "pnl_realise": 2.827735834842975,
+ "frais_cumules": 6.599821367949255,
+ "pnl_realise": 1.687620757596951,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
   "2026-11-14": 2,
-  "2026-11-15": 1
+  "2026-11-15": 2
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T06:30:24Z",
- "seq": 10,
+ "maj": "2026-11-15T06:58:13Z",
+ "seq": 11,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T06:26:21Z",
+ "chasseur_t": "2026-11-15T06:57:58Z",
  "tendance": [
   "BTC",
-  "SUI",
+  "KAVA",
+  "SOL",
+  "PEARL",
   "HYPE",
   "ETH",
-  "ONDO",
-  "VVV",
-  "NEAR",
+  "KAS",
   "PUMP",
-  "KAVA",
-  "VIRTUAL",
-  "ENA",
-  "SOL",
-  "PEPE",
-  "QTC",
-  "LIT"
+  "AVAX",
+  "QNT",
+  "BNB",
+  "VVV",
+  "DOT",
+  "ADA",
+  "DRV"
  ],
- "tendance_t": "2026-11-15T05:57:24Z",
+ "tendance_t": "2026-11-15T06:57:58Z",
  "buzz": {
   "MELANIA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DVN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -87,37 +75,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "DVN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BCRX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CVX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -127,32 +95,71 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "REGN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GLW": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVAV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CART": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ALGO": {
+  "DRTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NEAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CLX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T06:26:22Z",
- "sources_t": "2026-11-15T06:26:29Z",
+ "buzz_t": "2026-11-15T06:57:59Z",
+ "sources_t": "2026-11-15T06:58:04Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 11,
-   "sentiment": "bearish",
+   "mentions": 14,
+   "sentiment": "neutral",
    "titres": [
-    "Flood 晒出 Hyperliquid 仓位：BTC 20 倍多单浮亏超 37 万美元",
-    "矿企 MARA 六周出售 13597 枚 BTC 套现 11 亿美元，用于支付 AI 数据中心费用"
+    "BTC: Deep Underwater — Can $62.5K Save the Bulls Again?",
+    "BTCUSD | The Liquidity Sweep Before a Potential Recovery"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 5,
+   "sentiment": "neutral",
+   "titres": [
+    "AI models agreed with each other more than with reality in a new test",
+    "Could universal basic income be part of the solution in an AI economy?"
    ]
   },
   {
@@ -160,35 +167,24 @@
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.274932143 | 🚶 0.274932143 | 🚀 0.302425357 Gwei",
-    "麻吉大哥五年前以 125 ETH 買的無聊猿，如今以 7.3 ETH 割肉賣出"
+    "⛽ ETH Gas: 🐢 0.252892179 | 🚶 0.252892179 | 🚀 0.278181396 Gwei",
+    "2027 Cycle Opportunity Emerges: ETH"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 4,
+   "sujet": "DeFi",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Could universal basic income be part of the solution in an AI economy?",
-    "AI helped hackers gain access at 10 unnamed organizations, researchers say"
+    "RWA protocol stUSDT winds down after TVL peak of approximately $2.3 billion"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 2,
+   "sujet": "Binance",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "数据：Hyperliquid 近 24 小时收入升至 391 万美元",
-    "数据：币安近 24 小时爆仓 8 亿美元，占全市场爆仓总额近四成"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana’s “retired” validators still vote with 15% of active stake",
-    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
+    "LA CASA DE PAPEL: BINANCE — SEASON 2 IS ABOUT TO BEGIN!"
    ]
   },
   {
@@ -200,19 +196,19 @@
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
+    "数据：Hyperliquid 近 24 小时收入升至 391 万美元"
    ]
   },
   {
-   "sujet": "Cardano",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
+    "Solana’s “retired” validators still vote with 15% of active stake"
    ]
   }
  ],

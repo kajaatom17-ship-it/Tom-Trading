@@ -1,63 +1,5 @@
 [
  {
-  "t": "2026-11-13T16:01:43Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "INJ +2.71 % en 15 min"
- },
- {
-  "t": "2026-11-13T16:01:43Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "CRCL +1.68 % en 15 min"
- },
- {
-  "t": "2026-11-13T16:02:44Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 1 signal(aux) : MSFT long (BRK-1, 27)"
- },
- {
-  "t": "2026-11-13T16:57:35Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "Le comité ne prend pas de nouveau trade : aucun signal ne rapporte assez par rapport au risque. On garde le pari à la baisse sur PEPE (+1,25 € fictifs) et le piège sur ADA."
- },
- {
-  "t": "2026-11-13T16:57:40Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[banque centrale, géopolitique] US Treasury chief says Fed should not hike rates over energy shock tied to Iran war - Merced Sun-Star (Merced Sun-Star)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBYWmdQSzI0enZDTU14d21jLWhseVEycFlWTC1oVFRmNXJxeFZveEFDQU9hekJlWmdJUG81ZnBib1V0Z3lxLU5ZMzdfVk9aMUNqd2E0U0xmOTlnMTFPRi1RUnRFTGFPelhnMzdWMmRiMi05UkU?oc=5",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-13T16:57:40Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] Hyperbridge Exploit Mints 1B DOT Tokens in Attack, CertiK Reports - CoinMarketCap (CoinMarketCap)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRElzYUhuNzR4Rm9LMGpiLVdFc3RyVEQ1ejNmRGtQMUdTOERGUVJmand6S3RHMXZPYWFLTGtnZ1BXNExiaGtKSm1NcVhnOF9RcDZQMDQwa000THp2cHVvaXdZOGhoZ2ItY2d5aXhEWkx4dWN5TEhCQmMzN0t0SmhPM0ZDQ0JUQXlRdFVFNWloVEZHWFgxUkRoR3lNSW1mUGdlVWxZWTh5OTJZdw?oc=5",
-   "actifs": [
-    "DOT"
-   ]
-  }
- },
- {
-  "t": "2026-11-13T16:57:40Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "AMD -1.52 % en 15 min"
- },
- {
-  "t": "2026-11-13T16:58:43Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 8 signal(aux) : PEPE short (TPB-1, 60), PENGU short (TPB-1, 40), ADA short (TPB-1, 30)"
- },
- {
   "t": "2026-11-13T17:57:58Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2739,5 +2681,65 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 24 signal(aux) : NEAR short (TPB-1, 70), HYPE short (TPB-1, 70), FET short (TPB-1, 70)"
+ },
+ {
+  "t": "2026-11-15T06:57:51Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "HYPE short ouvert à 59.59019 | 150.60 € engagés | stop 60.39828 | objectif 56.28515 | risque 3.26 EUR",
+  "data": {
+   "id": "P0011"
+  }
+ },
+ {
+  "t": "2026-11-15T06:57:52Z",
+  "agent": "Spécialiste memecoins",
+  "type": "sortie rapide",
+  "msg": "SKY : l'impulsion s'est éteinte après 31 min sans gain. Fermeture."
+ },
+ {
+  "t": "2026-11-15T06:57:52Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "SKY long fermé (impulsion éteinte : sortie rapide) à 0.05042362 : -1.14 € net",
+  "data": {
+   "id": "P0010"
+  }
+ },
+ {
+  "t": "2026-11-15T06:57:58Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, KAVA, SOL, PEARL, HYPE, ETH, KAS, PUMP"
+ },
+ {
+  "t": "2026-11-15T06:57:59Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AVAV, AVAX, BTC, CAPR, CLX, DOGE, DRTS, DVN, GLW, IBB, MELANIA, NEAR"
+ },
+ {
+  "t": "2026-11-15T06:58:04Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 7 en mouvement : VVV +12.0 %, STRK +7.4 %, NIGHT +5.9 %."
+ },
+ {
+  "t": "2026-11-15T06:58:17Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[faillite, chute] ‘Don't Wait’—Bitcoin Suddenly In Free Fall As Price ‘Collapse’ Fears Trigger Surprise $2 Trillion Crypto Crash - Forbes (Forbes)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY01Zd3JwVWFzTjBReVVyWEdXT2VDdWJ2cUFwb1ptTTduOXdRbmp2Mjd5eU9fU21kcThub2NDZ2pqNTBOM1VPTTVRY3lqc2NfTFBjS0llSjBrZEpuQVhBa1RiWkV5NnZyX0NuMTZqamhXMkVfVlZJOWttV0dlbVhLYnFtZnAtLTZUNzJnM2ZnRXZvdjI0ejg5cmZ6QUI5QTM4UERnODIzVkZtTTUtbjlJczE0TkRtSGUydUlZc0ZaV3c?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T06:59:19Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 8 signal(aux) : INJ short (TPB-1, 60), PAXG short (TPB-1, 40), ETH short (TPB-1, 30)"
  }
 ]

@@ -6540,5 +6540,125 @@
   },
   "cree_le": "2026-11-15T06:26:29Z",
   "traite_le": "2026-11-15T06:26:29Z"
+ },
+ {
+  "action": "open",
+  "sym": "HYPE",
+  "side": "short",
+  "strategie": "TPB-1",
+  "entry_ref": 59.37,
+  "atr": 0.4942784,
+  "stop": 60.39828,
+  "tp": 56.28515,
+  "duree_max_h": 24,
+  "confiance": "faible à moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "favorable",
+    "resume": "HYPE rejeté sur l'EMA20 15 min, RSI 49,8, MACD en baisse, tendance 1 h baissière, volume 3,71x. RR net 1,71.",
+    "donnees": "Brief Kraken 06:55 UTC, bougies 15 min"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Aucun événement macro daté confirmé. Fait : BTC glisse vers 60 000 $, sorties d'ETF et liquidations (Investing.com, 15/11 06:26 UTC). Interprétation : capitulation possible, rien d'officiel.",
+    "sources": [
+     "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify - Investing.com - 2026-11-15 06:26 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10, capitalisation -6 % sur 24 h. Risque de rebond violent contre un short."
+   },
+   "trader": {
+    "proposition": "HYPE short TPB-1, stop 60,398, objectif 56,285. Garder SKY.",
+    "pour": [
+     "Tendance 1 h baissière",
+     "Rejet sur EMA20, MACD en baisse",
+     "RR net 1,71"
+    ],
+    "contre": [
+     "Peur extrême : rebonds violents",
+     "Rebond de 03:00 UTC monté à 60,11, près du stop"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "RR 1,71, perte max fixée à l'entrée, pas de corrélation gênante. Pari assumé en peur extrême."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "HYPE short TPB-1 : entrée 59,37, EMA20 59,53 et EMA50 59,41 touchées puis rejet, RSI 53,3 → 49,8, MACD -0,018 → -0,067, tendance 1 h baissière, volume 3,71x la normale. Stop 60,398 (au-dessus du haut récent 60,25), objectif 56,285, RR net 1,71."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Dimanche : aucun événement macro confirmé par une source datée pour les prochaines heures, l'agenda reste vide. Fait (Investing.com, 15/11 06:26 UTC) : BTC glisse vers 60 000 $ avec sorties d'ETF et liquidations. Interprétation : pression vendeuse en cours, fin non confirmée. Mes recherches web n'ont rien donné de daté sur la semaine à venir : je n'ajoute rien."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed 10 (peur extrême), capitalisation -6,0 % sur 24 h, dominance BTC 58,6 %. Je m'oppose à un short ici : en peur extrême, les rebonds sont violents. HYPE a pris +5,27 % en 1 h vers 03:00 UTC avant de retomber, preuve que ça rebondit fort.",
+    "repond_a": "analyste_technique"
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "Rien de propre côté memecoins : DOGE RSI 44 volume 0,44x, PEPE volume 0,12x, PENGU spread 0,45 % (> 0,30 %), TRUMP spread 0,23 %. Pas d'entrée. SKY (position du chasseur) est à 0,05069 contre 0,05118 d'entrée, stop 0,049985 : on garde."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose HYPE short TPB-1, entrée 59,37, stop 60,398, objectif 56,285, RR net 1,71, durée 24 h. Pour les positions : garder SKY, le stop protège (perte max 1,57 €).",
+    "repond_a": "analyste_sentiment"
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Mon avocat du diable : le rebond de 03:00 UTC (+5,27 %) a atteint 60,11, très près de ton stop 60,398. Un nouveau rebond te balaie pour 1 % de perte.",
+    "repond_a": "trader"
+   },
+   {
+    "agent": "trader",
+    "message": "Le stop 60,398 est au-dessus du haut récent 60,25 ; le plus haut 12 h est 60,57, donc si HYPE le dépasse le scénario est faux et on sort. La perte est fixée à l'entrée.",
+    "repond_a": "analyste_sentiment"
+   },
+   {
+    "agent": "analyste_technique",
+    "message": "Je précise : le volume 3,71x vient de la chute, pas d'une cassure nette. Le plus bas 12 h est 54,55, l'objectif 56,285 laisse de la marge. Mais ATR 0,49 : le stop est à 2,1 ATR, conforme à TPB-1.",
+    "repond_a": "trader"
+   },
+   {
+    "agent": "risk_manager",
+    "message": "RR 1,71 > 1,5, un seul altcoin short déjà ouvert à ce stade (aucun), corrélation avec SKY long faible. Aucun événement macro daté dans 2 h. Je valide, taille plafonnée par le code, mais c'est un pari en peur extrême : je refuse tout resserrement du stop au-dessus du haut.",
+    "repond_a": "trader"
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "SKY (long du chasseur) : -0,48 € latent, stop à 0,049985 : on garde.",
+    "Seul candidat propre : HYPE short, rejet sur l'EMA20 15 min avec tendance baissière.",
+    "Pas d'événement macro daté confirmé aujourd'hui (dimanche), les actions américaines sont fermées."
+   ],
+   "desaccords": [
+    "Le sentiment s'oppose au short : en peur extrême, les rebonds sont violents."
+   ],
+   "decision": "Short HYPE (TPB-1), stop 60,398, objectif 56,285, RR net 1,71.",
+   "a_surveiller": [
+    "HYPE au-dessus de 60,25 : scénario faux",
+    "Rebond de BTC au-dessus de 59 400",
+    "Sortie d'ETF ou annonce réglementaire"
+   ]
+  },
+  "synthese": "On garde la petite position SKY et on tente un short sur HYPE, qui rebondit puis rechute, avec un stop serré : la perte est limitée si on se trompe.",
+  "id": "D-20261115-065630",
+  "cree_le": "2026-11-15T06:56:30Z",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0011",
+   "prix": 59.59019,
+   "qty": 2.5273117298039876,
+   "notionnel": 150.6,
+   "risque_eur": 3.26,
+   "rr_net": 2.15,
+   "plafonne": true
+  },
+  "traite_le": "2026-11-15T06:57:51Z"
  }
 ]
