@@ -1,39 +1,5 @@
 [
  {
-  "t": "2026-11-13T20:27:13Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "Le comité ne prend pas de nouveau trade : rien ne rapporte assez par rapport au risque. On garde le pari à la baisse sur PEPE (+1,06 € fictifs)."
- },
- {
-  "t": "2026-11-13T20:27:13Z",
-  "agent": "Execution",
-  "type": "expiration",
-  "msg": "Ordre en attente O0002 (ADA) expiré sans être déclenché"
- },
- {
-  "t": "2026-11-13T20:27:16Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, résultats] Earnings call transcript: Grupo Mateus posts mixed Q3 2026 results as shares jump (Investing.com)",
-  "data": {
-   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-grupo-mateus-posts-mixed-q3-2026-results-as-shares-jump-93CH-5026413",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-13T20:28:14Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 2 signal(aux) : ARB short (TPB-1, 30), HYPE long (TPB-1, 15)"
- },
- {
-  "t": "2026-11-13T20:57:23Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "Le comité ne prend pas de nouveau trade : rien ne rapporte assez par rapport au risque et la bourse ferme pour le week-end. On garde le pari à la baisse sur PEPE (+0,81 € fictifs)."
- },
- {
   "t": "2026-11-13T20:57:26Z",
   "agent": "Veille",
   "type": "actu",
@@ -2725,5 +2691,35 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 24 signal(aux) : SUI short (TPB-1, 70), OP short (TPB-1, 70), RENDER short (TPB-1, 70)"
+ },
+ {
+  "t": "2026-11-15T08:57:04Z",
+  "agent": "Garde-fou",
+  "type": "refus",
+  "msg": "SUI short bloqué par les règles du code : Le prix a trop bougé depuis la décision (0.93 ATR) : ordre expiré."
+ },
+ {
+  "t": "2026-11-15T08:57:10Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : HYPE, BTC, KAVA, ETH, SOL, QTC, XRP, BDX"
+ },
+ {
+  "t": "2026-11-15T08:57:10Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : BRUN, BTC, DXYZ, ETH, FLY, ICP, LKNCY, PEP, SIMO, SMMT, T, TAO"
+ },
+ {
+  "t": "2026-11-15T08:57:12Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 1 en mouvement : VVV +12.3 %."
+ },
+ {
+  "t": "2026-11-15T08:58:32Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 8 signal(aux) : ARB short (TPB-1, 70), OP short (TPB-1, 70), DOT short (TPB-1, 40)"
  }
 ]
