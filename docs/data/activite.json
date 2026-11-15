@@ -1,47 +1,5 @@
 [
  {
-  "t": "2026-11-14T17:56:36Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "460 actifs hors univers analysés, 43 en mouvement : KNTQ -20.2 %, USELESS -16.1 %, UNI -12.6 %."
- },
- {
-  "t": "2026-11-14T17:56:41Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "BAT +3.32 % en 15 min"
- },
- {
-  "t": "2026-11-14T18:27:06Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On n'ouvre rien : le marché a déjà beaucoup chuté, aucun signal propre n'apparaît et rester en cash vaut mieux que de forcer un trade."
- },
- {
-  "t": "2026-11-14T18:27:11Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADA, AGI, BTC, CASHCAT, ETH, HBAR, LHX, LUNC, PANW, PDD, PEPE, SMMT"
- },
- {
-  "t": "2026-11-14T18:27:16Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "460 actifs hors univers analysés, 45 en mouvement : USELESS -17.4 %, KNTQ -18.8 %, PUMP -14.2 %."
- },
- {
-  "t": "2026-11-14T18:28:34Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 1 signal(aux) : ARB short (TPB-1, 60)"
- },
- {
-  "t": "2026-11-14T18:56:45Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On n'ouvre rien : le seul signal est arrivé trop tard et rester en espèces vaut mieux que de forcer un trade."
- },
- {
   "t": "2026-11-14T18:56:50Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -2658,5 +2616,57 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 13 signal(aux) : PEPE short (BRK-1, 45), OP short (TPB-1, 40), RENDER short (TPB-1, 40)"
+ },
+ {
+  "t": "2026-11-15T21:56:34Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde la position TAO telle quelle et on n'ouvre rien de nouveau : la limite d'entrées du jour est atteinte et aucun trade n'est assez rentable après frais."
+ },
+ {
+  "t": "2026-11-15T21:56:42Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : BTC, DCTH, ETN, EURUSD, GDX, GLD, HD, IBIT, JPM, MSTR, NVDA, PBR"
+ },
+ {
+  "t": "2026-11-15T21:56:47Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 14 en mouvement : RARE +56.8 %, DRV +24.1 %, VVV +17.0 %."
+ },
+ {
+  "t": "2026-11-15T21:57:08Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, liquidations, hausse] Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - Benzinga (Benzinga)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWmpmdzZMN1o3OW9LZHBmRkpHV0FtaFNMVXRjMzAyd1RWcGUxR3VmT0xSZ0tPS1FaX1JnS2FBdmlLRXBtdG9ESUFlQTF0Ykt5WFFGc3J6WlpnbURQemlIV1VJclh0eWNJQWhhVm1ubW1SZW9RS1V6VDBKT0YxajliUy1SX0ZFbFg0dldmVEZsM3J2QjRMbUFLWUN6VDhEQ29jNmhrQnJaelpzOW96N0F0R3FWS1N3d1JtS3RvMjgxUEIyQTB5aXZjdjJn?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-15T21:57:08Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Mantle Proposes 30K $ETH Loan to Aave After $292M Kelp Exploit - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWxvR19BNV90YmhMeVFUbDJpb0pUMFp3T2pVVmF3T0dqM1JseTVzRnl5N25sdkdfNzZaUzlETjM4ZFdGam9DYnNHNFNRYzZuWXJLeS1WRjYyMVk0U3NjQVFjZDZuaUd6TFVhbVRnNDE1bmdWZFF6X2Q2djg2YUlyNHZXR1lGUGJ0ai1QYkU2bThaOWo2OGRKUmFwbDBXYloyWGp1ODJtakxGWllmdlB0dkpHR0k?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T21:57:08Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "ASTER -16.67 % en 1 h"
+ },
+ {
+  "t": "2026-11-15T21:58:09Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : OP short (TPB-1, 30), RENDER short (TPB-1, 30)"
  }
 ]
