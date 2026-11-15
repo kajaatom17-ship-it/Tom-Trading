@@ -1,36 +1,39 @@
 {
- "t": "2026-11-15T00:29:09Z",
+ "t": "2026-11-15T00:57:44Z",
  "nb_analyses": 458,
- "nb_en_mouvement": 5,
+ "nb_en_mouvement": 1,
  "tendance": [
+  "AAVE",
   "ADA",
-  "ASTER",
   "AVAX",
-  "BMNR",
   "BTC",
-  "CASHCAT",
-  "CORZ",
   "DOGE",
-  "DRV",
   "ETH",
+  "GEO",
   "HBAR",
   "HYPE",
+  "INJ",
+  "KAVA",
   "LINK",
-  "LIT",
   "MSTR",
   "NEAR",
+  "NVO",
+  "ONDO",
   "PEARL",
+  "PUMP",
   "QNT",
+  "QTC",
   "SOL",
-  "SUI",
   "TAO",
   "UNI",
+  "XLM",
   "XRP",
+  "Z",
   "ZEC"
  ],
  "buzz_reseaux": {
   "BTC": {
-   "source": "Reddit + StockTwits",
+   "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
@@ -49,27 +52,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "HBAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ADA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BMNR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QNT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -84,17 +72,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
+  "QNT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CORZ": {
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CASHCAT": {
+  "Z": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XLM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GEO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -102,52 +110,12 @@
  },
  "candidats": [
   {
-   "sym": "AKT",
-   "pair": "AKTEUR",
-   "action": false,
-   "variation_24h_pct": -14.78,
-   "volume_24h_eur": 150085.2,
-   "spread_pct": 0.236,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "REQ",
-   "pair": "REQEUR",
-   "action": false,
-   "variation_24h_pct": -14.37,
-   "volume_24h_eur": 59511.45,
-   "spread_pct": 0.1952,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "PLUME",
-   "pair": "PLUMEEUR",
-   "action": false,
-   "variation_24h_pct": -13.19,
-   "volume_24h_eur": 43139.7,
-   "spread_pct": 0.273,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
    "sym": "ZRX",
    "pair": "ZRXEUR",
    "action": false,
    "variation_24h_pct": -9.68,
-   "volume_24h_eur": 44019.65,
-   "spread_pct": 0.4231,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "GRT",
-   "pair": "GRTEUR",
-   "action": false,
-   "variation_24h_pct": -7.63,
-   "volume_24h_eur": 68175.26,
-   "spread_pct": 0.4129,
+   "volume_24h_eur": 41954.8,
+   "spread_pct": 0.2821,
    "tendance": false,
    "impulsion": null
   }

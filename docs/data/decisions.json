@@ -5123,5 +5123,119 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T00:29:00Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "BTC 58 560 €, tendance 1 h baissière, RSI 46,2, volume 0,45 x la normale. Seul candidat du scanner : MSTR short TPB-1 (88,41, RSI 39,4, volume 0,56 x). Signal propre sur le papier mais volume faible.",
+    "donnees": "Brief Kraken, 2026-11-15 00:55 UTC (01:55 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Dimanche : Bourse US fermée, aucune annonce prévue dans les 2 h (calendrier vide). Actualité du brief : sorties ETF bitcoin (7e jour de suite) et plus de 1,9 Md$ de liquidations (Investing.com, Crypto Briefing, 15/11 00:17-00:29 UTC) = faits relayés par le brief. Mes recherches web n'ont pas donné de calendrier de lundi confirmé et daté : je ne l'ajoute pas.",
+    "sources": [
+     "Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-15 00:29 UTC (via brief)",
+     "Crypto liquidations surge past $1.9 billion - Crypto Briefing - 2026-11-15 00:17 UTC (via brief)"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation totale -8,21 % en 24 h, dominance BTC 58,8 %. Après une telle chute, les rebonds sont violents : mauvais moment pour vendre à découvert."
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "DOGE -10,4 %, PEPE -11,2 %, TRUMP -13 % sur 24 h, volumes très faibles (0,08 à 0,8 x). Mouvement déjà fait, pas de retour sur zone avec volume. Pas d'entrée."
+   },
+   "trader": {
+    "proposition": "Aucune position ouverte, rien à gérer. Candidat MSTR short envisagé puis écarté.",
+    "pour": [
+     "Tendance 1 h baissière",
+     "RR net 1,96 selon le scanner"
+    ],
+    "contre": [
+     "Dimanche, xStock peu liquide (volume 0,56 x)",
+     "MSTR déjà -11,4 % sur 24 h : entrée tardive",
+     "Peur extrême : risque de rebond violent"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Entrée tardive après -11 % en pleine peur extrême, marché actions fermé, RR 1,96 sans marge de sécurité. Pas de trade pour faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "MSTR : TPB-1 short à 88,41, stop 90,73, objectif 81,46, RSI 39,4, tendance 1 h baissière, score 60. BTC reste baissier (RSI 46,2, sous EMA50 59 309)."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Dimanche 01:55 Paris : Bourse US fermée, calendrier vide. Le seul moteur est crypto : 7e jour de sorties ETF et plus de 1,9 Md$ de liquidations. Rien de daté qui justifie OPP-1."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 13, capitalisation -8,21 % sur 24 h. En peur extrême, les rebonds sont brutaux et les shorts se font piéger."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "DOGE -10,4 %, PEPE -11,2 %, TRUMP -13 % sur 24 h avec volume 0,08 à 0,8 x : la vague est finie, rien à poursuivre et pas de retour sur zone propre."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose un short MSTR : 88,41, stop 90,73, objectif 81,46, RR net 1,96."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je conteste : MSTR a déjà perdu 11,4 % sur 24 h et la peur est à 13. Tu vends le bas."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "Le signal est valide, mais le volume est à 0,56 x la moyenne un dimanche : une cassure ou un rebond sur ce volume ne prouve rien."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Le stop est à 2,6 %, correct, mais l'entrée est tardive, le marché actions est fermé et le RR de 1,96 ne laisse aucune marge si le rebond arrive. Où est ton avantage ?"
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Je n'en ai pas de solide hors tendance. Je retire ma proposition : c'est un pari sur une baisse déjà faite."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Refus acté. Aucune position ouverte à surveiller, aucune nouvelle entrée. Prochain regard à l'ouverture des marchés."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte : rien à garder ni à fermer.",
+    "Marché crypto en forte baisse (BTC 58 560 €, peur extrême 13, ETF en sortie 7 jours de suite).",
+    "Seul candidat : MSTR short, mais dimanche, volume faible et déjà -11 % sur 24 h.",
+    "Memecoins : mouvement déjà fait, volumes très faibles, rien de propre."
+   ],
+   "desaccords": [
+    "L'analyste sentiment a contesté le short MSTR (vendre le bas en peur extrême).",
+    "Le Risk Manager a demandé quel était l'avantage réel du trade ; le Trader a retiré sa proposition."
+   ],
+   "decision": "Aucune action : pas de position à gérer, pas de nouvelle entrée.",
+   "a_surveiller": [
+    "Un rebond de BTC avec volume ou une cassure sous 57 540 €",
+    "Ouverture des marchés US lundi et calendrier macro de la semaine",
+    "Tout catalyseur daté et sourcé de moins de 24 h pour OPP-1"
+   ]
+  },
+  "synthese": "On ne fait rien : le marché a déjà beaucoup chuté, la Bourse est fermée et aucun trade n'offre assez de gain pour le risque.",
+  "id": "D-20261115-005620",
+  "cree_le": "2026-11-15T00:56:20Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T00:57:36Z"
  }
 ]
