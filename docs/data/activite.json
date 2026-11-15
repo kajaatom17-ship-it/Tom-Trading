@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-14T14:45:17Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée seule : NEAR short (BRK-1, score 75, RR net 1.58), risque 2.51 €."
- },
- {
-  "t": "2026-11-14T14:45:17Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 8 signal(aux) : NEAR short (BRK-1, 75), PEPE short (BRK-1, 74), XRP short (TPB-1, 70)"
- },
- {
-  "t": "2026-11-14T14:52:08Z",
-  "agent": "Execution",
-  "type": "consigne",
-  "msg": "NEAR : fermeture automatique dès que le gain net dépasse 0.05 € (consigne de Tom)."
- },
- {
   "t": "2026-11-14T14:52:18Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2641,5 +2623,23 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 13 signal(aux) : SUI short (TPB-1, 60), NEAR short (TPB-1, 60), HYPE short (TPB-1, 60)"
+ },
+ {
+  "t": "2026-11-15T17:41:50Z",
+  "agent": "Spécialiste memecoins",
+  "type": "ajout refusé",
+  "msg": "DRV : Spread trop large (0.64 %)."
+ },
+ {
+  "t": "2026-11-15T17:41:54Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 9 en mouvement : DRV +20.8 %, VVV +14.9 %, QNT +7.3 %."
+ },
+ {
+  "t": "2026-11-15T17:42:59Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 3 signal(aux) : PAXG short (TPB-1, 40), INJ short (TPB-1, 30), TRUMP short (TPB-1, 30)"
  }
 ]
