@@ -5614,5 +5614,37 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T02:26:58Z"
+ },
+ {
+  "id": "M-20261115-025034-KNTQ",
+  "action": "open",
+  "sym": "KNTQ",
+  "side": "long",
+  "strategie": "MOM-1",
+  "entry_ref": 0.2164,
+  "atr": 0.012419999999999987,
+  "stop": 0.21019,
+  "tp": 0.24124,
+  "duree_max_h": 2,
+  "risque_pct_override": 0.5,
+  "agents": {
+   "specialiste_memecoins": {
+    "avis": "favorable",
+    "resume": "Impulsion +6.1 % en 15 min, volume x9.5."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques (budget memecoins)."
+   }
+  },
+  "synthese": "Le spécialiste a agi seul : impulsion +6.1 % sur KNTQ, volume x9.5. À contrôler à la prochaine réunion.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0009",
+   "prix": 0.216941,
+   "risque_eur": 1.96
+  },
+  "cree_le": "2026-11-15T02:50:34Z",
+  "traite_le": "2026-11-15T02:50:34Z"
  }
 ]

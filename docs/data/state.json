@@ -2,9 +2,34 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 501.4101486931162,
- "positions": [],
- "frais_cumules": 5.189678302914524,
+ "cash": 451.0685697643273,
+ "positions": [
+  {
+   "id": "P0009",
+   "sym": "KNTQ",
+   "pair": "KNTQEUR",
+   "side": "long",
+   "strategie": "MOM-1",
+   "qty": 231.12742574852896,
+   "entry": 0.216941,
+   "notionnel": 50.14101486931162,
+   "frais_entree": 0.20056405947724648,
+   "stop": 0.21019,
+   "stop_initial": 0.21019,
+   "tp": 0.24124,
+   "risque_eur": 1.9552280051779003,
+   "rr_net": 2.33,
+   "ouvert_le": "2026-11-15T02:50:34Z",
+   "verifie_jusqu_a": "2026-11-15T02:50:34Z",
+   "duree_max_h": 2.0,
+   "decision_id": "M-20261115-025034-KNTQ",
+   "dernier_prix": 0.216941,
+   "atr": 0.012419999999999987,
+   "mom": true,
+   "impulsion": 0.012419999999999987
+  }
+ ],
+ "frais_cumules": 5.390242362391771,
  "pnl_realise": 1.4101486931161649,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
@@ -14,15 +39,15 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T02:30:59Z",
- "seq": 8,
+ "maj": "2026-11-15T02:50:54Z",
+ "seq": 9,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T02:27:04Z",
+ "chasseur_t": "2026-11-15T02:50:34Z",
  "tendance": [
   "BTC",
   "HYPE",
@@ -43,12 +68,7 @@
  "tendance_t": "2026-11-15T01:58:15Z",
  "buzz": {
   "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
-   "source": "StockTwits",
+   "source": "Reddit + StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
@@ -62,12 +82,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOL": {
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -77,12 +97,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBIT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XLM": {
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -92,34 +107,39 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "PATH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "COIN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "USDCAD": {
+  "IBIT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AUDUSD": {
+  "PATH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GBPUSD": {
+  "MSTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WLFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RVMD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T02:27:05Z",
- "sources_t": "2026-11-15T02:27:07Z",
+ "buzz_t": "2026-11-15T02:50:35Z",
+ "sources_t": "2026-11-15T02:50:37Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
@@ -187,9 +207,11 @@
   "2026-11-15": 1
  },
  "entrees_meme_par_jour": {
-  "2026-11-14": 1
+  "2026-11-14": 1,
+  "2026-11-15": 1
  },
  "impulsion_par_jour": {
-  "2026-11-14": 1
+  "2026-11-14": 1,
+  "2026-11-15": 1
  }
 }
