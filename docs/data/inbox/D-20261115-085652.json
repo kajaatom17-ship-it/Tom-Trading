@@ -1,0 +1,117 @@
+{
+ "action": "open",
+ "sym": "SUI",
+ "side": "short",
+ "strategie": "TPB-1",
+ "entry_ref": 0.645,
+ "atr": 0.004370132,
+ "stop": 0.657011,
+ "tp": 0.6089669,
+ "duree_max_h": 24,
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "favorable",
+   "resume": "SUI : tendance 1 h baissière, rebond sur l'EMA20 15 min (0,6504) puis rechute, prix 0,645, RSI 47,3 → 43,5, MACD histogramme -0,0012 → -0,0015, volume 2,25 x la moyenne. BTC aussi baissier en 1 h (58 092 €, RSI 40).",
+   "donnees": "Brief Kraken 15 min, 08:56 UTC (09:56 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Dimanche : marchés actions fermés, aucun événement à fort impact confirmé aujourd'hui (le calendrier du brief est vide et mes recherches web n'ont rien confirmé de daté pour les prochaines heures). Titres du brief : la décision de la Fed de décembre vue comme prochain catalyseur du Bitcoin (Yahoo Finance, 15/11 07:51 UTC) et vente massive de Bitcoin qui teste les investisseurs (Crypto Briefing). Interprétation, pas fait chiffré. Je n'ai pas pu confirmer de date d'annonce : je n'en invente pas.",
+   "sources": [
+    "Jordi Visser Sees December Fed Decision As Bitcoin's Next Catalyst - Yahoo Finance - 2026-11-15 07:51 UTC - lien du brief",
+    "Bitcoin selloff tests resolve of committed investors - Crypto Briefing - lien du brief"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -7,2 % sur 24 h, dominance BTC 58,5 %. En peur extrême les rebonds sont violents : le short peut se faire prendre par un rebond.",
+   "donnees": "Brief 07:57 UTC"
+  },
+  "trader": {
+   "proposition": "Short SUI, entrée 0,645, stop 0,657011 (au-dessus du dernier haut 0,6557), objectif 0,6089669, RR net 1,77 selon le scanner.",
+   "pour": [
+    "Tendance 1 h baissière alignée sur BTC",
+    "Rechute après rebond EMA20, volume x2,25",
+    "RR net 1,77 > 1,5"
+   ],
+   "contre": [
+    "Déjà -7,5 % sur 24 h",
+    "Peur extrême : risque de rebond violent",
+    "Position HYPE short déjà ouverte (même sens)"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Stop à 1,86 %, perte max limitée à 1 % du capital, 2 altcoins shorts max respecté (HYPE + SUI), entrées du jour 2/3, RR net >= 1,5. Corrélation forte avec HYPE : pari directionnel baissier assumé."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Positions d'abord : HYPE short à 59,59, prix 59,77, stop 60,40, objectif 56,29, latent -0,45 €. RSI 43,5, sous EMA20 15 min (59,41), tendance 1 h baissière : le scénario tient, on garde. Nouvelle entrée : SUI rebond sur l'EMA20 puis rechute, RSI 47,3 → 43,5, volume x2,25."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Rien de daté et confirmé aujourd'hui (dimanche, actions fermées). Le brief cite la Fed de décembre comme prochain catalyseur BTC : ce n'est pas pour les prochaines heures. Aucune actualité spécifique à SUI dans les titres importants. Je ne bloque pas, mais je n'ai aucun argument macro pour."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed 10 et capitalisation -7,2 % en 24 h : SUI est déjà à -7,46 %. Shorter après une telle baisse est le piège classique, les rebonds en peur extrême sont violents. Rappel : la veille montre SUI +5,07 % sur 1 h à 03:00 UTC."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Justement, ce rebond de +5 % est fait : le prix est revenu à 0,645 sous l'EMA20 (0,6504). Le stop à 0,657 est au-dessus du dernier haut 0,6557 : si le rebond reprend, on sort vite."
+  },
+  {
+   "agent": "memecoins",
+   "repond_a": "analyste_sentiment",
+   "message": "Memecoins : DOGE RSI 40,6 volume 0,44 x, PEPE RSI 42,5 volume 0,52 x, pas de bougie verticale ni d'impulsion. Rien de propre côté memecoins, le marché est calme en volume, donc pas de poursuite. SUI n'est pas un memecoin : budget normal."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose short SUI TPB-1, stop 0,657011, objectif 0,6089669, RR net 1,77. Je garde HYPE sans changement. Contre : -7,5 % déjà fait, peur extrême."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Tu ajoutes un second short altcoin corrélé à HYPE : si le marché rebondit, on perd sur les deux. Combien au total ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Chaque stop est fixé : perte max 1 % du capital sur SUI (environ 5 €), et le stop HYPE est 60,40 soit environ 1,4 % du prix. Pire cas cumulé reste sous la limite de perte journalière de 3 %."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je maintiens ma réserve sur la peur extrême mais je ne bloque pas : le stop est au-dessus d'un vrai sommet et la taille est plafonnée."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Validé comme pari directionnel baissier, taille plafonnée par le code. Si SUI repasse au-dessus de 0,657, on sort sans discuter."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "HYPE short ouvert (entrée 59,59, prix 59,77, stop 60,40) : scénario toujours valide, on garde.",
+   "Marché en peur extrême (Fear & Greed 10), BTC baissier en 1 h, capitalisation -7,2 % en 24 h.",
+   "Aucun événement macro daté confirmé aujourd'hui ; le calendrier du brief était vide et les recherches web n'ont rien confirmé de précis.",
+   "SUI : rebond sur EMA20 puis rechute avec volume 2,25 x, RR net 1,77."
+  ],
+  "desaccords": [
+   "L'analyste sentiment trouve le short tardif (-7,5 % sur 24 h) et risqué en peur extrême ; le Risk Manager note la corrélation avec HYPE."
+  ],
+  "decision": "Garder HYPE et ouvrir un short SUI (TPB-1) avec stop 0,657011 et objectif 0,6089669.",
+  "a_surveiller": [
+   "SUI au-dessus de 0,657 : sortie.",
+   "Rebond brutal du marché crypto (short squeeze).",
+   "Rien de macro daté confirmé : revérifier le calendrier à la prochaine réunion."
+  ]
+ },
+ "synthese": "On garde le short HYPE et on ajoute un petit short SUI, avec un stop serré : si le marché rebondit, la perte est limitée.",
+ "id": "D-20261115-085652",
+ "cree_le": "2026-11-15T08:56:52Z"
+}
