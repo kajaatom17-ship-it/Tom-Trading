@@ -1,0 +1,102 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "Short TAO (P0012, entrée 173,76, prix 172,96, stop 178,22, objectif 161,07) : +0,46 € latent. TAO 15 min : EMA20 173,86, EMA50 173,70, RSI 47,1 (42,1 avant), tendance 1 h baissière, volume 0,85x la normale. BTC 58 960 : RSI 46,5, tendance 1 h baissière, atr 0,45 %. Scanner : PAXG RR net 0,65, INJ 1,24, TRUMP 0,81, tous sous le seuil de 1,5.",
+   "donnees": "Brief Kraken 17:55 UTC (18:55 Paris), bougies 15 min de 17:45 UTC"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Dimanche soir, bourse US fermée. Titres du brief : Bitcoin au plus bas depuis juillet après la vente du week-end (Investing.com, 15 nov 15:33 UTC), Strategy (MSTR) perd son indice MSCI (24/7 Wall St, 15 nov 17:28 UTC), résultats Nvidia attendus cette semaine avec 9 % de mouvement d'options (Benzinga, 15 nov 13:30 UTC). Mes recherches web sont revenues bruitées (beaucoup de pages de 2025), donc aucune date de la semaine n'est confirmée par source officielle : calendrier non mis à jour pour ne rien inventer.",
+   "sources": [
+    "Investing.com - Bitcoin hovers near $65,000 after weekend selloff - 15 nov 15:33 UTC",
+    "24/7 Wall St - Strategy lost its MSCI index spot - 15 nov 17:28 UTC",
+    "Benzinga - Nvidia Earnings Without Huang - 15 nov 13:30 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed à 10 (peur extrême), dominance BTC 59,35 %, capitalisation totale -5,21 % sur 24 h (brief, 17:01 UTC). Les titres parlent de liquidations. Le buzz Reddit (MSTR x2,6) est un indice, pas une preuve."
+  },
+  "trader": {
+   "proposition": "Garder le short TAO, ne rien ouvrir.",
+   "pour": [
+    "Stop et objectif posés pour cette position",
+    "Aucun candidat du scanner au-dessus de RR net 1,5"
+   ],
+   "contre": [
+    "Peur extrême : un rebond violent est possible contre le short"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "Les 3 entrées du jour sont utilisées (3/3) et aucun candidat ne passe RR net 1,5. Position TAO garde son stop initial 178,22 (perte max ~4,5 €)."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "TAO 173,37 sur la bougie 15 min, EMA20 173,86 et EMA50 173,70 juste au-dessus : le prix colle aux moyennes, RSI 47,1 remonté de 42,1. Pas de cassure, pas de signal de sortie."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Dimanche soir, la bourse US est fermée. Le seul vrai catalyseur de la semaine cité par le brief est Nvidia (Benzinga, 15 nov 13:30 UTC, options à 9 %). Aucune annonce datée et confirmée par source officielle dans les 2 prochaines heures."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed 10, capitalisation -5,21 % sur 24 h : en peur extrême, les rebonds contre les shorts sont brusques. Le RSI TAO qui remonte à 47 va dans ce sens, je ne le sous-estimerais pas."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Le RSI à 47 reste neutre, pas suracheté, et le prix est toujours sous l'EMA20 de 0,49. Le stop à 178,22 est à 2,6 % du prix : un rebond de 1 ATR (1,02) ne le touche pas."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder TAO sans toucher au stop. Pour une nouvelle entrée : PAXG short RR net 0,65, INJ 1,24, TRUMP 0,81. Aucun n'atteint 1,5, je ne propose rien."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "trader",
+   "message": "D'accord pour ne pas entrer. Mon réflexe d'avocat du diable : ne pas rajouter de short crypto juste parce que BTC est au plus bas depuis juillet, le mouvement est déjà largement fait."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Les 3 entrées du jour sont déjà prises (3/3) et les trois candidats sont sous RR net 1,5. Je refuse toute nouvelle entrée. Pour TAO : pnl latent +0,46 €, perte max au stop environ 4,5 €, pas de raison de fermer."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Entendu. TAO reste tel quel, j'attends le point mort à +1R par le trader de garde. Prochaine réunion : je regarde si BTC repasse au-dessus de 60 113 (plus haut 12 h), ce qui casserait la tendance baissière."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "risk_manager",
+   "message": "Je ne bloque pas. Je note seulement qu'à Fear & Greed 10, rester prudent côté nouveaux shorts est cohérent avec le refus."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Le short TAO est en léger gain (+0,46 €), stop et objectif inchangés",
+   "Le marché crypto est en peur extrême, BTC à 58 960 €",
+   "Les trois candidats du scanner ont un rapport gain/risque trop faible après frais (0,65, 1,24 et 0,81)",
+   "Le quota de 3 entrées du jour est atteint"
+  ],
+  "desaccords": [
+   "L'analyste sentiment craint un rebond contre le short, l'analyste technique juge le stop assez loin"
+  ],
+  "decision": "On garde le short TAO et on n'ouvre aucune nouvelle position.",
+  "a_surveiller": [
+   "BTC au-dessus de 60 113 € casserait la tendance baissière",
+   "Résultats Nvidia cette semaine, date à confirmer par source officielle",
+   "TAO sous 168,95 (plus bas 12 h) ou au-dessus de 177,92 (plus haut 12 h)"
+  ]
+ },
+ "synthese": "On garde le short TAO et on n'ouvre rien de nouveau : le quota du jour est atteint et aucun candidat n'est assez rentable après frais.",
+ "id": "D-20261115-175624",
+ "cree_le": "2026-11-15T17:56:24Z"
+}
