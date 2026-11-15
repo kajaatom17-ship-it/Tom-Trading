@@ -1,0 +1,102 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "TAO short : prix 173,61, EMA20 174,05, EMA50 173,76, RSI 45,4 (47,0 avant), MACD négatif -0,23, tendance 1 h baissière, ATR 1,05. Le scénario TPB-1 tient, stop 178,22 (+2,7 %) non menacé, objectif 161,07. Scanner : aucun candidat propre (OP RR 1,31, SUI 1,39, HYPE 1,41, XRP 1,30, DOT 1,29, BONK 0,93, tous < 1,5 net).",
+   "donnees": "brief.py 17:26 UTC (18:26 Paris), Kraken OHLC 15 min"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Faits du brief : Bitcoin autour de 65 000 $ après une chute du week-end vers son plus bas depuis juillet (Investing.com, 15/11 15:33 UTC) ; les résultats Nvidia et l'IPO d'Anthropic sont attendus cette semaine (Yahoo Finance UK, 15/11 14:33 UTC). Mes recherches web ont surtout renvoyé des pages de 2025, donc aucune date d'annonce nouvelle n'est confirmée : je n'ajoute rien à l'agenda. Les actions xStocks sont hors séance (dimanche).",
+   "sources": [
+    "Bitcoin hovers near $65,000 after weekend selloff to lowest since July - Investing.com - 2026-11-15 15:33 UTC",
+    "This week on the stock market: the Anthropic IPO and Nvidia's earnings - Yahoo Finance UK - 2026-11-15 14:33 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,35 %, capitalisation totale -5,21 % sur 24 h. En peur extrême les rebonds sont violents : mauvais moment pour courir après un nouveau short."
+  },
+  "trader": {
+   "proposition": "Garder TAO short, aucune nouvelle entrée.",
+   "pour": [
+    "Position +0,09 €, stop et objectif inchangés",
+    "Aucun candidat avec RR net >= 1,5"
+   ],
+   "contre": [
+    "Marché en peur extrême, risque de rebond",
+    "Quota de 3 entrées du jour atteint"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Entrées du jour 3/3 : pas de nouvelle entrée classique possible. Aucun memecoin propre. Garder TAO, la perte max est déjà fixée par le stop."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "TAO short : prix 173,61, sous EMA20 (174,05), RSI 45,4 en baisse, MACD -0,23, tendance 1 h baissière. Le stop 178,22 est loin, l'objectif 161,07 aussi : rien à corriger."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "D'accord sur la structure, mais Fear & Greed est à 10 et la capitalisation totale perd 5,21 % : après une telle chute, les rebonds sont brutaux. Je ne veux pas d'autre short maintenant."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "analyste_sentiment",
+   "message": "Cohérent avec l'actualité : Bitcoin autour de 65 000 $, plus bas depuis juillet (Investing.com, 15:33 UTC). Pas de catalyseur daté et sourcé de moins de 24 h, donc pas d'OPP-1. Nvidia et l'IPO d'Anthropic sont cette semaine, pas ce soir."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_macro",
+   "message": "Côté scanner, tout est sous le seuil : OP RR 1,31, SUI 1,39, HYPE 1,41, XRP 1,30, DOT 1,29. Aucun ne passe 1,5 net de frais."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder le short TAO tel quel et de ne rien ouvrir. Contre : si le rebond de peur extrême arrive, le short souffre, mais le stop limite la perte."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Les entrées du jour sont à 3/3, donc une nouvelle entrée classique serait refusée par le code de toute façon. Peux-tu me citer un memecoin propre ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Non. DOGE volume x2,32 mais RSI 42,6 sous la tendance baissière, SHIB x0,17, WIF x0,04, PENGU x0,04, TRUMP x0,47 : pas de volume, pas d'entrée. BONK a un RR net de 0,93."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je valide de ne rien faire. Je note que les memecoins ne montrent aucune euphorie : volumes faibles, RSI entre 38 et 46."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Validé : on garde TAO (stop 178,22, objectif 161,07, perte max déjà bornée) et on n'ouvre rien. Aucun consensus mou : je reverrai la position si BTC casse nettement sous 65 000 $ ou si TAO repasse au-dessus de 176."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "TAO short : +0,09 €, le scénario baissier tient (prix sous l'EMA20, RSI 45,4).",
+   "Aucun candidat du scanner ne passe le RR net de 1,5 ; aucun memecoin n'a de volume.",
+   "Le quota de 3 entrées du jour est atteint.",
+   "Contexte : Bitcoin autour de 65 000 $ après la chute du week-end, peur extrême à 10."
+  ],
+  "desaccords": [
+   "L'analyste sentiment redoutait un rebond de peur extrême ; le technique restait baissier. Pas de blocage, on garde avec le stop."
+  ],
+  "decision": "Garder le short TAO, aucune nouvelle entrée.",
+  "a_surveiller": [
+   "BTC sous 65 000 $ ou TAO au-dessus de 176 : on revoit la position.",
+   "Nvidia et l'IPO d'Anthropic cette semaine : dates exactes à confirmer par source officielle.",
+   "Un nouveau candidat avec RR net >= 1,5 demain."
+  ]
+ },
+ "synthese": "On garde le short TAO et on n'ouvre rien de nouveau : aucun candidat n'est assez bon et le quota du jour est atteint.",
+ "id": "D-20261115-172650",
+ "cree_le": "2026-11-15T17:26:50Z"
+}
