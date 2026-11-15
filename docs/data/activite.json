@@ -1,61 +1,5 @@
 [
  {
-  "t": "2026-11-13T20:57:26Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, banque centrale] U.S. dollar surges to biggest weekly gains since September on Fed hike certainty (Investing.com)",
-  "data": {
-   "lien": "https://www.investing.com/news/forex-news/asia-fx-yen-intervention-in-focus-as-rate-hike-bets-put-dollar-near-19mth-high-5024024",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-13T20:58:24Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 15 signal(aux) : OP short (TPB-1, 60), ADA short (TPB-1, 40), DOGE short (TPB-1, 40)"
- },
- {
-  "t": "2026-11-13T21:03:04Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 11 signal(aux) : MSTR short (TPB-1, 60), SOL short (TPB-1, 40), PLTR short (TPB-1, 40)"
- },
- {
-  "t": "2026-11-13T21:26:48Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "Le comité ne prend pas de nouveau trade : rien ne rapporte assez par rapport au risque et la bourse est fermée pour le week-end. On garde le pari à la baisse sur PEPE (+1,33 € fictifs)."
- },
- {
-  "t": "2026-11-13T21:26:51Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, banque centrale] Producer prices surge at 6.5% annual pace as Fed officials signal hike - CFO Dive (CFO Dive)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT1ZyUks0YXZnclR2YklfV0Z0OUZnVV9BX3BweS1yMkQxSF9hMzRROUVkUl9FYV9GUmFVd2FRVXl6aVBjVEo2bmY1S1cxam9NeVVoVWRCM3R2ZEZBY0NEVjlMZEtPLXVRN29zOVhJTHdyeGVYdHRmMkNPVGhELXpQTFJsREJsbzBuay1qa2s4a1lLZUJnaVUwMGxKUDhjRU5leVhwclk4Nm1rcUFJb2Y0U29B?oc=5",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-13T21:27:54Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 19 signal(aux) : LINK short (TPB-1, 70), DOGE short (TPB-1, 70), AMD short (TPB-1, 70)"
- },
- {
-  "t": "2026-11-13T21:58:03Z",
-  "agent": "Execution",
-  "type": "ordre en attente",
-  "msg": "Ordre O0003 : on vend à découvert XRP si le prix passe sous 0.9115 (valable jusqu'à 01:58 UTC)"
- },
- {
-  "t": "2026-11-13T21:59:08Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 6 signal(aux) : MSTR short (TPB-1, 60), SOL short (BRK-1, 43), SUI short (BRK-1, 34)"
- },
- {
   "t": "2026-11-13T22:19:53Z",
   "agent": "Execution",
   "type": "objectif",
@@ -2721,5 +2665,56 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 8 signal(aux) : ARB short (TPB-1, 70), OP short (TPB-1, 70), DOT short (TPB-1, 40)"
+ },
+ {
+  "t": "2026-11-15T09:27:57Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "HYPE short fermé (stop-loss) à 60.42848 : -3.33 € net",
+  "data": {
+   "id": "P0011"
+  }
+ },
+ {
+  "t": "2026-11-15T09:27:57Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne prend aucun nouveau trade : le marché a rebondi et nos candidats ne sont plus propres ; le short HYPE sera fermé par son stop s'il est touché."
+ },
+ {
+  "t": "2026-11-15T09:28:05Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : BRUN, BTC, CLSK, CMG, DAL, ETH, GE, ICP, LKNCY, MCD, PEP, RTX"
+ },
+ {
+  "t": "2026-11-15T09:28:10Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 15 en mouvement : VVV +15.1 %, DRV +11.8 %, NIGHT +6.6 %."
+ },
+ {
+  "t": "2026-11-15T09:28:15Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "PENGU +3.89 % en 15 min"
+ },
+ {
+  "t": "2026-11-15T09:28:15Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "RENDER +2.5 % en 15 min"
+ },
+ {
+  "t": "2026-11-15T09:28:15Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "CRCL +2.07 % en 15 min"
+ },
+ {
+  "t": "2026-11-15T09:29:17Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
  }
 ]

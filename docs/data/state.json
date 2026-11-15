@@ -2,33 +2,10 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 350.4822226446757,
- "positions": [
-  {
-   "id": "P0011",
-   "sym": "HYPE",
-   "pair": "HYPEEUR",
-   "side": "short",
-   "strategie": "TPB-1",
-   "qty": 2.5273117298039876,
-   "entry": 59.59019,
-   "notionnel": 150.6029861682483,
-   "frais_entree": 0.6024119446729932,
-   "stop": 60.39828,
-   "stop_initial": 60.39828,
-   "tp": 56.28515,
-   "risque_eur": 3.25528840642624,
-   "rr_net": 2.15,
-   "ouvert_le": "2026-11-15T06:57:51Z",
-   "verifie_jusqu_a": "2026-11-15T09:01:00Z",
-   "duree_max_h": 24.0,
-   "decision_id": "D-20261115-065630",
-   "dernier_prix": 60.04,
-   "atr": 0.4942784
-  }
- ],
- "frais_cumules": 6.599821367949255,
- "pnl_realise": 1.687620757596951,
+ "cash": 498.3557044198558,
+ "positions": [],
+ "frais_cumules": 7.210707784528205,
+ "pnl_realise": -1.644295580144268,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -37,7 +14,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T09:01:15Z",
+ "maj": "2026-11-15T09:28:12Z",
  "seq": 11,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -45,7 +22,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T08:57:10Z",
+ "chasseur_t": "2026-11-15T09:28:04Z",
  "tendance": [
   "HYPE",
   "BTC",
@@ -70,12 +47,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "CMG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WHR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SBUX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TAO": {
+  "ICP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CLSK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -85,12 +92,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SIMO": {
+  "BRUN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZVRA": {
+  "DAL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MCD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -104,98 +116,54 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
-  },
-  "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XOM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BRUN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DXYZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ICP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "T": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FLY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T08:57:10Z",
- "sources_t": "2026-11-15T08:57:12Z",
+ "buzz_t": "2026-11-15T09:28:05Z",
+ "sources_t": "2026-11-15T09:28:10Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 13,
-   "sentiment": "neutral",
+   "mentions": 9,
+   "sentiment": "bearish",
    "titres": [
-    "Bitcoin Hits Three-Month Low Below $65,000 As Fourth Capitulation Wave Doubles to $850,000,000 Daily",
-    "数据：交易员 AguilaTrades 数日将 61 万美元滚仓至 586 万美元"
+    "BTCUSD: Remember, Remember the 5th of November",
+    "Bitcoin: Is the correction nearing its end, or is a deeper decli"
    ]
   },
   {
    "sujet": "AI",
    "mentions": 6,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "MegaETH Parent Cuts 20% of Staff as It Builds an AI Marketplace",
-    "From \"selling subscriptions\" to \"selling results\": Adobe (ADBE.US) experiments with weekly billing for Acrobat, BTIG says growth sustainability remains to be verified"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 4,
-   "sentiment": "bearish",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.222117762 | 🚶 0.222140268 | 🚀 0.244354294 Gwei",
-    "Crypto Liquidations Near $2 Billion as Bitcoin and Ethereum Lead Market Sell-Off"
+    "3 Key Events in the Coming Week That Could Move AI Stocks and Crypto",
+    "Nvidia vs AMD Stock: Which AI Chip Giant Is the Better Investment?"
    ]
   },
   {
    "sujet": "Security",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Coinone warns of phishing, identity theft after data breach",
-    "Coinone warns of phishing, identity theft after customer data breach"
+    "A Missing Zero Check Cost Kava Lend $3.8 Million in One Night",
+    "Coinone warns of phishing, identity theft after data breach"
    ]
   },
   {
-   "sujet": "DeFi",
-   "mentions": 3,
-   "sentiment": "bullish",
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
-    "MegaETH Parent Cuts 20% of Staff as It Builds an AI Marketplace",
-    "XRP vs Solana: Which Crypto Is the Better Investment for 2027 and Beyond?"
+    "⛽ ETH Gas: 🐢 0.233461122 | 🚶 0.233485123 | 🚀 0.256833635 Gwei",
+    "Ethereum Price Falls Below Gareth Soloway's $1,850 Add Zone After His $1,952 Long"
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "bearish",
+   "sujet": "XRP",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
-    "Ethereum (ETH) Price Prediction: Can ETH Reach $8,000 in the Next Bull Run?",
-    "ETF Analyst Puts a $60K Floor Under Bitcoin as the Nvidia Selloff Rattles Markets"
+    "XRP as the “Gold of the Internet”: Vet Highlights the Design Behind His Store-of-Value Case",
+    "XRP Falls Below $1, but Falling Dollar Open Interest Masks Broadly Steady Futures Exposure"
    ]
   },
   {
@@ -203,16 +171,26 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "XRP vs Solana: Which Crypto Is the Better Investment for 2027 and Beyond?",
-    "数据：某巨鲸 5 日内向币安存入约 43.5 万枚 SOL，约合 3296 万美元"
+    "Solana Staking Holds Near 69% Even As SOL Price Crashes To $67 On Breakpoint Day",
+    "Wall Street Is Moving Onto Blockchain: Which Cryptos Could Benefit?"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
+    "Wall Street Is Moving Onto Blockchain: Which Cryptos Could Benefit?",
     "BARD/USDT (1D) — Major Historical Demand Zone & Reversal Setup"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "Why Tokenized Gold’s Explosive Growth Isn’t the Full Story: Xash CEO",
+    "MegaETH Parent Cuts 20% of Staff as It Builds an AI Marketplace"
    ]
   }
  ],
