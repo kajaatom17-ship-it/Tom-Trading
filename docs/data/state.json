@@ -20,7 +20,7 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-15T17:00:00Z",
+   "verifie_jusqu_a": "2026-11-15T17:01:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
    "dernier_prix": 173.1696,
@@ -37,7 +37,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T17:01:00Z",
+ "maj": "2026-11-15T17:01:23Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -45,25 +45,24 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T16:56:48Z",
+ "chasseur_t": "2026-11-15T17:01:16Z",
  "tendance": [
-  "MACCA",
   "MIHAO",
+  "MACCA",
   "DACITYCOIN",
   "GATO",
   "IMD",
   "BTC",
   "PENGU",
-  "HYPE",
-  "SOL",
   "MON",
-  "DOGE",
+  "SOL",
   "AAVE",
-  "BNB",
-  "XRP",
-  "PEARL"
+  "PEARL",
+  "TAO",
+  "DOGE",
+  "BNB"
  ],
- "tendance_t": "2026-11-15T16:56:48Z",
+ "tendance_t": "2026-11-15T17:01:16Z",
  "buzz": {
   "MSTR": {
    "source": "Reddit",
@@ -105,27 +104,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "FECCF": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XRP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ARKK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "TEVA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ICP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -135,45 +114,65 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DAL": {
+  "HD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AERO": {
+  "LUNC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ICP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PENN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XRP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T16:56:49Z",
- "sources_t": "2026-11-15T16:56:55Z",
+ "buzz_t": "2026-11-15T17:01:17Z",
+ "sources_t": "2026-11-15T17:01:22Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 14,
-   "sentiment": "neutral",
-   "titres": [
-    "TradeCityPro | Bitcoin Daily Analysis #404",
-    "Strive CEO 再次发布比特币 Tracker 信息，或于下周披露 BTC 增持数据"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 4,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "ETH: New VDS signal on the Daily",
-    "Peter Schiff Sees ETH Crashing to $1,000 if $1,600 Breaks, but Tom Lee Isn't Worried"
+    "# BTC Enters Major Bottoming Zone — Is the Final Low Close?",
+    "Bitcoin's Macro Map: Price Is Sitting on the Biggest Line"
    ]
   },
   {
    "sujet": "AI",
+   "mentions": 3,
+   "sentiment": "bullish",
+   "titres": [
+    "Nvidia defends employee in Taiwan AI chip smuggling case",
+    "Guy Oseary’s Sound Ventures reportedly holds a $7 billion stake in Anthropic"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "South Korea's top scorer in tax accountancy exam admits cheating",
-    "OpenAI board member worries an AI \"takeover\" of society could be months away"
+    "How $10,000 in stablecoins would have gained €420 without earning interest",
+    "How Wall Street Is Racing to Claim the Onchain Dollar"
    ]
   },
   {
@@ -181,8 +180,33 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "XRP Exchange Balances Appear to Rise 347M—But Comparing the Same Wallets Shows a Decline",
-    "XRP Ledger Loses About $79M in Stablecoins as Weekly DEX Trading Jumps 29%"
+    "XRP +4.43% off the 0.893 low: 0.9975 is the lid",
+    "If XRP Hits $10,000, See What Could Happen to World’s Top 10 Richest People"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Binance Holds the Least Ethereum Since 2021",
+    "US Moves To Seize Or Restrain Over $1,200,000,000 Stolen in Binance Hack, Shuts Down North Korea-Linked FaceStealer Scam That Took $400,000,000"
+   ]
+  },
+  {
+   "sujet": "Cardano",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Cardano Midnight Price Prediction: Here is NIGHT token Price if It Enters Top 10"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Binance Holds the Least Ethereum Since 2021"
    ]
   },
   {
@@ -190,23 +214,7 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP Ledger Loses About $79M in Stablecoins as Weekly DEX Trading Jumps 29%"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Hyperliquid Whale Who Lost $10 Million Now Bets on Solana"
+    "Bitcoin now looks cheap by one measure after $1 billion in ETF outflows"
    ]
   }
  ],
