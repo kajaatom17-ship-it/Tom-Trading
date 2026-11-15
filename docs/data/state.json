@@ -14,7 +14,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T09:31:57Z",
+ "maj": "2026-11-15T09:57:06Z",
  "seq": 11,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -22,37 +22,37 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T09:28:04Z",
+ "chasseur_t": "2026-11-15T09:57:00Z",
  "tendance": [
-  "HYPE",
   "BTC",
+  "HYPE",
   "KAVA",
-  "ETH",
   "SOL",
-  "QTC",
-  "XRP",
-  "BDX",
-  "DOGE",
-  "AERO",
+  "ETH",
   "VVV",
-  "PENGU",
-  "PEPE",
-  "TAO",
-  "KAS"
+  "PEARL",
+  "NEAR",
+  "INJ",
+  "QTC",
+  "SUI",
+  "GRASS",
+  "HBAR",
+  "XRP",
+  "TAO"
  ],
- "tendance_t": "2026-11-15T08:57:10Z",
+ "tendance_t": "2026-11-15T09:57:00Z",
  "buzz": {
   "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CMG": {
+  "LINK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WHR": {
+  "LHX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -62,7 +62,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "GE": {
+  "WHR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -72,27 +72,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ICP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CLSK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UNH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BRUN": {
+  "GE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -102,68 +82,79 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MCD": {
+  "CRVS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LKNCY": {
+  "CLSK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PEP": {
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CMG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T09:28:05Z",
- "sources_t": "2026-11-15T09:28:10Z",
+ "buzz_t": "2026-11-15T09:57:01Z",
+ "sources_t": "2026-11-15T09:57:05Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 9,
    "sentiment": "bearish",
    "titres": [
-    "BTCUSD: Remember, Remember the 5th of November",
-    "Bitcoin: Is the correction nearing its end, or is a deeper decli"
+    "Blockstream And Thales Launch Bitcoin Custody System",
+    "BTC: A Flush to $58–60k, Then a Triple Bottom?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 6,
-   "sentiment": "neutral",
+   "mentions": 7,
+   "sentiment": "bearish",
    "titres": [
-    "3 Key Events in the Coming Week That Could Move AI Stocks and Crypto",
-    "Nvidia vs AMD Stock: Which AI Chip Giant Is the Better Investment?"
+    "Blockstream And Thales Launch Bitcoin Custody System",
+    "Miner Weekly: These Miners Cut Hashrate 50% as AI Revenue Doubles"
    ]
   },
   {
    "sujet": "Security",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "A Missing Zero Check Cost Kava Lend $3.8 Million in One Night",
-    "Coinone warns of phishing, identity theft after data breach"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.233461122 | 🚶 0.233485123 | 🚀 0.256833635 Gwei",
-    "Ethereum Price Falls Below Gareth Soloway's $1,850 Add Zone After His $1,952 Long"
+    "Blockstream And Thales Launch Bitcoin Custody System",
+    "From Gnosis Pay to SignalPlus, a Run of Smaller Breaches Follows Binance's $6.3 Billion Theft"
    ]
   },
   {
    "sujet": "XRP",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "XRP as the “Gold of the Internet”: Vet Highlights the Design Behind His Store-of-Value Case",
-    "XRP Falls Below $1, but Falling Dollar Open Interest Masks Broadly Steady Futures Exposure"
+    "XRP price prediction 2026-2032: Will XRP reach $5?",
+    "XRP as the “Gold of the Internet”: Vet Highlights the Design Behind His Store-of-Value Case"
    ]
   },
   {
@@ -185,12 +176,19 @@
    ]
   },
   {
-   "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "bullish",
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "Why Tokenized Gold’s Explosive Growth Isn’t the Full Story: Xash CEO",
-    "MegaETH Parent Cuts 20% of Staff as It Builds an AI Marketplace"
+    "From Gnosis Pay to SignalPlus, a Run of Smaller Breaches Follows Binance's $6.3 Billion Theft"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Thai police arrest two Chinese nationals over $92M crypto pyramid scheme"
    ]
   }
  ],

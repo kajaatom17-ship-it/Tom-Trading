@@ -1,62 +1,5 @@
 [
  {
-  "t": "2026-11-13T22:19:54Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "XRP short ouvert à 0.9110442 | 150.45 € engagés | stop 0.926 | objectif 0.868 | risque 3.68 EUR",
-  "data": {
-   "id": "P0004"
-  }
- },
- {
-  "t": "2026-11-13T22:19:54Z",
-  "agent": "Execution",
-  "type": "déclenchement",
-  "msg": "Ordre O0003 déclenché : XRP short ouvert à 0.9110442 (P0004)"
- },
- {
-  "t": "2026-11-13T22:19:58Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, banque centrale] Spot gold posts worst week since March amid jump in Fed rate hike expectations (Investing.com)",
-  "data": {
-   "lien": "https://www.investing.com/news/commodities-news/gold-languishes-near-13month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-5023860",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-13T22:19:58Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, résultats] Stock Market Today, Nov. 13: Cerebras Surges Over 11% on Record Q3 Revenue and Raised 2026 Guidance - The Motley Fool (The Motley Fool)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQZERlWHVYQlp4clZXZk9zdTFLc182VXRJMW52X2lrcmRYYlRySlRPN1JTRjF3UjItNWZSam1IeFYtckN0SmxVTm9aaUNyREtyTEphN2pEb2dtcmRsM3d5cU9QUjBkQ2U2ZFpHMjBsZjllVG0xU2VCaXJlXzFtNzA3UmllZG1sc0thTHpRMUVQWEU4V2RhZTF4WU9KQVVDWlpXazlCWkhzdlBfdTdOS1M2eDQtTW5nMGxNUVRMaGJ3M0dpQUJRUHhFcGlTZTNBTVBLSVBBWFZ5cmc4dlRBSXFjOElFVFV1elNhVzhDTQ?oc=5",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-13T22:19:58Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, résultats] Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue - The Motley Fool (The Motley Fool)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOandubzZRcno4a3NUSXd1UDczbzJtVmRqdEJYalRqb3NhaDY1XzdZeF9OS0hXSDVfU3puaG82SUd5aDZpOVc0eGx4amV1Z29QMzZpbW4wZUNkWEF5VzdzYXFzSTNBUE5VdW95RUdwMjZwOXlEWTJIT3JTNlZhVlpuY0JaSEM4SGtyTHdCTnI3bXhRakc2bnpZQm9LZnNWRHh3VFhvWXBTVFRCdVNfdTFJVGl1UEs3N2lDdHV0WVl2cjhlUVpqYm45MTFqNkNNdGRHdC1kaERUT3V5MjViQk1obWdGLWVmX2lmMERIUk9R?oc=5",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-13T22:21:00Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 9 signal(aux) : LTC short (TPB-1, 60), SUI short (BRK-1, 45), WIF short (BRK-1, 37)"
- },
- {
-  "t": "2026-11-13T22:26:46Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde les deux paris à la baisse et on refuse un troisième, trop semblable aux deux autres et trop juste en rapport gain/risque."
- },
- {
   "t": "2026-11-14T01:25:06Z",
   "agent": "Veille",
   "type": "actu",
@@ -2716,5 +2659,51 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "INJ +2.67 % en 15 min"
+ },
+ {
+  "t": "2026-11-15T09:56:54Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne prend aucun trade : le marché rebondit dans une tendance baissière et aucun signal n'est assez propre."
+ },
+ {
+  "t": "2026-11-15T09:57:00Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, HYPE, KAVA, SOL, ETH, VVV, PEARL, NEAR"
+ },
+ {
+  "t": "2026-11-15T09:57:01Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : BTC, CAT, CLSK, CMG, CRVS, DAL, ETH, GE, IBIT, LHX, LINK, MSTR"
+ },
+ {
+  "t": "2026-11-15T09:57:05Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 13 en mouvement : VVV +14.3 %, DRV +11.5 %, NIGHT +6.1 %."
+ },
+ {
+  "t": "2026-11-15T09:57:09Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, banque centrale] Canton Coin falls below $0.08 amid broad crypto market sell-off driven by rate hike fears and fund outflows - Pluang (Pluang)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZUNEYmlISkdVTW5IcTF6ZDBZdElRUXFLZE9pOFVhUEUyLUNpUFNlT1EydnZwZ2dBSWJXcmlLNmRvUGdwYlpLVTYtNkdWcldKdVJBV1dQUzBvSWNFcE5INGlDSXItaEpOWFN5WGVPaGZHV05PUV8wUFFGWGVPa191OVQtUjlvcTFZR0E?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-15T09:57:09Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "SKY -2.76 % en 15 min"
+ },
+ {
+  "t": "2026-11-15T09:58:08Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : TSLA long (BRK-1, 27)"
  }
 ]
