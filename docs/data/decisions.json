@@ -5015,5 +5015,113 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-14T23:57:15Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "BTC 1 h baissier. Seul candidat du scanner : GOOGL short TPB-1 (score 60, RR net 1,53, entrée 263,14, stop 267,23, objectif 250,87), juste au-dessus du seuil de 1,5. PAXG (RR 1,21) et NVDA (RR 1,13) sont sous le seuil. Memecoins : RSI 27 à 41, volumes très faibles (PEPE vol_ratio 0,04), pas de configuration propre.",
+    "donnees": "brief 00:25 UTC (01:25 Paris), Kraken"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Dimanche 15 nov : Bourse US fermée, actions xStocks peu liquides. Fait : Bitcoin sous 64 000 $ après 7 jours consécutifs de sorties des ETF (Investing.com, 14 nov 23:57 UTC). Mes 2 recherches web n'ont pas confirmé de calendrier daté pour lundi : je n'invente rien et je n'ajoute pas d'agenda.",
+    "sources": [
+     "Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day - Investing.com - 14 nov 2026 23:57 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-below-68000-as-anthropic-ipo-frenzy-drains-market-liquidity-5027106"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 13 (peur extrême), capitalisation crypto -8,21 % sur 24 h, dominance BTC 58,79 %. En peur extrême, les rebonds sont brusques : shorter après une chute pareille est risqué.",
+    "donnees": "brief 23:57 UTC"
+   },
+   "trader": {
+    "proposition": "Garder (aucune position). Pas de nouvelle entrée.",
+    "pour": [
+     "GOOGL : tendance 1 h baissière, rebond sur EMA20 puis rechute"
+    ],
+    "contre": [
+     "RR net 1,53 pour un seuil de 1,5, aucune marge",
+     "Dimanche, marché actions fermé",
+     "Crypto déjà très baissière : risque de rebond violent"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Aucun trade avec assez de marge : GOOGL à RR 1,53 en séance fermée, memecoins sans volume. Ne rien faire est la bonne décision."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Le scanner ne sort que GOOGL short TPB-1 : RR net 1,53, score 60. PAXG (1,21) et NVDA (1,13) sont sous le seuil."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Faits : BTC sous 64 000 $, 7e jour de sorties ETF (Investing.com, 14 nov 23:57 UTC). On est dimanche, la Bourse US est fermée. Je n'ai pas de calendrier confirmé pour lundi."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed 13, capitalisation -8,21 % en 24 h. Après une telle chute, les rebonds sont violents."
+   },
+   {
+    "agent": "memecoins",
+    "message": "DOGE RSI 26,9, PEPE vol_ratio 0,04, WIF vol_ratio 0 : aucune impulsion, rien de poursuivable. Les alertes de +2,5 % à +3,2 % en 15 min sur BONK, PENGU et TRUMP sont petites et sans volume. Rien de propre."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je regarde GOOGL short à 263,14, stop 267,23, objectif 250,87. RR 1,53 : valable sur le papier, mais sans aucune marge."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Une marge de 0,03 au-dessus du seuil disparaît avec un peu de glissement, dimanche, marché fermé. Et l'alerte GOOGL +1,82 % en 15 min le 14 nov 22:32 UTC montre un titre qui bouge sans liquidité. Je refuse."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "risk_manager",
+    "message": "Je confirme : sans calendrier daté de lundi, je préfère ne pas entrer. Je ne peux pas dire quelle annonce arrive."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "D'accord, je n'insiste pas : pas de trade. Dernière action du trader de garde (stop suiveur KNTQ, 14 nov 21:26 UTC) était bonne, la position est déjà fermée avec +1,09 €."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je valide le refus. Seul avertissement : ne pas chasser un rebond de peur extrême sans volume."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Décision actée : aucune position ouverte, aucune nouvelle entrée."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte, rien à surveiller ou à fermer.",
+    "Seul candidat : GOOGL short, RR net 1,53 contre 1,5 requis, un dimanche marché fermé.",
+    "Crypto en peur extrême (Fear & Greed 13), BTC sous 64 000 $ avec 7 jours de sorties ETF.",
+    "Memecoins : volumes quasi nuls, aucune impulsion."
+   ],
+   "desaccords": [
+    "Le trader trouvait GOOGL acceptable ; le Risk Manager l'a refusé (marge trop faible, marché fermé)."
+   ],
+   "decision": "Ne rien faire : pas de position, pas de nouvelle entrée.",
+   "a_surveiller": [
+    "Ouverture de la Bourse US lundi (15:30 Paris) et GOOGL",
+    "Un rebond de BTC avec volume",
+    "Un calendrier d'annonces daté pour lundi"
+   ]
+  },
+  "synthese": "On ne fait rien : le seul trade possible (GOOGL) était trop juste et la Bourse est fermée.",
+  "id": "D-20261115-002624",
+  "cree_le": "2026-11-15T00:26:24Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T00:29:00Z"
  }
 ]

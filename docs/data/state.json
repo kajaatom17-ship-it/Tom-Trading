@@ -13,7 +13,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T00:01:30Z",
+ "maj": "2026-11-15T00:29:24Z",
  "seq": 7,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -21,7 +21,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-14T23:57:21Z",
+ "chasseur_t": "2026-11-15T00:29:05Z",
  "tendance": [
   "BTC",
   "SOL",
@@ -42,36 +42,16 @@
  "tendance_t": "2026-11-14T23:57:22Z",
  "buzz": {
   "BTC": {
-   "source": "StockTwits",
+   "source": "Reddit + StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "XRP": {
-   "source": "Reddit + StockTwits",
+   "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "ETH": {
-   "source": "Reddit + StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BMNR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -81,22 +61,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SHIB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ADA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JNJ": {
+  "AVAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "QNT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZEC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HBAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -105,45 +105,74 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "CASHCAT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-14T23:57:23Z",
- "sources_t": "2026-11-14T23:57:28Z",
+ "buzz_t": "2026-11-15T00:29:06Z",
+ "sources_t": "2026-11-15T00:29:09Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 14,
+   "mentions": 12,
    "sentiment": "bearish",
    "titres": [
-    "BITCOIN: THE BATTLE OF THE BIG BOYS BEGINS!",
-    "Peter Schiff argues Bitcoin may fall below $16,500 by year-end if $50,000 breaks next"
+    "Crypto liquidations surge past $1.9 billion as Bitcoin nears $63,000",
+    "BTCUSD Bullish Reversal Setup | Liquidity Sweep + FVG + OB"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "AVGO Rebounds 26% — Can Buyers Break the $370 Resistance Wall?",
+    "Digital Realty Trust boosts Japan data center investment by $10B"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "SC/USDT bring on the next wave",
+    "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 7,
-   "sentiment": "bearish",
+   "mentions": 3,
+   "sentiment": "neutral",
    "titres": [
     "$ETH WEEKLY: BULL TRAP OR THE START OF A NEW HIGHER LOW?",
     "Peter Schiff argues Bitcoin may fall below $16,500 by year-end if $50,000 breaks next"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 3,
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BTC/NVIDIA: A Potential 12-Year Wyckoff Reaccumulation",
-    "Nigeria's upcoming election marred by rising AI disinformation"
+    "Family Dollar to Pay $63 Million Settlement for Overcharging Customers"
    ]
   },
   {
-   "sujet": "Layer 2",
-   "mentions": 2,
+   "sujet": "Security",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Can Private Protocols Keep North Korea Out? Aztec’s Zac Williamson Thinks So",
-    "MegaETH Cuts 20% of Workforce as It Shifts Focus Toward AI Marketplace"
+    "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%"
    ]
   },
   {
@@ -152,30 +181,6 @@
    "sentiment": "neutral",
    "titres": [
     "SOLANA: Is Another Massive Liquidation Coming?"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "USDT.D just spiked hard to 8.15%"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "BTCUSDT long closed by stop-loss: -3.18%"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "US Crypto Trust Charters Face Senate Scrutiny as Coinbase Receives Final Approval"
    ]
   }
  ],
