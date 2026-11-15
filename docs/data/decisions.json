@@ -8525,5 +8525,109 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T15:26:24Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "BTC 58 822 €, tendance 1 h baissière, RSI 38,3, sous EMA20 (59 277). TAO short : prix 172,81, RSI 42,4, MACD -0,57, toujours sous EMA20 (174,58) : scénario intact. Candidats LINK/HYPE/ARB (score 70) propres mais tous des shorts crypto corrélés.",
+    "donnees": "Brief Kraken 15:55 UTC (16:55 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Recherches web du jour : aucun calendrier daté et confirmé trouvé pour la semaine (résultats Nvidia attendus, procès-verbal Fed évoqués sans date vérifiée). Aucun agenda déposé pour ne rien inventer. MarketWatch 15:00 UTC : Nvidia prépare des résultats très attendus.",
+    "sources": [
+     "Nvidia is gearing up for one of Wall Street's most anticipated earnings calls in years - MarketWatch - 2026-11-15 15:00 UTC - https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 58,67 %, capitalisation totale -5,47 % sur 24 h. En peur extrême les rebonds sont violents : mauvais moment pour ajouter des shorts."
+   },
+   "trader": {
+    "proposition": "Garder TAO short ; aucune nouvelle entrée (3/3 entrées du jour utilisées).",
+    "pour": [
+     "TAO dans le scénario",
+     "Stop et objectif déjà posés"
+    ],
+    "contre": [
+     "Quota d'entrées atteint",
+     "Candidats corrélés à TAO"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Quota de 3 entrées atteint, shorts crypto corrélés, peur extrême : on ne force rien."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "TAO short : prix 172,81 contre entrée 173,76, RSI 42,4, MACD -0,57, sous l'EMA20 15 min (174,58). Le scénario tient. BTC à 58 822, RSI 38,3, volume x2,42."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed est à 10 et la capitalisation totale perd 5,47 % en 24 h. Après une telle chute, un rebond brusque est plausible : je suis prudent sur les shorts."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Pas de date confirmée trouvée pour les annonces de la semaine, donc rien d'ajouté à l'agenda. MarketWatch (15:00 UTC) parle des résultats Nvidia très attendus : NVDA short (score 60, RR net 1,57) est une idée à risque d'annonce."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "Je conteste : LINK, HYPE et ARB ont score 70 et RR net 1,88 / 1,81 / 1,75, tendance 1 h baissière, rebond sur l'EMA20 puis rechute. Ce sont des TPB-1 propres."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Propres, mais ARB et HYPE ont monté de +5,16 % et +4,39 % sur 24 h alors que le marché baisse : mouvements atypiques, pas une tendance à suivre aveuglément."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de garder TAO et de ne rien ouvrir : le compteur d'entrées est à 3/3, de toute façon aucune nouvelle position n'est possible aujourd'hui."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "D'accord sur le quota. Et même sans quota, LINK/HYPE/ARB s'ajouteraient à TAO : quatre shorts crypto corrélés dans un marché à 10 de peur. Je l'aurais refusé."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "risk_manager",
+    "message": "Noté, je maintiens que les signaux sont techniquement valides. On les reverra demain avec le nouveau quota, s'ils tiennent."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Validé : on garde TAO, aucune nouvelle entrée. Memecoins : DOGE, PEPE, TRUMP en baisse de 4,5 à 5,8 % sur 24 h, aucun retour propre sur la zone, rien à proposer."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "TAO short toujours dans le scénario (+0,54 € latent), stop 178,22 et objectif 161,07 inchangés.",
+    "3 entrées sur 3 déjà utilisées aujourd'hui : pas de nouvelle position possible.",
+    "Memecoins en baisse de 4 à 6 % sur 24 h, aucun retour propre sur la zone.",
+    "Aucun calendrier daté et confirmé trouvé sur le web : rien déposé à l'agenda."
+   ],
+   "desaccords": [
+    "Analyste technique : LINK, HYPE, ARB sont des signaux propres (score 70). Sentiment et Risk Manager : corrélés à TAO en peur extrême."
+   ],
+   "decision": "On garde TAO et on ne prend aucune nouvelle position.",
+   "a_surveiller": [
+    "Rebond de BTC au-dessus de l'EMA20 15 min (59 277)",
+    "Mouvement de plus de 5 % en 15 min",
+    "Nouveau quota d'entrées demain, résultats Nvidia"
+   ]
+  },
+  "synthese": "On garde la position TAO et on n'ouvre rien de nouveau : le quota du jour est atteint et le marché en peur extrême peut rebondir.",
+  "id": "D-20261115-155601",
+  "cree_le": "2026-11-15T15:56:01Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T15:56:16Z"
  }
 ]
