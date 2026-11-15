@@ -1,0 +1,99 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 58 811 €, tendance 1 h baissière, RSI 38,6, volume normal (x1,04), prix collé à l'EMA20 15 min sans rebond net. Seul candidat du scanner : ARB short TPB-1 (RR net 1,59, score 60), mais le quota d'entrées est atteint. TAO short reste dans son scénario.",
+   "donnees": "Brief Kraken 16:25 UTC (17:25 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Calendrier du comité vide ; mes 3 recherches web (calendrier de la semaine, ETF bitcoin, actualité TAO) n'ont donné aucune date confirmée par une source officielle exploitable, donc rien n'est ajouté à l'agenda. Faits du brief : Investing.com 15:56 UTC, bitcoin au plus bas depuis juillet après le week-end ; Nvidia (résultats très attendus) et introduction en bourse d'Anthropic annoncées pour la semaine (MarketWatch 15:00 UTC, Yahoo Finance UK 14:33 UTC), dates exactes non vérifiées.",
+   "sources": [
+    "Bitcoin hovers near $65,000 after weekend selloff - Investing.com - 15/11 15:56 UTC",
+    "Nvidia is gearing up for one of Wall Street's most anticipated earnings calls - MarketWatch - 15/11 15:00 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,36 %, capitalisation totale -5,54 % sur 24 h. En peur extrême les rebonds violents contre un short sont fréquents. Reddit : MSTR mentions x2,2, indice seulement."
+  },
+  "trader": {
+   "proposition": "Garder TAO short (entrée 173,76, prix 173,20, stop 178,22, objectif 161,07, gain latent +0,32 €). Pas de nouvelle entrée : 3 entrées sur 3 déjà utilisées aujourd'hui.",
+   "pour": [
+    "Tendance 1 h baissière sur tout le marché",
+    "Stop et objectif déjà posés, perte max fixée"
+   ],
+   "contre": [
+    "Peur extrême : rebond brutal possible",
+    "Gain latent encore faible"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Garder : aucune raison de toucher au stop. Nouvelle entrée impossible (quota journalier atteint). ARB (RR 1,59) est juste au-dessus du seuil : même sans quota, je l'aurais regardé de près."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 58 811 €, RSI 38,6, tendance 1 h baissière, ATR 0,47 %. Pas d'impulsion : le prix traîne sous l'EMA20 (59 189)."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Aucune annonce confirmée dans les 2 prochaines heures. Bitcoin au plus bas depuis juillet (Investing.com 15:56 UTC), mais la semaine apporte Nvidia et l'IPO d'Anthropic, dates non vérifiées : je n'écris rien à l'agenda."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed 10, capitalisation -5,54 % sur 24 h. Je rappelle que la peur extrême produit des rebonds violents : le short TAO n'est pas à l'abri."
+  },
+  {
+   "agent": "trader",
+   "message": "On garde TAO short : prix 173,20 contre entrée 173,76, +0,32 € latent, stop 178,22, objectif 161,07. Pas de nouvelle entrée, quota 3/3."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Le risque de rebond est réel mais le stop à 178,22 est à 2,9 % du prix, au-dessus du dernier sommet : le scénario n'est pas cassé tant qu'il n'est pas touché."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "D'accord pour garder, mais je refuse d'élargir le stop ou d'ajouter du risque sur la baisse."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Et ARB short (RR net 1,59, score 60) ? Tu aurais pris quoi s'il restait une entrée ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "ARB est monté de 5,94 % sur 24 h : rebond sur l'EMA20 puis rechute, mais RR 1,59 est limite et un short après un rebond en peur extrême demande de la prudence. Je l'aurais étudié, pas pris par réflexe."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : garder TAO, aucune nouvelle entrée (quota atteint, rien d'exceptionnel). Pas d'OPP-1 : pas de catalyseur daté et sourcé de moins de 24 h."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Le marché reste baissier (BTC 58 811 €, Fear & Greed 10).",
+   "Position ouverte : short TAO, +0,32 € latent, stop et objectif inchangés.",
+   "Les 3 entrées du jour sont déjà utilisées, donc pas de nouvelle position."
+  ],
+  "desaccords": [
+   "Sentiment prudent sur le risque de rebond, technique confiant car le stop protège ; accord final pour garder sans changer le stop."
+  ],
+  "decision": "Ne rien faire : on garde TAO short et on n'ouvre rien de nouveau.",
+  "a_surveiller": [
+   "Rebond de BTC au-dessus de 59 189 (EMA20)",
+   "Dates confirmées de Nvidia et de l'IPO Anthropic",
+   "ARB short si le quota le permet demain"
+  ]
+ },
+ "synthese": "On garde la position TAO telle quelle et on n'ouvre rien de nouveau aujourd'hui, car le quota de trades est atteint.",
+ "id": "D-20261115-162614",
+ "cree_le": "2026-11-15T16:26:14Z"
+}
