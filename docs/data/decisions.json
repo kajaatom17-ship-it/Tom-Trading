@@ -10132,5 +10132,108 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T22:57:15Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Seuls candidats du scanner : AVAX short (RR net 0,61) et PAXG short (RR net 0,65), tous deux sous le seuil de 1,5. Tendance 1 h de BTC baissière, RSI BTC 55,2 contre 58,0 avant. Short TAO : prix 175,60, stop 178,22, objectif 161,07.",
+    "donnees": "brief.py 23:25 UTC (00:25 Paris), Kraken"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Titres du brief (22:05 UTC) : liquidations de 1,7 Md$ et 130 Md$ de capitalisation perdus ce week-end. Mes deux recherches web n'ont renvoyé aucune source datée fiable pour le calendrier de lundi : je n'ajoute aucune annonce à l'agenda. NVDA est citée par 4 vidéos et a bougé de +2,43 % en 15 min, mais le brief ne donne aucune date de résultats confirmée.",
+    "sources": [
+     "BigGo Finance - Bitcoin's Weekend Plunge Wipes $130 Billion - 15 nov 2026 22:05 UTC - brief"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,39 %, capitalisation totale -2,14 % sur 24 h. Les rebonds sont violents en peur extrême, mais on ne les poursuit pas."
+   },
+   "trader": {
+    "proposition": "Garder le short TAO, aucune nouvelle entrée.",
+    "pour": [
+     "TAO reste sous la tendance 1 h baissière de BTC",
+     "stop et objectif en place"
+    ],
+    "contre": [
+     "TAO a +6,38 % sur 24 h",
+     "aucun candidat avec RR net ≥ 1,5"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Garder TAO : perte max déjà bornée par le stop. Aucune nouvelle entrée : RR net 0,61 et 0,65, sous 1,5."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Scanner : AVAX short RR net 0,61, PAXG short RR net 0,65. Rien n'atteint 1,5. BTC 59 133, RSI 55,2, tendance 1 h baissière."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Brief : 1,7 Md$ de liquidations et 130 Md$ perdus ce week-end (BigGo, 22:05 UTC). Aucun calendrier de lundi confirmé par une source datée, donc je n'invente rien."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 10, capitalisation -2,14 % sur 24 h. XRP +6,13 % et NEAR +5,44 % sur 24 h : les rebonds en peur extrême sont rapides et trompeurs."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je garde le short TAO (entrée 173,76, prix 175,60, stop 178,22, objectif 161,07, perte latente 1,06 €). Pas de nouvelle entrée avec des RR de 0,61 et 0,65."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "TAO est à +5,15 % sur 24 h et RSI 15 min 63,6 : le rebond est fort. Je conteste le fait de simplement garder sans réfléchir au stop."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "TAO est sous sa tendance 1 h baissière, volume 15 min à 0,41 fois la normale : le rebond n'est pas soutenu. Le stop à 178,22 est au-dessus du haut 12 h (177,92), il tient."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "NVDA est citée par 4 vidéos et a fait +2,43 % en 15 min, mais sans date de résultats confirmée ni prix qui confirme, ce n'est qu'une piste."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_macro",
+    "message": "D'accord : une piste sans confirmation du prix n'est pas un trade. On ne touche à rien."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "analyste_sentiment",
+    "message": "Resserrer le stop serait déplacer le risque sans raison nouvelle. Validé : on garde TAO, aucune entrée, RR net 0,61 et 0,65 refusés."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Le short TAO est ouvert, perte latente d'environ 1,06 €, stop en place à 178,22.",
+    "Les deux seuls candidats du scanner (AVAX, PAXG) ont un rapport gain/risque net de 0,61 et 0,65, trop faible.",
+    "Marché en peur extrême (indice 10), 1,7 Md$ de liquidations ce week-end."
+   ],
+   "desaccords": [
+    "Le sentiment trouvait le rebond de TAO fort (+5,15 % sur 24 h). La technique répond que le volume est faible (0,41 fois la normale)."
+   ],
+   "decision": "On garde le short TAO et on n'ouvre rien de nouveau.",
+   "a_surveiller": [
+    "Cassure de TAO au-dessus de 178,22 (stop)",
+    "Une annonce de résultats NVDA confirmée par une source datée",
+    "Un candidat avec RR net ≥ 1,5"
+   ]
+  },
+  "synthese": "On garde le short TAO et on n'ouvre rien : aucun candidat n'est assez rentable après frais.",
+  "id": "D-20261115-232610",
+  "cree_le": "2026-11-15T23:26:10Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T23:26:22Z"
  }
 ]
