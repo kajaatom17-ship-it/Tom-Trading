@@ -1,0 +1,104 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "Aucune position ouverte. Tendance 1 h baissière sur BTC (59 651 €, RSI 59,4), ETH (RSI 61,7), SOL (RSI 64,5). Les rebonds se font sans volume : vol_ratio BTC 0,29, ETH 0,28, XRP 0,12, DOT 0,10. Seul candidat du scanner : AAPL long TPB-1, RR net 0,91 (< 1,5) et contre la tendance de BTC.",
+   "donnees": "brief 12:25 UTC, Kraken OHLC 15 min"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Dimanche, bourses US fermées, calendrier du brief vide et aucune date confirmée trouvée par recherche web pour lundi (résultats de recherche mélangeant plusieurs années : rien d'ajouté à l'agenda). Actualités du brief (fait, pas interprétation) : Cointelegraph 10:23 UTC « Bitcoin falls to four-month low near $62K as crypto selloff deepens » ; MarketForces Africa 10:51 UTC « Ethereum Tumbles As Rising Fed Rate Hike Odds Trigger Crypto Selloff ». Le contexte est hostile aux actifs risqués.",
+   "sources": [
+    "Bitcoin falls to four-month low near $62K as crypto selloff deepens - Cointelegraph - 2026-11-15 10:23 UTC - https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff",
+    "Ethereum Tumbles As Rising Fed Rate Hike Odds Trigger Crypto Selloff - MarketForces Africa - 2026-11-15 10:51 UTC (lien dans le brief)"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,45 %, capitalisation totale -5,12 % sur 24 h. En peur extrême, les rebonds sont violents mais sans volume ils ne prouvent rien."
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE RSI 63,2 vol_ratio 1,29 ; WIF RSI 73,5 mais spread 0,41 % (> 0,30 %) et volume 24 h de 54 k€ : exclu. PEPE vol_ratio 0,03, TRUMP 0, SHIB 0 : pas de volume. PENGU -14,95 % sur 24 h : déjà fini. Aucun mouvement poursuivable."
+  },
+  "trader": {
+   "proposition": "Garder (aucune position) et ne pas entrer : aucune nouvelle entrée.",
+   "pour": [
+    "Fear & Greed 10 : rebonds possibles"
+   ],
+   "contre": [
+    "Rebonds sans volume dans une tendance 1 h baissière",
+    "AAPL RR net 0,91 < 1,5",
+    "Hier : ADA -1,02R et HYPE -1,02R, stops touchés"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse toute entrée",
+   "motif": "Aucun candidat ne passe RR net ≥ 1,5. Pas de trade pour faire tourner le portefeuille."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Aucune position ouverte. BTC 59 651 € sous une tendance 1 h baissière, RSI 59,4 mais vol_ratio 0,29 : le rebond sur l'EMA20 15 min (59 288) n'a pas de volume."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Dimanche, actions fermées, calendrier vide et rien de confirmé pour lundi. Cointelegraph (10:23 UTC) parle d'un plus bas de 4 mois et MarketForces (10:51 UTC) lie la baisse à la hausse des probabilités de relèvement des taux de la Fed : c'est la lecture des médias, pas un fait confirmé de ma part."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed est à 10 et la capitalisation totale perd 5,12 % en 24 h. Un short maintenant arrive après la chute ; un long est contre la tendance. Je ne vois pas d'avantage."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Rien de propre : WIF RSI 73,5 mais spread 0,41 %, au-dessus de la limite de 0,30 % ; PEPE vol_ratio 0,03 ; PENGU -14,95 % en 24 h, mouvement déjà fait. Pas d'entrée sur bougie sans volume."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_sentiment",
+   "message": "Je regardais un short de rebond sur DOT (RSI 72,1) ou ADA (RSI 70,2), tendance 1 h baissière. Mais vol_ratio DOT 0,10 et ADA 0,48 : pas de signal TPB-1 ni BRK-1 validé."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "D'accord : ADA a déjà touché son stop à -1,02R cette nuit (P0008) sur un short BRK-1, et HYPE aussi (P0011). Entrer sans confirmation répéterait ces pertes. Le seul candidat du scanner, AAPL, a un RR net de 0,91."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "specialiste_memecoins",
+   "message": "Je ne contredis pas, mais rappelle que si la Fed surprend lundi la volatilité sera forte. Aucun catalyseur daté et sourcé de moins de 24 h : OPP-1 est exclu."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "repond_a": "analyste_macro",
+   "message": "Alors un memecoin ne vaut pas le risque : volume 24 h de SHIB 123 k€, BONK 87 k€, très mince."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Refus de toute entrée : RR net AAPL 0,91 < 1,5 et contre BTC. Pas de position à surveiller. Perte réalisée totale -1,64 € ; pas de trade pour faire tourner le portefeuille."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte, rien à garder ni à fermer.",
+   "Le marché est en peur extrême (indice 10) et BTC reste baissier ; les rebonds se font sans volume.",
+   "Seul candidat du scanner : AAPL, mais rapport gain/risque net de 0,91, trop faible."
+  ],
+  "desaccords": [
+   "Le trader pensait à un short de rebond sur DOT ou ADA ; l'analyste technique l'a contesté : pas de volume et ADA vient d'être stoppé."
+  ],
+  "decision": "Aucune décision de trading : on ne prend aucune nouvelle entrée.",
+  "a_surveiller": [
+   "Une cassure de BTC avec volume (plus haut 12 h 60 114 € ou plus bas 56 388 €)",
+   "L'ouverture des marchés américains lundi et les annonces de la Fed",
+   "Spread de WIF sous 0,30 %"
+  ]
+ },
+ "synthese": "On ne prend aucun trade : le marché est baissier, les rebonds n'ont pas de volume et le seul candidat a un gain trop faible par rapport au risque.",
+ "id": "D-20261115-122614",
+ "cree_le": "2026-11-15T12:26:14Z"
+}
