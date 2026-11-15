@@ -1,0 +1,103 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "Scanner sans candidat. BTC 59 240 €, tendance 1 h baissière, RSI 59,5 avec volume à 0,55x la normale : rebond sans conviction sous l'EMA50 (58 838). ADA, SOL, ETH touchent l'EMA20 par le haut, volumes entre 0,02x et 0,5x. Aucun signal TPB-1/BRK-1 propre.",
+   "donnees": "Brief Kraken 15 min, 04:25 UTC (05:25 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Dimanche : bourses US fermées. Les recherches web du jour ne donnent pas de date d'annonce confirmée pour lundi ; calendrier du brief vide, je n'ajoute rien faute de source datée. Actualité crypto (CoinDesk 15/11 : XRP au plus bas depuis nov. 2024 ; TradingView 15/11 : BTC, risque vers 57 000) = fait de pression vendeuse, pas de catalyseur haussier.",
+   "sources": [
+    "XRP crashes to its lowest since November 2024 - CoinDesk - 2026-11-15 02:50 UTC - https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -6,43 % sur 24 h, dominance BTC 58,61 %. Les rebonds de 5 % en 1 h (ETH, SOL, XRP) arrivent avec peu de volume : typique d'un rebond technique dans une panique."
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE spread 0,029 % mais volume 0,55x ; PEPE seul à 1,19x, RSI 61,6, sous la tendance baissière 1 h. WIF alerte +3,7 % en 15 min sur seulement 58 053 € de volume 24 h : déjà fini, pas de poursuite."
+  },
+  "trader": {
+   "proposition": "Garder KNTQ (long, stop protégé), aucune nouvelle entrée.",
+   "pour": [
+    "KNTQ +0,76 € latent, stop au-dessus du prix d'entrée"
+   ],
+   "contre": [
+    "Aucun candidat scanner",
+    "Rebond sans volume en peur extrême : shorts risqués, longs contre la tendance 1 h"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Pas de trade : aucun RR net >= 1,5 propre. Exposition actuelle minuscule (1 position)."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Scanner vide. BTC 59 240 sous l'EMA50 (58 838 -> prix juste au-dessus, EMA20 58 427), tendance 1 h baissière, volume 0,55x. Rien à jouer."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed à 10 et capitalisation -6,43 % sur 24 h. Les rebonds de +5 % en 1 h sur ETH/SOL/XRP se font avec des volumes de 0,5x à 0,24x : je n'y vois pas de reprise, plutôt un rebond de panique."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Dimanche, bourses US fermées, pas d'annonce lundi confirmée par une source datée : je n'ajoute rien à l'agenda. Pour le contexte, CoinDesk (15/11, 02:50 UTC) titre XRP au plus bas depuis nov. 2024."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Rien de propre. PEPE à 1,19x de volume est le seul mouvant, mais RSI 61,6 sous tendance baissière. WIF +3,7 % en 15 min avec 58 053 € de volume 24 h : trop mince, mouvement fini."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je propose de garder KNTQ (long, entrée 0,2169, prix 0,2235, stop 0,2187 au-dessus de l'entrée) et de ne rien ouvrir. Un short de rebond sous l'EMA50 existe sur le papier mais..."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "...mais en peur extrême les rebonds sont violents. Un short ADA a déjà pris le stop en 8 minutes cette nuit (-2,56 €, -1,02R). Je m'oppose à un nouveau short."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "D'accord, et le long est impossible : tendance 1 h baissière sur tous les majeurs. Les deux sens sont refusés par la structure."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Es-tu sûr de ne rien rater ? Consensus rapide = méfiance. Mais RR net >= 1,5 introuvable, volume 0,02x à 0,5x sur la plupart des candidats. KNTQ : stop au-dessus de l'entrée, perte impossible. Validé : on garde, pas de nouvelle entrée."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Réponse : la discipline vaut mieux qu'un trade forcé ; on réévalue à la prochaine réunion si un volume >= 1,8x apparaît."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Positions : seule KNTQ (long) est ouverte, +0,76 € latent, stop protégé : on la garde.",
+   "Marché : peur extrême (indice 10), BTC 59 240 € en tendance baissière, rebonds sans volume.",
+   "Aucune annonce confirmée lundi par une source datée ; bourses US fermées (dimanche).",
+   "Actions du trader de garde : le short ADA a pris son stop (-2,56 €) : entrée en pleine panique, rebond rapide."
+  ],
+  "desaccords": [
+   "Le Trader voyait un short de rebond possible ; le sentiment et la technique l'ont contesté (short ADA stoppé cette nuit)."
+  ],
+  "decision": "Garder KNTQ et ne prendre aucune nouvelle entrée.",
+  "a_surveiller": [
+   "Volume >= 1,8x avec cassure du plus bas 12 h de BTC (56 388)",
+   "Annonces macro de lundi à confirmer par une source",
+   "Mouvement de KNTQ vers 0,2412 (objectif) ou retour sur 0,2187 (stop)"
+  ]
+ },
+ "synthese": "On garde la petite position KNTQ et on ne prend rien de nouveau : le marché est en panique, les rebonds manquent de volume et aucun trade n'offre un bon rapport gain/risque.",
+ "id": "D-20261115-042622",
+ "cree_le": "2026-11-15T04:26:22Z"
+}
