@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-13T14:06:38Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "27 actifs analyses, 2 signal(aux) : PAXG short (TPB-1, 40), WIF long (BRK-1, 30)"
- },
- {
-  "t": "2026-11-13T14:14:43Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "27 actifs analysés, 2 signal(aux) : PAXG short (TPB-1, 40), WIF long (BRK-1, 30)"
- },
- {
-  "t": "2026-11-13T14:15:06Z",
-  "agent": "Comite",
-  "type": "aucune action",
-  "msg": "Première réunion : on reste à 100 % en liquidités. Les deux signaux du scanner rapportent trop peu par rapport à leur risque une fois les frais Kraken payés."
- },
- {
   "t": "2026-11-13T14:21:32Z",
   "agent": "Scanner",
   "type": "scan",
@@ -2725,5 +2707,51 @@
     "META"
    ]
   }
+ },
+ {
+  "t": "2026-11-15T05:27:07Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne prend aucun trade : le marché est en panique, les rebonds manquent de volume et aucun signal n'est propre."
+ },
+ {
+  "t": "2026-11-15T05:27:12Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : BONK, CHWY, DOGE, DVN, ETH, MELANIA, MOD, OCUL, SMMT, TOSHI, TOST, UPS"
+ },
+ {
+  "t": "2026-11-15T05:27:17Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "458 actifs hors univers analysés, 10 en mouvement : VVV +13.9 %, DRV +10.9 %, ZEC +5.2 %."
+ },
+ {
+  "t": "2026-11-15T05:27:21Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, baleines] Bitcoin Selloff Deepens As Bitwise CIO Warns Of ‘Wilderness’ Ahead, Whales Buy The Dip – But $57K Remains In Sight - Yahoo Finance (Yahoo Finance)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWXBES09DcFc1UDFJZ0Z3NDVFcDVDWldRVlVZYjR1XzhTOEdwYUJpbXctU3MzRzRjb1FCNWtwbVpEd0JMYlJocjB5NGVta3dxdGJnWWMtSi1pSzRJR2tKSXhOZE1HWmtFWjZBUVFRSzFWTnFQTUZnbjRVOVRtVkRFQVM1WWJFazd5RU1TMmxiMnhKTzV6aDZVbWY0RmdRUGZUaUE?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T05:27:21Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage, chute] Tom Lee: Crypto Market Pressure May Be Linked to AI Stock Selloffs, Anthropic IPO Funding and Hack-Related Fund Releases - TradingView (TradingView)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZTJOLTFyVjdGX21MYW5aOS1SYndEMVllY0N2ZHJweDkzenoxeERqYU84UG1UanZOLW9faC1XRklBdU5vMnJlSUVzVWF0T3NSMFJTQXE0ZE5rd0Ryd3FNSVAtZWFfX04wYW1CR1UwYjdGZmp5ZGhFRW44V2hvMU9qaGtBeG5sQ1ppbEJyUGxoVFR3Rmh4VGR3cmVIcFJUNm45Q2dmbEkwY1NuNFV0RzE4SmptRXYzeXM4a0dHa2tWeGhhZ0l6bGJiQ3RFZ3VaQVBXazNQblVfSG1PdmRUYXhwbU5YekV2c3I0Tzg1RjFQOFdXbGh4T0F3a2FxbUVNenRMUEdZMnBmLUFMZWl6bkE?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-15T05:28:19Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : PENGU short (TPB-1, 60)"
  }
 ]

@@ -6187,5 +6187,107 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T04:58:14Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Scanner sans candidat. Tendance 1 h baissière sur BTC (58 944 €, EMA20 58 606, RSI 55, volume 0,32x la normale) et sur tous les memecoins. Les rebonds touchent l'EMA20 par le haut sans volume : pas de signal propre.",
+    "donnees": "Brief Kraken 15 min, 2026-11-15 05:26 UTC (06:26 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Dimanche : bourse US fermée, calendrier du brief vide. Les recherches web ne donnent aucune date confirmée et sourcée pour les 48 h, donc aucun événement ajouté à l'agenda. Actualité du brief : liquidations de positions longues (Briefs Finance, 15/11 04:34 UTC), plus rien de daté de moins de 24 h qui justifie un pari OPP-1.",
+    "sources": [
+     "Crypto Selloff: Leveraged Longs Liquidated - Briefs Finance - 2026-11-15 04:34 UTC - brief"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 58,67 %, capitalisation totale -4,97 % sur 24 h. En peur extrême les rebonds sont violents dans les deux sens, sans direction fiable."
+   },
+   "trader": {
+    "proposition": "Aucune position ouverte à gérer. Aucune nouvelle entrée : rien de propre.",
+    "pour": [
+     "Marché baissier, short possible en théorie"
+    ],
+    "contre": [
+     "Rebonds sans volume, entrée tardive après -8 à -10 % sur 24 h",
+     "Aucun signal TPB-1 ou BRK-1 valide",
+     "Weekend, faible liquidité"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Ne rien faire. Pas de trade forcé : le dernier ADA short a pris son stop en 8 minutes (-2,56 €)."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Aucune position ouverte, scanner vide. BTC 58 944 € sous tendance 1 h baissière, RSI 55 qui redescend de 56, volume à 0,32x la normale : rebond mou, pas de signal."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed à 10 et capitalisation -4,97 % sur 24 h. Les rebonds sans volume en panique cassent souvent, mais un short ici arrive après -8 % sur ADA et LTC : entrée tardive."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Dimanche, calendrier vide, et mes recherches ne confirment aucune date sourcée dans les 48 h : je n'ajoute rien. Le seul fait récent est la liquidation de longs (Briefs Finance, 04:34 UTC), déjà dans les prix."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_technique",
+    "message": "Tous les memecoins sont en tendance baissière 1 h avec RSI 52 à 60 touchant l'EMA20 par le haut. DOGE a un volume 6x mais RSI 55 qui retombe de 60 : pas d'impulsion poursuivable. WIF, PENGU, TRUMP ont un spread de 0,25 à 0,27 %, trop proche du plafond de 0,30 %."
+   },
+   {
+    "agent": "trader",
+    "message": "Je ne vois aucune entrée valide. Seule idée : short DOGE sur rebond refusé à l'EMA20, mais l'ATR de 0,95 % rend le stop minimum de 1 % très serré et le RR net fragile."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Je refuse de chercher un trade pour occuper le portefeuille. ADA short du matin : stop touché en 8 minutes pour -2,56 €. Que changerait ton short DOGE par rapport à celui-là ?"
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Rien de net : pas de cassure 12 h sous 0,0504 ni de repli confirmé. Je retire la proposition."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "risk_manager",
+    "message": "D'accord. Je note que si le comité était unanime trop vite je douterais, mais ici le prix lui-même ne donne rien."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Verdict : pas de trade. Capital 502,83 €, aucune exposition, coupe-circuit inactif, 1 entrée sur 3 utilisée aujourd'hui."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte : rien à garder ni à resserrer.",
+    "Marché en peur extrême (indice 10), BTC et memecoins en tendance baissière sans volume sur les rebonds.",
+    "Dimanche : bourse fermée et aucune annonce datée et sourcée trouvée pour les 48 h, donc rien ajouté à l'agenda."
+   ],
+   "desaccords": [
+    "Le Trader voyait un possible short DOGE ; le Risk Manager l'a contesté (stop serré, RR fragile, ADA stoppé ce matin) et le Trader a retiré l'idée."
+   ],
+   "decision": "Aucune nouvelle entrée : on reste en liquidités.",
+   "a_surveiller": [
+    "Cassure de DOGE sous 0,0504 € avec volume",
+    "Reprise du volume sur BTC",
+    "Calendrier de la semaine (bourse US, annonces) à confirmer par une source officielle"
+   ]
+  },
+  "synthese": "On ne prend aucun trade : le marché est en panique, les rebonds manquent de volume et aucun signal n'est propre.",
+  "id": "D-20261115-052652",
+  "cree_le": "2026-11-15T05:26:52Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T05:27:07Z"
  }
 ]

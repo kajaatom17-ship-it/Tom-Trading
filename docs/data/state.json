@@ -14,7 +14,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T05:02:16Z",
+ "maj": "2026-11-15T05:27:18Z",
  "seq": 9,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -22,7 +22,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T04:58:19Z",
+ "chasseur_t": "2026-11-15T05:27:12Z",
  "tendance": [
   "BTC",
   "HYPE",
@@ -47,12 +47,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVAX": {
+  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -67,27 +62,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MOD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XRP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UPS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TRUMP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BONK": {
+  "DVN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -97,7 +72,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UVXY": {
+  "UPS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MOD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CHWY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TOST": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OCUL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -107,45 +107,45 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "WLFI": {
+  "TOSHI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PBR": {
+  "BONK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T04:58:20Z",
- "sources_t": "2026-11-15T04:58:25Z",
+ "buzz_t": "2026-11-15T05:27:12Z",
+ "sources_t": "2026-11-15T05:27:17Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 12,
+   "mentions": 13,
    "sentiment": "bearish",
    "titres": [
-    "What Nvidia’s CEO Ouster and Bitcoin Have in Common",
-    "I AM THE BULL THAT REMAINS - Bitcoin Update (12H)"
+    "Analyst: Bitcoin short-term holders' overall loss ratio rises to 73%, trapped positions may continue to suppress rebound",
+    "BTC market cap briefly dropped out of the top 15 global assets"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 7,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.230095772 | 🚶 0.235095772 | 🚀 0.253105349 Gwei",
+    "⛽ ETH Gas: 🐢 0.210847636 | 🚶 0.212831146 | 🚀 0.23411426 Gwei",
     "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "What Nvidia’s CEO Ouster and Bitcoin Have in Common",
-    "BitMine chairman Tom Lee links AI selloff and Anthropic IPO to crypto pressure"
+    "AI helped hackers gain access at 10 unnamed organizations, researchers say",
+    "What Nvidia’s CEO Ouster and Bitcoin Have in Common"
    ]
   },
   {
@@ -167,15 +167,6 @@
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "BTCUSDT long closed by take-profit: +2.33%",
-    "DOJ Secures Court Approval Targeting $1.2B in Stolen Binance Crypto"
-   ]
-  },
-  {
    "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
@@ -185,6 +176,14 @@
   },
   {
    "sujet": "Cardano",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
+   ]
+  },
+  {
+   "sujet": "Dogecoin",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
