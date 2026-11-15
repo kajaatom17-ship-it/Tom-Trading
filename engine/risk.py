@@ -3,7 +3,7 @@
 Le Risk Manager IA donne son avis ; ces regles sont la derniere barriere.
 Un ordre qui echoue a une seule regle n'est jamais execute.
 """
-from core import (costs_roundtrip_pct, equity, is_meme, is_stock, load, net_rr, pair_of, paris_day, parse_iso, tier_of)
+from core import (costs_pct, costs_roundtrip_pct, fees, equity, is_meme, is_stock, load, net_rr, pair_of, paris_day, parse_iso, tier_of)
 
 MAJEURES_HORS_CORRELATION = {"BTC", "PAXG"}
 
@@ -51,6 +51,14 @@ def check_open(cfg, state, prop, tick, prices):
     tier = tier_of(cfg, sym)
     slip = F["slippage_pct_par_tier"][tier]
     fill = tick["ask"] * (1 + slip / 100) if side == "long" else tick["bid"] * (1 - slip / 100)
+
+    # gros mouvements seulement : l'objectif doit valoir plusieurs fois les frais (règle de Tom, 15 nov)
+    xf = R.get("gain_min_x_frais", 0)
+    if xf and not opp:
+        win_cost = costs_pct(cfg, sym)[0]
+        tp_pct = abs(tp - fill) / fill * 100
+        if tp_pct < xf * win_cost:
+            reasons.append(f"Objectif trop petit : {tp_pct:.2f} % de mouvement visé pour {win_cost:.2f} % de frais (il en faut au moins {xf:g} fois).")
 
     # coherence stop / objectif
     if side == "long" and not (stop < fill < tp):
@@ -125,13 +133,13 @@ def check_open(cfg, state, prop, tick, prices):
 
     # dimensionnement : on risque au plus X % du capital, frais compris
     risk_eur = eq * risk_pct / 100
-    per_unit = abs(fill - stop) + F["taker_pct"] / 100 * (fill + stop)
+    per_unit = abs(fill - stop) + fees(cfg, sym)[1] / 100 * (fill + stop)
     qty = risk_eur / per_unit if per_unit > 0 else 0
     cap = eq * R["notionnel_max_pct_par_tier"][tier] / 100
     if meme:
         cap = min(cap, eq * M.get("notionnel_max_pct", 6) / 100,
                   max(0.0, eq * M.get("budget_total_pct", 6) / 100 - (meme_budget_left or 0.0)))
-    fee_rate = F["taker_pct"] / 100
+    fee_rate = fees(cfg, sym)[1] / 100
     cap = min(cap, state["cash"] / (1 + fee_rate))
     capped = False
     if qty * fill > cap:

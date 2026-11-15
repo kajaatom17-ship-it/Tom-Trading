@@ -231,3 +231,11 @@ La liste `exclusions` de config.json est interdite en nouvelle entrée. Elle est
 
 ## Point de vigilance : entrées tardives (14 nov)
 Le short NEAR du trader de garde est arrivé après environ -6 % dans la journée : entrée un peu tardive. Tom garde les règles telles quelles. Le filtre « mouvement déjà fait » existe mais est désactivé (`deja_fait_max_pct` à 100 dans config.json). Dans les comptes rendus, noter quand une entrée arrive après un gros mouvement, pour juger avec des chiffres après quelques trades.
+
+## Gros mouvements, actions en priorité, or (règle de Tom, 15 nov)
+**Frais réels Kraken Pro (palier 1) :** cryptos 0,40 % limite / 0,80 % marché ; actions xStocks 0 % limite / 0,08 % marché. Un aller-retour crypto coûte environ 1,3 à 1,7 %, une action environ 0,2 à 0,4 %. Le moteur applique ces frais.
+1. **Gros mouvements seulement.** Le moteur refuse tout trade dont l'objectif vaut moins de 3 fois les frais (`gain_min_x_frais`). Ne pas proposer de petits trades. Les trades rapides sont bienvenus s'ils visent un gros mouvement.
+2. **Actions en priorité** à signal équivalent : mêmes idées, frais dix fois plus bas. Les cryptos ne se justifient que pour un mouvement net et large.
+3. **Or : préférer GLD à PAXG** (PAXG paie les frais crypto). Ne pas trader l'or pour un mouvement de moins de 1 %.
+4. **Se tenir informé.** À chaque réunion, lire `actions_en_vue` du briefing (actions citées dans les vidéos CNBC, Yahoo Finance, etc.) puis faire une recherche web pour comprendre pourquoi, avant toute entrée. Les vidéos sont lues par leur titre seulement. Une action citée n'est pas un signal : le prix et le volume doivent confirmer.
+5. **Contexte or (au 11 nov, sources : analystes, à vérifier) :** autour de 4 000 à 4 150 $ l'once, environ 27 % sous le record de janvier. Supports 4 000 puis 3 895, résistances 4 085 puis 4 200 à 4 225. Moteurs : inflation américaine (CPI, PPI), ton de la Fed, dollar, tensions Iran. Scénarios : cassure sous 3 895 vers 3 800, ou cassure au-dessus de 4 225. Dans le range, ne rien faire.

@@ -322,11 +322,21 @@ def fill_price(side_action, bid, ask, slip_pct):
     return bid * (1 - slip_pct / 100)
 
 
+def fees(cfg, sym):
+    """(maker %, taker %) selon la classe de l'actif : actions xStocks bien moins chères que les cryptos."""
+    f = cfg["frais"]
+    if any(a["sym"] == sym and a.get("classe") == "action" for a in cfg["univers"]):
+        A = f.get("actions", {})
+        return A.get("maker_pct", f["maker_pct"]), A.get("taker_pct", f["taker_pct"])
+    return f["maker_pct"], f["taker_pct"]
+
+
 def costs_pct(cfg, sym):
     """Couts aller-retour en % : (si objectif atteint, si stop touche)."""
     f = cfg["frais"]; slip = f["slippage_pct_par_tier"][tier_of(cfg, sym)]
-    win = f["taker_pct"] + slip + f["maker_pct"]          # entree marche + sortie limite
-    loss = 2 * f["taker_pct"] + 2 * slip                   # entree marche + stop marche
+    mk, tk_ = fees(cfg, sym)
+    win = tk_ + slip + mk                                  # entree marche + sortie limite
+    loss = 2 * tk_ + 2 * slip                              # entree marche + stop marche
     return win, loss
 
 

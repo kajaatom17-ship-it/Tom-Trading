@@ -15,7 +15,7 @@ import urllib.request
 from datetime import timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from core import (_row as _row_public, eurusd, costs_roundtrip_pct, is_meme, ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
+from core import (_row as _row_public, fees, eurusd, costs_roundtrip_pct, is_meme, ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
                   now_utc, ohlc, pair_of, paris_day, parse_iso, position_value, r2, rp, save, tickers, tier_of)
 from risk import check_open
 from strategy import analyse, signals
@@ -25,7 +25,7 @@ ENGINE_VERSION = "1.0"
 
 # ------------------------------------------------------------------ clotures
 def close_position(cfg, state, p, exit_px, reason, when=None, maker=False):
-    rate = cfg["frais"]["maker_pct"] if maker else cfg["frais"]["taker_pct"]
+    rate = fees(cfg, p["sym"])[0 if maker else 1]
     fee = p["qty"] * exit_px * rate / 100
     value = position_value(p, exit_px)
     state["cash"] += value - fee
@@ -55,7 +55,7 @@ def close_position(cfg, state, p, exit_px, reason, when=None, maker=False):
 
 def net_if_closed(cfg, p, exit_px, maker=False):
     """Gain ou perte net (frais d'entrée, de sortie et de financement compris) si on ferme à exit_px."""
-    rate = cfg["frais"]["maker_pct"] if maker else cfg["frais"]["taker_pct"]
+    rate = fees(cfg, p["sym"])[0 if maker else 1]
     fee = p["qty"] * exit_px * rate / 100
     return position_value(p, exit_px) - p["notionnel"] - fee - p["frais_entree"] - p.get("rollover", 0)
 
@@ -552,8 +552,8 @@ def guard_protect(cfg, state, tk):
     if not G.get("actif"):
         return
     P = G.get("protection", {})
-    fee = cfg["frais"]["taker_pct"] / 100
     for p in state["positions"]:
+        fee = fees(cfg, p["sym"])[1] / 100
         t = tk.get(p["sym"])
         if not t or p.get("runner"):
             continue
@@ -882,7 +882,7 @@ def guard_exit(cfg, state, tk):
             risk_px = abs(p["entry"] - p["stop_initial"])
             gain_R = ((t["last"] - p["entry"]) if p["side"] == "long" else (p["entry"] - t["last"])) / risk_px if risk_px else 0
             if not p.get("moitie_prise") and gain_R >= I.get("encaisse_a_R", 1.0):
-                be = p["entry"] * (1 + 2 * cfg["frais"]["taker_pct"] / 100) if p["side"] == "long" else p["entry"] * (1 - 2 * cfg["frais"]["taker_pct"] / 100)
+                be = p["entry"] * (1 + 2 * fees(cfg, p["sym"])[1] / 100) if p["side"] == "long" else p["entry"] * (1 - 2 * fees(cfg, p["sym"])[1] / 100)
                 part = I.get("part_encaissee", 0.5)
                 p["moitie_prise"] = True
                 p["stop"] = max(p["stop"], be) if p["side"] == "long" else min(p["stop"], be)

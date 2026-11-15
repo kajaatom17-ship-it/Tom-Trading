@@ -10,6 +10,29 @@ from datetime import timedelta
 from core import config, equity, iso, load, now_utc, paris_day, parse_iso, rp, tickers, unrealized
 
 
+ALIAS = {"NVDA": ["nvidia", "jensen huang"], "TSLA": ["tesla"], "AAPL": ["apple"], "MSFT": ["microsoft"], "AMZN": ["amazon"],
+         "GOOGL": ["google", "alphabet"], "META": ["meta platforms", "facebook", "zuckerberg"], "AMD": ["amd"], "AVGO": ["broadcom"],
+         "NFLX": ["netflix"], "PLTR": ["palantir"], "ORCL": ["oracle"], "INTC": ["intel"], "COIN": ["coinbase"],
+         "MSTR": ["microstrategy", "strategy"], "HOOD": ["robinhood"], "CRCL": ["circle"], "SPY": ["s&p 500", "s&p500", "wall street", "stocks"],
+         "QQQ": ["nasdaq", "tech stocks", "ai stocks"], "GLD": ["gold", "bullion"], "PAXG": ["gold", "bullion"]}
+
+
+def actions_en_vue(cfg, videos):
+    """Quelles actions (et l'or) sont citées dans les titres des vidéos récentes. Titres seulement : le contenu des vidéos n'est pas lu."""
+    import re
+    res = {}
+    univers = {a["sym"] for a in cfg["univers"]}
+    for sym, mots in ALIAS.items():
+        if sym not in univers:
+            continue
+        pat = re.compile(r"(?<![a-z0-9])(" + "|".join(re.escape(m) for m in mots) + r")(?![a-z0-9])", re.I)
+        hits = [v for v in videos if pat.search(v.get("titre", ""))]
+        if hits:
+            res[sym] = {"nb_videos": len(hits), "titres": [f"{v['chaine']} : {v['titre']}" for v in hits[-3:]]}
+    return {"citees_dans_les_titres": res,
+            "note": "Titres de vidéos seulement, le contenu n'est pas lu. Une action citée n'est pas un signal : vérifier le prix, le volume et la raison de l'actualité (recherche web). Or : préférer GLD (frais 0 / 0,08 %) à PAXG (frais crypto)."}
+
+
 def main():
     cfg = config()
     st = load("state.json", None)
@@ -72,6 +95,7 @@ def main():
                               "videos_recentes_48h": load("videos.json", [])[-15:],
                               "comptes_tiktok_a_verifier": cfg.get("sources_externes", {}).get("tiktok", []),
                               "note": "Indices seulement. Un sujet qui monte dans l'actualité ou une vidéo de pro ne justifie une entrée que si le prix et le volume confirment. Garder un esprit critique : qui parle, quel intérêt, déjà dans le prix ? Voir COMITE.md."}
+    out["actions_en_vue"] = actions_en_vue(cfg, load("videos.json", []))
     out["derniers_trades"] = load("trades.json", [])[-5:]
     out["dernieres_decisions"] = [{"id": d["id"], "action": d.get("action"), "sym": d.get("sym"),
                                    "synthese": d.get("synthese"), "resultat": d.get("resultat", {}).get("statut")}

@@ -63,7 +63,8 @@ AGENTS_OK = {"analyste_technique": {"avis": "test"}, "analyste_macro": {"avis": 
              "risk_manager": {"verdict": "valide", "motif": "test"}}
 
 _cfg0 = core.config
-core.config = lambda: {**_cfg0(), "exclusions": []}  # les tests utilisent NEAR
+_FR_TEST = {"taker_pct": 0.4, "maker_pct": 0.25, "slippage_pct_par_tier": _cfg0()["frais"]["slippage_pct_par_tier"]}  # frais d'avant le 15 nov : les scénarios des tests 1 à 21 sont calibrés dessus
+core.config = lambda: {**_cfg0(), "exclusions": [], "frais": _FR_TEST}  # les tests utilisent NEAR
 tick.config = core.config
 cfg = core.config()
 fails = 0
@@ -90,10 +91,11 @@ p = st["positions"][0] if st["positions"] else None
 check("position SOL ouverte", p is not None)
 fill = 100 * 1.0001 * 1.0005
 risk_target = 500 * 0.01
-per_unit = (fill - 97) + 0.004 * (fill + 97)
+TK = 0.004; MK = 0.0025
+per_unit = (fill - 97) + TK * (fill + 97)
 qty_expected = min(risk_target / per_unit, 500 * 0.30 / fill)
 check("quantite = risque 1 % / distance au stop", abs(p["qty"] - qty_expected) < 1e-9, f"qty {p['qty']:.4f}")
-check("cash = 500 - notionnel - frais 0,40 %", abs(st["cash"] - (500 - p["notionnel"] * 1.004)) < 1e-6, f"cash {st['cash']:.2f}")
+check("cash = 500 - notionnel - frais taker", abs(st["cash"] - (500 - p["notionnel"] * (1 + TK))) < 1e-6, f"cash {st['cash']:.2f}")
 
 # 3. une bougie 1 min touche l'objectif -> cloture maker
 t0 = int(time.time()) - 120
@@ -108,7 +110,7 @@ st = core.load("state.json", None)
 tr = core.load("trades.json", [])
 check("objectif : moitié encaissée, le reste court", len(st["positions"]) == 1 and st["positions"][0].get("runner")
       and tr and tr[-1]["raison_sortie"].startswith("objectif atteint"))
-exp_net = 0.5 * (p["qty"] * 109 * (1 - 0.0025) - p["notionnel"] * 1.004)
+exp_net = 0.5 * (p["qty"] * 109 * (1 - MK) - p["notionnel"] * (1 + TK))
 check("PnL net de la moitié = gain - frais entrée - frais sortie", abs(tr[-1]["pnl_net"] - round(exp_net, 2)) < 0.011,
       f"pnl {tr[-1]['pnl_net']} vs {exp_net:.2f}")
 run_p = st["positions"][0]
@@ -128,7 +130,7 @@ check("stop suiveur ferme le reste avec un gain", not st["positions"] and tr[-1]
 # 4. short ETH touche par le stop
 PRICES["ETH"] = 3000.0
 drop({"id": "T2", "action": "open", "sym": "ETH", "side": "short", "entry_ref": 3000, "atr": 20,
-      "stop": 3060, "tp": 2820, "strategie": "TEST", "agents": AGENTS_OK, "synthese": "test"})
+      "stop": 3060, "tp": 2700, "strategie": "TEST", "agents": AGENTS_OK, "synthese": "test"})
 run()
 st = core.load("state.json", None)
 ps = st["positions"][0]
@@ -459,5 +461,20 @@ vids = core.load("videos.json", [])
 check("youtube : nouvelle vidéo récente enregistrée, vieille ignorée", [v["id"] for v in vids] == ["abc123"] and vids[0]["chaine"] == "Pro Crypto", str(vids))
 check("actus tendance enregistrées", stx.get("actus_tendance", [{}])[0].get("sujet") == "Solana")
 
+# 22. vrais frais Kraken (15 nov) : actions bien moins chères que cryptos ; objectif trop petit refusé
+import risk as _risk
+_real = _cfg0()
+check("frais crypto réels 0,40 / 0,80", core.fees(_real, "SOL") == (0.4, 0.8), str(core.fees(_real, "SOL")))
+check("frais actions réels 0 / 0,08", core.fees(_real, "NVDA") == (0.0, 0.08), str(core.fees(_real, "NVDA")))
+check("PAXG = frais crypto, GLD = frais actions", core.fees(_real, "PAXG")[1] == 0.8 and core.fees(_real, "GLD")[1] == 0.08)
+check("aller-retour crypto bien plus cher qu'action", core.costs_roundtrip_pct(_real, "SOL") > 3 * core.costs_roundtrip_pct(_real, "NVDA"))
+_st = core.new_state(_real)
+_tk = {"SOL": {"bid": 100.0, "ask": 100.01, "last": 100.0, "open": 100.0, "high": 101, "low": 99, "vol_eur": 5e6, "spread_pct": 0.01, "chg_pct": 0}}
+_ok, _why, _ = _risk.check_open(_real, _st, {"sym": "SOL", "side": "long", "entry_ref": 100, "atr": 1, "stop": 99, "tp": 102.5, "strategie": "TEST", "agents": AGENTS_OK}, _tk["SOL"], {"SOL": 100.0})
+check("objectif de 2,5 % refusé sur une crypto (frais trop lourds)", (not _ok) and any("Objectif trop petit" in w for w in _why), str(_why))
+_ok2, _why2, _ = _risk.check_open(_real, _st, {"sym": "SOL", "side": "long", "entry_ref": 100, "atr": 3, "stop": 97, "tp": 112, "strategie": "TEST", "agents": AGENTS_OK}, _tk["SOL"], {"SOL": 100.0})
+check("objectif de 12 % accepté sur une crypto", not any("Objectif trop petit" in w for w in _why2), str(_why2))
+
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)
+
