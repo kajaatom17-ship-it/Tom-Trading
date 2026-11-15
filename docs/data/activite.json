@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-13T22:19:53Z",
-  "agent": "Execution",
-  "type": "objectif",
-  "msg": "PEPE : objectif rapproché de 3.702948e-06 à 3.8e-06"
- },
- {
   "t": "2026-11-13T22:19:54Z",
   "agent": "Execution",
   "type": "ouverture",
@@ -2716,5 +2710,11 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-15T09:31:04Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "INJ +2.67 % en 15 min"
  }
 ]
