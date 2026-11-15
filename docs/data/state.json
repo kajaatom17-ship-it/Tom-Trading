@@ -2,33 +2,10 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 422.7453608831994,
- "positions": [
-  {
-   "id": "P0008",
-   "sym": "ADA",
-   "pair": "ADAEUR",
-   "side": "short",
-   "strategie": "BRK-1",
-   "qty": 621.4723326585639,
-   "entry": 0.1301789,
-   "notionnel": 80.90257097353461,
-   "frais_entree": 0.32361028389413843,
-   "stop": 0.1331801,
-   "stop_initial": 0.1331801,
-   "tp": 0.1206996,
-   "risque_eur": 2.519857710703141,
-   "rr_net": 2.05,
-   "ouvert_le": "2026-11-15T01:59:42Z",
-   "verifie_jusqu_a": "2026-11-15T02:02:00Z",
-   "duree_max_h": 24.0,
-   "decision_id": "G-20261115-015942",
-   "dernier_prix": 0.130613,
-   "atr": 0.00156006
-  }
- ],
- "frais_cumules": 4.8584417777769,
- "pnl_realise": 3.97154214062815,
+ "cash": 501.4101486931162,
+ "positions": [],
+ "frais_cumules": 5.189678302914524,
+ "pnl_realise": 1.4101486931161649,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -37,7 +14,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T02:02:26Z",
+ "maj": "2026-11-15T02:27:15Z",
  "seq": 8,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -45,7 +22,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T01:58:14Z",
+ "chasseur_t": "2026-11-15T02:27:04Z",
  "tendance": [
   "BTC",
   "HYPE",
@@ -75,12 +52,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
+  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XRP": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -90,17 +67,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLM": {
+  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -110,7 +82,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "LINK": {
+  "XLM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -120,17 +92,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "COIN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "PATH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
+  "COIN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "USDCAD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AUDUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -141,25 +118,34 @@
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T01:58:16Z",
- "sources_t": "2026-11-15T01:58:19Z",
+ "buzz_t": "2026-11-15T02:27:05Z",
+ "sources_t": "2026-11-15T02:27:07Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 12,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin is done for a very very long time",
-    "BTC Weekend Flush: It Stops When Longs Give Up"
+    "数据：某巨鲸持有 3 万枚 ETH 空单，浮盈约 1560 万美元",
+    "The Bitcoin Fink got SO MUCH HATE!!!"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 6,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 1.997291969 | 🚶 1.997310506 | 🚀 2.026636201 Gwei",
+    "数据：黄立成持有 5 年后以 7.3 枚 ETH 卖出 Bored Ape 2894，亏损 117.7 枚 ETH"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "BTCUSDT long closed by stop-loss: -3.33%",
-    "数据：过去 24 小时全网爆仓 19.45 亿美元，逾 31 万人被爆仓"
+    "BTCUSDT long closed by take-profit: +2.33%",
+    "DOJ Secures Court Approval Targeting $1.2B in Stolen Binance Crypto"
    ]
   },
   {
@@ -167,17 +153,24 @@
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "AVGO Rebounds 26% — Can Buyers Break the $370 Resistance Wall?",
-    "Digital Realty Trust boosts Japan data center investment by $10B"
+    "BitMine chairman Tom Lee links AI selloff and Anthropic IPO to crypto pressure",
+    "Tom Lee：科技股抛售、Anthropic IPO 挤压流动性以及币安被盗 63 亿美元后部分持有人套现等因素导致加密市场遭受持续抛售"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 2,
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.380696137 | 🚶 0.380719486 | 🚀 0.429886987 Gwei",
-    "数据：多位巨鲸逢低买入 ETH，Erik Voorhees 关联钱包增持 1.25 亿美元"
+    "泰國 SEC 監管草案：穩定幣轉帳日限 500 萬泰銖、禁止轉他人錢包"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BitMine chairman Tom Lee links AI selloff and Anthropic IPO to crypto pressure"
    ]
   },
   {
@@ -186,30 +179,6 @@
    "sentiment": "neutral",
    "titres": [
     "Vestige to shut down Algorand DeFi platform on December 31, 2026, citing costs"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "数据：Forward Industries 向 Coinbase Prime 转入 188.28 万枚 SOL，约合 1.3 亿美元"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "数据：Forward Industries 向 Coinbase Prime 转入 188.28 万枚 SOL，约合 1.3 亿美元"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "SC/USDT bring on the next wave"
    ]
   }
  ],

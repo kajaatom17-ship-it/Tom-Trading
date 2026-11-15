@@ -5495,5 +5495,124 @@
   },
   "cree_le": "2026-11-15T01:59:42Z",
   "traite_le": "2026-11-15T01:59:42Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "Position ADA short ouverte à 0,13018 € avec stop à 0,13318 €. Le prix live Kraken (02:26 UTC) est 0,1355 €, déjà au-dessus du stop : le moteur doit la fermer au prochain tick. BTC est passé de 56 450 € (bougie 15 min de 01:30 UTC, RSI 24,5, volume x2,4) à 58 575 € en direct, soit +3,8 % : les candidats short BRK-1 du scanner (BTC, SOL, ADA) datent de 01:30 UTC et la cassure est déjà faite. Les TPB-1 (XRP, NEAR, HYPE, PEPE, TRUMP) ont un volume 15 min très faible (x0,19 pour XRP) et XRP est remonté à 0,858 € contre une entrée de référence à 0,819 €.",
+    "donnees": "Brief Kraken 15 min (bougie 01:30 UTC) + Ticker Kraken live 02:26 UTC"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Dimanche, bourses fermées. Calendrier d'annonces du brief vide ; mes recherches web n'ont renvoyé que des pages sans date fiable pour la semaine du 16 novembre 2026, donc je n'ajoute aucun événement (règle : jamais de date non confirmée). Faits sourcés du brief : Bloomberg (14 nov 23:53 UTC) « Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate » ; Crypto Briefing (15 nov 00:17 UTC) liquidations supérieures à 1,9 Md$ ; Fortune (14 nov 23:31 UTC) sur une Fed coincée par l'inflation ; Cryptonews (14 nov 20:37 UTC) sur des probabilités de hausse de taux Fed très élevées. Interprétation : capitulation possible, non confirmée. Aucun catalyseur sourcé de moins de 24 h pour OPP-1.",
+    "sources": [
+     "Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate - Bloomberg - 2026-11-14 23:53 UTC - lien dans veille.actus_importantes du brief",
+     "Crypto liquidations surge past $1.9 billion as Bitcoin nears $63,000 - Crypto Briefing - 2026-11-15 00:17 UTC - lien dans le brief",
+     "The Fed's battle against inflation risks turning into a forever war - Fortune - 2026-11-14 23:31 UTC - lien dans le brief"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 58,42 %, capitalisation totale -10,41 % sur 24 h. Après une capitulation, les rebonds de soulagement sont violents, et le rebond de +3,8 % de BTC en environ une heure le montre. Vendre à découvert maintenant expose à un squeeze. Les mentions réseaux sociaux du brief sont vides (null) : aucun indice exploitable."
+   },
+   "specialiste_memecoins": {
+    "avis": "defavorable",
+    "resume": "DOGE, SHIB, PEPE, TRUMP, WIF, BONK et PENGU sont tous en tendance 1 h baissière avec un volume 15 min faible (x0 à x0,46) et un RSI de 31 à 41. PENGU a un spread de 0,455 % et BONK de 0,236 % : PENGU est au-dessus du plafond de 0,30 %. TRUMP (0,231 %) passe, mais son entrée de référence 0,838 € est déjà dépassée par le rebond (prix 0,867 €). Aucun memecoin propre : mouvement fini ou rebond en cours."
+   },
+   "trader": {
+    "proposition": "Positions : garder ADA, rien à déposer (le stop fait son travail, je ne le déplace pas). Nouvelle entrée : aucune. Meilleur dossier sur le papier : XRP TPB-1 short, RR net 2,35, mais le prix a rebondi de 4,7 % depuis l'entrée de référence et le volume est quasi nul.",
+    "pour": [
+     "Tendance 1 h baissière sur tout l'univers",
+     "RR net 2,35 sur XRP et 2,44 sur NEAR au moment du scan"
+    ],
+    "contre": [
+     "Rebond de +3,8 % de BTC depuis la bougie du scanner",
+     "Signaux vieux de plus d'une heure",
+     "Fear & Greed 10 : risque de squeeze",
+     "Une position ADA vient de rater son entrée"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Aucune entrée : les entrées de référence du scanner sont périmées par le rebond, le volume 15 min est trop faible pour confirmer, et on ne court pas après le prix. Risque déjà engagé : ADA, 2,52 € de risque."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "ADA short : entrée 0,13018 €, stop 0,13318 €, prix live 0,1355 €. Le stop est déjà traversé, la perte sera prise par le moteur. Les signaux BRK-1 du scanner (BTC 56 450 €, SOL 61,47 €) datent de la bougie de 01:30 UTC, BTC vaut 58 575 € maintenant."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Cohérent : Fear & Greed est à 10 et la capitalisation totale à -10,41 % sur 24 h. C'est le profil d'un rebond de soulagement après liquidations, et ADA vient de se faire prendre par ce rebond."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Aucun événement daté confirmé pour demain par une source fiable, donc rien à ajouter à l'agenda. Faits : liquidations supérieures à 1,9 Md$ (Crypto Briefing, 00:17 UTC) et Bitcoin à son plus bas en trois mois (Bloomberg, 23:53 UTC). Interprétation seulement : la Fed reste un risque de hausse."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "Sur les memecoins, DOGE est à -13,2 % sur 24 h, PEPE à -14,3 %, SHIB à -11,8 %, avec un volume 15 min de x0,2 à x0,46. Un short ici arriverait après le mouvement, et PENGU est exclu par son spread de 0,455 %."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je regardais XRP TPB-1 short : entrée 0,819 €, stop 0,8546 €, objectif 0,7116 €, RR net 2,35. Mais XRP est à 0,858 € en direct, au-dessus de mon stop : le signal est mort. Je ne propose pas d'entrée."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Je te pose la question dans l'autre sens : pourquoi pas un long de rebond ? Une capitulation avec Fear & Greed à 10 donne parfois un fond."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Parce que la tendance 1 h est baissière partout et que nos stratégies TPB-1 et BRK-1 n'ont pas de règle pour attraper un couteau qui tombe. Inventer une stratégie en réunion est interdit."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "specialiste_memecoins",
+    "message": "Je ne suis pas d'accord sur un point : un volume de x0,2 sur DOGE peut aussi signaler que les vendeurs s'épuisent. Mais cela ne suffit pas pour entrer dans un sens ou dans l'autre."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_sentiment",
+    "message": "Je te l'accorde pour DOGE, mais sans volume de confirmation et avec une tendance 1 h baissière, ce n'est pas un signal. Je reste à « rien de propre »."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Refus de toute nouvelle entrée. Le trader de garde a agi seul sur ADA à 01:59 UTC, 29 minutes après la bougie de cassure ; il a pris le rebond de face. À noter pour la revue du dimanche : une entrée seule sur cassure vieille de 30 minutes dans un marché à Fear & Greed 10."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "La seule position ouverte est ADA short : le prix (0,1355 €) a dépassé le stop (0,13318 €), le moteur va la fermer avec une petite perte, d'environ 3 à 4 €.",
+    "Le marché a rebondi d'environ 3,8 % depuis la bougie du scanner (BTC de 56 450 € à 58 575 €), donc tous les signaux short du scanner sont périmés.",
+    "Fear & Greed est à 10 et les liquidations dépassent 1,9 milliard de dollars (Crypto Briefing, 15 nov 00:17 UTC) : les rebonds violents sont probables, vendre à découvert est risqué.",
+    "Aucun calendrier d'annonces confirmé pour la semaine du 16 novembre n'a pu être sourcé, donc l'agenda reste vide."
+   ],
+   "desaccords": [
+    "Le Risk Manager a demandé pourquoi pas un long de rebond ; le Trader a refusé car aucune stratégie autorisée ne le permet.",
+    "L'analyste sentiment a nuancé le volume faible sur DOGE (vendeurs épuisés ?) ; le spécialiste memecoins a répondu qu'il n'y a pas de confirmation."
+   ],
+   "decision": "Pas de nouvelle entrée, la position ADA est gardée (le stop décide).",
+   "a_surveiller": [
+    "Le moteur doit clore ADA au stop au prochain tick.",
+    "Entrée tardive : le trader de garde est entré sur ADA 29 minutes après la cassure, ce qui est à analyser après quelques trades.",
+    "Une nouvelle cassure avec volume x1,8 ou plus, ou un retour sur l'EMA20 15 min dans le sens baissier, serait un vrai signal.",
+    "Ouverture des bourses lundi : calendrier à confirmer par une source officielle."
+   ]
+  },
+  "synthese": "On ne prend aucun nouveau trade : le marché a rebondi, les signaux du scanner sont périmés et la peur extrême rend les ventes à découvert risquées.",
+  "id": "D-20261115-022646",
+  "cree_le": "2026-11-15T02:26:46Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T02:26:58Z"
  }
 ]
