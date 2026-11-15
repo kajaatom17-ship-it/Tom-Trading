@@ -1,0 +1,107 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "TAO short : prix 176,39 €, stop 178,22 €, objectif 161,07 €. RSI 15 min 58,3 en baisse (61,4 avant), MACD qui faiblit, volume 0,83x la normale, tendance 1 h baissière : le scénario TPB-1 tient. Aucun candidat du scanner n'a un RR net correct : PAXG 0,65, ARB 0,61, DOT 0,61, INJ 0,90, WIF 0,50 (seuil 1,5).",
+   "donnees": "Brief du moteur, 2026-11-15 23:56 UTC (00:56 Paris), Kraken OHLC 15 min"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Dimanche soir : les marchés actions américains sont fermés, donc pas d'entrée action utile avant la séance de lundi. Le calendrier du moteur est vide et mes recherches web n'ont pas donné de dates confirmées pour 2026 (résultats mélangés avec ceux de 2025) : je ne dépose aucun agenda pour ne pas inventer de date. Actualité du week-end : forte baisse du bitcoin avec liquidations et sorties des ETF bitcoin (Cointelegraph, Investing.com, relayées dans le brief, 15 nov 22:50-23:26 UTC) ; un membre de la Fed (Schmid) évoque de possibles hausses de taux (Crypto Briefing, 15 nov 23:03 UTC).",
+   "sources": [
+    "US sellers drive Bitcoin crash - Cointelegraph - 2026-11-15 22:50 UTC - https://cointelegraph.com/magazine/us-sellers-drive-bitcoin-crash-jensen-plots-comeback-hodlers-digest",
+    "Intel sued by shareholders following 29% stock plunge - Investing.com - 2026-11-15 23:26 UTC - https://www.investing.com/news/stock-market-news/intel-sued-by-shareholders-following-29-stock-plunge-5028171"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed à 10 (peur extrême), dominance BTC 59,39 %, capitalisation totale -2,14 % sur 24 h. En peur extrême les rebonds sont violents : un short n'est pas une bonne idée à ce stade juste parce que ça a baissé.",
+   "donnees": "Alternative.me via brief, 2026-11-15 22:57 UTC"
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE +4,2 % avec volume 3,5x mais RSI 58 et tendance 1 h baissière : rebond sans structure. SHIB volume 2,9x, spread 0,056 %. WIF TPB-1 short à RR net 0,50. Rien de poursuivable."
+  },
+  "trader": {
+   "proposition": "Garder le short TAO tel quel et ne rien ouvrir.",
+   "pour": [
+    "Stop en place, perte max connue",
+    "Tendance 1 h baissière toujours valide"
+   ],
+   "contre": [
+    "Rebond de 5,6 % sur 24 h sur TAO",
+    "Peur extrême = risque de rebond brutal"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Pas de nouvelle entrée : aucun candidat n'atteint RR net 1,5. TAO conservé : le stop (+1,05 % du prix) protège la perte max."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "TAO short : prix 176,39 €, stop 178,22 €. RSI 15 min 58,3 contre 61,4 avant, volume 0,83x : le rebond s'essouffle, TPB-1 reste valide. Côté scanner, tous les RR nets sont sous 1,5 (PAXG 0,65, INJ 0,90, ARB 0,61)."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed est à 10. Je ne suis pas à l'aise avec un short en peur extrême : les rebonds sont violents. TAO est déjà à +5,6 % sur 24 h contre nous."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "analyste_sentiment",
+   "message": "Le week-end est baissier pour le bitcoin : 1,7 milliard de liquidations et sorties des ETF (presse du 15 nov). Mais Schmid (Fed) parle de hausses de taux possibles, ce qui pèse sur le risque. Actions fermées jusqu'à lundi, donc rien à tenter côté bourse cette nuit."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "DOGE +4,2 % avec volume 3,5x mais tendance 1 h baissière et RSI 58 : c'est un rebond, pas une impulsion. WIF short a un RR net de 0,50. Rien de propre."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder TAO sans toucher au stop (perte latente -1,51 €, stop à 1,05 % du prix) et de ne rien ouvrir de nouveau : meilleur RR du scanner = 0,90."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Pourquoi ne pas fermer TAO ? Le rebond de 5,6 % sur 24 h va contre nous."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_sentiment",
+   "message": "Parce que le stop a été posé pour ça : la perte maximale est déjà fixée et le prix n'a pas touché 178,22 €. Fermer maintenant reviendrait à payer des frais pour rien, sans fait nouveau qui casse le scénario."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "D'accord avec le trader : le prix reste sous le plus haut récent 178,08 €, la structure baissière 1 h n'est pas cassée. Si une bougie 15 min ferme au-dessus de 178,22 €, le stop fera son travail."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Validé : on garde TAO, pas de nouvelle entrée. Je refuse de forcer un trade à RR net de 0,5 à 0,9 juste pour faire tourner le portefeuille. Perte max sur TAO déjà bornée par le stop."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "La position TAO (short) est ouverte avec une perte latente de -1,51 € ; son stop (178,22 €) est toujours en place.",
+   "Aucun candidat du scanner ne rapporte assez après frais (meilleur RR net : 0,90 pour un minimum de 1,5).",
+   "Dimanche soir : bourse américaine fermée, pas d'action à trader avant lundi.",
+   "Fear & Greed à 10 (peur extrême) et forte baisse du bitcoin ce week-end : marché nerveux, rebonds possibles."
+  ],
+  "desaccords": [
+   "L'analyste sentiment aurait préféré fermer TAO à cause du rebond ; le trader et l'analyste technique ont défendu de garder car le stop protège et la structure baissière tient."
+  ],
+  "decision": "Ne rien faire : on garde le short TAO et on n'ouvre aucune nouvelle position.",
+  "a_surveiller": [
+   "Une bougie 15 min fermant au-dessus de 178,22 € sur TAO",
+   "Ouverture de la bourse américaine lundi (15h30 Paris) et calendrier de la semaine à confirmer par source officielle",
+   "Un candidat avec RR net ≥ 1,5 et volume confirmé"
+  ]
+ },
+ "synthese": "On garde le short TAO (perte latente de 1,51 €, stop en place) et on n'ouvre rien : aucun candidat n'est assez rentable après frais et la bourse est fermée.",
+ "id": "D-20261115-235657",
+ "cree_le": "2026-11-15T23:56:57Z"
+}
