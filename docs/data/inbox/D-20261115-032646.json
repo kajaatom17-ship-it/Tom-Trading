@@ -1,0 +1,112 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "Position KNTQ long : 0,2272 contre entrée 0,2169, soit environ +1,5R, stop 0,21019, objectif 0,24124. Scanner : seul candidat AAPL (TPB-1 long), RR net 0,91, contre la tendance de BTC. BTC 58 946, tendance 1 h baissière, RSI 57,7, bougie 15 min au-dessus de l'EMA20 (58 063) mais sous l'EMA50 (58 782) : rebond dans une tendance baissière. Volumes 15 min très faibles (BTC 0,84, ETH 0,26, XRP 0,13, ADA 0,08 de la moyenne).",
+   "donnees": "brief engine/brief.py, 2026-11-15 03:26 UTC (04:26 Paris), Kraken public"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Dimanche matin : bourses US fermées, calendrier du brief vide. La recherche web n'a donné aucun calendrier daté et vérifié pour la semaine du 16 novembre 2026 (résultats surtout de 2025) : rien n'est déposé à l'agenda pour ne pas inventer de date. Actualités du brief (faits, titres de presse) : Bloomberg 15/11 01:49 UTC « Bitcoin à un plus bas de trois mois, liquidations en hausse » ; Investing.com 15/11 01:27 UTC « BTC sous 64 000 $, sorties d'ETF pour le 7e jour de suite » ; CoinDesk 15/11 02:50 UTC « XRP à son plus bas depuis novembre 2024 ». Interprétation : pression vendeuse déjà largement exécutée, avec des liquidations massives.",
+   "sources": [
+    "Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate - Bloomberg - 2026-11-15 01:49 UTC",
+    "Bitcoin falls below $64,000 as ETF outflows extend to seventh straight day - Investing.com - 2026-11-15 01:27 UTC",
+    "XRP crashes to its lowest since November 2024 as money leaves crypto - CoinDesk - 2026-11-15 02:50 UTC - https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed à 10 (peur extrême), capitalisation totale -7,15 % sur 24 h, dominance BTC 58,66 %. Plusieurs alertes de rebond de +5 % en 1 h (SOL, ETH, XRP, NEAR, FET) : rebond violent de panique, typique mais fragile. Le buzz réseaux n'a pas de mentions chiffrées : aucune preuve."
+  },
+  "specialiste_memecoins": {
+   "avis": "neutre",
+   "resume": "DOGE 0,0535 (-7,1 % 24 h), SHIB, PEPE 3,58e-06, TRUMP 0,875 : tous rebondissent sur l'EMA20 15 min avec volume à 0,13 à 0,64 fois la normale et tendance 1 h baissière. Pas de zone de retour propre ni de cassure avec volume : rien de poursuivable. Spread TRUMP 0,23 %, WIF 0,41 % (au-dessus de la limite de 0,30 %). Un budget memecoin est déjà utilisé par KNTQ."
+  },
+  "trader": {
+   "proposition": "Garder KNTQ tel quel, aucune nouvelle entrée.",
+   "pour": [
+    "KNTQ en gain, stop et objectif déjà posés",
+    "pas de candidat propre"
+   ],
+   "contre": [
+    "Rebond sans volume dans une tendance baissière",
+    "AAPL : RR net 0,91 < 1,5"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Aucune nouvelle position : le seul candidat échoue au RR (0,91 < 1,5) et va contre BTC. KNTQ garde son stop ; le trader de garde remonte le stop à +1R, on ne double pas."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Sujet 1, KNTQ : 0,2272 contre 0,2169 d'entrée, stop 0,21019, objectif 0,24124, soit environ +1,5R. Pas d'indicateur 15 min fourni pour KNTQ, donc je ne peux pas dire s'il est épuisé. Sujet 2 : BTC 58 946, RSI 57,7, entre EMA20 58 063 et EMA50 58 782, tendance 1 h baissière. Le seul candidat du scanner est AAPL, RR net 0,91."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "analyste_technique",
+   "message": "AAPL : la bourse US est fermée jusqu'à lundi 15:30 Paris, donc un long arriverait avec un trou d'ouverture. Côté crypto : Bloomberg (01:49 UTC) parle de liquidations qui s'accélèrent, Crypto Briefing (00:17 UTC) de plus de 1,9 Md$. Aucun calendrier daté vérifié pour lundi : je n'ajoute rien à l'agenda."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_macro",
+   "message": "Fear & Greed 10 et capitalisation -7,15 % : en peur extrême, les rebonds de +5 % en 1 h (SOL, ETH, XRP, NEAR) sont fréquents mais souvent repris. Le volume 15 min est à 0,13 sur XRP et 0,08 sur ADA, donc rien ne confirme ce rebond."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "repond_a": "analyste_sentiment",
+   "message": "D'accord sur le manque de volume : DOGE 0,15, PEPE 0,13, SHIB 0,35 de la moyenne. TRUMP a le meilleur volume (0,64) mais un spread de 0,23 % et -10,1 % sur 24 h : pas de signal TPB-1 ni BRK-1. Je ne vois aucun short épuisé non plus, le RSI est à 56 à 58 donc pas extrême."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder KNTQ et de ne pas ouvrir de nouvelle position. Pour : gain latent +2,37 €, stop posé. Contre : on rate un éventuel rebond crypto plus large, mais je n'ai aucun signal avec stop et objectif propres."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Pourquoi ne pas resserrer le stop de KNTQ à l'entrée puisqu'on est à +1,5R ? Le titre a fait +13,4 % sur 24 h, c'est vertical."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Le trader de garde le fait seul à +1R (règle fixe, stop au prix d'entrée) et a déjà verrouillé 1R sur la précédente KNTQ à +2,5R. Je ne double pas son action, et je ne resserre pas à la main sur une position qui a encore de la place avant 0,24124."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "risk_manager",
+   "message": "Réserve : sans bougies 15 min de KNTQ, je ne peux pas confirmer l'extension. Je ne bloque pas le maintien, le stop protège la perte."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je suis d'accord pour ne rien ouvrir, mais pour une raison précise : dans une panique, un long sur rebond sans volume et un short après -9 % sur ADA (-9,02 % 24 h) sont tous deux tardifs."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : aucune nouvelle entrée, KNTQ gardée. Le trade AAPL est refusé : RR net 0,91 contre 1,5 minimum, contre la tendance de BTC. Ce n'est pas un pari qui vaut un catalyseur daté de moins de 24 h : OPP-1 non activée."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "La petite position KNTQ (long) gagne environ 2,4 € : on la garde, son stop et son objectif sont déjà posés.",
+   "Le marché crypto est en panique (Fear & Greed 10, -7 % sur 24 h, liquidations de plus de 1,9 Md$ selon Crypto Briefing) puis rebondit avec très peu de volume.",
+   "Seul candidat du scanner : AAPL, mais le gain espéré ne paie pas le risque (0,91 pour 1,5 minimum) et la bourse US est fermée le dimanche."
+  ],
+  "desaccords": [
+   "Le Risk Manager a demandé de resserrer le stop de KNTQ ; le Trader a répondu que le trader de garde le fait déjà seul à +1R et qu'il ne faut pas le doubler.",
+   "L'Analyste technique réserve son avis sur KNTQ faute de bougies 15 min dans le brief."
+  ],
+  "decision": "Garder KNTQ, aucune nouvelle entrée.",
+  "a_surveiller": [
+   "Ouverture des bourses US lundi 15:30 Paris et calendrier de la semaine (non vérifié ici).",
+   "Un retour de volume sur BTC avec clôture 15 min au-dessus de 59 070 ou sous 56 388.",
+   "Le stop de KNTQ remonté par le trader de garde à +1R."
+  ]
+ },
+ "synthese": "On garde la petite position KNTQ et on ne prend rien d'autre : le marché rebondit sans volume en pleine panique et aucun trade n'offre un bon rapport gain/risque.",
+ "id": "D-20261115-032646",
+ "cree_le": "2026-11-15T03:26:46Z"
+}
