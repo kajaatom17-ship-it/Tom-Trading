@@ -20,10 +20,10 @@
    "risque_eur": 3.25528840642624,
    "rr_net": 2.15,
    "ouvert_le": "2026-11-15T06:57:51Z",
-   "verifie_jusqu_a": "2026-11-15T07:30:00Z",
+   "verifie_jusqu_a": "2026-11-15T07:57:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-065630",
-   "dernier_prix": 59.52,
+   "dernier_prix": 58.95,
    "atr": 0.4942784
   }
  ],
@@ -37,7 +37,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T07:30:55Z",
+ "maj": "2026-11-15T07:57:59Z",
  "seq": 11,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -45,27 +45,42 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T07:27:11Z",
+ "chasseur_t": "2026-11-15T07:57:54Z",
  "tendance": [
   "BTC",
   "KAVA",
-  "SOL",
-  "PEARL",
   "HYPE",
+  "LINK",
+  "PEARL",
+  "XRP",
+  "BEAM",
+  "PI",
+  "UNI",
+  "ZEC",
   "ETH",
-  "KAS",
-  "PUMP",
-  "AVAX",
-  "QNT",
-  "BNB",
-  "VVV",
-  "DOT",
-  "ADA",
-  "DRV"
+  "NEAR",
+  "SOL",
+  "LIT",
+  "ACU"
  ],
- "tendance_t": "2026-11-15T06:57:58Z",
+ "tendance_t": "2026-11-15T07:57:54Z",
  "buzz": {
+  "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "MELANIA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RVMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -75,62 +90,47 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBB": {
+  "ADA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "OKLO": {
+  "ASST": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
+  "FIG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SMMT": {
+  "CAVA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BONK": {
+  "XE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MP": {
+  "MCD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "UVIX": {
+  "ACN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CLX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NVDL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BMNR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBIT": {
+  "VSTM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -141,75 +141,77 @@
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T07:27:12Z",
- "sources_t": "2026-11-15T07:27:14Z",
+ "buzz_t": "2026-11-15T07:57:55Z",
+ "sources_t": "2026-11-15T07:57:58Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 14,
+   "mentions": 13,
    "sentiment": "neutral",
    "titres": [
-    "Schiff Calls for Bitcoin Sell-Off and $16,500 Target After 12% Weekly Drop",
-    "Bitcoin (BTC) Price Sinks to $62,000 as ETF Investors Pull $2.35 Billion in November"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 6,
-   "sentiment": "neutral",
-   "titres": [
-    "AI models agreed with each other more than with reality in a new test",
-    "Pertamina Geothermal Energy Partners With Lintasarta on AI-Based Digitalization in Indonesia"
+    "Crypto Liquidations Near $2 Billion as Bitcoin and Ethereum Lead Market Sell-Off",
+    "Is It Time for a Correction on BTC?"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 4,
-   "sentiment": "neutral",
+   "mentions": 6,
+   "sentiment": "bearish",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.238426376 | 🚶 0.238451054 | 🚀 0.240426376 Gwei",
-    "2027 Cycle Opportunity Emerges: ETH"
+    "⛽ ETH Gas: 🐢 0.265279924 | 🚶 0.265279925 | 🚀 0.267279924 Gwei",
+    "Crypto Liquidations Near $2 Billion as Bitcoin and Ethereum Lead Market Sell-Off"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 5,
+   "sentiment": "bearish",
+   "titres": [
+    "FBI Warns AI Agents Can Hack Into Company Networks in Under Three Hours",
+    "Why Crypto Is Falling Before Anthropic’s IPO: Tom Lee Names Three Cash Drains"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "mentions": 3,
+   "sentiment": "bearish",
    "titres": [
-    "Bitcoin (BTC) Price Sinks to $62,000 as ETF Investors Pull $2.35 Billion in November",
-    "The Bank of Korea increased its holdings of gold ETFs by more than 40% in the third quarter, taking advantage of lower gold prices for strategic allocation."
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Nvidia faces US probe over potential illegal chip exports to China"
+    "Ethereum (ETH) Price Prediction: Can ETH Reach $8,000 in the Next Bull Run?",
+    "Bitcoin (BTC) Price Sinks to $62,000 as ETF Investors Pull $2.35 Billion in November"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
+    "XRP vs Solana: Which Crypto Is the Better Investment for 2027 and Beyond?",
     "数据：某巨鲸 5 日内向币安存入约 43.5 万枚 SOL，约合 3296 万美元"
    ]
   },
   {
    "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
+   "mentions": 2,
+   "sentiment": "bullish",
    "titres": [
+    "XRP vs Solana: Which Crypto Is the Better Investment for 2027 and Beyond?",
     "RWA protocol stUSDT winds down after TVL peak of approximately $2.3 billion"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "LA CASA DE PAPEL: BINANCE — SEASON 2 IS ABOUT TO BEGIN!"
+    "FBI Warns AI Agents Can Hack Into Company Networks in Under Three Hours"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "XRP vs Solana: Which Crypto Is the Better Investment for 2027 and Beyond?"
    ]
   }
  ],

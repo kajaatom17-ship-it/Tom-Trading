@@ -1,41 +1,5 @@
 [
  {
-  "t": "2026-11-13T17:59:01Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 2 signal(aux) : BONK long (BRK-1, 30), FET long (TPB-1, 25)"
- },
- {
-  "t": "2026-11-13T18:58:00Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "Le comité ne prend pas de nouveau trade ce soir : rien ne rapporte assez par rapport au risque, et la bourse ferme pour le week-end. On garde le pari à la baisse sur PEPE (+0,27 € fictifs) et le piège sur ADA."
- },
- {
-  "t": "2026-11-13T18:58:05Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[banque centrale, macro] Fed Chair Warsh Wants Answers on AI Inflation—and Bitcoin May Feel the Impact (Decrypt)",
-  "data": {
-   "lien": "https://decrypt.co/383259/fed-chair-warsh-wants-answers-ai-inflation-bitcoin",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-13T18:59:06Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 2 signal(aux) : SOL short (TPB-1, 30), GLD short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-13T19:11:17Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "MSTR +1.67 % en 15 min"
- },
- {
   "t": "2026-11-13T19:12:15Z",
   "agent": "Scanner",
   "type": "scan",
@@ -2731,5 +2695,35 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 10 signal(aux) : SOL short (TPB-1, 60), BTC short (TPB-1, 40), XRP short (TPB-1, 40)"
+ },
+ {
+  "t": "2026-11-15T07:57:48Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde la position HYPE et on ne prend pas de nouveau trade : le signal SOL est trop juste et le marché est en panique."
+ },
+ {
+  "t": "2026-11-15T07:57:54Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, KAVA, HYPE, LINK, PEARL, XRP, BEAM, PI"
+ },
+ {
+  "t": "2026-11-15T07:57:55Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ACN, ADA, ASST, BTC, CAVA, ETH, FIG, MCD, MELANIA, RVMD, SEZL, SHIB"
+ },
+ {
+  "t": "2026-11-15T07:57:58Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 5 en mouvement : VVV +10.4 %, DRV +9.0 %, STRK +6.1 %."
+ },
+ {
+  "t": "2026-11-15T07:59:03Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 18 signal(aux) : SOL short (TPB-1, 70), XRP short (TPB-1, 60), NEAR short (TPB-1, 60)"
  }
 ]
