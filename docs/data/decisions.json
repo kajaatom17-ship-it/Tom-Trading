@@ -8074,5 +8074,109 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T13:27:25Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Aucune position ouverte. BTC 59 643 € : tendance 1 h baissière, RSI 58,2, volume 0,83x la moyenne, MACD négatif. Seuls candidats du scanner : LTC short (RR net 1,21) et OP short (RR net 1,12), tous deux sous le seuil de 1,5. Presque tous les actifs touchent l'EMA20 par le haut avec un volume faible : rebonds sans conviction.",
+    "donnees": "Brief Kraken, 2026-11-15 13:55 UTC (14:55 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Faits (veille du brief) : Cointelegraph et Traders Union (15 nov) décrivent une chute de plusieurs jours avec sorties d'ETF et liquidations ; MarketForces Africa (15 nov 10:51 UTC) évoque la hausse des probabilités de relèvement de taux de la Fed. Mes recherches web n'ont pas donné de calendrier 2026 fiable et daté : rien n'est ajouté à l'agenda. Pas de catalyseur daté de moins de 24 h pour OPP-1.",
+    "sources": [
+     "Crypto market suffers historic 10-day selloff... - Traders Union - 2026-11-15 12:55 UTC - veille du brief",
+     "Ethereum Tumbles As Rising Fed Rate Hike Odds Trigger Crypto Selloff - MarketForces Africa - 2026-11-15 10:51 UTC - veille du brief"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,44 %, capitalisation totale -6,24 % sur 24 h. En peur extrême les rebonds sont violents dans les deux sens : un short tardif est risqué. Chasseur : DRV +21 %, VVV +14 % sans impulsion 5 min confirmée, buzz réseaux sans chiffres : piste seulement."
+   },
+   "trader": {
+    "proposition": "Garder le portefeuille à plat et ne prendre aucune nouvelle entrée.",
+    "pour": [
+     "Marché baissier clair"
+    ],
+    "contre": [
+     "RR net des deux candidats sous 1,5",
+     "Volumes faibles",
+     "Peur extrême : rebonds violents possibles",
+     "Plusieurs stops récents (ADA, HYPE)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Ne rien faire est cohérent : aucun candidat ne passe RR net 1,5. Entrées du jour 2/3, memecoins 2/3, mais pas de raison de forcer."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Aucune position ouverte. BTC 59 643, tendance 1 h baissière, RSI 58,2, volume 0,83x. Scanner : LTC short RR net 1,21, OP short RR net 1,12."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Veille : chute de 10 jours avec sorties d'ETF (Traders Union, 12:55 UTC) et paris sur une hausse de taux de la Fed (MarketForces, 10:51 UTC). Pas de catalyseur daté fiable, donc pas d'OPP-1."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 10, capitalisation -6,24 % sur 24 h. Extrême peur = rebonds brutaux possibles."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "DOGE 0,0540 (volume 0,29x), PEPE 3,656e-06 (RSI 55,3), TRUMP spread 0,23 %. Tous sous leur EMA20 haute avec peu de volume : rien de propre, pas de vague à suivre. WIF et BONK : volume quasi nul."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je regarde LTC short : entrée 41,24, stop 41,65, objectif 40,00. Le gain net ne dépasse pas 1,21 fois le risque."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "1,21 est sous 1,5, et OP à 1,12 aussi. Je refuse les deux. Élargir l'objectif pour faire passer le ratio serait forcer le trade."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je soutiens le refus : avec Fear & Greed à 10, un short sur un petit rebond sans volume peut se faire écraser."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "Je nuance : la tendance baissière est nette (ETH 1669, 24 h -2,8 %), mais sans volume la cassure n'est pas confirmée, donc d'accord pour attendre."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Verdict : aucun trade. Perte réalisée -1,64 €, équité 498,36 €, pas de pression pour agir."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte : rien à garder ou fermer.",
+    "Marché très baissier (Fear & Greed 10) mais rebonds sans volume.",
+    "Les deux candidats du scanner (LTC, OP) ont un gain trop faible par rapport au risque.",
+    "Pas de calendrier d'annonces fiable trouvé, rien ajouté à l'agenda."
+   ],
+   "desaccords": [
+    "L'analyste technique voyait la tendance baissière exploitable ; le sentiment et le Risk Manager ont jugé le risque de rebond trop élevé."
+   ],
+   "decision": "Aucune nouvelle entrée ce 15 nov à 14:55 (Paris).",
+   "a_surveiller": [
+    "Une cassure de BTC sous 59 369 ou un volume fort sur les altcoins",
+    "Un candidat avec RR net au-dessus de 1,5",
+    "Toute annonce Fed datée et sourcée"
+   ]
+  },
+  "synthese": "On ne prend aucun trade : le marché baisse mais sans volume, et les deux candidats rapportent trop peu pour leur risque.",
+  "id": "D-20261115-135618",
+  "cree_le": "2026-11-15T13:56:18Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T13:56:43Z"
  }
 ]
