@@ -1,0 +1,98 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "BTC 58 669 €, tendance 1 h baissière, RSI 49,9, volume 0,61x la normale. HYPE (short ouvert) : 59,52 vs entrée 59,59, stop 60,40, rien de cassé. Seul candidat propre sur le papier : INJ short TPB-1 (RR net 2,01, score 60), mais volume 0,02x, MACD encore positif (0,0042) et -13,7 % déjà fait en 24 h. Signal pas confirmé, entrée tardive.",
+   "donnees": "brief Kraken 15 min, 07:26 UTC (08:26 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Dimanche : bourse US fermée, actions xStocks sans volume (PLTR 47 € échangés). Presse du jour : Bitcoin glisse vers 60 000 $ avec des sorties d'ETF et des liquidations (Investing.com, 15/11 06:58 UTC) ; ETF en sorties depuis 7 jours (Investing.com, 15/11 01:27 UTC) ; craintes de hausse de taux de la Fed (Traders Union, 14/11 17:32 UTC). Calendrier officiel du jour : rien trouvé de daté et confirmé, je ne dépose pas d'agenda.",
+   "sources": [
+    "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify - Investing.com - 2026-11-15 06:58 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 58,59 %, capitalisation totale -6,47 % en 24 h. En peur extrême les rebonds sont violents, un short supplémentaire est risqué."
+  },
+  "trader": {
+   "proposition": "Garder HYPE short. Pas de nouvelle entrée : INJ short refusé faute de confirmation.",
+   "pour": [
+    "Tendance 1 h baissière",
+    "RR net 2,01 sur INJ"
+   ],
+   "contre": [
+    "Volume 0,02x",
+    "-13,7 % déjà fait",
+    "MACD pas retourné",
+    "Doublon avec le short HYPE"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "Nouvelle entrée INJ refusée : entrée tardive, volume quasi nul, même pari que HYPE short (2 alts short corrélés à BTC), peur extrême = risque de rebond. HYPE : garder."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Position HYPE : 59,52 contre entrée 59,59, stop 60,40, objectif 56,29. Le scénario TPB-1 tient (tendance 1 h baissière, EMA20 59,52). Je garde."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Aucune actu ne casse le short HYPE. Le titre du jour est baissier : Bitcoin glisse vers 60 000 $, sorties d'ETF depuis 7 jours, liquidations (Investing.com, 06:58 UTC). Dimanche, bourse US fermée."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed 10, capitalisation -6,47 % sur 24 h. Après une chute pareille, un rebond sec est fréquent : je n'ajoute pas de short."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose d'abord de garder HYPE. Pour une nouvelle entrée, seul INJ short passe sur le papier : entrée 6,338, stop 6,514, objectif 5,810, RR net 2,01."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "Je conteste INJ : volume 0,02x la normale, MACD hist encore à +0,0042 donc pas retourné, et -13,7 % déjà fait sur 24 h. Ce n'est pas un pullback confirmé."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Le RSI est passé de 53,1 à 49,7 et le prix rechute sous l'EMA20 (6,345). Mais je reconnais qu'avec 0,02x de volume, un seul ordre peut fausser la lecture."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Et ce serait un deuxième short sur altcoin qui suit BTC, comme HYPE. Si BTC rebondit, on perd sur les deux en même temps."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Memecoins : DOGE 0,0526 (-7,8 %), PEPE 3,57e-06 (-7,1 %), volumes 0,26x et 0,39x, RSI 48 à 51. Aucune impulsion ni épuisement. Rien de propre. TRUMP a un spread de 0,23 % et PENGU de 0,40 % : au-dessus du seuil pour PENGU, pas d'ordre."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Refusé pour INJ : entrée tardive après -13,7 %, volume 0,02x, doublon avec HYPE. Le RR 2,01 ne suffit pas. HYPE : garder, perte max limitée au stop 60,40. Les entrées du jour sont à 2 sur 3, on les garde pour un meilleur signal."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "HYPE short ouvert depuis 06:57 UTC : presque à l'entrée (+0,1 €), on le garde, le stop le protège.",
+   "Le marché est en peur extrême (indice 10) et Bitcoin approche 60 000 $ : beaucoup de baisse déjà faite.",
+   "Dimanche : bourse US fermée, volumes très faibles partout."
+  ],
+  "desaccords": [
+   "Le trader aurait pris INJ short (RR 2,01) ; l'analyste technique a objecté (volume 0,02x, MACD non retourné) et le sentiment a ajouté le risque de rebond. Le Risk Manager a refusé."
+  ],
+  "decision": "Garder HYPE short, aucune nouvelle entrée.",
+  "a_surveiller": [
+   "INJ : un vrai rebond sur l'EMA20 avec volume puis MACD qui passe négatif.",
+   "BTC : un retour au-dessus de 59 131 changerait la lecture du short HYPE."
+  ]
+ },
+ "synthese": "On garde la position HYPE et on ne prend pas de nouveau trade : le marché a déjà beaucoup baissé et les signaux manquent de volume.",
+ "id": "D-20261115-072648",
+ "cree_le": "2026-11-15T07:26:48Z"
+}
