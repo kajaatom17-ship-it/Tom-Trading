@@ -14,7 +14,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T11:32:40Z",
+ "maj": "2026-11-15T11:56:58Z",
  "seq": 11,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -22,32 +22,37 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T11:28:39Z",
+ "chasseur_t": "2026-11-15T11:56:46Z",
  "tendance": [
   "IMD",
   "BTC",
   "HYPE",
-  "KAVA",
   "NEAR",
-  "VVV",
-  "SUI",
-  "ETH",
-  "AERO",
-  "USDC",
-  "PI",
   "SOL",
-  "INJ",
-  "EVAA",
-  "DRV"
+  "KAVA",
+  "MON",
+  "AERO",
+  "SUI",
+  "TAO",
+  "VVV",
+  "ONDO",
+  "WLD",
+  "LIT",
+  "PI"
  ],
- "tendance_t": "2026-11-15T10:57:00Z",
+ "tendance_t": "2026-11-15T11:56:46Z",
  "buzz": {
-  "BTC": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -57,33 +62,13 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TAO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "CRSP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ICP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADMA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVAX": {
-   "source": "StockTwits",
+  "BTC": {
+   "source": "Reddit + StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
@@ -97,90 +82,90 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DAL": {
+  "FUN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KYTX": {
+  "UCO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "UPST": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOL": {
+  "ADMA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TAO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WYFI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T11:28:40Z",
- "sources_t": "2026-11-15T11:28:45Z",
+ "buzz_t": "2026-11-15T11:56:47Z",
+ "sources_t": "2026-11-15T11:56:51Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 13,
    "sentiment": "bearish",
    "titres": [
-    "Blockstream And Thales Launch Bitcoin Custody System",
-    "BTC: A Flush to $58–60k, Then a Triple Bottom?"
+    "Another leg down , Bitcoin to below 61000",
+    "Bitcoin Falls, DTCC Chooses Solana for Tokenization Expansion, and More – Weekly Recap"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 7,
-   "sentiment": "bearish",
-   "titres": [
-    "Blockstream And Thales Launch Bitcoin Custody System",
-    "Miner Weekly: These Miners Cut Hashrate 50% as AI Revenue Doubles"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 5,
+   "sujet": "Ethereum",
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Blockstream And Thales Launch Bitcoin Custody System",
-    "From Gnosis Pay to SignalPlus, a Run of Smaller Breaches Follows Binance's $6.3 Billion Theft"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP price prediction 2026-2032: Will XRP reach $5?",
-    "XRP as the “Gold of the Internet”: Vet Highlights the Design Behind His Store-of-Value Case"
+    "⛽ ETH Gas: 🐢 0.201520977 | 🚶 0.201520977 | 🚀 0.203501143 Gwei",
+    "Is Ethereum the “worst asset of all time,” amid estimated $8.83 billion BitMine loss ?"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 2,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Solana Staking Holds Near 69% Even As SOL Price Crashes To $67 On Breakpoint Day",
-    "Wall Street Is Moving Onto Blockchain: Which Cryptos Could Benefit?"
+    "Bitcoin Falls, DTCC Chooses Solana for Tokenization Expansion, and More – Weekly Recap",
+    "#SOLUSDT  Oversold at Major Support – Potential Bullish Rebound"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "AI",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Wall Street Is Moving Onto Blockchain: Which Cryptos Could Benefit?",
-    "BARD/USDT (1D) — Major Historical Demand Zone & Reversal Setup"
+    "In a Sloppified A.I. World, Only Humans Can Build ‘Ecosystems’",
+    "AI Agent Identity Needs Blockchain, Legal Experts Say"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Chainlink",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "From Gnosis Pay to SignalPlus, a Run of Smaller Breaches Follows Binance's $6.3 Billion Theft"
+    "Chainlink (LINK) Daily Outlook: Oversold Bounce from $8.60"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today"
    ]
   },
   {
@@ -188,7 +173,15 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Thai police arrest two Chinese nationals over $92M crypto pyramid scheme"
+    "Here’s what happened in crypto today"
+   ]
+  },
+  {
+   "sujet": "Dogecoin",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Dogecoin Price Could Drop to $0.04 if $0.059 Gives Way"
    ]
   }
  ],

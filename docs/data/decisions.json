@@ -7644,5 +7644,112 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T11:28:33Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Aucune position ouverte. Scanner vide. BTC 59 448 €, tendance 1 h baissière, rebond sur l'EMA20 15 min (RSI 61→56, MACD en baisse) avec volume 1,26x seulement. Les majeures (ETH, SOL, LINK, LTC) touchent l'EMA20 par le haut mais avec volume 0,25 à 0,64x : pas de TPB-1 short propre.",
+    "donnees": "Kraken OHLC 15 min, brief 11:55 UTC (12:55 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Dimanche : marchés actions fermés, pas d'annonce datée confirmée aujourd'hui (calendrier vide, recherche web sans date vérifiable). Fait : Cointelegraph, 15/11 10:23 UTC, BTC au plus bas depuis 4 mois près de 62 000 $ ; MarketForces Africa 15/11 10:51 UTC, hausse des probabilités d'un relèvement des taux de la Fed. Interprétation : le moteur de la baisse est macro, pas spécifique à un actif. Aucun catalyseur sourcé de moins de 24 h pour OPP-1.",
+    "sources": [
+     "Bitcoin falls to four-month low near $62K as crypto selloff deepens - Cointelegraph - 2026-11-15 10:23 UTC - https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff",
+     "Ethereum Tumbles As Rising Fed Rate Hike Odds Trigger Crypto Selloff - MarketForces Africa - 2026-11-15 10:51 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,5 %, capitalisation totale -5,31 % sur 24 h. En peur extrême les rebonds sont violents dans les deux sens : un short sur rebond sans volume peut se faire balayer.",
+    "donnees": "brief sentiment 10:57 UTC"
+   },
+   "trader": {
+    "proposition": "Garder la liste vide : aucune position à gérer, aucune nouvelle entrée propre.",
+    "pour": [
+     "Tendance 1 h baissière sur tout l'univers",
+     "BTC sous pression macro"
+    ],
+    "contre": [
+     "Volumes faibles (0,25 à 0,64x) sur les rebonds",
+     "Les shorts ADA et HYPE du jour ont été stoppés (-2,56 € et -3,33 €)",
+     "Dimanche, bourse fermée"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Ne rien faire : perte réalisée -1,64 €, 3 stops dans la journée ; pas de RR net >= 1,5 propre. Pas de trade pour faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "BTC 59 448, EMA20 59 218, RSI 56 (61 avant), volume 1,26x. Tendance 1 h baissière, mais le rebond n'a pas de volume. Scanner : aucun candidat."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Dimanche, actions fermées. Cointelegraph (10:23 UTC) : BTC plus bas de 4 mois ; probabilités de hausse des taux Fed en hausse. Pas d'annonce datée confirmée, rien pour OPP-1."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed 10, capitalisation -5,31 % sur 24 h. Peur extrême = rebonds brutaux possibles dans les deux sens."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "Justement : les majeures touchent l'EMA20 par le haut (ETH RSI 62→59, LINK 63) mais avec volume 0,25 à 0,64x. Pour un short TPB-1 j'attends une vraie reprise baissière du MACD, pas encore là."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je pourrais shorter ETH ou LINK sur le rebond avec un stop au-dessus du haut 12 h (ETH 1 677). Stop >= 1,5 ATR, soit environ 1 %."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je m'y oppose : HYPE et ADA ont été stoppés ce matin sur le même type de short sur rebond. En peur extrême, le rebond peut continuer sans prévenir."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Je soutiens l'objection : pas de calendrier daté, donc pas de catalyseur qui justifie de s'exposer un dimanche avec peu de volume. Le contexte macro explique la baisse mais ne donne pas le timing."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "Admis : sans signal MACD ni volume, le RR net de 1,5 n'est pas assuré une fois les frais comptés. Je retire ma proposition."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Refus définitif pour cette réunion si le short reste une idée sans signal. Mémoire du jour : 2 entrées utilisées, 3 stops, -1,64 € réalisé. Aucune position ouverte, rien à resserrer. Décision none validée."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte, donc rien à garder ni à resserrer.",
+    "BTC à 59 448 € reste baissier sur 1 h ; le rebond actuel se fait sans volume.",
+    "Peur extrême (10/100) et craintes de hausse des taux Fed pèsent sur tout le marché crypto.",
+    "Memecoins (DOGE, PEPE, WIF...) : mouvements calmes, pas d'impulsion à suivre ni d'épuisement net."
+   ],
+   "desaccords": [
+    "Le Trader voulait un short sur ETH/LINK ; l'analyste sentiment et l'analyste macro s'y sont opposés (shorts du matin stoppés, aucun volume)."
+   ],
+   "decision": "Ne rien faire : aucune position, aucune entrée assez propre.",
+   "a_surveiller": [
+    "Une reprise baissière du MACD avec volume sur ETH/LINK/BTC",
+    "Une cassure du plus bas 12 h BTC (56 388) avec volume",
+    "Les annonces macro de lundi (calendrier à confirmer)"
+   ]
+  },
+  "synthese": "On ne prend aucun trade : le marché est baissier mais les rebonds n'ont pas de volume, et on préfère attendre un signal propre plutôt que de se faire stopper encore.",
+  "id": "D-20261115-115617",
+  "cree_le": "2026-11-15T11:56:17Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T11:56:41Z"
  }
 ]
