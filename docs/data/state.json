@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 451.0685697643273,
+ "cash": 477.1071697801483,
  "positions": [
   {
    "id": "P0009",
@@ -10,27 +10,29 @@
    "pair": "KNTQEUR",
    "side": "long",
    "strategie": "MOM-1",
-   "qty": 231.12742574852896,
+   "qty": 115.56371287426448,
    "entry": 0.216941,
-   "notionnel": 50.14101486931162,
-   "frais_entree": 0.20056405947724648,
-   "stop": 0.21019,
+   "notionnel": 25.07050743465581,
+   "frais_entree": 0.10028202973862324,
+   "stop": 0.218676528,
    "stop_initial": 0.21019,
    "tp": 0.24124,
-   "risque_eur": 1.9552280051779003,
+   "risque_eur": 0.9776140025889501,
    "rr_net": 2.33,
    "ouvert_le": "2026-11-15T02:50:34Z",
-   "verifie_jusqu_a": "2026-11-15T03:00:00Z",
+   "verifie_jusqu_a": "2026-11-15T03:27:00Z",
    "duree_max_h": 2.0,
    "decision_id": "M-20261115-025034-KNTQ",
-   "dernier_prix": 0.21681,
+   "dernier_prix": 0.2272,
    "atr": 0.012419999999999987,
    "mom": true,
-   "impulsion": 0.012419999999999987
+   "impulsion": 0.012419999999999987,
+   "moitie_prise": true,
+   "rollover": 0.0
   }
  ],
- "frais_cumules": 5.390242362391771,
- "pnl_realise": 1.4101486931161649,
+ "frais_cumules": 5.49481505321836,
+ "pnl_realise": 2.277959244542697,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -39,7 +41,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T03:00:26Z",
+ "maj": "2026-11-15T03:27:27Z",
  "seq": 9,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -47,7 +49,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T02:56:43Z",
+ "chasseur_t": "2026-11-15T03:27:06Z",
  "tendance": [
   "BTC",
   "SOL",
@@ -67,11 +69,6 @@
  ],
  "tendance_t": "2026-11-15T02:56:43Z",
  "buzz": {
-  "ETH": {
-   "source": "Reddit + StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "XRP": {
    "source": "StockTwits",
    "mentions": null,
@@ -82,7 +79,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
+  "ETH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SMH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "QNT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZEC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -97,49 +114,39 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "HYPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "COIN": {
+  "LINK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBIT": {
+  "VOO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PATH": {
+  "PFE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WLFI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RVMD": {
+  "ARWR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T02:50:35Z",
- "sources_t": "2026-11-15T02:50:37Z",
+ "buzz_t": "2026-11-15T03:27:07Z",
+ "sources_t": "2026-11-15T03:27:10Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
