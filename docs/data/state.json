@@ -20,10 +20,10 @@
    "risque_eur": 3.25528840642624,
    "rr_net": 2.15,
    "ouvert_le": "2026-11-15T06:57:51Z",
-   "verifie_jusqu_a": "2026-11-15T07:01:00Z",
+   "verifie_jusqu_a": "2026-11-15T07:27:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-065630",
-   "dernier_prix": 59.45,
+   "dernier_prix": 59.55,
    "atr": 0.4942784
   }
  ],
@@ -37,7 +37,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T07:02:05Z",
+ "maj": "2026-11-15T07:27:15Z",
  "seq": 11,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -45,7 +45,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T06:57:58Z",
+ "chasseur_t": "2026-11-15T07:27:11Z",
  "tendance": [
   "BTC",
   "KAVA",
@@ -70,12 +70,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DVN": {
+  "SHIB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -85,52 +80,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "AVAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OKLO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SMMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHIB": {
+  "BONK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
+  "MP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "REGN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GLW": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVAV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DRTS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NEAR": {
+  "UVIX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -139,27 +119,47 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "NVDL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SEZL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T06:57:59Z",
- "sources_t": "2026-11-15T06:58:04Z",
+ "buzz_t": "2026-11-15T07:27:12Z",
+ "sources_t": "2026-11-15T07:27:14Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 14,
    "sentiment": "neutral",
    "titres": [
-    "BTC: Deep Underwater — Can $62.5K Save the Bulls Again?",
-    "BTCUSD | The Liquidity Sweep Before a Potential Recovery"
+    "Schiff Calls for Bitcoin Sell-Off and $16,500 Target After 12% Weekly Drop",
+    "Bitcoin (BTC) Price Sinks to $62,000 as ETF Investors Pull $2.35 Billion in November"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
     "AI models agreed with each other more than with reality in a new test",
-    "Could universal basic income be part of the solution in an AI economy?"
+    "Pertamina Geothermal Energy Partners With Lintasarta on AI-Based Digitalization in Indonesia"
    ]
   },
   {
@@ -167,8 +167,33 @@
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.252892179 | 🚶 0.252892179 | 🚀 0.278181396 Gwei",
+    "⛽ ETH Gas: 🐢 0.238426376 | 🚶 0.238451054 | 🚀 0.240426376 Gwei",
     "2027 Cycle Opportunity Emerges: ETH"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin (BTC) Price Sinks to $62,000 as ETF Investors Pull $2.35 Billion in November",
+    "The Bank of Korea increased its holdings of gold ETFs by more than 40% in the third quarter, taking advantage of lower gold prices for strategic allocation."
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Nvidia faces US probe over potential illegal chip exports to China"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "数据：某巨鲸 5 日内向币安存入约 43.5 万枚 SOL，约合 3296 万美元"
    ]
   },
   {
@@ -185,30 +210,6 @@
    "sentiment": "neutral",
    "titres": [
     "LA CASA DE PAPEL: BINANCE — SEASON 2 IS ABOUT TO BEGIN!"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "The Bank of Korea increased its holdings of gold ETFs by more than 40% in the third quarter, taking advantage of lower gold prices for strategic allocation."
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "数据：Hyperliquid 近 24 小时收入升至 391 万美元"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana’s “retired” validators still vote with 15% of active stake"
    ]
   }
  ],

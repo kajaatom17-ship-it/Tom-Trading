@@ -1,51 +1,5 @@
 [
  {
-  "t": "2026-11-13T17:57:58Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "Le comité ne prend pas de nouveau trade : rien ne rapporte assez par rapport au risque. On garde le pari à la baisse sur PEPE (petite perte de 0,59 € fictifs pour l'instant) et le piège sur ADA."
- },
- {
-  "t": "2026-11-13T17:58:02Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, résultats] Earnings call transcript: Elite Pharmaceuticals Q2 2027 revenue rises 10% as stock jumps (Investing.com)",
-  "data": {
-   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-elite-pharmaceuticals-q2-2027-revenue-rises-10-as-stock-jumps-93CH-5026262",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-13T17:58:02Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, banque centrale] Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally (Decrypt)",
-  "data": {
-   "lien": "https://decrypt.co/383231/bitcoin-hits-12-week-low-fed-rate-fears-undo-summer-rally",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-13T17:58:02Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, banque centrale] Bitcoin Hits 12-Week Low as Fed Rate Fears Undo Most of Summer Rally - Yahoo Finance (Yahoo Finance)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRUVhbWQ5aU1SMExHYTRIeHhhYjZ6Nll0elk5VDQxNzl2czM3aFNFY2ExSXd0VEZlZmh6OE5TYV9Ib1RWOWlNM3k1S1Btb0ZwLXV2Zkt5OE9rbTM3RlFVODlmbjJ1ZURYQkxSNVk2QWVHM1Z2djA3dmV6QnBUTGZOdnNMM3prVGpxZjhwYkh1R2NhMVE?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-13T17:58:02Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "AVGO +1.96 % en 15 min"
- },
- {
   "t": "2026-11-13T17:59:01Z",
   "agent": "Scanner",
   "type": "scan",
@@ -2741,5 +2695,41 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 8 signal(aux) : INJ short (TPB-1, 60), PAXG short (TPB-1, 40), ETH short (TPB-1, 30)"
+ },
+ {
+  "t": "2026-11-15T07:27:05Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde la position HYPE et on ne prend pas de nouveau trade : le marché a déjà beaucoup baissé et les signaux manquent de volume."
+ },
+ {
+  "t": "2026-11-15T07:27:12Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AVAX, BMNR, BONK, CLX, IBB, IBIT, LTC, MELANIA, MP, NVDL, OKLO, SEZL"
+ },
+ {
+  "t": "2026-11-15T07:27:14Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 5 en mouvement : VVV +11.1 %, DRV +9.0 %, STRK +7.4 %."
+ },
+ {
+  "t": "2026-11-15T07:27:18Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[banque centrale, résultats] The Week Ahead: Blockbuster Nvidia Q3 Earnings Arrive as US October Retail Sales, FOMC Minutes and Walmart Earnings Follow - TradingKey (TradingKey)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNUpqSU4ya1ZSYkNPUFB0X3p4c1p2OFlQWDVaSFBLZ2JWOFAzRGU1MWdFNHk1cXg4MC1PbFBNSnIwV3FELUppMmJPb1d5NzBnWjFTdWdTTTU5T3dwR3VVd0NKUW5xSG1jWWV0REE2WGZLSWFvbmlDa1dvZXJqQ3RTOXFnbXFaV2prUGJlMlhUMzAwdlF4VVIxdjRTNFVMRjlfdVNRcEliTklrRmQ1QzlGRzJ0ME1laFJnODJpaGpSMFU1UU1SYjRXcEk1b0d6RklrX3pkWWVObFF6bVVHbUZvZlB3?oc=5",
+   "actifs": [
+    "NVDA"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T07:28:15Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 10 signal(aux) : SOL short (TPB-1, 60), BTC short (TPB-1, 40), XRP short (TPB-1, 40)"
  }
 ]
