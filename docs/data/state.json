@@ -14,7 +14,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T14:00:44Z",
+ "maj": "2026-11-15T14:29:36Z",
  "seq": 11,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -22,7 +22,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T13:56:50Z",
+ "chasseur_t": "2026-11-15T14:29:27Z",
  "tendance": [
   "GATO",
   "IMD",
@@ -52,6 +52,16 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DOGE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "BTC": {
    "source": "StockTwits",
    "mentions": null,
@@ -62,17 +72,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "PRAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LHX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DAL": {
+  "OMER": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -87,17 +87,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CORT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SCO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "QNT": {
+  "CADL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PRAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -107,41 +117,31 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UAL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NUGT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CADL": {
+  "IONS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T13:56:51Z",
- "sources_t": "2026-11-15T13:56:56Z",
+ "buzz_t": "2026-11-15T14:29:28Z",
+ "sources_t": "2026-11-15T14:29:34Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
+   "mentions": 14,
    "sentiment": "neutral",
    "titres": [
-    "BTC 1H: Stuck between two fair value gaps",
-    "TradeCityPro | Bitcoin Cash (BCH): More Downside?"
+    "TradeCityPro | Bitcoin Daily Analysis #404",
+    "Strive CEO 再次发布比特币 Tracker 信息，或于下周披露 BTC 增持数据"
    ]
   },
   {
-   "sujet": "XRP",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "sujet": "Ethereum",
+   "mentions": 4,
+   "sentiment": "bearish",
    "titres": [
-    "XRP Exchange Balances Appear to Rise 347M—But Comparing the Same Wallets Shows a Decline",
-    "XRP Ledger Loses About $79M in Stablecoins as Weekly DEX Trading Jumps 29%"
+    "ETH: New VDS signal on the Daily",
+    "Peter Schiff Sees ETH Crashing to $1,000 if $1,600 Breaks, but Tom Lee Isn't Worried"
    ]
   },
   {
@@ -150,7 +150,24 @@
    "sentiment": "neutral",
    "titres": [
     "South Korea's top scorer in tax accountancy exam admits cheating",
-    "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot"
+    "OpenAI board member worries an AI \"takeover\" of society could be months away"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "XRP Exchange Balances Appear to Rise 347M—But Comparing the Same Wallets Shows a Decline",
+    "XRP Ledger Loses About $79M in Stablecoins as Weekly DEX Trading Jumps 29%"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days"
    ]
   },
   {
@@ -162,19 +179,11 @@
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH 1D: Bounce from 1.73k demand runs into a wall of supply"
-   ]
-  },
-  {
    "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin Falls, DTCC Chooses Solana for Tokenization Expansion, and More – Weekly Recap"
+    "Hyperliquid Whale Who Lost $10 Million Now Bets on Solana"
    ]
   }
  ],
