@@ -1,47 +1,5 @@
 [
  {
-  "t": "2026-11-14T16:26:54Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "PEPE -3.37 % en 15 min"
- },
- {
-  "t": "2026-11-14T16:26:54Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "RENDER -4.13 % en 15 min"
- },
- {
-  "t": "2026-11-14T16:27:56Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 3 signal(aux) : ARB short (BRK-1, 68), RENDER short (BRK-1, 68), HYPE short (BRK-1, 64)"
- },
- {
-  "t": "2026-11-14T16:28:48Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "TAO -2.59 % en 15 min"
- },
- {
-  "t": "2026-11-14T16:28:48Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "WIF -2.69 % en 15 min"
- },
- {
-  "t": "2026-11-14T16:29:40Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "BONK -2.94 % en 15 min"
- },
- {
-  "t": "2026-11-14T16:29:40Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ONDO -2.83 % en 15 min"
- },
- {
   "t": "2026-11-14T16:29:40Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2642,5 +2600,50 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 3 signal(aux) : TSLA long (BRK-1, 60), ARB short (TPB-1, 30), PEPE short (TPB-1, 30)"
+ },
+ {
+  "t": "2026-11-15T20:26:30Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde le short TAO et on n'ouvre rien de nouveau : le quota du jour est atteint et aucun candidat n'est assez rentable après frais."
+ },
+ {
+  "t": "2026-11-15T20:26:37Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MIHAO, MACCA, GATO, IMD, DACITYCOIN, PENGU, BTC, VVV"
+ },
+ {
+  "t": "2026-11-15T20:26:38Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ANT, AZN, BTC, DAL, DOGE, DRTS, ETH, EWY, HD, HELP, JASMY, JNJ"
+ },
+ {
+  "t": "2026-11-15T20:26:43Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 11 en mouvement : DRV +21.9 %, VVV +18.5 %, QNT +8.5 %."
+ },
+ {
+  "t": "2026-11-15T20:27:00Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Nvidia does not stop without Jensen Huang. | The 8:30",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=ZLoW6QER2VU"
+  }
+ },
+ {
+  "t": "2026-11-15T20:27:03Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "ASTER +3.61 % en 15 min"
+ },
+ {
+  "t": "2026-11-15T20:28:04Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 15 signal(aux) : ETH short (TPB-1, 40), SUI short (TPB-1, 40), INJ short (TPB-1, 40)"
  }
 ]

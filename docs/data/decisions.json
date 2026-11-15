@@ -9465,5 +9465,112 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T19:56:26Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "BTC 59 019 €, EMA20 58 924, RSI 52,4, tendance 1 h baissière, volume 0,57x la normale : marché sans élan. Seul candidat valide au scanner : TSLA BRK-1 long (RR net 2,07, score 60) mais contre la tendance de BTC et en dehors de la séance US. TAO short : prix 173,78 pour une entrée à 173,76, stop 178,22, objectif 161,07, aucun signal de fermeture.",
+    "donnees": "Kraken OHLC 15 min, brief 20:25 UTC"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Dimanche soir. Semaine à venir cadrée par les résultats Nvidia et les minutes de la Fed d'après les médias ; Schmid (Fed de Kansas City) dit que la Fed a encore du travail sur l'inflation (Investing.com, 15/11 19:56 UTC) : ton plutôt ferme, défavorable au risque. Recherche web sans date confirmée exploitable : rien déposé à l'agenda.",
+    "sources": [
+     "Fed's Schmid - Investing.com - 2026-11-15 19:56 UTC - https://www.investing.com/news/economy-news/kansas-city-feds-schmid-says-central-bank-has-work-to-do-on-inflation-5028049",
+     "Week ahead - Pepperstone - https://pepperstone.com/en-gb/insights/market-analysis/economic-indicators/a-trader-s-week-ahead-playbook-key-market-risks-nvidia-earnings-us-nonfarm-payrolls"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,37 %, capitalisation totale -4,29 % sur 24 h. Buzz social = pistes seulement, aucun volume confirmé."
+   },
+   "trader": {
+    "proposition": "Garder le short TAO, ne rien ouvrir.",
+    "pour": [
+     "TAO short sans invalidation",
+     "Tendance 1 h baissière sur tous les majeurs"
+    ],
+    "contre": [
+     "Quota de 3 entrées atteint",
+     "Actions fermées le dimanche",
+     "Candidats cryptos : RR net 0,61 (ARB) et 0,93 (PEPE)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Aucune nouvelle entrée : 3/3 entrées du jour, RR insuffisants. Position TAO conservée : perte max déjà fixée par le stop."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "BTC 59 019 € pour une EMA20 à 58 924 et un RSI de 52,4 : pas d'élan, volume à 0,57x. TAO short (entrée 173,76, prix 173,78) est intact, stop 178,22 loin."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Schmid (Fed KC, 19:56 UTC) répète que la Fed a du travail sur l'inflation : ton ferme. Semaine chargée en Nvidia et minutes Fed selon la presse, mais je n'ai pas de date confirmée à déposer à l'agenda."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed 10, capitalisation totale -4,29 % sur 24 h. Peur extrême : les rebonds peuvent être violents, ce qui joue contre notre short TAO."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "PEPE : RSI 42,3, spread 0,028 %, volume 0,376 M€, mais TPB-1 short ne donne que RR net 0,93. DOGE et SHIB à RSI 56 et volume faible. Rien de propre."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de garder TAO et de ne rien ouvrir : 3/3 entrées du jour utilisées, et le seul candidat correct, TSLA long (RR net 2,07), est contre BTC un dimanche."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "TSLA : volume x20 sur un marché fermé, c'est un artefact de carnet vide, pas une cassure fiable. Je ne le défends pas."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Réserve sur ta lecture de TAO : si le rebond de peur extrême arrive, le stop à 178,22 sera testé. Je ne demande pas de fermer, le stop protège."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "analyste_sentiment",
+    "message": "Perte max de TAO fixée à l'entrée, pas de raison de resserrer à -0,01 € latent. Je cherche un motif de refuser un trade qui n'existe pas : aucun, tout le monde est d'accord pour ne rien faire, mais c'est parce que les chiffres le disent."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Noté. On garde TAO, aucune nouvelle entrée."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Verdict : valide, décision none. Equity 497,92 € (-0,42 %)."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Short TAO ouvert à 173,76 : à l'équilibre (-0,01 €), stop et objectif inchangés.",
+    "Le quota de 3 entrées du jour est atteint et les actions sont fermées le dimanche.",
+    "Candidats crypto trop peu rentables après frais (ARB RR 0,61, PEPE 0,93)."
+   ],
+   "desaccords": [
+    "Sentiment prévient qu'un rebond de peur extrême peut toucher le stop de TAO ; le Risk Manager rappelle que la perte est déjà plafonnée."
+   ],
+   "decision": "On garde le short TAO et on n'ouvre rien de nouveau.",
+   "a_surveiller": [
+    "Rebond de BTC au-dessus de 59 246 €",
+    "Ouverture de la séance US lundi (TSLA, NVDA)",
+    "Annonces Fed et résultats Nvidia de la semaine"
+   ]
+  },
+  "synthese": "On garde le short TAO et on n'ouvre rien de nouveau : le quota du jour est atteint et aucun candidat n'est assez rentable après frais.",
+  "id": "D-20261115-202616",
+  "cree_le": "2026-11-15T20:26:16Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T20:26:30Z"
  }
 ]
