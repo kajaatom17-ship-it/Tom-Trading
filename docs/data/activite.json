@@ -1,32 +1,5 @@
 [
  {
-  "t": "2026-11-14T08:58:22Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde les deux paris à la baisse déjà ouverts et on n'en ajoute pas, car aucune occasion ne rapporte assez par rapport au risque."
- },
- {
-  "t": "2026-11-14T09:17:45Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "NEAR short fermé (clôture décidée par le comité) à 3.014106 : -1.89 € net",
-  "data": {
-   "id": "P0005"
-  }
- },
- {
-  "t": "2026-11-14T09:18:45Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 1 signal(aux) : INJ long (TPB-1, 55)"
- },
- {
-  "t": "2026-11-14T09:27:20Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde le pari à la baisse sur XRP, déjà protégé, et on n'ajoute rien car INJ est trop juste et va contre le marché."
- },
- {
   "t": "2026-11-14T09:57:47Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2694,5 +2667,35 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-15T11:28:33Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "Pas de trade : le marché baisse mais sans volume ni signal propre, mieux vaut attendre."
+ },
+ {
+  "t": "2026-11-15T11:28:40Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADMA, ALGO, AVAX, BTC, CRSP, DAL, DOGE, DUOL, ETH, ICP, KYTX, SOL"
+ },
+ {
+  "t": "2026-11-15T11:28:45Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 14 en mouvement : DRV +17.9 %, VVV +14.8 %, ZEC +6.5 %."
+ },
+ {
+  "t": "2026-11-15T11:29:04Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, banque centrale] Gold Price Slips to Key Support as Fed Rate Risks and GLD ETF Outflows Build - Benzinga (Benzinga)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNSGM3TWZaYlNGVlJHRnV4OXNWNG5iWU9SN3hQYzRibnprTldmMU9oVXlwYVBXWWlfSTd3MXZsMXFZZGw2Ui05Y0xxTGVqRUhLSThyUWg3RDA2LU1SUFVxRVR4OWVWN0lZQmRMbjBRWXpQdTc5UzhMVDRRTHdxVGVINGhwRzdzS1hhQS1IaWxnYTZYN1NDRGRfN3NEVWhlclRRY2VfQ0Q4SDlGVnUxa0NDWEdfbVJWQXY1dGFDN3VYaTNYOEliTFl2SFRyZ2dLYVF4YlE?oc=5",
+   "actifs": [
+    "GLD"
+   ]
+  }
  }
 ]

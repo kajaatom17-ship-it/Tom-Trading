@@ -7541,5 +7541,108 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T10:56:54Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Aucun candidat du scanner. BTC 59 647 € (EMA20 59 142, RSI 60,7, MACD en baisse 87 vs 99), tendance 1 h baissière, volume 0,32 x la normale. Rebond sur l'EMA20 par le haut sans retournement confirmé.",
+    "donnees": "brief Kraken 15 min, 11:26 UTC"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Titres du brief : ETH chute avec la hausse des probabilités de relèvement des taux de la Fed (MarketForces Africa, 15/11 10:51 UTC) ; BTC proche d'un plus bas de 4 mois (Cointelegraph, 15/11 10:23 UTC). Calendrier de la semaine du 16/11 non confirmé par une source lisible : rien déposé dans l'agenda.",
+    "sources": [
+     "Ethereum Tumbles As Rising Fed Rate Hike Odds Trigger Crypto Selloff - MarketForces Africa - 2026-11-15 10:51 UTC",
+     "Bitcoin falls to four-month low near $62K as crypto selloff deepens - Cointelegraph - 2026-11-15 10:23 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,5 %, capitalisation totale -5,31 % sur 24 h. Les rebonds de peur extrême sont violents dans les deux sens."
+   },
+   "trader": {
+    "proposition": "Ne rien déposer : pas de position à gérer, pas de setup TPB-1/BRK-1 propre.",
+    "pour": [
+     "Tendance 1 h baissière partout, RSI 60+ sur les rebonds"
+    ],
+    "contre": [
+     "Volume très faible (0,2 à 0,5 x), dimanche, actions fermées",
+     "Aucun signal MACD/RSI de reprise de la baisse confirmé"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Aucune position ouverte, entrées du jour 2/3 dont 2 memecoins. Pas de RR net propre : refus d'entrer pour faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Portefeuille sans position, scanner sans candidat. BTC 59 647 touche l'EMA20 15 min par le haut, RSI 60,7, MACD 87 contre 99 : début d'essoufflement mais pas de signal TPB-1 confirmé."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Le contexte va dans ton sens : ETH chute sur les craintes de hausse des taux (MarketForces Africa, 10:51 UTC) et BTC est près d'un plus bas de 4 mois (Cointelegraph, 10:23 UTC). Je n'ai pas pu confirmer de date d'annonce fiable pour demain, donc je n'ajoute rien à l'agenda."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_macro",
+    "message": "Fear & Greed à 10 et capitalisation totale à -5,31 % en 24 h : on est en peur extrême. Un short ici arrive après le mouvement ; les rebonds de soulagement peuvent être brutaux."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "DOGE -6,05 %, PEPE -5,61 %, PENGU -14,43 % sur 24 h en bougies 15 min, mais volume DOGE à 0,18 x et PEPE à 0,36 x. TRUMP a un spread de 0,458 % > 0,30 % : exclu. Rien de poursuivable, et le budget memecoin du jour est déjà entamé (2 entrées)."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "specialiste_memecoins",
+    "message": "D'accord sur le volume : PENGU (4,52 x) et ONDO (5,53 x) ont du volume, mais RSI 62 et 63,5 sans cassure de plus bas 12 h : ce n'est pas un BRK-1."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de ne rien ouvrir. Un short TPB-1 sur BTC demanderait un RSI qui retombe sous 60 avec un MACD négatif ; ce n'est pas le cas."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je suis d'accord, mais je note que personne ne conteste la baisse ; ce consensus rapide est suspect. Le vrai risque est un rebond de peur extrême contre un short."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Je cherche une raison de refuser un trade qui n'existe pas : RR net non calculable sans stop propre, volume 0,32 x sur BTC. Validé : ne rien faire. Actions fermées le dimanche, pas d'entrée."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "risk_manager",
+    "message": "Prochaine réunion, je chercherai le calendrier de la semaine (Fed, inflation) avec une source officielle avant l'ouverture américaine de lundi."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte ; le trader de garde a ouvert ADA short cette nuit (01:59 UTC), déjà clôturé, perte réalisée totale -1,64 €.",
+    "Marché en peur extrême (indice 10), baisse générale, volumes très faibles ce dimanche.",
+    "Aucun candidat du scanner ; les memecoins ont bougé mais sans volume exploitable ou avec un spread trop large (TRUMP 0,458 %)."
+   ],
+   "desaccords": [
+    "Le sentiment a signalé qu'un accord trop rapide était suspect ; le Risk Manager a cherché une raison d'entrer et n'en a pas trouvé."
+   ],
+   "decision": "Aucune nouvelle entrée, aucune position à gérer : décision none.",
+   "a_surveiller": [
+    "RSI BTC qui retombe sous 60 avec MACD négatif (TPB-1 short)",
+    "Calendrier macro de la semaine, à confirmer par une source officielle",
+    "Retour du volume à l'ouverture américaine de lundi"
+   ]
+  },
+  "synthese": "Pas de trade : le marché baisse mais sans volume ni signal propre, mieux vaut attendre.",
+  "id": "D-20261115-112645",
+  "cree_le": "2026-11-15T11:26:45Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T11:28:33Z"
  }
 ]
