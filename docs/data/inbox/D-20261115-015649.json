@@ -1,0 +1,107 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "Aucune position ouverte. BTC 57 179 € sous EMA20 (58 270) et EMA50 (59 070), RSI 30,1, cassure du plus bas 12 h avec volume x2,96 : la cassure est déjà faite (-7,6 % en 24 h). Les autres candidats TPB-1 short (XRP, LINK, SUI, NEAR, HYPE, ONDO, ARB, OP) ont tous un volume 15 min très faible (x0,08 à x0,46) et RSI 37-46 : repli faible, pas de vraie impulsion. PENGU : entrée de référence 0,004343 mais le prix est déjà à ~0,004286 (-1,3 %, soit ~1,1 ATR) et le titre a perdu 21,7 % en 24 h.",
+   "donnees": "Brief Kraken 15 min, 2026-11-15 01:56 UTC (02:56 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Dimanche, bourses fermées. Calendrier d'annonces du brief vide ; ma recherche web n'a renvoyé que des pages datées de 2025 ou sans date fiable, donc je n'ajoute aucun événement à l'agenda (règle : jamais de date non confirmée). Actualités du brief : Bloomberg (14 nov 23:53 UTC) « Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate » ; liquidations supérieures à 1,9 Md$ (Crypto Briefing, 15 nov 00:17 UTC) ; Fortune (14 nov 23:31 UTC) sur une Fed coincée par l'inflation. Fait : forte liquidation. Interprétation : capitulation possible mais pas confirmée. Aucun catalyseur sourcé de moins de 24 h pour OPP-1.",
+   "sources": [
+    "Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate - Bloomberg - 2026-11-14 23:53 UTC - lien dans veille.actus_importantes du brief",
+    "Crypto liquidations surge past $1.9 billion - Crypto Briefing - 2026-11-15 00:17 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 58,7 %, capitalisation totale -9,16 % en 24 h. En peur extrême après une capitulation, les rebonds de soulagement sont violents : vendre à découvert maintenant expose à un squeeze. Buzz réseaux sans chiffres exploitables (mentions nulles)."
+  },
+  "specialiste_memecoins": {
+   "avis": "defavorable",
+   "resume": "PENGU : -21,7 % en 24 h, volume 15 min x2,05 sur le dernier creux, spread 0,21 % (sous 0,30 %), volume 24 h 93 208 €. Le mouvement est déjà fait : short = entrée tardive après une bougie d'extension. DOGE, SHIB, PEPE, TRUMP, BONK : tous à -11 à -16 % sur 24 h avec volume 15 min faible (x0,06 à x1,02). WIF : spread 0,34 %, au-dessus du plafond, exclu. Rien de propre à prendre."
+  },
+  "trader": {
+   "proposition": "Pas de nouvelle entrée. Meilleur dossier : PENGU short TPB-1 (score 70) mais prix déjà passé sous l'entrée de référence.",
+   "pour": [
+    "Tendance 1 h baissière partout",
+    "PENGU spread 0,21 %"
+   ],
+   "contre": [
+    "Entrée tardive après -21,7 % en 24 h",
+    "RR net qui se dégrade à partir du prix actuel",
+    "Fear & Greed 10 : risque de rebond violent",
+    "Dimanche, liquidité réduite"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "RR net depuis le prix actuel de PENGU nettement sous 2 (1,81 annoncé depuis 0,004343, mais le prix a déjà baissé de 1,3 %) ; corrélation totale des altcoins avec BTC ; marché en capitulation. Pas de pari pour faire tourner le portefeuille."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Aucune position ouverte, donc sujet (a) vide. Côté entrées : BTC a cassé son plus bas 12 h avec volume x2,96, RSI 30,1, mais -7,6 % sur 24 h déjà faits. Les TPB-1 short sur XRP, SUI, ONDO, OP ont un volume 15 min entre x0,08 et x0,46 : pas de conviction."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Rien de daté et sourcé à moins de 24 h qui justifie un pari OPP-1. Seul fait : liquidations > 1,9 Md$ et BTC à un plus bas de trois mois (Bloomberg, 23:53 UTC). Dimanche, bourses fermées, donc aucune action à considérer."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Tes TPB-1 short sont tous pris à Fear & Greed 10 et -9,16 % de capitalisation en 24 h. Historiquement, ce niveau de peur donne des rebonds brutaux. Je conteste l'idée de vendre un marché déjà en capitulation."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "PENGU est le candidat le plus noté (score 70, RR 1,81) mais -21,7 % en 24 h et prix déjà à 0,004286 contre 0,004343 de référence, soit environ 1,1 ATR (5,06e-05). C'est de la poursuite : règle 1 du mode memecoins, on ne poursuit pas. Spread 0,21 % OK, mais ça ne suffit pas."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "specialiste_memecoins",
+   "message": "Je propose quand même PENGU short, stop 0,004461, objectif 0,003988, au marché : tendance 1 h baissière et volume x2,05 qui confirme la pression vendeuse."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "repond_a": "trader",
+   "message": "Depuis 0,004286 le risque est de 0,000175 pour un gain de 0,000298 avant frais ; avec 0,40 % de frais d'entrée et de sortie plus slippage, le RR net tombe autour de 1,4, sous le seuil. Ton volume x2,05 est celui de la bougie de chute, pas d'un rebond : c'est un signal d'épuisement possible."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "Je confirme : RSI 39,8 contre 44,7 précédemment, MACD qui s'aplatit, plus bas récent 0,00432 déjà cassé. L'entrée correcte aurait été au rebond sur l'EMA20 (0,004398), pas ici."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Compris. Je retire PENGU. Plan alternatif : ordre limite short à 0,004398 (EMA20). Mais le volume 24 h de 93 k€ rend un remplissage incertain un dimanche."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Refusé pour cette réunion. Même un short en limite resterait corrélé à BTC, en plein marché de capitulation, avec Fear & Greed à 10. Je demandais une raison de refuser : elle est là. Rien n'est forcé. On revoit quand un vrai rebond vers l'EMA20 15 min apparaît avec volume."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte : rien à garder ni à resserrer.",
+   "Marché en capitulation : BTC à 57 179 €, -7,6 % sur 24 h, plus de 1,9 Md$ de liquidations, Fear & Greed à 10.",
+   "Tous les candidats du scanner sont des shorts arrivés après la chute, avec un volume faible ; PENGU a déjà perdu 21,7 % en 24 h et son prix a dépassé l'entrée prévue."
+  ],
+  "desaccords": [
+   "Le Trader voulait PENGU short ; le spécialiste memecoins et l'analyste technique l'ont contesté (entrée tardive, RR net sous 1,5) ; le sentiment a aussi contesté de vendre un marché en capitulation."
+  ],
+  "decision": "Aucune nouvelle entrée : on ne poursuit pas un mouvement déjà fait.",
+  "a_surveiller": [
+   "Un rebond de BTC vers l'EMA20 15 min (58 270 €) avec volume pour un TPB-1 short propre",
+   "PENGU vers 0,004398 (EMA20 15 min)",
+   "Ouverture des Bourses lundi et calendrier macro de la semaine, à confirmer par source officielle"
+  ]
+ },
+ "synthese": "On ne fait rien : le marché a déjà beaucoup chuté, un short arriverait trop tard et le risque ne serait pas payé.",
+ "id": "D-20261115-015649",
+ "cree_le": "2026-11-15T01:56:49Z"
+}
