@@ -1,0 +1,108 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "BTC 58 588 €, tendance 1 h baissière, RSI 48,4, volume x2,49. SOL short TPB-1 (63,94 €, stop 64,84, objectif 61,23) : RR net 1,53, à peine au-dessus du seuil 1,5, volume x0,82. HYPE : prix 58,86 € contre une entrée à 59,59 €, le short avance, RSI 51,6, volume x0,34.",
+   "donnees": "Brief Kraken 15 min, 2026-11-15 07:55 UTC (08:55 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Dimanche : bourses US fermées, calendrier du brief vide et aucune date confirmée trouvée. Recherches web : des titres évoquent une Fed possiblement en hausse de taux (Waller, 50 pb) et des sorties d'ETF bitcoin, mais je n'ai pas pu confirmer d'annonce datée dans les 2 prochaines heures. Aucun catalyseur daté < 24 h : pas d'OPP-1.",
+   "sources": [
+    "Bitcoin stays under pressure ahead of the US CPI report as Waller raises prospect of a 50 bps hike - investinglive - https://investinglive.com/cryptocurrency/bitcoin-stays-under-pressure-ahead-of-the-us-cpi-report-as-waller-raises-prospect-of-a-50-bps-hike/ (date non vérifiée)",
+    "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify - Investing.com - 2026-11-15 05:46 UTC (via brief)"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -6,47 % sur 24 h, dominance BTC 58,59 %. En peur extrême, les rebonds sont violents : vendre à découvert après une telle chute est risqué."
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE -8 % sur 24 h, volume x0,49 ; PEPE x1,28 ; TRUMP spread 0,23 % ; WIF RSI 68 mais volume 56 k€. Aucun retour propre sur zone, aucun mouvement poursuivable."
+  },
+  "trader": {
+   "proposition": "Garder HYPE short (stop 60,40, objectif 56,29). Pas de nouvelle entrée : SOL short passe le seuil de RR de justesse.",
+   "pour": [
+    "Tendance 1 h baissière sur tous les actifs",
+    "SOL RR net 1,53"
+   ],
+   "contre": [
+    "Fear & Greed 10, risque de rebond violent",
+    "Volume faible, dimanche",
+    "Deux shorts altcoins corrélés",
+    "Trois sorties sur stop/impulsion éteinte récentes"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "RR net 1,53 trop juste, volume x0,82, corrélation avec le short HYPE, marché en panique un dimanche. Pas de nouvelle entrée."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "SOL est le seul candidat propre : tendance 1 h baissière, rebond sur l'EMA20 (64,26) puis rechute, RSI 45,8. RR net 1,53, score 60, volume x0,82."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Aucune annonce confirmée dans les 2 h, c'est dimanche. Les titres sur la Fed et les sorties d'ETF bitcoin sont de l'interprétation, pas un catalyseur daté : pas d'OPP-1."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed à 10, capitalisation -6,47 % en 24 h. Je suis prudent : après une chute pareille, un rebond court est probable."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Rien de propre : DOGE volume x0,49, SHIB 82 k€ de volume sur 24 h, WIF RSI 68 mais sans volume. Je ne propose rien."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder HYPE (+1,85 €, 58,86 € vs stop 60,40) et d'étudier SOL short, stop 64,84, objectif 61,23."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "SOL à RR 1,53 pour un seuil de 1,5 : aucune marge si le slippage monte. Et c'est un 2e short altcoin corrélé à HYPE. Pourquoi maintenant ?"
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je confirme la réserve : en peur extrême un stop serré de 1,4 % sur SOL se fait balayer facilement."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Objection partielle : la tendance est baissière et BTC est sous ses EMA. Mais je reconnais que le volume x0,82 ne confirme pas."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Tu as raison, il n'y a pas d'urgence. Je retire SOL et je garde seulement HYPE."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Refus de nouvelle entrée acté pour cette réunion. HYPE : on garde, le stop protège, perte max limitée."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "HYPE short ouvert : +1,85 € latent, on le garde, rien ne casse le scénario.",
+   "Seul candidat : SOL short, RR net 1,53, juste au seuil, volume faible.",
+   "Marché en peur extrême (10), dimanche, bourses US fermées : peu de volume."
+  ],
+  "desaccords": [
+   "Analyste technique pour SOL, sentiment et risk manager contre (rebond violent possible, corrélation avec HYPE)."
+  ],
+  "decision": "On garde HYPE et on ne prend aucune nouvelle position.",
+  "a_surveiller": [
+   "Rebond de SOL avec volume > 1",
+   "Annonce Fed ou CPI confirmée par une source",
+   "Stop HYPE à 60,40 €"
+  ]
+ },
+ "synthese": "On garde la position HYPE et on ne prend pas de nouveau trade : le signal SOL est trop juste et le marché est en panique.",
+ "id": "D-20261115-075616",
+ "cree_le": "2026-11-15T07:56:16Z"
+}
