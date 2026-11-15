@@ -1,0 +1,103 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "Aucune position ouverte. Scanner sans candidat (05:58 UTC). BTC 58 953 €, tendance 1 h baissière, RSI 54,7, volume 15 min à 0,21x la normale : rebond sans conviction. ETH 1 643 €, SOL 64,7 €, ADA 0,137 € : tous baissiers en 1 h, volumes 15 min faibles (0,04x à 0,25x).",
+   "donnees": "Kraken OHLC 15 min, brief du 15/11/2026 06:25 UTC"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Dimanche : bourses US fermées, pas d'annonce macro confirmée dans le brief (calendrier vide). Actualité signalée par le brief : « Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify » (Investing.com, 15/11 05:57 UTC). Mes recherches web n'ont renvoyé que des titres non datés ou d'autres années : je n'ai donc pas pu confirmer d'événement du jour et je n'en invente aucun.",
+   "sources": [
+    "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify - Investing.com - 2026-11-15 05:57 UTC - https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed à 10 (peur extrême), capitalisation totale -6,0 % sur 24 h, dominance BTC 58,6 %. En peur extrême les rebonds sont violents mais les cassures échouent souvent.",
+   "sources": [
+    "sentiment du brief, 05:57 UTC"
+   ]
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "PEPE : volume 4,0x mais RSI 57 sous tendance 1 h baissière, -4,95 % sur 24 h. BONK : volume 7,4x, -10,3 % sur 24 h. WIF : spread 0,334 %, au-dessus de la limite 0,30 %. PENGU -17,3 % en 24 h : trop tard pour un short. Aucune impulsion propre."
+  },
+  "trader": {
+   "proposition": "Aucune position à gérer, aucune nouvelle entrée.",
+   "pour": [
+    "Peur extrême : rebonds possibles"
+   ],
+   "contre": [
+    "Scanner vide",
+    "Volumes faibles",
+    "Tendance 1 h baissière partout",
+    "Entrées tardives après -6 % à -10 % déjà faits"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Pas de trade : aucun signal qualifié, pas de catalyseur daté et sourcé pour OPP-1. Entrées du jour 1/3, aucun risque ouvert."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "trader",
+   "message": "Dernières actions du trader de garde : short ADA ouvert à 01:59 UTC, stoppé à 02:08 UTC (-2,56 € net, -1,02R), entrée tardive après environ -8 % sur 24 h."
+  },
+  {
+   "agent": "analyste_technique",
+   "message": "Aucune position ouverte et le scanner n'a aucun candidat. BTC 58 953 €, RSI 54,7, volume 0,21x : le rebond vers l'EMA20 15 min n'est pas confirmé."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed est à 10 et la capitalisation totale baisse de 6,0 % sur 24 h. Un rebond violent est possible, mais je ne le considère pas comme un signal d'entrée."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Dimanche, bourses US fermées, calendrier du brief vide. Seule actualité utile : sorties d'ETF et liquidations (Investing.com, 05:57 UTC), qui pèsent sur BTC. Mes recherches web n'ont rien confirmé de plus."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Rien de propre. WIF a un spread de 0,334 % donc pas d'ordre possible. PEPE a un volume de 4,0x mais une tendance 1 h baissière et un RSI de 57. PENGU est à -17,3 % sur 24 h : un short serait tardif."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "specialiste_memecoins",
+   "message": "Je ne propose aucune entrée. Un short sur BONK ou PEPE arriverait après -10 % ou -5 % déjà faits, comme l'ADA de cette nuit stoppée en 9 minutes."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je suis d'accord, mais je conteste l'idée qu'un marché en panique justifie un short : c'est là que les rebonds rapides font le plus mal."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Pas de catalyseur daté et sourcé de moins de 24 h exploitable pour OPP-1, et aucune cassure BRK-1 confirmée. Je valide la décision de ne rien faire : le risque ouvert reste à 0 €."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte, donc rien à garder ni à fermer.",
+   "Le marché crypto est en panique (Fear & Greed 10, capitalisation -6 % sur 24 h) avec ETF en sorties et liquidations d'après Investing.com.",
+   "Les volumes sont faibles sur BTC, ETH, SOL et ADA et la tendance 1 h est baissière : aucun signal propre.",
+   "Dimanche : bourses US fermées, pas d'annonce macro confirmée."
+  ],
+  "desaccords": [
+   "L'analyste sentiment a rappelé que la peur extrême produit des rebonds violents, ce qui rend un short tardif risqué ; le trader et le spécialiste memecoins étaient d'accord pour ne pas entrer."
+  ],
+  "decision": "Ne rien faire : pas de nouvelle entrée, aucune position à gérer.",
+  "a_surveiller": [
+   "Une cassure BRK-1 de BTC avec volume au-dessus de 1,8x",
+   "Un retour sur l'EMA20 15 min avec reprise du volume",
+   "Une annonce macro confirmée en début de semaine"
+  ]
+ },
+ "synthese": "On ne prend aucun trade : le marché est en panique, les volumes sont faibles et aucun signal n'est propre.",
+ "id": "D-20261115-062602",
+ "cree_le": "2026-11-15T06:26:02Z"
+}
