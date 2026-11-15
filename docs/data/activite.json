@@ -1,56 +1,5 @@
 [
  {
-  "t": "2026-11-14T07:52:04Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 6 signal(aux) : NEAR short (BRK-1, 75), XRP short (BRK-1, 45), BTC short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-14T08:26:26Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "NEAR short ouvert à 3.000799 | 151.96 € engagés | stop 3.050596 | objectif 2.853012 | risque 3.75 EUR",
-  "data": {
-   "id": "P0005"
-  }
- },
- {
-  "t": "2026-11-14T08:26:31Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] Hyperbridge Exploit Mints 1B DOT Tokens in Attack, CertiK Reports - CoinMarketCap (CoinMarketCap)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRElzYUhuNzR4Rm9LMGpiLVdFc3RyVEQ1ejNmRGtQMUdTOERGUVJmand6S3RHMXZPYWFLTGtnZ1BXNExiaGtKSm1NcVhnOF9RcDZQMDQwa000THp2cHVvaXdZOGhoZ2ItY2d5aXhEWkx4dWN5TEhCQmMzN0t0SmhPM0ZDQ0JUQXlRdFVFNWloVEZHWFgxUkRoR3lNSW1mUGdlVWxZWTh5OTJZdw?oc=5",
-   "actifs": [
-    "DOT"
-   ]
-  }
- },
- {
-  "t": "2026-11-14T08:27:33Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 1 signal(aux) : NEAR short (TPB-1, 60)"
- },
- {
-  "t": "2026-11-14T08:43:59Z",
-  "agent": "Execution",
-  "type": "consigne",
-  "msg": "NEAR : fermeture automatique dès que le gain net dépasse 0.05 € (consigne de Tom)."
- },
- {
-  "t": "2026-11-14T08:45:03Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 2 signal(aux) : BTC short (TPB-1, 30), HOOD short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-14T08:47:30Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 8 signal(aux) : PAXG short (TPB-1, 40), BTC short (TPB-1, 30), ETH short (TPB-1, 30)"
- },
- {
   "t": "2026-11-14T08:58:22Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2693,5 +2642,57 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 1 signal(aux) : HYPE long (BRK-1, 58)"
+ },
+ {
+  "t": "2026-11-15T10:56:54Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne prend aucun trade : le seul candidat, HYPE, a déjà beaucoup monté d'un coup et va contre la tendance de BTC, mieux vaut attendre."
+ },
+ {
+  "t": "2026-11-15T10:57:00Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : IMD, BTC, HYPE, KAVA, NEAR, VVV, SUI, ETH"
+ },
+ {
+  "t": "2026-11-15T10:57:00Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AMKR, AVAX, BTC, DJIA, DOGE, DUOL, ETH, ICP, KYTX, MLTX, NEAR, SOL"
+ },
+ {
+  "t": "2026-11-15T10:57:05Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 13 en mouvement : VVV +14.4 %, ZEC +6.9 %, NIGHT +6.9 %."
+ },
+ {
+  "t": "2026-11-15T10:57:23Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, banque centrale] Ethereum Tumbles As Rising Fed Rate Hike Odds Trigger Crypto Selloff - MarketForces Africa (MarketForces Africa)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM1hiLS15amtGVVYtdUpRTDZtZjFqM0dNNkFhN1otMHlBUFJFMUNfNlZZdXdCaXRBY3BiTFVCaEM0SUowdlZtYVVHNXBMdXp1X0ExV2NvWXZkdDdwdnA5cndNWlRYOGR1T2U5UHlSN0l5VVZ4Ti1zSlNpWWZlWXZJTW9EY3VXZXJWTGFITDF1a1VGalp4dHhiWkRtQQ?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T10:57:23Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, banque centrale] Canton Coin falls below $0.08 amid broad crypto market sell-off driven by rate hike fears and fund outflows - Pluang (Pluang)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZUNEYmlISkdVTW5IcTF6ZDBZdElRUXFLZE9pOFVhUEUyLUNpUFNlT1EydnZwZ2dBSWJXcmlLNmRvUGdwYlpLVTYtNkdWcldKdVJBV1dQUzBvSWNFcE5INGlDSXItaEpOWFN5WGVPaGZHV05PUV8wUFFGWGVPa191OVQtUjlvcTFZR0E?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-15T10:58:22Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
  }
 ]

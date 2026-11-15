@@ -7430,5 +7430,116 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T10:26:24Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "Seul candidat du scanner : HYPE long BRK-1 (cassure du plus haut 12 h à 61,97, volume x4,59, RSI 74,4). Mais le prix est à 62,26, soit environ 3,4 ATR au-dessus de l'EMA20 15 min (60,37) : la bougie est verticale. BTC reste baissier en 1 h (59 701, RSI 62,2) et rebondit sans volume (x0,78).",
+    "donnees": "brief Kraken 15 min, 10:56 UTC (11:56 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Dimanche : marchés actions fermés, aucun événement macro daté confirmé par une source fiable dans les 48 h (la recherche web n'a renvoyé que des pages d'autres années ou non datées, donc je n'ajoute rien à l'agenda). Actualité du brief : Cointelegraph (15/11, 10:23 UTC) évoque une chute de bitcoin vers un plus bas de quatre mois ; le brief reste la seule source de prix utilisée. Rien ne justifie une entrée contre la tendance.",
+    "sources": [
+     "Bitcoin falls to four-month low near $62K as crypto selloff deepens - Cointelegraph - 2026-11-15 10:23 UTC - https://cointelegraph.com/markets/bitcoin-four-month-low-62k-crypto-market-selloff"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed à 10 (peur extrême), dominance BTC 58,74 %, capitalisation totale -4,84 % sur 24 h. En peur extrême, les rebonds sont violents mais souvent repris. HYPE est le seul gros actif en hausse (+5,66 % sur 24 h) : force relative réelle, mais aussi risque de piège haussier.",
+    "donnees": "brief sentiment 09:57 UTC"
+   },
+   "trader": {
+    "proposition": "Aucun nouveau trade. HYPE long BRK-1 refusé : entrée tardive sur bougie verticale, contre la tendance BTC.",
+    "pour": [
+     "Volume x4,59 sur la cassure",
+     "Force relative (+5,66 % sur 24 h quand le marché baisse)",
+     "RR net 1,74 au-dessus de 1,5"
+    ],
+    "contre": [
+     "RSI 74,4 et prix à 3,4 ATR de l'EMA20",
+     "Contre la tendance de BTC (alerte du scanner)",
+     "Notre short HYPE vient d'être arrêté à 60,43 : risque de revanche émotionnelle",
+     "Week-end, liquidité plus fine"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Pas de position ouverte, donc rien à protéger. Le long HYPE est une poursuite de bougie verticale, contre la tendance de BTC, avec un stop de seulement 1,12 (1,8 %). Refus pour cette réunion."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Un seul candidat : HYPE long BRK-1 à 62,26, stop 61,14, objectif 65,62, RR net 1,74, score 58. Le volume est à x4,59 et le plus haut 12 h (61,97) est cassé. Mais le RSI est à 74,4 et l'EMA20 est à 60,37."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Dimanche, actions fermées, pas d'annonce macro datée fiable dans les 48 h. Le seul fait récent est le titre de Cointelegraph de 10:23 UTC sur la chute de bitcoin. Aucun catalyseur pour justifier un pari OPP-1."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 10, capitalisation -4,84 % sur 24 h. HYPE monte seul (+5,66 %) : c'est de la force relative, mais en peur extrême une cassure isolée peut être un piège haussier."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "Rien de propre côté memecoins. DOGE, PEPE, SHIB, WIF, BONK ont tous un RSI entre 63 et 73 et sont sous tendance 1 h baissière : ce sont des rebonds dans la baisse. Le volume est faible (DOGE x0,34, PEPE x0,28). SHIB x2,71 et TRUMP x2,59 sont isolés, avec 119 523 € et 219 961 € de volume 24 h seulement. PENGU a un spread de 0,3756 %, au-dessus de la limite de 0,30 %."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose quand même HYPE long BRK-1 : volume x4,59, force relative nette, RR net 1,74."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "Je conteste l'entrée : le prix est à environ 3,4 ATR de l'EMA20, c'est une bougie verticale. Le comité ne poursuit pas ça. Un retour vers 61,97 (ancien plus haut devenu support) serait un meilleur point d'entrée."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Autre point : notre short HYPE vient de se faire arrêter à 60,43 (perte 3,33 €). Passer en long dans la foulée, c'est du trading de revanche. Je vote contre."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Accepté pour la bougie verticale. Je retire la proposition d'entrée au marché. Un ordre en attente serait possible, mais le scanner dit déjà 'contre la tendance de BTC' et BTC est à 59 701 sous une tendance 1 h baissière."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Refus. Stop de 1,12 sur un actif dont l'ATR est de 0,56 : deux petits mouvements le touchent. Contre BTC, sans catalyseur, en week-end. Pas de trade pour faire tourner le portefeuille."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "risk_manager",
+    "message": "D'accord. Je note que la limite de 3 entrées memecoin n'est pas en cause ici : c'est la qualité des signaux qui manque."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position n'est ouverte : le short HYPE a été arrêté à 09:03 UTC (perte 3,33 €). Le trader de garde n'a rien fait de nouveau depuis l'entrée ADA, arrêtée à 02:08 UTC.",
+    "Seul candidat : HYPE long à 62,26, mais après une bougie verticale (RSI 74,4, volume x4,59) et contre la tendance baissière de BTC.",
+    "Marché en peur extrême (Fear & Greed 10), week-end, pas d'annonce macro confirmée. Memecoins : que des rebonds sans volume dans une tendance baissière."
+   ],
+   "desaccords": [
+    "Le Trader voulait HYPE long ; l'analyste technique (bougie verticale) et l'analyste sentiment (trading de revanche après le short arrêté) s'y sont opposés, puis le Trader a retiré sa proposition."
+   ],
+   "decision": "Aucune position à gérer et aucune nouvelle entrée : décision 'none'.",
+   "a_surveiller": [
+    "HYPE : retour vers 61,97 avec volume qui se calme, puis reprise (TPB-1 long), à condition que BTC ne casse pas son plus bas récent 58 793.",
+    "BTC : cassure de 60 113 avec volume (changement de contexte) ou de 58 793 (baisse qui reprend).",
+    "Lundi : ouverture des marchés actions, dates d'annonces à confirmer par une source officielle avant de remplir l'agenda."
+   ]
+  },
+  "synthese": "On ne prend aucun trade : le seul candidat, HYPE, a déjà beaucoup monté d'un coup et va contre la tendance de BTC, mieux vaut attendre.",
+  "id": "D-20261115-105641",
+  "cree_le": "2026-11-15T10:56:41Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T10:56:54Z"
  }
 ]
