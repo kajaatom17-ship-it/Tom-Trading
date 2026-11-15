@@ -8283,5 +8283,135 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T14:29:21Z"
+ },
+ {
+  "action": "open",
+  "sym": "TAO",
+  "side": "short",
+  "strategie": "TPB-1",
+  "entry_ref": 173.9364,
+  "atr": 1.031523,
+  "stop": 178.2246,
+  "tp": 161.0719,
+  "duree_max_h": 24,
+  "confiance": "faible",
+  "agents": {
+   "analyste_technique": {
+    "avis": "favorable",
+    "resume": "Tendance 1 h baissière. TAO a rebondi sur l'EMA20 15 min (175,12) puis rechute : prix 173,94, sous l'EMA20 et pile sur l'EMA50 (173,94). RSI 50,1 -> 45,8, MACD en baisse (-0,23 -> -0,36). Stop 178,22 au-dessus du plus haut 12 h (177,92). Volume faible (0,44 x la normale) : le rebond n'avait pas de force.",
+    "donnees": "Kraken OHLC 15 min, brief du 15/11/2026 14:55 UTC (15:55 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Dimanche : marchés actions fermés, pas d'annonce majeure confirmée avant lundi. Semaine à venir : résultats Nvidia, minutes de la Fed et ventes au détail US (titres de presse, dates précises non vérifiées donc pas ajoutées à l'agenda). Contexte pressé sur le risque : ETF Bitcoin en sortie nette de 2,1 Md$ en novembre, signaux de hausse de taux de la Fed cités par la presse.",
+    "sources": [
+     "Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate - Bloomberg.com - 2026-11-15 04:01 UTC",
+     "Solana falls as Federal Reserve rate hike signals weigh on crypto risk appetite - Traders Union - 2026-11-14 17:32 UTC",
+     "The Week Ahead: Blockbuster Nvidia Q3 Earnings Arrive as US October Retail Sales, FOMC Minutes and Walmart Earnings Follow - TradingKey - 2026-11-15 06:04 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,44 %, capitalisation totale -5,95 % sur 24 h. En peur extrême les rebonds sont violents et les shorts peuvent se faire écraser. TAO figure dans la liste des tendances réseaux : un indice, pas une preuve.",
+    "donnees": "Sentiment 15/11 13:56 UTC"
+   },
+   "trader": {
+    "proposition": "Short TPB-1 sur TAO, entrée de référence 173,94, stop 178,22, objectif 161,07, RR net 1,79.",
+    "pour": [
+     "Tendance 1 h baissière et BTC baissier",
+     "Rebond sans volume sur l'EMA20 puis rechute, RSI et MACD en baisse",
+     "Stop au-dessus du dernier sommet 12 h",
+     "Entrée non tardive : TAO est à environ -4 % sur 24 h, pas de bougie verticale"
+    ],
+    "contre": [
+     "Peur extrême : risque de rebond violent (squeeze)",
+     "Week-end, liquidité plus faible",
+     "Volume de la bougie à 0,44 x la normale : la baisse non plus n'est pas confirmée par le volume",
+     "Stop assez large (2,6 %)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Garde-fous OK au check : RR net 1,79 (>= 1,5), stop 2,6 % (entre 0,8 % et 8 %), spread et volume 24 h (1,08 M EUR) corrects, aucune position ouverte donc aucune corrélation. Mise plafonnée par le code (~100 EUR), perte maximale ~3,4 EUR (0,7 % du capital). Validé comme trade de confiance faible, pas comme pari."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "TAO : tendance 1 h baissière, rebond sur l'EMA20 15 min (175,12) puis rechute à 173,94, RSI 50,1 -> 45,8, MACD -0,23 -> -0,36. Signal TPB-1 short propre. Réserve : volume à 0,44 x la normale."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Rien de confirmé avant lundi : actions fermées ce dimanche. Côté actualité, Bloomberg (04:01 UTC) titre sur le plus bas à trois mois du Bitcoin avec des liquidations qui s'accélèrent, et les ETF Bitcoin perdent 2,1 Md$ en novembre. Le contexte reste vendeur. Je n'ai pas de date vérifiée pour Nvidia ou les minutes de la Fed, donc je ne les ajoute pas à l'agenda."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 10, capitalisation totale -5,95 % sur 24 h. En peur extrême, c'est exactement là que les rebonds de soulagement arrivent. TAO est cité dans les tendances réseaux : je ne m'en sers pas comme preuve."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "D'accord pour le risque de rebond, mais c'est justement ce que le stop au-dessus du plus haut 12 h (177,92) couvre : si TAO le dépasse, le scénario est invalide. Aujourd'hui le rebond sur l'EMA20 a déjà été vendu."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Un rebond sans volume ne dit pas que la baisse est solide. Tu me montres un volume à 0,44 x : il n'y a pas non plus de vendeurs pressés. Je maintiens ma réserve."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose le short TPB-1 : entrée 173,94, stop 178,22, objectif 161,07, RR net 1,79. Les cinq dernières réunions ont dit non faute de RR : celui-ci passe le seuil de 1,5 avec marge et le check est vert. Ce n'est pas un trade de forte conviction."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Pourquoi TAO et pas ONDO ou RENDER ? Au check, ONDO tombe à RR 1,54 et RENDER à 1,33 avec 1,58 ATR déjà parcourus : le mouvement est fait. Et que fais-tu si le marché rebondit de 5 % ce soir ?"
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "ONDO et RENDER sont déjà partis, on ne court pas après. TAO n'a presque pas bougé depuis le scan. Si le marché rebondit, le stop à 178,22 limite la perte à environ 3,4 EUR, soit 0,7 % du capital. Et à +1R le trader de garde remonte le stop au prix d'entrée."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "risk_manager",
+    "message": "Avocat du diable : une position tenue 24 h traverse l'ouverture asiatique puis l'ouverture européenne de lundi, avec des minutes de la Fed et des chiffres US cette semaine selon la presse. Une surprise accommodante pourrait déclencher un squeeze. À garder en tête, pas assez pour refuser."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Validé comme trade de confiance faible : RR net 1,79, perte max ~3,4 EUR, aucune position ouverte donc pas de corrélation. Mise plafonnée par le code à environ 100 EUR. Aucun autre trade n'est ouvert : on s'arrête à une seule entrée."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position n'est ouverte : rien à garder ni à fermer. Il reste 1 entrée sur 3 aujourd'hui.",
+    "Dix candidats short du scanner, mais au contrôle live ONDO, RENDER, NEAR, ADA, AVAX, SUI, INJ et OP avaient déjà trop bougé ou un RR trop faible. CRCL passe le check mais c'est une action un dimanche, quasi sans volume : écarté.",
+    "TAO : tendance 1 h baissière, rebond sur l'EMA20 rejeté, RR net 1,79. Le contexte est vendeur (BTC bas, Fear & Greed 10)."
+   ],
+   "desaccords": [
+    "Analyste sentiment : le volume est faible (0,44 x) et la peur extrême favorise les rebonds violents ; il garde sa réserve.",
+    "Analyste macro (avocat du diable) : un squeeze lundi sur des nouvelles macro est possible pendant les 24 h de la position."
+   ],
+   "decision": "Ouvrir un short TAO (TPB-1) : entrée 173,94, stop 178,22, objectif 161,07, confiance faible, perte maximale environ 3,4 EUR.",
+   "a_surveiller": [
+    "Un prix de TAO au-dessus de 177,92 (plus haut 12 h) invalide le scénario.",
+    "Un rebond brutal de BTC au-dessus de son EMA20 15 min (59 468) ou une surprise macro lundi : resserrer ou fermer.",
+    "Prix et dates des annonces de la semaine (Nvidia, minutes de la Fed, ventes au détail US) à confirmer sur sources officielles avant de les mettre à l'agenda."
+   ]
+  },
+  "synthese": "On vend TAO à découvert avec un stop et un objectif précis : le marché est baissier, mais la peur extrême peut provoquer un rebond, donc la confiance reste faible et la perte maximale est d'environ 3,4 euros.",
+  "id": "D-20261115-145717",
+  "cree_le": "2026-11-15T14:57:17Z",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0012",
+   "prix": 173.7569,
+   "qty": 0.573624175797311,
+   "notionnel": 99.67,
+   "risque_eur": 3.37,
+   "rr_net": 1.83,
+   "plafonne": true
+  },
+  "traite_le": "2026-11-15T14:57:29Z"
  }
 ]
