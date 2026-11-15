@@ -1,56 +1,5 @@
 [
  {
-  "t": "2026-11-14T18:56:50Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MIHAO, BTC, SOL, KAVA, HYPE, LIT, ETH, PUMP"
- },
- {
-  "t": "2026-11-14T18:56:51Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AGI, AVAX, BTC, CASHCAT, ETH, FROG, HBAR, LHX, QCOM, SMMT, SOL, TOSHI"
- },
- {
-  "t": "2026-11-14T18:56:58Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "460 actifs hors univers analysés, 48 en mouvement : USELESS -17.9 %, KNTQ -18.6 %, PUMP -14.3 %."
- },
- {
-  "t": "2026-11-14T18:58:20Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 2 signal(aux) : BTC short (TPB-1, 30), SPY short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-14T19:32:23Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On n'ouvre rien : le marché a déjà beaucoup chuté, aucun signal n'offre assez de gain pour le risque, et rester en cash vaut mieux que forcer un trade."
- },
- {
-  "t": "2026-11-14T19:32:28Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AERO, AGI, AVAX, BTC, DOGE, EBAY, ETH, FROG, LHX, SHIB, SMMT, TOSHI"
- },
- {
-  "t": "2026-11-14T19:32:33Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "460 actifs hors univers analysés, 46 en mouvement : USELESS -18.8 %, KNTQ -19.7 %, UNI -14.7 %."
- },
- {
-  "t": "2026-11-14T19:32:34Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de CNBC Television : The rise, reinvention and uncertain future of Nvidia without Jensen Huang",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=tX5oNAxULSY"
-  }
- },
- {
   "t": "2026-11-14T19:32:34Z",
   "agent": "Chasseur de mouvements",
   "type": "vidéo",
@@ -2668,5 +2617,71 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 2 signal(aux) : OP short (TPB-1, 30), RENDER short (TPB-1, 30)"
+ },
+ {
+  "t": "2026-11-15T22:28:31Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde le short TAO et on n'ouvre rien : le quota du jour est atteint et aucun candidat n'est assez rentable après frais."
+ },
+ {
+  "t": "2026-11-15T22:28:38Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MACCA, GATO, DACITYCOIN, ASTER, IMD, BTC, HYPE, ZEC"
+ },
+ {
+  "t": "2026-11-15T22:28:38Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ANT, BAC, DCTH, ETN, GDX, HELP, IBIT, LHX, MSTR, NVDA, SCHW, SMMT"
+ },
+ {
+  "t": "2026-11-15T22:28:43Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 15 en mouvement : RARE +51.7 %, DRV +26.5 %, VVV +16.5 %."
+ },
+ {
+  "t": "2026-11-15T22:28:46Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[liquidations, chute] Bitcoin's Weekend Plunge Wipes $130 Billion Off Crypto Market Cap; $1.7 Billion in Forced Liquidations - BigGo Finance (BigGo Finance)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oTzFvZGd0UDFiSHF3d0h3WUVsdFRHRGpuN29HV2FPR0c1dS1DazhGUFNTdnBXZ0hHX2gyX0NMZjNHbmlITDFwYXpJcUxFOTRUcmJMNFVMZ0NubHQ4aUpFcEJPaFFSTjRwUGtUT3BUZFQtWFV5N1E?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T22:28:46Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, liquidations, hausse] Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - Grayscale Bitcoin - Benzinga (Benzinga)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWmpmdzZMN1o3OW9LZHBmRkpHV0FtaFNMVXRjMzAyd1RWcGUxR3VmT0xSZ0tPS1FaX1JnS2FBdmlLRXBtdG9ESUFlQTF0Ykt5WFFGc3J6WlpnbURQemlIV1VJclh0eWNJQWhhVm1ubW1SZW9RS1V6VDBKT0YxajliUy1SX0ZFbFg0dldmVEZsM3J2QjRMbUFLWUN6VDhEQ29jNmhrQnJaelpzOW96N0F0R3FWS1N3d1JtS3RvMjgxUEIyQTB5aXZjdjJn?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T22:28:46Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Volo Protocol Loses $3.5M in Exploit Targeting Three Sui Vaults - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcHN6aVc4cVZHWUV5MEYxVS1CSXJDY0RfM01lM29ZMDRwVVNSYWxfQ1lkUnRpcF9BTEs5Ry1NZmNxYVhYQnA5WkE3UTA0N0JuSWdUa0paS1hsWWRLbzdJOFY4VDNQdGxDSUxpMldIcHk4dTZFRmY0V2hjYUx1NjF6Ni1ocDl1dVJ1dmhmSVlWaTRmb3p4YjQxZmRmY0Nodl8tdUVTWXJZWDJPc0ZZeHc?oc=5",
+   "actifs": [
+    "SUI"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T22:29:44Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
  }
 ]

@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-15T22:00:00Z",
+   "verifie_jusqu_a": "2026-11-15T22:28:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 174.95,
+   "dernier_prix": 175.955,
    "atr": 1.031523,
    "rollover": 0.019934228176794234,
    "rollover_periodes": 1
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T22:00:54Z",
+ "maj": "2026-11-15T22:28:43Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -47,67 +47,67 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T21:56:41Z",
+ "chasseur_t": "2026-11-15T22:28:37Z",
  "tendance": [
   "MACCA",
-  "MIHAO",
-  "IMD",
-  "DACITYCOIN",
   "GATO",
-  "BTC",
+  "DACITYCOIN",
   "ASTER",
+  "IMD",
+  "BTC",
+  "HYPE",
+  "ZEC",
   "PENGU",
-  "LIT",
-  "LINK",
-  "UNI",
-  "AERO",
-  "XRP",
   "SOL",
-  "SUI"
+  "ETH",
+  "LINK",
+  "PEARL",
+  "DRV",
+  "NEAR"
  ],
- "tendance_t": "2026-11-15T21:27:32Z",
+ "tendance_t": "2026-11-15T22:28:38Z",
  "buzz": {
   "MSTR": {
    "source": "Reddit",
-   "mentions": 19,
-   "x_vs_hier": 2.1
-  },
-  "DCTH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TGT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "mentions": 18,
+   "x_vs_hier": 2.0
   },
   "SMMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "EURUSD": {
+  "UEC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVDA": {
+  "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBIT": {
+  "XLP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JPM": {
+  "LHX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GLD": {
+  "ANT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BAC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DCTH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -117,12 +117,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BTC": {
-   "source": "Reddit + StockTwits",
+  "XLV": {
+   "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PBR": {
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SCHW": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TGT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -131,63 +146,78 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
-  },
-  "HD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XLV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T21:56:42Z",
- "sources_t": "2026-11-15T21:56:47Z",
+ "buzz_t": "2026-11-15T22:28:38Z",
+ "sources_t": "2026-11-15T22:28:43Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "mentions": 13,
+   "sentiment": "bearish",
    "titres": [
-    "Bitcoin now looks cheap by one measure after $1 billion in ETF outflows",
-    "Britain to spend £4 billion on grid bottlenecks. Can Bitcoin use the wasted wind?"
+    "$BTC March 10th 2023 IHS - Look familiar!?",
+    "Bitcoin DADA Hosts 2026 Bitcoin End-of-Year Review: Africa Edition"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "mentions": 7,
+   "sentiment": "bearish",
    "titres": [
-    "Robots now run AI-written code without an AI calling the shots, succeeding 92% of the time",
-    "AI models agreed with each other more than with reality in a new test"
+    "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+    "Pictet raises Japan allocation as it looks beyond AI stocks"
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 2,
+   "sujet": "Security",
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Tether wants its gold token to rival ETFs",
-    "Bitcoin now looks cheap by one measure after $1 billion in ETF outflows"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Tether wants its gold token to rival ETFs",
-    "How $10,000 in stablecoins would have gained €420 without earning interest"
+    "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting",
+    "Before the Binance Hack, North Korea Listed 49 US Servers to Attack: Were They Breached?"
    ]
   },
   {
    "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.17684582 | 🚶 0.17784582 | 🚀 0.17884582 Gwei",
+    "Peter Schiff Sees ETH Crashing to $1,000 if $1,600 Breaks, but Tom Lee Isn't Worried"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "CZ denies Binance sold crypto as Bitcoin rebounds from lows",
+    "Before the Binance Hack, North Korea Listed 49 US Servers to Attack: Were They Breached?"
+   ]
+  },
+  {
+   "sujet": "Avalanche",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Is Ethereum the “worst asset of all time,” amid estimated $8.83 billion BitMine loss ?"
+    "Avalanche Price Gives Back Its NYSE Pop as the Edge Fades"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "CZ denies Binance sold crypto as Bitcoin rebounds from lows"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting"
    ]
   }
  ],
