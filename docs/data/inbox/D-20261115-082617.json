@@ -1,0 +1,107 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "favorable",
+   "resume": "SOL 63,40 sous EMA20 (64,16) et EMA50 (64,54), tendance 1 h baissière, RSI 46,7 -> 40,2, MACD en baisse, volume 2,53x la moyenne : seul candidat avec un vrai volume. Signal TPB-1 short, score 70, RR net 1,81.",
+   "donnees": "Brief Kraken 08:25 UTC (09:25 Paris), bougies 15 min"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Dimanche, pas d'annonce majeure confirmée dans le calendrier du brief (vide). Faits : Investing.com 15/11 05:46 UTC, BTC glisse vers 60 000 $ avec sorties d'ETF et liquidations ; Crypto Briefing 15/11 06:35 UTC, vente massive. Les recherches web de calendrier de la semaine sont mélangées entre plusieurs années : aucune date ajoutée à l'agenda, rien d'inventé.",
+   "sources": [
+    "Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify - Investing.com - 15/11/2026 05:46 UTC",
+    "Bitcoin selloff tests resolve of committed investors - Crypto Briefing - 15/11/2026 06:35 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -7,2 % en 24 h, dominance BTC 58,5 %. En peur extrême les rebonds sont violents ; SOL est déjà à -6,9 % en 24 h : entrée possiblement tardive."
+  },
+  "trader": {
+   "proposition": "Aucune nouvelle entrée : le signal SOL a bougé de 1 ATR avant le dépôt.",
+   "pour": [],
+   "contre": [
+    "Prix trop bougé",
+    "Peur extrême, rebond possible"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "Signal SOL périmé (prix +1 ATR) ; on ne court pas après le prix."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "SOL 63,40 sous EMA20 64,16 et EMA50 64,54, RSI 46,7 -> 40,2, MACD -0,108 contre -0,071. Volume 2,53x : c'est le seul candidat du scanner avec un volume qui confirme. XRP est à 0,88x, donc sans conviction."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Faits : Investing.com (15/11 05:46 UTC) parle de sorties d'ETF et de liquidations, BTC vers 60 000 $. Aucune annonce majeure confirmée aujourd'hui (dimanche), le calendrier du brief est vide et je n'invente pas de date. Pas de catalyseur qui casserait un short."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed à 10, capitalisation -7,2 % en 24 h, dominance BTC 58,5 %. À ce niveau de peur, les rebonds sont violents. SOL est déjà à -6,9 % sur 24 h : je crains une entrée tardive."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Memecoins : rien de propre. DOGE RSI 42,5 volume 0,29x, SHIB et PENGU volume quasi nul, WIF RSI 71,7 mais volume 0,18x et spread 0,17 %, BONK et PENGU spreads de 0,33 % et 0,41 % au-dessus de la limite de 0,30 %. Je ne propose aucune entrée memecoin."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_sentiment",
+   "message": "Je propose un short SOL 63,40, stop 64,638, objectif 59,686, RR net 1,81. Ton point sur l'entrée tardive est juste, donc je garde la taille standard du risque sans l'augmenter."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Objection : le short ADA de cette nuit a pris son stop (-1,02R) dans le même contexte de peur extrême. Qu'est-ce qui change pour SOL ?"
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Pour ADA le volume n'était pas là. SOL a 2,53x et le stop est à 1,95 %, soit 2,3 ATR, au-dessus du dernier sommet 64,48. Si 64,64 est cassé, le scénario est faux, on sort."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "trader",
+   "message": "Avocat du diable : une chute de 7 % de la capitalisation en 24 h, ça se termine souvent par un rebond de soulagement. Rien dans l'actualité ne l'empêche. Je ne bloque pas, mais je note la réserve."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_macro",
+   "message": "Réserve acceptée. Si SOL repasse au-dessus de l'EMA20 15 min à 64,16 avec du volume, je ne renforce pas et le stop reste en place. Pas de martingale."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Contrôle du moteur avant dépôt : SOL a rebondi d'environ 1 ATR depuis 63,40 (fill simulé 63,93), l'ordre serait expiré. Je ne cours pas après le prix : je retire la proposition."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Refus définitif pour cette réunion : le signal TPB-1 est périmé et le rebond confirme la réserve de l'analyste sentiment sur la peur extrême. HYPE reste gardé (59,17, stop 60,40)."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "HYPE short gardé : 59,17 contre une entrée à 59,59, stop 60,40 et objectif 56,29, +1,06 € latent, aucune raison de le toucher.",
+   "SOL est le seul candidat avec un vrai volume (2,53x) ; XRP et NEAR n'ont pas de volume.",
+   "Memecoins : aucune entrée propre, volumes quasi nuls et spreads trop larges.",
+   "Marché en peur extrême (10), BTC vers 60 000 $ après des sorties d'ETF (Investing.com, 15/11 05:46 UTC)."
+  ],
+  "desaccords": [
+   "L'analyste sentiment craint une entrée tardive après -6,9 % sur 24 h et rappelle le stop sur ADA.",
+   "L'analyste macro joue l'avocat du diable : risque de rebond de soulagement."
+  ],
+  "decision": "Garder HYPE, ne pas entrer sur SOL : le prix a rebondi de 1 ATR et le signal est périmé.",
+  "a_surveiller": [
+   "Nouveau repli de SOL vers l'EMA20 15 min avec volume",
+   "BTC sous 58 085"
+  ]
+ },
+ "synthese": "On garde le short HYPE et on ne prend pas SOL : le prix a déjà rebondi, on ne court pas après un trade.",
+ "id": "D-20261115-082617",
+ "cree_le": "2026-11-15T08:26:17Z"
+}
