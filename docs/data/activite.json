@@ -1,41 +1,5 @@
 [
  {
-  "t": "2026-11-14T01:26:09Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 14 signal(aux) : ARB short (TPB-1, 70), NEAR short (TPB-1, 60), ADA short (TPB-1, 40)"
- },
- {
-  "t": "2026-11-14T07:50:57Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "PEPE short fermé (objectif atteint (moitié encaissée)) à 3.8e-06 : +2.94 € net",
-  "data": {
-   "id": "P0001a"
-  }
- },
- {
-  "t": "2026-11-14T07:50:57Z",
-  "agent": "Trader de garde",
-  "type": "laisser courir",
-  "msg": "PEPE : objectif atteint, moitié encaissée. Le reste continue, stop suiveur à 3.917422e-06."
- },
- {
-  "t": "2026-11-14T07:50:57Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "PEPE short fermé (stop suiveur (gains encaissés)) à 3.91233e-06 : +1.49 € net",
-  "data": {
-   "id": "P0001"
-  }
- },
- {
-  "t": "2026-11-14T07:50:59Z",
-  "agent": "Trader de garde",
-  "type": "protection",
-  "msg": "XRP : stop 0.926 → 0.9037558. +1.3R atteint : stop remonté au prix d'entrée (plus de perte possible)."
- },
- {
   "t": "2026-11-14T07:52:04Z",
   "agent": "Scanner",
   "type": "scan",
@@ -2695,5 +2659,39 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "457 actifs hors univers analysés, 13 en mouvement : VVV +13.5 %, DRV +11.6 %, ZEC +5.8 %."
+ },
+ {
+  "t": "2026-11-15T10:26:24Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne prend aucun trade : le marché rebondit sans volume et aucun signal n'est assez propre."
+ },
+ {
+  "t": "2026-11-15T10:26:32Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AMKR, AVAX, BMNR, BTC, DOGE, ETH, FLY, IBIT, ICP, KYTX, LINK, LUNR"
+ },
+ {
+  "t": "2026-11-15T10:26:37Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 13 en mouvement : VVV +13.5 %, ZRO +6.7 %, NIGHT +6.5 %."
+ },
+ {
+  "t": "2026-11-15T10:26:57Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage, chute] KAVA Plunges Nearly 50% After $3.7M Kava Lend Exploit - Crypto Adventure (Crypto Adventure)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObXlDR1VEUXltMHlsVzNGM2U1eW9vcTVOYXJDRWVISkE4bmxicl9Idzc3Y3gwWlRCSXMwZmp6WUl0ZHFpOXNIRlhiaVFPejVqa3ExR0FkNGJmWVB3YWxRNHpMRXRSVXlhSHVuNjg3ajZKNmxNZDYydVpOY21QUWhiYlN6V2RUUlU?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-15T10:28:00Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : HYPE long (BRK-1, 58)"
  }
 ]
