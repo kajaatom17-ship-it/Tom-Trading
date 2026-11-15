@@ -1,42 +1,5 @@
 [
  {
-  "t": "2026-11-14T11:27:41Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, résultats] Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue - Yahoo Finance (Yahoo Finance)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMFRtN25QbXZRWklxazJjRTloeS1qRElPZkpjMUJxNXZObERNTnVvN3RxVEg5Q1AyZklsX3BETEtNbzF2UTRjSVFZWXZ6UUxBUkpGZkJHci10LXNjRlNYdk8xSGZJRVZPTU94R0Y5N0ZGbnJjNDZ2dlVqcm1xRWVJVTIzSDBLTVNGeWFGdDJNTTNGNmlq?oc=5",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-14T11:28:44Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 3 signal(aux) : HYPE short (TPB-1, 60), PAXG short (TPB-1, 30), MSTR short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-14T11:57:42Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde le pari à la baisse sur XRP, déjà protégé, et on n'ouvre rien de nouveau car HYPE offre à peine le gain minimum exigé pour un volume très faible."
- },
- {
-  "t": "2026-11-14T11:58:45Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 5 signal(aux) : BTC short (TPB-1, 40), NVDA short (TPB-1, 40), ONDO short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-14T12:28:08Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "XRP short fermé (stop protégé) à 0.9042077 : -0.16 € net",
-  "data": {
-   "id": "P0004"
-  }
- },
- {
   "t": "2026-11-14T12:28:08Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2687,5 +2650,35 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 3 signal(aux) : INJ short (TPB-1, 60), SPY short (TPB-1, 40), QQQ short (TPB-1, 40)"
+ },
+ {
+  "t": "2026-11-15T12:57:03Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne prend aucun trade : le marché est baissier mais INJ arrive trop tard après -12 % et le gain potentiel est trop faible par rapport au risque."
+ },
+ {
+  "t": "2026-11-15T12:57:09Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : IMD, BTC, KAVA, HYPE, GATO, SOL, NEAR, MON"
+ },
+ {
+  "t": "2026-11-15T12:57:10Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABTC, ADMA, B, BMY, BTC, HBAR, HD, LHX, LINK, NEM, SMMT, SRPT"
+ },
+ {
+  "t": "2026-11-15T12:57:15Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 19 en mouvement : DRV +19.1 %, VVV +14.7 %, ZEC +7.0 %."
+ },
+ {
+  "t": "2026-11-15T12:58:18Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : AAPL long (TPB-1, 15)"
  }
 ]

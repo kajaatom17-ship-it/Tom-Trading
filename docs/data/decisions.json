@@ -7859,5 +7859,121 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T12:26:27Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Aucune position ouverte. Seul candidat propre : INJ short TPB-1 (entrée 6,373, stop 6,476, objectif 6,063, RR net 1,57, score 60). Tendance 1 h baissière, mais volume 15 min à 0,32 fois la normale et RSI 47,6 déjà bas. SPY et QQQ : RR net 1,12 et 1,13, sous le seuil de 1,5.",
+    "donnees": "brief Kraken 2026-11-15 12:56 UTC (13:56 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Actualités du brief (11:55 UTC) : BTC près de 62 000 $ selon BigGo/Cointelegraph, ETH en baisse avec la hausse des paris sur un relèvement des taux de la Fed (MarketForces Africa, 10:51 UTC). Mes recherches web ont renvoyé des articles de dates mélangées : je n'ai pas pu confirmer de calendrier fiable pour lundi, donc aucune date n'est ajoutée à l'agenda. Dimanche : actions fermées.",
+    "sources": [
+     "Bitcoin Slumps to Four-Month Low - BigGo Finance - 2026-11-15 11:55 UTC",
+     "Ethereum Tumbles As Rising Fed Rate Hike Odds Trigger Crypto Selloff - MarketForces Africa - 2026-11-15 10:51 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -5,12 % sur 24 h, dominance BTC 59,45 %. En peur extrême les rebonds sont brusques : un short après -12 % en 24 h est risqué."
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "DOGE, SHIB, PEPE, TRUMP, WIF rebondissent sans volume (vol_ratio de 0,93 à 0,01). TRUMP RSI 74 avec un spread de 0,23 % : rebond sans volume, rien à poursuivre."
+   },
+   "trader": {
+    "proposition": "Pas de nouvelle entrée. INJ short à l'étude mais non retenu.",
+    "pour": [
+     "Tendance 1 h baissière",
+     "BTC baissier"
+    ],
+    "contre": [
+     "Déjà -12 % sur 24 h : entrée tardive",
+     "Volume 0,32 fois la normale",
+     "RR net 1,57 à peine au-dessus de 1,5",
+     "Dernières sorties : 3 stops et sorties rapides contre nous aujourd'hui"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Pas de position à protéger ; INJ : RR marginal, entrée après gros mouvement, volume absent, peur extrême donc rebond violent possible. Aucun refus de principe, mais aucun intérêt à forcer."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Positions ouvertes : aucune. Candidat unique : INJ short TPB-1, entrée 6,373, stop 6,476, objectif 6,063, RR net 1,57. Tendance 1 h baissière, RSI 47,6, MACD en baisse (-0,0088)."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Les actualités de 11:55 UTC parlent d'un BTC à son plus bas depuis quatre mois, près de 62 000 $, avec des sorties d'ETF, et de paris de hausse de taux de la Fed (10:51 UTC). C'est le contexte, pas un déclencheur daté pour INJ : pas d'OPP-1. Je n'ai pas pu confirmer de calendrier lundi, je n'invente rien."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed est à 10 et la capitalisation totale perd 5,12 % en 24 h. Quand tout le monde est vendeur, un rebond violent est plus probable qu'un calme plat : je suis réservé sur un short."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "Rien de propre sur les memecoins : DOGE vol_ratio 0,93, SHIB 0,12, PEPE 0,07, TRUMP 0,01 avec RSI 74 et spread 0,23 %. Ce sont des rebonds sans volume, pas des impulsions. Je ne propose rien."
+   },
+   {
+    "agent": "trader",
+    "message": "Je pose INJ short en proposition : stop 6,476, objectif 6,063, RR net 1,57, stratégie TPB-1, durée max 24 h."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "Objection sur ton timing : INJ a déjà perdu 12,01 % en 24 h et le volume 15 min est à 0,32 fois la normale. Le rebond sur l'EMA20 (6,407) n'a aucune force, mais la chute est aussi largement faite. Tu entres tard."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je confirme : l'entrée NEAR du 14 novembre, déjà tardive, est le même schéma. Avec Fear & Greed à 10, un short après -12 % est le pari le plus encombré du marché."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Juste. Le RR net de 1,57 est à 0,07 du seuil de 1,5 : après frais et glissement, il n'y a aucune marge. Et aujourd'hui, nos trois derniers trades fermés (ADA -2,56 €, SKY -1,14 €, HYPE -3,33 €) ont tous été sortis sur stop ou sortie rapide. Je retire INJ."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Verdict : refus de la nouvelle entrée INJ. Je ne valide pas pour faire tourner le portefeuille. Aucune position ouverte, capital 498,36 €, entrées du jour 2 sur 3 : la décision est de ne rien faire."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "risk_manager",
+    "message": "D'accord. À surveiller : si BTC casse nettement 56 388 (plus bas 12 h) avec du volume, ou si une annonce Fed datée et sourcée tombe, on réévalue à la prochaine réunion."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte : rien à garder ni à resserrer.",
+    "Marché baissier (BTC sous pression, peur extrême à 10) mais les rebonds n'ont pas de volume.",
+    "Candidat INJ short : tendance baissière mais entrée tardive (-12 % en 24 h), volume faible et gain/risque net de 1,57 seulement.",
+    "SPY et QQQ : gain/risque 1,12 et 1,13, sous le seuil ; actions fermées le dimanche.",
+    "Memecoins : rien de propre."
+   ],
+   "desaccords": [
+    "Le Trader voulait étudier INJ short ; l'analyste technique et l'analyste sentiment l'ont contesté (entrée tardive, peur extrême). Le Trader a retiré sa proposition."
+   ],
+   "decision": "Aucune décision de trade : on reste en liquidités.",
+   "a_surveiller": [
+    "INJ : rebond propre sur l'EMA20 avec du volume",
+    "BTC sous 56 388 avec du volume",
+    "Annonce Fed ou macro datée et sourcée",
+    "Calendrier de lundi à confirmer par une source officielle"
+   ]
+  },
+  "synthese": "On ne prend aucun trade : le marché est baissier mais INJ arrive trop tard après -12 % et le gain potentiel est trop faible par rapport au risque.",
+  "id": "D-20261115-125652",
+  "cree_le": "2026-11-15T12:56:52Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T12:57:03Z"
  }
 ]
