@@ -10022,5 +10022,115 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T22:28:31Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "TAO short : prix 176,32 €, entrée 173,76 €, stop 178,22 € (à ~1,1 %), objectif 161,07 €. 15 min : RSI 60,4 (58,9 avant), MACD en hausse, EMA20 174,44 sous le prix, volume x0,16 (quasi nul), tendance 1 h baissière. Le scanner n'a aucun candidat. BTC 59 166 €, RSI 57,2, tendance 1 h baissière.",
+    "donnees": "brief engine/brief.py, 2026-11-15 22:56 UTC (23:56 Paris), Kraken"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Faits de presse du brief (15/11, ~21:45 UTC) : Benzinga et bloomingbit parlent de 1,71 Md$ de liquidations et d'une capitalisation crypto en forte baisse. Yahoo Finance annonce les résultats Nvidia le 17/11 ; la presse cite aussi les minutes de la Fed cette semaine. Mes deux recherches web de ce soir n'ont pas donné de calendrier daté et fiable pour lundi 16/11 : je n'ajoute rien à l'agenda. Actions fermées le dimanche.",
+    "sources": [
+     "Benzinga - Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - 2026-11-15 21:45 UTC - via brief",
+     "Yahoo Finance - Nvidia Reports Earnings on Nov. 17 - 2026-11-15 17:50 UTC - via brief"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,39 %, capitalisation totale -2,93 % sur 24 h. En peur extrême les rebonds sont violents : TAO (+5,58 % sur 24 h) peut encore monter vers notre stop.",
+    "donnees": "brief sentiment 21:57 UTC"
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "DOGE RSI 55,9, volume x0,53 ; PEPE RSI 43,0 sous l'EMA20 mais volume x0,90 ; SHIB volume x1,59 mais RSI 51,5 sans cassure ; TRUMP spread 0,115 % ; WIF volume 24 h ~30 k€, sous le minimum de 40 k€. Aucune impulsion propre."
+   },
+   "trader": {
+    "proposition": "Garder le short TAO tel quel ; aucune nouvelle entrée.",
+    "pour": [
+     "Tendance 1 h baissière, marché en peur extrême",
+     "Stop en place : perte maximale connue"
+    ],
+    "contre": [
+     "Perte latente de 1,47 €",
+     "RSI 15 min qui remonte à 60,4, rebond en cours"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse toute nouvelle entrée",
+    "motif": "3 entrées sur 3 déjà utilisées aujourd'hui ; scanner sans candidat ; aucun memecoin avec signal propre. Position TAO conservée : stop 178,22 € non touché."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "TAO short : prix 176,32 € pour un stop à 178,22 €, soit environ 1,1 % de marge. RSI 15 min 60,4 contre 58,9, MACD en hausse : le rebond continue, mais volume x0,16 seulement."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed est à 10. En peur extrême, un rebond sans volume peut quand même s'étendre : TAO est déjà +5,58 % sur 24 h."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Presse du 15/11 : 1,71 Md$ de liquidations et capitalisation crypto en baisse. Nvidia publie le 17/11. Je n'ai pas de calendrier daté confirmé pour lundi, donc je n'ajoute rien à l'agenda."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "Rien de propre : DOGE volume x0,53, PEPE volume x0,90 sans cassure, WIF ~30 k€ de volume 24 h (sous 40 k€). Pas d'entrée."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de garder le short TAO : stop 178,22 €, objectif 161,07 €. Pas de nouvelle entrée, le quota est de 3 sur 3."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je conteste : le RSI remonte et BTC rebondit (RSI 57,2). Le stop est à 1,1 %, pas loin. Pourquoi ne pas couper à -1,47 € ?"
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "Parce que le stop a été posé pour ça : la perte max est connue. La tendance 1 h reste baissière et le volume du rebond est x0,16, donc faible. Rien n'a cassé le scénario."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "D'accord avec le trader : le prix reste sous le plus haut 12 h (177,92 €), et le rebond manque de volume. Si 177,92 € casse, on en reparlera."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Garder est cohérent : perte max fixée à l'entrée. Refus de toute nouvelle entrée : 3 entrées sur 3 utilisées, scanner sans candidat. Personne ne me convainc d'en forcer une."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Le short TAO est en perte latente de 1,47 € ; le prix (176,32 €) reste à 1,1 % sous le stop (178,22 €).",
+    "Le quota de 3 entrées du jour est atteint et le scanner ne propose aucun candidat.",
+    "Marché en peur extrême (Fear & Greed 10), BTC tendance 1 h baissière.",
+    "Aucun calendrier daté fiable pour lundi 16/11 trouvé : agenda inchangé."
+   ],
+   "desaccords": [
+    "Le sentiment voulait couper TAO à cause du rebond du RSI ; le trader et l'analyste technique ont gardé car le volume est x0,16 et le stop protège."
+   ],
+   "decision": "On garde le short TAO tel quel et on n'ouvre rien de nouveau.",
+   "a_surveiller": [
+    "Cassure de 177,92 € sur TAO (plus haut 12 h)",
+    "Résultats Nvidia le 17/11 et minutes de la Fed cette semaine",
+    "Rebond de BTC au-dessus de 59 876 €"
+   ]
+  },
+  "synthese": "On garde le short TAO (perte latente 1,47 €, stop en place) et on n'ouvre rien : le quota du jour est atteint et aucun candidat n'est solide.",
+  "id": "D-20261115-225657",
+  "cree_le": "2026-11-15T22:56:57Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T22:57:15Z"
  }
 ]

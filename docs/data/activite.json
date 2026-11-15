@@ -1,41 +1,5 @@
 [
  {
-  "t": "2026-11-14T19:32:34Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Yahoo Finance : Everyone went smaller on satellites. We made the right bet: K2 Space CEO",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=mUD4pEB90S4"
-  }
- },
- {
-  "t": "2026-11-14T19:32:34Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Yahoo Finance : Where Crypto Really Stands Right Now",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=hkTCJXYC6fE"
-  }
- },
- {
-  "t": "2026-11-14T19:33:35Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 4 signal(aux) : NVDA short (TPB-1, 30), GOOGL short (TPB-1, 30), SPY short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-14T19:58:26Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On n'ouvre rien : le marché a déjà beaucoup chuté, aucun signal n'offre assez de gain pour le risque, et rester en cash vaut mieux que forcer un trade."
- },
- {
-  "t": "2026-11-14T19:58:31Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MIHAO, BTC, SOL, HYPE, ETH, UNI, PEARL, PUMP"
- },
- {
   "t": "2026-11-14T19:58:32Z",
   "agent": "Chasseur de mouvements",
   "type": "réseaux sociaux",
@@ -2683,5 +2647,41 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-15T22:57:15Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde le short TAO (perte latente 1,47 €, stop en place) et on n'ouvre rien : le quota du jour est atteint et aucun candidat n'est solide."
+ },
+ {
+  "t": "2026-11-15T22:57:21Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ANT, BIDU, BMY, BNTX, CHWY, DCTH, GDX, HELP, IBIT, LHX, SMMT, TGT"
+ },
+ {
+  "t": "2026-11-15T22:57:26Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 14 en mouvement : RARE +51.2 %, DRV +26.9 %, VVV +17.6 %."
+ },
+ {
+  "t": "2026-11-15T22:57:29Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Mantle Proposes 30K $ETH Loan to Aave After $292M Kelp Exploit - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWxvR19BNV90YmhMeVFUbDJpb0pUMFp3T2pVVmF3T0dqM1JseTVzRnl5N25sdkdfNzZaUzlETjM4ZFdGam9DYnNHNFNRYzZuWXJLeS1WRjYyMVk0U3NjQVFjZDZuaUd6TFVhbVRnNDE1bmdWZFF6X2Q2djg2YUlyNHZXR1lGUGJ0ai1QYkU2bThaOWo2OGRKUmFwbDBXYloyWGp1ODJtakxGWllmdlB0dkpHR0k?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T22:58:26Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : AVAX short (TPB-1, 40), PAXG short (TPB-1, 30)"
  }
 ]

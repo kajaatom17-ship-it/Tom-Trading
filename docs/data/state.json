@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-15T22:32:00Z",
+   "verifie_jusqu_a": "2026-11-15T22:57:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 175.955,
+   "dernier_prix": 176.3175,
    "atr": 1.031523,
    "rollover": 0.019934228176794234,
    "rollover_periodes": 1
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T22:32:25Z",
+ "maj": "2026-11-15T22:57:26Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -47,7 +47,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T22:28:37Z",
+ "chasseur_t": "2026-11-15T22:57:21Z",
  "tendance": [
   "MACCA",
   "GATO",
@@ -67,17 +67,7 @@
  ],
  "tendance_t": "2026-11-15T22:28:38Z",
  "buzz": {
-  "MSTR": {
-   "source": "Reddit",
-   "mentions": 18,
-   "x_vs_hier": 2.0
-  },
   "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UEC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -87,7 +77,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLP": {
+  "BMY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -97,12 +87,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "XLP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UEC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CHWY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BNTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ANT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BAC": {
+  "XLM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -112,27 +122,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "GDX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XLV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "IBIT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVDA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SCHW": {
+  "GDX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -142,31 +137,49 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETN": {
+  "BIDU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T22:28:38Z",
- "sources_t": "2026-11-15T22:28:43Z",
+ "buzz_t": "2026-11-15T22:57:21Z",
+ "sources_t": "2026-11-15T22:57:26Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 13,
+   "mentions": 14,
    "sentiment": "bearish",
    "titres": [
-    "$BTC March 10th 2023 IHS - Look familiar!?",
-    "Bitcoin DADA Hosts 2026 Bitcoin End-of-Year Review: Africa Edition"
+    "ARB Falls 20% in a Week, Lagging Bitcoin Even as Arbitrum Draws $91.8M in Stablecoins",
+    "US sellers drive Bitcoin crash, Jensen plots comeback: Hodler’s Digest"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 7,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
     "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
     "Pictet raises Japan allocation as it looks beyond AI stocks"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.166773598 | 🚶 0.168773597 | 🚀 0.185650956 Gwei",
+    "Bitcoin Is Copying Ethereum Day for Day. T1 Zone Next?"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "NEAR Longs Lose $210K on Binance, Bybit and OKX as the Price Breaks Below $3",
+    "CZ denies Binance sold crypto as Bitcoin rebounds from lows"
    ]
   },
   {
@@ -179,21 +192,20 @@
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "bearish",
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.17684582 | 🚶 0.17784582 | 🚀 0.17884582 Gwei",
-    "Peter Schiff Sees ETH Crashing to $1,000 if $1,600 Breaks, but Tom Lee Isn't Worried"
+    "ARB Falls 20% in a Week, Lagging Bitcoin Even as Arbitrum Draws $91.8M in Stablecoins",
+    "Blumenthal Targets CFTC Over Alleged Ties to Kalshi"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 3,
+   "sujet": "Layer 2",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "CZ denies Binance sold crypto as Bitcoin rebounds from lows",
-    "Before the Binance Hack, North Korea Listed 49 US Servers to Attack: Were They Breached?"
+    "ARB Falls 20% in a Week, Lagging Bitcoin Even as Arbitrum Draws $91.8M in Stablecoins"
    ]
   },
   {
@@ -202,22 +214,6 @@
    "sentiment": "neutral",
    "titres": [
     "Avalanche Price Gives Back Its NYSE Pop as the Edge Fades"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "CZ denies Binance sold crypto as Bitcoin rebounds from lows"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Kava Lend Exploit Exposes a Dangerous Gap in DeFi Collateral Accounting"
    ]
   }
  ],
