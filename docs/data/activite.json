@@ -1,44 +1,5 @@
 [
  {
-  "t": "2026-11-13T14:21:32Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "27 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
-  "t": "2026-11-13T14:47:45Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "0 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
-  "t": "2026-11-13T14:52:43Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "27 actifs analysés, 2 signal(aux) : BTC short (TPB-1, 70), PEPE short (TPB-1, 70)"
- },
- {
-  "t": "2026-11-13T14:54:03Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "PEPE short ouvert à 4.066929e-06 | 100.00 € engagés | stop 4.184351e-06 | objectif 3.702948e-06 | risque 3.70 EUR",
-  "data": {
-   "id": "P0001"
-  }
- },
- {
-  "t": "2026-11-13T15:11:26Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "27 actifs analysés, 4 signal(aux) : ETH short (TPB-1, 70), SOL short (TPB-1, 70), BTC short (TPB-1, 60)"
- },
- {
-  "t": "2026-11-13T15:16:41Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 15 signal(aux) : SOL short (TPB-1, 70), ONDO short (TPB-1, 70), OP short (TPB-1, 70)"
- },
- {
   "t": "2026-11-13T15:23:33Z",
   "agent": "Veille",
   "type": "actu",
@@ -2753,5 +2714,47 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 1 signal(aux) : PENGU short (TPB-1, 60)"
+ },
+ {
+  "t": "2026-11-15T05:57:18Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne prend aucun trade : le seul candidat (PENGU) coûte trop cher à acheter et vendre, il a déjà beaucoup baissé et le marché est en pleine panique."
+ },
+ {
+  "t": "2026-11-15T05:57:24Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, SUI, HYPE, ETH, ONDO, VVV, NEAR, PUMP"
+ },
+ {
+  "t": "2026-11-15T05:57:25Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : CVS, DAL, DIS, DOGE, DVN, MELANIA, NIGHT, OCUL, SMMT, TOSHI, TOST, UPS"
+ },
+ {
+  "t": "2026-11-15T05:57:30Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "458 actifs hors univers analysés, 8 en mouvement : VVV +13.8 %, JUP +5.9 %, STRK +6.8 %."
+ },
+ {
+  "t": "2026-11-15T05:57:50Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, liquidations] Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T05:58:50Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
  }
 ]
