@@ -13,7 +13,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T01:01:45Z",
+ "maj": "2026-11-15T01:27:02Z",
  "seq": 7,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -21,7 +21,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T00:57:42Z",
+ "chasseur_t": "2026-11-15T01:26:58Z",
  "tendance": [
   "BTC",
   "HYPE",
@@ -46,7 +46,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XRP": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -56,32 +56,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HBAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZEC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QNT": {
+  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -91,12 +66,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "Z": {
+  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
+  "SOL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HBAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -106,32 +91,56 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVO": {
+  "LINK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GEO": {
+  "LYFT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XAGUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XAUUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T00:57:43Z",
- "sources_t": "2026-11-15T00:57:44Z",
+ "buzz_t": "2026-11-15T01:26:59Z",
+ "sources_t": "2026-11-15T01:27:00Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 12,
+   "mentions": 9,
    "sentiment": "bearish",
    "titres": [
-    "Crypto liquidations surge past $1.9 billion as Bitcoin nears $63,000",
-    "BTCUSD Bullish Reversal Setup | Liquidity Sweep + FVG + OB"
+    "Bitcoin is done for a very very long time",
+    "BTC Weekend Flush: It Stops When Longs Give Up"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "BTCUSDT long closed by stop-loss: -3.33%",
+    "数据：过去 24 小时全网爆仓 19.45 亿美元，逾 31 万人被爆仓"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
     "AVGO Rebounds 26% — Can Buyers Break the $370 Resistance Wall?",
@@ -139,45 +148,20 @@
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "SC/USDT bring on the next wave",
-    "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%"
-   ]
-  },
-  {
    "sujet": "Ethereum",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "$ETH WEEKLY: BULL TRAP OR THE START OF A NEW HIGHER LOW?",
-    "Peter Schiff argues Bitcoin may fall below $16,500 by year-end if $50,000 breaks next"
+    "⛽ ETH Gas: 🐢 0.380696137 | 🚶 0.380719486 | 🚀 0.429886987 Gwei",
+    "数据：多位巨鲸逢低买入 ETH，Erik Voorhees 关联钱包增持 1.25 亿美元"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "DeFi",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Family Dollar to Pay $63 Million Settlement for Overcharging Customers"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Kava Lend loses roughly $3.8 million to hack, sending KAVA token down nearly 40%"
+    "Vestige to shut down Algorand DeFi platform on December 31, 2026, citing costs"
    ]
   },
   {
@@ -185,7 +169,23 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SOLANA: Is Another Massive Liquidation Coming?"
+    "数据：Forward Industries 向 Coinbase Prime 转入 188.28 万枚 SOL，约合 1.3 亿美元"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "数据：Forward Industries 向 Coinbase Prime 转入 188.28 万枚 SOL，约合 1.3 亿美元"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "SC/USDT bring on the next wave"
    ]
   }
  ],

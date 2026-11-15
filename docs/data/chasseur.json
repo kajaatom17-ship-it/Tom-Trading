@@ -1,48 +1,37 @@
 {
- "t": "2026-11-15T00:57:44Z",
+ "t": "2026-11-15T01:27:00Z",
  "nb_analyses": 458,
  "nb_en_mouvement": 1,
  "tendance": [
   "AAVE",
-  "ADA",
   "AVAX",
+  "BMNR",
   "BTC",
   "DOGE",
   "ETH",
-  "GEO",
   "HBAR",
   "HYPE",
   "INJ",
   "KAVA",
   "LINK",
+  "LTC",
+  "LYFT",
   "MSTR",
   "NEAR",
-  "NVO",
   "ONDO",
   "PEARL",
   "PUMP",
-  "QNT",
   "QTC",
   "SOL",
   "TAO",
   "UNI",
+  "XAGUSD",
+  "XAUUSD",
   "XLM",
-  "XRP",
-  "Z",
-  "ZEC"
+  "XRP"
  ],
  "buzz_reseaux": {
   "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XRP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -52,27 +41,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ADA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZEC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QNT": {
+  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -82,12 +56,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "Z": {
+  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
+  "SOL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HBAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -97,12 +81,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVO": {
+  "LINK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GEO": {
+  "LYFT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XAGUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XAUUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -110,13 +109,13 @@
  },
  "candidats": [
   {
-   "sym": "ZRX",
-   "pair": "ZRXEUR",
+   "sym": "PUMP",
+   "pair": "PUMPEUR",
    "action": false,
-   "variation_24h_pct": -9.68,
-   "volume_24h_eur": 41954.8,
-   "spread_pct": 0.2821,
-   "tendance": false,
+   "variation_24h_pct": -3.06,
+   "volume_24h_eur": 818332.07,
+   "spread_pct": 0.0779,
+   "tendance": true,
    "impulsion": null
   }
  ],
