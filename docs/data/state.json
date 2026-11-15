@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-15T18:31:00Z",
+   "verifie_jusqu_a": "2026-11-15T18:56:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 172.7213,
+   "dernier_prix": 172.7891,
    "atr": 1.031523
   }
  ],
@@ -37,7 +37,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T18:31:33Z",
+ "maj": "2026-11-15T18:57:07Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -45,7 +45,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T18:27:27Z",
+ "chasseur_t": "2026-11-15T18:56:55Z",
  "tendance": [
   "MACCA",
   "MIHAO",
@@ -67,8 +67,13 @@
  "buzz": {
   "MSTR": {
    "source": "Reddit",
-   "mentions": 24,
-   "x_vs_hier": 2.7
+   "mentions": 23,
+   "x_vs_hier": 2.6
+  },
+  "PRAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   },
   "SMMT": {
    "source": "StockTwits",
@@ -85,11 +90,6 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "BTC": {
    "source": "StockTwits",
    "mentions": null,
@@ -100,17 +100,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRSP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LHX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ABT": {
+  "XLM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -120,22 +110,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "REPL": {
+  "XPEV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PYTH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TEVA": {
+  "VXX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -144,78 +124,98 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "UAL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "C": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T18:27:28Z",
- "sources_t": "2026-11-15T18:27:33Z",
+ "buzz_t": "2026-11-15T18:56:56Z",
+ "sources_t": "2026-11-15T18:57:02Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 8,
    "sentiment": "bearish",
    "titres": [
-    "# BTC Enters Major Bottoming Zone — Is the Final Low Close?",
-    "Bitcoin's Macro Map: Price Is Sitting on the Biggest Line"
+    "Strategist Sees Bitcoin Path to $170K Despite Selloff, Says ‘Buy the Fear’",
+    "Nic Carter says most Bitcoin treasury firms offer little beyond ETF exposure"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Finance Expert Says XRP Is Not Dying A Slow Death. Here’s What It Means",
+    "Crypto Market Rout Deepens as XRP Price Hits 2-Year Low and ETF Money Flees"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Nic Carter says most Bitcoin treasury firms offer little beyond ETF exposure",
+    "Bitcoin ETFs Lose $2.35 Billion in Two Weeks as Outflow Streak Extends"
    ]
   },
   {
    "sujet": "AI",
    "mentions": 3,
-   "sentiment": "bullish",
-   "titres": [
-    "Nvidia defends employee in Taiwan AI chip smuggling case",
-    "Guy Oseary’s Sound Ventures reportedly holds a $7 billion stake in Anthropic"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "How $10,000 in stablecoins would have gained €420 without earning interest",
-    "How Wall Street Is Racing to Claim the Onchain Dollar"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP +4.43% off the 0.893 low: 0.9975 is the lid",
-    "If XRP Hits $10,000, See What Could Happen to World’s Top 10 Richest People"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Binance Holds the Least Ethereum Since 2021",
-    "US Moves To Seize Or Restrain Over $1,200,000,000 Stolen in Binance Hack, Shuts Down North Korea-Linked FaceStealer Scam That Took $400,000,000"
-   ]
-  },
-  {
-   "sujet": "Cardano",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Cardano Midnight Price Prediction: Here is NIGHT token Price if It Enters Top 10"
+    "India stands to gain as investors look beyond AI, Jefferies’ Wood says",
+    "Nvidia earnings report on Nov. 17 amid leadership change and AI demand focus"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "Binance Holds the Least Ethereum Since 2021"
+    "⛽ ETH Gas: 🐢 0.18877333 | 🚶 0.19067689 | 🚀 0.209850663 Gwei",
+    "Ethereum Faces Strong Fibonacci Resistance | Bearish Setup"
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin now looks cheap by one measure after $1 billion in ETF outflows"
+    "DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "ARB Falls 20% in a Week, Lagging Bitcoin Even as Arbitrum Draws $91.8M in Stablecoins"
+   ]
+  },
+  {
+   "sujet": "Layer 2",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "ARB Falls 20% in a Week, Lagging Bitcoin Even as Arbitrum Draws $91.8M in Stablecoins"
    ]
   }
  ],
