@@ -2172,5 +2172,50 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 23 signal(aux) : PENGU short (TPB-1, 70), BTC short (BRK-1, 66), XRP short (TPB-1, 60)"
+ },
+ {
+  "t": "2026-11-15T01:58:08Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne fait rien : le marché a déjà beaucoup chuté, un short arriverait trop tard et le risque ne serait pas payé."
+ },
+ {
+  "t": "2026-11-15T01:58:15Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, HYPE, ETH, SOL, PUMP, XRP, NEAR, LIT"
+ },
+ {
+  "t": "2026-11-15T01:58:16Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AVAX, BMNR, COIN, DOGE, ETH, GBPUSD, HBAR, IBIT, LINK, LTC, MSTR, PATH"
+ },
+ {
+  "t": "2026-11-15T01:58:19Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "458 actifs hors univers analysés, 3 en mouvement : USELESS -5.6 %, PUMP -4.3 %, UNI -3.2 %."
+ },
+ {
+  "t": "2026-11-15T01:59:42Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "ADA short ouvert à 0.1301789 | 80.90 € engagés | stop 0.1331801 | objectif 0.1206996 | risque 2.52 EUR",
+  "data": {
+   "id": "P0008"
+  }
+ },
+ {
+  "t": "2026-11-15T01:59:42Z",
+  "agent": "Trader de garde",
+  "type": "entrée",
+  "msg": "Entrée seule : ADA short (BRK-1, score 75, RR net 1.97), risque 2.52 €."
+ },
+ {
+  "t": "2026-11-15T01:59:42Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 12 signal(aux) : ADA short (BRK-1, 75), BTC short (BRK-1, 64), SOL short (BRK-1, 62)"
  }
 ]

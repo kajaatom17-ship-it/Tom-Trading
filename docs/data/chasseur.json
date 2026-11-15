@@ -1,52 +1,38 @@
 {
- "t": "2026-11-15T01:27:00Z",
+ "t": "2026-11-15T01:58:19Z",
  "nb_analyses": 458,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 3,
  "tendance": [
-  "AAVE",
+  "ADA",
+  "APT",
   "AVAX",
   "BMNR",
   "BTC",
+  "COIN",
   "DOGE",
   "ETH",
+  "GBPUSD",
   "HBAR",
   "HYPE",
-  "INJ",
+  "IBIT",
   "KAVA",
   "LINK",
+  "LIT",
   "LTC",
-  "LYFT",
   "MSTR",
   "NEAR",
   "ONDO",
+  "PATH",
   "PEARL",
   "PUMP",
-  "QTC",
   "SOL",
-  "TAO",
   "UNI",
-  "XAGUSD",
-  "XAUUSD",
   "XLM",
-  "XRP"
+  "XRP",
+  "ZEC"
  ],
  "buzz_reseaux": {
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -56,7 +42,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
+  "DOGE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -66,12 +57,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
+  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -81,27 +72,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "LINK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LYFT": {
+  "LTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XAGUSD": {
+  "COIN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XAUUSD": {
+  "PATH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "HBAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GBPUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -109,12 +110,32 @@
  },
  "candidats": [
   {
+   "sym": "USELESS",
+   "pair": "USELESSEUR",
+   "action": false,
+   "variation_24h_pct": -5.64,
+   "volume_24h_eur": 314961.22,
+   "spread_pct": 0.4232,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "PUMP",
    "pair": "PUMPEUR",
    "action": false,
-   "variation_24h_pct": -3.06,
-   "volume_24h_eur": 818332.07,
-   "spread_pct": 0.0779,
+   "variation_24h_pct": -4.34,
+   "volume_24h_eur": 839191.09,
+   "spread_pct": 0.1579,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "UNI",
+   "pair": "UNIEUR",
+   "action": false,
+   "variation_24h_pct": -3.16,
+   "volume_24h_eur": 1246865.21,
+   "spread_pct": 0.1279,
    "tendance": true,
    "impulsion": null
   }

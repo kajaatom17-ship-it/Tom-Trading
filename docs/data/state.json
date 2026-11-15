@@ -2,61 +2,70 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 503.9715421406281,
- "positions": [],
- "frais_cumules": 4.534831493882761,
+ "cash": 422.7453608831994,
+ "positions": [
+  {
+   "id": "P0008",
+   "sym": "ADA",
+   "pair": "ADAEUR",
+   "side": "short",
+   "strategie": "BRK-1",
+   "qty": 621.4723326585639,
+   "entry": 0.1301789,
+   "notionnel": 80.90257097353461,
+   "frais_entree": 0.32361028389413843,
+   "stop": 0.1331801,
+   "stop_initial": 0.1331801,
+   "tp": 0.1206996,
+   "risque_eur": 2.519857710703141,
+   "rr_net": 2.05,
+   "ouvert_le": "2026-11-15T01:59:42Z",
+   "verifie_jusqu_a": "2026-11-15T01:59:42Z",
+   "duree_max_h": 24.0,
+   "decision_id": "G-20261115-015942",
+   "dernier_prix": 0.130178878,
+   "atr": 0.00156006
+  }
+ ],
+ "frais_cumules": 4.8584417777769,
  "pnl_realise": 3.97154214062815,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
-  "2026-11-14": 2
+  "2026-11-14": 2,
+  "2026-11-15": 1
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T01:30:46Z",
- "seq": 7,
+ "maj": "2026-11-15T01:58:35Z",
+ "seq": 8,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T01:26:58Z",
+ "chasseur_t": "2026-11-15T01:58:14Z",
  "tendance": [
   "BTC",
   "HYPE",
+  "ETH",
   "SOL",
-  "UNI",
-  "NEAR",
-  "XRP",
-  "AAVE",
-  "TAO",
   "PUMP",
-  "PEARL",
-  "KAVA",
+  "XRP",
+  "NEAR",
+  "LIT",
+  "UNI",
+  "ADA",
+  "ZEC",
   "ONDO",
-  "INJ",
-  "LINK",
-  "QTC"
+  "KAVA",
+  "PEARL",
+  "APT"
  ],
- "tendance_t": "2026-11-15T00:57:42Z",
+ "tendance_t": "2026-11-15T01:58:15Z",
  "buzz": {
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -66,7 +75,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVAX": {
+  "DOGE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -76,12 +90,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
+  "AVAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -91,34 +105,44 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "LINK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LYFT": {
+  "LTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XAGUSD": {
+  "COIN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XAUUSD": {
+  "PATH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "HBAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GBPUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T01:26:59Z",
- "sources_t": "2026-11-15T01:27:00Z",
+ "buzz_t": "2026-11-15T01:58:16Z",
+ "sources_t": "2026-11-15T01:58:19Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
@@ -190,7 +214,8 @@
   }
  ],
  "garde_par_jour": {
-  "2026-11-14": 1
+  "2026-11-14": 1,
+  "2026-11-15": 1
  },
  "entrees_meme_par_jour": {
   "2026-11-14": 1
