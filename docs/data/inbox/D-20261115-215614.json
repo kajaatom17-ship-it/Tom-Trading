@@ -1,0 +1,108 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "TAO short (entrée 173,76) : prix 175,61, stop 178,22, objectif 161,07, perte latente -1,07 €. Sur 15 min : close 174,70, EMA20 174,10, EMA50 173,81, RSI 54,2 (60,9 avant), MACD en baisse, tendance 1 h baissière, haut 12 h 177,92. Le stop n'est pas touché. Aucun candidat du scanner n'a un RR net >= 1,5 (PEPE 0,87, OP 0,77, RENDER 0,74, DOGE 0,65, ETH 0,65).",
+   "donnees": "Brief Kraken 15 min, 21:55 UTC (22:55 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "neutre",
+   "resume": "Dimanche soir : marchés actions fermés. Semaine à venir : résultats Nvidia et procès-verbal de la Fed cités par la presse (MarketWatch 15/11 21:32 UTC ; Stocks Down Under 15/11 19:12 UTC). Fed de Kansas City : 'a du travail à faire sur l'inflation' (CNBC, 15/11 18:58 UTC). Mes deux recherches web n'ont pas donné de date confirmée par une source officielle ni d'actualité datée sur TAO : je n'ajoute rien à l'agenda.",
+   "sources": [
+    "Nvidia is gearing up for one of Wall Street's most anticipated earnings calls - MarketWatch - 15/11 21:32 UTC",
+    "Fed has some work to do on inflation - CNBC - 15/11 18:58 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,34 %, capitalisation totale -4,41 % sur 24 h. Alerte ASTER -17,65 % en 15 min (21:41 UTC) : mouvement brutal, hors de nos positions.",
+   "donnees": "Brief 21:57 UTC"
+  },
+  "trader": {
+   "proposition": "Garder TAO sans toucher au stop. Pas de nouvelle entrée : les entrées du jour sont épuisées (3/3) et aucun candidat ne passe le RR net.",
+   "pour": [
+    "Le stop et l'objectif ont été posés pour absorber ce bruit",
+    "Tendance 1 h baissière toujours valide"
+   ],
+   "contre": [
+    "TAO a pris +5,16 % sur 24 h : le short est à contre-courant du jour",
+    "RSI qui remonte vers 54"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Garder : perte max déjà fixée par le stop. Nouvelle entrée impossible : 3/3 entrées du jour et RR net insuffisant partout."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "TAO short : prix 175,61 pour une entrée à 173,76, stop 178,22. Close 15 min 174,70 au-dessus de l'EMA20 (174,10), RSI 54,2 contre 60,9 avant, MACD qui s'affaiblit. Tendance 1 h toujours baissière : le scénario tient."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "analyste_technique",
+   "message": "Pas d'actualité datée sur TAO qui casse le scénario. Seuls faits : Nvidia et le PV de la Fed attendus cette semaine (MarketWatch 15/11 21:32 UTC), et la Fed de Kansas City parle d'inflation (CNBC 15/11 18:58 UTC). Rien de confirmé pour les prochaines 2 heures."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_macro",
+   "message": "Fear & Greed à 10, capitalisation -4,41 % : en peur extrême les rebonds sont violents, et TAO a déjà rebondi de +5,16 % sur 24 h. C'est le risque principal du short, pas une raison de sortir tant que le stop tient."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Memecoins : PEPE cassure du bas 12 h avec volume x5,76 mais RR net 0,87, RSI 36,6, déjà étiré : poursuivre serait entrer tard. DOGE RR net 0,65, TRUMP 0,50, WIF 0,50 avec volume x11 mais spread 0,16 % et seulement 30 155 € de volume 24 h : trop mince. Rien de propre."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_sentiment",
+   "message": "Je propose de garder TAO tel quel et de ne pas entrer ailleurs. Je ne resserre pas le stop : le prix est à 1,5 ATR du stop (ATR 0,95), ce serait se faire sortir par du bruit."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Je conteste un point : tu gardes un short contre une journée à +5 %. Quelle preuve que le rebond ne continue pas ? Et pour une nouvelle entrée, le portefeuille affiche 3 entrées sur 3 aujourd'hui : même un bon signal serait refusé."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Pas de preuve, seulement le stop à 178,22 : perte max d'environ 4,5 € sur la position. Si le prix clôture 15 min au-dessus de 177,92 (haut 12 h), le scénario est cassé et le comité suivant devra le réexaminer."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "risk_manager",
+   "message": "Aucun candidat n'atteint 1,5 de RR net : meilleur PEPE 0,87, puis ADA 0,80, DOT 0,82, OP 0,77. Les frais crypto (0,4 % à 0,8 %) mangent l'objectif quand l'ATR est de 0,3 à 0,7 %. Rien à forcer."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "specialiste_memecoins",
+   "message": "D'accord pour ne pas toucher aux memecoins. ASTER à -17,65 % en 15 min est un mouvement vertical sans position chez nous, et on ne court pas après."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : garder TAO, aucune nouvelle entrée. Raison : limite d'entrées atteinte et RR net < 1,5 partout. OPP-1 refusée : pas de catalyseur daté et sourcé de moins de 24 h."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Position TAO (short) : -1,07 € latent, stop et objectif inchangés.",
+   "Aucun candidat du scanner n'atteint un rapport gain/risque net de 1,5 après frais.",
+   "Les 3 entrées du jour sont déjà utilisées.",
+   "Marché en peur extrême (indice 10), actions fermées le dimanche soir."
+  ],
+  "desaccords": [
+   "Le Risk Manager a contesté le fait de garder un short alors que TAO a monté de 5 % sur 24 h ; le Trader s'appuie sur le stop, perte max environ 4,5 €."
+  ],
+  "decision": "Garder TAO, ne rien faire d'autre.",
+  "a_surveiller": [
+   "Clôture 15 min de TAO au-dessus de 177,92 : scénario cassé.",
+   "Nvidia et PV de la Fed cette semaine (dates à confirmer par source officielle).",
+   "Séance américaine lundi : chercher des actions avec les frais bas."
+  ]
+ },
+ "synthese": "On garde la position TAO telle quelle et on n'ouvre rien de nouveau : la limite d'entrées du jour est atteinte et aucun trade n'est assez rentable après frais.",
+ "id": "D-20261115-215614",
+ "cree_le": "2026-11-15T21:56:14Z"
+}
