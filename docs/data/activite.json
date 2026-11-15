@@ -1,62 +1,5 @@
 [
  {
-  "t": "2026-11-14T14:44:14Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Yahoo Finance : Box CEO Aaron Levie on Whether Nvidia’s Dominance Is Ending",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=-c13FfurvKQ"
-  }
- },
- {
-  "t": "2026-11-14T14:44:14Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Yahoo Finance : Chicago Fed President: We are failing on the inflation side of the dual mandate | Invest 2026",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=9_lEBrzpKLo"
-  }
- },
- {
-  "t": "2026-11-14T14:44:14Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Yahoo Finance : AI Compute Is Turning Into a Commodity. What Happens Next?",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=n5pWHCR9TKc"
-  }
- },
- {
-  "t": "2026-11-14T14:44:14Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Yahoo Finance : Taylor Sheridan: I have a giant state park that I'm financing myself | Invest 2026",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=p6drSZMm2NI"
-  }
- },
- {
-  "t": "2026-11-14T14:44:17Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[liquidations, chute, hausse] Crypto Market Crashes as Bitcoin and Altcoins Slide, Fear and Greed Index Sinks to 17 and Liquidations Surge - Benzinga (Benzinga)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTG56RENCMERuRWRkLVR3a2RwdV9ubTV5X3N4RThjWTQtX3hNZ0stQ2k1WGRaMmF6TU9WTk1qQWpzdlFCTEFWUzZyU3VzOV9leHlNWklFRVNvNDFSSVdYWUFQMTlKRkxubFpvVWpBcHAxNHludnRSRlhIVHk0M2xHSnBsWU5vcTF1ZzRPQXdONnBOTnhiZmc1ajdZbUxUZUp1cFc1ZWVySWhQZlRuU0RmNE5ZUUZyNWd1WlA3bUhTX2pHSWxDd256XzlzbEJOaGhMRXMyUnpSc2JDLWdHWkxlUkxZT1BxQU5ualE?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-14T14:45:17Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "NEAR short ouvert à 2.931034 | 110.93 € engagés | stop 2.973786 | objectif 2.798643 | risque 2.51 EUR",
-  "data": {
-   "id": "P0006"
-  }
- },
- {
   "t": "2026-11-14T14:45:17Z",
   "agent": "Trader de garde",
   "type": "entrée",
@@ -2653,5 +2596,50 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 6 signal(aux) : OP short (TPB-1, 40), XRP short (TPB-1, 30), SUI short (TPB-1, 30)"
+ },
+ {
+  "t": "2026-11-15T17:27:57Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde le short TAO et on n'ouvre rien de nouveau : aucun candidat n'est assez bon et le quota du jour est atteint."
+ },
+ {
+  "t": "2026-11-15T17:28:03Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADA, BTC, CRVS, DAL, DRTS, HD, JASMY, LUNC, MSTR, PRAX, RETIRE, SMMT"
+ },
+ {
+  "t": "2026-11-15T17:28:08Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 11 en mouvement : VVV +16.4 %, DRV +16.5 %, QNT +7.6 %."
+ },
+ {
+  "t": "2026-11-15T17:28:24Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : SpaceX catches Starship spacecraft for the first time ever",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=hRpYC94cXjo"
+  }
+ },
+ {
+  "t": "2026-11-15T17:28:27Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Volo Protocol Loses $3.5M in Exploit Targeting Three Sui Vaults - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcHN6aVc4cVZHWUV5MEYxVS1CSXJDY0RfM01lM29ZMDRwVVNSYWxfQ1lkUnRpcF9BTEs5Ry1NZmNxYVhYQnA5WkE3UTA0N0JuSWdUa0paS1hsWWRLbzdJOFY4VDNQdGxDSUxpMldIcHk4dTZFRmY0V2hjYUx1NjF6Ni1ocDl1dVJ1dmhmSVlWaTRmb3p4YjQxZmRmY0Nodl8tdUVTWXJZWDJPc0ZZeHc?oc=5",
+   "actifs": [
+    "SUI"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T17:29:26Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 13 signal(aux) : SUI short (TPB-1, 60), NEAR short (TPB-1, 60), HYPE short (TPB-1, 60)"
  }
 ]
