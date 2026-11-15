@@ -14,7 +14,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T13:00:56Z",
+ "maj": "2026-11-15T13:27:41Z",
  "seq": 11,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -22,7 +22,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T12:57:09Z",
+ "chasseur_t": "2026-11-15T13:27:31Z",
  "tendance": [
   "IMD",
   "BTC",
@@ -47,17 +47,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "LHX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XRP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -67,37 +62,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ALGO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ABTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HBAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BMY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "B": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UAL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NEM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -107,27 +77,66 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ADMA": {
+  "NEM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZEC": {
+  "UAL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XRPN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PRAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "B": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CORT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XLK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T12:57:10Z",
- "sources_t": "2026-11-15T12:57:15Z",
+ "buzz_t": "2026-11-15T13:27:32Z",
+ "sources_t": "2026-11-15T13:27:37Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 14,
-   "sentiment": "bearish",
+   "mentions": 11,
+   "sentiment": "neutral",
    "titres": [
-    "btcusd | weekly demand zone potential bullish reversal & upside",
-    "BTC Bounces From 62K: Brakes On"
+    "BTC 1H: Stuck between two fair value gaps",
+    "TradeCityPro | Bitcoin Cash (BCH): More Downside?"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "XRP Exchange Balances Appear to Rise 347M—But Comparing the Same Wallets Shows a Decline",
+    "XRP Ledger Loses About $79M in Stablecoins as Weekly DEX Trading Jumps 29%"
    ]
   },
   {
@@ -135,40 +144,25 @@
    "mentions": 4,
    "sentiment": "bearish",
    "titres": [
-    "ETH 1D: Bounce from 1.73k demand runs into a wall of supply",
-    "Crypto Fear & Greed Index sinks to 21 as ETH and XRP hit multi-month lows"
+    "Hyperliquid Whale Who Lost $10 Million Now Bets on Solana",
+    "ETH 1D: Bounce from 1.73k demand runs into a wall of supply"
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Solana activates Breakpoint mode as its annual conference opens in London",
+    "Hyperliquid Whale Who Lost $10 Million Now Bets on Solana"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin Price Bounces Off $62K as ETFs Keep Bleeding"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin Price Bounces Off $62K as ETFs Keep Bleeding"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Crypto Fear & Greed Index sinks to 21 as ETH and XRP hit multi-month lows"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "BTCUSDT – Previous Target Hit, Now Watching for the Next Move"
+    "XRP Ledger Loses About $79M in Stablecoins as Weekly DEX Trading Jumps 29%"
    ]
   },
   {
@@ -177,14 +171,6 @@
    "sentiment": "neutral",
    "titres": [
     "Anthropic’s IPO lands as the embattled AI trade looks for a much-needed bright spot"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin Falls, DTCC Chooses Solana for Tokenization Expansion, and More – Weekly Recap"
    ]
   }
  ],

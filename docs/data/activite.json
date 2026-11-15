@@ -1,45 +1,5 @@
 [
  {
-  "t": "2026-11-14T12:28:08Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde le pari à la baisse sur XRP, déjà protégé, et on n'ouvre rien de nouveau car aucun candidat n'offre assez de gain pour le risque."
- },
- {
-  "t": "2026-11-14T12:28:12Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, résultats] Stock Market Today, Nov. 13: Nu Holdings Surges on Record Q3 Earnings Beat Driven by Strong Revenue - The Motley Fool (The Motley Fool)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOandubzZRcno4a3NUSXd1UDczbzJtVmRqdEJYalRqb3NhaDY1XzdZeF9OS0hXSDVfU3puaG82SUd5aDZpOVc0eGx4amV1Z29QMzZpbW4wZUNkWEF5VzdzYXFzSTNBUE5VdW95RUdwMjZwOXlEWTJIT3JTNlZhVlpuY0JaSEM4SGtyTHdCTnI3bXhRakc2bnpZQm9LZnNWRHh3VFhvWXBTVFRCdVNfdTFJVGl1UEs3N2lDdHV0WVl2cjhlUVpqYm45MTFqNkNNdGRHdC1kaERUT3V5MjViQk1obWdGLWVmX2lmMERIUk9R?oc=5",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-14T12:29:11Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 9 signal(aux) : ADA short (TPB-1, 40), BTC short (TPB-1, 30), LTC short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-14T12:56:38Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On n'ouvre rien : aucune occasion ne rapporte assez par rapport au risque dans un marché très apeuré."
- },
- {
-  "t": "2026-11-14T12:56:41Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[faillite, chute] ‘Don't Wait’—Bitcoin Suddenly In Free Fall As ‘Collapse’ Fears Trigger Surprise $2 Trillion Crypto Crash - Forbes (Forbes)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY01Zd3JwVWFzTjBReVVyWEdXT2VDdWJ2cUFwb1ptTTduOXdRbmp2Mjd5eU9fU21kcThub2NDZ2pqNTBOM1VPTTVRY3lqc2NfTFBjS0llSjBrZEpuQVhBa1RiWkV5NnZyX0NuMTZqamhXMkVfVlZJOWttV0dlbVhLYnFtZnAtLTZUNzJnM2ZnRXZvdjI0ejg5cmZ6QUI5QTM4UERnODIzVkZtTTUtbjlJczE0TkRtSGUydUlZc0ZaV3c?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
   "t": "2026-11-14T12:56:41Z",
   "agent": "Veille",
   "type": "actu",
@@ -2680,5 +2640,39 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 1 signal(aux) : AAPL long (TPB-1, 15)"
+ },
+ {
+  "t": "2026-11-15T13:27:25Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On ne prend aucun trade : le marché baisse fort mais aucun signal propre n'apparaît et le seul candidat rapporte trop peu pour son risque."
+ },
+ {
+  "t": "2026-11-15T13:27:32Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABTC, ALGO, B, BMY, BTC, CORT, LHX, LINK, NEM, PRAX, SMMT, SRPT"
+ },
+ {
+  "t": "2026-11-15T13:27:37Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 20 en mouvement : DRV +21.1 %, VVV +14.0 %, QNT +8.8 %."
+ },
+ {
+  "t": "2026-11-15T13:27:44Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, liquidations, chute] Crypto market suffers historic 10-day selloff as ETF outflows and liquidations deepen - Traders Union (Traders Union)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRzhYMVZOMzhZVkRaemMwWUxHTEdZRUcwUWRqdjZrMHZ1T05wdHd4TzBsSnAtaE9pSUV2N1J3cWxtOGNNQkdXWWlUXzdoMHM2TXhwdTVBTW9BNEt3RS1CY01tN2oxR2xPZGlTdHBLMVlrUUUzM01ieEh3S2EzS3drTTMzSm1yZXQzUjNOUVJXbG81TXVzajRXaEFTYw?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-15T13:28:42Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : LTC short (TPB-1, 30), OP short (TPB-1, 30)"
  }
 ]

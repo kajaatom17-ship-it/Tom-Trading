@@ -7975,5 +7975,104 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T12:57:03Z"
+ },
+ {
+  "action": "none",
+  "confiance": "faible",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "Tendance BTC 1 h baissière. Seul candidat du scanner : AAPL long TPB-1, RR net 0,91 (< 1,5) et contre la tendance de BTC. Marché actions fermé le dimanche.",
+    "donnees": "Brief Kraken 2026-11-15 13:25 UTC"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Actualité : BTC proche de 62 000 $ (plus bas de 4 mois, sorties d'ETF), ETH en baisse sur craintes de hausse des taux Fed. Mes recherches web de calendrier de la semaine donnent des pages de dates incohérentes : je n'ajoute aucune date non confirmée à l'agenda.",
+    "sources": [
+     "Bitcoin falls to four-month low near $62K - Cointelegraph - 2026-11-15",
+     "Ethereum Tumbles As Rising Fed Rate Hike Odds Trigger Crypto Selloff - MarketForces Africa - 2026-11-15 10:51 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -6,24 % en 24 h, dominance BTC 59,44 %. Les rebonds peuvent être violents mais sans volume ils ne sont pas fiables."
+   },
+   "trader": {
+    "proposition": "Aucune entrée : pas de signal propre.",
+    "pour": [
+     "Marché très baissier, shorts possibles en théorie"
+    ],
+    "contre": [
+     "Un seul candidat, RR 0,91",
+     "Entrée tardive après forte baisse",
+     "Dernières décisions toutes 'none' pour les mêmes raisons"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Ne rien faire est cohérent : aucune position ouverte à gérer, RR net insuffisant sur le seul candidat."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Tendance BTC 1 h baissière. Le seul candidat est AAPL long TPB-1 : RR net 0,91, contre la tendance de BTC. Rien de propre."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "BTC proche de 62 000 $ (plus bas de 4 mois, sorties d'ETF) et ETH pénalisé par la peur d'une hausse des taux Fed, d'après Cointelegraph et MarketForces du 15/11. Je n'ai pas de date confirmée à ajouter à l'agenda."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed 10, capitalisation -6,24 % sur 24 h. En peur extrême les rebonds sont brutaux, mais les memecoins n'ont pas de volume : DOGE vol x3,58 seulement, PEPE x0,25, SHIB x0,45."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "repond_a": "analyste_sentiment",
+    "message": "Confirmé : PEPE -6,46 % et TRUMP -6,6 % sur 24 h avec rebond à +3 %, RSI 58 et 57,7 qui baisse. Rebond sans volume sous tendance 1 h baissière : à court terme je ne vois rien de propre, ni short ni long."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de ne rien ouvrir. Il n'y a aucune position à garder ou fermer, et AAPL a un RR net de 0,91."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "D'accord. D'autant que AAPL est un xStock et que Wall Street est fermée le dimanche : volume faible, pas de séance avant lundi 15:30 Paris."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je conteste un point : un short sur un rebond de memecoin pourrait payer. Mais après -6 % en 24 h, ce serait une entrée tardive, comme NEAR le 14/11."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "analyste_sentiment",
+    "message": "Entrée tardive sans signal validé : refusée. Entrées du jour 2/3 déjà consommées. Aucune décision à valider, none est cohérent."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Aucune position ouverte, capital 498,36 € (-0,33 %).",
+    "Marché crypto très baissier : BTC près de 62 000 $, peur extrême (10).",
+    "Seul candidat : AAPL, gain trop faible face au risque (RR 0,91)."
+   ],
+   "desaccords": [
+    "Le sentiment a évoqué un short de rebond memecoin ; le Risk Manager l'a refusé (entrée tardive, pas de volume)."
+   ],
+   "decision": "Aucun trade : pas de signal propre.",
+   "a_surveiller": [
+    "Une cassure confirmée avec volume sous le plus bas du jour",
+    "Ouverture de Wall Street lundi 15:30 Paris",
+    "Annonces Fed : calendrier non confirmé par recherche, à vérifier"
+   ]
+  },
+  "synthese": "On ne prend aucun trade : le marché baisse fort mais aucun signal propre n'apparaît et le seul candidat rapporte trop peu pour son risque.",
+  "id": "D-20261115-132619",
+  "cree_le": "2026-11-15T13:26:19Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T13:27:25Z"
  }
 ]
