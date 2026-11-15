@@ -1,0 +1,101 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "Tendance 1 h baissière sur BTC et sur tout le scanner. Seuls candidats : OP short (RR net 1,12, score 40) et LTC short (RR net 1,21, score 30), tous deux sous le seuil de 1,5.",
+   "donnees": "brief Kraken, 2026-11-15 14:26 UTC (15:26 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Dimanche : bourses US fermées. Calendrier du brief vide ; mes recherches web n'ont pas donné de dates d'annonces confirmées et datées, donc aucun ajout à l'agenda (rien d'inventé). Titres du jour : repli du bitcoin jugé « normal » par le patron de Binance, sorties des ETF bitcoin évoquées.",
+   "sources": [
+    "Bitcoin price selloff is normal, Binance CEO says - Crypto News - 2026-11-15 13:43 UTC - flux du brief"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -5,95 % sur 24 h, dominance BTC 59,44 %. Les rebonds en peur extrême sont violents dans les deux sens : mauvais terrain pour entrer sans signal propre."
+  },
+  "analyste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "Les 7 memecoins sont en tendance 1 h baissière, volume 15 min faible (DOGE 0,16x, SHIB 0,34x, PEPE 0,27x) donc pas de cassure ; seul TRUMP a du volume (3,35x) mais RSI en baisse (62,6 → 55,4). PENGU : spread 0,47 %, au-dessus de la limite de 0,30 %."
+  },
+  "trader": {
+   "proposition": "Aucune position ouverte, aucune nouvelle entrée.",
+   "pour": [
+    "Short OP/LTC dans la tendance baissière"
+   ],
+   "contre": [
+    "RR net 1,12 et 1,21 < 1,5",
+    "2 entrées déjà faites aujourd'hui",
+    "3 stops récents (ADA, HYPE, SKY) : pas de revanche"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Ne rien faire : aucun candidat n'atteint RR net 1,5. Perf du jour -0,33 %, cash 498,36 €."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC et tout le scanner sont en tendance 1 h baissière. Seuls candidats : OP short (RR net 1,12) et LTC short (RR net 1,21), tous deux sous 1,5."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Dimanche, bourses US fermées, calendrier vide et aucune date d'annonce confirmée trouvée. Titre du jour : Binance juge le repli du bitcoin normal, mais les sorties d'ETF pèsent (source : flux d'actus du brief, 13:43 UTC)."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed à 10 et capitalisation totale à -5,95 % sur 24 h : peur extrême. Les rebonds sont violents, je ne fais pas confiance à un short tardif."
+  },
+  {
+   "agent": "analyste_memecoins",
+   "message": "Rien de propre. DOGE volume 0,16x, SHIB 0,34x, PEPE 0,27x : pas d'impulsion à exploiter. TRUMP a 3,35x de volume mais son RSI retombe de 62,6 à 55,4. PENGU a un spread de 0,47 %, hors limite."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je regardais un short LTC dans la tendance, stop 41,67, objectif 40,02. Mais RR net 1,21 : je ne l'ai pas à 1,5, donc je ne propose rien."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Bien. Je refuserais de toute façon : 1,21 < 1,5 et on vient d'enchaîner trois stops (ADA -2,56 €, HYPE -3,33 €, SKY -1,14 €). Pas de trade pour faire tourner le portefeuille."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "risk_manager",
+   "message": "Je suis d'accord sur le fond, mais je souligne que ne rien faire en peur extrême peut aussi rater un rebond ; je ne le considère pas comme assez propre pour entrer."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Un rebond sans volume ni cassure n'est pas un signal : les ratios de volume 15 min des memecoins sont tous sous 0,6x sauf TRUMP. On attend une vraie cassure."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : aucune position à gérer, aucune nouvelle entrée. Décision none validée."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Aucune position ouverte : rien à garder ni à resserrer.",
+   "Scanner : OP et LTC en short, mais gain/risque net de 1,12 et 1,21, sous le minimum de 1,5.",
+   "Marché en peur extrême (indice 10), dimanche calme, volumes faibles sur les memecoins."
+  ],
+  "desaccords": [
+   "L'analyste sentiment a rappelé qu'un rebond violent est possible ; le technique et le risk manager ont répondu qu'il faut un signal de volume avant d'entrer."
+  ],
+  "decision": "Ne rien faire cette fois : aucune entrée n'atteint le seuil de gain/risque.",
+  "a_surveiller": [
+   "Cassure avec volume ≥ 1,8x sur un candidat du scanner",
+   "Annonces majeures de la semaine (agenda à compléter avec des dates confirmées)",
+   "Retour du RR net de OP ou LTC au-dessus de 1,5"
+  ]
+ },
+ "synthese": "Pas de trade ce coup-ci : aucun candidat n'est assez bon et le marché est en peur extrême, donc on protège le capital.",
+ "id": "D-20261115-142649",
+ "cree_le": "2026-11-15T14:26:49Z"
+}
