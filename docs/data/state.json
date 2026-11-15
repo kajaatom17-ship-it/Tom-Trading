@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-15T17:45:00Z",
+   "verifie_jusqu_a": "2026-11-15T17:56:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 173.1506,
+   "dernier_prix": 173.0777,
    "atr": 1.031523
   }
  ],
@@ -37,7 +37,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T17:45:44Z",
+ "maj": "2026-11-15T17:56:51Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -45,7 +45,7 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T17:41:48Z",
+ "chasseur_t": "2026-11-15T17:56:43Z",
  "tendance": [
   "MIHAO",
   "MACCA",
@@ -66,15 +66,20 @@
  "buzz": {
   "MSTR": {
    "source": "Reddit",
-   "mentions": 21,
-   "x_vs_hier": 2.6
+   "mentions": 24,
+   "x_vs_hier": 2.7
+  },
+  "DRTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   },
   "SMMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DRTS": {
+  "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -84,17 +89,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UNG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UUP": {
+  "DIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -104,37 +99,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "REPL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRSP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HAWK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NUGT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "RETIRE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LUNC": {
+  "EWY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "TEVA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRVS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JASMY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PRAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XCN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -145,8 +145,8 @@
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T17:28:03Z",
- "sources_t": "2026-11-15T17:28:08Z",
+ "buzz_t": "2026-11-15T17:56:44Z",
+ "sources_t": "2026-11-15T17:56:49Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
