@@ -1,44 +1,5 @@
 [
  {
-  "t": "2026-11-14T14:58:38Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "461 actifs hors univers analysés, 34 en mouvement : KNTQ -24.6 %, USELESS -14.3 %, UNI -10.2 %."
- },
- {
-  "t": "2026-11-14T15:28:47Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "NEAR short fermé (fermé dès le gain (demandé par Tom)) à 2.906052 : +0.06 € net",
-  "data": {
-   "id": "P0006"
-  }
- },
- {
-  "t": "2026-11-14T15:28:47Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On n'ouvre rien de nouveau : le marché a déjà beaucoup chuté, le seul pari possible (XRP) rapportait à peine plus que le minimum exigé, et on garde la position NEAR."
- },
- {
-  "t": "2026-11-14T15:28:50Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : KAVA, BTC, HYPE, PENGU, XRP, TAO, PEARL, ETH"
- },
- {
-  "t": "2026-11-14T15:28:51Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AGI, BTC, ETH, HBAR, JASMY, LHX, SMMT, SOL, SUI, TRUMP, UCTT, UNI"
- },
- {
-  "t": "2026-11-14T15:28:53Z",
-  "agent": "Spécialiste memecoins",
-  "type": "ajout actif",
-  "msg": "BAT ajouté à l'univers (catégorie Emergent, budget memecoin) : Impulsion -5.2 % en 15 min, volume x5.0, variation du jour -12.4 %"
- },
- {
   "t": "2026-11-14T15:28:56Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2641,5 +2602,47 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 13 signal(aux) : MSTR short (TPB-1, 60), HOOD short (TPB-1, 60), SPY short (TPB-1, 60)"
+ },
+ {
+  "t": "2026-11-15T18:27:21Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde le short TAO et on n'ouvre rien de nouveau : le quota du jour est atteint et les actions sont fermées le dimanche."
+ },
+ {
+  "t": "2026-11-15T18:27:28Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MACCA, MIHAO, GATO, DACITYCOIN, IMD, BTC, PENGU, JUP"
+ },
+ {
+  "t": "2026-11-15T18:27:28Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABT, BTC, CRSP, DAL, DIS, DOGE, DRTS, HELP, LHX, MSTR, PYTH, REPL"
+ },
+ {
+  "t": "2026-11-15T18:27:33Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "457 actifs hors univers analysés, 12 en mouvement : VVV +16.1 %, DRV +18.2 %, REQ +9.3 %."
+ },
+ {
+  "t": "2026-11-15T18:27:52Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Mantle Proposes 30K $ETH Loan to Aave After $292M Kelp Exploit - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWxvR19BNV90YmhMeVFUbDJpb0pUMFp3T2pVVmF3T0dqM1JseTVzRnl5N25sdkdfNzZaUzlETjM4ZFdGam9DYnNHNFNRYzZuWXJLeS1WRjYyMVk0U3NjQVFjZDZuaUd6TFVhbVRnNDE1bmdWZFF6X2Q2djg2YUlyNHZXR1lGUGJ0ai1QYkU2bThaOWo2OGRKUmFwbDBXYloyWGp1ODJtakxGWllmdlB0dkpHR0k?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-15T18:28:51Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 4 signal(aux) : NVDA short (TPB-1, 60), DOT short (TPB-1, 40), NEAR short (TPB-1, 30)"
  }
 ]
