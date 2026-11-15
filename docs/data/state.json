@@ -20,10 +20,10 @@
    "risque_eur": 0.9776140025889501,
    "rr_net": 2.33,
    "ouvert_le": "2026-11-15T02:50:34Z",
-   "verifie_jusqu_a": "2026-11-15T03:31:00Z",
+   "verifie_jusqu_a": "2026-11-15T03:58:00Z",
    "duree_max_h": 2.0,
    "decision_id": "M-20261115-025034-KNTQ",
-   "dernier_prix": 0.2272,
+   "dernier_prix": 0.22845,
    "atr": 0.012419999999999987,
    "mom": true,
    "impulsion": 0.012419999999999987,
@@ -41,7 +41,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T03:31:14Z",
+ "maj": "2026-11-15T03:59:11Z",
  "seq": 9,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -49,52 +49,32 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T03:27:06Z",
+ "chasseur_t": "2026-11-15T03:59:05Z",
  "tendance": [
   "BTC",
-  "SOL",
+  "HYPE",
   "NEAR",
   "ETH",
-  "HYPE",
+  "TAO",
+  "UNI",
+  "PEARL",
+  "KAVA",
+  "VVV",
+  "SOL",
   "ZEC",
   "LIT",
-  "PUMP",
-  "ADA",
-  "XRP",
-  "AERO",
-  "PEARL",
-  "PEPE",
-  "ENA",
-  "TAO"
+  "MON",
+  "GRASS",
+  "AKE"
  ],
- "tendance_t": "2026-11-15T02:56:43Z",
+ "tendance_t": "2026-11-15T03:59:05Z",
  "buzz": {
-  "XRP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SMH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LHX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QNT": {
+  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -104,7 +84,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOL": {
+  "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ARWR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SMH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -114,61 +119,56 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HYPE": {
+  "HBAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BTC": {
+  "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LINK": {
+  "UPS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VOO": {
+  "GE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PFE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ARWR": {
+  "PHAT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T03:27:07Z",
- "sources_t": "2026-11-15T03:27:10Z",
+ "buzz_t": "2026-11-15T03:59:06Z",
+ "sources_t": "2026-11-15T03:59:09Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 12,
+   "mentions": 11,
    "sentiment": "bearish",
    "titres": [
-    "数据：某巨鲸持有 3 万枚 ETH 空单，浮盈约 1560 万美元",
-    "The Bitcoin Fink got SO MUCH HATE!!!"
+    "BTCUSD – Bearish Sell Setup",
+    "What Could Happen If Bitcoin Slips Below $65,000?"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 6,
-   "sentiment": "neutral",
+   "mentions": 7,
+   "sentiment": "bearish",
    "titres": [
-    "⛽ ETH Gas: 🐢 1.997291969 | 🚶 1.997310506 | 🚀 2.026636201 Gwei",
-    "数据：黄立成持有 5 年后以 7.3 枚 ETH 卖出 Bored Ape 2894，亏损 117.7 枚 ETH"
+    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed",
+    "数据：币安近 24 小时爆仓 8 亿美元，占全市场爆仓总额近四成"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 5,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
     "BTCUSDT long closed by take-profit: +2.33%",
@@ -177,7 +177,7 @@
   },
   {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
     "BitMine chairman Tom Lee links AI selloff and Anthropic IPO to crypto pressure",
@@ -185,27 +185,35 @@
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "泰國 SEC 監管草案：穩定幣轉帳日限 500 萬泰銖、禁止轉他人錢包"
+    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BitMine chairman Tom Lee links AI selloff and Anthropic IPO to crypto pressure"
+    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
    ]
   },
   {
-   "sujet": "DeFi",
+   "sujet": "Cardano",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Vestige to shut down Algorand DeFi platform on December 31, 2026, citing costs"
+    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
+   ]
+  },
+  {
+   "sujet": "Dogecoin",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "7 of 8 coins fell 8%+ in a day: what a volatility filter showed"
    ]
   }
  ],
