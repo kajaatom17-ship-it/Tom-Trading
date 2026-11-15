@@ -9254,5 +9254,109 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T18:56:49Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Scanner sans candidat. BTC 58 711 sous EMA20 (58 887) et EMA50 (59 007), RSI 40,6, tendance 1 h baissière, volume 0,64 x la normale. TAO short : prix 173,76 pour une entrée à 173,76, RSI 47,4, MACD -0,096, stop 178,22 et objectif 161,07 intacts.",
+    "donnees": "Kraken OHLC 15 min, brief 19:26 UTC"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Dimanche : actions fermées. Propos de responsables de la Fed (KC Fed, Schmid) sur le travail restant contre l'inflation, ton ferme. MSTR/Strategy sorti d'indices MSCI. Le calendrier de la semaine n'a pas pu être confirmé par une source fiable, donc aucune date ajoutée à l'agenda.",
+    "sources": [
+     "Fed 'has some work to do on inflation', KC Fed chief says - Investing.com - 15 nov 2026 18:57 UTC - https://www.investing.com/news/economy-news/fed-has-some-work-to-do-on-inflation-kc-fed-chief-says-5028048",
+     "Strategy, Metaplanet lose MSCI index membership in November reshuffle - The Block - 11 nov 2026 - https://theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -5,14 % sur 24 h, dominance BTC 59,36 %. En peur extrême les rebonds sont violents : pas de nouveau short sans signal."
+   },
+   "trader": {
+    "proposition": "Garder le short TAO tel quel, aucune nouvelle entrée.",
+    "pour": [
+     "Stop et objectif déjà posés, perte max fixée",
+     "Tendance 1 h baissière"
+    ],
+    "contre": [
+     "Peur extrême : risque de rebond brutal",
+     "Volumes faibles, dimanche soir"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Quota de 3 entrées atteint ; aucun candidat scanner ; memecoins sans signal propre. Garder TAO (perte max prédéfinie)."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "BTC à 58 711 sous EMA20 58 887 et EMA50 59 007, RSI 40,6, MACD -17,8 qui remonte. Tendance 1 h baissière, mais le volume n'est qu'à 0,64 x la normale : pas de cassure."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Dimanche, actions fermées. Les responsables de la Fed (KC Fed, Schmid) répètent qu'il reste du travail sur l'inflation : ton ferme, pas de surprise datée dans les prochaines heures. Je n'ai pas de date de la semaine confirmée par une source fiable, donc je n'ajoute rien à l'agenda."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed à 10 et capitalisation -5,14 % sur 24 h. Dans ce contexte, un volume faible comme 0,64 x veut dire que les vendeurs ne s'accélèrent pas : les rebonds peuvent être brusques."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "Rien de propre. DOGE RSI 51, volume 0,59 x ; PEPE volume 0,07 x ; WIF RSI 26 mais volume 0,67 x et spread 0,166 %, volume 24 h 54 679 € juste au-dessus du minimum. Pas de bougie verticale, pas d'impulsion, donc pas d'entrée."
+   },
+   {
+    "agent": "trader",
+    "message": "Sujet 1, TAO short : entrée 173,76, prix 173,76, stop 178,22, objectif 161,07, RSI 47,4, MACD -0,096. Rien n'a cassé le scénario, je garde. Sujet 2 : aucun candidat, je ne propose pas de nouvelle entrée."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je conteste un peu : en peur extrême, garder un short est le pari le plus exposé à un rebond violent. Le stop à 178,22 est à 2,6 % de l'entrée, ce qui laisse de l'air, mais ça reste le risque."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "Oui, le risque est réel, mais il est plafonné par le stop et le trader de garde remonte le stop à +1R. Fermer maintenant sans raison nouvelle, c'est payer des frais pour rien."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Aucune annonce majeure à moins de 2 heures n'est connue. Pas de motif de fermer avant le stop. Même sur MSTR, l'alerte de 1,57 % en 15 min date de 14:33 UTC et l'action est fermée dimanche."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Quota de 3 entrées déjà atteint, 1 position ouverte avec perte max définie. Memecoins : aucun signal et spreads limites. Je valide : garder TAO, rien de nouveau. Ne rien faire est ici la bonne décision."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Le short TAO reste ouvert : prix et stop n'ont pas bougé.",
+    "Aucun candidat du scanner, volumes faibles, actions fermées (dimanche).",
+    "Marché en peur extrême (Fear & Greed 10), BTC sous ses moyennes mobiles."
+   ],
+   "desaccords": [
+    "Analyste sentiment : un rebond violent est possible, le short TAO reste exposé. Trader : le stop protège déjà, fermer coûterait des frais."
+   ],
+   "decision": "On garde le short TAO et on n'ouvre rien de nouveau.",
+   "a_surveiller": [
+    "BTC repasse au-dessus de 59 007 (EMA50)",
+    "Cassure de TAO sous 172,50 ou au-dessus de 177,9",
+    "Ouverture des marchés actions lundi"
+   ]
+  },
+  "synthese": "On garde le short TAO et on n'ouvre rien de nouveau : le quota du jour est atteint et aucun candidat n'est assez solide.",
+  "id": "D-20261115-192649",
+  "cree_le": "2026-11-15T19:26:49Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-15T19:27:58Z"
  }
 ]

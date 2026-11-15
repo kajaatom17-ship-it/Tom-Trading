@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-15T19:00:00Z",
+   "verifie_jusqu_a": "2026-11-15T19:27:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 173.0767,
+   "dernier_prix": 173.4752,
    "atr": 1.031523,
    "rollover": 0.019934228176794234,
    "rollover_periodes": 1
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-15T19:00:56Z",
+ "maj": "2026-11-15T19:28:13Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -47,47 +47,47 @@
   "2026-11-15": 503.97
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-15T18:56:55Z",
+ "chasseur_t": "2026-11-15T19:28:05Z",
  "tendance": [
   "MACCA",
   "MIHAO",
-  "GATO",
   "DACITYCOIN",
+  "GATO",
   "IMD",
   "BTC",
   "PENGU",
-  "JUP",
-  "NEAR",
+  "SOL",
+  "ZEC",
   "LIT",
-  "ETH",
-  "ONDO",
-  "PEARL",
-  "SUI",
-  "KAS"
+  "VVV",
+  "ADA",
+  "ENA",
+  "UNI",
+  "QNT"
  ],
- "tendance_t": "2026-11-15T18:27:28Z",
+ "tendance_t": "2026-11-15T19:28:05Z",
  "buzz": {
   "MSTR": {
    "source": "Reddit",
-   "mentions": 23,
-   "x_vs_hier": 2.6
-  },
-  "PRAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "mentions": 22,
+   "x_vs_hier": 2.8
   },
   "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
+  "PRAX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "DRTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SHIB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -102,37 +102,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLM": {
+  "JASMY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XPEV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VXX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UNG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UAL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "C": {
+  "RYTM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -142,40 +117,47 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
+  "VXX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SMMT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DCTH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EWY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MELANIA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-15T18:56:56Z",
- "sources_t": "2026-11-15T18:57:02Z",
+ "buzz_t": "2026-11-15T19:28:06Z",
+ "sources_t": "2026-11-15T19:28:11Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
-   "sentiment": "bearish",
-   "titres": [
-    "Strategist Sees Bitcoin Path to $170K Despite Selloff, Says ‘Buy the Fear’",
-    "Nic Carter says most Bitcoin treasury firms offer little beyond ETF exposure"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Finance Expert Says XRP Is Not Dying A Slow Death. Here’s What It Means",
-    "Crypto Market Rout Deepens as XRP Price Hits 2-Year Low and ETF Money Flees"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "Nic Carter says most Bitcoin treasury firms offer little beyond ETF exposure",
-    "Bitcoin ETFs Lose $2.35 Billion in Two Weeks as Outflow Streak Extends"
+    "Bitcoin now looks cheap by one measure after $1 billion in ETF outflows",
+    "Britain to spend £4 billion on grid bottlenecks. Can Bitcoin use the wasted wind?"
    ]
   },
   {
@@ -183,41 +165,34 @@
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "India stands to gain as investors look beyond AI, Jefferies’ Wood says",
-    "Nvidia earnings report on Nov. 17 amid leadership change and AI demand focus"
+    "Robots now run AI-written code without an AI calling the shots, succeeding 92% of the time",
+    "AI models agreed with each other more than with reality in a new test"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "ETF",
    "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.18877333 | 🚶 0.19067689 | 🚀 0.209850663 Gwei",
-    "Ethereum Faces Strong Fibonacci Resistance | Bearish Setup"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "DOT Sec. Duffy ties router in southern Arkansas to issues that led to nationwide ground stop"
+    "Tether wants its gold token to rival ETFs",
+    "Bitcoin now looks cheap by one measure after $1 billion in ETF outflows"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "ARB Falls 20% in a Week, Lagging Bitcoin Even as Arbitrum Draws $91.8M in Stablecoins"
+    "Tether wants its gold token to rival ETFs",
+    "How $10,000 in stablecoins would have gained €420 without earning interest"
    ]
   },
   {
-   "sujet": "Layer 2",
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "ARB Falls 20% in a Week, Lagging Bitcoin Even as Arbitrum Draws $91.8M in Stablecoins"
+    "Is Ethereum the “worst asset of all time,” amid estimated $8.83 billion BitMine loss ?"
    ]
   }
  ],
