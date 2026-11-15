@@ -1,0 +1,99 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 58 946 €, tendance 1 h baissière, RSI 57,7, volume 0,84x la normale : simple rebond sous l'EMA50 (58 782). Seul candidat du scanner : AAPL long, RR net 0,91, score 15, volume 0,03x (séance fermée le dimanche).",
+   "donnees": "Kraken, brief 02:55 UTC / 03:55 Paris"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Presse du brief : BTC au plus bas depuis 3 mois, liquidations crypto > 1,9 Md$ (Crypto Briefing, 15/11 00:17 UTC), sorties d'ETF 7 jours de suite (Investing.com, 15/11 01:27 UTC), hausse de taux Fed jugée quasi certaine (Cryptonews, 14/11 20:37 UTC). Calendrier du brief vide ; mes recherches web n'ont pas donné de date confirmée pour la semaine, donc aucune annonce ajoutée (rien d'inventé). Marchés actions fermés ce dimanche.",
+   "sources": [
+    "Bloomberg - Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate - 2026-11-15 01:49 UTC (via brief)",
+    "Crypto Briefing - liquidations > 1,9 Md$ - 2026-11-15 00:17 UTC (via brief)"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -10,41 % sur 24 h, dominance BTC 58,42 %. En panique les rebonds sont violents dans les deux sens.",
+   "donnees": "brief 01:58 UTC"
+  },
+  "trader": {
+   "proposition": "Garder KNTQ (long MOM-1 ouvert à 02:50 UTC, stop 0,21019, objectif 0,24124). Aucune nouvelle entrée.",
+   "pour": [
+    "KNTQ : impulsion +6,25 % en 15 min, stop et objectif déjà posés"
+   ],
+   "contre": [
+    "Aucun setup propre ailleurs",
+    "ADA short du trader de garde stoppé il y a 1 h (-2,56 €) : on ne chasse pas le prix"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Garder KNTQ (perte max déjà bornée par son stop). Pas de nouvelle position : RR AAPL 0,91 < 1,5 et marché en panique."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "Sujet 1, positions : KNTQ long vaut 0,21681 pour une entrée à 0,216941, soit -0,03 € latent. Rien à toucher, le stop est à 0,21019."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Attention, KNTQ a déjà pris +8,19 % en 24 h pour 107 k€ de volume seulement : c'est un petit actif fin, et la peur extrême (Fear & Greed 10) peut faire tout rebrousser."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Les actus du brief sont toutes baissières : liquidations > 1,9 Md$, ETF en sortie 7 jours de suite, hausse Fed quasi certaine. Aucune annonce confirmée par une source officielle pour les prochaines heures."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_macro",
+   "message": "Côté prix, BTC rebondit à 58 946 avec RSI 57,7, mais le volume est à 0,84x et la tendance 1 h reste baissière. Un rebond sans volume en tendance baissière n'est pas un signal d'achat."
+  },
+  {
+   "agent": "trader",
+   "message": "Sujet 2 : je cherche une entrée dans tout l'univers. Cryptos : rien de propre, volumes 0,13 à 0,26x sur ETH et XRP. Memecoins : RSI 40 à 59, volume 0 à 0,7x, aucune impulsion. Actions : AAPL seul candidat, RR net 0,91."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "AAPL est refusé d'avance : RR net 0,91 pour un minimum de 1,5, volume 0,03x car la bourse est fermée, et c'est un long contre la tendance de BTC. Que proposes-tu d'autre ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Un short sur un actif crypto après -4 à -9 % de baisse (PEPE -8,65 %, DOGE -7,1 %) arriverait tard, comme l'ADA stoppé à -1,02R cette nuit. Je ne propose rien."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "D'accord, et je ne bloque pas : un seul trade tardif de plus ne vaut pas le risque. Les frais (0,4 %) mangeraient déjà le gain d'un rebond court."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : KNTQ gardé, aucune nouvelle entrée. 1 position ouverte sur 4, 1 entrée memecoin déjà prise aujourd'hui. Ne pas intervenir est la bonne décision."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Le marché crypto est en panique (peur extrême 10/100, capitalisation -10 % sur 24 h, plus bas bitcoin depuis 3 mois).",
+   "Une seule position ouverte : KNTQ, tout juste entrée, stop et objectif en place.",
+   "Les actions sont fermées ce dimanche : le seul candidat (AAPL) a un rapport gain/risque trop faible."
+  ],
+  "desaccords": [
+   "L'analyste sentiment doute de KNTQ (petit volume, +8 % en 24 h) ; le trader la garde car son stop limite la perte."
+  ],
+  "decision": "On garde KNTQ et on ne prend aucune nouvelle position.",
+  "a_surveiller": [
+   "Réouverture des marchés actions lundi 15:30 Paris",
+   "Volume de retour sur BTC et ETH (au-dessus de 1x)",
+   "Annonces macro de la semaine, à confirmer par une source officielle"
+  ]
+ },
+ "synthese": "On garde la petite position KNTQ et on ne prend rien d'autre : le marché est en panique et aucun trade n'offre un bon rapport gain/risque.",
+ "id": "D-20261115-025623",
+ "cree_le": "2026-11-15T02:56:23Z"
+}
