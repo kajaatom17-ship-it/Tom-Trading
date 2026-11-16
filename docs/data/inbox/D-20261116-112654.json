@@ -1,0 +1,94 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 58 597 €, tendance 1 h baissière, RSI 49, collé à l'EMA20 15 min. Les 4 candidats du scanner (AVAX, OP, RENDER, BONK en TPB-1 short) ont un RR net de 0,5 à 0,61, sous le seuil de 1,5.",
+   "donnees": "Brief Kraken 11:26 UTC (12:26 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Les titres du jour (Reuters, Investing.com, Cointelegraph, 10:35-10:58 UTC) annoncent des futures US en baisse avant les résultats Nvidia et un BTC à son plus bas depuis 18 semaines. Les recherches web ne m'ont pas donné de date confirmée pour les résultats Nvidia, je ne l'ajoute donc pas à l'agenda. La bourse US ouvre à 15:30 Paris.",
+   "sources": [
+    "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom - Investing.com/Reuters - 2026-11-16 10:58 UTC",
+    "BTC price tags 18-week low into Nvidia earnings - Cointelegraph - 2026-11-16 10:39 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,26 %, capitalisation totale -3,54 % sur 24 h. Les memecoins n'affichent pas d'euphorie : DOGE -1,28 %, PEPE -1,68 %."
+  },
+  "trader": {
+   "proposition": "Garder le short TAO, aucune nouvelle entrée.",
+   "pour": [
+    "TAO short en gain latent de +0,93 €, stop 178,22 et objectif 161,07 inchangés"
+   ],
+   "contre": [
+    "Aucun candidat n'atteint un RR net de 1,5",
+    "Bourse US fermée, Nvidia à venir"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Ne rien faire est cohérent : RR net 0,5 à 0,61 sur tous les candidats, 1 position ouverte avec stop en place."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 58 597 €, RSI 49, tendance 1 h baissière, volume 1,84x. Les 4 candidats TPB-1 short ont un RR net de 0,5 à 0,61 : trop faible."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed est à 10, une peur extrême. Dans ce cas les rebonds sont violents, donc vendre à découvert maintenant est risqué."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Les futures US baissent avant les résultats Nvidia (Reuters, 10:44 UTC) et BTC est à un plus bas de 18 semaines (Cointelegraph). La bourse US n'ouvre qu'à 15:30 Paris."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "DOGE -1,28 %, PEPE -1,68 %, volumes 0,85x à 0,89x de la normale, aucune impulsion. Rien de propre à jouer. L'alerte RARE (-5,96 % sur 1 h, +20,8 % sur 24 h) est une cryptomonnaie hors liste, sans catalyseur identifié : je ne la poursuis pas."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je garde TAO short (entrée 173,76, prix 172,14, stop 178,22, objectif 161,07). Aucune nouvelle entrée : les RR net sont inférieurs à 0,61."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "D'accord pour garder TAO. Le stop limite la perte si un rebond de peur extrême survient."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "trader",
+   "message": "Je contredis un short NVDA ou COIN avant la séance US : le risque d'écart à l'ouverture est trop grand avant Nvidia."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Ton dernier trade perdu ne pèse pas dans ma décision. Les RR net de 0,5 à 0,61 ne passent pas le seuil de 1,5, je ne valide aucune entrée. TAO reste : stop en place, perte max connue."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "On garde le short TAO, légèrement gagnant (+0,93 €).",
+   "Les 4 signaux du scanner rapportent trop peu après frais (RR net 0,5 à 0,61).",
+   "Marché en peur extrême, bourse US fermée jusqu'à 15:30 Paris, résultats Nvidia à venir."
+  ],
+  "desaccords": [
+   "L'analyste macro refuse un short NVDA/COIN avant la séance US ; le sentiment rappelle que les rebonds peuvent être violents."
+  ],
+  "decision": "Garder TAO, aucune nouvelle entrée.",
+  "a_surveiller": [
+   "Ouverture US à 15:30 Paris",
+   "Résultats Nvidia (date à confirmer par une source)",
+   "Un RR net ≥ 1,5 sur un candidat"
+  ]
+ },
+ "synthese": "On garde notre short TAO et on n'ouvre rien : les signaux rapportent trop peu après frais et la bourse US est fermée.",
+ "id": "D-20261116-112654",
+ "cree_le": "2026-11-16T11:26:54Z"
+}
