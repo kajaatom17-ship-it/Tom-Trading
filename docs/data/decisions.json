@@ -12438,5 +12438,112 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-16T09:26:45Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "TAO short (entrée 173,76, prix 171,12, stop 178,22, objectif 161,07) : tendance 1 h baissière, RSI 36,5, volume 0,53x : le scénario tient, pas de raison de toucher. Candidats actions (HOOD, NVDA, TSLA, AMD, CRCL, QQQ) viennent du scan de 09:28 UTC, calculés sur des prix xStocks hors séance. BTC/SOL/LTC : cassure du plus bas 12 h mais RR net 0,65 à 0,77.",
+    "donnees": "Brief Kraken 09:56 UTC (10:56 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "CoinDesk 16/11 09:23 UTC : semaine chargée avec minutes du FOMC et résultats Nvidia. Les recherches web n'ont pas donné de date ni d'heure confirmées pour 2026 (résultats de pages anciennes) : rien ajouté à l'agenda. Pas d'actualité datée de moins de 24 h sur TAO.",
+    "sources": [
+     "FOMC minutes, Nvidia earnings, Russia's retail crypto rules: Crypto Week Ahead - CoinDesk - 2026-11-16 09:23 UTC - https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,25 %, capitalisation totale -2,99 % sur 24 h. En peur extrême les rebonds sont violents : mauvais moment pour ouvrir un nouveau short crypto après la chute."
+   },
+   "trader": {
+    "proposition": "Garder le short TAO. Pas de nouvelle entrée maintenant : les actions attendent l'ouverture US (15:30 Paris), les cryptos ne paient pas assez après frais.",
+    "pour": [
+     "Actions baissières avec RR net 2,07 à 2,53 (HOOD, NVDA, TSLA)"
+    ],
+    "contre": [
+     "Bourse US fermée, volume faible",
+     "Résultats Nvidia cette semaine",
+     "Cryptos : RR net sous 1,5"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Position TAO ouverte (+1,51 €) avec stop et objectif posés ; aucune nouvelle entrée ne passe proprement. Ne rien faire est valide."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "TAO short : prix 171,12 contre entrée 173,76, EMA20 172,54 sous l'EMA50 173,39, RSI 36,5, volume 0,53x. Scénario intact, rien à corriger."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed est à 10 et la capitalisation totale perd 2,99 % : un rebond violent peut venir contre le short. Le stop à 178,22 nous protège."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "CoinDesk annonce minutes du FOMC et résultats Nvidia cette semaine. Je n'ai pas pu confirmer l'heure exacte : je n'invente pas de date."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "DOGE RSI 42, SHIB RSI 31, PEPE volume 0,09x, TRUMP spread 0,118 %. Aucune bougie verticale ni épuisement net : rien de propre, je ne propose rien."
+   },
+   {
+    "agent": "trader",
+    "message": "Je garde TAO. Pour une nouvelle entrée, HOOD short (RR net 2,07, score 75, volume x9,33) est le meilleur candidat, mais il date de 09:28 UTC et la bourse US est fermée."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "D'accord pour attendre : le volume x9,33 sur HOOD vient d'un marché xStocks quasi vide, donc peu fiable avant 15:30 Paris."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Tu veux entrer à un prix hors séance, avec Nvidia cette semaine. Quel est l'argument, hors scanner ? Je n'en vois pas."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Aucun argument solide. Les cryptos (BTC RR 0,65, SOL 0,77, LTC 0,65) sont sous 1,5. Je retire la proposition."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Ok. Le buzz Reddit (HR, VOO 30 mentions) est faible : pas une preuve."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Validé : garder TAO, aucune nouvelle entrée. Nous réexaminons à l'ouverture US."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Short TAO gardé : +1,51 € latent, stop 178,22, objectif 161,07.",
+    "Marché crypto en peur extrême (indice 10), BTC sous son plus bas 12 h.",
+    "Les signaux sur actions (HOOD, NVDA, TSLA) existent mais la bourse US est fermée.",
+    "Les cryptos qui cassent ont un RR net sous 1,5."
+   ],
+   "desaccords": [
+    "Le Risk Manager a contesté l'entrée sur HOOD hors séance ; le Trader a retiré sa proposition."
+   ],
+   "decision": "On garde TAO et on n'ouvre rien de nouveau.",
+   "a_surveiller": [
+    "Ouverture US à 15:30 Paris : HOOD, NVDA, TSLA si le prix confirme",
+    "Minutes du FOMC et résultats Nvidia cette semaine",
+    "Rebond brutal des cryptos contre le short TAO"
+   ]
+  },
+  "synthese": "On garde notre short TAO et on n'ouvre rien : la bourse américaine est fermée et les cryptos ne rapportent pas assez après frais.",
+  "id": "D-20261116-095701",
+  "cree_le": "2026-11-16T09:57:01Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-16T09:57:12Z"
  }
 ]
