@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T01:32:00Z",
+   "verifie_jusqu_a": "2026-11-16T01:57:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 172.5551,
+   "dernier_prix": 172.9444,
    "atr": 1.031523,
    "rollover": 0.03986845635358847,
    "rollover_periodes": 2
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T01:33:01Z",
+ "maj": "2026-11-16T01:57:16Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -48,82 +48,27 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T01:29:13Z",
+ "chasseur_t": "2026-11-16T01:57:11Z",
  "tendance": [
   "MIHAO",
   "PENGU",
-  "HYPE",
-  "SOL",
-  "HBAR",
   "BTC",
   "ASTER",
-  "MACCA",
+  "HYPE",
   "SUI",
   "PEARL",
-  "QNT",
-  "DOGE",
-  "STONK",
-  "UNI",
-  "MON"
+  "DRV",
+  "KAVA",
+  "PI",
+  "XRP",
+  "TAO",
+  "ZEC",
+  "AERO",
+  "LIT"
  ],
- "tendance_t": "2026-11-16T00:56:42Z",
+ "tendance_t": "2026-11-16T01:57:11Z",
  "buzz": {
   "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HELP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DRTS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XLP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AERO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FROG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LUNC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OCUL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -133,90 +78,115 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "KOLD": {
+  "NBIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SKYD": {
+  "AMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HELP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DRTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BHVN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "COIN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LUNC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DCTH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XLP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T01:23:16Z",
- "sources_t": "2026-11-16T01:23:17Z",
+ "buzz_t": "2026-11-16T01:57:12Z",
+ "sources_t": "2026-11-16T01:57:14Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 18,
-   "sentiment": "bearish",
+   "sujet": "AI",
+   "mentions": 7,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin Closes Below the 200-Week MA",
-    "BTCUSDT | Sideways Structure | 65.8K & 67.52K, Critical 3H Level"
+    "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+    "郭明錤：Google TPU 出货能见度延至 2029 年"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "neutral",
+   "sujet": "Bitcoin",
+   "mentions": 4,
+   "sentiment": "bullish",
    "titres": [
-    "Bharat Semi raises $24M seed round to build AI image sensors",
-    "KITE (KITEUSDT) — AI Blockchain Narrative | Key Levels to Watch"
+    "Bitcoin falls below $62,000 for first time since July, then recovers to $65,000",
+    "BTC 1H: Bear Flag Under 66k After the 61.9k Flush"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "NEAR Longs Lose $210K on Binance, Bybit and OKX as the Price Breaks Below $3",
-    "CZ denies Binance sold crypto as Bitcoin rebounds from lows"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
+   "mentions": 1,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin Is Copying Ethereum Day for Day. T1 Zone Next?",
-    "Peter Schiff Sees ETH Crashing to $1,000 if $1,600 Breaks, but Tom Lee Isn't Worried"
+    "Why Are Crypto Prices Down? Binance Founder CZ Lists Possible Reasons"
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 2,
+   "sujet": "DeFi",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SKR is pumping (just to watch)",
-    "Solana Price Outlook for November: One Level Holds Up a Hyperliquid Whale's 10x Bet"
+    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "TECO shifts focus to power equipment amid tightened US data center approvals",
-    "CZ denies Binance sold crypto as Bitcoin rebounds from lows"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "ARB Falls 20% in a Week, Lagging Bitcoin Even as Arbitrum Draws $91.8M in Stablecoins",
-    "XRP Price Crashes Below $0.90 as Shrinking Stablecoin Supply Drain Crypto Market"
-   ]
-  },
-  {
-   "sujet": "Layer 2",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "ARB Falls 20% in a Week, Lagging Bitcoin Even as Arbitrum Draws $91.8M in Stablecoins",
-    "Retail investors boost Nvidia holdings as hedge funds pull back"
+    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids"
    ]
   }
  ],
