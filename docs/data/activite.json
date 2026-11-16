@@ -1,29 +1,5 @@
 [
  {
-  "t": "2026-11-15T05:57:25Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : CVS, DAL, DIS, DOGE, DVN, MELANIA, NIGHT, OCUL, SMMT, TOSHI, TOST, UPS"
- },
- {
-  "t": "2026-11-15T05:57:30Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 8 en mouvement : VVV +13.8 %, JUP +5.9 %, STRK +6.8 %."
- },
- {
-  "t": "2026-11-15T05:57:50Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[ETF, liquidations] Bitcoin slides toward $60,000 as ETF outflows and liquidations intensify (Investing.com)",
-  "data": {
-   "lien": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slides-toward-60000-as-etf-outflows-and-liquidations-intensify-5027667",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
   "t": "2026-11-15T05:58:50Z",
   "agent": "Scanner",
   "type": "scan",
@@ -2704,5 +2680,26 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 1 signal(aux) : GOOGL long (TPB-1, 45)"
+ },
+ {
+  "t": "2026-11-16T14:30:23Z",
+  "agent": "Spécialiste memecoins",
+  "type": "sortie rapide",
+  "msg": "RARE : l'impulsion s'est éteinte après 30 min sans gain. Fermeture."
+ },
+ {
+  "t": "2026-11-16T14:30:23Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "RARE short fermé (impulsion éteinte : sortie rapide) à 0.01545855 : -1.02 € net",
+  "data": {
+   "id": "P0014"
+  }
+ },
+ {
+  "t": "2026-11-16T14:30:31Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "COIN +1.72 % en 15 min"
  }
 ]
