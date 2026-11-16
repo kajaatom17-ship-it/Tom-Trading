@@ -1,26 +1,26 @@
 {
- "t": "2026-11-16T01:57:14Z",
+ "t": "2026-11-16T02:26:56Z",
  "nb_analyses": 610,
  "nb_en_mouvement": 2,
  "tendance": [
   "AERO",
+  "AG",
   "AMD",
+  "ANT",
   "ASTER",
-  "BHVN",
   "BTC",
-  "CAPR",
+  "CAT",
   "COIN",
   "DCTH",
   "DRTS",
   "DRV",
+  "FROG",
   "HELP",
   "HYPE",
   "KAVA",
   "LIT",
-  "LUNC",
   "MIHAO",
   "MSTR",
-  "MSTX",
   "NBIS",
   "NVDA",
   "PEARL",
@@ -30,12 +30,11 @@
   "SPCX",
   "SUI",
   "TAO",
-  "XLP",
   "XRP",
   "ZEC"
  ],
  "buzz_reseaux": {
-  "SMMT": {
+  "NBIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -45,7 +44,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NBIS": {
+  "SMMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -60,32 +59,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DRTS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BHVN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "COIN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LUNC": {
+  "DRTS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -95,17 +74,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ANT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTX": {
+  "FROG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLP": {
+  "AG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AERO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -116,9 +115,9 @@
    "sym": "DRV",
    "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": -5.6,
-   "volume_24h_eur": 117489.8,
-   "spread_pct": 0.2574,
+   "variation_24h_pct": -4.87,
+   "volume_24h_eur": 116910.78,
+   "spread_pct": 0.1715,
    "tendance": true,
    "impulsion": null
   },
@@ -126,9 +125,9 @@
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
-   "variation_24h_pct": -4.06,
-   "volume_24h_eur": 50996.1,
-   "spread_pct": 0.0313,
+   "variation_24h_pct": -3.48,
+   "volume_24h_eur": 54814.74,
+   "spread_pct": 0.0311,
    "tendance": false,
    "impulsion": null
   }
