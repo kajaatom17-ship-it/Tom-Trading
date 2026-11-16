@@ -12863,5 +12863,113 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-16T11:28:55Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Seul candidat du scanner : SPY long TPB-1 (score 45, RR net 2,07), mais contre la tendance de BTC (baissière 1 h). BTC 58 678 €, RSI 51, volume 0,63x : pas de direction. Mémecoins : DOGE/SHIB/PEPE sans volume (0,4 à 1,2x), PENGU vol 4,57x mais spread 0,158 % et volume 24 h de 26 720 € seulement.",
+    "donnees": "brief 11:56 UTC (12:56 Paris), Kraken OHLC 15 min"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Résultats Nvidia attendus mardi 17 nov ; les futures S&P 500 et Nasdaq reculent ce lundi matin. Bourse US fermée jusqu'à 15:30 Paris. Calendrier vide : aucune date officielle confirmée par recherche, rien ajouté.",
+    "sources": [
+     "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom - Reuters - 16/11/2026 10:44 UTC - https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-slide-104351968.html",
+     "Stock Market Today: Huang Comeback Talk Weighs on Nvidia Before Tuesday Earnings Report - CoinCentral - https://coincentral.com/stock-market-today-huang-comeback-talk-weighs-on-nvidia-before-tuesday-earnings-report"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,26 %, capitalisation totale -3,54 % sur 24 h. Après 2 milliards de liquidations ce week-end (CoinDesk), les rebonds sont violents dans les deux sens."
+   },
+   "trader": {
+    "proposition": "Garder le short TAO (stop 178,22, objectif 161,07). Pas de nouvelle entrée : SPY long a un bon RR mais va contre BTC, la séance US est fermée et Nvidia publie demain.",
+    "pour": [
+     "SPY RR net 2,07",
+     "frais xStocks très bas"
+    ],
+    "contre": [
+     "contre la tendance de BTC",
+     "bourse fermée",
+     "résultats Nvidia mardi",
+     "score 45 seulement"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Garder TAO est cohérent : stop non atteint (prix 171,95, entrée 173,76, gain latent +1,04 €). Pas de nouvelle entrée : un seul signal faible et un risque d'événement proche."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "TAO short : le prix 171,95 est sous l'entrée 173,76, loin du stop 178,22. Côté nouveauté, seul SPY ressort : long TPB-1, entrée 683,41, stop 676,58, objectif 703,91, RR net 2,07, mais score 45 et alerte « contre la tendance de BTC »."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed est à 10 et la capitalisation crypto perd 3,54 % en 24 h. Un long SPY dans ce climat n'est pas absurde car la bourse peut se découpler, mais je ne le considère pas comme une preuve."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_sentiment",
+    "message": "Les futures S&P 500 et Nasdaq reculent ce matin (Reuters, 10:44 UTC) et Nvidia publie mardi. Entrer en long SPY avant cette annonce, avec un gap possible, c'est un pari sur le résultat, pas un signal TPB-1."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "Rien de propre : DOGE vol 0,56x, PEPE 0,4x, SHIB 1,24x, tous en tendance 1 h baissière. PENGU a un volume 4,57x et RSI 67 mais seulement 26 720 € sur 24 h et un spread de 0,158 % : trop mince, je ne propose rien."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "specialiste_memecoins",
+    "message": "D'accord, aucune bougie verticale à jouer. Le seul mouvement du moment, RARE (+25 % sur 24 h), a déjà fait le chemin et recule de 5,96 % en 1 h : épuisé, pas de poursuite."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de garder TAO et de ne pas ouvrir de nouvelle position. SPY long : RR correct mais bourse fermée jusqu'à 15:30 Paris et contre BTC."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je conteste un peu : on a dit « non » cinq fois ce matin. À force d'attendre, on rate peut-être le rebond. Mais je n'ai aucune confirmation de prix à avancer, donc je ne bloque pas."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_sentiment",
+    "message": "Ne pas forcer est une décision valable. La perte max sur TAO est déjà fixée par le stop, et on a perdu 1,64 € réalisés depuis le début : inutile d'ajouter un trade faible avant Nvidia."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Validé : TAO gardé, pas de nouvelle entrée. Un seul signal de score 45 à contre-courant de BTC avec un événement à moins de 24 h ne passe pas. Je rouvrirai le dossier SPY après l'ouverture de Wall Street si le prix confirme."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Position ouverte : short TAO, gain latent +1,04 €, stop et objectif inchangés.",
+    "Seul candidat : SPY long, mais contre la tendance de BTC, score 45, bourse US fermée.",
+    "Nvidia publie ses résultats mardi 17 novembre ; les futures américains reculent ce matin.",
+    "Crypto en peur extrême (Fear & Greed 10), mémecoins sans volume exploitable."
+   ],
+   "desaccords": [
+    "L'analyste sentiment trouve qu'on laisse peut-être passer un rebond après cinq décisions « rien » ; le Trader et le Risk Manager répondent qu'aucun signal confirmé par le prix et le volume n'existe."
+   ],
+   "decision": "Garder le short TAO et ne rien ouvrir de nouveau.",
+   "a_surveiller": [
+    "Ouverture de Wall Street à 15:30 Paris : SPY tient-il son support avec du volume ?",
+    "Résultats Nvidia mardi 17 novembre.",
+    "BTC : cassure sous 58 150 € (plus bas 12 h) ou au-dessus de 59 438 €."
+   ]
+  },
+  "synthese": "On garde notre short TAO et on n'ouvre rien de nouveau : la bourse américaine est fermée, Nvidia publie demain et le seul signal est trop faible.",
+  "id": "D-20261116-115719",
+  "cree_le": "2026-11-16T11:57:19Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-16T11:58:43Z"
  }
 ]

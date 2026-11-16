@@ -1,26 +1,25 @@
 {
- "t": "2026-11-16T11:29:07Z",
+ "t": "2026-11-16T11:58:55Z",
  "nb_analyses": 609,
  "nb_en_mouvement": 5,
  "tendance": [
   "ANT",
+  "ASML",
   "ASTER",
-  "BONK",
-  "BP",
+  "BIDU",
   "BTC",
-  "COIN",
-  "CRCL",
-  "EURUSD",
-  "EVAA",
+  "DOT",
+  "DXYZ",
+  "ETH",
   "GATO",
   "HELP",
   "HR",
   "HYPE",
   "IBRX",
+  "IONS",
   "LHX",
   "LIT",
   "MACCA",
-  "MON",
   "NBIS",
   "NVDA",
   "PEARL",
@@ -29,19 +28,20 @@
   "SLS",
   "SMMT",
   "SOL",
-  "SUI",
   "TAO",
   "TTWO",
   "VOO",
+  "VVV",
   "XAGUSD",
   "XPEV",
+  "XRP",
   "ZEC"
  ],
  "buzz_reseaux": {
   "NBIS": {
    "source": "Reddit",
-   "mentions": 37,
-   "x_vs_hier": 3.1
+   "mentions": 38,
+   "x_vs_hier": 3.2
   },
   "HR": {
    "source": "Reddit",
@@ -68,12 +68,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XAGUSD": {
+  "XPEV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -83,32 +78,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "LHX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BONK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ANT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XPEV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NVDA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "EURUSD": {
+  "BIDU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -118,12 +88,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRCL": {
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "COIN": {
+  "XAGUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SMMT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DXYZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ASML": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ANT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IONS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -131,22 +131,22 @@
  },
  "candidats": [
   {
-   "sym": "NIGHT",
-   "pair": "NIGHTEUR",
+   "sym": "REQ",
+   "pair": "REQEUR",
    "action": false,
-   "variation_24h_pct": -12.73,
-   "volume_24h_eur": 607802.77,
-   "spread_pct": 0.1013,
+   "variation_24h_pct": 14.61,
+   "volume_24h_eur": 45916.78,
+   "spread_pct": 0.2079,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "GLMR",
-   "pair": "GLMREUR",
+   "sym": "NIGHT",
+   "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 7.04,
-   "volume_24h_eur": 63921.22,
-   "spread_pct": 0.4587,
+   "variation_24h_pct": -11.69,
+   "volume_24h_eur": 609784.19,
+   "spread_pct": 0.1001,
    "tendance": false,
    "impulsion": null
   },
@@ -154,9 +154,9 @@
    "sym": "DRV",
    "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": -6.61,
-   "volume_24h_eur": 60117.36,
-   "spread_pct": 0.1359,
+   "variation_24h_pct": -8.13,
+   "volume_24h_eur": 59915.22,
+   "spread_pct": 0.1184,
    "tendance": false,
    "impulsion": null
   },
@@ -164,9 +164,9 @@
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
-   "variation_24h_pct": -5.95,
-   "volume_24h_eur": 180066.44,
-   "spread_pct": 0.0319,
+   "variation_24h_pct": -6.43,
+   "volume_24h_eur": 184214.58,
+   "spread_pct": 0.016,
    "tendance": false,
    "impulsion": null
   },
@@ -174,9 +174,9 @@
    "sym": "SNDK",
    "pair": "SNDKxUSD",
    "action": true,
-   "variation_24h_pct": -4.84,
-   "volume_24h_eur": 151306.02,
-   "spread_pct": 0.0228,
+   "variation_24h_pct": -5.19,
+   "volume_24h_eur": 152035.38,
+   "spread_pct": 0.0217,
    "tendance": false,
    "impulsion": null
   }

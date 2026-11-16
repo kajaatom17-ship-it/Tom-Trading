@@ -1,59 +1,5 @@
 [
  {
-  "t": "2026-11-15T02:53:45Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "HYPE +5.29 % en 1 h"
- },
- {
-  "t": "2026-11-15T02:53:45Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ONDO +5.01 % en 1 h"
- },
- {
-  "t": "2026-11-15T02:53:45Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "SUI +5.51 % en 1 h"
- },
- {
-  "t": "2026-11-15T02:53:45Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "TAO +5.08 % en 1 h"
- },
- {
-  "t": "2026-11-15T02:53:45Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "XRP +5.21 % en 1 h"
- },
- {
-  "t": "2026-11-15T02:53:45Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "CRCL +3.24 % en 1 h"
- },
- {
-  "t": "2026-11-15T02:56:38Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde la petite position KNTQ et on ne prend rien d'autre : le marché est en panique et aucun trade n'offre un bon rapport gain/risque."
- },
- {
-  "t": "2026-11-15T02:56:43Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, SOL, NEAR, ETH, HYPE, ZEC, LIT, PUMP"
- },
- {
-  "t": "2026-11-15T02:56:46Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 4 en mouvement : ZEC +5.2 %, JUP +6.1 %, QNT +5.0 %."
- },
- {
   "t": "2026-11-15T02:56:46Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2714,5 +2660,72 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 1 signal(aux) : SPY long (TPB-1, 45)"
+ },
+ {
+  "t": "2026-11-16T11:58:43Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO et on n'ouvre rien de nouveau : la bourse américaine est fermée, Nvidia publie demain et le seul signal est trop faible."
+ },
+ {
+  "t": "2026-11-16T11:58:51Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : LIT, MACCA, GATO, BTC, SOL, ASTER, XRP, PENGU"
+ },
+ {
+  "t": "2026-11-16T11:58:52Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ANT, ASML, BIDU, DXYZ, HELP, HR, IBRX, IONS, LHX, NBIS, NVDA, POET"
+ },
+ {
+  "t": "2026-11-16T11:58:55Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "609 actifs hors univers analysés, 5 en mouvement : REQ +14.6 %, NIGHT -11.7 %, DRV -8.1 %."
+ },
+ {
+  "t": "2026-11-16T11:59:12Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Bankless : Democrats Are Back. Is Crypto in Trouble?",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=Vu0XZSz-aj4"
+  }
+ },
+ {
+  "t": "2026-11-16T11:59:15Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Syntec Optics (Nasdaq: OPTX) Earnings Call to Highlight All-Time High Revenue, Cost Containment, and Surge in Net Income - Yahoo Finance (Yahoo Finance)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNlJqenBqZXlpWndGa0VPdmxRRmp0QkF0Sm1RTWh5LWF3QU1ja0RXNlBvdFJoR0RwLTNaNkpDSHBYdi1ZeTlTWjdST2NlaUhhUVUtdDIzWlNnbkxpbmV6ejlQQzUyT19oOGY0Q3FPTWhjUE5LdExaWkUzQzg3anFocE1yZVJRX25QS3V2NGlfQUg3bVNnejV0NF9mZnlKNFBR?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-16T11:59:15Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, liquidations, hausse] Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - Grayscale Bitcoin - Benzinga (Benzinga)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWmpmdzZMN1o3OW9LZHBmRkpHV0FtaFNMVXRjMzAyd1RWcGUxR3VmT0xSZ0tPS1FaX1JnS2FBdmlLRXBtdG9ESUFlQTF0Ykt5WFFGc3J6WlpnbURQemlIV1VJclh0eWNJQWhhVm1ubW1SZW9RS1V6VDBKT0YxajliUy1SX0ZFbFg0dldmVEZsM3J2QjRMbUFLWUN6VDhEQ29jNmhrQnJaelpzOW96N0F0R3FWS1N3d1JtS3RvMjgxUEIyQTB5aXZjdjJn?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-16T11:59:15Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "PLTR -2.32 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T12:00:15Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 9 signal(aux) : AMD short (TPB-1, 70), HYPE short (TPB-1, 40), ONDO short (TPB-1, 40)"
  }
 ]
