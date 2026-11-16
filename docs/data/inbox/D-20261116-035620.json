@@ -1,0 +1,108 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 59 155 €, tendance 1 h baissière, RSI 55,5, volume 0,1 x la normale. Tous les actifs sont collés à leur EMA20 sans cassure. Seul candidat prioritaire propre: AAPL long TPB-1, score 45, RR net 1,61, contre la tendance de BTC.",
+   "donnees": "Brief 2026-11-16 03:55 UTC (05:55 Paris), Kraken OHLC 15 min"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Semaine chargée: résultats Nvidia, minutes de la Fed, chiffres d'emploi US décalés (titres de presse). Le Fed Schmid dit que l'inflation reste trop forte (Google News, 16/11 02:12 UTC). Les futures US sont peu changés avant Nvidia. Dates exactes non confirmées par une source ouverte: aucun agenda déposé.",
+   "sources": [
+    "Nvidia earnings, delayed jobs data, and Fed minutes are on tap in a packed week for markets - AOL - semaine du 16/11 - https://www.aol.com/news/nvidia-earnings-delayed-jobs-data-151045750.html",
+    "Asian chip stocks slide ahead of Nvidia earnings - Investing.com - 16/11 03:26 UTC - https://www.investing.com/news/stock-market-news/asian-chip-stocks-slide-ahead-of-nvidia-earnings-5028327"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,42 %, capitalisation totale -0,32 % sur 24 h. Peur extrême = rebonds violents possibles dans les deux sens, pas de signal directionnel net."
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "SHIB short RR net 0,61 et PEPE short RR net 1,15: sous le seuil de 1,5. Volumes PEPE 0,03 x la normale, mouvement non poursuivable. Spreads corrects (SHIB 0,056 %, PEPE 0,058 %)."
+  },
+  "trader": {
+   "proposition": "Garder TAO short sans changement. Aucune nouvelle entrée.",
+   "pour": [
+    "AAPL TPB-1 long a un RR net de 1,61"
+   ],
+   "contre": [
+    "AAPL va contre la tendance de BTC",
+    "score 45 seulement",
+    "marché actions calme avant Nvidia",
+    "volumes crypto très faibles"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Pas de trade forcé. TAO short: perte latente -0,01 €, stop 178,22 à 2,6 % du prix, objectif 161,07. Une entrée supplémentaire avant Nvidia sans signal fort n'est pas justifiée."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 59 155, RSI 55,5, volume 0,1 x la normale: marché plat, tout est sur l'EMA20 15 min. Pas de cassure du plus haut 12 h (59 438) ni du plus bas (58 430)."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Semaine dominée par les résultats Nvidia, les minutes de la Fed et l'emploi US décalé. Schmid (Fed) juge l'inflation trop chaude. Je ne peux pas confirmer les heures exactes, donc pas d'agenda déposé."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed à 10, dominance BTC 59,42 %. En peur extrême, les rebonds sont brusques, ça rend les shorts de poursuite fragiles."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "SHIB short RR net 0,61, PEPE short RR net 1,15, tous deux sous 1,5. PEPE volume 0,03 x la normale: le mouvement est déjà fini. Rien de propre."
+  },
+  {
+   "agent": "trader",
+   "message": "Position TAO short: -0,01 €, stop 178,22, objectif 161,07. Je la garde. Pour une nouvelle entrée, seul AAPL long TPB-1 (RR net 1,61, score 45) se présente."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "AAPL long va contre la tendance de BTC baissière et le score est de 45. Stop 321,42, ATR 0,32: le signal est fragile et le marché US est calme."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "trader",
+   "message": "Je m'oppose à AAPL avant les résultats Nvidia: un choc sur les puces peut retourner toute la tech. Attendre la réaction vaut mieux."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_macro",
+   "message": "D'accord, RR 1,61 est juste au-dessus de 1,5 et ne paie pas ce risque d'annonce. Je retire AAPL."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Je valide: ni signal ni confirmation par le volume. Ne pas intervenir est la bonne réponse."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Je confirme: garder TAO (stop protège, perte max fixée), aucune nouvelle entrée. Pas de trade pour faire tourner le portefeuille."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Marché très calme: volumes 0,1 à 0,5 x la normale, BTC 59 155 € sans cassure.",
+   "Position TAO short gardée: -0,01 €, stop et objectif inchangés.",
+   "Candidat AAPL long (RR net 1,61, score 45) écarté: contre la tendance de BTC et semaine de résultats Nvidia."
+  ],
+  "desaccords": [
+   "L'analyste macro a contesté AAPL avant Nvidia; le Trader a retiré l'idée."
+  ],
+  "decision": "On ne fait rien: on garde TAO short et on n'ouvre aucune nouvelle position.",
+  "a_surveiller": [
+   "Réaction du marché aux résultats Nvidia",
+   "Cassure de BTC au-dessus de 59 438 ou sous 58 430 avec volume",
+   "Une alerte contre TAO short"
+  ]
+ },
+ "synthese": "Le marché dort et une grosse annonce arrive cette semaine: on garde notre seule position et on attend un meilleur moment.",
+ "id": "D-20261116-035620",
+ "cree_le": "2026-11-16T03:56:20Z"
+}
