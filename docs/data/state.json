@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T03:30:00Z",
+   "verifie_jusqu_a": "2026-11-16T03:58:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 175.1432,
+   "dernier_prix": 174.6227,
    "atr": 1.031523,
    "rollover": 0.059802684530382705,
    "rollover_periodes": 3
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T03:30:42Z",
+ "maj": "2026-11-16T03:58:44Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -48,25 +48,25 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T03:26:46Z",
+ "chasseur_t": "2026-11-16T03:58:38Z",
  "tendance": [
-  "PENGU",
   "BTC",
-  "SOL",
   "PEARL",
-  "ASTER",
-  "QTC",
-  "JUP",
-  "ZEC",
-  "SUI",
-  "PI",
-  "TAO",
-  "LIT",
   "AKE",
+  "ZEC",
+  "ASTER",
+  "PENGU",
+  "CC",
+  "SOL",
+  "AERO",
+  "QNT",
+  "VVV",
   "XRP",
-  "KAVA"
+  "PI",
+  "HYPE",
+  "PEPE"
  ],
- "tendance_t": "2026-11-16T02:57:56Z",
+ "tendance_t": "2026-11-16T03:58:38Z",
  "buzz": {
   "SMMT": {
    "source": "StockTwits",
@@ -78,37 +78,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DRTS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "COIN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TTWO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LHX": {
+  "NBIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -118,17 +88,52 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "OCUL": {
+  "MSTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NBIS": {
+  "LHX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JOBY": {
+  "FSLR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "F": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ANT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DRTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SLV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XLV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "STUDY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -137,23 +142,27 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
-  },
-  "INFQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T03:26:47Z",
- "sources_t": "2026-11-16T03:26:51Z",
+ "buzz_t": "2026-11-16T03:58:39Z",
+ "sources_t": "2026-11-16T03:58:43Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
+   "mentions": 16,
+   "sentiment": "neutral",
+   "titres": [
+    "BTCUSDT – Can Bitcoin Recover Toward $73,500?",
+    "BTCUSDT (8H) – The Broken Floor Changes Wave"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 7,
    "sentiment": "bearish",
    "titres": [
-    "BTCUSDT (8H) – The Broken Floor Changes Wave",
-    "JPMorgan Filing Shows Bigger Strategy Stake and $540 Million in Bitcoin ETF Shares"
+    "NIGHT/USDT the famous hype and the party ended",
+    "HYPE/USDT.P 15min Swing Long Trading Plan"
    ]
   },
   {
@@ -161,31 +170,22 @@
    "mentions": 5,
    "sentiment": "bullish",
    "titres": [
-    "Nvidia may tighten its support for AI startups, UBS warns of a potential reduction of $50 billion in funding.",
-    "Luxor CEO warns of rising AI-enabled cyberattacks after mining hijack"
+    "Luxor CEO warns of rising AI-enabled cyberattacks after mining hijack",
+    "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Solana",
    "mentions": 4,
    "sentiment": "bearish",
    "titres": [
-    "Brazil Central Bank Declares Stablecoins Fuel Money Laundering",
-    "HYPE/USDT.P 15min Swing Long Trading Plan"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "Two Weeks After Record $6.3 Billion Heist, Binance Reveals When Customers Will Get Full Access",
-    "PEPE/USDT – Broken Trendline , Sellers Stills Control"
+    "SOLUSDT (8H) – Next Bounce Be a Selling Opportunity",
+    "SOLUSDT: Another Bearish Leg Unfolding — Is $60 Next?"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 2,
+   "mentions": 4,
    "sentiment": "bearish",
    "titres": [
     "Bearish reversal for the Ethereum?",
@@ -193,21 +193,28 @@
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "sujet": "Binance",
+   "mentions": 3,
+   "sentiment": "bearish",
    "titres": [
-    "SOLUSDT: Another Bearish Leg Unfolding — Is $60 Next?",
-    "SOLANA (SOL) BIG OPPORTUNITY AHEAD? Could $20 Be the Next Major"
+    "PEPE/USDT – Broken Trendline , Sellers Stills Control",
+    "ZECUSDT – Broken Channel Leaves 610 in Focus"
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 2,
+   "sujet": "DeFi",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "JPMorgan Filing Shows Bigger Strategy Stake and $540 Million in Bitcoin ETF Shares",
-    "HYPE spot ETF saw a net outflow of $4.3257 million last week, marking six consecutive weeks of net outflows."
+    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids"
    ]
   }
  ],
