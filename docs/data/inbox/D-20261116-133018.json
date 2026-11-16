@@ -1,0 +1,100 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "TAO short : prix 169,04 sous l'EMA20 (171,32), RSI 35,3, stop 178,22 et objectif 161,07 intacts. TSLA short (TPB-1, RR net 2,07) : EMA20 350,53 / EMA50 350,74 collées, ATR 0,63 (0,18 %), stop à 1 % ; volume x38,7 sur un marché pré-ouverture, donc non fiable. QQQ RSI 23,7, déjà très survendu.",
+   "donnees": "Brief Kraken 13:29 UTC (14:29 Paris), bougies 15 min"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Résultats Nvidia attendus cette semaine (Investing.com, 16/11, 13:00 UTC : futures Nasdaq/S&P en baisse avant Nvidia). Calendrier du comité vide ; les recherches web n'ont rien donné de daté et sourcé sur TSLA aujourd'hui. Aucune annonce confirmée à ajouter à l'agenda.",
+   "sources": [
+    "Nasdaq, S&P futures decline with Nvidia earnings, Anthropic debut looming - Investing.com - 16/11/2026 13:00 UTC - https://www.investing.com/news/stock-market-news/us-stock-futures-little-changed-as-investors-await-nvidia-earnings-5028292"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), capitalisation crypto -4,25 % en 24 h, dominance BTC 59,26 %. En peur extrême, les rebonds sont violents : mauvais moment pour ouvrir un nouveau short."
+  },
+  "trader": {
+   "proposition": "Garder le short TAO. Pas de nouvelle entrée : le seul signal est TSLA short avant l'ouverture US.",
+   "pour": [
+    "TSLA : RR net 2,07, tendance 1 h baissière"
+   ],
+   "contre": [
+    "Marché US fermé jusqu'à 15:30 Paris",
+    "Volume pré-ouverture peu fiable",
+    "Nvidia publie cette semaine",
+    "Stop à 1 % seulement, mouvement attendu faible"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Garder TAO (perte max déjà fixée, stop 178,22). Refus d'une nouvelle entrée : signal hors séance, RR juste à 2,07 et gain visé faible face aux frais."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "TAO short : 169,04 contre une entrée à 173,76, RSI 35,3, MACD négatif (-0,168). Tendance 1 h baissière, le scénario tient."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "D'accord sur la tendance, mais Fear & Greed est à 10 et le marché crypto perd 4,25 % : un rebond violent est possible, le stop doit rester où il est."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Nvidia publie cette semaine et les futures Nasdaq/S&P reculent (Investing.com, 13:00 UTC). Je ne trouve aucune annonce datée et sourcée sur TSLA aujourd'hui. Rien à ajouter à l'agenda."
+  },
+  {
+   "agent": "analyste_technique",
+   "message": "Le scanner sort TSLA short TPB-1, RR net 2,07, score 70. Mais EMA20 350,53 et EMA50 350,74 sont collées : pas de vraie tendance, et le volume x38,7 vient d'une séance quasi vide."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_technique",
+   "message": "Je pensais proposer TSLA short : entrée 350,30, stop 353,80, objectif 339,79. Le RR est correct, et ce serait une action, frais bas."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Objection : stop à 1 % sur une action qui n'a pas encore ouvert, avec Nvidia cette semaine. Un trou à l'ouverture US (15:30 Paris) peut sauter le stop. Pourquoi ne pas attendre la séance ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Tu as raison : le signal a été calculé sans vraie liquidité. Je retire TSLA et je garde TAO."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je soutiens. QQQ est à RSI 23,7 : le marché est très survendu, shorter maintenant, c'est arriver tard."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : garder TAO (perte max déjà bornée par le stop 178,22). Nouvelle entrée refusée. On réexamine après l'ouverture US, avec un volume réel."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Short TAO en gain latent (+2,70 €), stop et objectif inchangés.",
+   "Seul signal : TSLA short, mais la bourse US n'ouvre qu'à 15:30 Paris, donc volume peu fiable.",
+   "Fear & Greed à 10, crypto -4,25 % en 24 h : marché très tendu."
+  ],
+  "desaccords": [
+   "Le Trader voulait proposer TSLA short ; le Risk Manager a objecté (stop de 1 % avant l'ouverture, Nvidia cette semaine) et le Trader a retiré l'idée."
+  ],
+  "decision": "On garde le short TAO et on n'ouvre rien de nouveau.",
+  "a_surveiller": [
+   "TSLA après l'ouverture US avec un volume réel",
+   "Résultats Nvidia cette semaine",
+   "Un rebond de TAO vers le stop 178,22"
+  ]
+ },
+ "synthese": "On garde notre short TAO (+2,70 €) et on n'ouvre rien : la bourse américaine n'est pas ouverte et le signal TSLA n'est pas assez fiable.",
+ "id": "D-20261116-133018",
+ "cree_le": "2026-11-16T13:30:18Z"
+}
