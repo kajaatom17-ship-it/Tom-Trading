@@ -1,0 +1,112 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 58 962 € (RSI 54,5, tendance 1 h baissière, EMA20 58 772). Le scanner n'a aucun candidat. TAO short : prix 171,98, entrée 173,76, stop 178,22, objectif 161,07, RSI 48,9, volume faible (0,32 x).",
+   "donnees": "brief Kraken 15 min, 08:26 UTC (09:26 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Calendrier du brief vide. Deux recherches web n'ont rien donné de daté et fiable pour aujourd'hui, donc rien n'est ajouté à l'agenda. Fait relevé par le brief : titres TradingView (06:59 UTC) sur les contrats Nasdaq en baisse avant les résultats Nvidia ; Bloomberg (06:14 UTC) sur des traders d'options qui se couvrent pour BTC vers 60 000 $. Interprétation : veille de gros catalyseur.",
+   "sources": [
+    "IXIC: Nasdaq Futures Turn Lower Before Nvidia Earnings - TradingView - 2026-11-16 06:59 UTC",
+    "Bitcoin Options Traders Brace for Slide to $60,000 After Selloff - Bloomberg - 2026-11-16 06:14 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,36 %, capitalisation totale -3,18 % sur 24 h. Aster -32 % en quelques minutes (Cointelegraph, 05:28 UTC) : prudence sur les petits jetons.",
+   "donnees": "sentiment 07:58 UTC"
+  },
+  "analyste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE volume 2,66 x mais tendance 1 h baissière et RSI 52 ; PEPE -3,36 % sur 24 h, RSI 43,6, pas d'épuisement net ; BONK volume 5,15 x sans direction. Aucune impulsion à suivre, aucune bougie verticale à fuir non plus.",
+   "donnees": "bloc memecoins du brief"
+  },
+  "trader": {
+   "proposition": "Garder TAO, aucune nouvelle entrée.",
+   "pour": [
+    "TAO +1,02 € latent, stop et objectif intacts"
+   ],
+   "contre": [
+    "Aucun candidat avec RR net suffisant",
+    "Bourse US fermée jusqu'à 15:30 Paris",
+    "Nvidia annonce ses résultats cette semaine"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Ne rien faire est cohérent : pas de signal, bourse fermée, veille d'un catalyseur majeur. Perte max sur TAO déjà bornée par le stop."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 58 962, RSI 54,5, tendance 1 h baissière, prix collé à l'EMA20 (58 772). Le scanner n'a aucun candidat. TAO 171,98 pour une entrée short à 173,76 : on est dans le bon sens."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Mes deux recherches ne donnent aucun calendrier daté et vérifiable pour aujourd'hui, je n'ajoute rien à l'agenda. Fait : TradingView (06:59 UTC) parle de contrats Nasdaq en baisse avant Nvidia. Bloomberg (06:14 UTC) : options BTC orientées vers 60 000 $."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_macro",
+   "message": "Fear & Greed 10 et capitalisation -3,18 % : en peur extrême, un rebond violent peut surprendre un short. Ça plaide pour ne pas en ajouter un deuxième."
+  },
+  {
+   "agent": "analyste_memecoins",
+   "message": "Rien de propre : DOGE volume 2,66 x mais RSI 52 et tendance baissière, PEPE RSI 43,6 sans épuisement net. Spread correct (DOGE 0,07 %), mais pas de configuration."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder TAO et de ne rien ouvrir. Candidat unique à discuter : une action, mais la séance US n'ouvre qu'à 15:30 Paris."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Pourquoi garder TAO avec un volume de seulement 0,32 x ? Un petit mouvement sans volume peut se retourner vite."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Le stop à 178,22 borne la perte, l'ATR est 0,75 (0,43 %), il y a de la marge. Rien de nouveau ne casse le scénario : MACD à -0,01, RSI 48,9."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Je nuance : BTC reste sous ses moyennes 1 h, la tendance reste baissière tant que 58 831 n'est pas repris avec volume. Le risque de rebond existe mais n'est pas confirmé."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "D'accord, je ne bloque pas le maintien de TAO. Je m'oppose seulement à un nouveau short crypto."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : on garde TAO et aucune nouvelle entrée. Pas de signal, bourse fermée, veille de résultats Nvidia ; je ne valide pas pour faire tourner le portefeuille."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Position ouverte : short TAO gardé, +1,02 € latent, stop 178,22 et objectif 161,07 inchangés.",
+   "Le scanner n'a aucun candidat et les memecoins n'offrent aucune configuration propre (DOGE RSI 52, PEPE RSI 43,6).",
+   "Peur extrême (Fear & Greed 10), BTC 58 962 € ; la bourse US est fermée jusqu'à 15:30 Paris et Nvidia publie cette semaine.",
+   "Recherches web sans date fiable pour le calendrier du jour : rien ajouté à l'agenda."
+  ],
+  "desaccords": [
+   "Le Risk Manager a questionné le maintien de TAO (volume faible) ; le Trader a répondu avec le stop et l'ATR.",
+   "Le Sentiment refuse tout nouveau short crypto en peur extrême."
+  ],
+  "decision": "Garder TAO, aucune nouvelle entrée.",
+  "a_surveiller": [
+   "Ouverture US à 15:30 Paris : actions avec volume réel.",
+   "Résultats Nvidia cette semaine.",
+   "BTC au-dessus de 58 831 avec volume ou sous 58 316 : réexaminer TAO."
+  ]
+ },
+ "synthese": "On garde notre short TAO et on n'ouvre rien : aucun signal net, bourse américaine fermée et Nvidia publie cette semaine.",
+ "id": "D-20261116-082749",
+ "cree_le": "2026-11-16T08:27:49Z"
+}
