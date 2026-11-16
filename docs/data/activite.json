@@ -3,36 +3,6 @@
   "t": "2026-11-15T02:27:18Z",
   "agent": "Veille",
   "type": "alerte",
-  "msg": "ONDO +3.38 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "OP +4.23 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "PEPE +4.12 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "RENDER +3.81 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "SOL +3.77 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
   "msg": "SUI +4.25 % en 15 min"
  },
  {
@@ -2717,5 +2687,41 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 5 signal(aux) : HOOD short (TPB-1, 70), CRCL short (TPB-1, 70), AAPL long (TPB-1, 45)"
+ },
+ {
+  "t": "2026-11-16T09:26:45Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO et on n'ouvre rien de nouveau : la bourse américaine est fermée et le marché crypto est en grande peur."
+ },
+ {
+  "t": "2026-11-16T09:26:51Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ANT, COST, DXYZ, HELP, HR, IBIT, IBRX, KLAR, LHX, MSTR, NBIS, OPEAZZX"
+ },
+ {
+  "t": "2026-11-16T09:26:54Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "611 actifs hors univers analysés, 5 en mouvement : NIGHT -12.5 %, DRV -6.6 %, SKHY -5.3 %."
+ },
+ {
+  "t": "2026-11-16T09:27:04Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[banque centrale, résultats] FOMC minutes, Nvidia earnings, Russia’s retail crypto rules: Crypto Week Ahead (CoinDesk)",
+  "data": {
+   "lien": "https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
+   "actifs": [
+    "NVDA"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-16T09:28:03Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 30 signal(aux) : HOOD short (BRK-1, 75), NVDA short (TPB-1, 70), TSLA short (TPB-1, 70)"
  }
 ]

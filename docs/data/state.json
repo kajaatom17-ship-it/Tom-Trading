@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T09:00:00Z",
+   "verifie_jusqu_a": "2026-11-16T09:26:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 171.19,
+   "dernier_prix": 170.3971,
    "atr": 1.031523,
    "rollover": 0.07973691270717694,
    "rollover_periodes": 4
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T09:00:45Z",
+ "maj": "2026-11-16T09:27:02Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -48,7 +48,7 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T08:56:44Z",
+ "chasseur_t": "2026-11-16T09:26:51Z",
  "tendance": [
   "ASTER",
   "BTC",
@@ -73,32 +73,17 @@
    "mentions": 30,
    "x_vs_hier": 2.0
   },
-  "HELP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FSLR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+  "VOO": {
+   "source": "Reddit",
+   "mentions": 30,
+   "x_vs_hier": 2.0
   },
   "SMMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SLS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBRX": {
+  "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -113,85 +98,131 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DELL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QUANT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "KLAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PURR": {
+  "IBRX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "STUDY": {
+  "SLS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NBIS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RIVN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "COST": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OPEAZZX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DXYZ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T08:56:45Z",
- "sources_t": "2026-11-16T08:56:48Z",
+ "buzz_t": "2026-11-16T09:26:51Z",
+ "sources_t": "2026-11-16T09:26:54Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 4,
-   "sentiment": "bearish",
+   "sujet": "AI",
+   "mentions": 8,
+   "sentiment": "neutral",
    "titres": [
-    "Binance Co-Founder Denies Exchange Sold Crypto as Bitcoin Drops Near $62,000",
-    "$BTC Bitcoin: Range-Bound or a Symmetrical Broadening Triangle?"
+    "OpenAI brings ChatGPT Enterprise to LVMH’s media teams",
+    "‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits $1 trillion"
    ]
   },
   {
-   "sujet": "AI",
+   "sujet": "Solana",
    "mentions": 3,
+   "sentiment": "bullish",
+   "titres": [
+    "SOLUSDT | 4H Analysis | Potential Relief Rally & POI Retests",
+    "CoW Protocol launches CoW Swap on Solana with intent-based trading"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Binance Co-Founder CZ Says Exchange Did Not Sell Crypto During Bitcoin Drop",
+    "Twenty One Capital’s $1.09 Billion Profit Is Mostly a Bitcoin Accounting Story"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.170280773 | 🚶 0.170280873 | 🚀 0.170298393 Gwei",
+    "Ethereum price forecast: ETH risks further losses as it drops to $1,803"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Trump Administration to Name Nvidia, OpenAI, Anthropic as AI ‘National Champions’",
-    "Pony.ai, Toyota roll out fully driverless robotaxis in Guangzhou"
+    "5 Crypto Sectors That Could Lead the Next Market Recovery"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Coinone Support Vendor Breach May Expose Passwords and ID Numbers, Exchange Warns Users"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "The Bank of Korea increases holdings in gold ETF"
    ]
   },
   {
    "sujet": "Binance",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Binance Co-Founder Denies Exchange Sold Crypto as Bitcoin Drops Near $62,000"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Crypto Price Analysis, BTC, ETH, CC, QNT and ZEC, Nov. 16: Canton and Quant Gain as Bitcoin Rebounds From $61,970"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP Just Hits Records. Here’s What Happened"
+    "Binance Co-Founder CZ Says Exchange Did Not Sell Crypto During Bitcoin Drop"
    ]
   }
  ],
