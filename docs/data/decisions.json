@@ -14042,5 +14042,37 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-16T16:27:59Z"
+ },
+ {
+  "id": "S-20261116-163541-BTC",
+  "action": "open",
+  "sym": "BTC",
+  "side": "short",
+  "strategie": "SWG-1",
+  "entry_ref": 58574.5,
+  "atr": 598.5359,
+  "stop": 61000.42,
+  "tp": 51296.74,
+  "duree_max_h": 192,
+  "risque_pct_override": 1.0,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."
+   }
+  },
+  "synthese": "Entrée automatique SWG-1 sur BTC (vente à découvert) : Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute. RR net 1.91. Position prévue pour durer plusieurs jours.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0016",
+   "prix": 58726.12,
+   "risque_eur": 4.94
+  },
+  "cree_le": "2026-11-16T16:35:41Z",
+  "traite_le": "2026-11-16T16:35:41Z"
  }
 ]

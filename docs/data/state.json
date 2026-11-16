@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 444.85860836187896,
+ "cash": 354.32632458859746,
  "positions": [
   {
    "id": "P0015",
@@ -20,26 +20,48 @@
    "risque_eur": 0.5252080051054566,
    "rr_net": 1.77,
    "ouvert_le": "2026-11-16T14:59:22Z",
-   "verifie_jusqu_a": "2026-11-16T16:32:00Z",
+   "verifie_jusqu_a": "2026-11-16T16:33:00Z",
    "duree_max_h": 24.0,
    "decision_id": "G-20261116-145922",
-   "dernier_prix": 237.67235972622413,
+   "dernier_prix": 237.6701994219128,
    "atr": 0.4879608
+  },
+  {
+   "id": "P0016",
+   "sym": "BTC",
+   "pair": "XBTEUR",
+   "side": "short",
+   "strategie": "SWG-1",
+   "qty": 0.0015293666624583697,
+   "entry": 58726.12,
+   "notionnel": 89.8137735846047,
+   "frais_entree": 0.7185101886768377,
+   "stop": 61000.42,
+   "stop_initial": 61000.42,
+   "tp": 51296.74,
+   "risque_eur": 4.943081417982584,
+   "rr_net": 2.05,
+   "ouvert_le": "2026-11-16T16:35:41Z",
+   "verifie_jusqu_a": "2026-11-16T16:35:41Z",
+   "duree_max_h": 192.0,
+   "decision_id": "S-20261116-163541-BTC",
+   "dernier_prix": 58726.12225,
+   "atr": 598.5359
   }
  ],
- "frais_cumules": 9.52977545996414,
+ "frais_cumules": 10.248285648640978,
  "pnl_realise": -5.668716817184998,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
   "2026-11-14": 2,
   "2026-11-15": 3,
-  "2026-11-16": 2
+  "2026-11-16": 3
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T16:32:13Z",
- "seq": 15,
+ "maj": "2026-11-16T16:33:37Z",
+ "seq": 16,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
@@ -47,7 +69,7 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T16:28:08Z",
+ "chasseur_t": "2026-11-16T16:33:32Z",
  "tendance": [
   "GATO",
   "MACCA",
@@ -285,5 +307,14 @@
   "2026-11-14": 1,
   "2026-11-15": 2,
   "2026-11-16": 1
+ },
+ "entrees_crypto_par_jour": {
+  "2026-11-16": 1
+ },
+ "swing_par_jour": {
+  "2026-11-16": 1
+ },
+ "swing_vus": {
+  "BTC": 1794841200
  }
 }
