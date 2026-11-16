@@ -1,46 +1,41 @@
 {
- "t": "2026-11-16T04:28:37Z",
+ "t": "2026-11-16T04:58:06Z",
  "nb_analyses": 610,
  "nb_en_mouvement": 5,
  "tendance": [
-  "AERO",
+  "AG",
   "AKE",
   "ANT",
+  "APT",
   "ASTER",
+  "AVGO",
   "BTC",
-  "CC",
-  "CRCL",
   "DXYZ",
-  "F",
+  "EURUSD",
+  "GLD",
   "HELP",
   "HYPE",
-  "IBRX",
-  "KO",
-  "LU",
-  "MRK",
+  "INJ",
+  "NRG",
+  "NVDA",
   "OCUL",
-  "OXY",
+  "ONDO",
+  "PANW",
   "PEARL",
   "PENGU",
-  "PEPE",
   "PI",
-  "QNT",
+  "SENS",
+  "SKR",
   "SLS",
   "SLV",
   "SMMT",
-  "SOL",
+  "TAO",
   "VVV",
-  "XLV",
-  "XRP",
+  "XAUT",
   "ZEC"
  ],
  "buzz_reseaux": {
   "SLV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ANT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -50,7 +45,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "F": {
+  "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -60,22 +55,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HELP": {
+  "GLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "OXY": {
+  "ANT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBRX": {
+  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LU": {
+  "EURUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -85,27 +80,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRCL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MRK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SLS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PANW": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NRG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SENS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -113,32 +113,12 @@
  },
  "candidats": [
   {
-   "sym": "SKR",
-   "pair": "SKREUR",
-   "action": false,
-   "variation_24h_pct": 27.33,
-   "volume_24h_eur": 56930.62,
-   "spread_pct": 0.1624,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "RARE",
-   "pair": "RAREEUR",
-   "action": false,
-   "variation_24h_pct": -8.13,
-   "volume_24h_eur": 136396.18,
-   "spread_pct": 0.3687,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": -6.19,
-   "volume_24h_eur": 661656.81,
-   "spread_pct": 0.0471,
+   "variation_24h_pct": -5.81,
+   "volume_24h_eur": 646422.6,
+   "spread_pct": 0.1173,
    "tendance": false,
    "impulsion": null
   },
@@ -147,8 +127,8 @@
    "pair": "DRVEUR",
    "action": false,
    "variation_24h_pct": -6.19,
-   "volume_24h_eur": 113398.83,
-   "spread_pct": 0.1855,
+   "volume_24h_eur": 111698.57,
+   "spread_pct": 0.1701,
    "tendance": false,
    "impulsion": null
   },
@@ -156,9 +136,29 @@
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
-   "variation_24h_pct": -4.93,
-   "volume_24h_eur": 58814.99,
-   "spread_pct": 0.0237,
+   "variation_24h_pct": -5.36,
+   "volume_24h_eur": 59446.91,
+   "spread_pct": 0.0555,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "SPACE",
+   "pair": "SPACEEUR",
+   "action": false,
+   "variation_24h_pct": -5.08,
+   "volume_24h_eur": 44373.49,
+   "spread_pct": 0.1108,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "SNDK",
+   "pair": "SNDKxUSD",
+   "action": true,
+   "variation_24h_pct": -3.1,
+   "volume_24h_eur": 100133.72,
+   "spread_pct": 0.0389,
    "tendance": false,
    "impulsion": null
   }

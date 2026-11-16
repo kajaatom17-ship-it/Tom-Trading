@@ -1,51 +1,5 @@
 [
  {
-  "t": "2026-11-14T23:27:11Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 60 en mouvement : USELESS -22.6 %, UNI -17.4 %, PUMP -16.7 %."
- },
- {
-  "t": "2026-11-14T23:57:15Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On ne fait rien : le marché a déjà beaucoup chuté et aucun trade n'offre assez de gain pour le risque."
- },
- {
-  "t": "2026-11-14T23:57:22Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, SOL, HYPE, UNI, LIT, XRP, TAO, PEARL"
- },
- {
-  "t": "2026-11-14T23:57:23Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADA, AVAX, BMNR, BTC, CORZ, DOGE, ETH, HBAR, JNJ, MSTR, SHIB, SOL"
- },
- {
-  "t": "2026-11-14T23:57:28Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 60 en mouvement : UNI -15.0 %, PUMP -15.3 %, ENA -14.6 %."
- },
- {
-  "t": "2026-11-14T23:57:48Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[banque centrale, macro, géopolitique] The Fed’s battle against inflation risks turning into a forever war as Iran 'status quo' drags on - Fortune (Fortune)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTFhBZVFvQ2d4VVoyVWdpN1dwaTlCVDljbERKamxwb0N1SWQ5SkVfa3BzZkh5N01wUTY0YTZ1aFZidFVwTnJqNXF2TTJDc25EbWREWHBXZWl6NFVVRnVlZjAxbi1oYkxpWXU2QTNUUWpZcGNzc0RidU9lNnFuM2hhSlpmT0VpWnJtNjl4WGtLamdrRi1VdW9CT1Y2cmV3SS1UVlhFdUw1VmFyRm8?oc=5",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-14T23:57:48Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "HYPE +2.52 % en 15 min"
- },
- {
   "t": "2026-11-14T23:57:48Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2697,5 +2651,57 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 16 signal(aux) : LTC short (TPB-1, 40), LINK short (TPB-1, 40), AVAX short (TPB-1, 40)"
+ },
+ {
+  "t": "2026-11-16T04:57:55Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde la position TAO et on n'entre sur rien : aucun trade n'offre un gain assez large par rapport au risque ce matin."
+ },
+ {
+  "t": "2026-11-16T04:58:01Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PENGU, ZEC, VVV, AKE, PI, TAO, SKR, ASTER"
+ },
+ {
+  "t": "2026-11-16T04:58:02Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AG, ANT, AVGO, DXYZ, EURUSD, GLD, HELP, NRG, NVDA, OCUL, PANW, SENS"
+ },
+ {
+  "t": "2026-11-16T04:58:06Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 5 en mouvement : NIGHT -5.8 %, DRV -6.2 %, SKHY -5.4 %."
+ },
+ {
+  "t": "2026-11-16T04:58:26Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[régulation, chute] New World shares plunge 47% to record low on $3.2 billion rights issue (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/stock-market-news/new-world-shares-plunge-47-to-record-low-on-32-billion-rights-issue-5028362",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-16T04:58:26Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, résultats] Asian chip stocks tumble ahead of Nvidia Q3 earnings (Cointelegraph)",
+  "data": {
+   "lien": "https://cointelegraph.com/markets/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "actifs": [
+    "NVDA"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-16T04:59:26Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 18 signal(aux) : BTC short (TPB-1, 30), ETH short (TPB-1, 30), SOL short (TPB-1, 30)"
  }
 ]
