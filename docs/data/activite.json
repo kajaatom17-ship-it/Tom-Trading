@@ -3,24 +3,6 @@
   "t": "2026-11-15T02:27:18Z",
   "agent": "Veille",
   "type": "alerte",
-  "msg": "ADA +3.78 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ARB +3.53 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ASTER +3.84 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
   "msg": "AVAX +3.78 % en 15 min"
  },
  {
@@ -2705,5 +2687,29 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-16T08:13:59Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AMD, ASTS, AVGO, FSLR, HELP, IBRX, KOLD, LHX, LNG, MSTR, NBIS, SLS"
+ },
+ {
+  "t": "2026-11-16T08:14:03Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 6 en mouvement : SKR +22.7 %, NIGHT -12.4 %, LCX +10.6 %."
+ },
+ {
+  "t": "2026-11-16T08:14:06Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Volo Protocol Loses $3.5M in Exploit Targeting Three Sui Vaults - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcHN6aVc4cVZHWUV5MEYxVS1CSXJDY0RfM01lM29ZMDRwVVNSYWxfQ1lkUnRpcF9BTEs5Ry1NZmNxYVhYQnA5WkE3UTA0N0JuSWdUa0paS1hsWWRLbzdJOFY4VDNQdGxDSUxpMldIcHk4dTZFRmY0V2hjYUx1NjF6Ni1ocDl1dVJ1dmhmSVlWaTRmb3p4YjQxZmRmY0Nodl8tdUVTWXJZWDJPc0ZZeHc?oc=5",
+   "actifs": [
+    "SUI"
+   ]
+  }
  }
 ]
