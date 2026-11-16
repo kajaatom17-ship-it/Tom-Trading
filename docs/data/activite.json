@@ -1,59 +1,5 @@
 [
  {
-  "t": "2026-11-14T21:56:55Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 57 en mouvement : USELESS -22.5 %, UNI -17.6 %, PUMP -16.9 %."
- },
- {
-  "t": "2026-11-14T21:56:56Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Yahoo Finance : Why Launching Satellites From a Fighter Jet Makes Sense",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=YW7LIEi1IBE"
-  }
- },
- {
-  "t": "2026-11-14T21:57:58Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
-  "t": "2026-11-14T22:28:31Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "KNTQ short fermé (durée maximale atteinte) à 0.1997381 : +1.09 € net",
-  "data": {
-   "id": "P0007"
-  }
- },
- {
-  "t": "2026-11-14T22:28:31Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde la position gagnante et on n'ouvre rien : le marché a déjà énormément chuté et aucun trade n'offre assez de gain pour le risque."
- },
- {
-  "t": "2026-11-14T22:28:37Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AGI, AMP, BTC, DOGE, ETH, HBAR, KLAR, LTC, MSTR, PYTH, QNT, SOL"
- },
- {
-  "t": "2026-11-14T22:28:42Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 57 en mouvement : USELESS -21.6 %, UNI -16.5 %, PUMP -16.0 %."
- },
- {
-  "t": "2026-11-14T22:28:48Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "CRCL -3.29 % en 15 min"
- },
- {
   "t": "2026-11-14T22:28:48Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2697,5 +2643,59 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 1 signal(aux) : GOOGL long (TPB-1, 45)"
+ },
+ {
+  "t": "2026-11-16T02:57:49Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde le short TAO et on n'ouvre rien : le seul candidat (GOOGL) est trop faible et la bourse est fermée avant des annonces importantes."
+ },
+ {
+  "t": "2026-11-16T02:57:56Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PENGU, BTC, SOL, PEARL, ASTER, QTC, JUP, ZEC"
+ },
+ {
+  "t": "2026-11-16T02:57:57Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ANT, COIN, DCTH, DRTS, FROG, HELP, KO, NBIS, NVDA, OCUL, QUANT, SMMT"
+ },
+ {
+  "t": "2026-11-16T02:57:59Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 3 en mouvement : NIGHT -5.4 %, RARE -6.0 %, SKHY -4.1 %."
+ },
+ {
+  "t": "2026-11-16T02:58:04Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Mantle Proposes 30K $ETH Loan to Aave After $292M Kelp Exploit - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWxvR19BNV90YmhMeVFUbDJpb0pUMFp3T2pVVmF3T0dqM1JseTVzRnl5N25sdkdfNzZaUzlETjM4ZFdGam9DYnNHNFNRYzZuWXJLeS1WRjYyMVk0U3NjQVFjZDZuaUd6TFVhbVRnNDE1bmdWZFF6X2Q2djg2YUlyNHZXR1lGUGJ0ai1QYkU2bThaOWo2OGRKUmFwbDBXYloyWGp1ODJtakxGWllmdlB0dkpHR0k?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-16T02:58:04Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "ASTER +5.21 % en 1 h"
+ },
+ {
+  "t": "2026-11-16T02:58:04Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "KNTQ +2.83 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T02:59:05Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : QQQ long (TPB-1, 45)"
  }
 ]

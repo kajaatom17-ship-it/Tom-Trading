@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 398.2460105159951,
+ "cash": 398.22607628781833,
  "positions": [
   {
    "id": "P0012",
@@ -20,16 +20,16 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T02:30:00Z",
+   "verifie_jusqu_a": "2026-11-16T02:57:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 174.5635,
+   "dernier_prix": 174.3737,
    "atr": 1.031523,
-   "rollover": 0.03986845635358847,
-   "rollover_periodes": 2
+   "rollover": 0.059802684530382705,
+   "rollover_periodes": 3
   }
  ],
- "frais_cumules": 7.649260804417678,
+ "frais_cumules": 7.669195032594472,
  "pnl_realise": -1.644295580144268,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T02:30:49Z",
+ "maj": "2026-11-16T02:58:00Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -48,32 +48,27 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T02:26:53Z",
+ "chasseur_t": "2026-11-16T02:57:56Z",
  "tendance": [
-  "MIHAO",
   "PENGU",
   "BTC",
-  "ASTER",
-  "HYPE",
-  "SUI",
+  "SOL",
   "PEARL",
-  "DRV",
-  "KAVA",
-  "PI",
-  "XRP",
-  "TAO",
+  "ASTER",
+  "QTC",
+  "JUP",
   "ZEC",
-  "AERO",
-  "LIT"
+  "SUI",
+  "PI",
+  "TAO",
+  "LIT",
+  "AKE",
+  "XRP",
+  "KAVA"
  ],
- "tendance_t": "2026-11-16T01:57:11Z",
+ "tendance_t": "2026-11-16T02:57:56Z",
  "buzz": {
   "NBIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SPCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -83,17 +78,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "COIN": {
+  "SPCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -108,17 +98,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ANT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NVDA": {
+  "COIN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -128,77 +108,97 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AG": {
+  "OCUL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AERO": {
+  "KO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
+  "ANT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VOO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "QUANT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZETA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T02:26:54Z",
- "sources_t": "2026-11-16T02:26:56Z",
+ "buzz_t": "2026-11-16T02:57:57Z",
+ "sources_t": "2026-11-16T02:57:59Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
-   "sentiment": "bearish",
+   "mentions": 17,
+   "sentiment": "neutral",
    "titres": [
-    "BTC/USDT – Broken Floor Puts 60K in Focus",
-    "What 30 days of funding cost a 10x BTC long (real OKX rates)"
+    "Bitcoin whales send $55M more to exchanges than they withdraw daily, Glassnode says",
+    "BTC Range: Leveraged Shorts Pile In"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "neutral",
+   "mentions": 8,
+   "sentiment": "bullish",
    "titres": [
-    "Canaan's Rig Sales Fall 96%, Bets on Texas Power Instead",
-    "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.165525351 | 🚶 0.165543675 | 🚀 0.182098042 Gwei",
-    "ETH/USDT 15min Swing Long Trading Plan"
+    "Luxor CEO warns of rising AI-enabled cyberattacks after mining hijack",
+    "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 3,
+   "mentions": 5,
    "sentiment": "bearish",
    "titres": [
-    "BTC/USDT – Broken Floor Puts 60K in Focus",
-    "ETH/USDT 15min Swing Long Trading Plan"
+    "PEPE/USDT – Broken Trendline , Sellers Stills Control",
+    "BTC/USDT 15min Swing Long Trading Plan"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "BTC/USDT – Broken Floor Puts 60K in Focus",
-    "Why Are Crypto Prices Down? Binance Founder CZ Lists Possible Reasons"
+    "PEPE/USDT – Broken Trendline , Sellers Stills Control",
+    "ZECUSDT – Broken Channel Leaves 610 in Focus"
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "ETH/USDT 15min Swing Long Trading Plan",
+    "ETHUSDT: Weak Recovery, Another Selloff Ahead"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin Hits $62,000 Low Ahead of Nvidia's First Earnings Without Jensen Huang",
-    "DTCC to Connect Its Tokenization Service to Solana in Second Half of 2027"
+    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids",
+    "TECO shifts focus to power equipment amid tightened US data center approvals"
    ]
   },
   {
@@ -206,16 +206,16 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "DTCC to Connect Its Tokenization Service to Solana in Second Half of 2027",
-    "GMGN integrates new wallets, Rill and Tenon debut at Breakpoint"
+    "SKR is pumping (just to watch)",
+    "Solana Price Outlook for November: One Level Holds Up a Hyperliquid Whale's 10x Bet"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "DeFi",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Thailand's SEC Proposes 5 Million Baht Daily Cap on Stablecoin Transfers"
+    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids"
    ]
   }
  ],
