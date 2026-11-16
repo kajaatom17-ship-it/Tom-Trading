@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T12:31:00Z",
+   "verifie_jusqu_a": "2026-11-16T13:00:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 169.9979,
+   "dernier_prix": 169.5185,
    "atr": 1.031523,
    "rollover": 0.09967114088397117,
    "rollover_periodes": 5
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T12:31:09Z",
+ "maj": "2026-11-16T13:00:31Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -48,30 +48,30 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T12:26:55Z",
+ "chasseur_t": "2026-11-16T13:00:20Z",
  "tendance": [
-  "LIT",
   "MACCA",
+  "LIT",
   "GATO",
   "BTC",
-  "SOL",
-  "ASTER",
-  "XRP",
-  "PENGU",
   "HYPE",
-  "ETH",
-  "ZEC",
-  "VVV",
+  "ASTER",
   "TAO",
-  "PEARL",
-  "DOT"
+  "SOL",
+  "PENGU",
+  "ONDO",
+  "SUI",
+  "JCT",
+  "JUP",
+  "XRP",
+  "AERO"
  ],
- "tendance_t": "2026-11-16T11:58:51Z",
+ "tendance_t": "2026-11-16T13:00:20Z",
  "buzz": {
   "NBIS": {
-   "source": "Reddit + StockTwits",
-   "mentions": 42,
-   "x_vs_hier": 3.5
+   "source": "Reddit",
+   "mentions": 47,
+   "x_vs_hier": 3.9
   },
   "VOO": {
    "source": "Reddit",
@@ -93,7 +93,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBRX": {
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -103,42 +103,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XPEV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BIDU": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TTWO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ANT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DXYZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SLS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SMMT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XPEV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -148,84 +128,107 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "SOL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ANT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BIDU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "COIN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TTWO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T12:26:56Z",
- "sources_t": "2026-11-16T12:27:01Z",
+ "buzz_t": "2026-11-16T13:00:21Z",
+ "sources_t": "2026-11-16T13:00:27Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 8,
-   "sentiment": "neutral",
-   "titres": [
-    "BTC/USD – Could Bitcoin Drop to $43,000?",
-    "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week"
-   ]
-  },
-  {
    "sujet": "AI",
+   "mentions": 7,
+   "sentiment": "neutral",
+   "titres": [
+    "Dreamteam AI raises $53M to take on Salesforce and HubSpot with an AI-native CRM",
+    "SpaceX (SPCX) Stock Edges Up After Starship Tower Catch as AI Names Slide"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
    "mentions": 6,
-   "sentiment": "bullish",
+   "sentiment": "bearish",
    "titres": [
-    "Alibaba launches Qwen4-Max AI model, highlights lower costs",
-    "Anthropic to price IPO Wednesday, trading starts Thursday on NASDAQ"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Ripple CEO Brad Garlinghouse Urged to Burn 31.1 Billion XRP",
-    "XRP Price Stalls as Open Interest Falls"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana drops the mainnet beta label and introduces Solana 1.0",
-    "Solana 推出 1.0，主网移除 Beta 标识"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Vitalik Buterin backs higher gas costs for creating accounts and deploying smart contracts to help Ethereum scale",
-    "Vitalik Buterin backs leanPCS for scaling Ethereum’s cryptographic proofs"
+    "BTCUSD – Bearish Market Structure",
+    "Why There is an Opportunity in XRP Below $1: Coach JV"
    ]
   },
   {
    "sujet": "Stablecoins",
+   "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "EVAA/USDT: Bearish Rejection — -50% Downside Correction Setup",
+    "$USDT Domiance is going down, $BTC is going up"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Solana Foundation’s Lily Liu says finance wants one big market, so Solana stays single-shard",
+    "Zelle demonstrates confidential $1.25 million stablecoin transfer on Solana"
+   ]
+  },
+  {
+   "sujet": "Security",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin (BTC/USDT) 15m Analysis: Testing Key Support Levels",
-    "SMBC targets March for yen stablecoin as Japan’s megabanks bet on code"
+    "Kava moves to shut HARD Lend after attacker exploits a dormant BUSD market",
+    "AI agents impersonate employees and attempt to steal confidential data during safety experiment"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Binance CEO Yi He Reveals $101 Million Portfolio Drop as Crypto Slumps",
-    "XRP Price Stalls as Open Interest Falls"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
+   "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Sebi may propose raising FPI beneficial ownership threshold to 25%; plans consultation paper"
+    "Why There is an Opportunity in XRP Below $1: Coach JV"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase and Broadridge propose open standard for tokenized-stock shareholder communications"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "CZ Explain Why Crypto is Falling, Says He Bought Crypto and Denies Binance Sold"
    ]
   }
  ],
