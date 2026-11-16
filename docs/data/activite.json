@@ -1,50 +1,5 @@
 [
  {
-  "t": "2026-11-15T08:58:32Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 8 signal(aux) : ARB short (TPB-1, 70), OP short (TPB-1, 70), DOT short (TPB-1, 40)"
- },
- {
-  "t": "2026-11-15T09:27:57Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "HYPE short fermé (stop-loss) à 60.42848 : -3.33 € net",
-  "data": {
-   "id": "P0011"
-  }
- },
- {
-  "t": "2026-11-15T09:27:57Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On ne prend aucun nouveau trade : le marché a rebondi et nos candidats ne sont plus propres ; le short HYPE sera fermé par son stop s'il est touché."
- },
- {
-  "t": "2026-11-15T09:28:05Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : BRUN, BTC, CLSK, CMG, DAL, ETH, GE, ICP, LKNCY, MCD, PEP, RTX"
- },
- {
-  "t": "2026-11-15T09:28:10Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "457 actifs hors univers analysés, 15 en mouvement : VVV +15.1 %, DRV +11.8 %, NIGHT +6.6 %."
- },
- {
-  "t": "2026-11-15T09:28:15Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "PENGU +3.89 % en 15 min"
- },
- {
-  "t": "2026-11-15T09:28:15Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "RENDER +2.5 % en 15 min"
- },
- {
   "t": "2026-11-15T09:28:15Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2687,5 +2642,50 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 6 signal(aux) : LINK short (TPB-1, 60), INJ short (TPB-1, 60), PEPE short (TPB-1, 60)"
+ },
+ {
+  "t": "2026-11-16T16:27:59Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short AMZN et on n'ouvre rien : le seul bon signal (AMD) manque de volume et arriverait juste avant les résultats de Nvidia."
+ },
+ {
+  "t": "2026-11-16T16:28:08Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : GATO, MACCA, MIHAO, BTC, LIT, SOL, PENGU, ASTER"
+ },
+ {
+  "t": "2026-11-16T16:28:09Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, BIDU, CAPR, CRSR, EURUSD, FUN, GOOG, GOOGL, HELP, HR, IREN, KO"
+ },
+ {
+  "t": "2026-11-16T16:28:15Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "607 actifs hors univers analysés, 8 en mouvement : SPACE +11.6 %, ICP +10.0 %, JUP -7.3 %."
+ },
+ {
+  "t": "2026-11-16T16:28:16Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Trump says Jensen Huang going back to Nvidia as CEO \"isn't a bad idea.\"",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=pa5AxRsiS3A"
+  }
+ },
+ {
+  "t": "2026-11-16T16:28:20Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "AVGO +2.25 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T16:29:21Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 27 signal(aux) : XRP short (TPB-1, 70), AVAX short (TPB-1, 70), NEAR short (TPB-1, 70)"
  }
 ]

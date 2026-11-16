@@ -20,10 +20,10 @@
    "risque_eur": 0.5252080051054566,
    "rr_net": 1.77,
    "ouvert_le": "2026-11-16T14:59:22Z",
-   "verifie_jusqu_a": "2026-11-16T16:01:00Z",
+   "verifie_jusqu_a": "2026-11-16T16:27:00Z",
    "duree_max_h": 24.0,
    "decision_id": "G-20261116-145922",
-   "dernier_prix": 238.11558497049924,
+   "dernier_prix": 237.66371874460333,
    "atr": 0.4879608
   }
  ],
@@ -38,7 +38,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T16:01:51Z",
+ "maj": "2026-11-16T16:28:16Z",
  "seq": 15,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -47,65 +47,65 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T15:57:45Z",
+ "chasseur_t": "2026-11-16T16:28:08Z",
  "tendance": [
-  "MACCA",
-  "LIT",
   "GATO",
+  "MACCA",
+  "MIHAO",
   "BTC",
-  "PENGU",
-  "HYPE",
-  "PEARL",
+  "LIT",
   "SOL",
-  "BLESS",
-  "ONDO",
+  "PENGU",
+  "ASTER",
+  "NEAR",
+  "PEARL",
   "ETH",
-  "ZEC",
-  "VVV",
-  "ENA",
-  "PONS"
+  "JCT",
+  "UNI",
+  "BLESS",
+  "SUI"
  ],
- "tendance_t": "2026-11-16T15:28:36Z",
+ "tendance_t": "2026-11-16T16:28:08Z",
  "buzz": {
   "NVDA": {
    "source": "Reddit",
-   "mentions": 822,
-   "x_vs_hier": 2.2
+   "mentions": 851,
+   "x_vs_hier": 2.3
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 149,
-   "x_vs_hier": 2.2
+   "mentions": 159,
+   "x_vs_hier": 2.3
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 114,
-   "x_vs_hier": 2.9
+   "mentions": 125,
+   "x_vs_hier": 3.3
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 77,
-   "x_vs_hier": 5.5
+   "mentions": 82,
+   "x_vs_hier": 6.3
   },
   "MU": {
    "source": "Reddit",
-   "mentions": 70,
+   "mentions": 73,
    "x_vs_hier": 3.3
   },
   "SNDK": {
    "source": "Reddit",
-   "mentions": 48,
-   "x_vs_hier": 2.8
+   "mentions": 49,
+   "x_vs_hier": 3.1
   },
   "GOOGL": {
    "source": "Reddit",
-   "mentions": 42,
-   "x_vs_hier": 14.0
+   "mentions": 47,
+   "x_vs_hier": 15.7
   },
   "GOOG": {
    "source": "Reddit",
-   "mentions": 41,
-   "x_vs_hier": 3.2
+   "mentions": 46,
+   "x_vs_hier": 3.5
   },
   "MSFT": {
    "source": "Reddit",
@@ -114,13 +114,13 @@
   },
   "AAPL": {
    "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 3.7
+   "mentions": 37,
+   "x_vs_hier": 4.1
   },
   "HR": {
    "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 2.5
+   "mentions": 34,
+   "x_vs_hier": 2.4
   },
   "IREN": {
    "source": "StockTwits",
@@ -128,6 +128,11 @@
    "x_vs_hier": null
   },
   "HELP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -142,42 +147,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NKE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "OMER": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KO": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RUM": {
+  "VALE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PG": {
+  "EURUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SEZL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JNJ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DXYZ": {
+  "BIDU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -187,63 +177,55 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XPEV": {
+  "SKYD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DAL": {
+  "SLV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "FUN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T15:57:46Z",
- "sources_t": "2026-11-16T15:57:51Z",
+ "buzz_t": "2026-11-16T16:28:09Z",
+ "sources_t": "2026-11-16T16:28:15Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 11,
-   "sentiment": "neutral",
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "bullish",
    "titres": [
-    "Strive Buys 251 Bitcoin as Holdings Climb to 43,404",
-    "Strive’s Weekly Bitcoin Buying Rebounds to 251 BTC as It Pays Less per Coin"
+    "Nvidia launches Nemotron for Science to put AI agents in the lab",
+    "Serena Williams and Beth Ferreira launch Starfire Ventures with a $200 million AI-native fund target"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "XMR/USDT: $500 Reclaim Could Open the Door to $646",
+    "Toss Readies a Non-Custodial Crypto Wallet for Its 30 Million Users in South Korea"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 5,
-   "sentiment": "bullish",
-   "titres": [
-    "DeFi Development 上周增持 9482 枚 SOL，持仓总量升至约 262 万枚",
-    "Solana Policy Institute’s Kristin Smith sees opening in new Congress for crypto bills"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 4,
-   "sentiment": "bullish",
-   "titres": [
-    "Strive’s Weekly Bitcoin Buying Rebounds to 251 BTC as It Pays Less per Coin",
-    "Hyperliquid Policy Center backs CFTC push to separate event contracts from gambling"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Trump says he wouldn't mind seeing Huang return to Nvidia",
-    "Bitcoin, AI & Gaming -  Gamoid 🎥"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin Miners Hijacked as Attackers Redirect BTC Through Luxor Breach",
-    "Lighter Confirms Security Breach, LIT Token Dives After $15M Swiped"
+    "DeFi Development Corp. adds 9,482 SOL as CHAD dividend streak hits 31 days",
+    "Solana Drops 'Mainnet Beta' After Six Years: Here's What 1.0 Is All About"
    ]
   },
   {
@@ -251,26 +233,41 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Polygon price prediction 2026-2032: Will POL recover its ATH soon?",
-    "Vitalik Buterin Backs Faster Route to Quantum-Safe Ethereum With New Proposal"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "DeFi Development 上周增持 9482 枚 SOL，持仓总量升至约 262 万枚",
-    "Boris Johnson maintains Bitcoin skepticism at Solana’s Breakpoint conference"
+    "Toss Readies a Non-Custodial Crypto Wallet for Its 30 Million Users in South Korea",
+    "Bitmine’s Ethereum Treasury Hits 6.08M ETH Despite Brutal Price Decline"
    ]
   },
   {
    "sujet": "XRP",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "XRP Could Fall Again in December After One of Its Worst Novembers",
-    "Expert Just Mapped Out XRP Hitting $150 In 6 Months Using This Theory"
+    "XRP Price Scenarios as XRP’s Weekly RSI Tests 20 Again",
+    "Chartist to XRP Holders: This Is How Bear Markets End. Here’s the Signal"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "DeFi Development Corp. adds 9,482 SOL as CHAD dividend streak hits 31 days"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance co-founder Yi He shows $101.3 million account drop over 30 days"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Why Bitcoin was NOT started by a 3-letter-agency."
    ]
   }
  ],

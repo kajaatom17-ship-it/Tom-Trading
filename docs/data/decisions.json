@@ -13933,5 +13933,114 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-16T15:57:36Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "Court terme baissier mais sans entrée propre. AMD short (TPB-1) : prix 461,60, stop 477,60, objectif 413,62, RR net 2,67, mais volume 15 min nul (vol_ratio 0) : signal non confirmé. NVDA short : 144,66, RSI 49, vol_ratio 1,1, à la veille des résultats. LINK/INJ/PEPE : tendance 1 h baissière mais volume très faible (vol_ratio 0,23 / 0,12 / 0,27) et prix collé à l'EMA20. SPY et QQQ ont un RSI 15 min à 26 et 25 : survendus, risque de rebond. Position AMZN : stop 239,89 intact, objectif 230,39.",
+    "donnees": "Brief Kraken du 2026-11-16 16:26 UTC (17:26 Paris), bougies 15 min"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Les titres du jour (Investing.com, Yahoo Finance, Bloomberg, 16 nov) décrivent un Nasdaq-100 en baisse d'environ 1 % avant les résultats de Nvidia, les premiers sans Jensen Huang, et avant l'introduction en bourse d'Anthropic. La date des résultats Nvidia est donnée au 19 nov dans un titre Motley Fool/finanzen.net et au 17 nov dans un autre site : non confirmée, donc à traiter comme proche. Le calendrier du moteur est vide, et je n'ai pas de source officielle confirmant d'autres dates : je n'ajoute rien à l'agenda. Aucun catalyseur daté de moins de 24 h exploitable pour OPP-1.",
+    "sources": [
+     "Stock Market Today: Nasdaq-100 Sinks 1% as Nvidia Faces Its First Earnings Without Jensen Huang - Yahoo Finance - 2026-11-16 14:58 UTC - https://news.google.com/rss/articles/CBMimgFBVV95cUxPbDVpN2RLWTVRb25zM19CZURtUUlIT056MDhZWVJ4NFlwN0pyeWhIb2FsQmJnOGVDQ1d3UWowSjJZdzg5dVJpa1d2cS1wLVBhOFktaGtXN3JkeDVvemUtZ1RPMHY1OFY2Yjc0QTdmVDQyVVROeDhvem9rZmpjOUNCYXFGcFZ3MXZKclUwR01FTXA4MUFQc1RBdG5R?oc=5",
+     "Nasdaq, S&P fall with Nvidia earnings, Anthropic debut looming - Investing.com - 2026-11-16 15:57 UTC - https://www.investing.com/news/stock-market-news/us-stock-futures-little-changed-as-investors-await-nvidia-earnings-5028292",
+     "Prediction: ... Nvidia to Disappoint Wall Street on Nov. 19 - finanzen.net (titre seul) - https://www.finanzen.net/nachricht/aktien/prediction-the-puzzle-pieces-are-in-place-for-nvidia-to-disappoint-wall-street-on-nov-19-15270974"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed à 10 (peur extrême), dominance BTC 58,52 %, capitalisation totale crypto -1,57 % sur 24 h. En peur extrême les rebonds sont brusques, ce qui est dangereux pour un short. Buzz Reddit : NVDA 822 mentions (x2,2 vs hier), GOOGL x14 mais seulement 42 mentions : un indice, jamais une preuve."
+   },
+   "trader": {
+    "proposition": "Garder AMZN. Pas de nouvelle entrée : le meilleur candidat (AMD short) a un RR net de 2,67 mais aucun volume pour le confirmer et tombe juste avant Nvidia.",
+    "pour": [
+     "AMD short : RR net 2,67, tendance 1 h baissière",
+     "Marché US en repli (Nasdaq-100 environ -1 %)"
+    ],
+    "contre": [
+     "Volume 15 min nul sur AMD",
+     "Résultats Nvidia imminents : risque de gap dans les deux sens",
+     "Corrélation avec AMZN short déjà ouvert",
+     "SPY/QQQ survendus (RSI 26 / 25)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "Pas d'entrée supplémentaire : un deuxième short sur les valeurs technologiques américaines doublerait le même pari juste avant un événement binaire (Nvidia), sur un signal sans volume. Cryptos : volumes 15 min trop faibles et règle de Tom sur les frais."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Position AMZN : short 237,75, prix 237,70, stop 239,89, objectif 230,39, gain latent +0,01 €. Rien ne justifie de toucher au stop. Côté nouvelles entrées, AMD short (461,60, stop 477,60, objectif 413,62, RR net 2,67) est le meilleur score, mais son volume 15 min est à zéro."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Le contexte est un Nasdaq-100 qui perd environ 1 % (Yahoo Finance, 14:58 UTC) avant les résultats Nvidia, dont la date exacte n'est pas confirmée par une source officielle (19 nov selon un titre finanzen.net). Un short tech avant ce rendez-vous est un pari sur le résultat, pas sur la tendance."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_macro",
+    "message": "Fear & Greed est à 10. Quand la peur est aussi forte, les rebonds sont violents. SPY a un RSI 15 min de 26 et QQQ de 25 : le marché est déjà survendu à court terme, entrer short maintenant arrive tard."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_sentiment",
+    "message": "D'accord sur le survendu, mais la tendance 1 h reste baissière sur AMD et NVDA, et les prix sont sous leur EMA20 et leur EMA50. Je ne dis pas que le rebond est certain, je dis que le signal AMD manque de volume pour être validé."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose un short AMD : entrée 461,60, stop 477,60, objectif 413,62, RR net 2,67, durée 24 h. Pour : tendance baissière et RR correct. Contre : volume nul, et la corrélation avec AMZN."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Je conteste la durée de 24 h : elle traverse les résultats Nvidia. Le stop à 3,5 % (477,60) ne protège pas d'un gap haussier si Nvidia surprend positivement, puisque AMD suit le même secteur. Je m'oppose à cette entrée."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je soutiens l'objection. Et côté cryptos, LINK, INJ et PEPE ont un volume 15 min à 0,23, 0,12 et 0,27 fois la normale : rien de propre, avec une peur extrême qui favorise les rebonds."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_macro",
+    "message": "Compris. Je retire la proposition AMD. Le seul scénario qui me ferait revenir serait une cassure du plus bas 12 h (455,96) avec un volume réel, ou une réaction claire après Nvidia."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Refus : deuxième short tech corrélé à AMZN avant un événement binaire, sur un signal sans volume. Les cryptos ne passent pas non plus : volumes trop faibles et la règle de Tom sur les frais impose un gros mouvement. Décision : garder AMZN, aucune nouvelle entrée."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Position AMZN (short) : stop 239,89 et objectif 230,39 inchangés, gain latent proche de zéro (+0,01 €). On garde.",
+    "Le marché américain baisse avant les résultats de Nvidia (Nasdaq-100 environ -1 %, titres du 16 nov) : un événement qui peut faire bouger les actions fortement dans un sens ou dans l'autre.",
+    "Le meilleur candidat, AMD short (RR net 2,67), n'a aucun volume pour confirmer le signal. Les cryptos (LINK, INJ, PEPE) ont aussi des volumes très faibles et la peur est extrême (Fear & Greed 10).",
+    "Le trader de garde a ouvert AMZN seul à 14:59 UTC (BRK-1, score 75, RR net 1,61) : on le contrôle et on le garde, sans y ajouter de second pari identique."
+   ],
+   "desaccords": [
+    "Le Trader voulait un short AMD ; l'analyste macro et l'analyste sentiment s'y sont opposés (résultats Nvidia, survendu, volume nul) ; le Trader a retiré sa proposition."
+   ],
+   "decision": "On garde AMZN et on n'ouvre aucune nouvelle position.",
+   "a_surveiller": [
+    "Réaction du marché aux résultats de Nvidia (date à confirmer, 19 nov selon un titre) : cassure du plus bas 12 h d'AMD (455,96) avec volume.",
+    "Un rebond des indices après le survendu (RSI SPY 26 / QQQ 25) qui pourrait mettre AMZN sous pression : le stop à 239,89 protège la perte.",
+    "Le calendrier d'annonces du moteur est vide : rien de confirmé par une source officielle n'a été ajouté."
+   ]
+  },
+  "synthese": "On garde notre short AMZN et on n'ouvre rien : le seul bon signal (AMD) manque de volume et arriverait juste avant les résultats de Nvidia.",
+  "id": "D-20261116-162726",
+  "cree_le": "2026-11-16T16:27:26Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-16T16:27:59Z"
  }
 ]
