@@ -7,7 +7,12 @@ BRK-1  Cassure avec volume : cloture 15 min au-dela du plus haut / plus bas
        des 12 dernieres heures, volume au moins 1,8 x la moyenne.
        Stop >= max(2 ATR, 1 %), objectif 3R.
 
-Le scanner ne fait que PROPOSER des candidats. Le comite d'agents decide.
+SWG-1  (depuis le 16 nov 2026, seule strategie automatique) : meme repli dans la
+       tendance, mais en bougies 1 h, uniquement dans le sens de la tendance de
+       fond 20 jours de l'actif ET de son marche (BTC ou QQQ), stop deux fois
+       plus large, objectif 3R, tenue jusqu'a 8 jours. Voir lab/RESULTATS.md.
+
+TPB-1 et BRK-1 en 15 min sont retirees : sur l'historique elles perdent meme sans frais.
 """
 from core import aggregate, atr, ema, macd_hist, net_rr, rp, rsi
 
@@ -91,3 +96,44 @@ def signals(cfg, sym, ind, btc_trend):
         make("BRK-1", "short", px + 2 * a,
              f"Cassure du plus bas 12 h avec volume x{ind['vol_ratio']}.", 55 + min(20, int(ind["vol_ratio"] * 4)))
     return out
+
+
+def swing_signals(cfg, sym, ind, regime, ref_regime):
+    """SWG-1. `ind` = analyse() sur bougies 1 h ; regime / ref_regime = +1, -1, 0 (None = pas de marché de référence)."""
+    out = []
+    S = cfg.get("swing", {})
+    if not ind or not S.get("actif"):
+        return out
+    px, a = ind["close"], ind["atr"]
+
+    def make(side, stop, why):
+        d = 1 if side == "long" else -1
+        if regime != d or (ref_regime is not None and ref_regime != d):
+            return
+        dmin = max(1.5 * a, 0.01 * px)
+        stop = min(stop, px - dmin) if side == "long" else max(stop, px + dmin)
+        risk = abs(px - stop) * S.get("stop_x", 2.0)
+        stop = px - d * risk
+        tp = px + d * S.get("objectif_R", 3.0) * risk
+        rr = net_rr(cfg, sym, side, px, stop, tp)
+        score = 70 + (10 if ind["vol_ratio"] > 1.2 else 0); warn = []
+        if rr < cfg["risque"]["rr_net_min"]:
+            warn.append(f"RR net {rr:.2f} trop faible après frais"); score -= 30
+        out.append({"sym": sym, "strategie": "SWG-1", "side": side, "entry_ref": rp(px), "stop": rp(stop), "tp": rp(tp), "atr": rp(a),
+                    "rr_net": round(rr, 2), "score": max(0, min(100, score)), "pourquoi": why, "alertes": warn,
+                    "duree_max_h": S.get("duree_max_h", 192), "t_signal": ind["t"]})
+
+    if ind["trend_1h"] == "haussiere" and ind["touche_ema20_bas"] and px > ind["ema20"] \
+            and 42 <= ind["rsi"] <= 65 and ind["rsi"] > ind["rsi_prev"] and ind["macd_h"] > ind["macd_h_prev"]:
+        make("long", ind["bas_recent"] - 0.3 * a, "Tendance de fond 20 jours haussière (actif et marché), tendance 4 h haussière, repli sur l'EMA20 1 h puis reprise.")
+    if ind["trend_1h"] == "baissiere" and ind["touche_ema20_haut"] and px < ind["ema20"] \
+            and 35 <= ind["rsi"] <= 58 and ind["rsi"] < ind["rsi_prev"] and ind["macd_h"] < ind["macd_h_prev"]:
+        make("short", ind["haut_recent"] + 0.3 * a, "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute.")
+    return out
+
+
+def ref_of(a):
+    """Marché de référence pour la tendance de fond : QQQ pour les actions, BTC pour les cryptos, aucun pour l'or."""
+    if a.get("cat") == "Or":
+        return None
+    return "QQQ" if a.get("classe") == "action" else "BTC"

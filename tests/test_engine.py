@@ -64,7 +64,12 @@ AGENTS_OK = {"analyste_technique": {"avis": "test"}, "analyste_macro": {"avis": 
 
 _cfg0 = core.config
 _FR_TEST = {"taker_pct": 0.4, "maker_pct": 0.25, "slippage_pct_par_tier": _cfg0()["frais"]["slippage_pct_par_tier"]}  # frais d'avant le 15 nov : les scénarios des tests 1 à 21 sont calibrés dessus
-core.config = lambda: {**_cfg0(), "exclusions": [], "frais": _FR_TEST, "risque": {**_cfg0()["risque"], "crypto": {}}}  # les tests utilisent NEAR
+def _cfg_test():
+    """Config des tests 1 à 21 : frais et fonctions d'avant le 16 nov (les anciens mécanismes restent dans le code, désactivés en production)."""
+    c = _cfg0(); g = dict(c["trader_de_garde"])
+    g["cassure_fraiche"] = {**g["cassure_fraiche"], "actif": True}; g["impulsion"] = {**g["impulsion"], "actif": True}; g["swing_auto"] = {}
+    return {**c, "exclusions": [], "frais": _FR_TEST, "risque": {**c["risque"], "crypto": {}, "max_actions_meme_sens": 2}, "swing": {}, "trader_de_garde": g}
+core.config = _cfg_test  # les tests utilisent NEAR
 tick.config = core.config
 cfg = core.config()
 fails = 0
@@ -483,6 +488,43 @@ _st2["positions"] = [{"sym": "SOL", "side": "long", "qty": 1, "entry": 100.0}]
 _ok3, _why3, _ = _risk.check_open(_c, _st2, {"sym": "ETH", "side": "long", "entry_ref": 3000, "atr": 50, "stop": 2940, "tp": 3300, "strategie": "TEST", "agents": AGENTS_OK},
                                   {"bid": 3000.0, "ask": 3000.5, "last": 3000.0, "open": 3000, "high": 3010, "low": 2990, "vol_eur": 5e7, "spread_pct": 0.01, "chg_pct": 0}, {"ETH": 3000.0})
 check("2e position crypto refusée (cryptos limitées)", any("Cryptos : déjà" in w for w in _why3), str(_why3))
+
+
+# 24. SWG-1 (16 nov) : signal seulement dans le sens de la tendance de fond, entrée automatique, pas de trade à contre-tendance
+import strategy as _strat
+_ind = {"close": 100.0, "t": 1700000000, "ema20": 99.5, "ema50": 98.0, "rsi": 55.0, "rsi_prev": 50.0, "atr": 1.0, "atr_pct": 1.0, "macd_h": 0.2, "macd_h_prev": 0.1,
+        "vol_ratio": 1.5, "trend_1h": "haussiere", "plus_haut_12h": 103, "plus_bas_12h": 95, "bas_recent": 99.0, "haut_recent": 101.0,
+        "touche_ema20_bas": True, "touche_ema20_haut": False, "var_24h_pct": 1.0}
+_sw = _strat.swing_signals(_real, "SOL", _ind, 1, 1)
+check("SWG-1 : signal long quand actif et marché montent sur 20 jours", len(_sw) == 1 and _sw[0]["strategie"] == "SWG-1" and _sw[0]["side"] == "long", str(_sw))
+check("SWG-1 : stop deux fois plus large (3 % ici) et objectif 3R", _sw and abs(_sw[0]["stop"] - 97.0) < 1e-6 and abs(_sw[0]["tp"] - 109.0) < 1e-6, str(_sw[:1]))
+check("SWG-1 : aucun signal si le marché baisse", _strat.swing_signals(_real, "SOL", _ind, 1, -1) == [])
+check("SWG-1 : aucun signal si l'actif baisse sur 20 jours", _strat.swing_signals(_real, "SOL", _ind, -1, 1) == [])
+check("SWG-1 : l'or n'a pas de marché de référence", len(_strat.swing_signals(_real, "PAXG", _ind, 1, None)) == 1)
+core.save("regime.json", {"t": core.iso(), "n": 20, "par_actif": {"SOL": -1, "BTC": -1, "ETH": 1}})
+_c2 = {**_real, "risque": {**_real["risque"], "gain_min_x_frais": 0, "crypto": {}}}
+_tkS = {"bid": 100.0, "ask": 100.01, "last": 100.0, "open": 100.0, "high": 101, "low": 99, "vol_eur": 5e6, "spread_pct": 0.01, "chg_pct": 0}
+_ok5, _why5, _ = _risk.check_open(_c2, core.new_state(_c2), {"sym": "SOL", "side": "long", "entry_ref": 100, "atr": 1, "stop": 97, "tp": 112, "strategie": "SWG-1", "agents": AGENTS_OK}, _tkS, {"SOL": 100.0})
+check("achat refusé contre la tendance de fond", (not _ok5) and any("tendance de fond" in w for w in _why5), str(_why5))
+_ok6, _why6, _ = _risk.check_open(_c2, core.new_state(_c2), {"sym": "SOL", "side": "short", "entry_ref": 100, "atr": 1, "stop": 103, "tp": 88, "strategie": "SWG-1", "agents": AGENTS_OK}, _tkS, {"SOL": 100.0})
+check("vente à découvert acceptée dans le sens de la tendance de fond", not any("tendance de fond" in w for w in _why6), str(_why6))
+_ok7, _why7, _ = _risk.check_open(_c2, core.new_state(_c2), {"sym": "ETH", "side": "long", "entry_ref": 3000, "atr": 30, "stop": 2910, "tp": 3360, "strategie": "SWG-1", "agents": AGENTS_OK},
+                                  {**_tkS, "bid": 3000.0, "ask": 3000.3, "last": 3000.0}, {"ETH": 3000.0})
+check("achat refusé si BTC (marché) baisse", any("marché" in w for w in _why7), str(_why7))
+_stS = core.new_state(_c2)
+_cand = {"sym": "SOL", "strategie": "SWG-1", "side": "short", "entry_ref": 100.0, "stop": 103.0, "tp": 91.0, "atr": 1.0, "rr_net": 1.9, "score": 70, "pourquoi": "test", "alertes": [], "duree_max_h": 192, "t_signal": 1}
+tick.guard_entry(_c2, _stS, {"SOL": _tkS}, {"candidats": [_cand]})
+check("trader de garde : entrée automatique SWG-1", len(_stS["positions"]) == 1 and _stS["positions"][0]["strategie"] == "SWG-1" and _stS["positions"][0]["duree_max_h"] == 192,
+      str([(p["strategie"], p["duree_max_h"]) for p in _stS["positions"]]))
+_stS["positions"] = []
+tick.guard_entry(_c2, _stS, {"SOL": _tkS}, {"candidats": [_cand]})
+check("pas de nouvelle entrée sur le même signal après une sortie", not _stS["positions"])
+_stS["positions"] = [{"sym": "SOL", "side": "short", "entry": 100.0, "stop": 103.0, "stop_initial": 103.0, "strategie": "SWG-1"}]
+tick.guard_protect(_c2, _stS, {"SOL": {**_tkS, "last": 96.0, "bid": 95.99, "ask": 96.0}})
+check("SWG-1 : pas de stop remonté au prix d'entrée", _stS["positions"][0]["stop"] == 103.0)
+import os as _os
+try: _os.remove(_os.path.join(core.DATA, "regime.json"))
+except Exception: pass
 
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

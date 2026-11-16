@@ -38,18 +38,17 @@
     "duree_max_position_h": 24,
     "derive_prix_max_atr": 0.5,
     "volume_24h_min_eur_actions": 2000,
-    "max_actions_meme_sens": 2,
+    "max_actions_meme_sens": 3,
     "gain_min_x_frais": 3.0,
     "crypto": {
-      "max_positions": 1,
+      "max_positions": 2,
       "max_entrees_par_jour": 2,
       "gain_min_x_frais": 5.0,
-      "note": "Cryptos très limitées : frais environ 10 fois ceux des actions. Une seule position crypto à la fois, 2 entrées par jour, objectif au moins 5 fois les frais (environ 6 à 7 % de mouvement visé). Les actions gardent les règles normales."
+      "note": "Cryptos limitées : frais environ 10 fois ceux des actions. Deux positions crypto au maximum, 2 entrées par jour, objectif au moins 5 fois les frais."
     }
   },
   "strategies_actives": [
-    "TPB-1",
-    "BRK-1",
+    "SWG-1",
     "OPP-1"
   ],
   "univers": [
@@ -423,7 +422,7 @@
       "seuil_verrouillage_R": 2.0,
       "verrouille_R": 1.0
     },
-    "note": "Agit seul toutes les 5 min, règles fixes, sans IA. Le comité contrôle ses actions à chaque réunion.",
+    "note": "Agit seul toutes les 5 min, règles fixes, sans IA. Depuis le 16 nov : il ne prend que les signaux SWG-1.",
     "laisser_courir": {
       "actif": true,
       "part_encaissee": 0.5,
@@ -432,12 +431,12 @@
       "note": "À l'objectif : on encaisse la moitié, le reste continue avec un stop qui suit le prix à 1R. La perte, elle, reste toujours plafonnée."
     },
     "cassure_fraiche": {
-      "actif": true,
+      "actif": false,
       "score_min": 70,
       "rr_net_min": 1.5,
       "retard_max_atr": 0.5,
       "risque_par_trade_pct": 0.5,
-      "note": "Entrée seule sur une cassure BRK-1 qui vient de se produire, si le prix n'a pas déjà trop couru (moins de 0,5 ATR après le signal)."
+      "note": "Entrée seule sur une cassure BRK-1 qui vient de se produire, si le prix n'a pas déjà trop couru (moins de 0,5 ATR après le signal). DÉSACTIVÉ le 16 nov : les cassures 15 min perdent sur l'historique (-1,6R par trade sur les cryptos)."
     },
     "sortie_rapide": {
       "actif": true,
@@ -446,7 +445,7 @@
       "note": "Une position BRK-1 qui revient de 1 ATR contre nous dans les 3 h est fermée tout de suite : la cassure a échoué. Perte divisée par deux par rapport au stop."
     },
     "impulsion": {
-      "actif": true,
+      "actif": false,
       "actifs": "memecoins",
       "bougie_min": 5,
       "nb_bougies": 3,
@@ -462,9 +461,17 @@
       "eteinte_apres_min": 30,
       "encaisse_a_R": 1.0,
       "part_encaissee": 0.5,
-      "note": "Impulsion violente sur un memecoin (3 bougies de 5 min, volume x3) : entrée immédiate dans le sens du mouvement, stop à la moitié de l'impulsion, moitié encaissée à +1R, sortie si l'impulsion s'éteint en 30 min."
+      "note": "Impulsion violente sur un memecoin (3 bougies de 5 min, volume x3) : entrée immédiate dans le sens du mouvement, stop à la moitié de l'impulsion, moitié encaissée à +1R, sortie si l'impulsion s'éteint en 30 min. DÉSACTIVÉ le 16 nov : 58 impulsions rejouées, -0,9 à -1,4 % par trade après frais."
     },
-    "deja_fait_max_pct": 100.0
+    "deja_fait_max_pct": 100.0,
+    "swing_auto": {
+      "actif": true,
+      "score_min": 60,
+      "rr_net_min": 1.5,
+      "risque_par_trade_pct": 1.0,
+      "max_par_jour": 3,
+      "note": "Le trader de garde prend seul les signaux SWG-1 : c'est la règle mécanique qui a été testée, pas le jugement du comité."
+    }
   },
   "focus": {
     "categories_prioritaires": [
@@ -563,5 +570,16 @@
     ],
     "note": "youtube : liste de {nom, channel_id}. Le moteur lit le flux public de chaque chaîne. tiktok : pas de flux public gratuit, les comptes sont relus par le comité via recherche web."
   },
-  "exclusions": []
+  "exclusions": [],
+  "swing": {
+    "actif": true,
+    "bougie_min": 60,
+    "regime_jours": 20,
+    "regime_obligatoire": true,
+    "stop_x": 2.0,
+    "objectif_R": 3.0,
+    "duree_max_h": 192,
+    "protection": false,
+    "note": "SWG-1 (16 nov 2026) : repli dans la tendance en bougies 1 h, seulement dans le sens de la tendance de fond 20 jours de l'actif et de son marché (BTC pour les cryptos, QQQ pour les actions). Stop deux fois plus large, objectif 3R (moitié encaissée, le reste suit), jusqu'à 8 jours. Pas de stop remonté au prix d'entrée : testé, ça coupe les bons trades. Résultats des tests : lab/RESULTATS.md."
+  }
 }

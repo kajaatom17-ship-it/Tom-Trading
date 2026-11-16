@@ -65,8 +65,8 @@ def main():
         for k in ("sym", "side", "stop", "tp", "entry_ref", "strategie"):
             if k not in d:
                 problems.append(f"champ manquant : {k}")
-        if d.get("strategie") not in ("TPB-1", "BRK-1", "OPP-1"):
-            problems.append("strategie doit être TPB-1, BRK-1 ou OPP-1")
+        if d.get("strategie") not in ("SWG-1", "OPP-1"):
+            problems.append("strategie doit être SWG-1 ou OPP-1 (TPB-1 et BRK-1 sont retirées depuis le 16 nov)")
     if action == "ajouter_actif" and not problems:
         from tick import add_asset
         prev = add_asset(config(), d, dry=True)

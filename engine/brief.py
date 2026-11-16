@@ -95,6 +95,8 @@ def main():
                               "videos_recentes_48h": load("videos.json", [])[-15:],
                               "comptes_tiktok_a_verifier": cfg.get("sources_externes", {}).get("tiktok", []),
                               "note": "Indices seulement. Un sujet qui monte dans l'actualité ou une vidéo de pro ne justifie une entrée que si le prix et le volume confirment. Garder un esprit critique : qui parle, quel intérêt, déjà dans le prix ? Voir COMITE.md."}
+    out["strategie_en_vigueur"] = {"nom": "SWG-1", "bougies": f"{sig.get('bougie_min', 60)} min", "tendance_de_fond_20j": sig.get("tendance_de_fond", {}),
+                                   "note": "+1 = l'actif monte sur 20 jours, -1 = il baisse. Le moteur refuse tout trade contre ce sens (sauf OPP-1). Le trader de garde prend seul les candidats SWG-1. Le comité surveille : voir le haut de COMITE.md."}
     out["actions_en_vue"] = actions_en_vue(cfg, load("videos.json", []))
     out["derniers_trades"] = load("trades.json", [])[-5:]
     out["dernieres_decisions"] = [{"id": d["id"], "action": d.get("action"), "sym": d.get("sym"),

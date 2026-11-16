@@ -53,6 +53,18 @@ def check_open(cfg, state, prop, tick, prices):
     slip = F["slippage_pct_par_tier"][tier]
     fill = tick["ask"] * (1 + slip / 100) if side == "long" else tick["bid"] * (1 - slip / 100)
 
+    # jamais contre la tendance de fond (20 jours) de l'actif ni de son marché : sur l'historique, ces trades perdent presque toujours
+    SW = cfg.get("swing", {})
+    if SW.get("regime_obligatoire") and not opp:
+        reg = load("regime.json", {}).get("par_actif", {})
+        d = 1 if side == "long" else -1
+        a_cfg = next(a for a in cfg["univers"] if a["sym"] == sym)
+        ref = None if a_cfg.get("cat") == "Or" else ("QQQ" if a_cfg.get("classe") == "action" else "BTC")
+        if sym in reg and reg[sym] != d:
+            reasons.append(f"Contre la tendance de fond : {sym} {'monte' if reg[sym] > 0 else 'baisse' if reg[sym] < 0 else 'est sans tendance'} sur {SW.get('regime_jours', 20)} jours.")
+        elif ref and ref in reg and reg[ref] != d:
+            reasons.append(f"Contre la tendance de fond du marché : {ref} {'monte' if reg[ref] > 0 else 'baisse'} sur {SW.get('regime_jours', 20)} jours.")
+
     # gros mouvements seulement : l'objectif doit valoir plusieurs fois les frais (règle de Tom, 15 nov)
     xf = R.get("gain_min_x_frais", 0)
     if not stock and C.get("gain_min_x_frais") and prop.get("strategie") != "MOM-1":  # les impulsions rapides gardent le seuil normal

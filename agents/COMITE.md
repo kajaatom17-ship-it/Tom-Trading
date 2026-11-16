@@ -1,7 +1,29 @@
 # Protocole du comité d'agents — Trading Desk IA (paper trading)
 
-Ce fichier est lu par Claude à chaque réunion du comité (deux tâches planifiées décalées, une réunion toutes les 30 minutes).
+Ce fichier est lu par Claude à chaque réunion du comité (une réunion par heure depuis le 16 nov : les signaux sont en bougies 1 h).
 Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/data/`.
+
+## RÈGLES EN VIGUEUR DEPUIS LE 16 NOVEMBRE 2026 — elles remplacent tout ce qui les contredit plus bas
+
+**Pourquoi ce changement.** Après 15 trades : +3,8 € brut, 9,5 € de frais, -5,7 € net. Le Strategy Lab (`lab/RESULTATS.md`) a rejoué les stratégies sur l'historique Kraken avec les vrais frais :
+- TPB-1 et BRK-1 en 15 min : environ 1 000 trades simulés, résultat nul même sans frais, et -1,5 % par trade crypto avec frais. **Retirées.**
+- Impulsions MOM-1 : 58 cas, -0,9 à -1,4 % par trade. **Désactivées.**
+- Tout trade **contre la tendance de fond 20 jours** perd presque toujours (achats crypto du dernier mois : 4 à 9 % de réussite).
+- Seule configuration positive après frais : **SWG-1**.
+
+**SWG-1 (la seule stratégie automatique).** Repli dans la tendance en bougies **1 h**, uniquement dans le sens de la tendance de fond 20 jours de l'actif ET de son marché (BTC pour les cryptos, QQQ pour les actions, rien pour l'or). Stop deux fois plus large qu'avant (souvent 3 à 4 %), objectif 3R (moitié encaissée, le reste suit), position tenue **jusqu'à 8 jours**. Pas de stop remonté au prix d'entrée. Peu de trades : quelques-uns par semaine.
+
+**Qui fait quoi.**
+- **Le trader de garde prend seul les signaux SWG-1** (règle mécanique, c'est elle qui a été testée). Le comité n'a pas à les valider.
+- **Le moteur refuse** tout trade contre la tendance de fond (sauf OPP-1), plus de 2 positions crypto, plus de 2 entrées crypto par jour, et tout objectif trop petit par rapport aux frais.
+- **Le comité devient superviseur :**
+  1. **Positions ouvertes : on les laisse travailler.** Le test repose sur des trades qui durent. Ne JAMAIS fermer parce que « ça n'avance pas » ou « c'est un peu contre nous ». Fermer seulement pour un fait nouveau, daté et sourcé, qui casse le scénario (résultats d'entreprise, décision de banque centrale, piratage, etc.). L'écrire dans la décision.
+  2. **Actualités et calendrier :** signaler les annonces à risque dans les 24 h pour les positions ouvertes (résultats, CPI, Fed). Lire `actions_en_vue` et `tendance_de_fond` dans le briefing.
+  3. **OPP-1 uniquement** pour une nouvelle entrée du comité : catalyseur daté et sourcé de moins de 24 h, comme avant. Une entrée SWG-1 du comité n'est acceptée que si le scanner la propose (liste `candidats`) et que le trader de garde ne l'a pas prise à cause d'une limite.
+  4. **`none` est la décision normale.** La plupart des réunions doivent se terminer sans rien déposer.
+- `strategie` dans decision.json : `SWG-1` ou `OPP-1` seulement.
+
+**Attentes honnêtes à garder en tête.** SWG-1 gagne environ 4 à 5 fois sur 10. Sur les tests : environ +0,2R à +0,4R par trade, soit de l'ordre de +20 à +50 € sur 1 à 3 mois pour 500 €, avec des baisses de 4 à 10 % en cours de route. L'échantillon est petit (30 à 40 trades) et le dernier mois était très baissier : rien n'est garanti. On juge après 30 trades SWG-1 réels, pas avant.
 
 ## Règles non négociables
 

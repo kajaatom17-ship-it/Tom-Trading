@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from core import (_row as _row_public, fees, eurusd, costs_roundtrip_pct, is_meme, ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
                   is_stock, now_utc, ohlc, pair_of, paris_day, parse_iso, position_value, r2, rp, save, tickers, tier_of)
 from risk import check_open
-from strategy import analyse, signals
+from strategy import analyse, signals, ref_of, swing_signals
 
 ENGINE_VERSION = "1.0"
 
@@ -195,8 +195,9 @@ def open_position(cfg, state, prop, sizing):
         "notionnel": sizing["notionnel"], "frais_entree": fee, "stop": float(prop["stop"]),
         "stop_initial": float(prop["stop"]), "tp": float(prop["tp"]), "risque_eur": sizing["risque_eur"],
         "rr_net": round(sizing["rr_net"], 2), "ouvert_le": iso(), "verifie_jusqu_a": iso(),
-        "duree_max_h": min(float(prop.get("duree_max_h", cfg["risque"]["duree_max_position_h"])), 72,
-                           *( [cfg["memecoins"]["duree_max_h"]] if cfg.get("memecoins") and is_meme(cfg, prop["sym"]) else [] )),
+        "duree_max_h": (float(cfg.get("swing", {}).get("duree_max_h", 192)) if prop.get("strategie") == "SWG-1" else
+                        min(float(prop.get("duree_max_h", cfg["risque"]["duree_max_position_h"])), 72,
+                            *([cfg["memecoins"]["duree_max_h"]] if cfg.get("memecoins") and is_meme(cfg, prop["sym"]) else []))),
         "decision_id": prop["id"], "dernier_prix": sizing["fill"],
         **({"atr": float(prop["atr"])} if prop.get("atr") else {}),
         **({"catalyseur": prop.get("catalyseur")} if prop.get("strategie") == "OPP-1" else {}),
@@ -558,6 +559,8 @@ def guard_protect(cfg, state, tk):
         fee = fees(cfg, p["sym"])[1] / 100
         t = tk.get(p["sym"])
         if not t or p.get("runner"):
+            continue
+        if p.get("strategie") == "SWG-1" and not cfg.get("swing", {}).get("protection"):
             continue
         risk_px = abs(p["entry"] - p["stop_initial"])
         if risk_px <= 0:
@@ -924,12 +927,41 @@ def guard_entry(cfg, state, tk, sig):
         return
     E = G.get("entree_auto", {})
     day = paris_day()
-    if state.get("garde_par_jour", {}).get(day, 0) >= E.get("max_par_jour", 1):
-        return
     held = {p["sym"] for p in state["positions"]}
     pending = {o["sym"] for o in state.get("ordres_attente", [])}
     F = G.get("cassure_fraiche", {})
+    W = G.get("swing_auto", {})
     for c in sig.get("candidats", []):
+        if c["strategie"] != "SWG-1" or not W.get("actif"):
+            continue
+        if c.get("alertes") or c["score"] < W.get("score_min", 60) or c["rr_net"] < W.get("rr_net_min", 1.5):
+            continue
+        if c["sym"] in held or c["sym"] in pending or state.get("swing_vus", {}).get(c["sym"]) == c.get("t_signal"):
+            continue
+        if state.get("swing_par_jour", {}).get(day, 0) >= W.get("max_par_jour", 3):
+            break
+        prop = {"id": f"S-{now_utc().strftime('%Y%m%d-%H%M%S')}-{c['sym']}", "action": "open", "sym": c["sym"], "side": c["side"],
+                "strategie": "SWG-1", "entry_ref": c["entry_ref"], "atr": c["atr"], "stop": c["stop"], "tp": c["tp"],
+                "duree_max_h": c.get("duree_max_h", 192), "risque_pct_override": W.get("risque_par_trade_pct", 1.0),
+                "agents": {"trader_de_garde": {"avis": "favorable", "resume": c["pourquoi"]},
+                           "risk_manager": {"verdict": "valide", "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."}},
+                "synthese": f"Entrée automatique SWG-1 sur {c['sym']} ({'achat' if c['side'] == 'long' else 'vente à découvert'}) : {c['pourquoi']} RR net {c['rr_net']}. Position prévue pour durer plusieurs jours."}
+        ok, reasons, sizing = check_open(cfg, state, prop, tk.get(c["sym"]), {s: x["last"] for s, x in tk.items()})
+        if not ok:
+            continue
+        pid = open_position(cfg, state, prop, sizing)
+        state.setdefault("swing_par_jour", {})[day] = state.get("swing_par_jour", {}).get(day, 0) + 1
+        state.setdefault("swing_vus", {})[c["sym"]] = c.get("t_signal")
+        held.add(c["sym"])
+        prop["resultat"] = {"statut": "execute", "position_id": pid, "prix": rp(sizing["fill"]), "risque_eur": r2(sizing["risque_eur"])}
+        prop["cree_le"] = prop["traite_le"] = iso()
+        decisions = load("decisions.json", []); decisions.append(prop); save("decisions.json", decisions[-500:])
+        log_event("Trader de garde", "entrée", f"Entrée SWG-1 : {c['sym']} {c['side']}, stop {c['stop']}, objectif {c['tp']}, risque {sizing['risque_eur']:.2f} €.")
+    if state.get("garde_par_jour", {}).get(day, 0) >= E.get("max_par_jour", 1):
+        return
+    for c in sig.get("candidats", []):
+        if c["strategie"] == "SWG-1":
+            continue
         t1 = tk.get(c["sym"])
         if t1:  # trop tard : le mouvement est déjà fait (règle de Tom, NEAR -6 % le 14 nov)
             if c["side"] == "short":
@@ -974,15 +1006,45 @@ def compact(cs, n):
     return [[c["t"], rp(c["o"]), rp(c["h"]), rp(c["l"]), rp(c["c"]), round(c["v"], 4)] for c in cs[-n:]]
 
 
+def regimes(cfg):
+    """Tendance de fond : sens de la variation sur N jours (bougies journalières clôturées). +1, -1 ou 0. Recalculée toutes les 6 h."""
+    SW = cfg.get("swing", {}); n = SW.get("regime_jours", 20)
+    prev = load("regime.json", {})
+    syms = [a["sym"] for a in cfg["univers"] if a.get("cat") != "Emergent"]
+    if prev.get("t") and prev.get("n") == n and (now_utc() - parse_iso(prev["t"])).total_seconds() < 6 * 3600 and all(s in prev.get("par_actif", {}) for s in syms):
+        return prev
+    out = {"t": iso(), "n": n, "par_actif": {}, "variation_pct": {}}
+    for a in cfg["univers"]:
+        if a.get("cat") == "Emergent":
+            continue
+        try:
+            d = ohlc(a["pair"], 1440)[:-1]
+            if len(d) > n:
+                v = d[-1]["c"] / d[-1 - n]["c"] - 1
+                out["par_actif"][a["sym"]] = 1 if v > 0 else -1
+                out["variation_pct"][a["sym"]] = round(v * 100, 1)
+            else:
+                out["par_actif"][a["sym"]] = 0
+        except Exception as e:
+            DIAG.append(f"régime {a['sym']}: {type(e).__name__}")
+            if a["sym"] in prev.get("par_actif", {}):
+                out["par_actif"][a["sym"]] = prev["par_actif"][a["sym"]]
+        time.sleep(1.1)
+    save("regime.json", out)
+    return out
+
+
 def scan(cfg):
     inds, cands = {}, []
     btc_trend = "neutre"
+    SW = cfg.get("swing", {}) if cfg.get("swing", {}).get("actif") else {}
+    reg = regimes(cfg).get("par_actif", {}) if SW else {}
     candles, books = {}, {}
     for a in cfg["univers"]:
         if a.get("cat") == "Emergent":  # suivis par le chasseur de mouvements, pas par le scanner lent
             continue
         try:
-            c = ohlc(a["pair"], 15)
+            c = ohlc(a["pair"], SW.get("bougie_min", 15))
             ind = analyse(c)
             if not ind:
                 DIAG.append(f"{a['sym']}: {len(c)} bougies")
@@ -1011,12 +1073,18 @@ def scan(cfg):
         if a["sym"] == "BTC":
             btc_trend = ind["trend_1h"]
         inds[a["sym"]] = {k: (rp(v) if isinstance(v, float) else v) for k, v in ind.items()}
+    by_sym = {a["sym"]: a for a in cfg["univers"]}
     for sym, ind in inds.items():
-        cands += signals(cfg, sym, ind, btc_trend)
-    cands.sort(key=lambda s: -s["score"])
+        if SW:
+            ref = ref_of(by_sym[sym])
+            cands += swing_signals(cfg, sym, ind, reg.get(sym, 0), reg.get(ref, 0) if ref else None)
+        else:
+            cands += signals(cfg, sym, ind, btc_trend)
+    cands.sort(key=lambda s: (-s["score"], 0 if by_sym.get(s["sym"], {}).get("classe") == "action" else 1))  # à score égal, les actions d'abord (frais bas)
     if os.environ.get("TD_SNAPSHOT"):
         save("candles.json", {"t": iso(), "candles": candles, "carnets": books}, compact=True)
-    return {"t": iso(), "btc_trend_1h": btc_trend, "candidats": cands, "indicateurs": inds}
+    return {"t": iso(), "btc_trend_1h": btc_trend, "candidats": cands, "indicateurs": inds,
+            "bougie_min": SW.get("bougie_min", 15), "tendance_de_fond": reg}
 
 
 def sentiment(market):

@@ -347,7 +347,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
   <div class="panel">
     <h3>Signaux du scanner</h3>
     <div class="rows" id="sigTable"></div>
-    <p class="hint">Le scanner applique les règles TPB-1 (repli dans la tendance) et BRK-1 (cassure avec volume) toutes les 5 minutes. Il propose, le comité décide.</p>
+    <p class="hint">Depuis le 16 nov : une seule règle, SWG-1. Repli dans la tendance en bougies 1 h, seulement dans le sens de la tendance de fond 20 jours. Stop large, objectif 3 fois le risque, position tenue jusqu'à 8 jours. Le trader de garde entre seul, le comité surveille.</p>
   </div>
 </section>
 
@@ -737,7 +737,7 @@ function renderInd(){
   const i=S.signals.indicateurs?.[S.sel]; const sg=(S.signals.candidats||[]).filter(c=>c.sym===S.sel);
   if(!i){ $("cInd").innerHTML=`<div class="empty">Pas encore d'analyse pour cet actif.</div>`; return; }
   const trend={haussiere:"haussière",baissiere:"baissière",neutre:"neutre"}[i.trend_1h];
-  $("cInd").innerHTML=`<div class="ind num"><div><span>Tendance 1 h</span>${trend}</div><div><span>RSI 15 min</span>${String(i.rsi).replace(".",",")}</div><div><span>Volatilité (ATR)</span>${String(i.atr_pct).replace(".",",")} %</div><div><span>Volume vs moyenne</span>×${String(i.vol_ratio).replace(".",",")}</div><div><span>Plus haut 12 h</span>${px(i.plus_haut_12h)}</div><div><span>Plus bas 12 h</span>${px(i.plus_bas_12h)}</div></div>
+  $("cInd").innerHTML=`<div class="ind num"><div><span>Tendance 4 h</span>${trend}</div><div><span>RSI 1 h</span>${String(i.rsi).replace(".",",")}</div><div><span>Volatilité (ATR)</span>${String(i.atr_pct).replace(".",",")} %</div><div><span>Volume vs moyenne</span>×${String(i.vol_ratio).replace(".",",")}</div><div><span>Plus haut 48 h</span>${px(i.plus_haut_12h)}</div><div><span>Plus bas 48 h</span>${px(i.plus_bas_12h)}</div></div>
   <p class="hint">${sg.length?sg.map(s=>`<b style="color:var(--text)">Signal ${esc(s.strategie)} ${s.side}</b> : ${esc(s.pourquoi)} ${esc((s.alertes||[]).join(", "))}`).join("<br>"):"Aucun signal sur cet actif : les règles ne sont pas réunies."} <span class="faint">Analyse ${ago(S.signals.t)}.</span></p>`;
 }
 async function loadBook(){
@@ -767,7 +767,7 @@ function show(tab){
 document.querySelector(".tabs").addEventListener("click",e=>{const b=e.target.closest("button"); if(b){ if(location.hash!=="#"+b.dataset.tab) location.hash=b.dataset.tab; else show(b.dataset.tab);} });
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)||"accueil"));
 
-const BUILD="20261114b";
+const BUILD="20261116a";
 function hardReload(){ const u=new URL(location.href); u.searchParams.set("v",Date.now()); location.replace(u.toString()); }
 $("btnRefresh").addEventListener("click",()=>{ $("btnRefresh").classList.add("spin"); hardReload(); });
 async function checkVersion(){ try{ const r=await fetch(location.pathname+"?t="+Date.now(),{cache:"no-store"}); const m=(await r.text()).match(/const BUILD="([^"]+)"/); if(m&&m[1]!==BUILD) hardReload(); }catch(e){} }
