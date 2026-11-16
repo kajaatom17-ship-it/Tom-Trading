@@ -64,7 +64,7 @@ AGENTS_OK = {"analyste_technique": {"avis": "test"}, "analyste_macro": {"avis": 
 
 _cfg0 = core.config
 _FR_TEST = {"taker_pct": 0.4, "maker_pct": 0.25, "slippage_pct_par_tier": _cfg0()["frais"]["slippage_pct_par_tier"]}  # frais d'avant le 15 nov : les scénarios des tests 1 à 21 sont calibrés dessus
-core.config = lambda: {**_cfg0(), "exclusions": [], "frais": _FR_TEST}  # les tests utilisent NEAR
+core.config = lambda: {**_cfg0(), "exclusions": [], "frais": _FR_TEST, "risque": {**_cfg0()["risque"], "crypto": {}}}  # les tests utilisent NEAR
 tick.config = core.config
 cfg = core.config()
 fails = 0
@@ -474,6 +474,15 @@ _ok, _why, _ = _risk.check_open(_real, _st, {"sym": "SOL", "side": "long", "entr
 check("objectif de 2,5 % refusé sur une crypto (frais trop lourds)", (not _ok) and any("Objectif trop petit" in w for w in _why), str(_why))
 _ok2, _why2, _ = _risk.check_open(_real, _st, {"sym": "SOL", "side": "long", "entry_ref": 100, "atr": 3, "stop": 97, "tp": 112, "strategie": "TEST", "agents": AGENTS_OK}, _tk["SOL"], {"SOL": 100.0})
 check("objectif de 12 % accepté sur une crypto", not any("Objectif trop petit" in w for w in _why2), str(_why2))
+
+
+# 23. cryptos limitées (16 nov) : une seule position crypto à la fois, les actions restent libres
+_c = {**_real, "risque": {**_real["risque"], "gain_min_x_frais": 0, "crypto": {"max_positions": 1, "max_entrees_par_jour": 2}}}
+_st2 = core.new_state(_c)
+_st2["positions"] = [{"sym": "SOL", "side": "long", "qty": 1, "entry": 100.0}]
+_ok3, _why3, _ = _risk.check_open(_c, _st2, {"sym": "ETH", "side": "long", "entry_ref": 3000, "atr": 50, "stop": 2940, "tp": 3300, "strategie": "TEST", "agents": AGENTS_OK},
+                                  {"bid": 3000.0, "ask": 3000.5, "last": 3000.0, "open": 3000, "high": 3010, "low": 2990, "vol_eur": 5e7, "spread_pct": 0.01, "chg_pct": 0}, {"ETH": 3000.0})
+check("2e position crypto refusée (cryptos limitées)", any("Cryptos : déjà" in w for w in _why3), str(_why3))
 
 print("\n" + ("TOUS LES TESTS PASSENT" if not fails else f"{fails} ECHEC(S)"))
 sys.exit(1 if fails else 0)

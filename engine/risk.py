@@ -31,6 +31,7 @@ def check_open(cfg, state, prop, tick, prices):
 
     stop, tp = float(prop["stop"]), float(prop["tp"])
     stock = is_stock(pair_of(cfg, sym) or "")
+    C = R.get("crypto", {})
     opp = prop.get("strategie") == "OPP-1"
     O = cfg.get("opportunite", {})
     rr_min = O.get("rr_net_min", 2.0) if opp else R["rr_net_min"]
@@ -54,6 +55,8 @@ def check_open(cfg, state, prop, tick, prices):
 
     # gros mouvements seulement : l'objectif doit valoir plusieurs fois les frais (règle de Tom, 15 nov)
     xf = R.get("gain_min_x_frais", 0)
+    if not stock and C.get("gain_min_x_frais") and prop.get("strategie") != "MOM-1":  # les impulsions rapides gardent le seuil normal
+        xf = C["gain_min_x_frais"]
     if xf and not opp:
         win_cost = costs_pct(cfg, sym)[0]
         tp_pct = abs(tp - fill) / fill * 100
@@ -96,6 +99,12 @@ def check_open(cfg, state, prop, tick, prices):
         reasons.append(f"Déjà {R['max_entrees_par_jour']} entrées aujourd'hui.")
     if len(state["positions"]) >= R["max_positions_ouvertes"]:
         reasons.append(f"Déjà {R['max_positions_ouvertes']} positions ouvertes.")
+    if C and not stock:  # cryptos : frais x10 par rapport aux actions, donc strictement limitées (règle de Tom, 16 nov)
+        pos_crypto = sum(1 for p in state["positions"] if not is_stock(pair_of(cfg, p["sym"]) or ""))
+        if pos_crypto >= C.get("max_positions", 1):
+            reasons.append(f"Cryptos : déjà {pos_crypto} position crypto ouverte (maximum {C.get('max_positions', 1)}). On se concentre sur les actions (frais bien plus bas).")
+        if state.get("entrees_crypto_par_jour", {}).get(day, 0) >= C.get("max_entrees_par_jour", 2):
+            reasons.append(f"Cryptos : déjà {C.get('max_entrees_par_jour', 2)} entrées crypto aujourd'hui (maximum).")
     if any(p["sym"] == sym for p in state["positions"]):
         reasons.append(f"Une position {sym} est déjà ouverte.")
     if stock:

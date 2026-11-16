@@ -39,7 +39,13 @@
     "derive_prix_max_atr": 0.5,
     "volume_24h_min_eur_actions": 2000,
     "max_actions_meme_sens": 2,
-    "gain_min_x_frais": 3.0
+    "gain_min_x_frais": 3.0,
+    "crypto": {
+      "max_positions": 1,
+      "max_entrees_par_jour": 2,
+      "gain_min_x_frais": 5.0,
+      "note": "Cryptos très limitées : frais environ 10 fois ceux des actions. Une seule position crypto à la fois, 2 entrées par jour, objectif au moins 5 fois les frais (environ 6 à 7 % de mouvement visé). Les actions gardent les règles normales."
+    }
   },
   "strategies_actives": [
     "TPB-1",

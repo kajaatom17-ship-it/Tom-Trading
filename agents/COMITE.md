@@ -239,3 +239,9 @@ Le short NEAR du trader de garde est arrivé après environ -6 % dans la journé
 3. **Or : préférer GLD à PAXG** (PAXG paie les frais crypto). Ne pas trader l'or pour un mouvement de moins de 1 %.
 4. **Se tenir informé.** À chaque réunion, lire `actions_en_vue` du briefing (actions citées dans les vidéos CNBC, Yahoo Finance, etc.) puis faire une recherche web pour comprendre pourquoi, avant toute entrée. Les vidéos sont lues par leur titre seulement. Une action citée n'est pas un signal : le prix et le volume doivent confirmer.
 5. **Contexte or (au 11 nov, sources : analystes, à vérifier) :** autour de 4 000 à 4 150 $ l'once, environ 27 % sous le record de janvier. Supports 4 000 puis 3 895, résistances 4 085 puis 4 200 à 4 225. Moteurs : inflation américaine (CPI, PPI), ton de la Fed, dollar, tensions Iran. Scénarios : cassure sous 3 895 vers 3 800, ou cassure au-dessus de 4 225. Dans le range, ne rien faire.
+
+## Cryptos très limitées, actions d'abord (règle de Tom, 16 nov)
+Bilan après 15 trades : +3,8 € brut, 9,5 € de frais, -5,7 € net. Les frais crypto mangent tout.
+- **Le moteur refuse** une 2e position crypto ouverte, plus de 2 entrées crypto par jour, et tout trade crypto du comité dont l'objectif vaut moins de 5 fois les frais (environ 6 à 7 % visés). Les impulsions MOM-1 gardent le seuil de 3 fois.
+- **Le comité cherche d'abord dans les actions** (xStocks) et GLD pour l'or. Une crypto ne se propose que pour un mouvement large et net.
+- Pendant les heures de marché américaines (15h30 à 22h, Paris), la nouvelle entrée doit être une action sauf cas exceptionnel. Hors de ces heures, les actions ont peu de volume : « none » vaut mieux qu'une crypto moyenne.

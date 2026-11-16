@@ -16,7 +16,7 @@ from datetime import timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from core import (_row as _row_public, fees, eurusd, costs_roundtrip_pct, is_meme, ARCHIVE, INBOX, KrakenError, config, equity, iso, kraken, load, log_event, new_state,
-                  now_utc, ohlc, pair_of, paris_day, parse_iso, position_value, r2, rp, save, tickers, tier_of)
+                  is_stock, now_utc, ohlc, pair_of, paris_day, parse_iso, position_value, r2, rp, save, tickers, tier_of)
 from risk import check_open
 from strategy import analyse, signals
 
@@ -185,6 +185,8 @@ def open_position(cfg, state, prop, sizing):
         state.setdefault("entrees_meme_par_jour", {})[day] = state.get("entrees_meme_par_jour", {}).get(day, 0) + 1
     else:
         state["entrees_par_jour"][day] = state["entrees_par_jour"].get(day, 0) + 1
+    if not is_stock(pair_of(cfg, prop["sym"]) or ""):
+        state.setdefault("entrees_crypto_par_jour", {})[day] = state.get("entrees_crypto_par_jour", {}).get(day, 0) + 1
     if prop.get("strategie") == "OPP-1":
         state.setdefault("opp_par_jour", {})[day] = state.get("opp_par_jour", {}).get(day, 0) + 1
     p = {
