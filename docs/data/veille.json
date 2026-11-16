@@ -1317,45 +1317,52 @@
  ],
  "alertes": [
   {
+   "sym": "ASTER",
+   "horizon": "15 min",
+   "variation_pct": 2.74,
+   "prix": 0.47066,
+   "t": "2026-11-16T01:31:12Z"
+  },
+  {
    "sym": "NVDA",
    "horizon": "15 min",
-   "variation_pct": -2.23,
-   "prix": 146.46762557284814,
-   "t": "2026-11-16T01:29:15Z"
+   "variation_pct": -2.21,
+   "prix": 146.4955434131465,
+   "t": "2026-11-16T01:31:12Z"
+  },
+  {
+   "sym": "PLTR",
+   "horizon": "15 min",
+   "variation_pct": 1.6,
+   "prix": 152.37714887359994,
+   "t": "2026-11-16T01:31:12Z"
+  },
+  {
+   "sym": "AVGO",
+   "horizon": "15 min",
+   "variation_pct": -1.65,
+   "prix": 307.9038611650662,
+   "t": "2026-11-16T01:31:12Z"
+  },
+  {
+   "sym": "COIN",
+   "horizon": "1 h",
+   "variation_pct": -4.75,
+   "prix": 109.29075825512372,
+   "t": "2026-11-16T01:31:12Z"
+  },
+  {
+   "sym": "INTC",
+   "horizon": "15 min",
+   "variation_pct": -2.21,
+   "prix": 52.88906638589867,
+   "t": "2026-11-16T01:31:12Z"
   },
   {
    "sym": "AMD",
    "horizon": "15 min",
    "variation_pct": -1.63,
    "prix": 465.76523435727574,
-   "t": "2026-11-16T01:29:15Z"
-  },
-  {
-   "sym": "PLTR",
-   "horizon": "15 min",
-   "variation_pct": 1.58,
-   "prix": 152.34811016833794,
-   "t": "2026-11-16T01:29:15Z"
-  },
-  {
-   "sym": "AVGO",
-   "horizon": "15 min",
-   "variation_pct": -1.67,
-   "prix": 307.8451835382731,
-   "t": "2026-11-16T01:29:15Z"
-  },
-  {
-   "sym": "COIN",
-   "horizon": "1 h",
-   "variation_pct": -4.77,
-   "prix": 109.26993057761241,
-   "t": "2026-11-16T01:29:15Z"
-  },
-  {
-   "sym": "INTC",
-   "horizon": "15 min",
-   "variation_pct": -2.23,
-   "prix": 52.87898724987522,
    "t": "2026-11-16T01:29:15Z"
   },
   {
@@ -1367,13 +1374,6 @@
   },
   {
    "sym": "ASTER",
-   "horizon": "15 min",
-   "variation_pct": -3.53,
-   "prix": 0.44911,
-   "t": "2026-11-16T00:30:27Z"
-  },
-  {
-   "sym": "ASTER",
    "horizon": "1 h",
    "variation_pct": -19.12,
    "prix": 0.47171,
@@ -1382,5 +1382,5 @@
  ],
  "t_actus": "2026-11-16T01:23:36Z",
  "erreurs_sources": [],
- "t": "2026-11-16T01:29:15Z"
+ "t": "2026-11-16T01:31:12Z"
 }
