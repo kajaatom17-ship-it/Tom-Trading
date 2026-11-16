@@ -1,41 +1,5 @@
 [
  {
-  "t": "2026-11-14T23:57:48Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "PENGU +3.19 % en 15 min"
- },
- {
-  "t": "2026-11-14T23:57:48Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "CRCL +2.76 % en 15 min"
- },
- {
-  "t": "2026-11-14T23:58:51Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 3 signal(aux) : GOOGL short (TPB-1, 60), PAXG short (TPB-1, 30), NVDA short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-14T23:59:44Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "BONK +2.6 % en 15 min"
- },
- {
-  "t": "2026-11-15T00:00:37Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "TRUMP +2.51 % en 15 min"
- },
- {
-  "t": "2026-11-15T00:29:00Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On ne fait rien : le seul trade possible (GOOGL) était trop juste et la Bourse est fermée."
- },
- {
   "t": "2026-11-15T00:29:06Z",
   "agent": "Chasseur de mouvements",
   "type": "réseaux sociaux",
@@ -2703,5 +2667,49 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 18 signal(aux) : BTC short (TPB-1, 30), ETH short (TPB-1, 30), SOL short (TPB-1, 30)"
+ },
+ {
+  "t": "2026-11-16T05:27:04Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO et on n'ouvre rien : aucun trade n'offre un gain assez large par rapport au risque, le marché est très calme et Nvidia approche."
+ },
+ {
+  "t": "2026-11-16T05:27:10Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AG, AVGO, CAPR, DXYZ, ETH, EURUSD, GLD, HELP, NMAX, NRG, NVDA, SLV"
+ },
+ {
+  "t": "2026-11-16T05:27:15Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 7 en mouvement : RARE +11.3 %, NIGHT -6.4 %, DRV -6.2 %."
+ },
+ {
+  "t": "2026-11-16T05:27:33Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Earnings call transcript: TVS Supply Chain Solutions Q2 2026 revenue jumps 38% (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-tvs-supply-chain-solutions-q2-2026-revenue-jumps-38-93CH-5028364",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-16T05:27:33Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Earnings call transcript: Belrise Industries Q2 2027 profit jumps, stock rises 11% (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-belrise-industries-q2-2027-profit-jumps-stock-rises-11-93CH-5028363",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-16T05:28:31Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 14 signal(aux) : AMZN short (TPB-1, 60), MSTR short (TPB-1, 60), CRCL short (TPB-1, 60)"
  }
 ]
