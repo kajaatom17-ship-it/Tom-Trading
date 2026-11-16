@@ -10569,5 +10569,117 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-16T00:56:36Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "HOOD short TPB-1 propre sur le papier (tendance 1 h baissière, RSI 58→50, MACD passé sous zéro, RR net 2,28), mais le volume x41 vient d'un carnet quasi vide à la réouverture. BTC (58 879 €) et ETH, SOL, XRP, LTC, SUI, DOGE : RR net entre 0,65 et 1,32, sous le seuil de 1,5. TAO short : prix 172,72 € contre entrée 173,76 €, stop 178,22 €, objectif 161,07 €, EMA20 15 min sous l'EMA50, tendance 1 h baissière : le scénario tient.",
+    "donnees": "brief Kraken 16/11/2026 01:25 UTC (02:25 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Calendrier du brief vide ; je n'ai trouvé aucune date 2026 confirmée par une source (les pages trouvées sont de 2025), donc aucun événement ajouté à l'agenda. Faits : le brief relaie Fed Schmid, qui évoque de possibles hausses de taux (Crypto Briefing, 15/11 23:03 UTC), et un week-end crypto à -130 Md$ avec 1,7 Md$ de liquidations (BigGo/bloomingbit, 15/11 ~22:00 UTC). Une semaine chargée est annoncée (procès-verbal de la Fed, résultats Nvidia) mais sans date 2026 vérifiée. Rien de daté et sourcé de moins de 24 h pour justifier OPP-1.",
+    "sources": [
+     "Fed's Schmid signals potential rate hikes - Crypto Briefing - 15/11/2026 23:03 UTC - brief veille",
+     "Bitcoin's Weekend Plunge Wipes $130 Billion - BigGo Finance - 15/11/2026 22:05 UTC - brief veille"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), capitalisation totale -2,5 % sur 24 h, dominance BTC 59,38 %. En peur extrême après liquidations, les rebonds violents sont fréquents : vendre à découvert maintenant, c'est vendre après le gros du mouvement. Buzz réseaux : aucune mention chiffrée, donc aucun indice exploitable."
+   },
+   "trader": {
+    "proposition": "Garder le short TAO. Pas de nouvelle entrée : HOOD est le seul candidat au-dessus de 1,5 mais la séance américaine est fermée jusqu'à 15:30 Paris.",
+    "pour": [
+     "HOOD short : RR net 2,28, aucune alerte du scanner",
+     "Tendance 1 h baissière confirmée"
+    ],
+    "contre": [
+     "Carnet xStocks peu profond la nuit",
+     "QQQ et SPY en tendance 1 h haussière",
+     "Résultats Nvidia et procès-verbal de la Fed cette semaine, dates 2026 non vérifiées",
+     "Aucun candidat crypto n'atteint RR 1,5"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Garder TAO : perte max déjà fixée par le stop 178,22 €, latent +0,60 €. Refus de HOOD pour cette réunion : le seul signal propre arrive en séance fermée, contre la tendance du Nasdaq, sans catalyseur vérifié. Aucune urgence à faire tourner le portefeuille."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "Tour de table technique. TAO short : 172,72 € contre entrée 173,76 €, RSI 43,7, MACD -0,28, tendance 1 h baissière, +0,60 € latent. Seul candidat du scanner au-dessus du seuil : HOOD short TPB-1, RR net 2,28, score 70. Les autres cryptos sont entre 0,65 (BTC) et 1,32 (SUI)."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Aucune annonce datée et sourcée dans les 2 h. Le brief relaie Schmid (Fed) qui évoque des hausses de taux, 15/11 23:03 UTC : c'est un fait, mais pas un catalyseur daté. Je n'ai pas pu confirmer de date 2026 pour les résultats Nvidia, donc je n'ajoute rien à l'agenda."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 10, capitalisation -2,5 %. Après 1,7 Md$ de liquidations, le risque de rebond violent est réel pour tout short crypto ; pour HOOD, titre lié à la crypto (COIN -4,5 % en 1 h), c'est le même risque."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "Je propose le short HOOD : entrée 68,28, stop 69,24, objectif 65,43, RR net 2,28, tendance 1 h baissière."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "Je nuance ma propre ligne : le volume x41 sur HOOD vient d'un volume moyen quasi nul à la réouverture, pas d'une vraie vente. Le stop est à 4,5 ATR en valeur mais l'ATR 15 min de 0,21 est calculé sur des bougies fines : le signal est moins solide que son score 70."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Objection : QQQ et SPY sont en tendance 1 h haussière (QQQ 615,50). Shorter une action sur la seule faiblesse d'un titre, juste avant l'ouverture américaine et une semaine à gros événements (Nvidia, Fed), c'est parier contre l'indice sans catalyseur."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_macro",
+    "message": "Le stop limite la perte, mais le glissement est incertain sur un carnet fin. Je ne retire pas l'idée, je la reporte : si HOOD reste sous son EMA20 après 15:30 Paris avec un volume normal, le signal sera plus propre."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je ne bloque pas par principe, mais sans confirmation de volume réel, entrer maintenant, c'est vendre dans la panique d'hier. Les peurs extrêmes finissent souvent par un rebond."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Verdict : refus de HOOD pour cette réunion, définitif. Garder TAO : le stop 178,22 € (+2,6 % au-dessus) fixe la perte, rien n'a cassé le scénario. Corrélation : un second short sur un titre lié à la crypto doublerait le pari baissier."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Acté. Décision : garder TAO, aucune nouvelle entrée."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Position TAO (short) : on la garde, elle gagne un peu (+0,60 €) et son stop la protège.",
+    "Un seul candidat correct : HOOD (short), mais la bourse américaine est fermée et le volume est trompeur.",
+    "Les cryptos sont toutes sous le seuil de rentabilité après frais (rendement/risque entre 0,65 et 1,32 pour 1,5 requis).",
+    "Calendrier : aucune date 2026 confirmée pour Nvidia ou la Fed, donc rien ajouté à l'agenda."
+   ],
+   "desaccords": [
+    "L'analyste macro conteste le short HOOD (indices haussiers, semaine chargée) ; l'analyste technique reconnaît que le volume x41 est un artefact de réouverture ; le sentiment craint un rebond après la peur extrême."
+   ],
+   "decision": "On garde le short TAO et on n'ouvre aucune nouvelle position.",
+   "a_surveiller": [
+    "HOOD après 15:30 Paris : sous l'EMA20 avec volume normal, à reconsidérer",
+    "Résultats Nvidia et procès-verbal de la Fed : dates 2026 à confirmer",
+    "Un rebond de BTC au-dessus de 59 468 € contrarierait les shorts"
+   ]
+  },
+  "synthese": "On garde le short TAO, qui gagne un peu, et on n'ouvre rien : le seul bon candidat (HOOD) est trop fragile pendant que la bourse américaine dort.",
+  "id": "D-20261116-012615",
+  "cree_le": "2026-11-16T01:26:15Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-16T01:29:07Z"
  }
 ]

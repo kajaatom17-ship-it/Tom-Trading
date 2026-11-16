@@ -1,7 +1,7 @@
 {
- "t": "2026-11-16T01:23:17Z",
+ "t": "2026-11-16T01:29:15Z",
  "nb_analyses": 610,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AERO",
   "ASTER",
@@ -113,12 +113,22 @@
  },
  "candidats": [
   {
+   "sym": "NIGHT",
+   "pair": "NIGHTEUR",
+   "action": false,
+   "variation_24h_pct": -6.15,
+   "volume_24h_eur": 681909.04,
+   "spread_pct": 0.1884,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
-   "variation_24h_pct": -3.74,
-   "volume_24h_eur": 47074.33,
-   "spread_pct": 0.039,
+   "variation_24h_pct": -4.05,
+   "volume_24h_eur": 47114.2,
+   "spread_pct": 0.0939,
    "tendance": false,
    "impulsion": null
   }
