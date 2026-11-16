@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T03:01:00Z",
+   "verifie_jusqu_a": "2026-11-16T03:26:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 174.3737,
+   "dernier_prix": 175.1432,
    "atr": 1.031523,
    "rollover": 0.059802684530382705,
    "rollover_periodes": 3
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T03:01:50Z",
+ "maj": "2026-11-16T03:26:52Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -48,7 +48,7 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T02:57:56Z",
+ "chasseur_t": "2026-11-16T03:26:46Z",
  "tendance": [
   "PENGU",
   "BTC",
@@ -68,11 +68,6 @@
  ],
  "tendance_t": "2026-11-16T02:57:56Z",
  "buzz": {
-  "NBIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SMMT": {
    "source": "StockTwits",
    "mentions": null,
@@ -83,17 +78,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "DRTS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DCTH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -103,12 +88,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "FROG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OCUL": {
+  "MSTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -118,22 +98,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ANT": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VOO": {
+  "TTWO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "QUANT": {
+  "LHX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZETA": {
+  "GLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OCUL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NBIS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JOBY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -142,36 +137,41 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "INFQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T02:57:57Z",
- "sources_t": "2026-11-16T02:57:59Z",
+ "buzz_t": "2026-11-16T03:26:47Z",
+ "sources_t": "2026-11-16T03:26:51Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 17,
-   "sentiment": "neutral",
+   "mentions": 8,
+   "sentiment": "bearish",
    "titres": [
-    "Bitcoin whales send $55M more to exchanges than they withdraw daily, Glassnode says",
-    "BTC Range: Leveraged Shorts Pile In"
+    "BTCUSDT (8H) – The Broken Floor Changes Wave",
+    "JPMorgan Filing Shows Bigger Strategy Stake and $540 Million in Bitcoin ETF Shares"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 8,
+   "mentions": 5,
    "sentiment": "bullish",
    "titres": [
-    "Luxor CEO warns of rising AI-enabled cyberattacks after mining hijack",
-    "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI"
+    "Nvidia may tighten its support for AI startups, UBS warns of a potential reduction of $50 billion in funding.",
+    "Luxor CEO warns of rising AI-enabled cyberattacks after mining hijack"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 5,
+   "mentions": 4,
    "sentiment": "bearish",
    "titres": [
-    "PEPE/USDT – Broken Trendline , Sellers Stills Control",
-    "BTC/USDT 15min Swing Long Trading Plan"
+    "Brazil Central Bank Declares Stablecoins Fuel Money Laundering",
+    "HYPE/USDT.P 15min Swing Long Trading Plan"
    ]
   },
   {
@@ -179,8 +179,8 @@
    "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "PEPE/USDT – Broken Trendline , Sellers Stills Control",
-    "ZECUSDT – Broken Channel Leaves 610 in Focus"
+    "Two Weeks After Record $6.3 Billion Heist, Binance Reveals When Customers Will Get Full Access",
+    "PEPE/USDT – Broken Trendline , Sellers Stills Control"
    ]
   },
   {
@@ -188,17 +188,8 @@
    "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "ETH/USDT 15min Swing Long Trading Plan",
-    "ETHUSDT: Weak Recovery, Another Selloff Ahead"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids",
-    "TECO shifts focus to power equipment amid tightened US data center approvals"
+    "Bearish reversal for the Ethereum?",
+    "ETHEREUM BIG REVERSAL AHEAD? Is $1,000 the Next Major Buying"
    ]
   },
   {
@@ -206,16 +197,17 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "SKR is pumping (just to watch)",
-    "Solana Price Outlook for November: One Level Holds Up a Hyperliquid Whale's 10x Bet"
+    "SOLUSDT: Another Bearish Leg Unfolding — Is $60 Next?",
+    "SOLANA (SOL) BIG OPPORTUNITY AHEAD? Could $20 Be the Next Major"
    ]
   },
   {
-   "sujet": "DeFi",
-   "mentions": 1,
+   "sujet": "ETF",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids"
+    "JPMorgan Filing Shows Bigger Strategy Stake and $540 Million in Bitcoin ETF Shares",
+    "HYPE spot ETF saw a net outflow of $4.3257 million last week, marking six consecutive weeks of net outflows."
    ]
   }
  ],
