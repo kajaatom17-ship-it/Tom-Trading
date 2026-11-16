@@ -1,0 +1,100 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 58 615 sous EMA20 (58 767) et EMA50 (58 892), RSI 44,2, tendance 1 h baissière. Le scanner (07:00 UTC) ne remonte aucun candidat. TAO: 171,92, RSI 35,2, sous l'EMA20 15 min (173,68), volume nul.",
+   "donnees": "Brief Kraken 07:26 UTC (08:26 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Bourse US fermée jusqu'à 15:30 Paris. Les recherches web de ce matin n'ont pas confirmé de date fiable pour les résultats Nvidia ni pour le procès-verbal de la Fed : rien d'ajouté à l'agenda. Actu du brief : Bloomberg 06:14 UTC, des traders d'options de BTC se préparent à un passage vers 60 000 $ (information de marché, pas un fait sur le prix).",
+   "sources": [
+    "Bitcoin Options Traders Brace for Slide to $60,000 After Selloff - Bloomberg - 2026-11-16 06:14 UTC (via brief)",
+    "Bitcoin's biggest bet is now a drop below $60,000 - CoinDesk - 2026-11-16 05:01 UTC (via brief)"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,33 %, capitalisation totale -3,76 % sur 24 h. En peur extrême les rebonds sont brusques : risque pour un short tardif.",
+   "donnees": "brief 06:59 UTC"
+  },
+  "trader": {
+   "proposition": "Garder le short TAO, aucune nouvelle entrée.",
+   "pour": [
+    "TAO short +0,92 € latent, tendance baissière confirmée"
+   ],
+   "contre": [
+    "Aucun candidat scanner",
+    "Bourse US fermée",
+    "Peur extrême, rebond possible"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Pas de nouvelle position : aucun RR net >= 1,5 démontré, stop TAO 178,22 inchangé, perte max déjà fixée."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 58 615, sous EMA20 58 767 et EMA50 58 892, RSI 44,2 (40,4 avant), MACD -44 : baissier mais le RSI remonte. Scanner sans candidat."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed 10 et capitalisation totale -3,76 % : la peur est extrême. Un RSI qui remonte de 40 à 44 peut annoncer un rebond violent, donc pas de short neuf en poursuite."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Bourse US fermée jusqu'à 15:30 Paris. Je n'ai pas pu confirmer la date des résultats Nvidia ni de la Fed, donc je n'ajoute rien à l'agenda. Bloomberg (06:14 UTC) parle de traders d'options qui visent 60 000 $."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder TAO short (entrée 173,76, prix 172,16, +0,92 €, stop 178,22, objectif 161,07) et de ne rien ouvrir : aucun signal BRK-1 ou TPB-1 net."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "D'accord sur TAO : il est à 171,92, sous l'EMA20 (173,68), RSI 35,2. Mais le volume est à 0 sur 15 min, le signal est peu fiable."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Volume nul sur TAO, c'est vrai, mais le stop protège : il est à 178,22, soit 3,5 % au-dessus. Je ne demande pas de fermer."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Pourquoi ne pas resserrer le stop de TAO ? Le gain latent est seulement +0,92 €, pas encore +1R : le trader de garde le fera seul à +1R."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Oui, je ne touche à rien : resserrer maintenant augmente le risque de sortie sur un simple rebond. Aucune nouvelle entrée, rien n'a un RR net de 1,5."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Verdict : valide. On garde TAO, aucune nouvelle position. Capital 498,8 €, cash 398,21 €, perte réalisée 1,64 €."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Short TAO gardé : +0,92 € latent, stop 178,22 et objectif 161,07 inchangés.",
+   "Scanner sans candidat, bourse US fermée jusqu'à 15:30 Paris.",
+   "Fear & Greed à 10 : le marché a très peur, les rebonds peuvent être brusques."
+  ],
+  "desaccords": [
+   "L'analyste technique doute du signal TAO (volume nul) ; le sentiment et le Trader gardent la position car le stop protège."
+  ],
+  "decision": "On garde TAO et on n'ouvre rien de nouveau.",
+  "a_surveiller": [
+   "Ouverture de la bourse US à 15:30 Paris",
+   "Date confirmée des résultats Nvidia et de la Fed",
+   "TAO : cassure de 178,22 (stop) ou sous 171,92"
+  ]
+ },
+ "synthese": "On garde notre short TAO et on n'ouvre rien : aucun signal net, bourse US fermée, marché en grande peur.",
+ "id": "D-20261116-072627",
+ "cree_le": "2026-11-16T07:26:27Z"
+}
