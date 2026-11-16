@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 398.18620783146474,
+ "cash": 298.0703032549514,
  "positions": [
   {
    "id": "P0012",
@@ -20,27 +20,50 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T13:36:00Z",
+   "verifie_jusqu_a": "2026-11-16T13:57:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 169.8599,
+   "dernier_prix": 169.7089,
    "atr": 1.031523,
    "rollover": 0.09967114088397117,
    "rollover_periodes": 5
+  },
+  {
+   "id": "P0013",
+   "sym": "MSTR",
+   "pair": "MSTRxUSD",
+   "side": "short",
+   "strategie": "TPB-1",
+   "qty": 1.0803440913981102,
+   "entry": 92.59631,
+   "notionnel": 100.03587587581269,
+   "frais_entree": 0.08002870070065016,
+   "stop": 93.76129,
+   "stop_initial": 93.76129,
+   "tp": 89.53114,
+   "risque_eur": 1.41964404277536,
+   "rr_net": 1.93,
+   "ouvert_le": "2026-11-16T13:57:41Z",
+   "verifie_jusqu_a": "2026-11-16T13:57:41Z",
+   "duree_max_h": 10.0,
+   "decision_id": "D-20261116-135729",
+   "dernier_prix": 92.59630952056474,
+   "atr": 0.377185
   }
  ],
- "frais_cumules": 7.70906348894806,
+ "frais_cumules": 7.78909218964871,
  "pnl_realise": -1.644295580144268,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
   "2026-11-14": 2,
-  "2026-11-15": 3
+  "2026-11-15": 3,
+  "2026-11-16": 1
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T13:36:43Z",
- "seq": 12,
+ "maj": "2026-11-16T13:58:12Z",
+ "seq": 13,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
@@ -48,7 +71,7 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T13:32:38Z",
+ "chasseur_t": "2026-11-16T13:57:49Z",
  "tendance": [
   "MACCA",
   "LIT",
@@ -75,8 +98,13 @@
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 54,
-   "x_vs_hier": 3.9
+   "mentions": 56,
+   "x_vs_hier": 4.0
+  },
+  "MSFT": {
+   "source": "Reddit",
+   "mentions": 32,
+   "x_vs_hier": 2.0
   },
   "VOO": {
    "source": "Reddit",
@@ -86,12 +114,7 @@
   "HR": {
    "source": "Reddit",
    "mentions": 30,
-   "x_vs_hier": 2.1
-  },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "x_vs_hier": 2.3
   },
   "POET": {
    "source": "StockTwits",
@@ -103,12 +126,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVDA": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -118,7 +141,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -133,22 +156,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "XAGUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "XPEV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LHX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "COIN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TTWO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -158,14 +171,29 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TGT": {
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TEVA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EWY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T13:32:39Z",
- "sources_t": "2026-11-16T13:32:43Z",
+ "buzz_t": "2026-11-16T13:57:50Z",
+ "sources_t": "2026-11-16T13:57:55Z",
  "actus_tendance": [
   {
    "sujet": "AI",
