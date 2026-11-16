@@ -1,50 +1,5 @@
 [
  {
-  "t": "2026-11-15T03:59:14Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] Meta tests prediction-market app, DOJ moves to seize $1.2 billion from Binance hack, and more - The Block (The Block)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeWRCRTMwRE1rTVBpQnpNNWxobmVsVXc0N3JTRFVJM0szZU1JYkRMOEltaFZITXhfaEtIM3RmaFcxN3pyMFU2V1FXREZpb25GRzZZYUJJZ3pmbDlNVFlWUHFCY2tYU0IySEkySldINFZqRkEybXhubWRaRE9UOE1EbmhmZ2owVTlLSlRScHU5dTByZFRTRHFFVmR6VDBJVVNDNlNJVWdmbE9aMndVUlJzcFpkYVVVdHNleUw0S1RpN0JXUQ?oc=5",
-   "actifs": [
-    "META"
-   ]
-  }
- },
- {
-  "t": "2026-11-15T03:59:14Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "KNTQ +5.37 % en 1 h — position en notre faveur"
- },
- {
-  "t": "2026-11-15T04:27:27Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde la petite position KNTQ et on ne prend rien de nouveau : le marché est en panique, les rebonds manquent de volume et aucun trade n'offre un bon rapport gain/risque."
- },
- {
-  "t": "2026-11-15T04:27:33Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AVAX, BMY, BTC, COST, DAL, DOGE, ETH, FCX, GE, MOD, SMMT, USDCAD"
- },
- {
-  "t": "2026-11-15T04:27:37Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 7 en mouvement : VVV +14.1 %, ZEC +5.8 %, STRK +6.9 %."
- },
- {
-  "t": "2026-11-15T04:58:14Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "KNTQ long fermé (durée maximale atteinte) à 0.22346 : +0.55 € net",
-  "data": {
-   "id": "P0009"
-  }
- },
- {
   "t": "2026-11-15T04:58:14Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2718,5 +2673,47 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 8 signal(aux) : TSLA short (TPB-1, 70), GOOGL long (TPB-1, 45), ARB short (BRK-1, 42)"
+ },
+ {
+  "t": "2026-11-16T13:32:31Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO (+2,70 €) et on n'ouvre rien : la bourse américaine n'est pas ouverte et le signal TSLA n'est pas assez fiable."
+ },
+ {
+  "t": "2026-11-16T13:32:39Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ALB, BIDU, BMNR, BTC, CAPR, COIN, HELP, HR, LHX, MSTR, NBIS, NVDA"
+ },
+ {
+  "t": "2026-11-16T13:32:43Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "609 actifs hors univers analysés, 10 en mouvement : NIGHT -13.3 %, REQ +16.0 %, DRV -8.8 %."
+ },
+ {
+  "t": "2026-11-16T13:33:02Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] How Did a Bitcoin Miner Hacker Get Paid Without Finding a Single Block? - BeInCrypto (BeInCrypto)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oQXhyUmlXVGwxbWo0cVZDZF9wZkVBZGgxOEo2YTg4RV94NXpnVGRSSzJDUmlpekVqcUxOZjltUWVNeDlfWDN5REVpYnY3cXY2TGFSRXRuU21mbnd6TEVyUFF6eENCTEtwcld6UQ?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-16T13:33:02Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "RARE +6.67 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T13:33:59Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 8 signal(aux) : MSTR short (TPB-1, 70), NVDA short (BRK-1, 65), AMD short (BRK-1, 63)"
  }
 ]
