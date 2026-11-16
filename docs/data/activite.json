@@ -1,38 +1,5 @@
 [
  {
-  "t": "2026-11-15T02:28:20Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
-  "t": "2026-11-15T02:29:13Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "BTC +2.62 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:30:59Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "SHIB +3.29 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:50:34Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "KNTQ long ouvert à 0.216941 | 50.14 € engagés | stop 0.21019 | objectif 0.24124 | risque 1.96 EUR",
-  "data": {
-   "id": "P0009"
-  }
- },
- {
-  "t": "2026-11-15T02:50:34Z",
-  "agent": "Spécialiste memecoins",
-  "type": "entrée rapide",
-  "msg": "KNTQ long sur impulsion +6.1 % (volume x9.5), risque 1.96 €."
- },
- {
   "t": "2026-11-15T02:50:35Z",
   "agent": "Chasseur de mouvements",
   "type": "réseaux sociaux",
@@ -2723,5 +2690,35 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 2 signal(aux) : NVDA short (TPB-1, 60), PEPE short (TPB-1, 30)"
+ },
+ {
+  "t": "2026-11-16T10:32:37Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde la position TAO et on ne prend pas de nouveau trade : l'annonce des résultats Nvidia cette semaine rend un short NVDA trop risqué, et les autres signaux sont trop faibles."
+ },
+ {
+  "t": "2026-11-16T10:32:46Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : BABA, BIDU, COIN, DRTS, EURUSD, HELP, HR, MSTR, NBIS, S, SLS, SMMT"
+ },
+ {
+  "t": "2026-11-16T10:32:49Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "609 actifs hors univers analysés, 5 en mouvement : NIGHT -11.6 %, SKR +8.5 %, SKHY -6.2 %."
+ },
+ {
+  "t": "2026-11-16T10:32:55Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "RARE -5.42 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T10:33:55Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 7 signal(aux) : CRCL short (BRK-1, 75), HOOD short (BRK-1, 66), MSFT long (BRK-1, 55)"
  }
 ]

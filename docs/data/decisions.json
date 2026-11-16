@@ -12545,5 +12545,113 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-16T09:57:12Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "TAO short (P0012) : prix 171,77 pour une entrée à 173,76, RSI 15 min 42,5, MACD négatif, tendance 1 h baissière, stop 178,22 intact. Seul candidat propre du scanner : NVDA short TPB-1 (entrée 145,56, stop 148,25, objectif 137,47, RR net 2,43, score 60). PEPE short refusé par le scanner (RR net 0,70). BTC 58 493 sous EMA20/EMA50 15 min, tendance 1 h baissière.",
+    "donnees": "Brief engine/brief.py généré le 2026-11-16 10:26 UTC (11:26 Paris), prix Kraken"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Titres du brief : CoinDesk (16/11 09:23 UTC) annonce cette semaine les minutes du FOMC et les résultats Nvidia ; Yahoo Finance (16/11 02:04 UTC) cite aussi Nvidia, l'IPO d'Anthropic et les minutes de la Fed. Date et heure exactes des résultats Nvidia non confirmées par une source lisible (l'article CoinDesk n'a pas pu être ouvert) : rien n'est déposé à l'agenda.",
+    "sources": [
+     "FOMC minutes, Nvidia earnings, Russia's retail crypto rules: Crypto Week Ahead - CoinDesk - 2026-11-16 09:23 UTC - https://www.coindesk.com/markets/2026/11/16/fomc-minutes-nvidia-earnings-russia-s-retail-crypto-rules-crypto-week-ahead",
+     "Dow, S&P 500, Nasdaq Futures Edge Lower As Markets Brace For Nvidia Earnings, Anthropic IPO, Fed Minutes - Yahoo Finance - 2026-11-16 02:04 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), capitalisation crypto -4,61 % sur 24 h, dominance BTC 59,31 %. En peur extrême les rebonds sont violents : un short de plus est risqué. Buzz réseaux sur NVDA/NBIS/MSTR : indice seulement, pas une preuve.",
+    "faits": "Fear & Greed et capitalisation totale du brief de 09:57 UTC"
+   },
+   "trader": {
+    "proposition": "Garder TAO. Étudier NVDA short TPB-1 comme seule nouvelle entrée possible.",
+    "pour": [
+     "Tendance 1 h baissière et rebond sur l'EMA20 15 min",
+     "RR net 2,43"
+    ],
+    "contre": [
+     "Résultats Nvidia attendus cette semaine : risque de saut de prix au-delà du stop",
+     "Marché américain pas encore ouvert, volume faible (vol_ratio 0,43)",
+     "Le scénario fait déjà -4 % sur 24 h"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "NVDA : événement binaire (résultats) à venir, le stop à 148,25 ne protège pas contre un saut. PEPE : RR net 0,70 < 1,5. Pas de pari sans plan."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "TAO short : prix 171,77 pour une entrée à 173,76, RSI 15 min 42,5, MACD -0,16, tendance 1 h baissière. Stop 178,22 loin, rien ne casse le scénario. Pour NVDA, TPB-1 short propre : 145,56, stop 148,25, RR net 2,43."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed est à 10 et la capitalisation crypto perd 4,61 % en 24 h. À ce niveau de peur, un rebond violent est plausible : je ne renforce pas les shorts, mais TAO reste protégé par son stop."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Les titres du brief (CoinDesk 09:23 UTC, Yahoo Finance 02:04 UTC) placent les résultats Nvidia, les minutes du FOMC et l'IPO d'Anthropic cette semaine. Je n'ai pas pu confirmer l'heure exacte : je ne dépose rien à l'agenda."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose : garder TAO, et NVDA short en nouvelle entrée, stop 148,25, objectif 137,47, RR net 2,43."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Je conteste NVDA : avec des résultats attendus cette semaine, c'est le titre le plus risqué du moment. Un saut de 5 % sur l'annonce passe au-dessus du stop (1,85 % de distance) et la perte dépasse le risque prévu."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_macro",
+    "message": "Je confirme le doute côté graphique : volume 15 min à 0,43 fois la normale, séance américaine pas ouverte (11:26 Paris), signal à score 60 seulement. Le graphique seul ne justifie pas de passer outre les résultats."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_macro",
+    "message": "Objection acceptée. Je retire NVDA tant que les résultats ne sont pas passés. Je ne retiens aucune autre entrée : PEPE a un RR net de 0,70 et un volume 15 min à 0,1 fois la normale."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "D'accord pour ne rien faire. Le buzz sur NVDA est un indice, pas une preuve, et personne ne prouve que le mouvement n'est pas déjà fait."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Refus de NVDA : événement binaire à venir, stop non fiable face à un saut. Refus de PEPE : RR 0,70 < 1,5. Je ne valide pas pour faire tourner le portefeuille. TAO : stop et objectif inchangés, risque déjà fixé à l'entrée."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "TAO short toujours en gain latent (+1,14 €), tendance baissière intacte : on le garde, le stop à 178,22 le protège.",
+    "Seul candidat propre : NVDA short (RR net 2,43), mais les résultats Nvidia sont annoncés cette semaine par les titres du brief.",
+    "Marché crypto en peur extrême (Fear & Greed 10), BTC sous ses moyennes mobiles 15 min."
+   ],
+   "desaccords": [
+    "Le Trader proposait NVDA short ; l'analyste macro l'a contesté à cause des résultats, l'analyste technique a ajouté le faible volume, le Risk Manager a refusé. Le Trader a retiré sa proposition."
+   ],
+   "decision": "On garde TAO et on ne prend aucune nouvelle position : un événement binaire (résultats Nvidia) est trop proche.",
+   "a_surveiller": [
+    "Heure exacte des résultats Nvidia et des minutes du FOMC (source datée à confirmer)",
+    "NVDA après les résultats : cassure confirmée ou retour dans la zone",
+    "BTC sous 58 150 (bas récent 15 min) : revoir TAO et le reste",
+    "Rebond violent possible en peur extrême"
+   ]
+  },
+  "synthese": "On garde la position TAO et on ne prend pas de nouveau trade : l'annonce des résultats Nvidia cette semaine rend un short NVDA trop risqué, et les autres signaux sont trop faibles.",
+  "id": "D-20261116-103216",
+  "cree_le": "2026-11-16T10:32:16Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-16T10:32:37Z"
  }
 ]
