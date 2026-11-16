@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 247.6932144455132,
+ "cash": 346.2881000059884,
  "positions": [
   {
    "id": "P0012",
@@ -20,35 +20,13 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T14:02:00Z",
+   "verifie_jusqu_a": "2026-11-16T14:28:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 170.2735,
+   "dernier_prix": 171.9114,
    "atr": 1.031523,
    "rollover": 0.09967114088397117,
    "rollover_periodes": 5
-  },
-  {
-   "id": "P0013",
-   "sym": "MSTR",
-   "pair": "MSTRxUSD",
-   "side": "short",
-   "strategie": "TPB-1",
-   "qty": 1.0803440913981102,
-   "entry": 92.59631,
-   "notionnel": 100.03587587581269,
-   "frais_entree": 0.08002870070065016,
-   "stop": 93.76129,
-   "stop_initial": 93.76129,
-   "tp": 89.53114,
-   "risque_eur": 1.41964404277536,
-   "rr_net": 1.93,
-   "ouvert_le": "2026-11-16T13:57:41Z",
-   "verifie_jusqu_a": "2026-11-16T14:02:00Z",
-   "duree_max_h": 10.0,
-   "decision_id": "D-20261116-135729",
-   "dernier_prix": 92.67433200733839,
-   "atr": 0.377185
   },
   {
    "id": "P0014",
@@ -66,17 +44,17 @@
    "risque_eur": 2.1205623404907716,
    "rr_net": 1.65,
    "ouvert_le": "2026-11-16T14:00:14Z",
-   "verifie_jusqu_a": "2026-11-16T14:02:00Z",
+   "verifie_jusqu_a": "2026-11-16T14:28:00Z",
    "duree_max_h": 2.0,
    "decision_id": "M-20261116-140014-RARE",
-   "dernier_prix": 0.01545,
+   "dernier_prix": 0.01528,
    "atr": 0.0007299999999999997,
    "mom": true,
    "impulsion": 0.0007299999999999997
   }
  ],
- "frais_cumules": 8.188910354802982,
- "pnl_realise": -1.644295580144268,
+ "frais_cumules": 8.270026954890197,
+ "pnl_realise": -3.1653145961824487,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -86,7 +64,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T14:02:12Z",
+ "maj": "2026-11-16T14:28:34Z",
  "seq": 14,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -95,42 +73,52 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T13:57:49Z",
+ "chasseur_t": "2026-11-16T14:28:13Z",
  "tendance": [
   "MACCA",
   "LIT",
   "GATO",
   "BTC",
-  "HYPE",
-  "ASTER",
-  "TAO",
   "SOL",
+  "ASTER",
+  "HYPE",
+  "PEARL",
   "PENGU",
-  "ONDO",
   "SUI",
-  "JCT",
-  "JUP",
-  "XRP",
-  "AERO"
+  "NEAR",
+  "SYRUP",
+  "ETH",
+  "RARE",
+  "PEAQ"
  ],
- "tendance_t": "2026-11-16T13:00:20Z",
+ "tendance_t": "2026-11-16T14:28:13Z",
  "buzz": {
+  "NVDA": {
+   "source": "Reddit",
+   "mentions": 722,
+   "x_vs_hier": 2.0
+  },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 75,
-   "x_vs_hier": 2.0
+   "mentions": 80,
+   "x_vs_hier": 2.2
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 56,
-   "x_vs_hier": 4.0
+   "mentions": 61,
+   "x_vs_hier": 4.4
+  },
+  "MU": {
+   "source": "Reddit",
+   "mentions": 49,
+   "x_vs_hier": 2.0
   },
   "MSFT": {
    "source": "Reddit",
    "mentions": 32,
    "x_vs_hier": 2.0
   },
-  "VOO": {
+  "SNDK": {
    "source": "Reddit",
    "mentions": 32,
    "x_vs_hier": 2.0
@@ -138,34 +126,19 @@
   "HR": {
    "source": "Reddit",
    "mentions": 30,
-   "x_vs_hier": 2.3
-  },
-  "POET": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "x_vs_hier": 2.1
   },
   "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BTC": {
+  "POET": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NVDA": {
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -175,7 +148,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BIDU": {
+  "SMMT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -185,17 +163,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XPEV": {
+  "NDAQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ALB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LHX": {
+  "OMER": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -205,87 +178,101 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "EWY": {
+  "DRTS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MS": {
+  "LHX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SQQQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BIDU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRSR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T13:57:50Z",
- "sources_t": "2026-11-16T13:57:55Z",
+ "buzz_t": "2026-11-16T14:28:14Z",
+ "sources_t": "2026-11-16T14:28:18Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
+   "sujet": "Bitcoin",
    "mentions": 7,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Dreamteam AI raises $53M to take on Salesforce and HubSpot with an AI-native CRM",
-    "SpaceX (SPCX) Stock Edges Up After Starship Tower Catch as AI Names Slide"
+    "Strategy Acquires 485 BTC and Repurchases $228 Million of STRC",
+    "Bitcoin Whales Face $8B in Losses — Is a Recovery Coming?"
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
+   "sujet": "AI",
+   "mentions": 4,
    "sentiment": "bearish",
    "titres": [
-    "BTCUSD – Bearish Market Structure",
-    "Why There is an Opportunity in XRP Below $1: Coach JV"
+    "Marvell, Penguin Solutions collaborate to address data center AI memory",
+    "Sandisk (SNDK) Stock Falls 6% Ahead of 8-for-1 Split as Memory Selloff Deepens"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "EVAA/USDT: Bearish Rejection — -50% Downside Correction Setup",
-    "$USDT Domiance is going down, $BTC is going up"
+    "ETH/USDT Bearish Liquidity Sweep & Swing Low Short Setup",
+    "幣安推出 Pay Later！用加密貨幣抵押先買後付，額度 1,000 USDC"
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana Foundation’s Lily Liu says finance wants one big market, so Solana stays single-shard",
-    "Zelle demonstrates confidential $1.25 million stablecoin transfer on Solana"
-   ]
-  },
-  {
-   "sujet": "Security",
+   "sujet": "Ethereum",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Kava moves to shut HARD Lend after attacker exploits a dormant BUSD market",
-    "AI agents impersonate employees and attempt to steal confidential data during safety experiment"
+    "ETH/USDT Bearish Liquidity Sweep & Swing Low Short Setup",
+    "Bitmine 增持 7,653 枚 ETH、持倉達 608 萬枚！Tom Lee：Anthropic IPO 抽走以太坊資金"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "Binance",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Why There is an Opportunity in XRP Below $1: Coach JV"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase and Broadridge propose open standard for tokenized-stock shareholder communications"
+    "幣安推出 Pay Later！用加密貨幣抵押先買後付，額度 1,000 USDC"
    ]
   },
   {
    "sujet": "ETF",
    "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin Whales Face $8B in Losses — Is a Recovery Coming?"
+   ]
+  },
+  {
+   "sujet": "Cardano",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "CZ Explain Why Crypto is Falling, Says He Bought Crypto and Denies Binance Sold"
+    "Cardano Founder Pushes Back on Claim That Midnight Isn’t Built on Cardano"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Couche-Tard secures all regulatory approvals for Żabka acquisition"
    ]
   }
  ],

@@ -13465,5 +13465,110 @@
   },
   "cree_le": "2026-11-16T14:00:14Z",
   "traite_le": "2026-11-16T14:00:14Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "Tendance 1 h baissière sur BTC, TAO, AVGO, MSTR. AVGO a cassé son plus bas 12 h (300,79) avec volume x4,69 et RSI 51 -> 33 : cassure déjà bien avancée (-2,84 % sur 24 h). TAO short : RSI 39, prix 171,9 pour un objectif à 161,07, le scénario tient. MSTR : le prix (93,77) est au-dessus du stop (93,761) donc le stop est touché, le moteur va clôturer.",
+    "donnees": "Kraken OHLC 15 min, brief 14:27 UTC (15:27 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Les résultats de Nvidia sont attendus cette semaine, et la veille des décisions précédentes les situait à demain : les valeurs IA (AVGO, NVDA) peuvent partir dans un sens ou l'autre. Les recherches web ne m'ont donné que des titres, sans heure précise confirmée pour aujourd'hui. Aucune annonce majeure confirmée dans les 2 h. Le calendrier du brief est vide, je ne dépose pas de date que je ne peux pas confirmer.",
+    "sources": [
+     "What to Expect in Markets This Week: Earnings From Nvidia... - Yahoo Finance - semaine du 16 nov",
+     "Bitcoin's Slide to $64,000 Is a 'Macro Shock' - Decrypt - 16 nov"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed à 10 (peur extrême), capitalisation crypto -5,36 % sur 24 h, dominance BTC 59,28 %. En peur extrême les rebonds sont violents : mauvais moment pour ajouter un short de plus. Buzz Reddit sur QQQ, NBIS, MSFT : indice, pas une preuve."
+   },
+   "trader": {
+    "proposition": "Garder TAO, MSTR (stop) et RARE. Pas de nouvelle entrée : 3 positions déjà ouvertes, la limite est atteinte.",
+    "pour": [
+     "AVGO short BRK-1 : score 73, volume x4,69, RR net 1,61"
+    ],
+    "contre": [
+     "Limite de 3 positions atteinte",
+     "RR 1,61 à peine au-dessus de 1,5",
+     "Nvidia publie cette semaine",
+     "Corrélation avec nos shorts TAO/MSTR/RARE"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "refuse",
+    "motif": "3 positions sur 3 déjà ouvertes, tous des shorts corrélés à la baisse du marché. AVGO a un RR net de 1,61 et une cassure déjà faite avant une publication Nvidia. Refus définitif pour cette réunion."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "AVGO a cassé son plus bas 12 h à 300,79 avec un volume 4,69 fois la normale, RSI de 51 à 33. Signal BRK-1 short propre, RR net 1,61. TAO reste sous l'EMA20 avec RSI 39."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "analyste_technique",
+    "message": "Attention : Nvidia publie cette semaine et les décisions précédentes parlaient d'une publication proche. AVGO suit NVDA. Un chiffre meilleur que prévu pourrait annuler la cassure d'un coup."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 10, capitalisation crypto -5,36 % en 24 h. Quand la peur est extrême, les rebonds sont rapides. Le buzz Reddit sur QQQ (75 mentions, x2) n'est pas un signal."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose un short AVGO : entrée 300,79, stop 303,80, objectif 291,77, RR net 1,61. Je note que le portefeuille est déjà à 3 positions."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Les trois positions ouvertes sont des shorts. Un quatrième short sur l'IA avant Nvidia augmente la concentration. Et 1,61 est à peine au-dessus du seuil de 1,5 : un peu de glissement et il passe en dessous."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "risk_manager",
+    "message": "Je conteste en partie : le volume x4,69 est réel. Mais je reconnais que la cassure a déjà fait 2,84 % sur 24 h et que le prix est collé au plus bas : entrée tardive."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_technique",
+    "message": "D'accord, entrée tardive plus RR juste : je retire AVGO. Sur les positions : RARE est contre nous de +6 % en 1 h mais revenu au prix d'entrée (0,01539), stop 0,015795 intact. On garde, le stop protège. MSTR : stop touché, rien à faire, le moteur clôture."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je suis d'accord pour TAO : +1,06 € latent, objectif 161,07 pas atteint, pas de raison de fermer. Je ne bloque pas."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Refus de toute nouvelle entrée : limite de 3 positions atteinte, concentration en shorts, RR trop juste avant Nvidia. Positions gardées. Décision : none."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Positions : TAO short en gain latent (+1,06 €), RARE revenu au prix d'entrée, MSTR au niveau du stop (le moteur va le clôturer).",
+    "Candidat AVGO short : cassure avec volume x4,69 mais RR net 1,61 et entrée tardive.",
+    "Peur extrême (10) : les rebonds peuvent être violents."
+   ],
+   "desaccords": [
+    "L'analyste technique défendait le signal AVGO (volume réel), le Risk Manager et l'analyste macro l'ont refusé (limite de positions, Nvidia cette semaine, corrélation)."
+   ],
+   "decision": "On garde les positions et on n'ouvre rien.",
+   "a_surveiller": [
+    "La clôture de MSTR au stop",
+    "Les résultats de Nvidia",
+    "RARE : si le prix repasse au-dessus de 0,0158 le stop s'active",
+    "AVGO si une place se libère et si le RR dépasse 2"
+   ]
+  },
+  "synthese": "On garde nos trois positions et on n'ouvre rien : la limite de trois positions est atteinte et le signal AVGO est arrivé trop tard avant les résultats de Nvidia.",
+  "id": "D-20261116-142753",
+  "cree_le": "2026-11-16T14:27:53Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-16T14:28:07Z"
  }
 ]
