@@ -1,0 +1,101 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "BTC 58 872 €, tendance 1 h baissière, RSI 45,7, volume à 0,4 fois la normale. Les 10 candidats du scanner sont tous des shorts TPB-1 de score 30, avec un RR net de 0,65 à 1,22, donc sous le seuil de 1,5. TAO (position ouverte) : prix 173,69, RSI 49,2, volume 0,15 fois la normale, stop 178,22 et objectif 161,07 inchangés.",
+   "donnees": "Kraken OHLC 15 min via brief.py, 05:26 UTC (06:26 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Alerte du brief : « Asian chip stocks tumble ahead of Nvidia Q3 earnings » (Cointelegraph, 04:42 UTC). Les puces asiatiques chutent avant les résultats Nvidia, mais la date exacte de ces résultats n'est pas confirmée par mes recherches web du jour, donc je ne l'ajoute pas à l'agenda. Mes recherches sur le calendrier de la semaine et sur l'actualité de TAO n'ont rien donné de daté et fiable : je n'en tire aucun fait. Bourse US fermée, séance américaine à partir de 15:30 Paris.",
+   "sources": [
+    "Asian chip stocks tumble ahead of Nvidia Q3 earnings - Cointelegraph - 2026-11-16 04:42 UTC - https://cointelegraph.com/markets/asian-chip-stocks-tumble-ahead-of-nvidia-q3-earnings"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed à 10 (peur extrême), dominance BTC 59,39 %, capitalisation totale -3,93 % sur 24 h. En peur extrême les rebonds sont violents et les shorts de 15 min se font piéger.",
+   "donnees": "Brief sentiment 04:58 UTC"
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "DOGE, SHIB, PEPE, TRUMP, WIF, BONK : tous en tendance 1 h baissière, volume 15 min entre 0 et 0,5 fois la normale, aucune impulsion. Spreads 0,005 % à 0,19 %. WIF (volume 24 h 39 k€) et BONK (28 k€, spread 0,19 %) passent sous le seuil de 40 k€ : à éviter."
+  },
+  "trader": {
+   "proposition": "Garder TAO short. Aucune nouvelle entrée : meilleur candidat NEAR short à RR net 1,22.",
+   "pour": [
+    "Tendance 1 h baissière sur tout le marché",
+    "Peur extrême"
+   ],
+   "contre": [
+    "RR net sous 1,5 pour tous les candidats",
+    "Volume très faible",
+    "Résultats Nvidia proches, bourse US fermée"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Garder TAO : risque fixé à l'entrée, stop 178,22. Aucune entrée : RR net insuffisant et annonce majeure proche. Valider un trade pour faire tourner le portefeuille serait une faute."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 58 872 €, RSI 45,7 contre 51,6 il y a 15 min, tendance 1 h baissière, mais volume à 0,4 fois la normale. Dix candidats TPB-1 short, tous au score 30."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Les puces asiatiques chutent avant les résultats Nvidia (Cointelegraph, 04:42 UTC). Je n'ai pas pu confirmer la date des résultats ni trouver d'actualité datée sur TAO. Je ne bâtis donc aucun scénario dessus."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed à 10 et capitalisation -3,93 % sur 24 h : en peur extrême les rebonds sont brutaux. Le short est logique, mais avec ce volume un faux mouvement est probable."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "Aucune impulsion : DOGE volume 0,06 fois la normale, PEPE 0,16, SHIB 0,05, tous sous l'EMA20 en tendance baissière. Rien à poursuivre, et WIF (39 k€ de volume 24 h) et BONK (28 k€, spread 0,19 %) sont trop peu liquides."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder TAO (173,69, entrée 173,76, PnL latent +0,04 €) et de ne rien ouvrir. Le meilleur candidat est NEAR short à RR net 1,22, sous le seuil de 1,5."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "Je conteste un point : NEAR à 1,22 est proche du seuil, mais ses 15 min sont à volume très faible. Sans volume, pas de cassure à jouer. D'accord pour ne pas entrer."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Je m'oppose à ton « proche du seuil » : un RR net de 1,22 reste rejeté par le code et surtout par nos règles. En peur extrême il ne faut pas assouplir pour combler le vide."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "TAO : stop 178,22, soit environ 2,7 % au-dessus du prix, objectif 161,07 : on garde, rien n'a cassé le scénario. Entrée nouvelle : refusée. Les dix candidats ont un RR net de 0,65 à 1,22 et Nvidia approche. Verdict définitif pour cette réunion."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Le short TAO est toujours ouvert : prix 173,69, stop 178,22, objectif 161,07, presque à l'équilibre.",
+   "Les 10 candidats du scanner ont un gain trop faible après frais (RR net 0,65 à 1,22, il faut 1,5).",
+   "Marché très calme (volumes 5 à 60 % de la normale), peur extrême (indice 10), bourse US fermée avant les résultats Nvidia.",
+   "Pas de mouvement propre sur les memecoins."
+  ],
+  "desaccords": [
+   "L'analyste technique trouvait NEAR (RR 1,22) presque acceptable ; le sentiment et le Risk Manager ont refusé de baisser le seuil."
+  ],
+  "decision": "On garde le short TAO et on n'ouvre aucune nouvelle position.",
+  "a_surveiller": [
+   "Ouverture de la séance US (15:30 Paris) et publication des résultats Nvidia",
+   "Un retour de volume sur BTC avec cassure du plus bas 12 h (58 512)",
+   "TAO : stop 178,22 / objectif 161,07"
+  ]
+ },
+ "synthese": "On garde notre short TAO et on n'ouvre rien : aucun trade n'offre un gain assez large par rapport au risque, le marché est très calme et Nvidia approche.",
+ "id": "D-20261116-052643",
+ "cree_le": "2026-11-16T05:26:43Z"
+}
