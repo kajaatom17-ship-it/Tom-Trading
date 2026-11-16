@@ -1,12 +1,6 @@
 [
  {
   "t": "2026-11-15T01:59:42Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée seule : ADA short (BRK-1, score 75, RR net 1.97), risque 2.52 €."
- },
- {
-  "t": "2026-11-15T01:59:42Z",
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 12 signal(aux) : ADA short (BRK-1, 75), BTC short (BRK-1, 64), SOL short (BRK-1, 62)"
@@ -2708,5 +2702,11 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 12 signal(aux) : AAPL long (TPB-1, 55), ADA short (TPB-1, 40), LINK short (TPB-1, 40)"
+ },
+ {
+  "t": "2026-11-16T07:31:00Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "SKY -2.51 % en 15 min"
  }
 ]
