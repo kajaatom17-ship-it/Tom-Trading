@@ -20,10 +20,10 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T05:31:00Z",
+   "verifie_jusqu_a": "2026-11-16T05:58:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 174.564,
+   "dernier_prix": 172.9503,
    "atr": 1.031523,
    "rollover": 0.059802684530382705,
    "rollover_periodes": 3
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T05:31:13Z",
+ "maj": "2026-11-16T05:58:26Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -48,62 +48,37 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T05:27:10Z",
+ "chasseur_t": "2026-11-16T05:58:20Z",
  "tendance": [
-  "PENGU",
-  "ZEC",
+  "BTC",
   "VVV",
-  "AKE",
-  "PI",
-  "TAO",
+  "PENGU",
   "SKR",
   "ASTER",
-  "HYPE",
-  "INJ",
-  "APT",
-  "BTC",
-  "XAUT",
+  "ZEC",
   "PEARL",
-  "ONDO"
+  "LIT",
+  "HYPE",
+  "UNI",
+  "HBAR",
+  "NEAR",
+  "SUI",
+  "XRP",
+  "JUP"
  ],
- "tendance_t": "2026-11-16T04:58:01Z",
+ "tendance_t": "2026-11-16T05:58:20Z",
  "buzz": {
+  "ASTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NBIS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SLV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DXYZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HELP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVGO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NVDA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NMAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -113,108 +88,106 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
+  "SKHY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
+  "COHR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "EURUSD": {
+  "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AG": {
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NRG": {
+  "POET": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TEM": {
+  "DXYZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "COIN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VKTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T05:27:10Z",
- "sources_t": "2026-11-16T05:27:15Z",
+ "buzz_t": "2026-11-16T05:58:21Z",
+ "sources_t": "2026-11-16T05:58:25Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 16,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "BTCUSDT – Can Bitcoin Recover Toward $73,500?",
-    "BTCUSDT (8H) – The Broken Floor Changes Wave"
+    "BTC buy move next 67k",
+    "BTC Analysis - 16 November"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 7,
-   "sentiment": "bearish",
+   "mentions": 3,
+   "sentiment": "neutral",
    "titres": [
-    "NIGHT/USDT the famous hype and the party ended",
-    "HYPE/USDT.P 15min Swing Long Trading Plan"
+    "BTC AT THE EDGE: CAN BULLS DEFEND $58K–$60K?",
+    "Toss launches non-custodial crypto wallet for its 30 million users"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "bullish",
+   "mentions": 3,
+   "sentiment": "neutral",
    "titres": [
-    "Luxor CEO warns of rising AI-enabled cyberattacks after mining hijack",
-    "Alibaba unveils Qwen3.8-Max AI model, challenging US rivals Anthropic, OpenAI"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 4,
-   "sentiment": "bearish",
-   "titres": [
-    "SOLUSDT (8H) – Next Bounce Be a Selling Opportunity",
-    "SOLUSDT: Another Bearish Leg Unfolding — Is $60 Next?"
+    "Asahi Kasei management commentary on Q2 FY2026: AI demand drives upward revision to Electronics forecast",
+    "AI 基建股自 6 月以来蒸发 4.2 万亿美元"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 4,
-   "sentiment": "bearish",
-   "titres": [
-    "Bearish reversal for the Ethereum?",
-    "ETHEREUM BIG REVERSAL AHEAD? Is $1,000 the Next Major Buying"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "PEPE/USDT – Broken Trendline , Sellers Stills Control",
-    "ZECUSDT – Broken Channel Leaves 610 in Focus"
-   ]
-  },
-  {
-   "sujet": "DeFi",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids"
+    "⛽ ETH Gas: 🐢 0.139336145 | 🚶 0.139436145 | 🚀 0.153379759 Gwei"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "ETF",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Crypto inflows to Sihanoukville casinos hit $1.07 billion despite sanctions and raids"
+    "BTC AT THE EDGE: CAN BULLS DEFEND $58K–$60K?"
    ]
   }
  ],

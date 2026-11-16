@@ -1,53 +1,5 @@
 [
  {
-  "t": "2026-11-15T00:29:06Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADA, AVAX, BMNR, BTC, CASHCAT, CORZ, DOGE, ETH, HBAR, MSTR, QNT, SOL"
- },
- {
-  "t": "2026-11-15T00:29:09Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 5 en mouvement : AKT -14.8 %, REQ -14.4 %, PLUME -13.2 %."
- },
- {
-  "t": "2026-11-15T00:29:27Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[liquidations, hausse] Crypto liquidations surge past $1.9 billion as Bitcoin nears $63,000 - Crypto Briefing (Crypto Briefing)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5scGg2TWlGd3NTY2puZFFOYTVHOEVNbFp4UnRyem1fVVUteXVUMkxSNGstcmp3NzZBQkF0X2gyaWtNWlFLMTZXaURqWTNyZldZeGZHdXgzbWZHUElnMzNNZkJGRzAtT0E0MElzeTVmTDlmSnpUbXc4?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-15T00:29:27Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[liquidations, chute] Bitcoin Tumbles to Three-Month Low as Liquidations Accelerate - Bloomberg.com (Bloomberg.com)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZFN4Yk1qMGk3ejFQc2RuVXlMMWoxUmd6T3NHOGM1WEFCd2E2ZFplM0NXMGRhb3VFS0VtWEtVajlzUS1UV0N6aVpZSlB5Wm5rbWNTUG9nNTNoNUI1LXB1OF9vUWxRNHVSaXBkbmJlbXFYZ1BWWllpY2FoUm5KWXdycXM4VTZXNldjVDJTUHYzRG1IWUt5Ujc3NjFvYWVab1IyUWxQaVVkb2E0NWlLY1hyRHZ3?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-15T00:29:27Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ASTER -2.57 % en 15 min"
- },
- {
-  "t": "2026-11-15T00:30:25Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 1 signal(aux) : MSTR short (TPB-1, 60)"
- },
- {
   "t": "2026-11-15T00:57:36Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2711,5 +2663,47 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 14 signal(aux) : AMZN short (TPB-1, 60), MSTR short (TPB-1, 60), CRCL short (TPB-1, 60)"
+ },
+ {
+  "t": "2026-11-16T05:58:14Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO et on n'ouvre rien : la bourse américaine est fermée et les cryptos n'offrent pas assez de gain par rapport au risque."
+ },
+ {
+  "t": "2026-11-16T05:58:20Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, VVV, PENGU, SKR, ASTER, ZEC, PEARL, LIT"
+ },
+ {
+  "t": "2026-11-16T05:58:21Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AMD, ASTS, BE, COHR, COIN, DXYZ, HELP, MU, NBIS, NVDA, POET, SKHY"
+ },
+ {
+  "t": "2026-11-16T05:58:25Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 6 en mouvement : NIGHT -6.5 %, DRV -6.2 %, SKHY -6.3 %."
+ },
+ {
+  "t": "2026-11-16T05:58:29Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, résultats] Morning Bid: AI selloff resumes as Nvidia earnings loom (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/economy-news/morning-bid-ai-selloff-resumes-as-nvidia-earnings-loom-5028378",
+   "actifs": [
+    "NVDA"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-16T05:59:27Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 14 signal(aux) : TSLA short (BRK-1, 66), AMZN short (BRK-1, 62), BTC short (TPB-1, 40)"
  }
 ]
