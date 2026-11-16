@@ -11994,5 +11994,117 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-16T07:26:42Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "neutre",
+    "resume": "TAO (short) : close 173,36, sous EMA20 173,64 et EMA50 174,01, RSI 46,9, MACD négatif mais qui remonte (-0,106 vs -0,170), tendance 1 h baissière, le prix reste dans la zone du stop 178,22 / objectif 161,07. AAPL : TPB-1 long, RR net 1,61, mais contre la tendance de BTC, volume x5 sur un marché fermé (ATR 0,06 %). Cryptos : tous les shorts TPB-1 ont un RR net de 0,61 à 0,68, sous le seuil de 1,5.",
+    "donnees": "Kraken OHLC 15 min, brief 07:56 UTC (08:56 Paris) le 16/11/2026"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Nvidia publie ses résultats du T3 exercice 2027 le 17 novembre (confirmé par le communiqué NVIDIA, heure exacte non vérifiée ici). Titres du matin : options BTC qui parient sur 60 000 (Bloomberg, 06:14 UTC) et CoinDesk (05:01 UTC) sur le pari baissier sous 60 000. Aucune annonce à impact confirmée avant l'ouverture américaine (15:30 Paris). Le calendrier du brief est vide et je n'ai pas pu confirmer d'autres dates/heures : je n'en ajoute pas.",
+    "sources": [
+     "NVIDIA Sets Conference Call for Third Quarter Financial Results - investor.nvidia.com - 2026 - https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Sets-Conference-Call-for-Third-Quarter-Financial-Results/",
+     "Bitcoin Options Traders Brace for Slide to $60,000 After Selloff - Bloomberg - 16/11/2026 06:14 UTC",
+     "Bitcoin's biggest bet is now a drop below $60,000 - CoinDesk - 16/11/2026 05:01 UTC - https://www.coindesk.com/markets/2026/11/16/bitcoin-s-biggest-bet-is-now-a-drop-below-usd60-000-not-a-rally-above-usd100-000"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,33 %, capitalisation totale -3,76 % sur 24 h. En peur extrême, les rebonds sont violents : un short supplémentaire est risqué."
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "PEPE : cassure du bas 12 h avec volume x2,13 mais RR net 0,86 et déjà -5,37 % sur 24 h, mouvement en partie fait. DOGE volume x13 mais RR net 0,65. SHIB RSI 27, volume nul. Aucun memecoin à poursuivre."
+   },
+   "trader": {
+    "proposition": "Garder le short TAO tel quel, aucune nouvelle entrée.",
+    "pour": [
+     "TAO sous ses deux moyennes, stop et objectif inchangés, +0,16 € latent"
+    ],
+    "contre": [
+     "Aucun candidat avec RR net >= 1,5 hors AAPL (marché fermé, contre BTC)"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Rien à forcer : 1 position ouverte, aucune entrée aujourd'hui, mais aucun candidat ne passe les garde-fous proprement. Nvidia demain justifie la prudence."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "TAO short : close 173,36 sous EMA20 173,64 et EMA50 174,01, RSI 46,9, MACD -0,106 en amélioration. Rien ne casse le scénario, stop 178,22 loin."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_technique",
+    "message": "Fear & Greed est à 10 : en peur extrême les rebonds sont brutaux. Je garde TAO mais je n'ajouterais pas de short."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Nvidia publie le 17 novembre ; Bloomberg (06:14 UTC) dit que les options BTC visent 60 000. Pas d'annonce confirmée avant l'ouverture américaine à 15:30 Paris."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "PEPE casse son bas 12 h avec volume x2,13 mais RR net 0,86 et déjà -5,37 % sur 24 h. DOGE volume x13, RR net 0,65. Rien de propre."
+   },
+   {
+    "agent": "trader",
+    "message": "Je propose de garder TAO. Pour une entrée, seul AAPL long passe le RR net (1,61), score 55."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "AAPL : volume x5 sur marché fermé avec ATR de 0,06 %, et alerte contre BTC. Le seuil de 1,5 est juste franchi. Pourquoi y croire avant l'ouverture ?"
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Tu as raison : le volume x5 sur un marché fermé est du bruit, et Nvidia demain peut inverser la tech. Je retire AAPL."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "trader",
+    "message": "D'accord. Je note que les shorts crypto TPB-1 (ADA, LINK, SUI, DOGE, ETH, SOL) ont tous un RR net de 0,61 à 0,68 : les frais mangent le gain."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "specialiste_memecoins",
+    "message": "Je confirme : après -5 % sur PEPE avec peur extrême, un short tardif est le piège classique."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Validé : on garde TAO, aucune nouvelle entrée. Mieux vaut ne rien faire que forcer un trade sur un marché fermé la veille de Nvidia."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Position ouverte : short TAO gardé, +0,16 € latent, stop 178,22 et objectif 161,07 inchangés.",
+    "Aucun candidat crypto avec un gain suffisant après frais (RR net 0,61 à 0,86).",
+    "AAPL passe tout juste le seuil (1,61) mais la bourse américaine est fermée et le signal va contre BTC.",
+    "Peur extrême (10) et Nvidia le 17 novembre : le marché peut bouger fort."
+   ],
+   "desaccords": [
+    "Le Risk Manager a contesté AAPL (volume x5 sur marché fermé) ; le Trader a retiré la proposition.",
+    "Le Sentiment déconseille d'ajouter un short crypto malgré la tendance baissière technique."
+   ],
+   "decision": "Garder TAO, aucune nouvelle entrée.",
+   "a_surveiller": [
+    "Ouverture américaine à 15:30 Paris : AAPL et les actions avec volume réel.",
+    "Résultats Nvidia (17 novembre).",
+    "BTC sous 58 316 (bas 12 h) ou rebond au-dessus de 58 831 : réexaminer TAO."
+   ]
+  },
+  "synthese": "On garde notre short TAO et on n'ouvre rien : la bourse américaine est fermée, les cryptos ne rapportent pas assez après frais et Nvidia publie demain.",
+  "id": "D-20261116-075647",
+  "cree_le": "2026-11-16T07:56:47Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-16T07:58:14Z"
  }
 ]

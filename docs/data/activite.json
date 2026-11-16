@@ -1,38 +1,5 @@
 [
  {
-  "t": "2026-11-15T01:59:42Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 12 signal(aux) : ADA short (BRK-1, 75), BTC short (BRK-1, 64), SOL short (BRK-1, 62)"
- },
- {
-  "t": "2026-11-15T02:26:58Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "ADA short fermé (stop-loss) à 0.1332467 : -2.56 € net",
-  "data": {
-   "id": "P0008"
-  }
- },
- {
-  "t": "2026-11-15T02:26:58Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On ne prend aucun nouveau trade : le marché a rebondi, les signaux du scanner sont périmés et la peur extrême rend les ventes à découvert risquées."
- },
- {
-  "t": "2026-11-15T02:27:05Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AUDUSD, AVAX, BMNR, COIN, DOGE, ETH, GBPUSD, IBIT, LTC, MSTR, PATH, SOL"
- },
- {
-  "t": "2026-11-15T02:27:07Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 2 en mouvement : JUP +5.8 %, ZEC +3.8 %."
- },
- {
   "t": "2026-11-15T02:27:18Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2708,5 +2675,35 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "SKY -2.51 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T07:58:14Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO et on n'ouvre rien : la bourse américaine est fermée, les cryptos ne rapportent pas assez après frais et Nvidia publie demain."
+ },
+ {
+  "t": "2026-11-16T07:58:21Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, ASTER, LIT, PENGU, SKR, PEARL, LINK, MON"
+ },
+ {
+  "t": "2026-11-16T07:58:22Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ASTS, BIDU, BRUN, GDXU, HELP, IBRX, LHX, MSTR, NBIS, RIG, UNG, VLO"
+ },
+ {
+  "t": "2026-11-16T07:58:24Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 5 en mouvement : NIGHT -11.2 %, LCX +10.6 %, DRV -6.6 %."
+ },
+ {
+  "t": "2026-11-16T07:59:39Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
  }
 ]
