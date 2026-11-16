@@ -13433,5 +13433,37 @@
    "plafonne": true
   },
   "traite_le": "2026-11-16T13:57:41Z"
+ },
+ {
+  "id": "M-20261116-140014-RARE",
+  "action": "open",
+  "sym": "RARE",
+  "side": "short",
+  "strategie": "MOM-1",
+  "entry_ref": 0.01543,
+  "atr": 0.0007299999999999997,
+  "stop": 0.015795,
+  "tp": 0.01397,
+  "duree_max_h": 2,
+  "risque_pct_override": 0.5,
+  "agents": {
+   "specialiste_memecoins": {
+    "avis": "favorable",
+    "resume": "Impulsion -4.5 % en 15 min, volume x3.7."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques (budget memecoins)."
+   }
+  },
+  "synthese": "Le spécialiste a agi seul : impulsion -4.5 % sur RARE, volume x3.7. À contrôler à la prochaine réunion.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0014",
+   "prix": 0.01539143,
+   "risque_eur": 2.12
+  },
+  "cree_le": "2026-11-16T14:00:14Z",
+  "traite_le": "2026-11-16T14:00:14Z"
  }
 ]

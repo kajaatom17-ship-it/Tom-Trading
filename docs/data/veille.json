@@ -1637,6 +1637,14 @@
  "alertes": [
   {
    "sym": "RARE",
+   "horizon": "1 h",
+   "variation_pct": 5.7,
+   "prix": 0.01538,
+   "t": "2026-11-16T14:00:16Z",
+   "position": "contre nous"
+  },
+  {
+   "sym": "RARE",
    "horizon": "15 min",
    "variation_pct": 5.29,
    "prix": 0.01532,
@@ -1664,13 +1672,6 @@
    "t": "2026-11-16T12:31:09Z"
   },
   {
-   "sym": "RARE",
-   "horizon": "1 h",
-   "variation_pct": 5.82,
-   "prix": 0.01454,
-   "t": "2026-11-16T12:03:03Z"
-  },
-  {
    "sym": "PLTR",
    "horizon": "15 min",
    "variation_pct": -2.3,
@@ -1680,5 +1681,5 @@
  ],
  "t_actus": "2026-11-16T13:58:16Z",
  "erreurs_sources": [],
- "t": "2026-11-16T13:58:16Z"
+ "t": "2026-11-16T14:00:16Z"
 }
