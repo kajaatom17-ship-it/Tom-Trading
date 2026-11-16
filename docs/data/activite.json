@@ -3,42 +3,6 @@
   "t": "2026-11-15T02:27:18Z",
   "agent": "Veille",
   "type": "alerte",
-  "msg": "FET +4.96 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "HYPE +4.89 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "INJ +4.2 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "LINK +3.43 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "LTC +3.09 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "NEAR +5.69 % en 15 min"
- },
- {
-  "t": "2026-11-15T02:27:18Z",
-  "agent": "Veille",
-  "type": "alerte",
   "msg": "ONDO +3.38 % en 15 min"
  },
  {
@@ -2711,5 +2675,47 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 23 signal(aux) : COIN short (TPB-1, 70), INJ short (TPB-1, 60), TAO short (BRK-1, 45)"
+ },
+ {
+  "t": "2026-11-16T08:56:39Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO et on n'ouvre rien de nouveau : COIN est tentant mais la bourse américaine est fermée et Nvidia publie cette semaine."
+ },
+ {
+  "t": "2026-11-16T08:56:45Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : ASTER, BTC, PENGU, PEARL, HYPE, LIT, ZEC, VVV"
+ },
+ {
+  "t": "2026-11-16T08:56:45Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ANT, BTC, DELL, FSLR, HD, HELP, HR, IBRX, KLAR, MSTR, PURR, QUANT"
+ },
+ {
+  "t": "2026-11-16T08:56:48Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 5 en mouvement : SKR +19.4 %, NIGHT -12.8 %, DRV -6.6 %."
+ },
+ {
+  "t": "2026-11-16T08:57:07Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Mantle Proposes 30K $ETH Loan to Aave After $292M Kelp Exploit - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWxvR19BNV90YmhMeVFUbDJpb0pUMFp3T2pVVmF3T0dqM1JseTVzRnl5N25sdkdfNzZaUzlETjM4ZFdGam9DYnNHNFNRYzZuWXJLeS1WRjYyMVk0U3NjQVFjZDZuaUd6TFVhbVRnNDE1bmdWZFF6X2Q2djg2YUlyNHZXR1lGUGJ0ai1QYkU2bThaOWo2OGRKUmFwbDBXYloyWGp1ODJtakxGWllmdlB0dkpHR0k?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-16T08:58:04Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 5 signal(aux) : HOOD short (TPB-1, 70), CRCL short (TPB-1, 70), AAPL long (TPB-1, 45)"
  }
 ]
