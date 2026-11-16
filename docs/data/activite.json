@@ -1,59 +1,5 @@
 [
  {
-  "t": "2026-11-14T20:58:03Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "459 actifs hors univers analysés, 49 en mouvement : ASTER -24.2 %, USELESS -23.2 %, PUMP -17.3 %. Ajoutés : ASTER."
- },
- {
-  "t": "2026-11-14T20:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "BONK -3.0 % en 15 min"
- },
- {
-  "t": "2026-11-14T20:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "DOT -3.27 % en 15 min"
- },
- {
-  "t": "2026-11-14T20:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "FET -3.41 % en 15 min"
- },
- {
-  "t": "2026-11-14T20:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "OP -4.07 % en 15 min"
- },
- {
-  "t": "2026-11-14T20:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "RENDER -2.69 % en 15 min"
- },
- {
-  "t": "2026-11-14T20:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "TAO -3.18 % en 15 min"
- },
- {
-  "t": "2026-11-14T20:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "CRCL -1.74 % en 15 min"
- },
- {
-  "t": "2026-11-14T20:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "MSTR -1.56 % en 15 min"
- },
- {
   "t": "2026-11-14T20:59:22Z",
   "agent": "Scanner",
   "type": "scan",
@@ -2677,5 +2623,65 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "COIN -4.38 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T01:23:16Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AERO, CAPR, DRTS, FROG, GLD, HELP, KOLD, LUNC, MSTR, MSTX, OCUL, SKYD"
+ },
+ {
+  "t": "2026-11-16T01:23:17Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 1 en mouvement : SKHY -3.7 %."
+ },
+ {
+  "t": "2026-11-16T01:23:36Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Mantle Proposes 30K $ETH Loan to Aave After $292M Kelp Exploit - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWxvR19BNV90YmhMeVFUbDJpb0pUMFp3T2pVVmF3T0dqM1JseTVzRnl5N25sdkdfNzZaUzlETjM4ZFdGam9DYnNHNFNRYzZuWXJLeS1WRjYyMVk0U3NjQVFjZDZuaUd6TFVhbVRnNDE1bmdWZFF6X2Q2djg2YUlyNHZXR1lGUGJ0ai1QYkU2bThaOWo2OGRKUmFwbDBXYloyWGp1ODJtakxGWllmdlB0dkpHR0k?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-16T01:23:36Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "NVDA -2.01 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T01:23:36Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "AVGO -1.6 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T01:23:36Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "COIN -4.51 % en 1 h"
+ },
+ {
+  "t": "2026-11-16T01:23:36Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "PLTR +1.63 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T01:23:36Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "INTC -2.18 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T01:24:37Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 10 signal(aux) : HOOD short (TPB-1, 70), WIF short (BRK-1, 33), BTC short (TPB-1, 30)"
  }
 ]

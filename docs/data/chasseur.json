@@ -1,40 +1,46 @@
 {
- "t": "2026-11-16T00:56:43Z",
- "nb_analyses": 457,
- "nb_en_mouvement": 0,
+ "t": "2026-11-16T01:23:17Z",
+ "nb_analyses": 610,
+ "nb_en_mouvement": 1,
  "tendance": [
-  "AG",
+  "AERO",
   "ASTER",
   "BTC",
   "CAPR",
-  "CCL",
   "DOGE",
   "DRTS",
   "FROG",
   "GLD",
   "HBAR",
+  "HELP",
   "HYPE",
-  "JNUG",
+  "KOLD",
   "LUNC",
   "MACCA",
   "MIHAO",
   "MON",
-  "MRK",
+  "MSTR",
+  "MSTX",
   "OCUL",
   "PEARL",
   "PENGU",
   "QNT",
-  "QUBT",
+  "SKYD",
   "SMMT",
   "SOL",
+  "SPCX",
   "STONK",
   "SUI",
   "UNI",
-  "UPS",
-  "WMT"
+  "XLP"
  ],
  "buzz_reseaux": {
   "SMMT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -49,27 +55,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "OCUL": {
+  "XLP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "FROG": {
+  "AERO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UPS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QUBT": {
+  "MSTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -79,12 +75,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CCL": {
+  "FROG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -94,22 +85,43 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MRK": {
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JNUG": {
+  "OCUL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WMT": {
+  "SPCX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KOLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SKYD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "SKHY",
+   "pair": "SKHYxUSD",
+   "action": true,
+   "variation_24h_pct": -3.74,
+   "volume_24h_eur": 47074.33,
+   "spread_pct": 0.039,
+   "tendance": false,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
