@@ -20,10 +20,10 @@
    "risque_eur": 0.5252080051054566,
    "rr_net": 1.77,
    "ouvert_le": "2026-11-16T14:59:22Z",
-   "verifie_jusqu_a": "2026-11-16T15:32:00Z",
+   "verifie_jusqu_a": "2026-11-16T15:57:00Z",
    "duree_max_h": 24.0,
    "decision_id": "G-20261116-145922",
-   "dernier_prix": 235.91491682574306,
+   "dernier_prix": 238.08744659576402,
    "atr": 0.4879608
   }
  ],
@@ -38,7 +38,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T15:32:56Z",
+ "maj": "2026-11-16T15:57:54Z",
  "seq": 15,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -47,7 +47,7 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T15:28:36Z",
+ "chasseur_t": "2026-11-16T15:57:45Z",
  "tendance": [
   "MACCA",
   "LIT",
@@ -69,53 +69,63 @@
  "buzz": {
   "NVDA": {
    "source": "Reddit",
-   "mentions": 795,
+   "mentions": 822,
+   "x_vs_hier": 2.2
+  },
+  "SPY": {
+   "source": "Reddit",
+   "mentions": 149,
    "x_vs_hier": 2.2
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 104,
-   "x_vs_hier": 2.7
+   "mentions": 114,
+   "x_vs_hier": 2.9
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 71,
-   "x_vs_hier": 5.1
+   "mentions": 77,
+   "x_vs_hier": 5.5
   },
   "MU": {
    "source": "Reddit",
-   "mentions": 69,
+   "mentions": 70,
    "x_vs_hier": 3.3
   },
   "SNDK": {
    "source": "Reddit",
-   "mentions": 46,
-   "x_vs_hier": 2.7
-  },
-  "MSFT": {
-   "source": "Reddit",
-   "mentions": 37,
-   "x_vs_hier": 2.3
+   "mentions": 48,
+   "x_vs_hier": 2.8
   },
   "GOOGL": {
    "source": "Reddit",
-   "mentions": 35,
-   "x_vs_hier": 8.8
+   "mentions": 42,
+   "x_vs_hier": 14.0
+  },
+  "GOOG": {
+   "source": "Reddit",
+   "mentions": 41,
+   "x_vs_hier": 3.2
+  },
+  "MSFT": {
+   "source": "Reddit",
+   "mentions": 39,
+   "x_vs_hier": 2.6
   },
   "AAPL": {
    "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 2.9
+   "mentions": 33,
+   "x_vs_hier": 3.7
   },
-  "GOOG": {
+  "HR": {
    "source": "Reddit",
    "mentions": 32,
    "x_vs_hier": 2.5
   },
-  "HR": {
-   "source": "Reddit",
-   "mentions": 31,
-   "x_vs_hier": 2.2
+  "IREN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   },
   "HELP": {
    "source": "StockTwits",
@@ -127,17 +137,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IREN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SMMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XPEV": {
+  "NKE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -147,27 +152,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TTWO": {
+  "KO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DRTS": {
+  "RUM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BTC": {
+  "PG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "SEZL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ICP": {
+  "JNJ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -177,50 +182,68 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "CRSR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XPEV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "DAL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NKE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T15:28:37Z",
- "sources_t": "2026-11-16T15:28:42Z",
+ "buzz_t": "2026-11-16T15:57:46Z",
+ "sources_t": "2026-11-16T15:57:51Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
-   "sentiment": "bearish",
+   "mentions": 11,
+   "sentiment": "neutral",
    "titres": [
-    "Strategy Acquires 485 BTC and Repurchases $228 Million of STRC",
-    "Bitcoin Whales Face $8B in Losses — Is a Recovery Coming?"
+    "Strive Buys 251 Bitcoin as Holdings Climb to 43,404",
+    "Strive’s Weekly Bitcoin Buying Rebounds to 251 BTC as It Pays Less per Coin"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 5,
+   "sentiment": "bullish",
+   "titres": [
+    "DeFi Development 上周增持 9482 枚 SOL，持仓总量升至约 262 万枚",
+    "Solana Policy Institute’s Kristin Smith sees opening in new Congress for crypto bills"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 4,
+   "sentiment": "bullish",
+   "titres": [
+    "Strive’s Weekly Bitcoin Buying Rebounds to 251 BTC as It Pays Less per Coin",
+    "Hyperliquid Policy Center backs CFTC push to separate event contracts from gambling"
    ]
   },
   {
    "sujet": "AI",
    "mentions": 4,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Marvell, Penguin Solutions collaborate to address data center AI memory",
-    "Sandisk (SNDK) Stock Falls 6% Ahead of 8-for-1 Split as Memory Selloff Deepens"
+    "Trump says he wouldn't mind seeing Huang return to Nvidia",
+    "Bitcoin, AI & Gaming -  Gamoid 🎥"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Security",
    "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "ETH/USDT Bearish Liquidity Sweep & Swing Low Short Setup",
-    "幣安推出 Pay Later！用加密貨幣抵押先買後付，額度 1,000 USDC"
+    "Bitcoin Miners Hijacked as Attackers Redirect BTC Through Luxor Breach",
+    "Lighter Confirms Security Breach, LIT Token Dives After $15M Swiped"
    ]
   },
   {
@@ -228,40 +251,26 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "ETH/USDT Bearish Liquidity Sweep & Swing Low Short Setup",
-    "Bitmine 增持 7,653 枚 ETH、持倉達 608 萬枚！Tom Lee：Anthropic IPO 抽走以太坊資金"
+    "Polygon price prediction 2026-2032: Will POL recover its ATH soon?",
+    "Vitalik Buterin Backs Faster Route to Quantum-Safe Ethereum With New Proposal"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
+   "sujet": "DeFi",
+   "mentions": 2,
+   "sentiment": "bullish",
    "titres": [
-    "幣安推出 Pay Later！用加密貨幣抵押先買後付，額度 1,000 USDC"
+    "DeFi Development 上周增持 9482 枚 SOL，持仓总量升至约 262 万枚",
+    "Boris Johnson maintains Bitcoin skepticism at Solana’s Breakpoint conference"
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 1,
+   "sujet": "XRP",
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin Whales Face $8B in Losses — Is a Recovery Coming?"
-   ]
-  },
-  {
-   "sujet": "Cardano",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Cardano Founder Pushes Back on Claim That Midnight Isn’t Built on Cardano"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Couche-Tard secures all regulatory approvals for Żabka acquisition"
+    "XRP Could Fall Again in December After One of Its Worst Novembers",
+    "Expert Just Mapped Out XRP Hitting $150 In 6 Months Using This Theory"
    ]
   }
  ],
