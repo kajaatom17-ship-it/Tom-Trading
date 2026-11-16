@@ -1,0 +1,104 @@
+{
+ "action": "none",
+ "agents": {
+  "analyste_technique": {
+   "avis": "prudent",
+   "resume": "COIN : TPB-1 short (entrée 109,36, stop 110,46, objectif 106,08, RR net 2,07, score 70), tendance 1 h baissière, RSI 40,3, volume x1,61. Mais le prix est à 0,8 ATR du plus bas 12 h (108,50) : le rebond sur l'EMA20 est faible. TAO : RSI 37, volume x16,8, cassure BRK-1 mais RR net 0,66, donc pas d'ajout. BTC 58 732, baissier 1 h.",
+   "donnees": "Brief Kraken 08:55 UTC (09:55 Paris), bougies 15 min"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Bourse US fermée jusqu'à 15:30 Paris. Les futures Nasdaq/S&P sont en léger recul avant les résultats de Nvidia et l'IPO d'Anthropic (TradingView, 16/11 06:59 UTC ; Yahoo Finance, 16/11 02:04 UTC). Procès-verbal de la Fed attendu cette semaine et responsables de la Fed (Schmid, Boston Fed) qui parlent d'inflation persistante (Bloomberg 15/11 18:40 UTC ; BigGo 16/11 01:05 UTC). Aucune source datée ne m'a confirmé l'heure exacte des événements : calendrier non déposé.",
+   "sources": [
+    "TradingView - Nasdaq Futures Turn Lower Before Nvidia Earnings - 16/11 06:59 UTC",
+    "Bloomberg - Schmid Says Fed Has More Work To Do - 15/11 18:40 UTC",
+    "Bloomberg - Bitcoin Options Traders Brace for Slide to $60,000 - 16/11 06:14 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), capitalisation crypto -3,18 % sur 24 h, dominance BTC 59,36 %. Les options BTC pariaient sur 60 000 $ (Bloomberg). En peur extrême, les rebonds sont violents : un short tardif est risqué."
+  },
+  "trader": {
+   "proposition": "Garder le short TAO (171,45, stop 178,22, objectif 161,07, +1,32 € latent). Pas de nouvelle entrée : COIN est le seul candidat propre mais l'action est hors séance.",
+   "pour": [
+    "COIN TPB-1 RR net 2,07",
+    "Tendance baissière du marché"
+   ],
+   "contre": [
+    "Bourse US fermée, volume 24 h de 198 879 € seulement",
+    "Résultats Nvidia cette semaine",
+    "Entrée après -5,1 % sur 24 h"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "refuse",
+   "motif": "Pas de nouvelle entrée : liquidité faible hors séance sur COIN, événements majeurs proches, stop de 1,0 % seulement donc sensible au bruit d'ouverture. Position TAO conservée : stop et objectif inchangés."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "COIN short TPB-1 : entrée 109,36, stop 110,46, objectif 106,08, RR net 2,07, RSI 40,3, volume x1,61. C'est le seul signal au-dessus de 1,5 ; INJ est à 1,67 mais son volume est à x0,12."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Les actions US ouvrent à 15:30 Paris. Nvidia publie cette semaine et les futures sont déjà en léger recul : l'ouverture peut faire sauter un stop de 1 % sur COIN dans un sens ou l'autre."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "message": "Fear & Greed à 10 et capitalisation crypto à -3,18 % : sentiment extrême. COIN a déjà perdu 5,14 % en 24 h, on shorterait après le gros du mouvement.",
+   "repond_a": "analyste_technique"
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Point valable, mais la tendance 1 h reste baissière et le prix est à 109,36, au-dessus du bas 12 h à 108,50 : il reste de la place jusqu'à 106,08. Je ne dis pas que c'est fini."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "analyste_technique",
+   "message": "Je conteste : tu lis un graphique d'action sur un titre peu échangé hors séance. Le volume 24 h de COIN est de 198 879 €, très faible, donc les bougies 15 min sont peu fiables."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose le short COIN au marché ET le maintien du short TAO. Je note les objections sur la liquidité et je demande au Risk Manager son verdict."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Refusé pour COIN. Stop à 1,0 % de l'entrée, bourse fermée, Nvidia à venir : je ne valide pas pour faire tourner le portefeuille. TAO : le stop 178,22 limite la perte, on garde. Le RR 0,66 de la cassure BRK-1 sur TAO interdit d'ajouter."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "D'accord. Je retire COIN et je note qu'on le réétudie après l'ouverture US si le prix et le volume confirment (cassure sous 108,50). Court terme : rien à déposer sur TAO."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "trader",
+   "message": "Je valide de ne rien faire. Pas de consensus mou : si BTC passe sous 58 316 avec un volume fort, je demanderai de revoir TAO en premier."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Position ouverte : short TAO à 173,76, prix 171,45, gain latent +1,32 € ; stop et objectif inchangés, on garde.",
+   "Seul candidat propre : COIN short (RR net 2,07), mais la bourse US est fermée et le volume est faible.",
+   "Marché en peur extrême (Fear & Greed 10), BTC à 58 732 en tendance baissière.",
+   "Nvidia publie cette semaine et le procès-verbal de la Fed approche : risque de gros mouvement à l'ouverture US."
+  ],
+  "desaccords": [
+   "Analyste technique pour COIN short, macro et Risk Manager contre (liquidité, ouverture US).",
+   "Sentiment craint un short tardif après -5 % sur 24 h."
+  ],
+  "decision": "Garder TAO, aucune nouvelle entrée.",
+  "a_surveiller": [
+   "Ouverture US à 15:30 Paris : COIN sous 108,50 avec volume.",
+   "BTC sous 58 316 : revoir TAO.",
+   "Résultats Nvidia."
+  ]
+ },
+ "synthese": "On garde notre short TAO et on n'ouvre rien de nouveau : COIN est tentant mais la bourse américaine est fermée et Nvidia publie cette semaine.",
+ "id": "D-20261116-085626",
+ "cree_le": "2026-11-16T08:56:26Z"
+}
