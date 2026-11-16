@@ -1,12 +1,6 @@
 [
  {
   "t": "2026-11-14T20:58:03Z",
-  "agent": "Spécialiste memecoins",
-  "type": "ajout refusé",
-  "msg": "FARTCOIN : Spread trop large (0.62 %)."
- },
- {
-  "t": "2026-11-14T20:58:03Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "459 actifs hors univers analysés, 49 en mouvement : ASTER -24.2 %, USELESS -23.2 %, PUMP -17.3 %. Ajoutés : ASTER."
@@ -2677,5 +2671,11 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 20 signal(aux) : HOOD short (TPB-1, 70), CRCL short (TPB-1, 70), PEPE short (BRK-1, 45)"
+ },
+ {
+  "t": "2026-11-16T01:00:42Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "COIN -4.38 % en 15 min"
  }
 ]
