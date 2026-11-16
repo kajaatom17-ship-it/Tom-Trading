@@ -1,35 +1,5 @@
 [
  {
-  "t": "2026-11-15T00:57:36Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On ne fait rien : le marché a déjà beaucoup chuté, la Bourse est fermée et aucun trade n'offre assez de gain pour le risque."
- },
- {
-  "t": "2026-11-15T00:57:42Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, HYPE, SOL, UNI, NEAR, XRP, AAVE, TAO"
- },
- {
-  "t": "2026-11-15T00:57:43Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADA, AVAX, BTC, DOGE, ETH, GEO, HBAR, MSTR, NVO, QNT, SOL, XLM"
- },
- {
-  "t": "2026-11-15T00:57:44Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 1 en mouvement : ZRX -9.7 %."
- },
- {
-  "t": "2026-11-15T00:59:06Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 4 signal(aux) : LTC short (TPB-1, 70), DOT short (TPB-1, 60), ONDO short (TPB-1, 60)"
- },
- {
   "t": "2026-11-15T01:26:52Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2705,5 +2675,41 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 14 signal(aux) : TSLA short (BRK-1, 66), AMZN short (BRK-1, 62), BTC short (TPB-1, 40)"
+ },
+ {
+  "t": "2026-11-16T06:27:50Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO et on n'ouvre rien de nouveau : la bourse américaine est fermée, donc les signaux sur Tesla et Amazon ne sont pas fiables, et les résultats de Nvidia peuvent tout faire bouger."
+ },
+ {
+  "t": "2026-11-16T06:27:58Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AMD, ASTS, BE, COHR, COIN, DOGE, HOOD, IBIT, MOD, NBIS, NVDA, ONDS"
+ },
+ {
+  "t": "2026-11-16T06:28:02Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 5 en mouvement : NIGHT -8.3 %, DRV -7.0 %, SKHY -5.2 %."
+ },
+ {
+  "t": "2026-11-16T06:28:20Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Mantle Proposes 30K $ETH Loan to Aave After $292M Kelp Exploit - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWxvR19BNV90YmhMeVFUbDJpb0pUMFp3T2pVVmF3T0dqM1JseTVzRnl5N25sdkdfNzZaUzlETjM4ZFdGam9DYnNHNFNRYzZuWXJLeS1WRjYyMVk0U3NjQVFjZDZuaUd6TFVhbVRnNDE1bmdWZFF6X2Q2djg2YUlyNHZXR1lGUGJ0ai1QYkU2bThaOWo2OGRKUmFwbDBXYloyWGp1ODJtakxGWllmdlB0dkpHR0k?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-16T06:29:22Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 13 signal(aux) : AMZN short (BRK-1, 71), MSTR short (TPB-1, 60), RENDER short (BRK-1, 44)"
  }
 ]
