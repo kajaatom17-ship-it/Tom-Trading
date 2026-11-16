@@ -1,0 +1,106 @@
+{
+ "action": "none",
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "neutre",
+   "resume": "Tendance 1 h baissière sur BTC (59 014 €, RSI 48, ATR 0,39 %) et sur TAO (RSI 53,7, volume 0,93x). Seul candidat propre, CRCL short TPB-1 (RR net 2,13, score 60), mais ATR 15 min de 0,25 % pour un stop à 1,09 % : mouvement lent, bourse US fermée.",
+   "donnees": "Kraken OHLC 15 min via brief, 2026-11-16 00:55 UTC (01:55 Paris)"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Titres du brief (15/11 22:00-23:00 UTC) : propos du Fed Schmid évoquant de possibles hausses de taux, creux de BTC et 1,7 Md$ de liquidations. Ma recherche web sur le calendrier du jour et sur CRCL n'a renvoyé aucune source datée exploitable : je n'ajoute aucun événement à l'agenda.",
+   "sources": [
+    "Fed's Schmid signals potential rate hikes as inflation exceeds target - Crypto Briefing - 2026-11-15 23:03 UTC",
+    "Bitcoin's Weekend Plunge Wipes $130 Billion Off Crypto Market Cap - BigGo Finance - 2026-11-15 22:05 UTC"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,36 %, capitalisation totale -0,83 % sur 24 h. Peur extrême : les rebonds sont violents, un short tardif est risqué.",
+   "donnees": "brief 2026-11-15 23:57 UTC"
+  },
+  "specialiste_memecoins": {
+   "avis": "rien de propre",
+   "resume": "BONK, TRUMP et WIF cassent leur plus bas 12 h avec volume x4 à x6, mais RR net de 0,5 à 0,84 après frais : mouvement déjà fait ou trop court. TRUMP spread 0,12 %, volume 24 h 121 k€."
+  },
+  "trader": {
+   "proposition": "Garder le short TAO tel quel, aucune nouvelle entrée.",
+   "pour": [
+    "Stop et objectif de TAO toujours valides",
+    "CRCL a un RR net de 2,13"
+   ],
+   "contre": [
+    "Bourse US fermée, pas de confirmation de volume",
+    "Aucun catalyseur sourcé pour CRCL",
+    "Peur extrême : risque de rebond violent"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Garder TAO (perte latente 0,53 €, stop 178,22 en place). Pas de nouvelle entrée : RR net insuffisant sur les memecoins, CRCL non confirmé hors séance."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "BTC 59 014 € sous ses EMA en 1 h, RSI 48. TAO à 174,68 € pour une entrée à 173,76 : -0,53 €, stop 178,22 intact, tendance 1 h baissière."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_technique",
+   "message": "Fear & Greed est à 10. En peur extrême, les rebonds sont brutaux : le short TAO doit rester protégé par son stop, pas par l'espoir."
+  },
+  {
+   "agent": "analyste_macro",
+   "message": "Le Fed Schmid évoque des hausses de taux possibles (Crypto Briefing, 23:03 UTC) et 1,7 Md$ ont été liquidés ce week-end. Ma recherche web n'a rien donné de daté pour le calendrier du jour ni pour CRCL, je n'invente rien."
+  },
+  {
+   "agent": "specialiste_memecoins",
+   "message": "BONK x6,44 de volume, TRUMP x4,73, WIF x4,97 sur cassure du bas 12 h, mais RR net 0,5 / 0,5 / 0,84 : on arrive après le mouvement. Rien de propre."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose de garder TAO. Pour une entrée : CRCL short TPB-1, entrée 52,80, stop 53,37, objectif 51,07, RR net 2,13."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "trader",
+   "message": "Je conteste CRCL : l'ATR 15 min est de 0,25 % et le stop est à 1,09 %, soit plus de 4 ATR. Il faudrait un mouvement large dans un marché presque endormi."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "trader",
+   "message": "CRCL a monté de 5,28 % sur 24 h et je n'ai aucun catalyseur sourcé. Une action cotée en séance US seulement, ouverture à 15:30 Paris : je ne vois aucune raison d'entrer maintenant."
+  },
+  {
+   "agent": "trader",
+   "repond_a": "analyste_macro",
+   "message": "D'accord. Sans confirmation de volume et hors séance, le signal reste une piste. J'abandonne CRCL pour cette réunion."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Verdict : on garde TAO, pas de nouvelle entrée. Consensus rapide donc j'ai cherché un motif de fermer TAO : aucune alerte de prix contre nous, volume 0,93x, stop non touché. On garde."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Le short TAO est en léger déficit (-0,53 €) mais son stop à 178,22 et son objectif à 161,07 restent valables.",
+   "Les memecoins cassent leurs plus bas avec du volume, mais le gain possible après frais est trop faible (RR net 0,5 à 0,84).",
+   "CRCL short a un RR net de 2,13 mais la bourse US est fermée et aucun catalyseur n'est sourcé."
+  ],
+  "desaccords": [
+   "L'analyste technique a contesté CRCL : stop à plus de 4 ATR dans un marché lent. Le trader a retiré sa proposition."
+  ],
+  "decision": "On garde le short TAO et on n'ouvre aucune nouvelle position.",
+  "a_surveiller": [
+   "Ouverture de la bourse US à 15:30 Paris : CRCL ou une autre action avec volume confirmé",
+   "Un rebond de BTC après la peur extrême (Fear & Greed 10), danger pour le short TAO",
+   "Un nouveau calendrier daté (Fed, CPI) à vérifier à la prochaine réunion"
+  ]
+ },
+ "synthese": "On garde le short TAO et on n'ouvre rien : aucun candidat n'est assez solide et la bourse est fermée.",
+ "id": "D-20261116-005622",
+ "cree_le": "2026-11-16T00:56:22Z"
+}
