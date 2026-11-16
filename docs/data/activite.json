@@ -1,32 +1,5 @@
 [
  {
-  "t": "2026-11-15T01:58:15Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, HYPE, ETH, SOL, PUMP, XRP, NEAR, LIT"
- },
- {
-  "t": "2026-11-15T01:58:16Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AVAX, BMNR, COIN, DOGE, ETH, GBPUSD, HBAR, IBIT, LINK, LTC, MSTR, PATH"
- },
- {
-  "t": "2026-11-15T01:58:19Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 3 en mouvement : USELESS -5.6 %, PUMP -4.3 %, UNI -3.2 %."
- },
- {
-  "t": "2026-11-15T01:59:42Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "ADA short ouvert à 0.1301789 | 80.90 € engagés | stop 0.1331801 | objectif 0.1206996 | risque 2.52 EUR",
-  "data": {
-   "id": "P0008"
-  }
- },
- {
   "t": "2026-11-15T01:59:42Z",
   "agent": "Trader de garde",
   "type": "entrée",
@@ -2711,5 +2684,29 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-16T07:26:42Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO et on n'ouvre rien : aucun signal net, bourse US fermée, marché en grande peur."
+ },
+ {
+  "t": "2026-11-16T07:26:50Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, ASTS, BIDU, BOIL, COIN, DAL, DRTS, DUOL, HELP, MSTR, NBIS, SLV"
+ },
+ {
+  "t": "2026-11-16T07:26:54Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 5 en mouvement : NIGHT -11.7 %, DRV -7.0 %, SKHY -5.3 %."
+ },
+ {
+  "t": "2026-11-16T07:28:15Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 12 signal(aux) : AAPL long (TPB-1, 55), ADA short (TPB-1, 40), LINK short (TPB-1, 40)"
  }
 ]
