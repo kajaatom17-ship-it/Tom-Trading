@@ -10346,5 +10346,118 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-15T23:57:17Z"
+ },
+ {
+  "action": "none",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "TAO short : prix 175,38 €, dernière clôture 15 min 176,87, EMA20 175,25, RSI 62,6 (en hausse depuis 55,6), volume 0,56x la normale, tendance 1 h baissière. Rebond contre nous mais sans volume ; le stop 178,22 est au-dessus du haut récent 178,08. NVDA : signal TPB-1 long (RSI 62,2, volume 2,46x) mais la bourse US est fermée.",
+    "donnees": "Kraken OHLC 15 min, brief 2026-11-16 00:25 UTC (01:25 Paris)"
+   },
+   "analyste_macro": {
+    "avis": "neutre",
+    "resume": "Calendrier des annonces vide dans le moteur. Les recherches web du jour n'ont pas donné de date confirmée et fiable pour la semaine du 16 nov : aucun événement n'est ajouté à l'agenda (règle : pas de date non confirmée). Actualités du brief : weekend baissier crypto (liquidations d'environ 1,7 Md$ selon BigGo Finance/bloomingbit, 15 nov), propos de Schmid (Fed) évoquant de possibles hausses de taux selon Crypto Briefing (15 nov 23:03 UTC), plainte d'actionnaires contre Intel (Investing.com, 15 nov).",
+    "sources": [
+     "BigGo Finance - Bitcoin's Weekend Plunge, 1,7 Md$ de liquidations - 15/11/2026 22:05 UTC - via Google News",
+     "Crypto Briefing - Fed's Schmid signals potential rate hikes - 15/11/2026 23:03 UTC - via Google News",
+     "Investing.com - Intel sued by shareholders following 29% stock plunge - 15/11/2026 23:57 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,36 %, capitalisation totale -0,83 % sur 24 h. Le rebond du jour (BTC +2,5 %, ETH +4,8 %, XRP +8,2 % sur 24 h) se fait à très faible volume (0,2 à 0,3x)."
+   },
+   "specialiste_memecoins": {
+    "avis": "rien de propre",
+    "resume": "DOGE RSI 70,6 avec volume 6,7x mais tendance 1 h baissière et déjà +6,1 % sur 24 h : poursuite risquée. SHIB, PEPE, TRUMP, WIF sans configuration (PEPE volume 0,34x). Spreads corrects (DOGE 0,004 %, PEPE 0,057 %)."
+   },
+   "trader": {
+    "proposition": "Garder le short TAO tel quel ; aucune nouvelle entrée.",
+    "pour": [
+     "Stop et objectif posés pour cette raison",
+     "Tendance 1 h baissière toujours valide"
+    ],
+    "contre": [
+     "Rebond RSI en hausse",
+     "Perte latente -0,93 €"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Aucune action = risque inchangé (perte max du TAO fixée au stop 178,22). NVDA refusé hors séance et contre la tendance BTC."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "TAO short : prix 175,38, stop 178,22, objectif 161,07. Dernière clôture 15 min à 176,87 sous le haut récent 178,08. Le RSI remonte de 55,6 à 62,6, mais le volume est à 0,56x la normale."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Pas de date d'annonce confirmée dans mes recherches pour cette nuit. Actu du weekend : 1,7 Md$ de liquidations crypto (BigGo, 15/11 22:05 UTC) et Schmid (Fed) qui parle de possibles hausses de taux. C'est un contexte plutôt favorable au short, mais ce sont des faits d'hier, déjà dans le prix."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "analyste_macro",
+    "message": "Fear & Greed à 10 : en peur extrême, les rebonds sont violents. Le rebond actuel (BTC +2,5 %, XRP +8,2 % en 24 h) se fait à 0,3x le volume, donc fragile, mais il peut encore monter vers le stop du TAO."
+   },
+   {
+    "agent": "specialiste_memecoins",
+    "message": "Rien de propre. DOGE RSI 70,6 et volume 6,7x, mais tendance 1 h baissière et +6,1 % sur 24 h : entrer maintenant serait poursuivre. PEPE volume 0,34x, pas de signal."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "specialiste_memecoins",
+    "message": "D'accord pour DOGE : RSI au-dessus de 70 et prix collé à l'EMA20, le short n'est pas encore confirmé par une mèche ou un volume qui baisse. On attend."
+   },
+   {
+    "agent": "trader",
+    "message": "Deux sujets. (a) TAO : je garde, le stop à 178,22 est au-dessus du haut récent 178,08 et rien ne casse le scénario. (b) Nouvelle entrée : seul NVDA ressort (TPB-1 long, RR net 2,16, score 55) ; je le trouve intéressant sur le papier."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Je conteste NVDA : la bourse US est fermée (volume xStocks faible hors séance), le signal est contre la tendance de BTC (alerte du scanner) et le score n'est que de 55. En plus, un long NVDA s'ajouterait à un contexte de peur extrême, et l'alerte du brief signale +2,4 % en 15 min hier soir, donc un mouvement déjà en partie fait."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "risk_manager",
+    "message": "Techniquement le setup NVDA est propre (RSI 62,2, volume 2,46x, trend 1 h haussière), mais je n'ai aucune objection à attendre l'ouverture US pour confirmer : un ordre de nuit n'a pas d'avantage."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "risk_manager",
+    "message": "Compris, je retire NVDA. Pas de nouvelle entrée, on garde TAO. On rouvre le dossier NVDA à la séance US si le signal tient."
+   },
+   {
+    "agent": "risk_manager",
+    "message": "Validé : aucune action. Perte max sur TAO inchangée (stop 178,22). Le comité ne force pas un trade de nuit."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Le short TAO est en léger rouge (-0,93 €) mais le stop est bien placé et la tendance 1 h reste baissière.",
+    "Un seul candidat du scanner : NVDA (long), mais la bourse américaine est fermée et il va contre BTC.",
+    "Aucun memecoin n'a de configuration propre ; DOGE est déjà monté de 6 % en 24 h.",
+    "Calendrier des annonces : pas de date confirmée trouvée, rien n'a été ajouté à l'agenda."
+   ],
+   "desaccords": [
+    "Le Trader trouvait NVDA intéressant ; le Risk Manager l'a refusé (bourse fermée, contre BTC, score 55)."
+   ],
+   "decision": "On garde le short TAO et on n'ouvre rien de nouveau.",
+   "a_surveiller": [
+    "Une clôture 15 min de TAO au-dessus de 178,08 (haut récent) avant le stop à 178,22.",
+    "NVDA à l'ouverture US (15:30 Paris) : volume et tendance du Nasdaq.",
+    "Agenda de la semaine à compléter avec une source officielle."
+   ]
+  },
+  "synthese": "On garde le short TAO tel quel et on n'ouvre rien : la bourse est fermée et aucun candidat n'est assez solide.",
+  "id": "D-20261116-002613",
+  "cree_le": "2026-11-16T00:26:13Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-16T00:26:27Z"
  }
 ]
