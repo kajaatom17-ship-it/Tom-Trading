@@ -11232,5 +11232,111 @@
    "statut": "aucune action"
   },
   "traite_le": "2026-11-16T03:58:31Z"
+ },
+ {
+  "action": "none",
+  "confiance": "moyenne",
+  "agents": {
+   "analyste_technique": {
+    "avis": "prudent",
+    "resume": "BTC 59 006 sur son EMA20 15 min (59 004), RSI 50,1, volume à 0,52x : marché plat dans une tendance 1 h baissière. TAO (173,78) a fait un pic de RSI à 54,6 puis 45,7, volume 0,03x : pas de signal nouveau. Scanner : AMD short RR net 2,19 score 70, HOOD short 2,07 score 60, AVGO 1,61.",
+    "donnees": "Brief Kraken 04:25 UTC (05:25 Paris), 16/11/2026"
+   },
+   "analyste_macro": {
+    "avis": "prudent",
+    "resume": "Résultats Nvidia (T3 exercice 2027) annoncés pour le 17 novembre, premier rapport sans Jensen Huang, selon la page investisseurs de Nvidia. Bourse US fermée, contrats à terme peu changés. Un responsable de la Fed (Schmid) juge l'inflation trop élevée (relais Google News, 16/11 02:12 UTC). Heure exacte des résultats non confirmée ici : pas d'ajout à l'agenda.",
+    "sources": [
+     "NVIDIA 3rd Quarter FY27 Financial Results - investor.nvidia.com - https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
+     "Asian chip stocks slide ahead of Nvidia earnings - Investing.com - 16/11/2026 03:58 UTC"
+    ]
+   },
+   "analyste_sentiment": {
+    "avis": "prudent",
+    "resume": "Fear & Greed 10 (peur extrême), dominance BTC 59,38 %, capitalisation totale -3,89 % sur 24 h. En peur extrême, les rebonds sont brusques : un short tardif est risqué.",
+    "donnees": "Brief 03:58 UTC"
+   },
+   "trader": {
+    "proposition": "Garder le short TAO (stop 178,22, objectif 161,07). Aucune nouvelle entrée : AMD short est le meilleur candidat mais la veille de Nvidia et bourse fermée.",
+    "pour": [
+     "AMD short RR net 2,19",
+     "tendance 1 h baissière"
+    ],
+    "contre": [
+     "résultats Nvidia le 17/11",
+     "volume xStocks faible hors séance",
+     "pas de signal frais sur le prix"
+    ]
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Aucun trade : risque d'annonce binaire la veille des résultats Nvidia, séance US fermée. TAO reste protégé par son stop (perte latente -0,51 €)."
+   }
+  },
+  "discussion": [
+   {
+    "agent": "analyste_technique",
+    "message": "BTC 59 006 collé à l'EMA20 (59 004), RSI 50,1, volume 0,52x : pas de direction. TAO a perdu son rebond (RSI 54,6 puis 45,7)."
+   },
+   {
+    "agent": "analyste_macro",
+    "message": "Nvidia publie le 17/11 (page investisseurs Nvidia). Les puces asiatiques reculent avant les résultats (Investing.com, 03:58 UTC). Schmid (Fed) trouve l'inflation trop chaude."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "message": "Fear & Greed à 10, capitalisation totale -3,89 % en 24 h. C'est de la peur extrême : les rebonds sont violents, donc risque pour un short."
+   },
+   {
+    "agent": "trader",
+    "message": "Je garde TAO : prix 174,65, stop 178,22, objectif 161,07. Côté nouvelle entrée, AMD short (entrée 472,79, stop 478,43, objectif 455,87, RR net 2,19) est le seul candidat propre."
+   },
+   {
+    "agent": "analyste_macro",
+    "repond_a": "trader",
+    "message": "Je m'oppose à AMD : Nvidia annonce demain, et une surprise dans un sens ou l'autre fait bouger tous les semi-conducteurs, stop de 1,2 % inclus."
+   },
+   {
+    "agent": "analyste_technique",
+    "repond_a": "analyste_macro",
+    "message": "Je confirme : hors séance US le volume xStocks est mince, et le signal date de 03:59 UTC sur des bougies à faible volume."
+   },
+   {
+    "agent": "trader",
+    "repond_a": "analyste_macro",
+    "message": "D'accord, je retire AMD. Je préfère attendre la réaction à Nvidia et une bougie confirmée avec volume."
+   },
+   {
+    "agent": "analyste_sentiment",
+    "repond_a": "trader",
+    "message": "Je n'ai pas d'objection : ne rien faire est cohérent avec une peur extrême et une annonce proche."
+   },
+   {
+    "agent": "risk_manager",
+    "repond_a": "trader",
+    "message": "Validé : pas de nouvelle entrée, TAO conservé. Le stop à 178,22 limite la perte et il n'y a pas de raison de le modifier."
+   }
+  ],
+  "compte_rendu": {
+   "points": [
+    "Le marché est calme : BTC 59 006 €, aucun mouvement net.",
+    "Le short TAO (-0,51 € latent) est gardé, son stop le protège.",
+    "Le meilleur candidat (AMD short, RR 2,19) est écarté à cause des résultats Nvidia le 17/11."
+   ],
+   "desaccords": [
+    "L'analyste macro a bloqué AMD ; le trader l'avait proposé puis retiré."
+   ],
+   "decision": "On garde TAO et on n'ouvre rien.",
+   "a_surveiller": [
+    "Résultats Nvidia du 17/11 et réaction des puces",
+    "Réouverture de la bourse US (15:30 Paris)",
+    "Stop de TAO à 178,22"
+   ]
+  },
+  "synthese": "On garde notre short TAO et on n'ouvre rien : une grosse annonce (Nvidia) arrive demain et la bourse US est fermée.",
+  "id": "D-20261116-042618",
+  "cree_le": "2026-11-16T04:26:18Z",
+  "resultat": {
+   "statut": "aucune action"
+  },
+  "traite_le": "2026-11-16T04:28:27Z"
  }
 ]

@@ -1,5 +1,5 @@
 {
- "t": "2026-11-16T03:58:43Z",
+ "t": "2026-11-16T04:28:37Z",
  "nb_analyses": 610,
  "nb_en_mouvement": 5,
  "tendance": [
@@ -8,33 +8,53 @@
   "ANT",
   "ASTER",
   "BTC",
-  "CAPR",
   "CC",
-  "DRTS",
+  "CRCL",
+  "DXYZ",
   "F",
-  "FSLR",
-  "GLD",
   "HELP",
   "HYPE",
-  "LHX",
-  "MSTX",
-  "NBIS",
-  "NVDA",
+  "IBRX",
+  "KO",
+  "LU",
+  "MRK",
+  "OCUL",
+  "OXY",
   "PEARL",
   "PENGU",
   "PEPE",
   "PI",
   "QNT",
+  "SLS",
   "SLV",
   "SMMT",
   "SOL",
-  "STUDY",
   "VVV",
   "XLV",
   "XRP",
   "ZEC"
  ],
  "buzz_reseaux": {
+  "SLV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ANT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DXYZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "F": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SMMT": {
    "source": "StockTwits",
    "mentions": null,
@@ -45,52 +65,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NBIS": {
+  "OXY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GLD": {
+  "IBRX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTX": {
+  "LU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LHX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FSLR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "F": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ANT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DRTS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SLV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAPR": {
+  "OCUL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -100,12 +90,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "STUDY": {
+  "KO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVDA": {
+  "CRCL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MRK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SLS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -113,12 +113,12 @@
  },
  "candidats": [
   {
-   "sym": "NIGHT",
-   "pair": "NIGHTEUR",
+   "sym": "SKR",
+   "pair": "SKREUR",
    "action": false,
-   "variation_24h_pct": -7.01,
-   "volume_24h_eur": 699194.01,
-   "spread_pct": 0.1188,
+   "variation_24h_pct": 27.33,
+   "volume_24h_eur": 56930.62,
+   "spread_pct": 0.1624,
    "tendance": false,
    "impulsion": null
   },
@@ -126,9 +126,19 @@
    "sym": "RARE",
    "pair": "RAREEUR",
    "action": false,
-   "variation_24h_pct": -6.69,
-   "volume_24h_eur": 133665.01,
-   "spread_pct": 0.2722,
+   "variation_24h_pct": -8.13,
+   "volume_24h_eur": 136396.18,
+   "spread_pct": 0.3687,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "NIGHT",
+   "pair": "NIGHTEUR",
+   "action": false,
+   "variation_24h_pct": -6.19,
+   "volume_24h_eur": 661656.81,
+   "spread_pct": 0.0471,
    "tendance": false,
    "impulsion": null
   },
@@ -136,9 +146,9 @@
    "sym": "DRV",
    "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": -6.6,
-   "volume_24h_eur": 118964.45,
-   "spread_pct": 0.1747,
+   "variation_24h_pct": -6.19,
+   "volume_24h_eur": 113398.83,
+   "spread_pct": 0.1855,
    "tendance": false,
    "impulsion": null
   },
@@ -146,19 +156,9 @@
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
-   "variation_24h_pct": -4.42,
-   "volume_24h_eur": 57384.49,
-   "spread_pct": 0.0314,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "SNDK",
-   "pair": "SNDKxUSD",
-   "action": true,
-   "variation_24h_pct": -2.95,
-   "volume_24h_eur": 86204.94,
-   "spread_pct": 0.0377,
+   "variation_24h_pct": -4.93,
+   "volume_24h_eur": 58814.99,
+   "spread_pct": 0.0237,
    "tendance": false,
    "impulsion": null
   }
