@@ -1,38 +1,5 @@
 [
  {
-  "t": "2026-11-15T03:27:01Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde la petite position KNTQ et on ne prend rien d'autre : le marché rebondit sans volume en pleine panique et aucun trade n'offre un bon rapport gain/risque."
- },
- {
-  "t": "2026-11-15T03:27:01Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "KNTQ long fermé (gain encaissé vite (+1R)) à 0.226223 : +0.87 € net",
-  "data": {
-   "id": "P0009a"
-  }
- },
- {
-  "t": "2026-11-15T03:27:01Z",
-  "agent": "Spécialiste memecoins",
-  "type": "encaisse",
-  "msg": "KNTQ : moitié encaissée à +1.5R, stop au prix d'entrée pour le reste."
- },
- {
-  "t": "2026-11-15T03:27:07Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ARWR, AVAX, BTC, DOGE, ETH, HYPE, LHX, LINK, PFE, QNT, SMH, SOL"
- },
- {
-  "t": "2026-11-15T03:27:10Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "458 actifs hors univers analysés, 4 en mouvement : VVV +9.5 %, ZEC +5.1 %, SPX +6.1 %."
- },
- {
   "t": "2026-11-15T03:27:32Z",
   "agent": "Veille",
   "type": "actu",
@@ -2727,5 +2694,35 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "RARE +6.11 % en 1 h"
+ },
+ {
+  "t": "2026-11-16T12:26:47Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short TAO (+2,16 €) et on n'ouvre rien : AMD est trop risqué avant les résultats de Nvidia demain, et les autres signaux rapportent trop peu après frais."
+ },
+ {
+  "t": "2026-11-16T12:26:56Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ANT, BIDU, BMNR, BTC, CAPR, DXYZ, ETH, HELP, HR, IBRX, NBIS, NVDA"
+ },
+ {
+  "t": "2026-11-16T12:27:01Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "609 actifs hors univers analysés, 8 en mouvement : NIGHT -13.1 %, REQ +15.9 %, DRV -9.0 %."
+ },
+ {
+  "t": "2026-11-16T12:27:20Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "PLTR -3.1 % en 1 h"
+ },
+ {
+  "t": "2026-11-16T12:28:21Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 30 signal(aux) : INTC short (BRK-1, 72), TSLA short (TPB-1, 70), COIN short (BRK-1, 64)"
  }
 ]
