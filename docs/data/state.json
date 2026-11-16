@@ -20,10 +20,10 @@
    "risque_eur": 0.5252080051054566,
    "rr_net": 1.77,
    "ouvert_le": "2026-11-16T14:59:22Z",
-   "verifie_jusqu_a": "2026-11-16T15:02:00Z",
+   "verifie_jusqu_a": "2026-11-16T15:28:00Z",
    "duree_max_h": 24.0,
    "decision_id": "G-20261116-145922",
-   "dernier_prix": 237.92041148299268,
+   "dernier_prix": 235.6143220647037,
    "atr": 0.4879608
   }
  ],
@@ -38,7 +38,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T15:02:12Z",
+ "maj": "2026-11-16T15:28:59Z",
  "seq": 15,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -47,87 +47,92 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T14:57:58Z",
+ "chasseur_t": "2026-11-16T15:28:36Z",
  "tendance": [
   "MACCA",
   "LIT",
   "GATO",
   "BTC",
-  "SOL",
-  "ASTER",
+  "PENGU",
   "HYPE",
   "PEARL",
-  "PENGU",
-  "SUI",
-  "NEAR",
-  "SYRUP",
+  "SOL",
+  "BLESS",
+  "ONDO",
   "ETH",
-  "RARE",
-  "PEAQ"
+  "ZEC",
+  "VVV",
+  "ENA",
+  "PONS"
  ],
- "tendance_t": "2026-11-16T14:28:13Z",
+ "tendance_t": "2026-11-16T15:28:36Z",
  "buzz": {
   "NVDA": {
    "source": "Reddit",
-   "mentions": 755,
-   "x_vs_hier": 2.1
+   "mentions": 795,
+   "x_vs_hier": 2.2
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 88,
-   "x_vs_hier": 2.3
+   "mentions": 104,
+   "x_vs_hier": 2.7
   },
   "NBIS": {
-   "source": "Reddit + StockTwits",
-   "mentions": 66,
-   "x_vs_hier": 4.7
+   "source": "Reddit",
+   "mentions": 71,
+   "x_vs_hier": 5.1
   },
   "MU": {
    "source": "Reddit",
-   "mentions": 63,
-   "x_vs_hier": 2.7
+   "mentions": 69,
+   "x_vs_hier": 3.3
   },
   "SNDK": {
    "source": "Reddit",
-   "mentions": 44,
-   "x_vs_hier": 2.4
+   "mentions": 46,
+   "x_vs_hier": 2.7
   },
   "MSFT": {
    "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 2.1
+   "mentions": 37,
+   "x_vs_hier": 2.3
+  },
+  "GOOGL": {
+   "source": "Reddit",
+   "mentions": 35,
+   "x_vs_hier": 8.8
+  },
+  "AAPL": {
+   "source": "Reddit",
+   "mentions": 32,
+   "x_vs_hier": 2.9
   },
   "GOOG": {
    "source": "Reddit",
-   "mentions": 30,
+   "mentions": 32,
    "x_vs_hier": 2.5
   },
   "HR": {
    "source": "Reddit",
-   "mentions": 30,
-   "x_vs_hier": 2.1
+   "mentions": 31,
+   "x_vs_hier": 2.2
   },
   "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
+  "VKTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IREN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TTWO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -142,12 +147,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "TTWO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "DRTS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
+  "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -157,29 +172,29 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ANT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VKTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XAGUSD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "DXYZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DAL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NKE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T14:57:59Z",
- "sources_t": "2026-11-16T14:58:04Z",
+ "buzz_t": "2026-11-16T15:28:37Z",
+ "sources_t": "2026-11-16T15:28:42Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",

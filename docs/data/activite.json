@@ -1,68 +1,5 @@
 [
  {
-  "t": "2026-11-15T07:28:15Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 10 signal(aux) : SOL short (TPB-1, 60), BTC short (TPB-1, 40), XRP short (TPB-1, 40)"
- },
- {
-  "t": "2026-11-15T07:57:48Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde la position HYPE et on ne prend pas de nouveau trade : le signal SOL est trop juste et le marché est en panique."
- },
- {
-  "t": "2026-11-15T07:57:54Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, KAVA, HYPE, LINK, PEARL, XRP, BEAM, PI"
- },
- {
-  "t": "2026-11-15T07:57:55Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ACN, ADA, ASST, BTC, CAVA, ETH, FIG, MCD, MELANIA, RVMD, SEZL, SHIB"
- },
- {
-  "t": "2026-11-15T07:57:58Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "457 actifs hors univers analysés, 5 en mouvement : VVV +10.4 %, DRV +9.0 %, STRK +6.1 %."
- },
- {
-  "t": "2026-11-15T07:59:03Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 18 signal(aux) : SOL short (TPB-1, 70), XRP short (TPB-1, 60), NEAR short (TPB-1, 60)"
- },
- {
-  "t": "2026-11-15T08:26:28Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde le short HYPE et on ne prend pas SOL : le prix a déjà rebondi, on ne court pas après un trade."
- },
- {
-  "t": "2026-11-15T08:26:34Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADA, BTC, CAVA, ETH, INOD, JD, LHX, MELANIA, MOD, MSTR, ONON, RVMD"
- },
- {
-  "t": "2026-11-15T08:26:37Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "457 actifs hors univers analysés, 4 en mouvement : VVV +11.2 %, STRK +5.8 %, REQ +5.3 %."
- },
- {
-  "t": "2026-11-15T08:26:38Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Unchained : Ethereum Made $6 Million in 30 Days. Does That Justify ETH's Price?",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=BPrQAssDEU0"
-  }
- },
- {
   "t": "2026-11-15T08:26:38Z",
   "agent": "Chasseur de mouvements",
   "type": "vidéo",
@@ -2687,5 +2624,68 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 13 signal(aux) : AMZN short (BRK-1, 75), TSLA short (TPB-1, 70), QQQ short (TPB-1, 70)"
+ },
+ {
+  "t": "2026-11-16T15:28:27Z",
+  "agent": "Comité",
+  "type": "aucune action",
+  "msg": "On garde notre short AMZN et on n'ouvre rien de nouveau : les autres signaux arrivent trop tard, et un deuxième short sur la bourse US doublerait le même pari juste avant les résultats Nvidia."
+ },
+ {
+  "t": "2026-11-16T15:28:36Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MACCA, LIT, GATO, BTC, PENGU, HYPE, PEARL, SOL"
+ },
+ {
+  "t": "2026-11-16T15:28:36Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, BMNR, BTC, DAL, DRTS, DXYZ, GOOG, GOOGL, HELP, HR, ICP, IREN"
+ },
+ {
+  "t": "2026-11-16T15:28:42Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "607 actifs hors univers analysés, 13 en mouvement : SPACE +15.2 %, SNDK -8.0 %, SKHY -8.1 %."
+ },
+ {
+  "t": "2026-11-16T15:28:59Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de CNBC Television : France's borrowing costs are climbing. Could the U.S. be next?",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=Em35ZNmWzzo"
+  }
+ },
+ {
+  "t": "2026-11-16T15:29:02Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "INJ -2.68 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T15:29:02Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "RARE -7.02 % en 1 h"
+ },
+ {
+  "t": "2026-11-16T15:29:02Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "META -2.0 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T15:29:02Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "ORCL -2.39 % en 15 min"
+ },
+ {
+  "t": "2026-11-16T15:30:04Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 26 signal(aux) : SOL short (TPB-1, 70), XRP short (TPB-1, 70), ADA short (TPB-1, 70)"
  }
 ]
