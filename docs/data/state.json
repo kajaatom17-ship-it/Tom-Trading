@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 398.20614205964154,
+ "cash": 398.18620783146474,
  "positions": [
   {
    "id": "P0012",
@@ -20,16 +20,16 @@
    "risque_eur": 3.3704187184973664,
    "rr_net": 1.83,
    "ouvert_le": "2026-11-15T14:57:29Z",
-   "verifie_jusqu_a": "2026-11-16T10:36:00Z",
+   "verifie_jusqu_a": "2026-11-16T10:57:00Z",
    "duree_max_h": 24.0,
    "decision_id": "D-20261115-145717",
-   "dernier_prix": 171.814,
+   "dernier_prix": 172.5024,
    "atr": 1.031523,
-   "rollover": 0.07973691270717694,
-   "rollover_periodes": 4
+   "rollover": 0.09967114088397117,
+   "rollover_periodes": 5
   }
  ],
- "frais_cumules": 7.689129260771266,
+ "frais_cumules": 7.70906348894806,
  "pnl_realise": -1.644295580144268,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
@@ -39,7 +39,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-16T10:36:42Z",
+ "maj": "2026-11-16T10:58:08Z",
  "seq": 12,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -48,30 +48,30 @@
   "2026-11-16": 496.2
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-16T10:32:45Z",
+ "chasseur_t": "2026-11-16T10:58:02Z",
  "tendance": [
+  "MACCA",
+  "LIT",
+  "GATO",
   "BTC",
-  "PEARL",
-  "SOL",
   "HYPE",
-  "ASTER",
+  "SOL",
   "ZEC",
-  "CASHCAT",
-  "DRV",
-  "XMR",
-  "PI",
-  "MON",
+  "PEARL",
   "PENGU",
-  "LINK",
-  "PUMP",
-  "UNI"
+  "TAO",
+  "SUI",
+  "BP",
+  "ASTER",
+  "EVAA",
+  "MON"
  ],
- "tendance_t": "2026-11-16T09:57:18Z",
+ "tendance_t": "2026-11-16T10:58:02Z",
  "buzz": {
   "NBIS": {
    "source": "Reddit + StockTwits",
-   "mentions": 35,
-   "x_vs_hier": 2.9
+   "mentions": 37,
+   "x_vs_hier": 3.1
   },
   "HR": {
    "source": "Reddit",
@@ -83,22 +83,12 @@
    "mentions": 30,
    "x_vs_hier": 2.1
   },
-  "SMMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "HELP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TTWO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
+  "SMMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -108,12 +98,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XPEV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "COIN": {
+  "BABA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -123,7 +108,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BABA": {
+  "XAGUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -133,17 +118,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DRTS": {
+  "TTWO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XAGUSD": {
+  "COIN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "S": {
+  "BONK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -152,27 +142,37 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "IBRX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XPEV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-16T10:32:46Z",
- "sources_t": "2026-11-16T10:32:49Z",
+ "buzz_t": "2026-11-16T10:58:03Z",
+ "sources_t": "2026-11-16T10:58:06Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin’s mining difficulty falls 9%, easing pressure on miners",
-    "Bitcoin (BTC/USDT) 15m Analysis: Testing Key Support Levels"
+    "BTC/USD – Could Bitcoin Drop to $43,000?",
+    "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "sujet": "AI",
+   "mentions": 6,
+   "sentiment": "bullish",
    "titres": [
-    "Bitcoin (BTC/USDT) 15m Analysis: Testing Key Support Levels",
-    "SMBC targets March for yen stablecoin as Japan’s megabanks bet on code"
+    "Alibaba launches Qwen4-Max AI model, highlights lower costs",
+    "Anthropic to price IPO Wednesday, trading starts Thursday on NASDAQ"
    ]
   },
   {
@@ -180,49 +180,52 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "XRP Price Stalls as Open Interest Falls",
-    "Top Investor Says We’re Now In XRP Buy Zone. Here’s Major Signal"
+    "Ripple CEO Brad Garlinghouse Urged to Burn 31.1 Billion XRP",
+    "XRP Price Stalls as Open Interest Falls"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Solana drops the mainnet beta label and introduces Solana 1.0",
+    "Solana 推出 1.0，主网移除 Beta 标识"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Vitalik Buterin backs higher gas costs for creating accounts and deploying smart contracts to help Ethereum scale",
+    "Vitalik Buterin backs leanPCS for scaling Ethereum’s cryptographic proofs"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin (BTC/USDT) 15m Analysis: Testing Key Support Levels",
+    "SMBC targets March for yen stablecoin as Japan’s megabanks bet on code"
    ]
   },
   {
    "sujet": "Binance",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "XRP Price Stalls as Open Interest Falls",
-    "Kava 披露 HARD Lend 被盗约 5390 万枚 KAVA"
+    "Binance CEO Yi He Reveals $101 Million Portfolio Drop as Crypto Slumps",
+    "XRP Price Stalls as Open Interest Falls"
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Luxor to Repay Mining Clients After Commander Breach Diverted Their Hashrate"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Vitalik Buterin backs leanPCS for scaling Ethereum’s cryptographic proofs"
-   ]
-  },
-  {
-   "sujet": "Layer 2",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Vitalik Buterin backs leanPCS for scaling Ethereum’s cryptographic proofs"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana 推出 1.0，主网移除 Beta 标识"
+    "Sebi may propose raising FPI beneficial ownership threshold to 25%; plans consultation paper"
    ]
   }
  ],
