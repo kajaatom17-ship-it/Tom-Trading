@@ -1,0 +1,122 @@
+{
+ "action": "open",
+ "sym": "MSTR",
+ "side": "short",
+ "strategie": "TPB-1",
+ "entry_ref": 92.70375,
+ "atr": 0.377185,
+ "stop": 93.76129,
+ "tp": 89.53114,
+ "duree_max_h": 10,
+ "confiance": "moyenne",
+ "agents": {
+  "analyste_technique": {
+   "avis": "favorable",
+   "resume": "MSTR 15 min : tendance 1 h baissière, rebond sur l'EMA20 (93,24) puis rechute, close 92,70 sous EMA20 et EMA50 (93,08). RSI 45,5 → 42,1, MACD histogramme négatif (-0,116), volume x2,28 la moyenne. Plus bas 12 h à 92,38 à 0,35 % sous le prix : cassure possible.",
+   "donnees": "Brief Kraken/scanner du 2026-11-16 13:56 UTC (14:56 Paris), bougies 15 min"
+  },
+  "analyste_macro": {
+   "avis": "prudent",
+   "resume": "Bitcoin chute (Decrypt 'Morning Minute: Crypto Hits Extreme Fear as Bitcoin Plunges', 16/11 13:23 UTC) et Barron's titre que la baisse du bitcoin entraîne Coinbase et Strategy. Strategy rachète pourtant 485 BTC pour 33 M$ (The Block, 16/11 13:13 UTC) : soutien symbolique, pas un changement de tendance. Nvidia publie ses résultats demain 17/11 (MarketBeat), donc volatilité possible sur la tech US dès l'ouverture à 15:30 Paris. Calendrier macro du jour non confirmé par une source fiable : rien d'inventé.",
+   "sources": [
+    "Morning Minute: Crypto Hits Extreme Fear as Bitcoin Plunges - Decrypt - 2026-11-16 13:23 UTC - https://decrypt.co/383301/morning-minute-crypto-hits-extreme-fear-as-bitcoin-plunges",
+    "Bitcoin Prices Tumble and Bring Coinbase and Strategy Stocks Down With Them - Barron's - 2026-11-16 13:19 UTC - via Google News (brief)",
+    "Strategy buys another 485 BTC for $33 million - The Block - 2026-11-16 13:13 UTC - via Google News (brief)",
+    "NVIDIA Q3 2027 earnings date 17/11/2026 - MarketBeat - https://www.marketbeat.com/earnings/reports/2026-11-17-nvidia-co-stock/"
+   ]
+  },
+  "analyste_sentiment": {
+   "avis": "prudent",
+   "resume": "Fear & Greed à 10 (peur extrême), capitalisation totale crypto -4,25 % sur 24 h, dominance BTC 59,26 %. En peur extrême, les rebonds sont violents : le short doit rester court et le stop respecté."
+  },
+  "trader": {
+   "proposition": "Short MSTR (TPB-1), entrée 92,70, stop 93,76, objectif 89,53, RR net 2,16, durée max 10 h.",
+   "pour": [
+    "Tendance 1 h baissière, rechute après rebond sur EMA20",
+    "BTC baissier (58 246 €, RSI 43,5) et MSTR en dérive avec lui",
+    "Frais xStocks très bas (0,08 % au marché)",
+    "RR net 2,16 supérieur à 1,5"
+   ],
+   "contre": [
+    "Bourse US pas encore ouverte (15:30 Paris) : volume réduit et gap possible",
+    "Peur extrême : rebond violent possible",
+    "Corrélé au short TAO (même thème baissier crypto)",
+    "Nvidia demain : nervosité sur toute la tech"
+   ]
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Mise plafonnée à 100 € : perte max environ 1,4 € (stop à 1,25 % du fill), RR net 1,95 simulé, spread faible, une seule action dans ce sens. Corrélation avec TAO reconnue : la perte cumulée max des deux positions reste sous 2 % du capital. Durée courte (10 h) pour éviter de porter la position pendant les résultats Nvidia de demain soir."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "message": "MSTR close 92,70, sous l'EMA20 (93,24) et l'EMA50 (93,08). RSI 42,1 (45,5 avant), MACD histogramme -0,116, volume x2,28. Le plus bas 12 h est à 92,38, soit 0,35 % plus bas. Signal TPB-1 short, score 70."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "analyste_technique",
+   "message": "Contexte cohérent : Decrypt parle de peur extrême et Barron's écrit que la chute du bitcoin tire Strategy vers le bas (16/11, 13:19 UTC). Mais Strategy rachète 485 BTC pour 33 M$ (The Block, 13:13 UTC) et Nvidia publie demain 17/11 : tout peut être violent à l'ouverture US dans environ 30 minutes."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_macro",
+   "message": "Fear & Greed est à 10 et la capitalisation crypto perd 4,25 % en 24 h. Je suis prudent : à ce niveau de peur, les rebonds sont brutaux. Le short est logique, mais je refuse un stop large."
+  },
+  {
+   "agent": "analyste_technique",
+   "repond_a": "analyste_sentiment",
+   "message": "Le stop est à 93,76, au-dessus du dernier sommet 15 min (93,65) et de l'EMA20, soit 2,8 ATR. Si MSTR repasse au-dessus, le scénario est cassé."
+  },
+  {
+   "agent": "trader",
+   "message": "Je propose un short MSTR : entrée 92,70, stop 93,76, objectif 89,53, RR net 2,16, durée max 10 h. À côté, je garde le short TAO (+2,32 €, stop 178,22, objectif 161,07) : pas de raison de le toucher, TAO est toujours sous ses EMA (RSI 33,1)."
+  },
+  {
+   "agent": "risk_manager",
+   "repond_a": "trader",
+   "message": "Deux positions baissières sur le thème crypto : TAO et MSTR sont corrélés par BTC. Qu'est-ce qui limite la perte si BTC rebondit de 3 % ?"
+  },
+  {
+   "agent": "trader",
+   "repond_a": "risk_manager",
+   "message": "Chaque position a son stop fixé et la taille est calculée sur 1 % du capital. Le pire cas des deux stops touchés reste très inférieur à 2 %, sous la limite de perte du jour de 3 %. Je réduis la durée à 10 h pour ne pas porter MSTR jusqu'aux résultats Nvidia de demain soir."
+  },
+  {
+   "agent": "analyste_macro",
+   "repond_a": "trader",
+   "message": "Je joue l'avocat du diable : si Strategy continue d'acheter du bitcoin à chaque creux, le marché peut y voir un plancher et MSTR peut rebondir vite. L'ouverture US dans 30 minutes peut aussi créer un gap. Je ne bloque pas, mais le stop ne doit jamais être reculé."
+  },
+  {
+   "agent": "analyste_sentiment",
+   "repond_a": "analyste_macro",
+   "message": "D'accord sur le risque de rebond. Je maintiens ma réserve mais je ne bloque pas, la taille est limitée."
+  },
+  {
+   "agent": "risk_manager",
+   "message": "Validé. Mise plafonnée à 100 € : perte max environ 1,4 € (0,3 % du capital), RR net 1,95 après frais et glissement, spread faible, frais xStocks bas. Le moteur doit refuser si le prix a trop bougé : on ne court pas après."
+  }
+ ],
+ "compte_rendu": {
+  "points": [
+   "Position ouverte : le short TAO (+2,32 €) reste dans le bon sens, le stop à 178,22 nous protège, on le garde.",
+   "Nouvelle entrée étudiée : short MSTR (action liée au bitcoin) car le bitcoin baisse et MSTR casse ses moyennes mobiles avec du volume.",
+   "NVDA et AMD en cassure ont été écartées : Nvidia publie demain (17/11) et ces actions ont déjà beaucoup baissé (-5,7 % et -3,4 % en 24 h), entrée tardive.",
+   "Le marché crypto est en peur extrême (indice 10/100) : prudence, taille limitée."
+  ],
+  "desaccords": [
+   "L'analyste macro a joué l'avocat du diable : Strategy rachète du bitcoin, ce qui peut créer un rebond brutal.",
+   "Le Risk Manager a challengé la corrélation avec TAO : accepté car perte cumulée max environ 2 %, sous la limite de 3 %."
+  ],
+  "decision": "Short MSTR (TPB-1), stop 93,76, objectif 89,53, RR net 2,16, durée max 10 h ; on garde le short TAO.",
+  "a_surveiller": [
+   "L'ouverture de la bourse US à 15:30 Paris (gap possible).",
+   "Les résultats Nvidia demain 17/11 après la clôture US.",
+   "Un rebond de BTC au-dessus de 58 500 € casserait le scénario baissier."
+  ]
+ },
+ "synthese": "On garde le short TAO et on ajoute un petit short sur MSTR, car le bitcoin baisse et cette action le suit, avec un stop serré pour limiter la perte.",
+ "id": "D-20261116-135729",
+ "cree_le": "2026-11-16T13:57:29Z"
+}
