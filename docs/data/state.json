@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 304.5861979872529,
+ "cash": 115.8854971076505,
  "positions": [
   {
    "id": "P0015",
@@ -20,13 +20,13 @@
    "risque_eur": 0.5252080051054566,
    "rr_net": 1.77,
    "ouvert_le": "2026-11-16T14:59:22Z",
-   "verifie_jusqu_a": "2026-11-17T02:11:00Z",
+   "verifie_jusqu_a": "2026-11-17T10:38:00Z",
    "duree_max_h": 24.0,
    "decision_id": "G-20261116-145922",
-   "dernier_prix": 235.7320325084866,
+   "dernier_prix": 233.70667928339415,
    "atr": 0.4879608,
-   "rollover": 0.019773251327312603,
-   "rollover_periodes": 2
+   "rollover": 0.039546502654625205,
+   "rollover_periodes": 4
   },
   {
    "id": "P0016",
@@ -44,13 +44,13 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-17T02:11:00Z",
+   "verifie_jusqu_a": "2026-11-17T10:38:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 58951.3,
+   "dernier_prix": 58385.5,
    "atr": 598.5359,
-   "rollover": 0.03592550943384188,
-   "rollover_periodes": 2
+   "rollover": 0.07185101886768376,
+   "rollover_periodes": 4
   },
   {
    "id": "P0017",
@@ -68,28 +68,73 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-17T02:11:00Z",
+   "verifie_jusqu_a": "2026-11-17T10:38:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.493e-06,
+   "dernier_prix": 3.473e-06,
    "atr": 3.5634e-08,
-   "rollover": 0.009856065828324418,
-   "rollover_periodes": 1
+   "rollover": 0.029568197484973253,
+   "rollover_periodes": 3
+  },
+  {
+   "id": "P0018",
+   "sym": "NVDA",
+   "pair": "NVDAxUSD",
+   "side": "short",
+   "strategie": "SWG-1",
+   "qty": 0.7017766604909054,
+   "entry": 141.0691,
+   "notionnel": 98.99899184809004,
+   "frais_entree": 0.07919919347847204,
+   "stop": 146.6802,
+   "stop_initial": 146.6802,
+   "tp": 126.8021,
+   "risque_eur": 4.099297654259454,
+   "rr_net": 2.29,
+   "ouvert_le": "2026-11-17T10:41:02Z",
+   "verifie_jusqu_a": "2026-11-17T10:41:02Z",
+   "duree_max_h": 192.0,
+   "decision_id": "S-20261117-104102-NVDA",
+   "dernier_prix": 141.06908568153074,
+   "atr": 1.397867
+  },
+  {
+   "id": "P0019",
+   "sym": "AMD",
+   "pair": "AMDxUSD",
+   "side": "short",
+   "strategie": "SWG-1",
+   "qty": 0.19608050604164093,
+   "entry": 456.3203,
+   "notionnel": 89.4755185307914,
+   "frais_entree": 0.07158041482463312,
+   "stop": 480.8073,
+   "stop_initial": 480.8073,
+   "tp": 379.2272,
+   "risque_eur": 4.948422127502307,
+   "rr_net": 2.92,
+   "ouvert_le": "2026-11-17T10:41:02Z",
+   "verifie_jusqu_a": "2026-11-17T10:41:02Z",
+   "duree_max_h": 192.0,
+   "decision_id": "S-20261117-104102-AMD",
+   "dernier_prix": 456.32031626738967,
+   "atr": 4.020063
   }
  ],
- "frais_cumules": 10.708083108363436,
+ "frais_cumules": 10.934273609084343,
  "pnl_realise": -5.668716817184998,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
   "2026-11-14": 2,
   "2026-11-15": 3,
-  "2026-11-16": 3
+  "2026-11-16": 3,
+  "2026-11-17": 2
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-17T02:11:14Z",
- "seq": 17,
+ "maj": "2026-11-17T10:38:57Z",
+ "seq": 19,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
@@ -98,147 +143,132 @@
   "2026-11-17": 493.55
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-17T02:11:13Z",
+ "chasseur_t": "2026-11-17T10:38:52Z",
  "tendance": [
+  "GATO",
   "BP",
-  "BLESS",
-  "BTC",
-  "HYPE",
-  "PENGU",
-  "LIT",
-  "TAO",
-  "PUMP",
-  "PEPE",
+  "DACITYCOIN",
+  "EVAA",
   "ETH",
-  "VVV",
-  "AVAX",
-  "XRP",
+  "LIT",
+  "BTC",
+  "SOL",
   "NEAR",
-  "MON"
+  "ZEC",
+  "SUI",
+  "PEPE",
+  "AAVE",
+  "PENGU",
+  "QNT"
  ],
- "tendance_t": "2026-11-17T02:06:22Z",
+ "tendance_t": "2026-11-17T10:38:52Z",
  "buzz": {
   "NVDA": {
-   "source": "Reddit",
-   "mentions": 1233,
-   "x_vs_hier": 2.8
+   "source": "Reddit + StockTwits",
+   "mentions": 1277,
+   "x_vs_hier": 2.4
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 326,
-   "x_vs_hier": 6.2
+   "mentions": 344,
+   "x_vs_hier": 4.5
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 197,
-   "x_vs_hier": 4.7
+   "mentions": 201,
+   "x_vs_hier": 3.0
   },
   "MU": {
    "source": "Reddit",
    "mentions": 117,
-   "x_vs_hier": 7.3
+   "x_vs_hier": 3.4
   },
   "AMD": {
    "source": "Reddit",
-   "mentions": 108,
-   "x_vs_hier": 2.1
+   "mentions": 111,
+   "x_vs_hier": 2.5
+  },
+  "ASTS": {
+   "source": "Reddit + StockTwits",
+   "mentions": 94,
+   "x_vs_hier": 4.1
   },
   "NBIS": {
-   "source": "Reddit",
-   "mentions": 99,
-   "x_vs_hier": 4.5
+   "source": "Reddit + StockTwits",
+   "mentions": 92,
+   "x_vs_hier": 2.7
   },
   "GOOGL": {
    "source": "Reddit",
-   "mentions": 89,
-   "x_vs_hier": 44.5
-  },
-  "ASTS": {
-   "source": "Reddit",
-   "mentions": 85,
-   "x_vs_hier": 5.7
-  },
-  "SPCX": {
-   "source": "Reddit",
-   "mentions": 70,
-   "x_vs_hier": 2.2
-  },
-  "SNDK": {
-   "source": "Reddit",
-   "mentions": 67,
-   "x_vs_hier": 4.5
-  },
-  "GOOG": {
-   "source": "Reddit",
-   "mentions": 66,
-   "x_vs_hier": 4.1
+   "mentions": 87,
+   "x_vs_hier": 9.7
   },
   "VOO": {
    "source": "Reddit",
-   "mentions": 66,
-   "x_vs_hier": 2.9
+   "mentions": 75,
+   "x_vs_hier": 2.4
+  },
+  "SNDK": {
+   "source": "Reddit + StockTwits",
+   "mentions": 74,
+   "x_vs_hier": 2.8
+  },
+  "GOOG": {
+   "source": "Reddit",
+   "mentions": 63,
+   "x_vs_hier": 2.5
   },
   "IT": {
    "source": "Reddit",
-   "mentions": 60,
-   "x_vs_hier": 5.0
+   "mentions": 61,
+   "x_vs_hier": 2.9
   },
   "DTE": {
    "source": "Reddit",
-   "mentions": 52,
-   "x_vs_hier": 3.7
+   "mentions": 54,
+   "x_vs_hier": 3.0
   },
   "MSFT": {
    "source": "Reddit",
-   "mentions": 50,
-   "x_vs_hier": 2.5
+   "mentions": 51,
+   "x_vs_hier": 2.1
   },
   "AAPL": {
    "source": "Reddit",
-   "mentions": 50,
-   "x_vs_hier": 5.6
-  },
-  "INTC": {
-   "source": "Reddit",
-   "mentions": 46,
-   "x_vs_hier": 11.5
+   "mentions": 48,
+   "x_vs_hier": 3.0
   },
   "ET": {
    "source": "Reddit",
-   "mentions": 46,
-   "x_vs_hier": 9.2
+   "mentions": 47,
+   "x_vs_hier": 2.8
+  },
+  "INTC": {
+   "source": "Reddit",
+   "mentions": 43,
+   "x_vs_hier": 4.3
   },
   "SOXL": {
    "source": "Reddit",
-   "mentions": 38,
-   "x_vs_hier": 4.2
+   "mentions": 37,
+   "x_vs_hier": 3.7
   },
   "IREN": {
    "source": "Reddit",
-   "mentions": 35,
-   "x_vs_hier": 35.0
+   "mentions": 37,
+   "x_vs_hier": 18.5
   },
   "TSLA": {
    "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 3.8
-  },
-  "BABA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JPM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "mentions": 33,
+   "x_vs_hier": 2.1
   },
   "SLS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BIDU": {
+  "BABA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -248,125 +278,92 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "INFQ": {
+  "IONQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KURA": {
+  "KLAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIS": {
+  "RARE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PEP": {
+  "NET": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TLT": {
+  "MCD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BAC": {
+  "MOD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "COST": {
+  "RIG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AUPH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HD": {
+  "HAWK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-17T02:06:23Z",
- "sources_t": "2026-11-17T02:06:24Z",
+ "buzz_t": "2026-11-17T10:38:53Z",
+ "sources_t": "2026-11-17T10:38:56Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 6,
-   "sentiment": "bullish",
-   "titres": [
-    "Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump",
-    "Nvidia turmoil tests Bitcoin miners’ AI funding plans amid leadership changes"
-   ]
-  },
-  {
    "sujet": "Bitcoin",
-   "mentions": 4,
-   "sentiment": "neutral",
+   "mentions": 6,
+   "sentiment": "bearish",
    "titres": [
-    "Nvidia turmoil tests Bitcoin miners’ AI funding plans amid leadership changes",
-    "BTC at $65K | Sellers in Control, But for How Long?"
+    "Is Bitcoin’s Price Drop Due to Anthropic’s IPO? Vaneck Sees December Low",
+    "Ositrustees: Bitcoin's 25% Decline Explained Through Market Data"
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "Stock Market Today: Nvidia Earnings and Anthropic IPO Put AI Stocks in Focus This Week",
+    "Hackers Steal Driver’s License Data of Nearly 150,000 Uber Drivers in AI Provider Data Breach"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Bitwise projects Solana could hit $1,100 by 2031 in its bull case",
-    "Sunrise unveils API for tokenized stock trading on Solana"
+    "Tether Capital invests $15 million in Nomad, eyes wider access to USDT and XAUT in Brazil",
+    "BTW/USDT: +295% Macro Reversal Setup"
    ]
   },
   {
-   "sujet": "Memecoins",
-   "mentions": 1,
+   "sujet": "Security",
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "Interest in Trump's meme coin dinner fades as $TRUMP sinks to record lows"
+    "Hackers Steal Driver’s License Data of Nearly 150,000 Uber Drivers in AI Provider Data Breach",
+    "Google says hackers use AI agents to find and exploit software flaws"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "ETF",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Nvidia turmoil tests Bitcoin miners’ AI funding plans amid leadership changes"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "BTC at $65K | Sellers in Control, But for How Long?"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Sunrise unveils API for tokenized stock trading on Solana"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "BlackRock Greater Europe Investment Trust Buys Back £118,651 of Shares"
+    "Millions launches US stocks, ETFs investment facility for Indian investors"
    ]
   }
  ],
@@ -389,10 +386,13 @@
   "2026-11-16": 2
  },
  "swing_par_jour": {
-  "2026-11-16": 2
+  "2026-11-16": 2,
+  "2026-11-17": 2
  },
  "swing_vus": {
   "BTC": 1794841200,
-  "SHIB": 1794848400
+  "SHIB": 1794848400,
+  "NVDA": 1794906000,
+  "AMD": 1794906000
  }
 }
