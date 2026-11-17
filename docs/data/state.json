@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 66.17442003980442,
+ "cash": 161.03234163045522,
  "positions": [
   {
    "id": "P0016",
@@ -20,13 +20,13 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-17T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-17T21:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 57854.9,
+   "dernier_prix": 58500.4,
    "atr": 598.5359,
-   "rollover": 0.10777652830152565,
-   "rollover_periodes": 6
+   "rollover": 0.12573928301844658,
+   "rollover_periodes": 7
   },
   {
    "id": "P0017",
@@ -44,37 +44,13 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-17T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-17T21:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.464e-06,
+   "dernier_prix": 3.497e-06,
    "atr": 3.5634e-08,
    "rollover": 0.05913639496994651,
    "rollover_periodes": 6
-  },
-  {
-   "id": "P0018",
-   "sym": "NVDA",
-   "pair": "NVDAxUSD",
-   "side": "short",
-   "strategie": "SWG-1",
-   "qty": 0.7017766604909054,
-   "entry": 141.0691,
-   "notionnel": 98.99899184809004,
-   "frais_entree": 0.07919919347847204,
-   "stop": 146.6802,
-   "stop_initial": 146.6802,
-   "tp": 126.8021,
-   "risque_eur": 4.099297654259454,
-   "rr_net": 2.29,
-   "ouvert_le": "2026-11-17T10:41:02Z",
-   "verifie_jusqu_a": "2026-11-17T19:29:00Z",
-   "duree_max_h": 192.0,
-   "decision_id": "S-20261117-104102-NVDA",
-   "dernier_prix": 139.8613470956487,
-   "atr": 1.397867,
-   "rollover": 0.03959959673923602,
-   "rollover_periodes": 2
   },
   {
    "id": "P0019",
@@ -92,10 +68,10 @@
    "risque_eur": 4.948422127502307,
    "rr_net": 2.92,
    "ouvert_le": "2026-11-17T10:41:02Z",
-   "verifie_jusqu_a": "2026-11-17T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-17T21:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261117-104102-AMD",
-   "dernier_prix": 445.5791893438974,
+   "dernier_prix": 465.4932586619148,
    "atr": 4.020063,
    "rollover": 0.03579020741231656,
    "rollover_periodes": 2
@@ -116,15 +92,15 @@
    "risque_eur": 2.3126349460538194,
    "rr_net": 2.88,
    "ouvert_le": "2026-11-17T19:26:47Z",
-   "verifie_jusqu_a": "2026-11-17T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-17T21:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261117-192647-TSLA",
-   "dernier_prix": 344.82413977957276,
+   "dernier_prix": 345.69472602801994,
    "atr": 2.201239
   }
  ],
- "frais_cumules": 11.223447521554275,
- "pnl_realise": -5.06893437534126,
+ "frais_cumules": 11.32384201839684,
+ "pnl_realise": -9.310840668281282,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -135,7 +111,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-17T19:29:32Z",
+ "maj": "2026-11-17T21:27:04Z",
  "seq": 20,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -145,47 +121,37 @@
   "2026-11-17": 493.55
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-17T19:29:26Z",
+ "chasseur_t": "2026-11-17T21:26:59Z",
  "tendance": [
-  "BP",
-  "BREV",
-  "SOL",
   "BTC",
-  "PEARL",
-  "XRP",
-  "PENGU",
-  "ALGO",
-  "VVV",
-  "QNT",
-  "APT",
+  "BP",
   "HYPE",
-  "ENA",
+  "PENGU",
+  "ZEC",
+  "PEARL",
   "INJ",
-  "ONDO"
+  "SOL",
+  "NEAR",
+  "LIT",
+  "ONDO",
+  "XMR",
+  "UNI",
+  "CC",
+  "MON"
  ],
- "tendance_t": "2026-11-17T19:24:18Z",
+ "tendance_t": "2026-11-17T21:26:59Z",
  "buzz": {
   "SLS": {
    "source": "Reddit + StockTwits",
-   "mentions": 377,
-   "x_vs_hier": 34.3
+   "mentions": 390,
+   "x_vs_hier": 35.5
   },
   "IT": {
    "source": "Reddit",
    "mentions": 85,
-   "x_vs_hier": 2.7
-  },
-  "AM": {
-   "source": "Reddit",
-   "mentions": 40,
    "x_vs_hier": 2.0
   },
-  "RDDT": {
-   "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 2.0
-  },
-  "MSTR": {
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -195,7 +161,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVDA": {
+  "FUBO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -205,102 +171,125 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "AAOI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NTLA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DIS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "CSIQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVAX": {
+  "INTU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRM": {
+  "GP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "FSLR": {
+  "CCJ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHAZ": {
+  "COST": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "COIN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TTWO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AGNC": {
+  "JNUG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-17T19:24:19Z",
- "sources_t": "2026-11-17T19:24:24Z",
+ "buzz_t": "2026-11-17T21:27:00Z",
+ "sources_t": "2026-11-17T21:27:03Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "bearish",
-   "titres": [
-    "Is Bitcoin’s Price Drop Due to Anthropic’s IPO? Vaneck Sees December Low",
-    "Ositrustees: Bitcoin's 25% Decline Explained Through Market Data"
-   ]
-  },
-  {
    "sujet": "AI",
-   "mentions": 4,
-   "sentiment": "bearish",
+   "mentions": 6,
+   "sentiment": "neutral",
    "titres": [
-    "Stock Market Today: Nvidia Earnings and Anthropic IPO Put AI Stocks in Focus This Week",
-    "Hackers Steal Driver’s License Data of Nearly 150,000 Uber Drivers in AI Provider Data Breach"
+    "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
+    "GPT-6.2 Astra takes first place on the AA-3D benchmark for 3D experiences"
    ]
   },
   {
    "sujet": "Stablecoins",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "DeFi Firms Compete for Traditional Bank Deposits",
+    "MoneyGram and Solflare Launch USDC Cash-Out at Participating Locations in 170-Plus Markets"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Tether Capital invests $15 million in Nomad, eyes wider access to USDT and XAUT in Brazil",
-    "BTW/USDT: +295% Macro Reversal Setup"
+    "CONX Grants Mobile X Stockholders Rights to Exchange Holdings for Unregistered Class A Shares",
+    "SEC reportedly investigating whether Nvidia misled investors"
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Hackers Steal Driver’s License Data of Nearly 150,000 Uber Drivers in AI Provider Data Breach",
-    "Google says hackers use AI agents to find and exploit software flaws"
-   ]
-  },
-  {
-   "sujet": "ETF",
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Millions launches US stocks, ETFs investment facility for Indian investors"
+    "⛽ ETH Gas: 🐢 0.141639844 | 🚶 0.141651021 | 🚀 0.155803828 Gwei"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "BlackRock holds 123,056 Strategy shares ahead of MSCI exit, but how much must it sell?"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "DeFi Firms Compete for Traditional Bank Deposits"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "MoneyGram and Solflare Launch USDC Cash-Out at Participating Locations in 170-Plus Markets"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "XRPUSDT Analyses-97, November 18, 2026"
    ]
   }
  ],

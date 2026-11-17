@@ -350,5 +350,27 @@
   "r_multiple": 1.14,
   "raison_sortie": "durée maximale atteinte",
   "decision_id": "G-20261116-145922"
+ },
+ {
+  "id": "P0018",
+  "sym": "NVDA",
+  "side": "short",
+  "strategie": "SWG-1",
+  "qty": 0.7017766604909054,
+  "entry": 141.0691,
+  "exit": 146.8269,
+  "stop": 146.6802,
+  "tp": 126.8021,
+  "notionnel": 99.0,
+  "ouvert_le": "2026-11-17T10:41:02Z",
+  "ferme_le": "2026-11-17T21:26:00Z",
+  "duree_h": 10.75,
+  "frais": 0.2,
+  "pnl_brut": -4.04,
+  "pnl_net": -4.24,
+  "pnl_pct": -4.28,
+  "r_multiple": -1.03,
+  "raison_sortie": "stop-loss",
+  "decision_id": "S-20261117-104102-NVDA"
  }
 ]
