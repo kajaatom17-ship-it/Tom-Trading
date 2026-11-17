@@ -14170,5 +14170,37 @@
   },
   "cree_le": "2026-11-17T10:41:02Z",
   "traite_le": "2026-11-17T10:41:02Z"
+ },
+ {
+  "id": "S-20261117-192647-TSLA",
+  "action": "open",
+  "sym": "TSLA",
+  "side": "short",
+  "strategie": "SWG-1",
+  "entry_ref": 343.7687,
+  "atr": 2.201239,
+  "stop": 352.0302,
+  "tp": 318.9841,
+  "duree_max_h": 192,
+  "risque_pct_override": 1.0,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."
+   }
+  },
+  "synthese": "Entrée automatique SWG-1 sur TSLA (vente à découvert) : Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute. RR net 2.54. Position prévue pour durer plusieurs jours.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0020",
+   "prix": 344.5867,
+   "risque_eur": 2.31
+  },
+  "cree_le": "2026-11-17T19:26:47Z",
+  "traite_le": "2026-11-17T19:26:47Z"
  }
 ]
