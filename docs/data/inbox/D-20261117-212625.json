@@ -1,0 +1,86 @@
+{
+ "action": "close",
+ "sym": "NVDA",
+ "origine": "comite",
+ "agents": {
+  "analyste_technique": {
+   "avis": "fermer",
+   "resume": "NVDA vaut 154,56 € (+8,9 % en 24 h). Le stop SWG-1 était à 146,68 : le prix est au-dessus. Le short est invalidé sur le graphique."
+  },
+  "analyste_macro": {
+   "avis": "fermer",
+   "resume": "Nvidia a publié ses résultats du 3e trimestre le 17 nov 2026 : au-dessus des attentes, avec des prévisions T4 meilleures qu'attendu (Yahoo Finance, GlobeNewswire du 17/11/2026). Fait nouveau, daté, sourcé, qui casse le scénario baissier."
+  },
+  "analyste_sentiment": {
+   "avis": "fermer",
+   "resume": "Fear & Greed à 12 (peur extrême) : un titre qui monte fort contre le marché fait craindre un rebond violent des vendeurs à découvert. Pas de raison d'attendre."
+  },
+  "trader": {
+   "avis": "fermer",
+   "resume": "On ne garde pas un short quand le prix est déjà au-dessus du stop et que l'actualité contredit l'idée. Perte latente -9,47 €."
+  },
+  "risk_manager": {
+   "verdict": "valide",
+   "motif": "Fermeture : stop dépassé et résultats d'entreprise défavorables à la position. Limite la perte à environ 2 % du capital."
+  }
+ },
+ "discussion": [
+  {
+   "agent": "analyste_technique",
+   "msg": "NVDA à 154,56 €, entrée 141,07, stop 146,68. Le stop est dépassé de plus de 5 %. Le short est cassé."
+  },
+  {
+   "agent": "analyste_macro",
+   "msg": "Résultats Nvidia du 17/11 meilleurs que prévu, perspectives T4 au-dessus du consensus. Le scénario baissier SWG-1 perd sa base.",
+   "repond_a": "analyste_technique"
+  },
+  {
+   "agent": "analyste_sentiment",
+   "msg": "Fear & Greed 12, capitalisation crypto -3,9 % sur 24 h. NVDA +8,9 % va à contre-courant : risque de short squeeze.",
+   "repond_a": "analyste_macro"
+  },
+  {
+   "agent": "trader",
+   "msg": "Je propose de fermer NVDA maintenant. Perte latente -9,47 €, le stop initial prévoyait -4,10 €.",
+   "repond_a": "analyste_technique"
+  },
+  {
+   "agent": "analyste_technique",
+   "msg": "Objection : la règle dit de ne jamais fermer parce que la position est contre nous. Ici c'est plus que cela : le stop est franchi.",
+   "repond_a": "trader"
+  },
+  {
+   "agent": "trader",
+   "msg": "D'accord sur la règle. Ici il y a deux faits : stop franchi et résultats d'entreprise sourcés du 17/11. Les deux justifient la sortie.",
+   "repond_a": "analyste_technique"
+  },
+  {
+   "agent": "analyste_macro",
+   "msg": "Je confirme : le fait est daté du 17/11/2026, sources Yahoo Finance et communiqué officiel Nvidia.",
+   "repond_a": "trader"
+  },
+  {
+   "agent": "risk_manager",
+   "msg": "Valide. Rester short avec le prix au-dessus du stop n'a plus de plan de risque. Fermeture acceptée, pas de nouvelle entrée sur NVDA.",
+   "repond_a": "trader"
+  }
+ ],
+ "synthese": "Fermeture de NVDA short : le prix (154,56) a dépassé le stop (146,68) et Nvidia a publié des résultats supérieurs aux attentes le 17/11/2026. Fait nouveau qui casse le scénario.",
+ "compte_rendu": {
+  "points": [
+   "NVDA monte de 8,9 % après de bons résultats.",
+   "Le stop est dépassé, la position n'a plus de protection.",
+   "Les autres positions (BTC, SHIB, AMD, TSLA) restent en place."
+  ],
+  "desaccords": [
+   "L'analyste technique a rappelé qu'on ne ferme pas une position juste parce qu'elle est contre nous. Le trader a répondu que le stop franchi et les résultats sont deux faits nouveaux."
+  ],
+  "decision": "Fermer NVDA short maintenant. Pas de nouvelle entrée : limites du jour atteintes.",
+  "a_surveiller": [
+   "Réaction de AMD et des autres valeurs tech aux résultats Nvidia",
+   "BTC : support autour de 57 500 €"
+  ]
+ },
+ "id": "D-20261117-212625",
+ "cree_le": "2026-11-17T21:26:25Z"
+}
