@@ -1,7 +1,7 @@
 {
- "t": "2026-11-17T19:24:24Z",
- "nb_analyses": 608,
- "nb_en_mouvement": 7,
+ "t": "2026-11-17T19:29:32Z",
+ "nb_analyses": 609,
+ "nb_en_mouvement": 9,
  "tendance": [
   "AGNC",
   "ALGO",
@@ -135,7 +135,17 @@
    "action": false,
    "variation_24h_pct": 15.31,
    "volume_24h_eur": 48462.31,
-   "spread_pct": 0.1756,
+   "spread_pct": 0.2194,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "SPACE",
+   "pair": "SPACEEUR",
+   "action": false,
+   "variation_24h_pct": -13.41,
+   "volume_24h_eur": 103967.67,
+   "spread_pct": 0.1014,
    "tendance": false,
    "impulsion": null
   },
@@ -143,9 +153,19 @@
    "sym": "ICP",
    "pair": "ICPEUR",
    "action": false,
-   "variation_24h_pct": -9.81,
-   "volume_24h_eur": 282253.55,
-   "spread_pct": 0.0492,
+   "variation_24h_pct": -9.99,
+   "volume_24h_eur": 279179.54,
+   "spread_pct": 0.0493,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "TRUST",
+   "pair": "TRUSTEUR",
+   "action": false,
+   "variation_24h_pct": 7.62,
+   "volume_24h_eur": 85474.66,
+   "spread_pct": 0.2383,
    "tendance": false,
    "impulsion": null
   },
@@ -155,7 +175,7 @@
    "action": false,
    "variation_24h_pct": -6.93,
    "volume_24h_eur": 90188.53,
-   "spread_pct": 0.125,
+   "spread_pct": 0.2751,
    "tendance": false,
    "impulsion": null
   },
@@ -163,9 +183,9 @@
    "sym": "ZRO",
    "pair": "ZROEUR",
    "action": false,
-   "variation_24h_pct": -5.12,
-   "volume_24h_eur": 799088.89,
-   "spread_pct": 0.0794,
+   "variation_24h_pct": -5.42,
+   "volume_24h_eur": 802946.23,
+   "spread_pct": 0.0796,
    "tendance": false,
    "impulsion": null
   },
@@ -173,9 +193,9 @@
    "sym": "FHE",
    "pair": "FHEEUR",
    "action": false,
-   "variation_24h_pct": 5.77,
-   "volume_24h_eur": 52083.98,
-   "spread_pct": 0.295,
+   "variation_24h_pct": 6.01,
+   "volume_24h_eur": 52100.79,
+   "spread_pct": 0.1472,
    "tendance": false,
    "impulsion": null
   },
@@ -184,18 +204,8 @@
    "pair": "IRENxUSD",
    "action": true,
    "variation_24h_pct": -4.1,
-   "volume_24h_eur": 59007.48,
-   "spread_pct": 0.2514,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "TQQQ",
-   "pair": "TQQQxUSD",
-   "action": true,
-   "variation_24h_pct": -3.99,
-   "volume_24h_eur": 44874.22,
-   "spread_pct": 0.1358,
+   "volume_24h_eur": 59015.52,
+   "spread_pct": 0.44,
    "tendance": false,
    "impulsion": null
   }
