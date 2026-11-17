@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-15T13:56:43Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On ne prend aucun trade : le marché baisse mais sans volume, et les deux candidats rapportent trop peu pour leur risque."
- },
- {
   "t": "2026-11-15T13:56:50Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -2755,5 +2749,11 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 12 signal(aux) : NVDA short (SWG-1, 80), AMD short (SWG-1, 80), ETH short (SWG-1, 80)"
+ },
+ {
+  "t": "2026-11-17T10:43:44Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "607 actifs hors univers analysés, 4 en mouvement : DRV -6.8 %, JUP +5.3 %, MNT +5.3 %."
  }
 ]
