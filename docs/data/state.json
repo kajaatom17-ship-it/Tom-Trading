@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 161.03234163045522,
+ "cash": 245.25421539578124,
  "positions": [
   {
    "id": "P0016",
@@ -20,13 +20,13 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-17T21:30:00Z",
+   "verifie_jusqu_a": "2026-11-18T01:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 58696.5,
+   "dernier_prix": 58598.6,
    "atr": 598.5359,
-   "rollover": 0.12573928301844658,
-   "rollover_periodes": 7
+   "rollover": 0.14370203773536752,
+   "rollover_periodes": 8
   },
   {
    "id": "P0017",
@@ -44,37 +44,13 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-17T21:30:00Z",
+   "verifie_jusqu_a": "2026-11-18T01:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.497e-06,
+   "dernier_prix": 3.508e-06,
    "atr": 3.5634e-08,
-   "rollover": 0.05913639496994651,
-   "rollover_periodes": 6
-  },
-  {
-   "id": "P0019",
-   "sym": "AMD",
-   "pair": "AMDxUSD",
-   "side": "short",
-   "strategie": "SWG-1",
-   "qty": 0.19608050604164093,
-   "entry": 456.3203,
-   "notionnel": 89.4755185307914,
-   "frais_entree": 0.07158041482463312,
-   "stop": 480.8073,
-   "stop_initial": 480.8073,
-   "tp": 379.2272,
-   "risque_eur": 4.948422127502307,
-   "rr_net": 2.92,
-   "ouvert_le": "2026-11-17T10:41:02Z",
-   "verifie_jusqu_a": "2026-11-17T21:30:00Z",
-   "duree_max_h": 192.0,
-   "decision_id": "S-20261117-104102-AMD",
-   "dernier_prix": 468.45732782920226,
-   "atr": 4.020063,
-   "rollover": 0.03579020741231656,
-   "rollover_periodes": 2
+   "rollover": 0.06899246079827093,
+   "rollover_periodes": 7
   },
   {
    "id": "P0020",
@@ -92,15 +68,17 @@
    "risque_eur": 2.3126349460538194,
    "rr_net": 2.88,
    "ouvert_le": "2026-11-17T19:26:47Z",
-   "verifie_jusqu_a": "2026-11-17T21:30:00Z",
+   "verifie_jusqu_a": "2026-11-18T01:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261117-192647-TSLA",
-   "dernier_prix": 346.61477750095474,
-   "atr": 2.201239
+   "dernier_prix": 347.88265909628575,
+   "atr": 2.201239,
+   "rollover": 0.01992050306199245,
+   "rollover_periodes": 1
   }
  ],
- "frais_cumules": 11.32384201839684,
- "pnl_realise": -9.310840668281282,
+ "frais_cumules": 11.44726593095926,
+ "pnl_realise": -14.62411673237635,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -111,62 +89,53 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-17T21:30:40Z",
+ "maj": "2026-11-18T01:46:52Z",
  "seq": 20,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
   "2026-11-15": 503.97,
   "2026-11-16": 496.2,
-  "2026-11-17": 493.55
+  "2026-11-17": 493.55,
+  "2026-11-18": 486.94
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-17T21:26:59Z",
+ "chasseur_t": "2026-11-18T01:46:33Z",
  "tendance": [
-  "BTC",
-  "BP",
-  "HYPE",
   "PENGU",
-  "ZEC",
-  "PEARL",
-  "INJ",
-  "SOL",
+  "BTC",
   "NEAR",
+  "PEARL",
+  "QTC",
+  "OP",
+  "SOL",
+  "BP",
+  "VVV",
+  "BREV",
   "LIT",
-  "ONDO",
-  "XMR",
-  "UNI",
-  "CC",
-  "MON"
+  "XRP",
+  "PI",
+  "TAO",
+  "AAVE"
  ],
- "tendance_t": "2026-11-17T21:26:59Z",
+ "tendance_t": "2026-11-18T01:46:33Z",
  "buzz": {
   "SLS": {
    "source": "Reddit + StockTwits",
-   "mentions": 390,
-   "x_vs_hier": 35.5
+   "mentions": 411,
+   "x_vs_hier": 45.7
   },
-  "IT": {
+  "GP": {
+   "source": "Reddit + StockTwits",
+   "mentions": 69,
+   "x_vs_hier": 69.0
+  },
+  "NOW": {
    "source": "Reddit",
-   "mentions": 85,
-   "x_vs_hier": 2.0
-  },
-  "NVDA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "mentions": 34,
+   "x_vs_hier": 3.4
   },
   "NKE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FUBO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UNH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -176,54 +145,64 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVDL": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NTLA": {
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIS": {
+  "CRM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CSIQ": {
+  "HD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "INTU": {
+  "WULF": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GP": {
+  "NRG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CCJ": {
+  "NBIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "COST": {
+  "JD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JNUG": {
+  "TSM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TTWO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "FUBO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-17T21:27:00Z",
- "sources_t": "2026-11-17T21:27:03Z",
+ "buzz_t": "2026-11-18T01:46:34Z",
+ "sources_t": "2026-11-18T01:46:35Z",
  "actus_tendance": [
   {
    "sujet": "AI",

@@ -1,83 +1,5 @@
 [
  {
-  "t": "2026-11-15T17:28:27Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] Volo Protocol Loses $3.5M in Exploit Targeting Three Sui Vaults - CoinMarketCap (CoinMarketCap)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcHN6aVc4cVZHWUV5MEYxVS1CSXJDY0RfM01lM29ZMDRwVVNSYWxfQ1lkUnRpcF9BTEs5Ry1NZmNxYVhYQnA5WkE3UTA0N0JuSWdUa0paS1hsWWRLbzdJOFY4VDNQdGxDSUxpMldIcHk4dTZFRmY0V2hjYUx1NjF6Ni1ocDl1dVJ1dmhmSVlWaTRmb3p4YjQxZmRmY0Nodl8tdUVTWXJZWDJPc0ZZeHc?oc=5",
-   "actifs": [
-    "SUI"
-   ]
-  }
- },
- {
-  "t": "2026-11-15T17:29:26Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 13 signal(aux) : SUI short (TPB-1, 60), NEAR short (TPB-1, 60), HYPE short (TPB-1, 60)"
- },
- {
-  "t": "2026-11-15T17:41:50Z",
-  "agent": "Spécialiste memecoins",
-  "type": "ajout refusé",
-  "msg": "DRV : Spread trop large (0.64 %)."
- },
- {
-  "t": "2026-11-15T17:41:54Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "457 actifs hors univers analysés, 9 en mouvement : DRV +20.8 %, VVV +14.9 %, QNT +7.3 %."
- },
- {
-  "t": "2026-11-15T17:42:59Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 3 signal(aux) : PAXG short (TPB-1, 40), INJ short (TPB-1, 30), TRUMP short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-15T17:56:36Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde le short TAO et on n'ouvre rien de nouveau : le quota du jour est atteint et aucun candidat n'est assez rentable après frais."
- },
- {
-  "t": "2026-11-15T17:56:44Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADA, BTC, CRSP, DAL, DIS, DRTS, EWY, HAWK, HD, HELP, MSTR, NUGT"
- },
- {
-  "t": "2026-11-15T17:56:49Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "457 actifs hors univers analysés, 11 en mouvement : DRV +18.8 %, VVV +15.5 %, QNT +7.2 %."
- },
- {
-  "t": "2026-11-15T17:57:57Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 13 signal(aux) : MSTR short (TPB-1, 60), HOOD short (TPB-1, 60), SPY short (TPB-1, 60)"
- },
- {
-  "t": "2026-11-15T18:27:21Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde le short TAO et on n'ouvre rien de nouveau : le quota du jour est atteint et les actions sont fermées le dimanche."
- },
- {
-  "t": "2026-11-15T18:27:28Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MACCA, MIHAO, GATO, DACITYCOIN, IMD, BTC, PENGU, JUP"
- },
- {
-  "t": "2026-11-15T18:27:28Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABT, BTC, CRSP, DAL, DIS, DOGE, DRTS, HELP, LHX, MSTR, PYTH, REPL"
- },
- {
   "t": "2026-11-15T18:27:33Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2794,5 +2716,111 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 2 signal(aux) : GLD short (SWG-1, 70), TAO short (SWG-1, 70)"
+ },
+ {
+  "t": "2026-11-18T01:46:32Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "AMD short fermé (stop-loss) à 482.4841 : -5.31 € net",
+  "data": {
+   "id": "P0019"
+  }
+ },
+ {
+  "t": "2026-11-18T01:46:33Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PENGU, BTC, NEAR, PEARL, QTC, OP, SOL, BP"
+ },
+ {
+  "t": "2026-11-18T01:46:34Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAOI, CAPR, CRM, FUBO, GP, HD, JD, NBIS, NKE, NOW, NRG, NVDA"
+ },
+ {
+  "t": "2026-11-18T01:46:52Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Mustafa Suleyman: AI Is Starting to Improve Itself, and That's Dangerous",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=cR1yekwhjLY"
+  }
+ },
+ {
+  "t": "2026-11-18T01:46:52Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Most of this month’s biggest outages weren’t cyberattacks.",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=QsgM5_oHpy0"
+  }
+ },
+ {
+  "t": "2026-11-18T01:46:52Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Why Nvidia will no longer be the AI tastemaker | Market Hang",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=jPrJT0gKhMc"
+  }
+ },
+ {
+  "t": "2026-11-18T01:46:52Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Claude’s name may come from a juggling mathematician 🤹",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=atWH_fAb7LM"
+  }
+ },
+ {
+  "t": "2026-11-18T01:46:52Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Nvidia will not be reinstating Jensen Huang as CEO.",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=d4W5-miuAnk"
+  }
+ },
+ {
+  "t": "2026-11-18T01:46:55Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Hacker Exploits Trader on Ethereum DEX Lighter, Looting $10,000,000 Worth of Crypto - Cryptonews.net (Cryptonews.net)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZOC1YMzJzdkVyMWZnLWMyWUNpWnBrU0ozYnZVMG1paWhLdTBGZFdKTk45S09lU2c5am5fU2VrYjNuSEI1cWJOTFVsdGsyT0tZVTVuN2VWbkFNdw?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-18T01:46:55Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Stock Market Today, Nov. 17: Nvidia Slides Ahead of Earnings but Soars in After Hours Trading - The Motley Fool (The Motley Fool)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWlhrTDE3QjRpbEFvVTdwU0ZIemU3bE1PeE9BXy1sNEhobzFwZ2VISm85RHJNelh1UDlxNHJEUjVlN0lQUzZfSW9DWDN6NXI4WHEwYXBIbEFhWTIzbnlOczhIWW1LUmRZVDhDLUpjV2tSanlfZkhRVXE2QTFoSzNVZEhrZDVsV2VyaDNkenBsR1pYbVNDbndXSlBtLWhmMTdOaFBTTF9wa0hEQ0xJZUpJelNUUTZublZ3MlExV2NHaTNMSVg2MTY5dms2S1lFSmJDZFNyMVdhd1BJVmJjVVJ4NjY0STFHZw?oc=5",
+   "actifs": [
+    "NVDA"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-18T01:46:55Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[régulation, banque centrale] Fed Issues Possible Bank Run Warning As Outages Fuel Wild Nov. 17 ‘Blackout’ Theories - Forbes (Forbes)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd0NUeDU1bWpQU29ERzhtS3dzSXBJYkxGekYtaHpUT0ZzQzdpV1VjVFItZV9xM19zUm9pNXRaTHRwT2ZZcU1tTUlFa0hkYmxGNHdBRXpSQ2dLeGFIMTR1QllabEVGQ2NzQ1pEc2lYblVKa1plVjZTeGgyamQyLUVFa0N6WGNnYWo2YVZWbE9KckZkcW1kMWVTdjBmSTE2d3VpMXBJWm5B?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-18T01:48:58Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
  }
 ]
