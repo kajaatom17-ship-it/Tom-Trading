@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 245.25421539578124,
+ "cash": 148.77526973049288,
  "positions": [
   {
    "id": "P0016",
@@ -20,13 +20,13 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-18T01:51:00Z",
+   "verifie_jusqu_a": "2026-11-18T09:15:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 58559.4,
+   "dernier_prix": 58983.6,
    "atr": 598.5359,
-   "rollover": 0.14370203773536752,
-   "rollover_periodes": 8
+   "rollover": 0.1796275471692094,
+   "rollover_periodes": 10
   },
   {
    "id": "P0017",
@@ -44,13 +44,13 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-18T01:51:00Z",
+   "verifie_jusqu_a": "2026-11-18T09:16:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.501e-06,
+   "dernier_prix": 3.518e-06,
    "atr": 3.5634e-08,
-   "rollover": 0.06899246079827093,
-   "rollover_periodes": 7
+   "rollover": 0.08870459245491977,
+   "rollover_periodes": 9
   },
   {
    "id": "P0020",
@@ -68,16 +68,38 @@
    "risque_eur": 2.3126349460538194,
    "rr_net": 2.88,
    "ouvert_le": "2026-11-17T19:26:47Z",
-   "verifie_jusqu_a": "2026-11-18T01:51:00Z",
+   "verifie_jusqu_a": "2026-11-18T09:16:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261117-192647-TSLA",
-   "dernier_prix": 347.77347091044743,
+   "dernier_prix": 351.1397441278995,
    "atr": 2.201239,
-   "rollover": 0.01992050306199245,
-   "rollover_periodes": 1
+   "rollover": 0.05976150918597735,
+   "rollover_periodes": 3
+  },
+  {
+   "id": "P0021",
+   "sym": "GOOGL",
+   "pair": "GOOGLxUSD",
+   "side": "short",
+   "strategie": "SWG-1",
+   "qty": 0.374464764928124,
+   "entry": 257.1842,
+   "notionnel": 96.30642188056943,
+   "frais_entree": 0.07704513750445555,
+   "stop": 262.3205,
+   "stop_initial": 262.3205,
+   "tp": 241.7464,
+   "risque_eur": 2.0789914527576343,
+   "rr_net": 2.47,
+   "ouvert_le": "2026-11-18T09:18:14Z",
+   "verifie_jusqu_a": "2026-11-18T09:18:14Z",
+   "duree_max_h": 192.0,
+   "decision_id": "S-20261118-091814-GOOGL",
+   "dernier_prix": 257.1842023616155,
+   "atr": 1.264373
   }
  ],
- "frais_cumules": 11.44726593095926,
+ "frais_cumules": 11.619789715678191,
  "pnl_realise": -14.62411673237635,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
@@ -85,12 +107,13 @@
   "2026-11-14": 2,
   "2026-11-15": 3,
   "2026-11-16": 3,
-  "2026-11-17": 3
+  "2026-11-17": 3,
+  "2026-11-18": 1
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-18T01:51:30Z",
- "seq": 20,
+ "maj": "2026-11-18T09:16:09Z",
+ "seq": 21,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
@@ -100,47 +123,47 @@
   "2026-11-18": 486.94
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-18T01:51:30Z",
+ "chasseur_t": "2026-11-18T09:16:02Z",
  "tendance": [
-  "PENGU",
   "BTC",
-  "NEAR",
-  "PEARL",
-  "QTC",
-  "OP",
   "SOL",
-  "BP",
-  "VVV",
-  "BREV",
+  "MMT",
   "LIT",
+  "PEARL",
+  "PENGU",
+  "BDX",
+  "VVV",
+  "QNT",
+  "ALGO",
   "XRP",
-  "PI",
-  "TAO",
-  "AAVE"
+  "HYPE",
+  "PUMP",
+  "ZEC",
+  "MON"
  ],
- "tendance_t": "2026-11-18T01:46:33Z",
+ "tendance_t": "2026-11-18T09:16:02Z",
  "buzz": {
   "SLS": {
    "source": "Reddit + StockTwits",
-   "mentions": 411,
-   "x_vs_hier": 45.7
+   "mentions": 422,
+   "x_vs_hier": 46.9
   },
   "GP": {
-   "source": "Reddit + StockTwits",
-   "mentions": 69,
-   "x_vs_hier": 69.0
+   "source": "Reddit",
+   "mentions": 71,
+   "x_vs_hier": 71.0
   },
   "NOW": {
    "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 3.4
-  },
-  "NKE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "mentions": 35,
+   "x_vs_hier": 2.9
   },
   "AAOI": {
+   "source": "Reddit + StockTwits",
+   "mentions": 31,
+   "x_vs_hier": 15.5
+  },
+  "SLV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -150,125 +173,135 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ASTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRM": {
+  "VG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HD": {
+  "KLAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WULF": {
+  "CADL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NRG": {
+  "GLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NBIS": {
+  "AMD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JD": {
+  "FRVO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
+  "IONS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TTWO": {
+  "RIG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "FUBO": {
+  "SENS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-18T01:46:34Z",
- "sources_t": "2026-11-18T01:46:35Z",
+ "buzz_t": "2026-11-18T09:16:05Z",
+ "sources_t": "2026-11-18T09:16:08Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
-    "GPT-6.2 Astra takes first place on the AA-3D benchmark for 3D experiences"
+    "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+    "Security flaw found in Java, world's third-largest programming language"
+   ]
+  },
+  {
+   "sujet": "Dogecoin",
+   "mentions": 5,
+   "sentiment": "bearish",
+   "titres": [
+    "Dogecoin (DOGE) Price Holds Key Support as Mid-Size Holders Keep Buying",
+    "DOGE/USDT – Next Support Test Trigger 30% Recovery"
    ]
   },
   {
    "sujet": "Stablecoins",
    "mentions": 4,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "DeFi Firms Compete for Traditional Bank Deposits",
-    "MoneyGram and Solflare Launch USDC Cash-Out at Participating Locations in 170-Plus Markets"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "CONX Grants Mobile X Stockholders Rights to Exchange Holdings for Unregistered Class A Shares",
-    "SEC reportedly investigating whether Nvidia misled investors"
+    "DOGE/USDT – Next Support Test Trigger 30% Recovery",
+    "World Bank Turns To Crypto: Citi And Circle Explore USDC For Global Payments"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 1,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.141639844 | 🚶 0.141651021 | 🚀 0.155803828 Gwei"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "BlackRock holds 123,056 Strategy shares ahead of MSCI exit, but how much must it sell?"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "DeFi Firms Compete for Traditional Bank Deposits"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "MoneyGram and Solflare Launch USDC Cash-Out at Participating Locations in 170-Plus Markets"
+    "⛽ ETH Gas: 🐢 0.104751819 | 🚶 0.104761911 | 🚀 0.10932413 Gwei",
+    "TD Cowen keeps Buy rating on Sharplink with $13 price target"
    ]
   },
   {
    "sujet": "XRP",
-   "mentions": 1,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "XRPUSDT Analyses-97, November 18, 2026"
+    "Grayscale and Canary XRP ETFs see $6.14 million in combined outflows",
+    "Grayscale Again Promotes XRP-to-ETF Conversion, but Here’s What Investors Should Know"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 3,
+   "sentiment": "bullish",
+   "titres": [
+    "BTC/USD 45-Minute Chart Analysis – Bullish Breakout Setup",
+    "SOL comes out of Breakpoint 7% higher as Solana exits beta"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Grayscale and Canary XRP ETFs see $6.14 million in combined outflows",
+    "Grayscale Again Promotes XRP-to-ETF Conversion, but Here’s What Investors Should Know"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Grayscale and Canary XRP ETFs see $6.14 million in combined outflows",
+    "Grayscale Again Promotes XRP-to-ETF Conversion, but Here’s What Investors Should Know"
    ]
   }
  ],
@@ -292,13 +325,15 @@
  },
  "swing_par_jour": {
   "2026-11-16": 2,
-  "2026-11-17": 3
+  "2026-11-17": 3,
+  "2026-11-18": 1
  },
  "swing_vus": {
   "BTC": 1794841200,
   "SHIB": 1794848400,
   "NVDA": 1794906000,
   "AMD": 1794906000,
-  "TSLA": 1794938400
+  "TSLA": 1794938400,
+  "GOOGL": 1794988800
  }
 }
