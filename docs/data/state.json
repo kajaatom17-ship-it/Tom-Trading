@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 148.77526973049288,
+ "cash": 245.94884802425,
  "positions": [
   {
    "id": "P0016",
@@ -20,13 +20,13 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-18T09:20:00Z",
+   "verifie_jusqu_a": "2026-11-18T18:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 58951.4,
+   "dernier_prix": 57438.4,
    "atr": 598.5359,
-   "rollover": 0.1796275471692094,
-   "rollover_periodes": 10
+   "rollover": 0.21555305660305127,
+   "rollover_periodes": 12
   },
   {
    "id": "P0017",
@@ -44,37 +44,13 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-18T09:20:00Z",
+   "verifie_jusqu_a": "2026-11-18T18:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.52e-06,
+   "dernier_prix": 3.445e-06,
    "atr": 3.5634e-08,
-   "rollover": 0.08870459245491977,
-   "rollover_periodes": 9
-  },
-  {
-   "id": "P0020",
-   "sym": "TSLA",
-   "pair": "TSLAxUSD",
-   "side": "short",
-   "strategie": "SWG-1",
-   "qty": 0.2890492491603694,
-   "entry": 344.5867,
-   "notionnel": 99.60251530996223,
-   "frais_entree": 0.07968201224796978,
-   "stop": 352.0302,
-   "stop_initial": 352.0302,
-   "tp": 318.9841,
-   "risque_eur": 2.3126349460538194,
-   "rr_net": 2.88,
-   "ouvert_le": "2026-11-17T19:26:47Z",
-   "verifie_jusqu_a": "2026-11-18T09:20:00Z",
-   "duree_max_h": 192.0,
-   "decision_id": "S-20261117-192647-TSLA",
-   "dernier_prix": 351.0916871196431,
-   "atr": 2.201239,
-   "rollover": 0.05976150918597735,
-   "rollover_periodes": 3
+   "rollover": 0.10841672411156861,
+   "rollover_periodes": 11
   },
   {
    "id": "P0021",
@@ -92,15 +68,17 @@
    "risque_eur": 2.0789914527576343,
    "rr_net": 2.47,
    "ouvert_le": "2026-11-18T09:18:14Z",
-   "verifie_jusqu_a": "2026-11-18T09:20:00Z",
+   "verifie_jusqu_a": "2026-11-18T18:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261118-091814-GOOGL",
-   "dernier_prix": 257.5250225819108,
-   "atr": 1.264373
+   "dernier_prix": 255.646153145356,
+   "atr": 1.264373,
+   "rollover": 0.03852256875222777,
+   "rollover_periodes": 2
   }
  ],
- "frais_cumules": 11.619789715678191,
- "pnl_realise": -14.62411673237635,
+ "frais_cumules": 11.795434580766322,
+ "pnl_realise": -17.09833706017268,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -112,7 +90,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-18T09:20:52Z",
+ "maj": "2026-11-18T18:11:58Z",
  "seq": 21,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -123,52 +101,52 @@
   "2026-11-18": 486.94
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-18T09:20:49Z",
+ "chasseur_t": "2026-11-18T18:11:50Z",
  "tendance": [
-  "BTC",
-  "SOL",
-  "MMT",
-  "LIT",
+  "WASTED",
+  "WSTAR",
+  "LUCIA",
   "PEARL",
+  "TRUMP",
   "PENGU",
-  "BDX",
-  "VVV",
-  "QNT",
-  "ALGO",
-  "XRP",
+  "BTC",
+  "BP",
+  "AERO",
+  "SOL",
+  "PIEVERSE",
   "HYPE",
-  "PUMP",
-  "ZEC",
-  "MON"
+  "PI",
+  "AAVE",
+  "DOGE"
  ],
- "tendance_t": "2026-11-18T09:16:02Z",
+ "tendance_t": "2026-11-18T18:11:50Z",
  "buzz": {
-  "SLS": {
-   "source": "Reddit + StockTwits",
-   "mentions": 422,
-   "x_vs_hier": 46.9
-  },
   "GP": {
    "source": "Reddit",
-   "mentions": 71,
-   "x_vs_hier": 71.0
+   "mentions": 74,
+   "x_vs_hier": 24.7
   },
-  "NOW": {
+  "AMZN": {
    "source": "Reddit",
-   "mentions": 35,
-   "x_vs_hier": 2.9
+   "mentions": 41,
+   "x_vs_hier": 2.4
+  },
+  "CRWV": {
+   "source": "Reddit",
+   "mentions": 40,
+   "x_vs_hier": 2.1
   },
   "AAOI": {
-   "source": "Reddit + StockTwits",
+   "source": "Reddit",
    "mentions": 31,
-   "x_vs_hier": 15.5
+   "x_vs_hier": 6.2
   },
-  "SLV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+  "GLD": {
+   "source": "Reddit",
+   "mentions": 30,
+   "x_vs_hier": 3.3
   },
-  "CAPR": {
+  "UNH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -183,125 +161,136 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "VG": {
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KLAR": {
+  "GME": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CADL": {
+  "PANW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GLD": {
+  "TTWO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMD": {
+  "BB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "FRVO": {
+  "CRWD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "IONS": {
+  "CELH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RIG": {
+  "SLS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SENS": {
+  "COIN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SLV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IREN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-18T09:16:05Z",
- "sources_t": "2026-11-18T09:16:08Z",
+ "buzz_t": "2026-11-18T18:11:50Z",
+ "sources_t": "2026-11-18T18:11:56Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "neutral",
-   "titres": [
-    "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
-    "Security flaw found in Java, world's third-largest programming language"
-   ]
-  },
-  {
-   "sujet": "Dogecoin",
-   "mentions": 5,
-   "sentiment": "bearish",
-   "titres": [
-    "Dogecoin (DOGE) Price Holds Key Support as Mid-Size Holders Keep Buying",
-    "DOGE/USDT – Next Support Test Trigger 30% Recovery"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 4,
-   "sentiment": "bearish",
-   "titres": [
-    "DOGE/USDT – Next Support Test Trigger 30% Recovery",
-    "World Bank Turns To Crypto: Citi And Circle Explore USDC For Global Payments"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.104751819 | 🚶 0.104761911 | 🚀 0.10932413 Gwei",
-    "TD Cowen keeps Buy rating on Sharplink with $13 price target"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Grayscale and Canary XRP ETFs see $6.14 million in combined outflows",
-    "Grayscale Again Promotes XRP-to-ETF Conversion, but Here’s What Investors Should Know"
-   ]
-  },
-  {
    "sujet": "Bitcoin",
-   "mentions": 3,
-   "sentiment": "bullish",
+   "mentions": 8,
+   "sentiment": "bearish",
    "titres": [
-    "BTC/USD 45-Minute Chart Analysis – Bullish Breakout Setup",
-    "SOL comes out of Breakpoint 7% higher as Solana exits beta"
+    "BTC Has More Room to Fall Towards $59K",
+    "The uptrend is still intact..."
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 6,
+   "sentiment": "neutral",
+   "titres": [
+    "Anthropic IPO could see 28% opening surge, Entropy CEO says",
+    "OpenAI’s GPT-6.2 Astra takes #3 and GPT-6.2 Sol lands #7 on Code Arena WebDev leaderboard"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Lucky Trader Banks 66,000% Profit on GTA 6 Meme Coin Ticker Confusion",
+    "Pepe Meme Coin Likely to Provide Another Selling Opportunity as Bids Thin to $694K"
    ]
   },
   {
    "sujet": "ETF",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Grayscale and Canary XRP ETFs see $6.14 million in combined outflows",
-    "Grayscale Again Promotes XRP-to-ETF Conversion, but Here’s What Investors Should Know"
+    "Bitcoin Price Slides Near $62K as Citi Slashes 12-Month Target by 12%",
+    "BlackRock's bitcoin fund holds $2.25B of November's $2.58B ETF exit"
    ]
   },
   {
-   "sujet": "Institutions",
-   "mentions": 2,
+   "sujet": "Ethereum",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Grayscale and Canary XRP ETFs see $6.14 million in combined outflows",
-    "Grayscale Again Promotes XRP-to-ETF Conversion, but Here’s What Investors Should Know"
+    "⛽ ETH Gas: 🐢 0.318579292 | 🚶 0.31861068 | 🚀 0.390736965 Gwei"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "OpenAI’s GPT-6.2 Astra takes #3 and GPT-6.2 Sol lands #7 on Code Arena WebDev leaderboard"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Invesco launches IROXX stablecoin reserve fund two months before GENIUS Act rules"
+   ]
+  },
+  {
+   "sujet": "Chainlink",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Chainlink bets equities and commodities will pull more users to Polymarket"
    ]
   }
  ],
