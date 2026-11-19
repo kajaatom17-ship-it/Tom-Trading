@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-16T01:30:17Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 11 signal(aux) : CRCL short (TPB-1, 70), HOOD short (TPB-1, 60), WIF short (BRK-1, 33)"
- },
- {
   "t": "2026-11-16T01:31:12Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2946,5 +2940,11 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 6 signal(aux) : COIN short (SWG-1, 80), HOOD short (SWG-1, 80), INTC short (SWG-1, 70)"
+ },
+ {
+  "t": "2026-11-19T19:43:09Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "617 actifs hors univers analysés, 14 en mouvement : BILL +18.7 %, PROS -17.3 %, FHE +16.0 %."
  }
 ]
