@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:36:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56592.8,
+   "dernier_prix": 56546.2,
    "atr": 598.5359,
    "rollover": 0.34129233962149785,
    "rollover_periodes": 19
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-19T20:36:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.452e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:36:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 543.5353314373223,
+   "dernier_prix": 543.4907440321566,
    "atr": 2.771652
   },
   {
@@ -93,7 +93,7 @@
    "verifie_jusqu_a": "2026-11-19T20:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 100.0328155764603,
+   "dernier_prix": 100.0246096633945,
    "atr": 1.08547
   },
   {
@@ -115,7 +115,7 @@
    "verifie_jusqu_a": "2026-11-19T20:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 587.9822066652082,
+   "dernier_prix": 587.9339731845816,
    "atr": 3.304099
   }
  ],
@@ -133,7 +133,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-19T20:37:02Z",
+ "maj": "2026-11-19T20:38:01Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -262,51 +262,33 @@
   }
  },
  "buzz_t": "2026-11-19T20:28:03Z",
- "sources_t": "2026-11-19T20:18:09Z",
+ "sources_t": "2026-11-19T20:38:00Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 10,
-   "sentiment": "bullish",
+   "mentions": 8,
+   "sentiment": "neutral",
    "titres": [
-    "Google adds an AI chat sidebar to its homepage",
-    "Google integrates AI chats on homepage to boost user engagement"
+    "Microsoft and Nvidia expand accelerated computing from Azure to Windows PCs",
+    "Digi Power X adds 42 BTC, lifting its Bitcoin treasury to 259 BTC"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 7,
+   "mentions": 5,
    "sentiment": "bullish",
    "titres": [
-    "Trump’s SEC nominee Johnson backs formal rulemaking for tokenized stock trading",
-    "Sky’s USDS stablecoin shrinks 35% as $1.5B exits reserves"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.817350523 | 🚶 0.827085521 | 🚀 0.909794073 Gwei",
-    "Chainlink and UBS take tokenized structured notes live on Ethereum"
+    "Changpeng Zhao refutes claims he pressured SBF over FTX trading info",
+    "Trump’s SEC nominee Johnson backs formal rulemaking for tokenized stock trading"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin: Sellers Could Have Another Opportunity If Support Fails",
-    "Bitcoin Giant Strategy Will Keep Buying STRC Below $100 After $600M Day: Saylor"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Sky’s USDS stablecoin shrinks 35% as $1.5B exits reserves",
-    "SKY/USDT: +170% Macro Expansion Setup"
+    "Trump Media’s $883M Debt Deadline Puts Bitcoin Holdings in Focus",
+    "Digi Power X adds 42 BTC, lifting its Bitcoin treasury to 259 BTC"
    ]
   },
   {
@@ -314,8 +296,24 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Binance.US derivatives bid clears CFTC completeness check, no approval yet",
-    "Binance Gets Only 2,957 Anthropic Shares From a $500 Million Campaign"
+    "Binance.US says its CFTC derivatives applications are materially complete",
+    "Binance.US derivatives bid clears CFTC completeness check, no approval yet"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.58724051 | 🚶 0.59316971 | 🚀 0.67156905 Gwei"
+   ]
+  },
+  {
+   "sujet": "NFTs",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "GTA VI side quest traps players on a roof and demands $50,000 for a worthless NFT"
    ]
   },
   {
