@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-19T22:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56692.1,
+   "dernier_prix": 56665.3,
    "atr": 598.5359,
    "rollover": 0.34129233962149785,
    "rollover_periodes": 19
@@ -44,10 +44,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-19T22:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.457e-06,
+   "dernier_prix": 3.452e-06,
    "atr": 3.5634e-08,
    "rollover": 0.18726525073816394,
    "rollover_periodes": 19
@@ -68,7 +68,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T22:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 539.0264372639531,
@@ -92,7 +92,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T22:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 99.18991406520828,
@@ -116,7 +116,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T22:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 587.8687806747067,
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-19T22:56:36Z",
+ "maj": "2026-11-19T22:59:47Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -151,7 +151,7 @@
   "2026-11-19": 483.52
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-19T22:52:36Z",
+ "chasseur_t": "2026-11-19T22:59:39Z",
  "tendance": [
   "WASTED",
   "BTC",
@@ -288,15 +288,33 @@
   }
  },
  "buzz_t": "2026-11-19T22:52:37Z",
- "sources_t": "2026-11-19T22:38:38Z",
+ "sources_t": "2026-11-19T22:59:45Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 8,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "Menlo Ventures’ Matt Murphy on Anthropic’s record IPO and ‘selling intelligence’",
-    "Broadcom expects $115 billion in AI chip revenue by fiscal 2027"
+    "Citi Says Customers Are Responsible When AI Banking Agents Go Rogue—Even After a Hack",
+    "Menlo Ventures’ Matt Murphy on Anthropic’s record IPO and ‘selling intelligence’"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "CFTC chairman Selig signals compliant US pathways for platforms like Hyperliquid",
+    "California DOJ questions Nvidia on chips possibly reaching China"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Accumulate Bitcoin with Cypherpunk Intelligence",
+    "Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion"
    ]
   },
   {
@@ -309,12 +327,12 @@
    ]
   },
   {
-   "sujet": "Bitcoin",
+   "sujet": "Security",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion",
-    "Babylon Weighs End to Bitcoin Staking—What Happens to $2.6B in BTC?"
+    "Citi Says Customers Are Responsible When AI Banking Agents Go Rogue—Even After a Hack",
+    "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express"
    ]
   },
   {
@@ -327,28 +345,11 @@
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Nvidia shares sit about 37% below their peak after record quarter under an interim CEO",
-    "Bridgewater’s Greg Jensen is in line for a windfall from early Anthropic and OpenAI bets"
-   ]
-  },
-  {
    "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.290309687 | 🚶 0.319340655 | 🚀 0.35127472 Gwei"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express"
+    "⛽ ETH Gas: 🐢 0.187961843 | 🚶 0.187961843 | 🚀 0.206758027 Gwei"
    ]
   },
   {
