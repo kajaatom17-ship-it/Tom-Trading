@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-16T09:58:28Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 2 signal(aux) : NVDA short (TPB-1, 60), PEPE short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-16T10:32:37Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde la position TAO et on ne prend pas de nouveau trade : l'annonce des résultats Nvidia cette semaine rend un short NVDA trop risqué, et les autres signaux sont trop faibles."
- },
- {
   "t": "2026-11-16T10:32:46Z",
   "agent": "Chasseur de mouvements",
   "type": "réseaux sociaux",
@@ -2995,5 +2983,17 @@
   "data": {
    "lien": "https://www.youtube.com/watch?v=UI2YA-6fPls"
   }
+ },
+ {
+  "t": "2026-11-19T23:41:31Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, PENGU, ETH, PEARL, ZEC, BP, EVAA, HYPE"
+ },
+ {
+  "t": "2026-11-19T23:41:37Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "615 actifs hors univers analysés, 19 en mouvement : ICNT +27.0 %, PROS -20.9 %, TRUST +13.7 %."
  }
 ]
