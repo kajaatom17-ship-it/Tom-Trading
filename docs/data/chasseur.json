@@ -1,7 +1,7 @@
 {
- "t": "2026-11-19T21:28:35Z",
+ "t": "2026-11-19T21:34:29Z",
  "nb_analyses": 615,
- "nb_en_mouvement": 15,
+ "nb_en_mouvement": 17,
  "tendance": [
   "AGI",
   "ALL",
@@ -149,12 +149,22 @@
  },
  "candidats": [
   {
+   "sym": "ICNT",
+   "pair": "ICNTEUR",
+   "action": false,
+   "variation_24h_pct": 25.58,
+   "volume_24h_eur": 103864.23,
+   "spread_pct": 0.4199,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "PROS",
    "pair": "PROSEUR",
    "action": false,
-   "variation_24h_pct": -19.97,
-   "volume_24h_eur": 86520.04,
-   "spread_pct": 0.2018,
+   "variation_24h_pct": -20.54,
+   "volume_24h_eur": 86601.38,
+   "spread_pct": 0.3251,
    "tendance": false,
    "impulsion": null
   },
@@ -162,9 +172,9 @@
    "sym": "BILL",
    "pair": "BILLEUR",
    "action": false,
-   "variation_24h_pct": 15.6,
-   "volume_24h_eur": 94566.95,
-   "spread_pct": 0.4819,
+   "variation_24h_pct": 15.88,
+   "volume_24h_eur": 94361.53,
+   "spread_pct": 0.4808,
    "tendance": false,
    "impulsion": null
   },
@@ -173,8 +183,8 @@
    "pair": "FHEEUR",
    "action": false,
    "variation_24h_pct": 15.6,
-   "volume_24h_eur": 65364.99,
-   "spread_pct": 0.355,
+   "volume_24h_eur": 65354.44,
+   "spread_pct": 0.2959,
    "tendance": false,
    "impulsion": null
   },
@@ -184,7 +194,17 @@
    "action": false,
    "variation_24h_pct": 14.0,
    "volume_24h_eur": 78047.03,
-   "spread_pct": 0.1159,
+   "spread_pct": 0.1931,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "ENA",
+   "pair": "ENAEUR",
+   "action": false,
+   "variation_24h_pct": -6.48,
+   "volume_24h_eur": 398463.93,
+   "spread_pct": 0.1049,
    "tendance": false,
    "impulsion": null
   },
@@ -192,40 +212,20 @@
    "sym": "MON",
    "pair": "MONEUR",
    "action": false,
-   "variation_24h_pct": -6.46,
-   "volume_24h_eur": 188903.41,
-   "spread_pct": 0.1645,
+   "variation_24h_pct": -6.77,
+   "volume_24h_eur": 187994.87,
+   "spread_pct": 0.0825,
    "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "ENA",
-   "pair": "ENAEUR",
-   "action": false,
-   "variation_24h_pct": -5.99,
-   "volume_24h_eur": 397983.13,
-   "spread_pct": 0.1044,
-   "tendance": false,
    "impulsion": null
   },
   {
    "sym": "ANT",
    "pair": "ANTxUSD",
    "action": true,
-   "variation_24h_pct": -4.39,
-   "volume_24h_eur": 10658672.55,
-   "spread_pct": 0.2936,
+   "variation_24h_pct": -4.92,
+   "volume_24h_eur": 10684476.3,
+   "spread_pct": 0.464,
    "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "MEGA",
-   "pair": "MEGAEUR",
-   "action": false,
-   "variation_24h_pct": 6.36,
-   "volume_24h_eur": 53759.77,
-   "spread_pct": 0.1472,
-   "tendance": false,
    "impulsion": null
   }
  ],
