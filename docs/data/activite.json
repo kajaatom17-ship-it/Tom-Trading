@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-16T02:27:00Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "MSTR +1.54 % en 15 min"
- },
- {
-  "t": "2026-11-16T02:28:03Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 1 signal(aux) : GOOGL long (TPB-1, 45)"
- },
- {
   "t": "2026-11-16T02:57:49Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2947,5 +2935,17 @@
    "lien": "https://www.investing.com/news/stock-market-news/lumentums-sales-surged-137so-why-is-its-stock-crashing-5038995",
    "actifs": []
   }
+ },
+ {
+  "t": "2026-11-19T20:10:09Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AMD, ANT, BABA, CAPR, DOW, FIG, GME, INSM, IREN, KLAR, NBIS, NVDA"
+ },
+ {
+  "t": "2026-11-19T20:10:15Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "617 actifs hors univers analysés, 13 en mouvement : BILL +18.9 %, PROS -17.8 %, TRUST +14.2 %."
  }
 ]

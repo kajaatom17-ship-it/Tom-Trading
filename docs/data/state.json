@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:07:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56677.2,
+   "dernier_prix": 56642.4,
    "atr": 598.5359,
    "rollover": 0.3233295849045769,
    "rollover_periodes": 18
@@ -44,10 +44,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-19T20:08:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.472e-06,
+   "dernier_prix": 3.476e-06,
    "atr": 3.5634e-08,
    "rollover": 0.17740918490983953,
    "rollover_periodes": 18
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:08:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 548.4138484111144,
+   "dernier_prix": 548.4088506543213,
    "atr": 2.771652
   },
   {
@@ -90,10 +90,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:08:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 100.23603175037135,
+   "dernier_prix": 100.49028542266612,
    "atr": 1.08547
   },
   {
@@ -112,10 +112,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:08:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 588.6941702891617,
+   "dernier_prix": 588.8710676921954,
    "atr": 3.304099
   }
  ],
@@ -133,7 +133,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-19T20:08:05Z",
+ "maj": "2026-11-19T20:10:15Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -145,7 +145,7 @@
   "2026-11-19": 483.52
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-19T20:04:08Z",
+ "chasseur_t": "2026-11-19T20:10:08Z",
  "tendance": [
   "WASTED",
   "LUCIA",
@@ -165,20 +165,15 @@
  ],
  "tendance_t": "2026-11-19T19:37:52Z",
  "buzz": {
-  "ETH": {
-   "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 2.0
-  },
   "AMD": {
    "source": "Reddit + StockTwits",
-   "mentions": 490,
+   "mentions": 493,
    "x_vs_hier": 2.8
   },
   "VOO": {
    "source": "Reddit",
-   "mentions": 87,
-   "x_vs_hier": 2.0
+   "mentions": 89,
+   "x_vs_hier": 2.1
   },
   "PANW": {
    "source": "Reddit",
@@ -188,12 +183,12 @@
   "GME": {
    "source": "Reddit + StockTwits",
    "mentions": 49,
-   "x_vs_hier": 2.5
+   "x_vs_hier": 2.2
   },
   "DOW": {
    "source": "Reddit",
    "mentions": 44,
-   "x_vs_hier": 2.9
+   "x_vs_hier": 2.8
   },
   "ANT": {
    "source": "StockTwits",
@@ -225,22 +220,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "KLAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SPY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "INSM": {
+  "QQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -250,18 +230,33 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "QQQ": {
+  "KLAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SRPT": {
+  "INSM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "FIG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SMH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-19T19:53:04Z",
+ "buzz_t": "2026-11-19T20:10:09Z",
  "sources_t": "2026-11-19T19:58:09Z",
  "actus_tendance": [
   {
