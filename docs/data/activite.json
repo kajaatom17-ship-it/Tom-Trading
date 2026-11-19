@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-16T07:00:04Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
   "t": "2026-11-16T07:26:42Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -2977,5 +2971,11 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "615 actifs hors univers analysés, 19 en mouvement : ICNT +23.9 %, PROS -20.5 %, FHE +16.7 %."
+ },
+ {
+  "t": "2026-11-19T22:03:45Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 10 signal(aux) : INTC short (SWG-1, 80), SOL short (SWG-1, 80), HYPE short (SWG-1, 80)"
  }
 ]
