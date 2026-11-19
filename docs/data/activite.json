@@ -1,77 +1,5 @@
 [
  {
-  "t": "2026-11-15T21:57:08Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] Mantle Proposes 30K $ETH Loan to Aave After $292M Kelp Exploit - CoinMarketCap (CoinMarketCap)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWWxvR19BNV90YmhMeVFUbDJpb0pUMFp3T2pVVmF3T0dqM1JseTVzRnl5N25sdkdfNzZaUzlETjM4ZFdGam9DYnNHNFNRYzZuWXJLeS1WRjYyMVk0U3NjQVFjZDZuaUd6TFVhbVRnNDE1bmdWZFF6X2Q2djg2YUlyNHZXR1lGUGJ0ai1QYkU2bThaOWo2OGRKUmFwbDBXYloyWGp1ODJtakxGWllmdlB0dkpHR0k?oc=5",
-   "actifs": [
-    "ETH"
-   ]
-  }
- },
- {
-  "t": "2026-11-15T21:57:08Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ASTER -16.67 % en 1 h"
- },
- {
-  "t": "2026-11-15T21:58:09Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 2 signal(aux) : OP short (TPB-1, 30), RENDER short (TPB-1, 30)"
- },
- {
-  "t": "2026-11-15T22:28:31Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde le short TAO et on n'ouvre rien : le quota du jour est atteint et aucun candidat n'est assez rentable après frais."
- },
- {
-  "t": "2026-11-15T22:28:38Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MACCA, GATO, DACITYCOIN, ASTER, IMD, BTC, HYPE, ZEC"
- },
- {
-  "t": "2026-11-15T22:28:38Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ANT, BAC, DCTH, ETN, GDX, HELP, IBIT, LHX, MSTR, NVDA, SCHW, SMMT"
- },
- {
-  "t": "2026-11-15T22:28:43Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "457 actifs hors univers analysés, 15 en mouvement : RARE +51.7 %, DRV +26.5 %, VVV +16.5 %."
- },
- {
-  "t": "2026-11-15T22:28:46Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[liquidations, chute] Bitcoin's Weekend Plunge Wipes $130 Billion Off Crypto Market Cap; $1.7 Billion in Forced Liquidations - BigGo Finance (BigGo Finance)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9oTzFvZGd0UDFiSHF3d0h3WUVsdFRHRGpuN29HV2FPR0c1dS1DazhGUFNTdnBXZ0hHX2gyX0NMZjNHbmlITDFwYXpJcUxFOTRUcmJMNFVMZ0NubHQ4aUpFcEJPaFFSTjRwUGtUT3BUZFQtWFV5N1E?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-15T22:28:46Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[ETF, liquidations, hausse] Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - Grayscale Bitcoin - Benzinga (Benzinga)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWmpmdzZMN1o3OW9LZHBmRkpHV0FtaFNMVXRjMzAyd1RWcGUxR3VmT0xSZ0tPS1FaX1JnS2FBdmlLRXBtdG9ESUFlQTF0Ykt5WFFGc3J6WlpnbURQemlIV1VJclh0eWNJQWhhVm1ubW1SZW9RS1V6VDBKT0YxajliUy1SX0ZFbFg0dldmVEZsM3J2QjRMbUFLWUN6VDhEQ29jNmhrQnJaelpzOW96N0F0R3FWS1N3d1JtS3RvMjgxUEIyQTB5aXZjdjJn?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
   "t": "2026-11-15T22:28:46Z",
   "agent": "Veille",
   "type": "actu",
@@ -2883,5 +2811,77 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "612 actifs hors univers analysés, 2 en mouvement : ICNT +21.6 %, SNDK -6.3 %."
+ },
+ {
+  "t": "2026-11-19T07:45:27Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "GOOGL short fermé (stop-loss) à 262.7957 : -2.31 € net",
+  "data": {
+   "id": "P0021"
+  }
+ },
+ {
+  "t": "2026-11-19T07:45:27Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PEARL, BTC, PENGU, VVV, IRYS, LUNC, SOL, EVAA"
+ },
+ {
+  "t": "2026-11-19T07:45:28Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AMZN, BABA, BTC, CAPR, DIS, EBS, INTU, IREN, MU, NBIS, PANW, SLS"
+ },
+ {
+  "t": "2026-11-19T07:45:33Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "611 actifs hors univers analysés, 10 en mouvement : PROS -19.2 %, SENT +13.8 %, KNTQ +11.7 %."
+ },
+ {
+  "t": "2026-11-19T07:45:34Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Unchained : Why the First Tokenized Stock Venue Under the SEC's Exemption Launched With One Stock",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=NN9b8tMNty0"
+  }
+ },
+ {
+  "t": "2026-11-19T07:45:34Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Unchained : Privacy Coins Have a Double-Spend Problem. Formal Verification Could Fix It",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=6EaH88jtsms"
+  }
+ },
+ {
+  "t": "2026-11-19T07:45:34Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Is SpaceX About to Become the Biggest Player in AI Compute?",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=MeNPZ0vYg_E"
+  }
+ },
+ {
+  "t": "2026-11-19T07:46:24Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Ethereum block builders received the most in a $3.4 million vault hack, data shows (CoinDesk)",
+  "data": {
+   "lien": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-19T07:48:27Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : DOT short (SWG-1, 70)"
  }
 ]

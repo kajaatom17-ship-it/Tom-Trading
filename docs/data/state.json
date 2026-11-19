@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 245.8919118535003,
+ "cash": 339.96266271630896,
  "positions": [
   {
    "id": "P0016",
@@ -20,13 +20,13 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-19T00:29:00Z",
+   "verifie_jusqu_a": "2026-11-19T07:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 57293.9,
+   "dernier_prix": 57924.5,
    "atr": 598.5359,
-   "rollover": 0.2335158113199722,
-   "rollover_periodes": 13
+   "rollover": 0.2694413207538141,
+   "rollover_periodes": 15
   },
   {
    "id": "P0017",
@@ -44,41 +44,17 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-19T00:29:00Z",
+   "verifie_jusqu_a": "2026-11-19T07:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.46e-06,
+   "dernier_prix": 3.499e-06,
    "atr": 3.5634e-08,
-   "rollover": 0.12812885576821745,
-   "rollover_periodes": 13
-  },
-  {
-   "id": "P0021",
-   "sym": "GOOGL",
-   "pair": "GOOGLxUSD",
-   "side": "short",
-   "strategie": "SWG-1",
-   "qty": 0.374464764928124,
-   "entry": 257.1842,
-   "notionnel": 96.30642188056943,
-   "frais_entree": 0.07704513750445555,
-   "stop": 262.3205,
-   "stop_initial": 262.3205,
-   "tp": 241.7464,
-   "risque_eur": 2.0789914527576343,
-   "rr_net": 2.47,
-   "ouvert_le": "2026-11-18T09:18:14Z",
-   "verifie_jusqu_a": "2026-11-19T00:29:00Z",
-   "duree_max_h": 192.0,
-   "decision_id": "S-20261118-091814-GOOGL",
-   "dernier_prix": 260.5222846305347,
-   "atr": 1.264373,
-   "rollover": 0.05778385312834166,
-   "rollover_periodes": 3
+   "rollover": 0.1478409874248663,
+   "rollover_periodes": 15
   }
  ],
- "frais_cumules": 11.852370751516005,
- "pnl_realise": -17.09833706017268,
+ "frais_cumules": 11.986734575158772,
+ "pnl_realise": -19.413199427475774,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -90,7 +66,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-19T00:29:29Z",
+ "maj": "2026-11-19T07:45:34Z",
  "seq": 21,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -102,92 +78,77 @@
   "2026-11-19": 483.52
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-19T00:29:28Z",
+ "chasseur_t": "2026-11-19T07:45:27Z",
  "tendance": [
-  "BP",
-  "PENGU",
   "PEARL",
-  "HYPE",
-  "NEAR",
-  "MON",
-  "ZEC",
   "BTC",
+  "PENGU",
+  "VVV",
+  "IRYS",
+  "LUNC",
   "SOL",
-  "QTC",
-  "ONDO",
-  "XRP",
-  "TAO",
-  "PIEVERSE",
-  "KAS"
+  "EVAA",
+  "HBAR",
+  "STRK",
+  "PONS",
+  "REQ",
+  "ICP",
+  "MON",
+  "HYPE"
  ],
- "tendance_t": "2026-11-19T00:24:37Z",
+ "tendance_t": "2026-11-19T07:45:27Z",
  "buzz": {
+  "BTC": {
+   "source": "Reddit",
+   "mentions": 154,
+   "x_vs_hier": 2.1
+  },
   "AMZN": {
    "source": "Reddit",
-   "mentions": 70,
-   "x_vs_hier": 7.8
+   "mentions": 76,
+   "x_vs_hier": 5.8
   },
   "PANW": {
-   "source": "Reddit + StockTwits",
-   "mentions": 58,
-   "x_vs_hier": 58.0
-  },
-  "UNH": {
-   "source": "Reddit + StockTwits",
-   "mentions": 51,
-   "x_vs_hier": 8.5
+   "source": "Reddit",
+   "mentions": 64,
+   "x_vs_hier": 32.0
   },
   "TTWO": {
+   "source": "Reddit + StockTwits",
+   "mentions": 57,
+   "x_vs_hier": 2.4
+  },
+  "UNH": {
+   "source": "Reddit",
+   "mentions": 53,
+   "x_vs_hier": 13.2
+  },
+  "SLS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CADL": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SLV": {
+  "MU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVGO": {
+  "IREN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DXYZ": {
+  "EBS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRWD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QQQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "P": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TGT": {
+  "NBIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -197,81 +158,113 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
+  "SRPT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SPY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SNAP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VTI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DIS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BABA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "INTU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-19T00:24:38Z",
- "sources_t": "2026-11-19T00:24:39Z",
+ "buzz_t": "2026-11-19T07:45:28Z",
+ "sources_t": "2026-11-19T07:45:33Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
-   "sentiment": "bearish",
+   "mentions": 5,
+   "sentiment": "neutral",
    "titres": [
-    "BTC Has More Room to Fall Towards $59K",
-    "The uptrend is still intact..."
+    "BTC May test 57k soon",
+    "BTC AIMS ON 52.5K AREA"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Anthropic IPO could see 28% opening surge, Entropy CEO says",
-    "OpenAI’s GPT-6.2 Astra takes #3 and GPT-6.2 Sol lands #7 on Code Arena WebDev leaderboard"
+    "China's First Fully AI-Generated Feature Film Flops At Box Office Despite Multimillion-Yuan Budget",
+    "Bitrue Adds Balanced and Aggressive Grid Strategies to Bitrue AI"
    ]
   },
   {
-   "sujet": "Memecoins",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Lucky Trader Banks 66,000% Profit on GTA 6 Meme Coin Ticker Confusion",
-    "Pepe Meme Coin Likely to Provide Another Selling Opportunity as Bids Thin to $694K"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin Price Slides Near $62K as Citi Slashes 12-Month Target by 12%",
-    "BlackRock's bitcoin fund holds $2.25B of November's $2.58B ETF exit"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
+   "sujet": "XRP",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.318579292 | 🚶 0.31861068 | 🚀 0.390736965 Gwei"
+    "XRPUSDT – BEAR FLAG PATTERN SPOTTED",
+    "Crypto Price Analysis, BTC, XRP, VVV, LIT and HYPE, Nov. 19: Bitcoin Stops $30 Above Its Weekend Low as XRP Gives Up $1"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
+   "mentions": 2,
+   "sentiment": "bearish",
    "titres": [
-    "OpenAI’s GPT-6.2 Astra takes #3 and GPT-6.2 Sol lands #7 on Code Arena WebDev leaderboard"
+    "CoinShares Turns Ether and Solana Holdings Into Cash for Share Buyback Plan",
+    "SOLUSDT – Textbook Bear Flag, Another Drop Ahead?"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Abu Dhabi Court Orders 18 Firms to Keep Stolen Binance Tokens Frozen",
+    "BITCOIN - A relief bounce before the next leg lower"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Invesco launches IROXX stablecoin reserve fund two months before GENIUS Act rules"
+    "XRPUSDT – BEAR FLAG PATTERN SPOTTED",
+    "Aave App taps $91B Tron liquidity as it opens Android early access"
    ]
   },
   {
-   "sujet": "Chainlink",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Chainlink bets equities and commodities will pull more users to Polymarket"
+    "Abu Dhabi Court Orders 18 Firms to Keep Stolen Binance Tokens Frozen"
+   ]
+  },
+  {
+   "sujet": "Layer 2",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Aave App taps $91B Tron liquidity as it opens Android early access"
    ]
   }
  ],
