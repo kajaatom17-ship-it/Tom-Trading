@@ -14327,5 +14327,101 @@
   },
   "cree_le": "2026-11-18T09:18:14Z",
   "traite_le": "2026-11-18T09:18:14Z"
+ },
+ {
+  "id": "S-20261119-165241-META",
+  "action": "open",
+  "sym": "META",
+  "side": "short",
+  "strategie": "SWG-1",
+  "entry_ref": 561.7372,
+  "atr": 2.771652,
+  "stop": 582.8012,
+  "tp": 498.5452,
+  "duree_max_h": 192,
+  "risque_pct_override": 1.0,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."
+   }
+  },
+  "synthese": "Entrée automatique SWG-1 sur META (vente à découvert) : Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute. RR net 2.69. Position prévue pour durer plusieurs jours.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0022",
+   "prix": 562.2765,
+   "risque_eur": 3.67
+  },
+  "cree_le": "2026-11-19T16:52:41Z",
+  "traite_le": "2026-11-19T16:52:41Z"
+ },
+ {
+  "id": "S-20261119-165241-COIN",
+  "action": "open",
+  "sym": "COIN",
+  "side": "short",
+  "strategie": "SWG-1",
+  "entry_ref": 102.37,
+  "atr": 1.08547,
+  "stop": 108.6869,
+  "tp": 83.41935,
+  "duree_max_h": 192,
+  "risque_pct_override": 1.0,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."
+   }
+  },
+  "synthese": "Entrée automatique SWG-1 sur COIN (vente à découvert) : Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute. RR net 2.81. Position prévue pour durer plusieurs jours.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0023",
+   "prix": 102.4041,
+   "risque_eur": 4.81
+  },
+  "cree_le": "2026-11-19T16:52:41Z",
+  "traite_le": "2026-11-19T16:52:41Z"
+ },
+ {
+  "id": "S-20261119-165241-QQQ",
+  "action": "open",
+  "sym": "QQQ",
+  "side": "short",
+  "strategie": "SWG-1",
+  "entry_ref": 602.1879,
+  "atr": 3.304099,
+  "stop": 629.3644,
+  "tp": 520.6585,
+  "duree_max_h": 192,
+  "risque_pct_override": 1.0,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."
+   }
+  },
+  "synthese": "Entrée automatique SWG-1 sur QQQ (vente à découvert) : Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute. RR net 2.74. Position prévue pour durer plusieurs jours.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0024",
+   "prix": 602.8141,
+   "risque_eur": 4.39
+  },
+  "cree_le": "2026-11-19T16:52:41Z",
+  "traite_le": "2026-11-19T16:52:41Z"
  }
 ]
