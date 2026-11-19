@@ -1,35 +1,5 @@
 [
  {
-  "t": "2026-11-16T04:29:57Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 16 signal(aux) : LTC short (TPB-1, 40), LINK short (TPB-1, 40), AVAX short (TPB-1, 40)"
- },
- {
-  "t": "2026-11-16T04:57:55Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde la position TAO et on n'entre sur rien : aucun trade n'offre un gain assez large par rapport au risque ce matin."
- },
- {
-  "t": "2026-11-16T04:58:01Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PENGU, ZEC, VVV, AKE, PI, TAO, SKR, ASTER"
- },
- {
-  "t": "2026-11-16T04:58:02Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AG, ANT, AVGO, DXYZ, EURUSD, GLD, HELP, NRG, NVDA, OCUL, PANW, SENS"
- },
- {
-  "t": "2026-11-16T04:58:06Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "610 actifs hors univers analysés, 5 en mouvement : NIGHT -5.8 %, DRV -6.2 %, SKHY -5.4 %."
- },
- {
   "t": "2026-11-16T04:58:26Z",
   "agent": "Veille",
   "type": "actu",
@@ -2976,5 +2946,52 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "617 actifs hors univers analysés, 19 en mouvement : ICNT +26.0 %, RARE +25.2 %, PROS -18.4 %. Ajoutés : RARE."
+ },
+ {
+  "t": "2026-11-19T20:58:03Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "616 actifs hors univers analysés, 17 en mouvement : ICNT +26.0 %, PROS -19.0 %, FHE +15.3 %."
+ },
+ {
+  "t": "2026-11-19T20:58:04Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Deirdre Bosa Live (4:00–5:00 p.m. ET)",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=_rEGIdZOXEQ"
+  }
+ },
+ {
+  "t": "2026-11-19T20:58:04Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Who are Dario and Daniela Amodei?  The sibling duo that’s the CEO and president of Anthropic.",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=pAZtEvs_7jU"
+  }
+ },
+ {
+  "t": "2026-11-19T20:58:08Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, banque centrale] Fed’s Goolsbee says AI surge could strain US capacity, overheat economy (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/economy-news/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-5039887",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-19T20:58:08Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Wallet Allegedly Tied to Binance Hack Moves Nearly $250M in ETH - Bitcoin Foundation (Bitcoin Foundation)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTG1lb1pyTU9vV3Y1QzA5a3hMSXZvUmViRHJJUGhHLVBFS3h3emhsVkplYlhfSWd3Q2laOTluWmtPZXFWZTZOX1FVaUo3RjB3elVQVGlGVjBtQnFGbERyUmhTd1NiY0lFQXhiYmRycGM4VktnWFZnNUFDY2ZkbmJndDdicFk5ZVNyWHRicWJfbFBxV2xFWkE4YkZnb2dGNVNBSmtRWlJTY0w3RXc?oc=5",
+   "actifs": [
+    "BTC",
+    "ETH"
+   ]
+  }
  }
 ]
