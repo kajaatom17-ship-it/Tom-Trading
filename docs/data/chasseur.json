@@ -1,7 +1,7 @@
 {
- "t": "2026-11-19T20:46:07Z",
+ "t": "2026-11-19T20:52:07Z",
  "nb_analyses": 617,
- "nb_en_mouvement": 16,
+ "nb_en_mouvement": 19,
  "tendance": [
   "AGI",
   "AMD",
@@ -136,12 +136,36 @@
  },
  "candidats": [
   {
+   "sym": "ICNT",
+   "pair": "ICNTEUR",
+   "action": false,
+   "variation_24h_pct": 26.04,
+   "volume_24h_eur": 102227.68,
+   "spread_pct": 0.34,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "RARE",
+   "pair": "RAREEUR",
+   "action": false,
+   "variation_24h_pct": 25.17,
+   "volume_24h_eur": 45657.9,
+   "spread_pct": 0.2347,
+   "tendance": false,
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -7.99,
+    "volume_x": 4.2
+   }
+  },
+  {
    "sym": "PROS",
    "pair": "PROSEUR",
    "action": false,
    "variation_24h_pct": -18.38,
-   "volume_24h_eur": 89632.48,
-   "spread_pct": 0.277,
+   "volume_24h_eur": 89582.33,
+   "spread_pct": 0.1385,
    "tendance": false,
    "impulsion": null
   },
@@ -149,9 +173,9 @@
    "sym": "BILL",
    "pair": "BILLEUR",
    "action": false,
-   "variation_24h_pct": 15.32,
-   "volume_24h_eur": 89126.45,
-   "spread_pct": 0.4831,
+   "variation_24h_pct": 15.6,
+   "volume_24h_eur": 89744.42,
+   "spread_pct": 0.241,
    "tendance": false,
    "impulsion": null
   },
@@ -159,9 +183,9 @@
    "sym": "FHE",
    "pair": "FHEEUR",
    "action": false,
-   "variation_24h_pct": 14.77,
-   "volume_24h_eur": 60594.57,
-   "spread_pct": 0.298,
+   "variation_24h_pct": 15.32,
+   "volume_24h_eur": 60700.77,
+   "spread_pct": 0.3559,
    "tendance": false,
    "impulsion": null
   },
@@ -169,52 +193,34 @@
    "sym": "TRUST",
    "pair": "TRUSTEUR",
    "action": false,
-   "variation_24h_pct": 14.46,
-   "volume_24h_eur": 72419.77,
-   "spread_pct": 0.1346,
+   "variation_24h_pct": 14.51,
+   "volume_24h_eur": 72697.25,
+   "spread_pct": 0.2692,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "MON",
-   "pair": "MONEUR",
-   "action": false,
-   "variation_24h_pct": -6.23,
-   "volume_24h_eur": 185344.93,
-   "spread_pct": 0.1641,
+   "sym": "IREN",
+   "pair": "IRENxUSD",
+   "action": true,
+   "variation_24h_pct": -8.18,
+   "volume_24h_eur": 88783.03,
+   "spread_pct": 0.4762,
    "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "AKT",
-   "pair": "AKTEUR",
-   "action": false,
-   "variation_24h_pct": 6.18,
-   "volume_24h_eur": 87834.76,
-   "spread_pct": 0.1396,
-   "tendance": false,
    "impulsion": null
   },
   {
    "sym": "ENA",
    "pair": "ENAEUR",
    "action": false,
-   "variation_24h_pct": -5.4,
-   "volume_24h_eur": 395142.22,
-   "spread_pct": 0.1037,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "MEGA",
-   "pair": "MEGAEUR",
-   "action": false,
-   "variation_24h_pct": 6.32,
-   "volume_24h_eur": 53717.71,
-   "spread_pct": 0.2577,
+   "variation_24h_pct": -5.69,
+   "volume_24h_eur": 395154.19,
+   "spread_pct": 0.2081,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "RARE"
+ ]
 }
