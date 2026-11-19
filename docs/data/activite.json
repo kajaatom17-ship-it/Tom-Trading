@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-16T10:33:55Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 7 signal(aux) : CRCL short (BRK-1, 75), HOOD short (BRK-1, 66), MSFT long (BRK-1, 55)"
- },
- {
-  "t": "2026-11-16T10:57:55Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde notre short TAO et on n'ouvre rien de nouveau : la bourse américaine est fermée et le signal CRCL n'est pas assez fiable hors séance."
- },
- {
   "t": "2026-11-16T10:58:02Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -3001,5 +2989,21 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "615 actifs hors univers analysés, 18 en mouvement : ICNT +27.0 %, PROS -20.6 %, FHE +17.4 %."
+ },
+ {
+  "t": "2026-11-19T23:53:33Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "615 actifs hors univers analysés, 17 en mouvement : ICNT +27.0 %, PROS -20.6 %, FHE +17.4 %."
+ },
+ {
+  "t": "2026-11-19T23:53:37Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[banque centrale, résultats] Fed’s Paulson says understanding, not guidance, drives effective communication (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/economy-news/feds-paulson-says-understanding-not-guidance-drives-effective-communication-5040341",
+   "actifs": []
+  }
  }
 ]
