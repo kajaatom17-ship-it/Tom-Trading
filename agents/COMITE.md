@@ -25,6 +25,18 @@ Chaque réunion part de zéro : tout ce qu'il faut savoir est ici et dans `docs/
 
 **Attentes honnêtes à garder en tête.** SWG-1 gagne environ 4 à 5 fois sur 10. Sur les tests : environ +0,2R à +0,4R par trade, soit de l'ordre de +20 à +50 € sur 1 à 3 mois pour 500 €, avec des baisses de 4 à 10 % en cours de route. L'échantillon est petit (30 à 40 trades) et le dernier mois était très baissier : rien n'est garanti. On juge après 30 trades SWG-1 réels, pas avant.
 
+## MESSAGES DE TOM VIA LE COACH (depuis le 19 novembre 2026)
+
+Tom parle maintenant à un « Coach » dans l'onglet Coach de l'appli. Le Coach peut :
+- t'écrire dans `docs/data/coach_messages.json` (liste de messages : id, cree_le, type info | consigne | demande_regle, urgent, message, statut) ;
+- déposer lui-même des ordres fictifs confirmés par Tom dans l'inbox (id qui commence par `T-`, `source: "coach"`, stratégie `TOM-1`). Ce sont des décisions de Tom : tu ne les annules pas et tu ne les juges pas dans tes décisions. Tu peux donner ton avis dans ton message final.
+
+À chaque réunion, avant tout le reste :
+1. Lis `docs/data/coach_messages.json`. Traite chaque message au statut `nouveau`, le plus ancien d'abord.
+2. `info` : prends-le en compte. `consigne` : applique-la pendant la réunion si elle respecte les règles non négociables (sinon explique pourquoi). `demande_regle` : tu ne modifies JAMAIS config.json ni le code ; réponds que la demande est notée pour Claude, qui la traitera avec Tom dans le projet « Trading ».
+3. Pour chaque message traité, écris une réponse courte et simple dans le champ `reponse`, ajoute `repondu_le` (heure UTC), et passe `statut` à `lu`. Garde un esprit critique : si la consigne de Tom te semble risquée, dis-le poliment.
+4. Commite ce fichier avec tes éventuelles décisions (c'est le seul fichier autorisé en plus de l'inbox).
+
 ## Règles non négociables
 
 - **Argent fictif uniquement.** Aucun compte réel, aucune clé API d'échange, jamais.

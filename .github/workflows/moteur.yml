@@ -1,11 +1,14 @@
 name: Moteur paper trading
 
+# GitHub ne lance les taches planifiees que quelques fois par jour quand il est charge.
+# Chaque execution tourne donc pendant pres de 6 heures, avec un passage par minute.
+# Une nouvelle execution attend la fin de la precedente (concurrency), il n'y a jamais de trou long.
 on:
   schedule:
-    - cron: "*/5 * * * *"        # toutes les 5 min (GitHub peut retarder de quelques minutes)
+    - cron: "17 * * * *"
   push:
     paths:
-      - "docs/data/inbox/**"     # une decision du comite declenche une execution immediate
+      - "docs/data/inbox/**"     # une decision du comite relance le moteur s'il etait arrete
   workflow_dispatch: {}
 
 concurrency:
@@ -18,22 +21,34 @@ permissions:
 jobs:
   tick:
     runs-on: ubuntu-latest
-    timeout-minutes: 9
+    timeout-minutes: 358
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Moteur en boucle (un passage par minute pendant ~4 min, aucun ordre reel)
+      - name: Moteur en boucle (un passage par minute pendant ~5 h 45, aucun ordre reel)
         run: |
           git config user.name "moteur-paper"
           git config user.email "moteur-paper@users.noreply.github.com"
-          for i in 1 2 3 4; do
-            if [ "$i" = "1" ]; then python engine/tick.py; else python engine/tick.py --no-scan; fi
+          sync() { git pull --rebase --autostash -q -X theirs || { git rebase --abort 2>/dev/null; git reset -q --hard origin/main; }; }
+          start=$(date +%s); i=0; last_push=0
+          while [ $(( $(date +%s) - start )) -lt 20700 ]; do
+            i=$((i+1))
+            sync
+            # scan complet toutes les 5 minutes, surveillance des positions a chaque minute
+            if [ $((i % 5)) = "1" ]; then python engine/tick.py || true; else python engine/tick.py --no-scan || true; fi
             git add docs/data archive
             if ! git diff --cached --quiet; then
               git commit -m "tick $(date -u +%H:%M)Z" -q
-              for j in 1 2 3; do git push -q && break; git pull --rebase --autostash -q -X theirs || { git rebase --abort 2>/dev/null; git reset -q --hard origin/main 2>/dev/null; } ; done
+              now=$(date +%s)
+              # publication toutes les 6 minutes (limite GitHub Pages d'environ 10 par heure),
+              # ou tout de suite si un trade s'ouvre ou se ferme
+              if [ $((now - last_push)) -ge 360 ] || git diff --name-only HEAD~1 HEAD | grep -q "trades.json\|decisions.json"; then
+                for j in 1 2 3; do git push -q && break; sync; done
+                last_push=$(date +%s)
+              fi
             fi
-            [ "$i" = "4" ] || sleep 45
+            sleep 50
           done
+          for j in 1 2 3; do git push -q && break; sync; done
