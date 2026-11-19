@@ -1,7 +1,7 @@
 {
- "t": "2026-11-19T00:24:39Z",
+ "t": "2026-11-19T00:29:29Z",
  "nb_analyses": 612,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AMZN",
   "AVGO",
@@ -119,12 +119,22 @@
  },
  "candidats": [
   {
+   "sym": "ICNT",
+   "pair": "ICNTEUR",
+   "action": false,
+   "variation_24h_pct": 21.65,
+   "volume_24h_eur": 66631.9,
+   "spread_pct": 0.3665,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "SNDK",
    "pair": "SNDKxUSD",
    "action": true,
    "variation_24h_pct": -6.32,
-   "volume_24h_eur": 362811.88,
-   "spread_pct": 0.0524,
+   "volume_24h_eur": 362825.11,
+   "spread_pct": 0.0332,
    "tendance": true,
    "impulsion": null
   }
