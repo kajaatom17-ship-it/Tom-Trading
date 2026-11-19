@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-19T22:37:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:38:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56735.4,
+   "dernier_prix": 56702.8,
    "atr": 598.5359,
    "rollover": 0.34129233962149785,
    "rollover_periodes": 19
@@ -44,10 +44,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-19T22:37:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:38:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.444e-06,
+   "dernier_prix": 3.457e-06,
    "atr": 3.5634e-08,
    "rollover": 0.17740918490983953,
    "rollover_periodes": 18
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T22:37:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:38:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 537.9149945275446,
+   "dernier_prix": 538.3717324285376,
    "atr": 2.771652,
    "rollover": 0.019255693408429825,
    "rollover_periodes": 1
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T22:37:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:38:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 99.17001094491062,
+   "dernier_prix": 99.17181998941975,
    "atr": 1.08547,
    "rollover": 0.015273321303777834,
    "rollover_periodes": 1
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T22:37:00Z",
+   "verifie_jusqu_a": "2026-11-19T22:38:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 587.7508208682962,
+   "dernier_prix": 587.7615425308743,
    "atr": 3.304099,
    "rollover": 0.01923612679919796,
    "rollover_periodes": 1
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-19T22:37:41Z",
+ "maj": "2026-11-19T22:38:41Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -288,20 +288,47 @@
   }
  },
  "buzz_t": "2026-11-19T22:34:38Z",
- "sources_t": "2026-11-19T22:18:45Z",
+ "sources_t": "2026-11-19T22:38:38Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 7,
-   "sentiment": "bearish",
+   "mentions": 8,
+   "sentiment": "neutral",
    "titres": [
-    "CoreWeave tumbles about 76% from record high as tech selloff deepens",
-    "Anthropic’s record IPO turns thousands of early employees into millionaires"
+    "Menlo Ventures’ Matt Murphy on Anthropic’s record IPO and ‘selling intelligence’",
+    "Broadcom expects $115 billion in AI chip revenue by fiscal 2027"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 3,
+   "sentiment": "bullish",
+   "titres": [
+    "VanEck to end Gemini custody and clearing agreements for Solana ETF",
+    "Solana co-founder Toly calls Pump.fun’s bonding curve nearly optimal"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion",
+    "Babylon Weighs End to Bitcoin Staking—What Happens to $2.6B in BTC?"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin slides toward $60,000 as spot ETF outflows near $3 billion",
+    "VanEck to end Gemini custody and clearing agreements for Solana ETF"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
     "Nvidia shares sit about 37% below their peak after record quarter under an interim CEO",
@@ -309,11 +336,27 @@
    ]
   },
   {
-   "sujet": "Coinbase",
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase Entered Prediction Markets With Kalshi. Now It Plans to Become a Rival"
+    "⛽ ETH Gas: 🐢 0.290309687 | 🚶 0.319340655 | 🚀 0.35127472 Gwei"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance’s $6.5B freeze order, Hong Kong ‘suspicious’ of HYPE: Asia Express"
    ]
   }
  ],
