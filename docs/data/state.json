@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-19T21:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T21:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56114.4,
+   "dernier_prix": 56096.4,
    "atr": 598.5359,
    "rollover": 0.34129233962149785,
    "rollover_periodes": 19
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-19T21:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T21:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.425e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T21:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T21:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 536.4968164486527,
+   "dernier_prix": 539.0741163055873,
    "atr": 2.771652,
    "rollover": 0.019255693408429825,
    "rollover_periodes": 1
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T21:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T21:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.4711655994016,
+   "dernier_prix": 98.52679589509692,
    "atr": 1.08547,
    "rollover": 0.015273321303777834,
    "rollover_periodes": 1
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T21:56:00Z",
+   "verifie_jusqu_a": "2026-11-19T21:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 585.627497126594,
+   "dernier_prix": 585.6328392246295,
    "atr": 3.304099,
    "rollover": 0.01923612679919796,
    "rollover_periodes": 1
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-19T21:56:38Z",
+ "maj": "2026-11-19T21:58:52Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -151,7 +151,7 @@
   "2026-11-19": 483.52
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-19T21:52:38Z",
+ "chasseur_t": "2026-11-19T21:58:37Z",
  "tendance": [
   "WASTED",
   "LUCIA",
@@ -173,28 +173,28 @@
  "buzz": {
   "AMD": {
    "source": "Reddit",
-   "mentions": 493,
+   "mentions": 494,
    "x_vs_hier": 2.6
   },
-  "VOO": {
+  "GOOG": {
    "source": "Reddit",
-   "mentions": 94,
+   "mentions": 126,
    "x_vs_hier": 2.0
   },
   "GME": {
    "source": "Reddit + StockTwits",
-   "mentions": 55,
-   "x_vs_hier": 2.1
+   "mentions": 59,
+   "x_vs_hier": 2.3
   },
   "DOW": {
    "source": "Reddit",
-   "mentions": 46,
-   "x_vs_hier": 3.3
+   "mentions": 47,
+   "x_vs_hier": 3.1
   },
   "ALL": {
    "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 2.2
+   "mentions": 34,
+   "x_vs_hier": 2.4
   },
   "AGI": {
    "source": "Reddit",
@@ -216,22 +216,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "QQQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOFI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "GLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -241,22 +226,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SVRA": {
+  "SOFI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "INSM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "APLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PATH": {
+  "QQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -266,31 +241,92 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "APLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "INSM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PATH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "MU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "COIN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-19T21:40:41Z",
- "sources_t": "2026-11-19T21:38:24Z",
+ "buzz_t": "2026-11-19T21:58:38Z",
+ "sources_t": "2026-11-19T21:58:44Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 8,
-   "sentiment": "bearish",
+   "mentions": 9,
+   "sentiment": "neutral",
    "titres": [
-    "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
-    "Upwork to Present at UBS Global Technology and AI Conference"
+    "California says OpenAI lost control of AI agents 80 times while chasing profits",
+    "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Bitcoin",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today",
+    "BTC | Bearish Momentum Accelerates"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Binance Wallet 全额退还 Anthropic IPO 申购款，并空投约 2957 股配额",
-    "MoonPay seeks US bank charter for stablecoin, custody services"
+    "Hallador Energy wins Indiana regulatory OK for 12-year capacity sale expected to generate $1B",
+    "Here’s what happened in crypto today"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today",
+    "Wallet tied to Rune Christensen owes roughly half of Sky’s stUSDS lending pool"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "A New Recovery Model? Binance Wins $6.5B Freezing Order Across 26K Wallets",
+    "JPMorgan Chase Customer Data Is Exposed in Latest Hack"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "A New Recovery Model? Binance Wins $6.5B Freezing Order Across 26K Wallets",
+    "Binance Wallet 全额退还 Anthropic IPO 申购款，并空投约 2957 股配额"
    ]
   },
   {
@@ -298,39 +334,15 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.380782844 | 🚶 0.380805902 | 🚀 0.380812817 Gwei"
+    "⛽ ETH Gas: 🐢 0.384991238 | 🚶 0.389147715 | 🚀 0.428062486 Gwei"
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "JPMorgan Chase Customer Data Is Exposed in Latest Hack"
-   ]
-  },
-  {
-   "sujet": "Bitcoin",
+   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BTCUSDT Weekly Analysis | Key Support & Next Market Move"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance Wallet 全额退还 Anthropic IPO 申购款，并空投约 2957 股配额"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana reverses from support level $64.50 – eyes $80.00"
+    "Coinbase Entered Prediction Markets With Kalshi. Now It Plans to Become a Rival"
    ]
   }
  ],
