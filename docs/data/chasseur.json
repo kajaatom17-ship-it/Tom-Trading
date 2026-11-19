@@ -1,7 +1,7 @@
 {
- "t": "2026-11-19T19:43:09Z",
+ "t": "2026-11-19T19:48:08Z",
  "nb_analyses": 617,
- "nb_en_mouvement": 14,
+ "nb_en_mouvement": 13,
  "tendance": [
   "AMD",
   "ANT",
@@ -135,7 +135,7 @@
    "pair": "BILLEUR",
    "action": false,
    "variation_24h_pct": 18.66,
-   "volume_24h_eur": 72061.47,
+   "volume_24h_eur": 72558.75,
    "spread_pct": 0.4695,
    "tendance": false,
    "impulsion": null
@@ -145,8 +145,8 @@
    "pair": "PROSEUR",
    "action": false,
    "variation_24h_pct": -17.28,
-   "volume_24h_eur": 103794.2,
-   "spread_pct": 0.2147,
+   "volume_24h_eur": 103593.58,
+   "spread_pct": 0.0976,
    "tendance": false,
    "impulsion": null
   },
@@ -156,7 +156,7 @@
    "action": false,
    "variation_24h_pct": 16.01,
    "volume_24h_eur": 59517.22,
-   "spread_pct": 0.4127,
+   "spread_pct": 0.4717,
    "tendance": false,
    "impulsion": null
   },
@@ -164,9 +164,29 @@
    "sym": "TRUST",
    "pair": "TRUSTEUR",
    "action": false,
-   "variation_24h_pct": 14.27,
-   "volume_24h_eur": 68754.11,
-   "spread_pct": 0.4046,
+   "variation_24h_pct": 12.9,
+   "volume_24h_eur": 70323.49,
+   "spread_pct": 0.351,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "IREN",
+   "pair": "IRENxUSD",
+   "action": true,
+   "variation_24h_pct": -8.18,
+   "volume_24h_eur": 88774.93,
+   "spread_pct": 0.4762,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "AKT",
+   "pair": "AKTEUR",
+   "action": false,
+   "variation_24h_pct": 7.45,
+   "volume_24h_eur": 84812.23,
+   "spread_pct": 0.3547,
    "tendance": false,
    "impulsion": null
   },
@@ -176,27 +196,7 @@
    "action": false,
    "variation_24h_pct": 6.55,
    "volume_24h_eur": 185491.66,
-   "spread_pct": 0.0717,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "PLAY",
-   "pair": "PLAYEUR",
-   "action": false,
-   "variation_24h_pct": 6.63,
-   "volume_24h_eur": 62237.05,
-   "spread_pct": 0.3108,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "AKT",
-   "pair": "AKTEUR",
-   "action": false,
-   "variation_24h_pct": 6.2,
-   "volume_24h_eur": 82845.48,
-   "spread_pct": 0.1994,
+   "spread_pct": 0.0622,
    "tendance": false,
    "impulsion": null
   },
@@ -205,8 +205,8 @@
    "pair": "SNXEUR",
    "action": false,
    "variation_24h_pct": 6.04,
-   "volume_24h_eur": 52236.29,
-   "spread_pct": 0.0662,
+   "volume_24h_eur": 52005.36,
+   "spread_pct": 0.1324,
    "tendance": false,
    "impulsion": null
   }
