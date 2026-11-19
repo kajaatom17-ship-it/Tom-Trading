@@ -413,7 +413,7 @@ body.on-coach #pnlBadge{display:none}
     <p style="font-size:14px;margin-top:6px"><b>2. Clé GitHub</b> (pour prévenir le comité et passer des ordres fictifs). Facultatif.</p>
     <ol>
       <li>Ouvre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
-      <li>Nom : coach. Expiration : 90 jours. Repository access : « Only select repositories », choisis tom-trading.</li>
+      <li>Nom : coach. Expiration : 90 jours. Repository access : « Only select repositories », choisis Tom-Trading.</li>
       <li>Permissions, Repository : « Contents » en « Read and write ». Puis « Generate token », copie et colle ici.</li>
     </ol>
     <input id="botGhIn" type="password" autocomplete="off" placeholder="github_pat_..." aria-label="Clé GitHub">
@@ -932,7 +932,7 @@ function botKeyView(show){ $("botKey").hidden=!show; if(show){ $("botKeyIn").val
 function botOpen(){ botRender(); botKeyView(!botGet(BOT.keyName)); botScroll(); }
 
 
-const GH={owner:"kajaatom17-ship-it",repo:"tom-trading",keyName:"coach_gh"};
+const GH={owner:"kajaatom17-ship-it",repo:"Tom-Trading",keyName:"coach_gh"};
 const b64=s=>{const b=new TextEncoder().encode(s); let t=""; b.forEach(x=>t+=String.fromCharCode(x)); return btoa(t);};
 const unb64=s=>new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g,"")),c=>c.charCodeAt(0)));
 async function ghPut(path,content,msg,sha){
@@ -1096,7 +1096,7 @@ $("botStop").addEventListener("click",()=>{ try{speechSynthesis.cancel();}catch(
 $("botSpeak").addEventListener("change",e=>{ BOT.speak=e.target.checked; botSet("coach_speak",e.target.checked?"1":null); });
 BOT.speak=!!botGet("coach_speak"); $("botSpeak").checked=BOT.speak;
 
-const BUILD="20261119b";
+const BUILD="20261119c";
 function hardReload(){ const u=new URL(location.href); u.searchParams.set("v",Date.now()); location.replace(u.toString()); }
 $("btnRefresh").addEventListener("click",()=>{ $("btnRefresh").classList.add("spin"); hardReload(); });
 async function checkVersion(){ try{ const r=await fetch(location.pathname+"?t="+Date.now(),{cache:"no-store"}); const m=(await r.text()).match(/const BUILD="([^"]+)"/); if(m&&m[1]!==BUILD) hardReload(); }catch(e){} }
