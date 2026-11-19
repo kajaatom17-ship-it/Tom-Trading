@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:17:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56760.0,
+   "dernier_prix": 56796.8,
    "atr": 598.5359,
    "rollover": 0.3233295849045769,
    "rollover_periodes": 18
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-19T20:17:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.468e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:17:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 544.4843425321716,
+   "dernier_prix": 544.499229864839,
    "atr": 2.771652
   },
   {
@@ -90,10 +90,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:17:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 100.27888155736211,
+   "dernier_prix": 100.28162339023524,
    "atr": 1.08547
   },
   {
@@ -112,10 +112,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-19T20:17:00Z",
+   "verifie_jusqu_a": "2026-11-19T20:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 588.4491998104335,
+   "dernier_prix": 588.4652892336015,
    "atr": 3.304099
   }
  ],
@@ -133,7 +133,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-19T20:17:09Z",
+ "maj": "2026-11-19T20:18:11Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -257,33 +257,24 @@
   }
  },
  "buzz_t": "2026-11-19T20:10:09Z",
- "sources_t": "2026-11-19T19:58:09Z",
+ "sources_t": "2026-11-19T20:18:09Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 8,
+   "mentions": 10,
    "sentiment": "bullish",
    "titres": [
-    "Meta sets $300 price on pocket-sized Muse Charm AI device: report",
-    "Fed’s Barr ties AI boom to risk-on markets, flags debt and leverage concerns"
+    "Google adds an AI chat sidebar to its homepage",
+    "Google integrates AI chats on homepage to boost user engagement"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 5,
+   "mentions": 7,
    "sentiment": "bullish",
    "titres": [
-    "Binance.US derivatives bid clears CFTC completeness check, no approval yet",
-    "Plans to disclose Nvidia’s China chip export licenses as requests hit 3.4 million units"
-   ]
-  },
-  {
-   "sujet": "Bitcoin",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin Giant Strategy Will Keep Buying STRC Below $100 After $600M Day: Saylor",
-    "Bitcoin Enters Death Cross as Anthropic IPO Fails to Lift Wall Street"
+    "Trump’s SEC nominee Johnson backs formal rulemaking for tokenized stock trading",
+    "Sky’s USDS stablecoin shrinks 35% as $1.5B exits reserves"
    ]
   },
   {
@@ -291,8 +282,26 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.730978449 | 🚶 0.731978448 | 🚀 0.805176292 Gwei",
+    "⛽ ETH Gas: 🐢 0.817350523 | 🚶 0.827085521 | 🚀 0.909794073 Gwei",
     "Chainlink and UBS take tokenized structured notes live on Ethereum"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin: Sellers Could Have Another Opportunity If Support Fails",
+    "Bitcoin Giant Strategy Will Keep Buying STRC Below $100 After $600M Day: Saylor"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Sky’s USDS stablecoin shrinks 35% as $1.5B exits reserves",
+    "SKY/USDT: +170% Macro Expansion Setup"
    ]
   },
   {
@@ -305,28 +314,19 @@
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "SKY/USDT: +170% Macro Expansion Setup",
-    "Nihonchokuhan adds JPYC checkout a day after stablecoin app went offline"
-   ]
-  },
-  {
-   "sujet": "Chainlink",
+   "sujet": "Layer 2",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Chainlink and UBS take tokenized structured notes live on Ethereum"
+    "Bitcoin: Sellers Could Have Another Opportunity If Support Fails"
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "DeFi",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SEC official warns against expecting major changes in ETF regulations"
+    "Sky’s USDS stablecoin shrinks 35% as $1.5B exits reserves"
    ]
   }
  ],
