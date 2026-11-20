@@ -1,19 +1,16 @@
 {
- "t": "2026-11-20T10:25:49Z",
+ "t": "2026-11-20T10:31:38Z",
  "nb_analyses": 613,
- "nb_en_mouvement": 14,
+ "nb_en_mouvement": 15,
  "tendance": [
   "AAOI",
   "AKE",
-  "ALL",
   "AMD",
   "ANT",
   "APLD",
   "BTC",
   "CAPR",
-  "COIN",
   "CYBER",
-  "DOGE",
   "DOW",
   "EVAA",
   "FCEL",
@@ -28,6 +25,7 @@
   "MON",
   "MU",
   "NBIS",
+  "NVDA",
   "PAXG",
   "PEARL",
   "PI",
@@ -39,6 +37,7 @@
   "SPCX",
   "SPY",
   "TQQQ",
+  "USAR",
   "VOO",
   "VVV",
   "XMR",
@@ -47,17 +46,17 @@
  "buzz_reseaux": {
   "SPY": {
    "source": "Reddit + StockTwits",
-   "mentions": 732,
+   "mentions": 733,
    "x_vs_hier": 2.3
   },
   "AMD": {
    "source": "Reddit + StockTwits",
-   "mentions": 579,
-   "x_vs_hier": 3.0
+   "mentions": 580,
+   "x_vs_hier": 3.1
   },
   "QQQ": {
    "source": "Reddit + StockTwits",
-   "mentions": 401,
+   "mentions": 397,
    "x_vs_hier": 2.0
   },
   "GOOG": {
@@ -67,7 +66,7 @@
   },
   "VOO": {
    "source": "Reddit",
-   "mentions": 134,
+   "mentions": 135,
    "x_vs_hier": 2.2
   },
   "GME": {
@@ -97,18 +96,13 @@
   },
   "META": {
    "source": "Reddit",
-   "mentions": 42,
-   "x_vs_hier": 2.6
+   "mentions": 43,
+   "x_vs_hier": 2.7
   },
   "TQQQ": {
    "source": "Reddit",
    "mentions": 33,
    "x_vs_hier": 4.7
-  },
-  "ALL": {
-   "source": "Reddit",
-   "mentions": 31,
-   "x_vs_hier": 2.1
   },
   "IREN": {
    "source": "Reddit",
@@ -120,12 +114,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NBIS": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
+  "NBIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -145,7 +139,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AAOI": {
+  "SPCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -155,17 +149,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "COIN": {
+  "AAOI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPCX": {
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
+  "USAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -178,7 +172,7 @@
    "action": false,
    "variation_24h_pct": -13.44,
    "volume_24h_eur": 65842.55,
-   "spread_pct": 0.3231,
+   "spread_pct": 0.2369,
    "tendance": false,
    "impulsion": null
   },
@@ -186,9 +180,9 @@
    "sym": "JUP",
    "pair": "JUPEUR",
    "action": false,
-   "variation_24h_pct": -9.72,
-   "volume_24h_eur": 401367.64,
-   "spread_pct": 0.1168,
+   "variation_24h_pct": -9.75,
+   "volume_24h_eur": 403828.66,
+   "spread_pct": 0.112,
    "tendance": false,
    "impulsion": null
   },
@@ -196,9 +190,9 @@
    "sym": "TRUST",
    "pair": "TRUSTEUR",
    "action": false,
-   "variation_24h_pct": -10.42,
-   "volume_24h_eur": 119185.05,
-   "spread_pct": 0.1934,
+   "variation_24h_pct": -9.3,
+   "volume_24h_eur": 119226.15,
+   "spread_pct": 0.2123,
    "tendance": false,
    "impulsion": null
   },
@@ -206,20 +200,10 @@
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": -7.73,
-   "volume_24h_eur": 732584.8,
-   "spread_pct": 0.1016,
+   "variation_24h_pct": -7.85,
+   "volume_24h_eur": 731347.52,
+   "spread_pct": 0.1017,
    "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "ZEC",
-   "pair": "ZECEUR",
-   "action": false,
-   "variation_24h_pct": -6.79,
-   "volume_24h_eur": 3548355.32,
-   "spread_pct": 0.0544,
-   "tendance": false,
    "impulsion": null
   },
   {
@@ -227,8 +211,8 @@
    "pair": "USELESSEUR",
    "action": false,
    "variation_24h_pct": -8.1,
-   "volume_24h_eur": 172802.86,
-   "spread_pct": 0.2634,
+   "volume_24h_eur": 171764.26,
+   "spread_pct": 0.1676,
    "tendance": false,
    "impulsion": null
   },
@@ -243,12 +227,22 @@
    "impulsion": null
   },
   {
+   "sym": "ZEC",
+   "pair": "ZECEUR",
+   "action": false,
+   "variation_24h_pct": -6.29,
+   "volume_24h_eur": 3559672.74,
+   "spread_pct": 0.0726,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "BLUAI",
    "pair": "BLUAIEUR",
    "action": false,
    "variation_24h_pct": -8.39,
    "volume_24h_eur": 66545.73,
-   "spread_pct": 0.3835,
+   "spread_pct": 0.1817,
    "tendance": false,
    "impulsion": null
   }
