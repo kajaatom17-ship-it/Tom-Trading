@@ -1,13 +1,12 @@
 {
- "t": "2026-11-20T01:11:24Z",
- "nb_analyses": 614,
- "nb_en_mouvement": 1,
+ "t": "2026-11-20T01:17:19Z",
+ "nb_analyses": 613,
+ "nb_en_mouvement": 0,
  "tendance": [
   "ALL",
   "AMD",
   "ANT",
   "ANTHROPIC",
-  "AVAV",
   "BP",
   "BTC",
   "CAPR",
@@ -21,7 +20,9 @@
   "IREN",
   "LIT",
   "LUNC",
+  "META",
   "MON",
+  "NBIS",
   "NEAR",
   "NTDOY",
   "PEARL",
@@ -38,67 +39,76 @@
   "TQQQ",
   "VOO",
   "VVV",
-  "VXX",
   "XRP",
   "YOU"
  ],
  "buzz_reseaux": {
   "SPY": {
    "source": "Reddit",
-   "mentions": 638,
+   "mentions": 644,
    "x_vs_hier": 2.1
   },
   "AMD": {
    "source": "Reddit + StockTwits",
-   "mentions": 523,
+   "mentions": 520,
    "x_vs_hier": 2.8
   },
   "QQQ": {
    "source": "Reddit + StockTwits",
-   "mentions": 364,
+   "mentions": 372,
    "x_vs_hier": 2.1
   },
   "GOOG": {
    "source": "Reddit",
-   "mentions": 141,
+   "mentions": 142,
    "x_vs_hier": 2.6
   },
   "VOO": {
-   "source": "Reddit",
-   "mentions": 111,
-   "x_vs_hier": 2.0
+   "source": "Reddit + StockTwits",
+   "mentions": 113,
+   "x_vs_hier": 2.1
   },
   "GME": {
    "source": "Reddit + StockTwits",
-   "mentions": 68,
-   "x_vs_hier": 2.5
-  },
-  "SOXL": {
-   "source": "Reddit",
-   "mentions": 57,
-   "x_vs_hier": 2.5
+   "mentions": 70,
+   "x_vs_hier": 2.6
   },
   "DOW": {
    "source": "Reddit",
-   "mentions": 54,
+   "mentions": 55,
    "x_vs_hier": 3.2
+  },
+  "SOXL": {
+   "source": "Reddit",
+   "mentions": 55,
+   "x_vs_hier": 2.4
   },
   "YOU": {
    "source": "Reddit",
-   "mentions": 41,
+   "mentions": 40,
    "x_vs_hier": 2.4
   },
   "ALL": {
    "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 2.5
+   "mentions": 34,
+   "x_vs_hier": 2.6
+  },
+  "META": {
+   "source": "Reddit",
+   "mentions": 34,
+   "x_vs_hier": 2.1
   },
   "TQQQ": {
    "source": "Reddit",
-   "mentions": 31,
-   "x_vs_hier": 4.4
+   "mentions": 33,
+   "x_vs_hier": 4.1
   },
   "ANT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SLV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -108,7 +118,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SLV": {
+  "SNDK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NBIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -123,12 +138,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNDK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LUNC": {
+  "IREN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -138,38 +148,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "LUNC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "CORT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVAV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IREN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VXX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [
-  {
-   "sym": "SKY",
-   "pair": "SKYEUR",
-   "action": false,
-   "variation_24h_pct": -3.42,
-   "volume_24h_eur": 705682.9,
-   "spread_pct": 0.1213,
-   "tendance": true,
-   "impulsion": null
-  }
- ],
+ "candidats": [],
  "ajoutes": []
 }
