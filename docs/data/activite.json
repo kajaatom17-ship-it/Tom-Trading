@@ -1,12 +1,6 @@
 [
  {
   "t": "2026-11-16T18:39:57Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée SWG-1 : SHIB short, stop 3.63438e-06, objectif 3.092859e-06, risque 2.47 €."
- },
- {
-  "t": "2026-11-16T18:39:57Z",
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 12 signal(aux) : NVDA short (SWG-1, 80), ADA short (SWG-1, 80), LINK short (SWG-1, 80)"
@@ -3056,5 +3050,17 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "HOOD -1.51 % en 15 min"
+ },
+ {
+  "t": "2026-11-20T04:41:17Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Drift Loses Estimated $200M in Solana Exploit, DRIFT Token Falls 20% - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSkJCaVpFUnJFQ1VETURuYWtPc2c2RzlCVnphbzgyX29ERnpLUVFPVHZqbU9veWptODdZSmRORW92SHJxeDBQMXZQdWtGUF9ZVklLTlNmZ2tjUzlBZ0ZhOHF6NVBwZGhfOWNMV0tGSXc5Y2lsM081RDgzQlN3eTlTRWtSZV8xS2lsVkpOTW1kTzdLT2pscFhfOVY2UFU3YllNWjBuWDVFTEpFc3dEOHNXQ1BUOVlMRjRjUDlzdw?oc=5",
+   "actifs": [
+    "SOL"
+   ]
+  }
  }
 ]
