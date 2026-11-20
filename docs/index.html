@@ -409,14 +409,14 @@ body.on-coach #pnlBadge{display:none}
       <li>Ajoute un peu de crédit (Billing). 5 € suffisent pour des centaines de questions.</li>
       <li>« Create Key », copie la clé et colle-la ici.</li>
     </ol>
-    <input id="botKeyIn" type="password" autocomplete="off" placeholder="sk-ant-..." aria-label="Clé Claude">
+    <input id="botKeyIn" type="text" name="botKeyIn-x" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-1p-ignore data-lpignore="true" inputmode="text" style="-webkit-text-security:none" placeholder="sk-ant-..." aria-label="Clé Claude">
     <p style="font-size:14px;margin-top:6px"><b>2. Clé GitHub</b> (pour prévenir le comité et passer des ordres fictifs). Facultatif.</p>
     <ol>
       <li>Ouvre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
       <li>Nom : coach. Expiration : 90 jours. Repository access : « Only select repositories », choisis Tom-Trading.</li>
       <li>Permissions, Repository : « Contents » en « Read and write ». Puis « Generate token », copie et colle ici.</li>
     </ol>
-    <input id="botGhIn" type="password" autocomplete="off" placeholder="github_pat_..." aria-label="Clé GitHub">
+    <input id="botGhIn" type="text" name="botGhIn-x" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-1p-ignore data-lpignore="true" inputmode="text" style="-webkit-text-security:none" placeholder="github_pat_..." aria-label="Clé GitHub">
     <div style="display:flex;gap:10px;align-items:center"><button id="botKeySave" type="button" style="height:44px;padding:0 16px;border-radius:12px;background:var(--amber);color:#1a1300;font-weight:600">Enregistrer</button><button id="botKeyDel" type="button" class="muted" style="text-decoration:underline">Effacer les clés</button></div>
   </div>
   <div class="bot-msgs" id="botMsgs" aria-live="polite"></div>
@@ -1085,7 +1085,7 @@ $("botIn").addEventListener("keydown",e=>{ if(e.key==="Enter"&&!e.shiftKey&&wind
 $("botMsgs").addEventListener("click",e=>{const b=e.target.closest("[data-q]"); if(b) botAsk(b.dataset.q);});
 $("botNew").addEventListener("click",()=>{ if(BOT.busy) return; botHist=[]; botSave(); botRender(); });
 $("botKeyBtn").addEventListener("click",()=>botKeyView($("botKey").hidden));
-$("botKeySave").addEventListener("click",()=>{ const v=$("botKeyIn").value.trim(), g=$("botGhIn").value.trim();
+$("botKeySave").addEventListener("click",()=>{ const v=$("botKeyIn").value.replace(/\s+/g,""), g=$("botGhIn").value.replace(/\s+/g,"");
   if(v&&!/^sk-ant-/.test(v)){ $("botKeyIn").setCustomValidity("La clé Claude commence par sk-ant-"); $("botKeyIn").reportValidity(); return; } $("botKeyIn").setCustomValidity("");
   if(g&&!/^(github_pat_|ghp_)/.test(g)){ $("botGhIn").setCustomValidity("La clé GitHub commence par github_pat_"); $("botGhIn").reportValidity(); return; } $("botGhIn").setCustomValidity("");
   if(v) botSet(BOT.keyName,v); if(g) botSet(GH.keyName,g);
@@ -1096,7 +1096,7 @@ $("botStop").addEventListener("click",()=>{ try{speechSynthesis.cancel();}catch(
 $("botSpeak").addEventListener("change",e=>{ BOT.speak=e.target.checked; botSet("coach_speak",e.target.checked?"1":null); });
 BOT.speak=!!botGet("coach_speak"); $("botSpeak").checked=BOT.speak;
 
-const BUILD="20261119c";
+const BUILD="20261120a";
 function hardReload(){ const u=new URL(location.href); u.searchParams.set("v",Date.now()); location.replace(u.toString()); }
 $("btnRefresh").addEventListener("click",()=>{ $("btnRefresh").classList.add("spin"); hardReload(); });
 async function checkVersion(){ try{ const r=await fetch(location.pathname+"?t="+Date.now(),{cache:"no-store"}); const m=(await r.text()).match(/const BUILD="([^"]+)"/); if(m&&m[1]!==BUILD) hardReload(); }catch(e){} }
