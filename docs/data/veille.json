@@ -1589,6 +1589,55 @@
  ],
  "alertes": [
   {
+   "sym": "BONK",
+   "horizon": "15 min",
+   "variation_pct": -2.58,
+   "prix": 2.042e-06,
+   "t": "2026-11-20T02:00:00Z"
+  },
+  {
+   "sym": "INJ",
+   "horizon": "15 min",
+   "variation_pct": -3.02,
+   "prix": 6.2,
+   "t": "2026-11-20T02:00:00Z"
+  },
+  {
+   "sym": "NEAR",
+   "horizon": "15 min",
+   "variation_pct": -3.87,
+   "prix": 2.8109,
+   "t": "2026-11-20T02:00:00Z"
+  },
+  {
+   "sym": "PENGU",
+   "horizon": "15 min",
+   "variation_pct": -2.75,
+   "prix": 0.004068,
+   "t": "2026-11-20T02:00:00Z"
+  },
+  {
+   "sym": "PEPE",
+   "horizon": "15 min",
+   "variation_pct": -3.62,
+   "prix": 3.272e-06,
+   "t": "2026-11-20T02:00:00Z"
+  },
+  {
+   "sym": "TRUMP",
+   "horizon": "15 min",
+   "variation_pct": -2.53,
+   "prix": 0.847,
+   "t": "2026-11-20T02:00:00Z"
+  },
+  {
+   "sym": "MSTR",
+   "horizon": "15 min",
+   "variation_pct": -1.55,
+   "prix": 77.6734466679442,
+   "t": "2026-11-20T02:00:00Z"
+  },
+  {
    "sym": "ARB",
    "horizon": "15 min",
    "variation_pct": -2.98,
@@ -1596,52 +1645,10 @@
    "t": "2026-11-20T01:58:05Z"
   },
   {
-   "sym": "BONK",
-   "horizon": "15 min",
-   "variation_pct": -2.62,
-   "prix": 2.041e-06,
-   "t": "2026-11-20T01:58:05Z"
-  },
-  {
-   "sym": "INJ",
-   "horizon": "15 min",
-   "variation_pct": -2.55,
-   "prix": 6.23,
-   "t": "2026-11-20T01:58:05Z"
-  },
-  {
-   "sym": "NEAR",
-   "horizon": "15 min",
-   "variation_pct": -3.47,
-   "prix": 2.8227,
-   "t": "2026-11-20T01:58:05Z"
-  },
-  {
-   "sym": "PENGU",
-   "horizon": "15 min",
-   "variation_pct": -2.75,
-   "prix": 0.004068,
-   "t": "2026-11-20T01:58:05Z"
-  },
-  {
-   "sym": "PEPE",
-   "horizon": "15 min",
-   "variation_pct": -3.36,
-   "prix": 3.281e-06,
-   "t": "2026-11-20T01:58:05Z"
-  },
-  {
    "sym": "RENDER",
    "horizon": "15 min",
    "variation_pct": -2.62,
    "prix": 1.227,
-   "t": "2026-11-20T01:58:05Z"
-  },
-  {
-   "sym": "TRUMP",
-   "horizon": "15 min",
-   "variation_pct": -2.53,
-   "prix": 0.847,
    "t": "2026-11-20T01:58:05Z"
   },
   {
@@ -1679,13 +1686,6 @@
    "prix": 97.26277372262773,
    "t": "2026-11-20T01:56:12Z",
    "position": "en notre faveur"
-  },
-  {
-   "sym": "MSTR",
-   "horizon": "15 min",
-   "variation_pct": -1.74,
-   "prix": 77.52737226277371,
-   "t": "2026-11-20T01:56:12Z"
   },
   {
    "sym": "RARE",
@@ -1735,5 +1735,5 @@
  "erreurs_sources": [
   "Google (stock market today): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-20T01:58:05Z"
+ "t": "2026-11-20T02:00:00Z"
 }
