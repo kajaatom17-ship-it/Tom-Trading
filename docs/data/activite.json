@@ -1,12 +1,6 @@
 [
  {
   "t": "2026-11-19T16:52:41Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée SWG-1 : QQQ short, stop 629.3644, objectif 520.6585, risque 4.39 €."
- },
- {
-  "t": "2026-11-19T16:52:41Z",
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 31 signal(aux) : NVDA short (SWG-1, 80), META short (SWG-1, 80), NFLX short (SWG-1, 80)"
@@ -2794,5 +2788,11 @@
   "data": {
    "lien": "https://www.youtube.com/watch?v=ZFD_F2kDdqo"
   }
+ },
+ {
+  "t": "2026-11-20T14:48:54Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "612 actifs hors univers analysés, 31 en mouvement : USELESS -14.2 %, MEGA -14.3 %, ZEC -9.3 %."
  }
 ]
