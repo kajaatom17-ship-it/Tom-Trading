@@ -1,32 +1,5 @@
 [
  {
-  "t": "2026-11-18T09:16:12Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[chute, baleines] XRP whales moved $270 million during the selloff. The coins didn’t go to exchanges (CoinDesk)",
-  "data": {
-   "lien": "https://www.coindesk.com/markets/2026/11/18/xrp-whales-moved-usd270-million-during-the-selloff-the-coins-didn-t-go-to-exchanges",
-   "actifs": [
-    "XRP"
-   ]
-  }
- },
- {
-  "t": "2026-11-18T09:18:14Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "GOOGL short ouvert à 257.1842 | 96.31 € engagés | stop 262.3205 | objectif 241.7464 | risque 2.08 EUR",
-  "data": {
-   "id": "P0021"
-  }
- },
- {
-  "t": "2026-11-18T09:18:14Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée SWG-1 : GOOGL short, stop 262.3205, objectif 241.7464, risque 2.08 €."
- },
- {
   "t": "2026-11-18T09:18:14Z",
   "agent": "Scanner",
   "type": "scan",
@@ -2925,5 +2898,23 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "613 actifs hors univers analysés, 19 en mouvement : MEGA -13.3 %, USELESS -11.6 %, ZEC -8.2 %."
+ },
+ {
+  "t": "2026-11-20T11:59:40Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : WASTED, CHUNKEE, LUCIA, TRUMP, BTC, PEARL, HYPE, XMR"
+ },
+ {
+  "t": "2026-11-20T11:59:41Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ALL, AMD, AMPX, ANT, ASTS, CAPR, DOW, GLD, GME, GOOG, INTU, IREN"
+ },
+ {
+  "t": "2026-11-20T11:59:45Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "613 actifs hors univers analysés, 19 en mouvement : MEGA -13.4 %, USELESS -11.6 %, ZEC -8.0 %."
  }
 ]
