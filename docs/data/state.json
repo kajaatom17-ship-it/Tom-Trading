@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T11:00:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:01:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56595.0,
+   "dernier_prix": 56599.1,
    "atr": 598.5359,
    "rollover": 0.39518060377226066,
    "rollover_periodes": 22
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T11:00:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:01:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.39e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T11:00:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:01:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 535.0095829150316,
+   "dernier_prix": 534.9949348835936,
    "atr": 2.771652,
    "rollover": 0.0770227736337193,
    "rollover_periodes": 4
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T11:00:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:01:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.91913845030575,
+   "dernier_prix": 97.91645752146971,
    "atr": 1.08547,
    "rollover": 0.061093285215111336,
    "rollover_periodes": 4
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T11:00:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:01:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 582.8420188007667,
+   "dernier_prix": 582.9355771951119,
    "atr": 3.304099,
    "rollover": 0.07694450719679184,
    "rollover_periodes": 4
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T11:00:34Z",
+ "maj": "2026-11-20T11:01:41Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -294,78 +294,78 @@
   }
  },
  "buzz_t": "2026-11-20T10:48:53Z",
- "sources_t": "2026-11-20T10:41:11Z",
+ "sources_t": "2026-11-20T11:01:31Z",
  "actus_tendance": [
+  {
+   "sujet": "Bitcoin",
+   "mentions": 9,
+   "sentiment": "bearish",
+   "titres": [
+    "BTCUSDT: Bearish Structure Signals Further Downside Risk",
+    "Bro I think #BTC is in the important area!!!!"
+   ]
+  },
   {
    "sujet": "AI",
    "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "AI selloff: Taiwan's benchmark index posts worst week since 1991",
-    "Mistral opens Asia-Pacific headquarters in Singapore, plans to double regional headcount by 2027"
+    "Mistral opens Asia-Pacific headquarters in Singapore, plans to double regional headcount by 2027",
+    "China’s AI firms struggle with funding as US rivals pull ahead"
    ]
   },
   {
-   "sujet": "Bitcoin",
+   "sujet": "Ethereum",
    "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "Ethereum targets December Glamsterdam test despite 200 findings that could delay upgrade",
+    "ETHUSDT – Bearish Breakdown & Downside Continuation Setup"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin - The Next 1000 Days",
-    "Bitcoin's Downtrend Transitions is coming to close."
+    "MoonPay applies for national trust bank charter to expand stablecoin services",
+    "The Market will PUMP. USDT.D is BEARISH HERE"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 4,
-   "sentiment": "bearish",
+   "mentions": 3,
+   "sentiment": "neutral",
    "titres": [
     "Solana’s Next Upgrade Could Break Existing Apps As Developers Face New Warning",
     "SOL | Will 70 Hold Under Pressure?"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 3,
+   "sujet": "Security",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.158650026 | 🚶 0.158650026 | 🚀 0.174515028 Gwei",
-    "Ethereum’s Glamsterdam Upgrade Slips Into 2027 as Developers Fix Apps That Could Break"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase Asks CFTC to Keep Crypto Contracts in Play Under Prediction Market Swap Rule",
-    "CryptoUK urges FCA to clarify how DeFi protocols fit the UK crypto regime"
+    "The Bonus Rules That Void Winnings at Licensed Web3 Casinos",
+    "If a Crypto Casino Gets Hacked, What Happens to Your Account?"
    ]
   },
   {
    "sujet": "XRP",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance Puts 600,000 XRP on the Table for Ripple’s RLUSD Holders",
-    "CME Group’s XRP futures average $216 million in daily volume through mid-November"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "MoonPay applies for national trust bank charter to expand stablecoin services",
-    "Binance Puts 600,000 XRP on the Table for Ripple’s RLUSD Holders"
+    "CME Group’s XRP futures average $216 million in daily volume through mid-November",
+    "XRP Approaches a Potential Turning Point"
    ]
   },
   {
-   "sujet": "Coinbase",
+   "sujet": "SEC/Regulation",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "Coinbase Asks CFTC to Keep Crypto Contracts in Play Under Prediction Market Swap Rule",
-    "Gemini Will Stop Holding Coins for VanEck’s HODL, ETHV and VSOL in February"
+    "CryptoUK urges FCA to clarify how DeFi protocols fit the UK crypto regime",
+    "SpaceX-Tesla merger faces hurdles needing 50% shareholder approval"
    ]
   }
  ],
