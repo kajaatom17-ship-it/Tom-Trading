@@ -3,21 +3,6 @@
   "t": "2026-11-17T10:41:02Z",
   "agent": "Execution",
   "type": "ouverture",
-  "msg": "NVDA short ouvert à 141.0691 | 99.00 € engagés | stop 146.6802 | objectif 126.8021 | risque 4.10 EUR",
-  "data": {
-   "id": "P0018"
-  }
- },
- {
-  "t": "2026-11-17T10:41:02Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée SWG-1 : NVDA short, stop 146.6802, objectif 126.8021, risque 4.10 €."
- },
- {
-  "t": "2026-11-17T10:41:02Z",
-  "agent": "Execution",
-  "type": "ouverture",
   "msg": "AMD short ouvert à 456.3203 | 89.48 € engagés | stop 480.8073 | objectif 379.2272 | risque 4.95 EUR",
   "data": {
    "id": "P0019"
@@ -3013,5 +2998,17 @@
    "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV1lCUkY2aFpJT2FjV0VFemVNMXRlNnJLc2RUUDJBMUJCNzNscEVLTXpuMy02a2dEN3RXZnJwNVJtWVBwcG1GUjBUXzg4bFo1SHE3eXNsSzlOakR4alBfaHlMZXVxNWQ2TVpLNzNMQVR5NXFDaEt5ZFR5R2JhZkhiS0hWbmx6VlNKOTNvT05iZHFCYzQxR1lPUmVWM19BS1JyTHNpT29RMVJnbFhqd1RrME10MDdrM1dnc0ttRFp4WG00Y3prOHRMLQ?oc=5",
    "actifs": []
   }
+ },
+ {
+  "t": "2026-11-20T06:05:31Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ALL, AM, AMD, ANT, CAPR, DOW, GLD, GME, GOOG, INTU, KLAR, META"
+ },
+ {
+  "t": "2026-11-20T06:05:33Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "613 actifs hors univers analysés, 4 en mouvement : MEGA -14.3 %, TRUST -9.9 %, JUP -6.8 %."
  }
 ]
