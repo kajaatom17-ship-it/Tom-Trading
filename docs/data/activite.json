@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-16T14:59:22Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée seule : AMZN short (BRK-1, score 75, RR net 1.61), risque 0.53 €."
- },
- {
-  "t": "2026-11-16T14:59:22Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 13 signal(aux) : AMZN short (BRK-1, 75), TSLA short (TPB-1, 70), QQQ short (TPB-1, 70)"
- },
- {
   "t": "2026-11-16T15:28:27Z",
   "agent": "Comité",
   "type": "aucune action",
@@ -3039,5 +3027,17 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "614 actifs hors univers analysés, 6 en mouvement : TRUST -8.4 %, JUP -6.6 %, VVV -5.2 %. Ajoutés : PROS."
+ },
+ {
+  "t": "2026-11-20T02:52:17Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AGI, ALL, AMD, ANT, CAPR, DOW, FRVO, GDXU, GLD, GME, GOOG, INTU"
+ },
+ {
+  "t": "2026-11-20T02:52:21Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "613 actifs hors univers analysés, 6 en mouvement : TRUST -9.2 %, JUP -6.4 %, VVV -5.2 %."
  }
 ]
