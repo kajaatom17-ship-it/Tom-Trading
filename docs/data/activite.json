@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-16T13:33:59Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 8 signal(aux) : MSTR short (TPB-1, 70), NVDA short (BRK-1, 65), AMD short (BRK-1, 63)"
- },
- {
   "t": "2026-11-16T13:57:41Z",
   "agent": "Execution",
   "type": "ouverture",
@@ -3039,5 +3033,11 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "RARE -7.49 % en 1 h"
+ },
+ {
+  "t": "2026-11-20T01:51:20Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "614 actifs hors univers analysés, 1 en mouvement : TRUST -8.4 %."
  }
 ]
