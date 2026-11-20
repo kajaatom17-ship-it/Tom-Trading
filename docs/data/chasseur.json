@@ -1,7 +1,7 @@
 {
- "t": "2026-11-20T22:09:03Z",
+ "t": "2026-11-20T22:14:54Z",
  "nb_analyses": 610,
- "nb_en_mouvement": 60,
+ "nb_en_mouvement": 64,
  "tendance": [
   "AAPL",
   "ABVX",
@@ -225,7 +225,17 @@
    "action": false,
    "variation_24h_pct": -17.67,
    "volume_24h_eur": 59901.18,
-   "spread_pct": 0.2038,
+   "spread_pct": 0.317,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "BLUAI",
+   "pair": "BLUAIEUR",
+   "action": false,
+   "variation_24h_pct": -16.29,
+   "volume_24h_eur": 94386.12,
+   "spread_pct": 0.3093,
    "tendance": false,
    "impulsion": null
   },
@@ -235,7 +245,7 @@
    "action": false,
    "variation_24h_pct": -15.48,
    "volume_24h_eur": 107680.83,
-   "spread_pct": 0.0116,
+   "spread_pct": 0.0058,
    "tendance": false,
    "impulsion": null
   },
@@ -243,9 +253,19 @@
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
-   "variation_24h_pct": -11.37,
-   "volume_24h_eur": 429205.33,
+   "variation_24h_pct": -11.26,
+   "volume_24h_eur": 429349.32,
    "spread_pct": 0.0285,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "SPX",
+   "pair": "SPXEUR",
+   "action": false,
+   "variation_24h_pct": -11.51,
+   "volume_24h_eur": 173118.2,
+   "spread_pct": 0.2864,
    "tendance": false,
    "impulsion": null
   },
@@ -253,9 +273,9 @@
    "sym": "UNI",
    "pair": "UNIEUR",
    "action": false,
-   "variation_24h_pct": -9.98,
-   "volume_24h_eur": 736444.14,
-   "spread_pct": 0.0469,
+   "variation_24h_pct": -9.94,
+   "volume_24h_eur": 736767.76,
+   "spread_pct": 0.1085,
    "tendance": false,
    "impulsion": null
   },
@@ -265,37 +285,17 @@
    "action": false,
    "variation_24h_pct": -9.2,
    "volume_24h_eur": 1880169.36,
-   "spread_pct": 0.3196,
+   "spread_pct": 0.1574,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "MU",
-   "pair": "MUxUSD",
-   "action": true,
-   "variation_24h_pct": -11.03,
-   "volume_24h_eur": 69751.96,
-   "spread_pct": 0.4293,
-   "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "APT",
-   "pair": "APTEUR",
+   "sym": "BILL",
+   "pair": "BILLEUR",
    "action": false,
-   "variation_24h_pct": -10.3,
-   "volume_24h_eur": 133988.04,
-   "spread_pct": 0.1784,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "TRUST",
-   "pair": "TRUSTEUR",
-   "action": false,
-   "variation_24h_pct": -10.7,
-   "volume_24h_eur": 81423.94,
-   "spread_pct": 0.1294,
+   "variation_24h_pct": -11.72,
+   "volume_24h_eur": 59538.67,
+   "spread_pct": 0.2825,
    "tendance": false,
    "impulsion": null
   }
