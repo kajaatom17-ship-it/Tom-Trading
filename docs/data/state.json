@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-20T02:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56113.5,
+   "dernier_prix": 56068.2,
    "atr": 598.5359,
    "rollover": 0.3592550943384188,
    "rollover_periodes": 20
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T02:26:00Z",
+   "verifie_jusqu_a": "2026-11-20T02:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 538.2440136830103,
+   "dernier_prix": 538.2587436828373,
    "atr": 2.771652,
    "rollover": 0.03851138681685965,
    "rollover_periodes": 2
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T02:26:00Z",
+   "verifie_jusqu_a": "2026-11-20T02:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.76624857468643,
+   "dernier_prix": 96.76889675430114,
    "atr": 1.08547,
    "rollover": 0.030546642607555668,
    "rollover_periodes": 2
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T02:26:00Z",
+   "verifie_jusqu_a": "2026-11-20T02:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 585.4960091220069,
+   "dernier_prix": 585.512032256299,
    "atr": 3.304099,
    "rollover": 0.03847225359839592,
    "rollover_periodes": 2
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T02:26:07Z",
+ "maj": "2026-11-20T02:27:06Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -294,51 +294,40 @@
   }
  },
  "buzz_t": "2026-11-20T02:17:25Z",
- "sources_t": "2026-11-20T02:06:47Z",
+ "sources_t": "2026-11-20T02:27:04Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 8,
+   "mentions": 7,
    "sentiment": "bearish",
    "titres": [
-    "殺！台股重挫逾 2,000 點，AI 伺服器股跌停、限空令 2.0 撐不住",
-    "Google partners with Bezos' Blue Origin to take data centers into space"
+    "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+    "Google’s Gemini 4 Neon ranks as top Google model on Vals RSI Index, surpassing Argon by 3.8 points"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "bearish",
    "titres": [
-    "BTC Loses 62K, Longs Still Dominate",
-    "BTC/USD: Bearish Flag Breakdown – Bearish Outlook"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "世界銀行聯手 Circle、花旗！USDC 撥款 96 國開測",
-    "北韓報告後 15 億美元撤出！Sky USDS 市值蒸發三成"
+    "$BTC is sitting right on the 0.886 retracement",
+    "BTC 1H Night: Broke the 61,946 low, 61,230.67 is tonight's line"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.255917043 | 🚶 0.255917043 | 🚀 0.281508747 Gwei",
     "数据：某巨鲸从质押中赎回 670 万美元 HYPE，同时持续买入 PURR"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "bearish",
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "Chainlink price prediction 2026–2032: Can LINK reclaim $50?",
-    "BITCOIN - A short squeeze could trigger a decline"
+    "世界銀行聯手 Circle、花旗！USDC 撥款 96 國開測"
    ]
   },
   {
@@ -347,6 +336,22 @@
    "sentiment": "neutral",
    "titres": [
     "Chainlink price prediction 2026–2032: Can LINK reclaim $50?"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Chainlink price prediction 2026–2032: Can LINK reclaim $50?"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "STX Network Service Seeks Regulatory Approval to Become Korea Cable TV Chung-Buk System's Largest Shareholder"
    ]
   }
  ],
