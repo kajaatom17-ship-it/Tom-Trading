@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 55951.0,
+   "dernier_prix": 55937.9,
    "atr": 598.5359,
    "rollover": 0.3772178490553397,
    "rollover_periodes": 21
@@ -44,10 +44,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T05:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.386e-06,
+   "dernier_prix": 3.384e-06,
    "atr": 3.5634e-08,
    "rollover": 0.19712131656648835,
    "rollover_periodes": 20
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 534.5737168681835,
+   "dernier_prix": 533.4414489927933,
    "atr": 2.771652,
    "rollover": 0.05776708022528948,
    "rollover_periodes": 3
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.91027872183398,
+   "dernier_prix": 96.90321522608623,
    "atr": 1.08547,
    "rollover": 0.0458199639113335,
    "rollover_periodes": 3
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 583.9491211925176,
+   "dernier_prix": 583.906558915442,
    "atr": 3.304099,
    "rollover": 0.05770838039759388,
    "rollover_periodes": 3
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T05:09:22Z",
+ "maj": "2026-11-20T05:10:20Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -274,15 +274,24 @@
   }
  },
  "buzz_t": "2026-11-20T04:54:48Z",
- "sources_t": "2026-11-20T04:50:00Z",
+ "sources_t": "2026-11-20T05:10:18Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 6,
-   "sentiment": "bearish",
+   "mentions": 5,
+   "sentiment": "neutral",
    "titres": [
-    "The End Of Man: The Real Danger Isn't Artificial Intelligence",
-    "The US dollar marks its fourth consecutive week of gains"
+    "Ledger CTO Charles Guillemet leaves at end of 2026 to start security company",
+    "The End Of Man: The Real Danger Isn't Artificial Intelligence"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "🚨🚨 This is a five-alarm fire moment for Bitcoin",
+    "Bitcoin Could Suffer a 1929-Style Crash Ahead of the Anthropic IPO, BitMEX Co-Founder Says"
    ]
   },
   {
@@ -295,12 +304,20 @@
    ]
   },
   {
-   "sujet": "Bitcoin",
+   "sujet": "Solana",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin Could Suffer a 1929-Style Crash Ahead of the Anthropic IPO, BitMEX Co-Founder Says",
-    "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak"
+    "Anza readies Solana direct mapping for mainnet but sets no activation date",
+    "DCTY dropped over 72% in 24 hours, with its current market capitalization at $3.8 million."
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Crypto Pundit Expects an XRP Rally That Could 'Retire Many People' Before 2026 Ends"
    ]
   },
   {
@@ -317,30 +334,6 @@
    "sentiment": "neutral",
    "titres": [
     "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "DCTY dropped over 72% in 24 hours, with its current market capitalization at $3.8 million."
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "CME’s XRP Futures Hit $81.2 Billion After 18 Months of Trading"
    ]
   }
  ],
