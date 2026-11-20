@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T15:04:00Z",
+   "verifie_jusqu_a": "2026-11-20T15:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56065.7,
+   "dernier_prix": 55970.4,
    "atr": 598.5359,
    "rollover": 0.4131433584891816,
    "rollover_periodes": 23
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T15:04:00Z",
+   "verifie_jusqu_a": "2026-11-20T15:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.348e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T15:04:00Z",
+   "verifie_jusqu_a": "2026-11-20T15:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 532.6428551908836,
+   "dernier_prix": 533.8526008927759,
    "atr": 2.771652,
    "rollover": 0.09627846704214912,
    "rollover_periodes": 5
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T15:04:00Z",
+   "verifie_jusqu_a": "2026-11-20T15:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 100.8845043223203,
+   "dernier_prix": 100.89277580395373,
    "atr": 1.08547,
    "rollover": 0.07636660651888917,
    "rollover_periodes": 5
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T15:04:00Z",
+   "verifie_jusqu_a": "2026-11-20T15:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 583.6544329972035,
+   "dernier_prix": 583.2832285688257,
    "atr": 3.304099,
    "rollover": 0.0961806339959898,
    "rollover_periodes": 5
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T15:04:19Z",
+ "maj": "2026-11-20T15:06:19Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,7 +152,7 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T15:00:25Z",
+ "chasseur_t": "2026-11-20T15:06:14Z",
  "tendance": [
   "WASTED",
   "TRUMP",
@@ -304,74 +304,77 @@
   }
  },
  "buzz_t": "2026-11-20T14:54:39Z",
- "sources_t": "2026-11-20T14:45:44Z",
+ "sources_t": "2026-11-20T15:06:19Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 9,
-   "sentiment": "neutral",
+   "mentions": 7,
+   "sentiment": "bullish",
    "titres": [
-    "BUZZ - European tech stocks are on track for their worst weekly performance since 2020, hit by sell-offs in the artificial intelligence sector",
-    "Société Générale expects the S&P 500 to rise to 8,500 points by the end of 2027."
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 5,
-   "sentiment": "neutral",
-   "titres": [
-    "FT Vest PLTR & Target Income ETF declares $0.3204 dividend",
-    "FT Vest TSLA & Target Income ETF declares $0.4214 dividend"
+    "Alphabet and Nvidia are fighting for third place in global market value",
+    "US House committee calls to remove China open-weight models from government"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 2,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "BITCOIN - Wash Out Back To $20K ?",
-    "Sui Price May Slip to $0.60 Unless Hashi Wakes Bitcoin's 'Idle Capital', Fluid CEO Says"
+    "Coinbase Institutional: US dollar was the lone gainer as Bitcoin and Ethereum led monthly losses",
+    "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 2,
+   "sujet": "SEC/Regulation",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Sui Price May Slip to $0.60 Unless Hashi Wakes Bitcoin's 'Idle Capital', Fluid CEO Says",
-    "23 Million ADA Flow Back to Cardano's Treasury as the DJED Stablecoin Winds Down"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.404077601 | 🚶 0.424077601 | 🚀 0.444485361 Gwei"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase expands Deribit’s global liquidity pool for traders"
+    "Rep. Horsford sees a shot at a House vote on crypto tax bill before Congress wraps",
+    "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Solana adds 1.5% share of tokenized equities trading volume in a year"
+    "SOL Retests $72 as Bears Get a Second Chance After VanEck Ends Its Gemini Custody Deal",
+    "Lark Davis Calls Cardano a “Largely Failed Blockchain,” Cites Massive Adoption Gap With Solana"
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "SOL Retests $72 as Bears Get a Second Chance After VanEck Ends Its Gemini Custody Deal",
+    "ARK Invest Buys $90M in Anthropic Shares While Trimming Ethereum ETF Holdings"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "Coinbase Institutional: US dollar was the lone gainer as Bitcoin and Ethereum led monthly losses",
+    "ARK Invest Buys $90M in Anthropic Shares While Trimming Ethereum ETF Holdings"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase Institutional: US dollar was the lone gainer as Bitcoin and Ethereum led monthly losses",
+    "Coinbase expands Deribit’s global liquidity pool for traders"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Binance hackers move $594M in stolen Ether through THORChain and Chainflip"
+    "Bybit opens CLEAR/USDT spot trading following Clearpool contract update"
    ]
   }
  ],
