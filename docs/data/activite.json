@@ -3,21 +3,6 @@
   "t": "2026-11-19T16:52:41Z",
   "agent": "Trader de garde",
   "type": "entrée",
-  "msg": "Entrée SWG-1 : META short, stop 582.8012, objectif 498.5452, risque 3.67 €."
- },
- {
-  "t": "2026-11-19T16:52:41Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "COIN short ouvert à 102.4041 | 76.37 € engagés | stop 108.6869 | objectif 83.41935 | risque 4.81 EUR",
-  "data": {
-   "id": "P0023"
-  }
- },
- {
-  "t": "2026-11-19T16:52:41Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
   "msg": "Entrée SWG-1 : COIN short, stop 108.6869, objectif 83.41935, risque 4.81 €."
  },
  {
@@ -2793,5 +2778,21 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "MSFT +1.57 % en 15 min"
+ },
+ {
+  "t": "2026-11-20T14:42:50Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "612 actifs hors univers analysés, 27 en mouvement : USELESS -14.1 %, ZEC -10.2 %, MEGA -13.9 %."
+ },
+ {
+  "t": "2026-11-20T14:42:53Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, banque centrale] Zcash tumbles as hawkish Fed repricing weighs on the crypto market; focus remains on the Fed and US-Iran negotiations - investingLive (investingLive)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ3k0UkRmd0huMm13SjZrdzIwcXJBTWRIazd4Nmc5bHZFazRlbGlJMGdtWnY4M3hBMmtlLXVoR1NmcngzN0luOUQ1Mm9lQ3d3VElQWEYxOURQSWhhbjd1V3J2YldDc3JwaFNONU93dGZ4VFMzcWdVaW1SMGVnYjV6UmNaNjJnelpPQ3A0TnE3RE5qVFNsYV9fTEZVa3BNNEpKbW0xVmJFN0h0Qk9aNndsWl9kLXdNeHJ2UGpVNnpuczZwT0stTkVlUmxnNDFPTWJ5Mk5qRWYxUjZNU1lqRzFmWHY1cDYtNGQ3SVNFMVRVbw?oc=5",
+   "actifs": []
+  }
  }
 ]
