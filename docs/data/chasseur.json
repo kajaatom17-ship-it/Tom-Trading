@@ -1,48 +1,48 @@
 {
- "t": "2026-11-20T02:40:40Z",
+ "t": "2026-11-20T02:46:32Z",
  "nb_analyses": 614,
- "nb_en_mouvement": 7,
+ "nb_en_mouvement": 6,
  "tendance": [
-  "AAVE",
+  "AERO",
   "AGI",
   "ALL",
   "AMD",
   "ANT",
   "ANTHROPIC",
-  "BP",
   "BTC",
   "CAPR",
   "DIA",
   "DOW",
-  "ETH",
+  "ENA",
+  "EVAA",
   "GDXU",
   "GLD",
   "GME",
   "GOOG",
   "INTU",
+  "KAS",
   "LUNC",
   "META",
-  "MON",
   "MRVL",
   "NBIS",
   "NEAR",
   "PEARL",
   "PENGU",
-  "QNT",
+  "PUMP",
   "QQQ",
+  "SKY",
   "SLV",
   "SNDK",
   "SOFI",
   "SOL",
   "SOXL",
   "SPY",
-  "SUI",
   "TQQQ",
-  "UNI",
   "UVXY",
   "VOO",
-  "XRP",
-  "YOU"
+  "XMR",
+  "YOU",
+  "ZEC"
  ],
  "buzz_reseaux": {
   "SPY": {
@@ -173,32 +173,12 @@
  },
  "candidats": [
   {
-   "sym": "PROS",
-   "pair": "PROSEUR",
-   "action": false,
-   "variation_24h_pct": 9.7,
-   "volume_24h_eur": 66098.23,
-   "spread_pct": 0.4386,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
    "sym": "TRUST",
    "pair": "TRUSTEUR",
    "action": false,
    "variation_24h_pct": -8.41,
    "volume_24h_eur": 89764.62,
-   "spread_pct": 0.2733,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "SAPIEN",
-   "pair": "SAPIENEUR",
-   "action": false,
-   "variation_24h_pct": 6.52,
-   "volume_24h_eur": 49375.87,
-   "spread_pct": 0.256,
+   "spread_pct": 0.3153,
    "tendance": false,
    "impulsion": null
   },
@@ -206,9 +186,9 @@
    "sym": "JUP",
    "pair": "JUPEUR",
    "action": false,
-   "variation_24h_pct": -5.54,
-   "volume_24h_eur": 249003.23,
-   "spread_pct": 0.1442,
+   "variation_24h_pct": -6.59,
+   "volume_24h_eur": 253730.36,
+   "spread_pct": 0.1317,
    "tendance": false,
    "impulsion": null
   },
@@ -216,9 +196,9 @@
    "sym": "VVV",
    "pair": "VVVEUR",
    "action": false,
-   "variation_24h_pct": -5.16,
-   "volume_24h_eur": 498647.06,
-   "spread_pct": 0.1165,
+   "variation_24h_pct": -5.22,
+   "volume_24h_eur": 499830.35,
+   "spread_pct": 0.1218,
    "tendance": false,
    "impulsion": null
   },
@@ -226,22 +206,38 @@
    "sym": "PUMP",
    "pair": "PUMPEUR",
    "action": false,
-   "variation_24h_pct": -5.08,
-   "volume_24h_eur": 520557.13,
+   "variation_24h_pct": -5.17,
+   "volume_24h_eur": 520371.71,
    "spread_pct": 0.0871,
-   "tendance": false,
+   "tendance": true,
    "impulsion": null
   },
   {
-   "sym": "QNT",
-   "pair": "QNTEUR",
+   "sym": "PROS",
+   "pair": "PROSEUR",
    "action": false,
-   "variation_24h_pct": -4.16,
-   "volume_24h_eur": 223594.78,
-   "spread_pct": 0.1073,
+   "variation_24h_pct": 5.39,
+   "volume_24h_eur": 67446.12,
+   "spread_pct": 0.2473,
+   "tendance": false,
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -4.09,
+    "volume_x": 5.7
+   }
+  },
+  {
+   "sym": "ZEC",
+   "pair": "ZECEUR",
+   "action": false,
+   "variation_24h_pct": -3.36,
+   "volume_24h_eur": 3178178.5,
+   "spread_pct": 0.062,
    "tendance": true,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "PROS"
+ ]
 }

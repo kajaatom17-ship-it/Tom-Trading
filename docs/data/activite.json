@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-11-16T14:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "MSTR +3.3 % en 1 h"
- },
- {
-  "t": "2026-11-16T14:58:24Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "AMD +2.15 % en 15 min"
- },
- {
-  "t": "2026-11-16T14:59:22Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "AMZN short ouvert à 237.7491 | 49.43 € engagés | stop 239.893 | objectif 230.3923 | risque 0.53 EUR",
-  "data": {
-   "id": "P0015"
-  }
- },
- {
   "t": "2026-11-16T14:59:22Z",
   "agent": "Trader de garde",
   "type": "entrée",
@@ -3042,5 +3021,23 @@
    "lien": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdjBONzFGMEVPNUpzYTdzUklQRi1LTy1Yd21DbzFwUkVmMDRGZmlvSm5rMzI3TkZETEJEaDhkVWVpNlJUZVFENjJrOVdWZVZBRzNvcU9IX2lrZWtOV19KV0tYakRHcFhFVzR4OXZLRVdzV2duaTBzd3RBQjhZTVFWV2RaeVdXZw?oc=5",
    "actifs": []
   }
+ },
+ {
+  "t": "2026-11-20T02:46:28Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, NEAR, PENGU, PEARL, XMR, SOL, PUMP, ANTHROPIC"
+ },
+ {
+  "t": "2026-11-20T02:46:32Z",
+  "agent": "Spécialiste memecoins",
+  "type": "ajout actif",
+  "msg": "PROS ajouté à l'univers (catégorie Emergent, budget memecoin) : Impulsion -4.1 % en 15 min, volume x5.7, variation du jour +5.4 %"
+ },
+ {
+  "t": "2026-11-20T02:46:32Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "614 actifs hors univers analysés, 6 en mouvement : TRUST -8.4 %, JUP -6.6 %, VVV -5.2 %. Ajoutés : PROS."
  }
 ]
