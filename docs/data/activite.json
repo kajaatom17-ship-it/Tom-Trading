@@ -1,39 +1,5 @@
 [
  {
-  "t": "2026-11-16T18:38:56Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[chute, résultats] Stock Market Midday, Nov. 16: Nasdaq Tumbles as Wall Street Braces for Nvidia Earnings and Bitcoin Slides - The Motley Fool (The Motley Fool)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNFM1VFRodVgxbUwxblVXUzJFNFhRSk5aRklrT3BOUU9tSHBLZ0pKRG5kcUlZZHNMcENGd0xORG9TUHUyb1AtWDl6VW9NZkF2UEdiLVJacDJyRXE1S2F5a3BzSGlsM3FyVGRiaGNYUEdtVDVGOTdPUzhSQUJmOUd1MDVhWnAzWlQxZktIR0ItQWRTU19RTTAwaXRpMUNueWlsTDZTV1IxOTJDckVSV0NHcEtyQkZxNjFtcVZ0ZjJYZHBGMjRzLVZLZFZzNEFwcHFyZzBZZncwTmpZMUpoa3Q0?oc=5",
-   "actifs": [
-    "BTC",
-    "NVDA"
-   ]
-  }
- },
- {
-  "t": "2026-11-16T18:38:56Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[chute, baleines] Ethereum (ETH) Crashed 26% in a Month: Can Whales Stop the Free Fall? - CryptoRank (CryptoRank)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaUdnQkFWRndOQ0l3ZXp6cUh2Q3FlaFBYOGgtT1Nha2Zyek0zUl9WSGVmNDllQTFTbHVpZF9BU2FHdmlqQ3drdjZJMWw1amJjU2VXZlR4Mmh1azRmckIyeEVlSG9SVW5ENlRRZ2tXM1pKaXhLNmNDenZINFZCTmlIaWpnYjVMbzBJbmN4N3RRanllaVRsRTdLTVVkSUh4VVc5ZVBQcw?oc=5",
-   "actifs": [
-    "ETH"
-   ]
-  }
- },
- {
-  "t": "2026-11-16T18:39:57Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "SHIB short ouvert à 3.515481e-06 | 49.28 € engagés | stop 3.63438e-06 | objectif 3.092859e-06 | risque 2.47 EUR",
-  "data": {
-   "id": "P0017"
-  }
- },
- {
   "t": "2026-11-16T18:39:57Z",
   "agent": "Trader de garde",
   "type": "entrée",
@@ -3072,5 +3038,23 @@
    "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV1lCUkY2aFpJT2FjV0VFemVNMXRlNnJLc2RUUDJBMUJCNzNscEVLTXpuMy02a2dEN3RXZnJwNVJtWVBwcG1GUjBUXzg4bFo1SHE3eXNsSzlOakR4alBfaHlMZXVxNWQ2TVpLNzNMQVR5NXFDaEt5ZFR5R2JhZkhiS0hWbmx6VlNKOTNvT05iZHFCYzQxR1lPUmVWM19BS1JyTHNpT29RMVJnbFhqd1RrME10MDdrM1dnc0ttRFp4WG00Y3prOHRMLQ?oc=5",
    "actifs": []
   }
+ },
+ {
+  "t": "2026-11-20T04:37:21Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AG, ALL, AMD, ANT, ASTS, CAPR, DOW, ETH, GLD, GME, GOOG, META"
+ },
+ {
+  "t": "2026-11-20T04:37:26Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "613 actifs hors univers analysés, 11 en mouvement : MEGA -13.7 %, TRUST -9.9 %, VVV -7.3 %."
+ },
+ {
+  "t": "2026-11-20T04:37:26Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "HOOD -1.51 % en 15 min"
  }
 ]

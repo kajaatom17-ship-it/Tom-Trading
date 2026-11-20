@@ -1587,6 +1587,13 @@
  ],
  "alertes": [
   {
+   "sym": "HOOD",
+   "horizon": "15 min",
+   "variation_pct": -1.51,
+   "prix": 60.97416503394541,
+   "t": "2026-11-20T04:37:26Z"
+  },
+  {
    "sym": "PROS",
    "horizon": "15 min",
    "variation_pct": 3.4,
@@ -1606,13 +1613,6 @@
    "variation_pct": -2.72,
    "prix": 6.163,
    "t": "2026-11-20T02:07:48Z"
-  },
-  {
-   "sym": "HOOD",
-   "horizon": "15 min",
-   "variation_pct": -1.58,
-   "prix": 61.403268635878355,
-   "t": "2026-11-20T02:05:51Z"
   },
   {
    "sym": "CRCL",
@@ -1723,5 +1723,5 @@
  ],
  "t_actus": "2026-11-20T04:31:39Z",
  "erreurs_sources": [],
- "t": "2026-11-20T04:35:26Z"
+ "t": "2026-11-20T04:37:26Z"
 }
