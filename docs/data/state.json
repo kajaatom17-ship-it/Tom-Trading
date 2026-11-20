@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56228.6,
+   "dernier_prix": 56071.4,
    "atr": 598.5359,
    "rollover": 0.3772178490553397,
    "rollover_periodes": 21
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T05:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.406e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 534.1674336379956,
+   "dernier_prix": 533.3612786819515,
    "atr": 2.771652,
    "rollover": 0.05776708022528948,
    "rollover_periodes": 3
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.90265083516343,
+   "dernier_prix": 96.90353387158505,
    "atr": 1.08547,
    "rollover": 0.0458199639113335,
    "rollover_periodes": 3
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 584.0129762436326,
+   "dernier_prix": 584.0182981282692,
    "atr": 3.304099,
    "rollover": 0.05770838039759388,
    "rollover_periodes": 3
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T05:28:42Z",
+ "maj": "2026-11-20T05:30:45Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,7 +152,7 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T05:24:51Z",
+ "chasseur_t": "2026-11-20T05:30:38Z",
  "tendance": [
   "BTC",
   "ANTHROPIC",
@@ -174,17 +174,17 @@
  "buzz": {
   "SPY": {
    "source": "Reddit + StockTwits",
-   "mentions": 694,
+   "mentions": 696,
    "x_vs_hier": 2.3
   },
   "AMD": {
    "source": "Reddit + StockTwits",
-   "mentions": 565,
+   "mentions": 566,
    "x_vs_hier": 2.9
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 385,
+   "mentions": 386,
    "x_vs_hier": 2.1
   },
   "GOOG": {
@@ -193,44 +193,49 @@
    "x_vs_hier": 2.3
   },
   "VOO": {
-   "source": "Reddit + StockTwits",
-   "mentions": 123,
+   "source": "Reddit",
+   "mentions": 121,
    "x_vs_hier": 2.1
   },
   "GME": {
-   "source": "Reddit + StockTwits",
-   "mentions": 80,
-   "x_vs_hier": 3.6
+   "source": "Reddit",
+   "mentions": 81,
+   "x_vs_hier": 4.0
   },
   "SOXL": {
    "source": "Reddit",
-   "mentions": 58,
-   "x_vs_hier": 2.1
+   "mentions": 59,
+   "x_vs_hier": 2.2
   },
   "DOW": {
    "source": "Reddit",
-   "mentions": 57,
-   "x_vs_hier": 3.8
+   "mentions": 58,
+   "x_vs_hier": 3.9
   },
   "GLD": {
    "source": "Reddit + StockTwits",
    "mentions": 44,
    "x_vs_hier": 2.9
   },
+  "YOU": {
+   "source": "Reddit",
+   "mentions": 42,
+   "x_vs_hier": 2.0
+  },
   "META": {
    "source": "Reddit",
    "mentions": 40,
    "x_vs_hier": 2.2
   },
+  "TQQQ": {
+   "source": "Reddit + StockTwits",
+   "mentions": 33,
+   "x_vs_hier": 5.5
+  },
   "ALL": {
    "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 2.5
-  },
-  "TQQQ": {
-   "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 5.3
+   "mentions": 31,
+   "x_vs_hier": 2.4
   },
   "ANT": {
    "source": "StockTwits",
@@ -247,7 +252,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
+  "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "APLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -257,7 +267,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
+  "ORCL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -272,78 +287,38 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ASTS": {
+  "WULF": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-20T05:13:14Z",
- "sources_t": "2026-11-20T05:10:18Z",
+ "buzz_t": "2026-11-20T05:30:39Z",
+ "sources_t": "2026-11-20T05:30:43Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "neutral",
-   "titres": [
-    "Ledger CTO Charles Guillemet leaves at end of 2026 to start security company",
-    "The End Of Man: The Real Danger Isn't Artificial Intelligence"
-   ]
-  },
-  {
-   "sujet": "Bitcoin",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "🚨🚨 This is a five-alarm fire moment for Bitcoin",
-    "Bitcoin Could Suffer a 1929-Style Crash Ahead of the Anthropic IPO, BitMEX Co-Founder Says"
+    "Pony AI’s robotaxi fares surge nearly 400% but its operating losses barely budge",
+    "DXC Technology Partners With Cisco to Speed AI-Driven Network Incident Resolution"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH 15m: if/then plan for a retrace into supply",
-    "ETH: Entry Points and Market Scenarios"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Anza readies Solana direct mapping for mainnet but sets no activation date",
-    "DCTY dropped over 72% in 24 hours, with its current market capitalization at $3.8 million."
-   ]
-  },
-  {
-   "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Crypto Pundit Expects an XRP Rally That Could 'Retire Many People' Before 2026 Ends"
+    "ethereum’s downtrend deepens: $1,450 next"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "Bitcoin",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling"
+    "🚨🚨 This is a five-alarm fire moment for Bitcoin"
    ]
   }
  ],
