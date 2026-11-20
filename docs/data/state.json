@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:49:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56349.0,
+   "dernier_prix": 56408.0,
    "atr": 598.5359,
    "rollover": 0.3772178490553397,
    "rollover_periodes": 21
@@ -44,10 +44,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T05:49:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.405e-06,
+   "dernier_prix": 3.423e-06,
    "atr": 3.5634e-08,
    "rollover": 0.19712131656648835,
    "rollover_periodes": 20
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:50:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 533.8278715415739,
+   "dernier_prix": 533.8035484841029,
    "atr": 2.771652,
    "rollover": 0.05776708022528948,
    "rollover_periodes": 3
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:50:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.90883242809754,
+   "dernier_prix": 96.90441692410036,
    "atr": 1.08547,
    "rollover": 0.0458199639113335,
    "rollover_periodes": 3
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T05:50:00Z",
+   "verifie_jusqu_a": "2026-11-20T05:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 584.0502314730434,
+   "dernier_prix": 584.0236201098992,
    "atr": 3.304099,
    "rollover": 0.05770838039759388,
    "rollover_periodes": 3
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T05:50:04Z",
+ "maj": "2026-11-20T05:51:05Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -289,31 +289,65 @@
   }
  },
  "buzz_t": "2026-11-20T05:48:06Z",
- "sources_t": "2026-11-20T05:30:43Z",
+ "sources_t": "2026-11-20T05:51:04Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "mentions": 6,
+   "sentiment": "bullish",
    "titres": [
-    "Pony AI’s robotaxi fares surge nearly 400% but its operating losses barely budge",
-    "DXC Technology Partners With Cisco to Speed AI-Driven Network Incident Resolution"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "ethereum’s downtrend deepens: $1,450 next"
+    "Japanese investors sought $9.4 billion in Anthropic IPO shares but got $2.98 billion",
+    "彭博经济学家：Anthropic 大规模 IPO 或成 AI 行情最后一波燃料"
    ]
   },
   {
    "sujet": "Bitcoin",
+   "mentions": 5,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin One More Dip Before the Next Major Rally to $150K?",
+    "矿企 PowerCompute 出售 267 枚 BTC 偿还近 2,200 万美元债务"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Crypto Price Analysis, BTC, ETH, NEAR, SKY and ZEC, Nov. 20: Bitcoin Closes Below Its Weekend Low as Sky Volume Surges",
+    "ethereum’s downtrend deepens: $1,450 next"
+   ]
+  },
+  {
+   "sujet": "Cardano",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "🚨🚨 This is a five-alarm fire moment for Bitcoin"
+    "Hoskinson Highlights Cardano Biggest Weakness Despite Major Technical Progress"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "SEC Charges 8 Entities in $37 Million Fake Crypto Platform Case"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "比特币现货 ETF 昨日总净流出 5.82 亿美元，贝莱德 IBIT 净流出 5.41 亿美元居首"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "比特币现货 ETF 昨日总净流出 5.82 亿美元，贝莱德 IBIT 净流出 5.41 亿美元居首"
    ]
   }
  ],
