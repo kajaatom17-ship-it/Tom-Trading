@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T12:42:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:43:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56024.3,
+   "dernier_prix": 56069.0,
    "atr": 598.5359,
    "rollover": 0.4131433584891816,
    "rollover_periodes": 23
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T12:42:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:43:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.348e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T12:42:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:43:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 523.9188462834915,
+   "dernier_prix": 523.9236193356777,
    "atr": 2.771652,
    "rollover": 0.0770227736337193,
    "rollover_periodes": 4
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T12:42:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:43:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.57729554419818,
+   "dernier_prix": 96.57817539128692,
    "atr": 1.08547,
    "rollover": 0.061093285215111336,
    "rollover_periodes": 4
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T12:42:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:43:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 579.0264833693187,
+   "dernier_prix": 579.0317584680138,
    "atr": 3.304099,
    "rollover": 0.07694450719679184,
    "rollover_periodes": 4
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T12:42:19Z",
+ "maj": "2026-11-20T12:43:16Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -294,24 +294,24 @@
   }
  },
  "buzz_t": "2026-11-20T12:34:32Z",
- "sources_t": "2026-11-20T12:22:56Z",
+ "sources_t": "2026-11-20T12:43:16Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "BTCUSD – Bearish market structure and potential continuation",
-    "Bitcoin volatility gauges climb as traders pay up for protection"
+    "Bitcoin-Backed Lending Goes Live On Sui As Hashi Launches With 20+ Partners",
+    "‘Complete Fraud’: Peter Schiff Tears Into Saylor’s Strategy as Bitcoin Sinks"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "David Tepper trims Amazon, makes Micron his biggest bet",
-    "Anthropic shares fall 8% in premarket amid AI selloff as Nvidia, AMD shares drop"
+    "Signal blocks screenshots to keep AI agents out of your chats",
+    "Anthropic ranks as the world’s seventh most valuable company after $81.3 billion IPO"
    ]
   },
   {
@@ -324,6 +324,23 @@
    ]
   },
   {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion",
+    "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion"
+   ]
+  },
+  {
    "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
@@ -333,14 +350,6 @@
   },
   {
    "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings"
-   ]
-  },
-  {
-   "sujet": "ETF",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
