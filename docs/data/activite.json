@@ -1,59 +1,5 @@
 [
  {
-  "t": "2026-11-17T19:26:47Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "TSLA short ouvert à 344.5867 | 99.60 € engagés | stop 352.0302 | objectif 318.9841 | risque 2.31 EUR",
-  "data": {
-   "id": "P0020"
-  }
- },
- {
-  "t": "2026-11-17T19:26:47Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée SWG-1 : TSLA short, stop 352.0302, objectif 318.9841, risque 2.31 €."
- },
- {
-  "t": "2026-11-17T19:26:47Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 7 signal(aux) : SUI short (SWG-1, 80), TSLA short (SWG-1, 70), AVAX short (SWG-1, 70)"
- },
- {
-  "t": "2026-11-17T19:29:32Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "609 actifs hors univers analysés, 9 en mouvement : PROS +15.3 %, SPACE -13.4 %, ICP -10.0 %."
- },
- {
-  "t": "2026-11-17T21:26:56Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "NVDA short fermé (stop-loss) à 146.8269 : -4.24 € net",
-  "data": {
-   "id": "P0018"
-  }
- },
- {
-  "t": "2026-11-17T21:26:59Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, BP, HYPE, PENGU, ZEC, PEARL, INJ, SOL"
- },
- {
-  "t": "2026-11-17T21:27:00Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAOI, CCJ, COST, CSIQ, DIS, FUBO, GP, INTU, IT, JNUG, NKE, NTLA"
- },
- {
-  "t": "2026-11-17T21:27:03Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "609 actifs hors univers analysés, 6 en mouvement : PROS +18.4 %, SPACE -10.6 %, ICP -7.8 %."
- },
- {
   "t": "2026-11-17T21:27:04Z",
   "agent": "Chasseur de mouvements",
   "type": "vidéo",
@@ -2963,5 +2909,67 @@
    "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV1lCUkY2aFpJT2FjV0VFemVNMXRlNnJLc2RUUDJBMUJCNzNscEVLTXpuMy02a2dEN3RXZnJwNVJtWVBwcG1GUjBUXzg4bFo1SHE3eXNsSzlOakR4alBfaHlMZXVxNWQ2TVpLNzNMQVR5NXFDaEt5ZFR5R2JhZkhiS0hWbmx6VlNKOTNvT05iZHFCYzQxR1lPUmVWM19BS1JyTHNpT29RMVJnbFhqd1RrME10MDdrM1dnc0ttRFp4WG00Y3prOHRMLQ?oc=5",
    "actifs": []
   }
+ },
+ {
+  "t": "2026-11-20T10:00:22Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : XMR, PI, PEARL, HYPE, G, VVV, BTC, SOL"
+ },
+ {
+  "t": "2026-11-20T10:00:23Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAOI, ALL, AMD, AMPX, ANT, APLD, CAPR, DOW, FCEL, GLD, GME, GOOG"
+ },
+ {
+  "t": "2026-11-20T10:00:25Z",
+  "agent": "Spécialiste memecoins",
+  "type": "ajout actif",
+  "msg": "STBL ajouté à l'univers (catégorie Emergent, budget memecoin) : Impulsion -2.6 % en 15 min, volume x7.0, variation du jour -10.6 %"
+ },
+ {
+  "t": "2026-11-20T10:00:28Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "614 actifs hors univers analysés, 17 en mouvement : MEGA -14.6 %, TRUST -10.5 %, STBL -10.6 %. Ajoutés : STBL."
+ },
+ {
+  "t": "2026-11-20T10:00:39Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Earnings call transcript: Jumpgate Games posts 81% revenue growth in Q3 2026 (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-jumpgate-games-posts-81-revenue-growth-in-q3-2026-93CH-5041039",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-20T10:00:39Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[régulation, résultats] Earnings call transcript: PetroNor flags softer q4 2026 on workover issues (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-petronor-flags-softer-q4-2026-on-workover-issues-93CH-5041033",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-20T10:00:39Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Binance Exploit-Linked Wallet Moves About 197,500 ETH in 16 Minutes - www.tokenpost.com (www.tokenpost.com)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GbmdiZzlXczQybEFTSGVhY0d0Um5JbVZka2RhbFQxRkcyVHhxbTNpS2ZOQlRjWEVSM0Vmb2o2ZFlaYk5RZm5LRVh3dUFPN3cwd29LZE5LY3V3NDg?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-20T10:01:36Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : XRP short (SWG-1, 80)"
  }
 ]
