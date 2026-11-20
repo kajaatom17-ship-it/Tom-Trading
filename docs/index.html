@@ -259,6 +259,7 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 .bot-key ol{margin:8px 0 0 20px;font-size:14px;line-height:1.7}
 @media(min-width:1024px){.bot-bar{bottom:0;left:224px;padding:12px 28px}}
 body.on-coach #pnlBadge{display:none}
+body.coach-nokey .bot-bar,body.coach-nokey #botNew,body.coach-nokey .bot-tools label{display:none}
 .bot-bar .mic{width:44px;padding:0;background:var(--panel2);border:1px solid var(--line);color:var(--text);display:grid;place-items:center}
 .bot-bar .mic svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
 .bot-bar .mic.on{background:var(--down);border-color:var(--down);animation:micp 1.2s ease-in-out infinite}
@@ -399,7 +400,7 @@ body.on-coach #pnlBadge{display:none}
   <div class="panel"><h3>Règles en vigueur</h3><div id="rules" class="hint" style="font-size:14px;line-height:1.7"></div></div>
 </section>
 <section id="coach" hidden>
-  <div class="bot-tools"><label style="display:flex;gap:6px;align-items:center;color:var(--muted);margin-right:auto"><input type="checkbox" id="botSpeak"> Lire les réponses</label><button id="botNew" type="button">Nouvelle conversation</button><button id="botKeyBtn" type="button">Clés</button></div>
+  <div class="bot-tools"><label style="display:flex;gap:6px;align-items:center;color:var(--muted);margin-right:auto"><input type="checkbox" id="botSpeak"> Lire les réponses</label><button id="botNew" type="button">Nouvelle conversation</button><button id="botKeyBtn" type="button">Avancé : clés</button></div>
   <div class="panel bot-key" id="botKey" hidden>
     <h3>Brancher le coach</h3>
     <p class="hint" style="font-size:14px" id="botKeyState"></p>
@@ -920,6 +921,8 @@ function botMd(src){
 
 function botRender(){
   const box=$("botMsgs");
+  if(!botGet(BOT.keyName)){ box.innerHTML=`<div class="bot-m a" style="max-width:100%"><p><b>Parle au Coach dans Claude.</b> Pas de clé à créer : ça passe par ton abonnement Claude.</p><p>Le bouton ouvre ton projet « Trading ». Là-bas, j'ai accès au robot : je peux lire tes positions, prévenir le comité et passer des ordres fictifs si tu le décides.</p><p>Pour parler au lieu d'écrire, appuie sur le micro dans Claude.</p><a href="https://claude.ai/project/01a17881-fa3b-7782-a9c9-51e1e75ae3cb" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;height:48px;padding:0 18px;border-radius:12px;background:var(--amber);color:#1a1300;font-weight:600;text-decoration:none;margin-top:6px">Ouvrir le Coach dans Claude</a></div>`; document.body.classList.add("coach-nokey"); return; }
+  document.body.classList.remove("coach-nokey");
   if(!botHist.length){
     box.innerHTML=`<div class="bot-m a"><p>Salut Tom. Je suis ton coach trading. Je vois ton portefeuille fictif, tes positions, les prix et la veille de l'appli.</p><p>Pose-moi n'importe quelle question.</p></div>
     <div class="bot-sugg">${["Pourquoi on perd en ce moment ?","Explique-moi mes positions ouvertes","C'est quoi un stop-loss ?","Que dit le marché aujourd'hui ?"].map(q=>`<button type="button" data-q="${esc(q)}">${esc(q)}</button>`).join("")}</div>`;
@@ -929,7 +932,7 @@ function botRender(){
 }
 function botScroll(){ setTimeout(()=>window.scrollTo(0,document.body.scrollHeight),60); }
 function botKeyView(show){ $("botKey").hidden=!show; if(show){ $("botKeyIn").value=""; $("botGhIn").value=""; $("botKeyState").textContent=`Clé Claude : ${botGet(BOT.keyName)?"branchée":"manquante"}. Clé GitHub : ${botGet(GH.keyName)?"branchée":"manquante"}.`; } }
-function botOpen(){ botRender(); botKeyView(!botGet(BOT.keyName)); botScroll(); }
+function botOpen(){ botRender(); botKeyView(false); botScroll(); }
 
 
 const GH={owner:"kajaatom17-ship-it",repo:"Tom-Trading",keyName:"coach_gh"};
@@ -1089,14 +1092,14 @@ $("botKeySave").addEventListener("click",()=>{ const v=$("botKeyIn").value.repla
   if(v&&!/^sk-ant-/.test(v)){ $("botKeyIn").setCustomValidity("La clé Claude commence par sk-ant-"); $("botKeyIn").reportValidity(); return; } $("botKeyIn").setCustomValidity("");
   if(g&&!/^(github_pat_|ghp_)/.test(g)){ $("botGhIn").setCustomValidity("La clé GitHub commence par github_pat_"); $("botGhIn").reportValidity(); return; } $("botGhIn").setCustomValidity("");
   if(v) botSet(BOT.keyName,v); if(g) botSet(GH.keyName,g);
-  if(botGet(BOT.keyName)){ botKeyView(false); $("botIn").focus(); } else botKeyView(true); });
-$("botKeyDel").addEventListener("click",()=>{ botSet(BOT.keyName,null); botSet(GH.keyName,null); botKeyView(true); });
+  botKeyView(false); botRender(); if(botGet(BOT.keyName)) $("botIn").focus(); });
+$("botKeyDel").addEventListener("click",()=>{ botSet(BOT.keyName,null); botSet(GH.keyName,null); botKeyView(false); botRender(); });
 $("botMicBtn").addEventListener("click",botMic);
 $("botStop").addEventListener("click",()=>{ try{speechSynthesis.cancel();}catch(e){} $("botStop").hidden=true; });
 $("botSpeak").addEventListener("change",e=>{ BOT.speak=e.target.checked; botSet("coach_speak",e.target.checked?"1":null); });
 BOT.speak=!!botGet("coach_speak"); $("botSpeak").checked=BOT.speak;
 
-const BUILD="20261120a";
+const BUILD="20261120b";
 function hardReload(){ const u=new URL(location.href); u.searchParams.set("v",Date.now()); location.replace(u.toString()); }
 $("btnRefresh").addEventListener("click",()=>{ $("btnRefresh").classList.add("spin"); hardReload(); });
 async function checkVersion(){ try{ const r=await fetch(location.pathname+"?t="+Date.now(),{cache:"no-store"}); const m=(await r.text()).match(/const BUILD="([^"]+)"/); if(m&&m[1]!==BUILD) hardReload(); }catch(e){} }
