@@ -1,27 +1,5 @@
 [
  {
-  "t": "2026-11-20T02:04:49Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 10 signal(aux) : XRP short (SWG-1, 80), LINK short (SWG-1, 80), AVAX short (SWG-1, 80)"
- },
- {
-  "t": "2026-11-20T02:05:47Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "614 actifs hors univers analysés, 2 en mouvement : TRUST -8.5 %, QNT -4.2 %."
- },
- {
-  "t": "2026-11-20T02:05:51Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[régulation, ETF] Historical Data for State Street Financial Sel Sec SPDR ETF (Derivatives) in USD - CryptoRank (CryptoRank)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaTFnQWxrU1ZvbzZHNXZXb2o2ZHlDTnVGNWRyVEUyVFVPSld0WEVRNjJpOWNBWGI1TG5CRWljMHBoVlYtNFJqOUhVcTNYUkZMYkdaVGhUTzJ2TDRiTHdHSF81S20wR1RlSFFtWS1TZ2FzV0lYbURFODFEMGMyVzBSelFiZ3MwNEFwMVVpRk5XV29yQVlraFN0S3NvVQ?oc=5",
-   "actifs": []
-  }
- },
- {
   "t": "2026-11-20T02:08:47Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2735,5 +2713,23 @@
   "data": {
    "lien": "https://www.youtube.com/watch?v=qK2Z_0go_Ek"
   }
+ },
+ {
+  "t": "2026-11-20T23:38:39Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, ETH, PEARL, LIT, BP, PENGU, HYPE, XRP"
+ },
+ {
+  "t": "2026-11-20T23:38:40Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, AMBA, AVGO, BB, BTC, CAPR, CLF, COST, CRWD, CSIQ, EU, GIS"
+ },
+ {
+  "t": "2026-11-20T23:38:45Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 59 en mouvement : MEGA -17.6 %, KNTQ -14.7 %, SKHY -10.2 %."
  }
 ]
