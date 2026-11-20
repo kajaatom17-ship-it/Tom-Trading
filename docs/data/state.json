@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 70.65730745276925,
+ "cash": 70.60354231125784,
  "positions": [
   {
    "id": "P0016",
@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:51:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 55939.7,
+   "dernier_prix": 55936.5,
    "atr": 598.5359,
    "rollover": 0.3772178490553397,
    "rollover_periodes": 21
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T04:51:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.387e-06,
@@ -68,13 +68,13 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:51:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 534.7209565122298,
+   "dernier_prix": 534.7160835847011,
    "atr": 2.771652,
-   "rollover": 0.03851138681685965,
-   "rollover_periodes": 2
+   "rollover": 0.05776708022528948,
+   "rollover_periodes": 3
   },
   {
    "id": "P0023",
@@ -92,13 +92,13 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:51:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.92705865198847,
+   "dernier_prix": 96.92617535290205,
    "atr": 1.08547,
-   "rollover": 0.030546642607555668,
-   "rollover_periodes": 2
+   "rollover": 0.0458199639113335,
+   "rollover_periodes": 3
   },
   {
    "id": "P0024",
@@ -116,16 +116,16 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:51:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 584.0502314730434,
+   "dernier_prix": 584.0449090064064,
    "atr": 3.304099,
-   "rollover": 0.03847225359839592,
-   "rollover_periodes": 2
+   "rollover": 0.05770838039759388,
+   "rollover_periodes": 3
   }
  ],
- "frais_cumules": 12.466382281670356,
+ "frais_cumules": 12.520147423181761,
  "pnl_realise": -19.413199427475774,
  "pic_equity": 507.06477718531966,
  "entrees_par_jour": {
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T04:51:56Z",
+ "maj": "2026-11-20T04:52:53Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
