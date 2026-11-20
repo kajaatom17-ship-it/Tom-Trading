@@ -1,38 +1,5 @@
 [
  {
-  "t": "2026-11-16T16:33:37Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "607 actifs hors univers analysés, 6 en mouvement : SPACE +11.6 %, ICP +9.8 %, JUP -7.3 %."
- },
- {
-  "t": "2026-11-16T16:35:41Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "BTC short ouvert à 58726.12 | 89.81 € engagés | stop 61000.42 | objectif 51296.74 | risque 4.94 EUR",
-  "data": {
-   "id": "P0016"
-  }
- },
- {
-  "t": "2026-11-16T16:35:41Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée SWG-1 : BTC short, stop 61000.42, objectif 51296.74, risque 4.94 €."
- },
- {
-  "t": "2026-11-16T16:35:41Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 19 signal(aux) : BTC short (SWG-1, 80), SOL short (SWG-1, 80), XRP short (SWG-1, 80)"
- },
- {
-  "t": "2026-11-16T16:38:19Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "607 actifs hors univers analysés, 9 en mouvement : ICP +10.6 %, SPACE +10.9 %, JUP -6.7 %."
- },
- {
   "t": "2026-11-16T18:38:32Z",
   "agent": "Trader de garde",
   "type": "protection",
@@ -3057,5 +3024,54 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 5 signal(aux) : AVAX short (SWG-1, 80), ADA short (SWG-1, 70), SUI short (SWG-1, 70)"
+ },
+ {
+  "t": "2026-11-20T04:02:03Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AG, AGI, ALL, AMD, ANT, APLD, ASTS, AVAV, BB, DOW, GDXU, GLD"
+ },
+ {
+  "t": "2026-11-20T04:02:07Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "613 actifs hors univers analysés, 8 en mouvement : MEGA -12.2 %, TRUST -10.0 %, JUP -6.8 %."
+ },
+ {
+  "t": "2026-11-20T04:02:11Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Wallet Allegedly Tied to Binance Hack Moves Nearly $250M in ETH - Bitcoin Foundation (Bitcoin Foundation)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTG1lb1pyTU9vV3Y1QzA5a3hMSXZvUmViRHJJUGhHLVBFS3h3emhsVkplYlhfSWd3Q2laOTluWmtPZXFWZTZOX1FVaUo3RjB3elVQVGlGVjBtQnFGbERyUmhTd1NiY0lFQXhiYmRycGM4VktnWFZnNUFDY2ZkbmJndDdicFk5ZVNyWHRicWJfbFBxV2xFWkE4YkZnb2dGNVNBSmtRWlJTY0w3RXc?oc=5",
+   "actifs": [
+    "BTC",
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-20T04:02:11Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Ethereum block builders receive largest share of proceeds in K3 Capital vault hack - Traders Union (Traders Union)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVlBnQ0FwVUY1RzJ5UWl0SXcxTTlrSmZEdzdUQ19zU1c0alg1V0txUUJnRUVlUWZOc3Bvd2ZhQURGOURFTTRhbTNuQWk0M1VYakVBWVFUOUJ5alRpNV9sdjlGSDBBdDVDajJVMU1ndVRKWG94WWxSZTJyZ1hBWVJfQlVGOVJMeVlHcXJlOWZmbEpYUFV1SmJZZUhMTHUxdjRvZVZZ?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-20T04:02:11Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Ethereum block builders received the most in a $3.4 million vault hack, data shows (CoinDesk)",
+  "data": {
+   "lien": "https://www.coindesk.com/tech/2026/11/19/ethereum-block-builders-received-the-most-in-a-usd3-4-million-vault-hack-data-shows",
+   "actifs": [
+    "ETH"
+   ]
+  }
  }
 ]
