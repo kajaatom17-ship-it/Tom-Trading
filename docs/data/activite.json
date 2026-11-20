@@ -1,15 +1,6 @@
 [
  {
   "t": "2026-11-17T10:41:02Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "AMD short ouvert à 456.3203 | 89.48 € engagés | stop 480.8073 | objectif 379.2272 | risque 4.95 EUR",
-  "data": {
-   "id": "P0019"
-  }
- },
- {
-  "t": "2026-11-17T10:41:02Z",
   "agent": "Trader de garde",
   "type": "entrée",
   "msg": "Entrée SWG-1 : AMD short, stop 480.8073, objectif 379.2272, risque 4.95 €."
@@ -3010,5 +3001,15 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "613 actifs hors univers analysés, 4 en mouvement : MEGA -14.3 %, TRUST -9.9 %, JUP -6.8 %."
+ },
+ {
+  "t": "2026-11-20T06:09:22Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[banque centrale, résultats] Fed's Paulson backs further rate hikes, says shared understanding beats guidance - Durham Herald Sun (Durham Herald Sun)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwbXQ0UVptZlZNZ0hoUGtpWWJTcXFmdlBDdnlxeTZIQlFwSWM1bUpIVnFzbW1jZDZvNFRzUVdTallTcVg5dnFFMjkxWDdCelhVMDExdGhseWVkaWZDak5LTzl4YkxZTkJxSzRxR1M1UFN1WFVBNnBtUUNxandpNWM?oc=5",
+   "actifs": []
+  }
  }
 ]
