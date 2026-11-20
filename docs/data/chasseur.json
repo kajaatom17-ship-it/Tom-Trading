@@ -1,9 +1,8 @@
 {
- "t": "2026-11-20T00:17:38Z",
+ "t": "2026-11-20T00:23:35Z",
  "nb_analyses": 615,
  "nb_en_mouvement": 3,
  "tendance": [
-  "AG",
   "AGI",
   "ALL",
   "AMD",
@@ -18,51 +17,52 @@
   "GLD",
   "GME",
   "GOOG",
-  "GTBIF",
   "HYPE",
   "INSM",
   "INTU",
   "KAS",
   "LIT",
   "NEAR",
+  "NTDOY",
   "PEARL",
   "PENGU",
   "QQQ",
-  "QQQI",
   "SHIB",
   "SKY",
   "SLV",
   "SOFI",
   "SOXL",
+  "SPX",
   "SPY",
   "SUI",
   "TQQQ",
   "VCX",
   "VOO",
   "VVV",
+  "VXX",
   "YOU",
   "ZEC"
  ],
  "buzz_reseaux": {
   "SPY": {
    "source": "Reddit",
-   "mentions": 629,
+   "mentions": 640,
    "x_vs_hier": 2.1
   },
   "AMD": {
    "source": "Reddit + StockTwits",
-   "mentions": 511,
-   "x_vs_hier": 2.8
+   "mentions": 520,
+   "x_vs_hier": 2.9
   },
   "QQQ": {
    "source": "Reddit + StockTwits",
-   "mentions": 361,
+   "mentions": 364,
    "x_vs_hier": 2.1
   },
   "GOOG": {
    "source": "Reddit",
-   "mentions": 138,
-   "x_vs_hier": 2.5
+   "mentions": 139,
+   "x_vs_hier": 2.6
   },
   "VOO": {
    "source": "Reddit",
@@ -71,8 +71,8 @@
   },
   "GME": {
    "source": "Reddit + StockTwits",
-   "mentions": 66,
-   "x_vs_hier": 2.4
+   "mentions": 67,
+   "x_vs_hier": 2.5
   },
   "SOXL": {
    "source": "Reddit",
@@ -86,18 +86,18 @@
   },
   "YOU": {
    "source": "Reddit",
-   "mentions": 42,
-   "x_vs_hier": 2.3
-  },
-  "ALL": {
-   "source": "Reddit",
-   "mentions": 32,
+   "mentions": 43,
    "x_vs_hier": 2.5
   },
   "TQQQ": {
    "source": "Reddit",
    "mentions": 32,
    "x_vs_hier": 4.0
+  },
+  "ALL": {
+   "source": "Reddit",
+   "mentions": 31,
+   "x_vs_hier": 2.4
   },
   "AGI": {
    "source": "Reddit",
@@ -139,6 +139,11 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "NTDOY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "VCX": {
    "source": "StockTwits",
    "mentions": null,
@@ -149,17 +154,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "GTBIF": {
+  "VXX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QQQI": {
+  "SPX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -171,7 +171,7 @@
    "pair": "ENAEUR",
    "action": false,
    "variation_24h_pct": -6.18,
-   "volume_24h_eur": 421674.64,
+   "volume_24h_eur": 421242.64,
    "spread_pct": 0.1046,
    "tendance": false,
    "impulsion": null
@@ -182,7 +182,7 @@
    "action": false,
    "variation_24h_pct": 5.27,
    "volume_24h_eur": 72865.53,
-   "spread_pct": 0.3832,
+   "spread_pct": 0.2874,
    "tendance": false,
    "impulsion": null
   },
@@ -191,8 +191,8 @@
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": -3.85,
-   "volume_24h_eur": 252657.37,
-   "spread_pct": 0.0506,
+   "volume_24h_eur": 252682.71,
+   "spread_pct": 0.0253,
    "tendance": false,
    "impulsion": null
   }
