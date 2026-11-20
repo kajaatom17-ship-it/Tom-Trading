@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-20T01:54:12Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "MSTR -1.58 % en 15 min"
- },
- {
-  "t": "2026-11-20T01:55:10Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ARB -2.98 % en 15 min"
- },
- {
-  "t": "2026-11-20T01:55:10Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "BONK -2.62 % en 15 min"
- },
- {
   "t": "2026-11-20T01:55:10Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2718,5 +2700,35 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "610 actifs hors univers analysés, 62 en mouvement : MEGA -16.9 %, KNTQ -15.5 %, BLUAI -14.4 %."
+ },
+ {
+  "t": "2026-11-20T22:56:46Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "610 actifs hors univers analysés, 61 en mouvement : MEGA -16.9 %, KNTQ -15.5 %, BLUAI -14.3 %."
+ },
+ {
+  "t": "2026-11-20T22:57:07Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[régulation, chute] Stock Market Today, Nov. 20: Nvidia's $2.5 Trillion Rout Deepens as SEC Accounting Probe Adds to Wall Street's AI Sell-Off - The Motley Fool (The Motley Fool)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNdUhHRHVEUDBOY2ktQlJSWGRTc2V2Q3VmdnYtRG9hdlVVdWQtd2lZdmdDODRWelA3eFkwaDBRTE16bXVFYnNRUGhyYmlSclFLOHJLWEtIS0l3aTV3YU5ZS25iU1R2OFp3SmRSang1a1JibjhpMi1kTS1tOC1oejhuV0pTVUx3ZWNKV0RRLUNydFRYanJqeXZmenJRV1FScXlwX2NjRWU5ajN3eDk3ZmZRY1NTOHV3dzNaRVN4dWJDT1BzN1c4LVBDMF93RW5XWHBqWi1OZWpSQTAtNlRIYXNCMVlDNnFNY1EwQktzbm56NUh5QXR2QmxUemNUcWJmSDJISjctS2RWZjJYNTlKUVNr?oc=5",
+   "actifs": [
+    "NVDA"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-20T22:57:07Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage, chute] Wrapped Monero Token XMR1 Crashes After $13M Exploit, Founder Vows Repayment - Bitcoin News (Bitcoin News)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWl93MzNPdllxV2I3XzlEYjhpaGZVTjV1SUNHekp5SUt4NU5wUzlhQmFyM3lDMXRXSFc0WGJDZ1JLa0NGQVRoRWN4TXBpODlleTF5TWR4YWRsbEkta29jOENhRUN4NnlaTG9uanp2ZktESlF1UDhReGs1WkVnMmdWMmhrU01yZjlvZlhORlZaN0RRYkZ4WUQ1c2xqdTNHeThrNEVTVkdR?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
  }
 ]
