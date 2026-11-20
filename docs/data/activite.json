@@ -3,33 +3,6 @@
   "t": "2026-11-19T19:38:04Z",
   "agent": "Chasseur de mouvements",
   "type": "vidéo",
-  "msg": "Nouvelle vidéo de Cryptoast (FR) : Ledger Atom™ : ce que personne ne vous dit sur ce nouvel appareil",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=WXDnWVt-6tI"
-  }
- },
- {
-  "t": "2026-11-19T19:38:04Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Cryptoast (FR) : Acheter du Bitcoin dans GTA 6 ? 👀",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=QExTfL947qo"
-  }
- },
- {
-  "t": "2026-11-19T19:38:04Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Unchained : How Aztec Blockchain Can Flag North Korea's Stolen Funds Despite Being Private",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=oWgBJbK_Vs8"
-  }
- },
- {
-  "t": "2026-11-19T19:38:04Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
   "msg": "Nouvelle vidéo de Yahoo Finance : Market Hang (12:30–1:30 p.m. ET)",
   "data": {
    "lien": "https://www.youtube.com/watch?v=k6VLzFRcgQQ"
@@ -2791,5 +2764,39 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "612 actifs hors univers analysés, 23 en mouvement : MEGA -14.6 %, USELESS -13.2 %, ZEC -8.7 %."
+ },
+ {
+  "t": "2026-11-20T15:02:26Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[géopolitique, résultats] Earnings call transcript: Astarta Q3 2026 results hit by war, shares slip (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-astarta-q3-2026-results-hit-by-war-shares-slip-93CH-5042101",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-20T15:02:26Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Wendy O: NEAR Protocol SHIELD blocks most Bitget hack and Binance exploit flows - Traders Union (Traders Union)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONVpIZHZJRkw5NmtiN1BONEZfOUMtczhMS2t1MlVLR0ZYYy1YQzFrSHBRYnRwWFQ0aUZyLUFIajBqdERkYWNLVTNPSHlXRVdfLXgtSjA1d2cwTXhDTVJPam5aN2lKcGQ5Y0tFT1pETEVsNmZvUndPYkY4QXVDUFRWbnVhTU9yaGVJc1h0LUxsYkw?oc=5",
+   "actifs": [
+    "NEAR"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-20T15:02:26Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] A $3.4M @ethereum vault exploit took a wild turn! An MEV bot - KuCoin (KuCoin)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iRnNKUURRdzlLM2ROY2phYXdyUzJJaEZhb252YVBwOUZZNFN5VVZjN2JqeWpzQjVFNklXbWdZb2FlaEdjSldGUGYwek5WbGpKMEZMNXlQbk80SUpJa2J3ZVIwM0VrWlRNWnVvLWttNDY0dw?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
  }
 ]
