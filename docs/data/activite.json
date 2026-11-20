@@ -1,14 +1,5 @@
 [
  {
-  "t": "2026-11-18T18:11:48Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "TSLA short fermé (stop-loss) à 352.3822 : -2.47 € net",
-  "data": {
-   "id": "P0020"
-  }
- },
- {
   "t": "2026-11-18T18:11:50Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -2916,5 +2907,11 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "613 actifs hors univers analysés, 20 en mouvement : MEGA -13.2 %, USELESS -11.6 %, ZEC -8.6 %."
+ },
+ {
+  "t": "2026-11-20T12:06:29Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "CRCL -1.62 % en 15 min"
  }
 ]
