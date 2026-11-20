@@ -1,27 +1,5 @@
 [
  {
-  "t": "2026-11-17T19:24:45Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage, banque centrale] Fed’s Waller cites Binance hack in warning over tokenized finance (Cointelegraph)",
-  "data": {
-   "lien": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-17T19:24:45Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] Binance Hack Wallets Move $137 Million in Ethereum After Two Weeks of Silence (Decrypt)",
-  "data": {
-   "lien": "https://decrypt.co/383446/binance-hack-wallets-move-ethereum-after-two-weeks",
-   "actifs": [
-    "ETH"
-   ]
-  }
- },
- {
   "t": "2026-11-17T19:26:47Z",
   "agent": "Execution",
   "type": "ouverture",
@@ -2969,5 +2947,21 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "RARE +2.82 % en 15 min"
+ },
+ {
+  "t": "2026-11-20T07:26:52Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "613 actifs hors univers analysés, 10 en mouvement : MEGA -15.7 %, JUP -8.6 %, TRUST -9.0 %."
+ },
+ {
+  "t": "2026-11-20T07:26:55Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage, chute] SKY Crypto Price Crashes by 16% as Report Links $101.9M in Transactions to North Korean Hackers - CoinCodex (CoinCodex)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV1lCUkY2aFpJT2FjV0VFemVNMXRlNnJLc2RUUDJBMUJCNzNscEVLTXpuMy02a2dEN3RXZnJwNVJtWVBwcG1GUjBUXzg4bFo1SHE3eXNsSzlOakR4alBfaHlMZXVxNWQ2TVpLNzNMQVR5NXFDaEt5ZFR5R2JhZkhiS0hWbmx6VlNKOTNvT05iZHFCYzQxR1lPUmVWM19BS1JyTHNpT29RMVJnbFhqd1RrME10MDdrM1dnc0ttRFp4WG00Y3prOHRMLQ?oc=5",
+   "actifs": []
+  }
  }
 ]
