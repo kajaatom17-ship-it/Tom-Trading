@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T06:49:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56341.2,
+   "dernier_prix": 56336.5,
    "atr": 598.5359,
    "rollover": 0.3772178490553397,
    "rollover_periodes": 21
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T06:49:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.423e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T06:49:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 532.8604727391922,
+   "dernier_prix": 532.9952473733088,
    "atr": 2.771652,
    "rollover": 0.05776708022528948,
    "rollover_periodes": 3
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T06:49:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.53432640128202,
+   "dernier_prix": 97.52899830653531,
    "atr": 1.08547,
    "rollover": 0.0458199639113335,
    "rollover_periodes": 3
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T06:49:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.5365844775469,
+   "dernier_prix": 581.504816359233,
    "atr": 3.304099,
    "rollover": 0.05770838039759388,
    "rollover_periodes": 3
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T06:49:59Z",
+ "maj": "2026-11-20T06:52:02Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,25 +152,25 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T06:46:04Z",
+ "chasseur_t": "2026-11-20T06:51:53Z",
  "tendance": [
   "BTC",
-  "PEARL",
-  "XRP",
-  "ETH",
   "XMR",
-  "INJ",
-  "ENA",
+  "PEARL",
+  "EVAA",
+  "SKY",
+  "BP",
+  "ETH",
+  "AAVE",
   "PENGU",
-  "USDC",
-  "XLM",
-  "SOL",
   "HYPE",
-  "TAO",
-  "LIT",
-  "HBAR"
+  "APT",
+  "XRP",
+  "SUI",
+  "UNI",
+  "LINK"
  ],
- "tendance_t": "2026-11-20T05:48:05Z",
+ "tendance_t": "2026-11-20T06:51:53Z",
  "buzz": {
   "SPY": {
    "source": "Reddit + StockTwits",
@@ -299,23 +299,32 @@
   }
  },
  "buzz_t": "2026-11-20T06:40:18Z",
- "sources_t": "2026-11-20T06:31:36Z",
+ "sources_t": "2026-11-20T06:51:58Z",
  "actus_tendance": [
   {
    "sujet": "AI",
    "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "Report: Data center operator DayOne suspends U.S. IPO plans due to concerns over data centers and the market",
-    "European morning quote — Anthropic’s highly anticipated IPO fails to boost the artificial intelligence sector"
+    "SpaceX sells $32B in AI chip debt above 8% yield: report",
+    "Report: Data center operator DayOne suspends U.S. IPO plans due to concerns over data centers and the market"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Bitcoin",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Peter Brandt Warns Bitcoin Could Repeat 75% Historical Crashes, Putting $31K in Focus",
+    "Here’s what happened in crypto today"
+   ]
+  },
+  {
+   "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "币安合约将上线多个 U 本位 TradFi 永续合约"
+    "A $2.8 million XRP yield trade is about to mature, but the next two markets are 44 times smaller"
    ]
   },
   {
@@ -324,14 +333,6 @@
    "sentiment": "neutral",
    "titres": [
     "Could Ethereum (ETH) Fall to $1,500? Exchange Data Says Selling Pressure Is Building"
-   ]
-  },
-  {
-   "sujet": "Bitcoin",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Here’s what happened in crypto today"
    ]
   },
   {
