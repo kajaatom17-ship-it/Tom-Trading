@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T19:36:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 53200.3,
+   "dernier_prix": 53200.4,
    "atr": 598.5359,
    "rollover": 0.43110611320610254,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T19:36:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.199e-06,
+   "dernier_prix": 3.219e-06,
    "atr": 3.5634e-08,
    "rollover": 0.23654557987978597,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T19:36:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 513.6064975360466,
+   "dernier_prix": 513.6393089538481,
    "atr": 2.771652,
    "rollover": 0.11553416045057895,
    "rollover_periodes": 6
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T19:36:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 94.78006935572184,
+   "dernier_prix": 94.804376990682,
    "atr": 1.08547,
    "rollover": 0.091639927822667,
    "rollover_periodes": 6
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T19:36:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 560.5311188173024,
+   "dernier_prix": 561.9450047000629,
    "atr": 3.304099,
    "rollover": 0.11541676079518777,
    "rollover_periodes": 6
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T19:36:59Z",
+ "maj": "2026-11-20T19:37:58Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -339,51 +339,33 @@
   }
  },
  "buzz_t": "2026-11-20T19:28:05Z",
- "sources_t": "2026-11-20T19:17:58Z",
+ "sources_t": "2026-11-20T19:37:56Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 8,
-   "sentiment": "neutral",
+   "mentions": 7,
+   "sentiment": "bearish",
    "titres": [
-    "Anthropic IPO Is Live- AI Stocks Are Facing a Different Reality",
-    "Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues"
+    "Nvidia slips behind Alphabet to become fourth-most valuable US company",
+    "FEDS Note: When productivity booms, do interest rates rise?"
    ]
   },
   {
    "sujet": "Bitcoin",
    "mentions": 6,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Binance hack laundering accelerates as $149M in Bitcoin passes through coinjoins, Elliptic says",
-    "JPMorgan says Bitcoin price drop widens gap to $86,000 production cost"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Anthropic quickly finds itself already inside more than 80 ETFs",
-    "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure"
+    "TCB Daily Edition: What Happened in Crypto on November 20, 2026",
+    "The bears have taken control of Bitcoin."
    ]
   },
   {
    "sujet": "SEC/Regulation",
    "mentions": 3,
-   "sentiment": "bullish",
-   "titres": [
-    "Lumia CEO warns of liquidity risks ahead of OKXICE tokenized stock launch",
-    "Backpack secures CFTC approval with ‘novel but compliant’ approach"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
-    "ETHEREUM: THE DIP BUYERS ARE RUNNING OUT OF EXCUSES!"
+    "S&P 500 slips below 7,000 on reports of SEC probe into Nvidia",
+    "SEC opens civil probe into Nvidia over potential accounting issues"
    ]
   },
   {
@@ -391,26 +373,34 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
-    "Temporal CEO Marcryptonio pitches PropAMMs as Solana’s path to onchain options"
+    "TCB Daily Edition: What Happened in Crypto on November 20, 2026",
+    "Solana next target 51$ area"
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "Ethereum",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Binance hack laundering accelerates as $149M in Bitcoin passes through coinjoins, Elliptic says",
-    "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic"
+    "ETH: Entry Points and Market Scenarios",
+    "Ethereum -9.88%: new low 1,582, cap 1,711.08"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "ETF",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Binance hack laundering accelerates as $149M in Bitcoin passes through coinjoins, Elliptic says",
-    "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic"
+    "ARKK takes 60% of ARK's first-day Anthropic share purchase",
+    "Bitcoin ETF investors have a way to hedge during Thanksgiving’s 40+ hour trading gap"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "TCB Daily Edition: What Happened in Crypto on November 20, 2026"
    ]
   }
  ],
