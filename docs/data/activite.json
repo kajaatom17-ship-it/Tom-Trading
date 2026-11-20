@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-19T23:04:42Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
   "t": "2026-11-19T23:05:47Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2754,5 +2748,11 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "MSTR -1.62 % en 15 min"
+ },
+ {
+  "t": "2026-11-20T20:02:41Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : GOOGL short (SWG-1, 70)"
  }
 ]
