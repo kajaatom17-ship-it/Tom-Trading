@@ -1,7 +1,7 @@
 {
- "t": "2026-11-20T12:34:36Z",
- "nb_analyses": 613,
- "nb_en_mouvement": 22,
+ "t": "2026-11-20T12:40:25Z",
+ "nb_analyses": 612,
+ "nb_en_mouvement": 24,
  "tendance": [
   "AMD",
   "ANT",
@@ -167,12 +167,22 @@
  },
  "candidats": [
   {
+   "sym": "ZEC",
+   "pair": "ZECEUR",
+   "action": false,
+   "variation_24h_pct": -9.31,
+   "volume_24h_eur": 3977669.45,
+   "spread_pct": 0.0636,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "MEGA",
    "pair": "MEGAEUR",
    "action": false,
    "variation_24h_pct": -12.7,
-   "volume_24h_eur": 63722.96,
-   "spread_pct": 0.2776,
+   "volume_24h_eur": 63689.54,
+   "spread_pct": 0.1922,
    "tendance": false,
    "impulsion": null
   },
@@ -181,18 +191,8 @@
    "pair": "USELESSEUR",
    "action": false,
    "variation_24h_pct": -11.52,
-   "volume_24h_eur": 169791.66,
-   "spread_pct": 0.2736,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "ZEC",
-   "pair": "ZECEUR",
-   "action": false,
-   "variation_24h_pct": -8.94,
-   "volume_24h_eur": 3948804.87,
-   "spread_pct": 0.0626,
+   "volume_24h_eur": 169170.61,
+   "spread_pct": 0.1617,
    "tendance": false,
    "impulsion": null
   },
@@ -200,9 +200,9 @@
    "sym": "SPX",
    "pair": "SPXEUR",
    "action": false,
-   "variation_24h_pct": -9.67,
-   "volume_24h_eur": 103615.58,
-   "spread_pct": 0.1202,
+   "variation_24h_pct": -10.86,
+   "volume_24h_eur": 104054.87,
+   "spread_pct": 0.3249,
    "tendance": true,
    "impulsion": null
   },
@@ -211,8 +211,8 @@
    "pair": "SKYEUR",
    "action": false,
    "variation_24h_pct": -8.2,
-   "volume_24h_eur": 708104.31,
-   "spread_pct": 0.0766,
+   "volume_24h_eur": 706236.32,
+   "spread_pct": 0.1276,
    "tendance": false,
    "impulsion": null
   },
@@ -220,25 +220,11 @@
    "sym": "XMR",
    "pair": "XMREUR",
    "action": false,
-   "variation_24h_pct": -7.65,
-   "volume_24h_eur": 1602708.44,
-   "spread_pct": 0.1809,
+   "variation_24h_pct": -7.63,
+   "volume_24h_eur": 1606949.81,
+   "spread_pct": 0.0952,
    "tendance": true,
    "impulsion": null
-  },
-  {
-   "sym": "ANT",
-   "pair": "ANTxUSD",
-   "action": true,
-   "variation_24h_pct": -6.45,
-   "volume_24h_eur": 17427408.16,
-   "spread_pct": 0.0114,
-   "tendance": true,
-   "impulsion": {
-    "sens": "short",
-    "mouvement_pct": -1.34,
-    "volume_x": 3.5
-   }
   },
   {
    "sym": "TRUST",
@@ -246,12 +232,20 @@
    "action": false,
    "variation_24h_pct": -9.13,
    "volume_24h_eur": 114837.43,
-   "spread_pct": 0.2331,
+   "spread_pct": 0.1907,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "JUP",
+   "pair": "JUPEUR",
+   "action": false,
+   "variation_24h_pct": -7.68,
+   "volume_24h_eur": 446913.1,
+   "spread_pct": 0.0904,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": [
-  "ANT"
- ]
+ "ajoutes": []
 }
