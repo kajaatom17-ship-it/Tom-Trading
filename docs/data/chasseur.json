@@ -1,7 +1,7 @@
 {
- "t": "2026-11-20T06:05:33Z",
+ "t": "2026-11-20T06:11:20Z",
  "nb_analyses": 613,
- "nb_en_mouvement": 4,
+ "nb_en_mouvement": 5,
  "tendance": [
   "ALL",
   "AM",
@@ -180,9 +180,19 @@
    "sym": "TRUST",
    "pair": "TRUSTEUR",
    "action": false,
-   "variation_24h_pct": -9.88,
-   "volume_24h_eur": 106178.31,
-   "spread_pct": 0.235,
+   "variation_24h_pct": -9.82,
+   "volume_24h_eur": 106191.99,
+   "spread_pct": 0.2989,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "BMT",
+   "pair": "BMTEUR",
+   "action": false,
+   "variation_24h_pct": 9.18,
+   "volume_24h_eur": 45062.0,
+   "spread_pct": 0.3504,
    "tendance": false,
    "impulsion": null
   },
@@ -192,7 +202,7 @@
    "action": false,
    "variation_24h_pct": -6.83,
    "volume_24h_eur": 297054.28,
-   "spread_pct": 0.1509,
+   "spread_pct": 0.1085,
    "tendance": false,
    "impulsion": null
   },
@@ -200,9 +210,9 @@
    "sym": "ANT",
    "pair": "ANTxUSD",
    "action": true,
-   "variation_24h_pct": -3.1,
-   "volume_24h_eur": 12686971.97,
-   "spread_pct": 0.011,
+   "variation_24h_pct": -2.77,
+   "volume_24h_eur": 12687695.89,
+   "spread_pct": 0.066,
    "tendance": true,
    "impulsion": null
   }

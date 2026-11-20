@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T06:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56330.3,
+   "dernier_prix": 56349.2,
    "atr": 598.5359,
    "rollover": 0.3772178490553397,
    "rollover_periodes": 21
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T06:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.422e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T06:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 533.7529489993897,
+   "dernier_prix": 534.3229214097076,
    "atr": 2.771652,
    "rollover": 0.05776708022528948,
    "rollover_periodes": 3
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T06:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.86381315868577,
+   "dernier_prix": 96.8399963573445,
    "atr": 1.08547,
    "rollover": 0.0458199639113335,
    "rollover_periodes": 3
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T06:09:00Z",
+   "verifie_jusqu_a": "2026-11-20T06:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 582.7769326762794,
+   "dernier_prix": 583.4441307713322,
    "atr": 3.304099,
    "rollover": 0.05770838039759388,
    "rollover_periodes": 3
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T06:09:20Z",
+ "maj": "2026-11-20T06:11:21Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,7 +152,7 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T06:05:30Z",
+ "chasseur_t": "2026-11-20T06:11:17Z",
  "tendance": [
   "BTC",
   "PEARL",
@@ -294,33 +294,59 @@
   }
  },
  "buzz_t": "2026-11-20T06:05:31Z",
- "sources_t": "2026-11-20T05:51:04Z",
+ "sources_t": "2026-11-20T06:11:20Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
+   "sujet": "Bitcoin",
    "mentions": 6,
-   "sentiment": "bullish",
+   "sentiment": "bearish",
    "titres": [
-    "Japanese investors sought $9.4 billion in Anthropic IPO shares but got $2.98 billion",
-    "彭博经济学家：Anthropic 大规模 IPO 或成 AI 行情最后一波燃料"
+    "Here’s what happened in crypto today",
+    "Bitcoin One More Dip Before the Next Major Rally to $150K?"
    ]
   },
   {
-   "sujet": "Bitcoin",
+   "sujet": "AI",
    "mentions": 5,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin One More Dip Before the Next Major Rally to $150K?",
-    "矿企 PowerCompute 出售 267 枚 BTC 偿还近 2,200 万美元债务"
+    "AI is changing software engineering — and some developers miss the struggle",
+    "Japanese investors sought $9.4 billion in Anthropic IPO shares but got $2.98 billion"
    ]
   },
   {
    "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Could Ethereum (ETH) Fall to $1,500? Exchange Data Says Selling Pressure Is Building",
+    "Crypto Price Analysis, BTC, ETH, NEAR, SKY and ZEC, Nov. 20: Bitcoin Closes Below Its Weekend Low as Sky Volume Surges"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Crypto Price Analysis, BTC, ETH, NEAR, SKY and ZEC, Nov. 20: Bitcoin Closes Below Its Weekend Low as Sky Volume Surges",
-    "ethereum’s downtrend deepens: $1,450 next"
+    "Here’s what happened in crypto today",
+    "SEC Charges 8 Entities in $37 Million Fake Crypto Platform Case"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "SOL Retests $72 as Bears Get a Second Chance After VanEck Ends Its Gemini Custody Deal",
+    "比特币现货 ETF 昨日总净流出 5.82 亿美元，贝莱德 IBIT 净流出 5.41 亿美元居首"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today"
    ]
   },
   {
@@ -332,27 +358,11 @@
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "Solana",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "SEC Charges 8 Entities in $37 Million Fake Crypto Platform Case"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "比特币现货 ETF 昨日总净流出 5.82 亿美元，贝莱德 IBIT 净流出 5.41 亿美元居首"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "比特币现货 ETF 昨日总净流出 5.82 亿美元，贝莱德 IBIT 净流出 5.41 亿美元居首"
+    "SOL Retests $72 as Bears Get a Second Chance After VanEck Ends Its Gemini Custody Deal"
    ]
   }
  ],
