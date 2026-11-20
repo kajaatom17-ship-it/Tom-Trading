@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T19:55:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 53376.7,
+   "dernier_prix": 53435.7,
    "atr": 598.5359,
    "rollover": 0.43110611320610254,
    "rollover_periodes": 24
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T19:55:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.215e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T19:55:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 515.7961016206746,
+   "dernier_prix": 515.8102225750815,
    "atr": 2.771652,
    "rollover": 0.11553416045057895,
    "rollover_periodes": 6
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T19:55:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 95.42451452766828,
+   "dernier_prix": 95.42712696544109,
    "atr": 1.08547,
    "rollover": 0.091639927822667,
    "rollover_periodes": 6
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T19:55:00Z",
+   "verifie_jusqu_a": "2026-11-20T19:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 562.2718645057673,
+   "dernier_prix": 562.7891696553235,
    "atr": 3.304099,
    "rollover": 0.11541676079518777,
    "rollover_periodes": 6
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T19:55:44Z",
+ "maj": "2026-11-20T19:57:49Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,7 +152,7 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T19:51:50Z",
+ "chasseur_t": "2026-11-20T19:57:42Z",
  "tendance": [
   "WASTED",
   "CHUNKEE",
@@ -344,15 +344,15 @@
   }
  },
  "buzz_t": "2026-11-20T19:45:53Z",
- "sources_t": "2026-11-20T19:37:56Z",
+ "sources_t": "2026-11-20T19:57:47Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 7,
+   "mentions": 8,
    "sentiment": "bearish",
    "titres": [
-    "Nvidia slips behind Alphabet to become fourth-most valuable US company",
-    "FEDS Note: When productivity booms, do interest rates rise?"
+    "AI selloff sends SharonAI Holdings lower by 18%",
+    "Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues"
    ]
   },
   {
@@ -360,17 +360,26 @@
    "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "TCB Daily Edition: What Happened in Crypto on November 20, 2026",
-    "The bears have taken control of Bitcoin."
+    "BTCUSD: Strong Bearish Breakdown – SELL Opportunity Toward 53,40",
+    "TCB Daily Edition: What Happened in Crypto on November 20, 2026"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "S&P 500 slips below 7,000 on reports of SEC probe into Nvidia",
-    "SEC opens civil probe into Nvidia over potential accounting issues"
+    "Nvidia Implosion Intensifies As SEC Nightmare Just Got A Lot Worse",
+    "S&P 500 slips below 7,000 on reports of SEC probe into Nvidia"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Nissan Shuts Down System Used for Repairs After Hack Attempt",
+    "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit"
    ]
   },
   {
@@ -392,20 +401,19 @@
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "ARKK takes 60% of ARK's first-day Anthropic share purchase",
-    "Bitcoin ETF investors have a way to hedge during Thanksgiving’s 40+ hour trading gap"
-   ]
-  },
-  {
    "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
     "TCB Daily Edition: What Happened in Crypto on November 20, 2026"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin ETF investors have a way to hedge during Thanksgiving’s 40+ hour trading gap"
    ]
   }
  ],
