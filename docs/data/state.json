@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T12:20:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:22:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56117.1,
+   "dernier_prix": 56097.4,
    "atr": 598.5359,
    "rollover": 0.39518060377226066,
    "rollover_periodes": 22
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T12:20:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:22:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.354e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T12:20:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:22:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 531.2765122834545,
+   "dernier_prix": 530.3793311073404,
    "atr": 2.771652,
    "rollover": 0.0770227736337193,
    "rollover_periodes": 4
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T12:20:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:22:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.69856502978499,
+   "dernier_prix": 96.81245096429289,
    "atr": 1.08547,
    "rollover": 0.061093285215111336,
    "rollover_periodes": 4
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T12:20:00Z",
+   "verifie_jusqu_a": "2026-11-20T12:22:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 579.78087740264,
+   "dernier_prix": 579.5062674475889,
    "atr": 3.304099,
    "rollover": 0.07694450719679184,
    "rollover_periodes": 4
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T12:20:57Z",
+ "maj": "2026-11-20T12:23:03Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,7 +152,7 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T12:17:03Z",
+ "chasseur_t": "2026-11-20T12:22:52Z",
  "tendance": [
   "WASTED",
   "CHUNKEE",
@@ -304,77 +304,65 @@
   }
  },
  "buzz_t": "2026-11-20T12:17:03Z",
- "sources_t": "2026-11-20T12:02:36Z",
+ "sources_t": "2026-11-20T12:22:56Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin breaks below 62,000 as five-day base fails",
-    "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 4,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "MoonPay Files for Federal Trust Bank Charter to Run Stablecoin and Custody Services",
-    "Sui Price Outlook for December: One Level Remains Critical After Hashi Goes Live"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "BNB Price Drops Below $600 as Bitcoin and Tech Stocks Tumble",
-    "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase plans to bring US prediction markets in-house by 2027",
-    "Coinbase Targets In-House Prediction Markets by First Half of 2027: Report"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip",
-    "Bitcoin Borrowers Are Getting More Options"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "GTA 6 Crypto Token Looked Like a Launch-Day Hit: Who Was Really Buying?",
-    "SOLANA (SOL)Date: November 20, 2026"
+    "BTCUSD – Bearish market structure and potential continuation",
+    "Bitcoin volatility gauges climb as traders pay up for protection"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin missed AI stocks’ 85% rally but could still face the fallout if the boom unravels",
-    "OpenAI 讓少數 Plus 用戶試用 dots，月費 20 美元也能用"
+    "David Tepper trims Amazon, makes Micron his biggest bet",
+    "Anthropic shares fall 8% in premarket amid AI selloff as Nvidia, AMD shares drop"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
+    "OpenAI 強化 GPT-6.2 防蒸餾：Astra 舊輪次推理提取成功率降至 0.2%"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Brian J. Lee to Join PayPal's Board of Directors"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings"
    ]
   },
   {
    "sujet": "ETF",
    "mentions": 1,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin ETFs Shed $582M in a Day as BTC Drops Below $62K"
+    "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "MoonPay Applies for National Trust Bank Charter to Grow Custody and Stablecoin Business"
    ]
   }
  ],
