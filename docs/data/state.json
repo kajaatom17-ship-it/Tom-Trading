@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:29:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56140.7,
+   "dernier_prix": 56125.3,
    "atr": 598.5359,
    "rollover": 0.3592550943384188,
    "rollover_periodes": 20
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T04:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:29:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.397e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:29:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 535.5551302731224,
+   "dernier_prix": 535.5600109359336,
    "atr": 2.771652,
    "rollover": 0.03851138681685965,
    "rollover_periodes": 2
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:29:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.65699756677694,
+   "dernier_prix": 97.65788754214891,
    "atr": 1.08547,
    "rollover": 0.030546642607555668,
    "rollover_periodes": 2
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:28:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:29:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 584.5841193464016,
+   "dernier_prix": 584.5894468240226,
    "atr": 3.304099,
    "rollover": 0.03847225359839592,
    "rollover_periodes": 2
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T04:28:32Z",
+ "maj": "2026-11-20T04:29:37Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -289,24 +289,59 @@
   }
  },
  "buzz_t": "2026-11-20T04:19:47Z",
- "sources_t": "2026-11-20T04:08:55Z",
+ "sources_t": "2026-11-20T04:29:28Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "bearish",
    "titres": [
-    "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
-    "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut"
+    "The US dollar marks its fourth consecutive week of gains",
+    "Dan Ives Calls Tech Selloff a Panic Moment but Anthropic IPO Shows Proof of Demand"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.1282118 | 🚶 0.128234534 | 🚀 0.1342118 Gwei",
+    "ETH 15m: if/then plan for a retrace into supply"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
+    "Tokenized Stocks Hit $2.71B, but the Real Story Is the Churn"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Anza readies Solana direct mapping for mainnet but sets no activation date",
+    "DCTY dropped over 72% in 24 hours, with its current market capitalization at $3.8 million."
    ]
   },
   {
    "sujet": "Bitcoin",
    "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin Could Suffer a 1929-Style Crash Ahead of the Anthropic IPO, BitMEX Co-Founder Says",
+    "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Institutional Bitcoin ETF holdings clock record quarter after selling streak",
-    "BTCUSDT – Is $60,000 the Next Stop?"
+    "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling"
    ]
   },
   {
@@ -318,35 +353,11 @@
    ]
   },
   {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Tokenized Stocks Hit $2.71B, but the Real Story Is the Churn"
-   ]
-  },
-  {
    "sujet": "ETF",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Institutional Bitcoin ETF holdings clock record quarter after selling streak"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "CME’s XRP Futures Hit $81.2 Billion After 18 Months of Trading"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "SOL/USD: Downtrend Intact Below EMA55, 75.78 Swing Caps Any Boun"
+    "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak"
    ]
   }
  ],
