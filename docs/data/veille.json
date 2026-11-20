@@ -1595,19 +1595,40 @@
  ],
  "alertes": [
   {
+   "sym": "RARE",
+   "horizon": "15 min",
+   "variation_pct": 5.5,
+   "prix": 0.01171,
+   "t": "2026-11-20T14:32:12Z"
+  },
+  {
    "sym": "COIN",
    "horizon": "15 min",
-   "variation_pct": 2.61,
-   "prix": 99.53762697054647,
-   "t": "2026-11-20T14:31:14Z",
+   "variation_pct": 3.27,
+   "prix": 100.17475516073833,
+   "t": "2026-11-20T14:32:12Z",
    "position": "contre nous"
+  },
+  {
+   "sym": "CRCL",
+   "horizon": "15 min",
+   "variation_pct": 2.5,
+   "prix": 47.693595951505436,
+   "t": "2026-11-20T14:32:12Z"
+  },
+  {
+   "sym": "GOOGL",
+   "horizon": "15 min",
+   "variation_pct": 1.68,
+   "prix": 251.23784905522987,
+   "t": "2026-11-20T14:32:12Z"
   },
   {
    "sym": "MSTR",
    "horizon": "15 min",
-   "variation_pct": 2.53,
-   "prix": 79.19503404084901,
-   "t": "2026-11-20T14:31:14Z"
+   "variation_pct": 2.65,
+   "prix": 79.28605235373357,
+   "t": "2026-11-20T14:32:12Z"
   },
   {
    "sym": "INTC",
@@ -1615,13 +1636,6 @@
    "variation_pct": 1.6,
    "prix": 49.5461456521937,
    "t": "2026-11-20T14:29:15Z"
-  },
-  {
-   "sym": "RARE",
-   "horizon": "15 min",
-   "variation_pct": 2.7,
-   "prix": 0.0114,
-   "t": "2026-11-20T14:25:29Z"
   },
   {
    "sym": "AMD",
@@ -1636,13 +1650,6 @@
    "variation_pct": 2.78,
    "prix": 79.62282011140641,
    "t": "2026-11-20T14:09:48Z"
-  },
-  {
-   "sym": "CRCL",
-   "horizon": "15 min",
-   "variation_pct": 1.53,
-   "prix": 46.301771110969604,
-   "t": "2026-11-20T14:00:05Z"
   },
   {
    "sym": "INJ",
@@ -1663,5 +1670,5 @@
  "erreurs_sources": [
   "Google (crypto market): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-20T14:31:14Z"
+ "t": "2026-11-20T14:32:12Z"
 }
