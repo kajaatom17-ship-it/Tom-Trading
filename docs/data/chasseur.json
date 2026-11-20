@@ -1,7 +1,7 @@
 {
- "t": "2026-11-20T05:54:00Z",
+ "t": "2026-11-20T05:59:45Z",
  "nb_analyses": 613,
- "nb_en_mouvement": 5,
+ "nb_en_mouvement": 6,
  "tendance": [
   "ALL",
   "AMD",
@@ -161,12 +161,22 @@
  },
  "candidats": [
   {
+   "sym": "MEGA",
+   "pair": "MEGAEUR",
+   "action": false,
+   "variation_24h_pct": -14.3,
+   "volume_24h_eur": 70256.59,
+   "spread_pct": 0.2175,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "TRUST",
    "pair": "TRUSTEUR",
    "action": false,
-   "variation_24h_pct": -10.17,
-   "volume_24h_eur": 106673.75,
-   "spread_pct": 0.2572,
+   "variation_24h_pct": -9.88,
+   "volume_24h_eur": 106701.06,
+   "spread_pct": 0.2136,
    "tendance": false,
    "impulsion": null
   },
@@ -174,29 +184,29 @@
    "sym": "JUP",
    "pair": "JUPEUR",
    "action": false,
-   "variation_24h_pct": -6.93,
-   "volume_24h_eur": 292879.14,
-   "spread_pct": 0.1369,
+   "variation_24h_pct": -7.21,
+   "volume_24h_eur": 296461.7,
+   "spread_pct": 0.1279,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "VVV",
-   "pair": "VVVEUR",
+   "sym": "XMR",
+   "pair": "XMREUR",
    "action": false,
-   "variation_24h_pct": -5.11,
-   "volume_24h_eur": 402122.72,
-   "spread_pct": 0.1058,
-   "tendance": false,
+   "variation_24h_pct": -4.68,
+   "volume_24h_eur": 1546445.81,
+   "spread_pct": 0.4336,
+   "tendance": true,
    "impulsion": null
   },
   {
-   "sym": "BLUAI",
-   "pair": "BLUAIEUR",
+   "sym": "SENT",
+   "pair": "SENTEUR",
    "action": false,
-   "variation_24h_pct": -5.49,
-   "volume_24h_eur": 66591.92,
-   "spread_pct": 0.2152,
+   "variation_24h_pct": -5.04,
+   "volume_24h_eur": 110556.82,
+   "spread_pct": 0.0869,
    "tendance": false,
    "impulsion": null
   },
@@ -204,9 +214,9 @@
    "sym": "ANT",
    "pair": "ANTxUSD",
    "action": true,
-   "variation_24h_pct": -3.03,
-   "volume_24h_eur": 12682691.14,
-   "spread_pct": 0.011,
+   "variation_24h_pct": -2.93,
+   "volume_24h_eur": 12685377.87,
+   "spread_pct": 0.0661,
    "tendance": true,
    "impulsion": null
   }
