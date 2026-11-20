@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T14:03:00Z",
+   "verifie_jusqu_a": "2026-11-20T14:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56236.8,
+   "dernier_prix": 56248.3,
    "atr": 598.5359,
    "rollover": 0.4131433584891816,
    "rollover_periodes": 23
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T14:03:00Z",
+   "verifie_jusqu_a": "2026-11-20T14:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.354e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T14:03:00Z",
+   "verifie_jusqu_a": "2026-11-20T14:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 526.4264264264265,
+   "dernier_prix": 526.5653871710616,
    "atr": 2.771652,
    "rollover": 0.09627846704214912,
    "rollover_periodes": 5
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T14:03:00Z",
+   "verifie_jusqu_a": "2026-11-20T14:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.97879697879698,
+   "dernier_prix": 97.00439646462347,
    "atr": 1.08547,
    "rollover": 0.07636660651888917,
    "rollover_periodes": 5
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T14:03:00Z",
+   "verifie_jusqu_a": "2026-11-20T14:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 579.1882791882792,
+   "dernier_prix": 579.5141132886101,
    "atr": 3.304099,
    "rollover": 0.0961806339959898,
    "rollover_periodes": 5
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T14:03:59Z",
+ "maj": "2026-11-20T14:05:00Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -299,75 +299,77 @@
   }
  },
  "buzz_t": "2026-11-20T14:02:01Z",
- "sources_t": "2026-11-20T13:44:25Z",
+ "sources_t": "2026-11-20T14:05:00Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
+   "mentions": 12,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin / U.S. Dollar (BTCUSD - Daily Demand Zone Outlook)",
-    "Can bitcoin (BTCUSD) rebound amid heavy ETF outflows?"
+    "What BTC Needs for a 27% Climb to $80,000 as Strategy Stock Is Downgraded",
+    "Bitcoin, Gold, BTCXAUT & DXY in one place, tells a Story"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 7,
-   "sentiment": "neutral",
+   "sujet": "Ethereum",
+   "mentions": 4,
+   "sentiment": "bearish",
    "titres": [
-    "SpaceX lenders want its $40 billion in Nvidia chips kept on Earth",
-    "Procter & Gamble plans to use AI and automation to free up cash"
+    "ETH keeps failing at 1,850. My sell zone is 1,815 to 1,865",
+    "Here's What Needs to Happen for Ethereum Price to Hit $2,200 as a Fool Writer Buys"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "mentions": 4,
+   "sentiment": "bearish",
    "titres": [
-    "Can bitcoin (BTCUSD) rebound amid heavy ETF outflows?",
-    "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion"
+    "FT Confluence BDC & Specialty Finance Income ETF declares $0.14 dividend",
+    "Blackrock Drives $899M of Bitcoin ETFs’ $1.12B Outflows This Week"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 2,
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "23 Million ADA Flow Back to Cardano's Treasury as the DJED Stablecoin Winds Down",
+    "Sui Price Outlook for December: One Level Remains Critical After Hashi Goes Live"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin buyers face a trading issue as stablecoins just suffer their biggest supply drop since 2022",
-    "MoonPay Applies for National Trust Bank Charter to Grow Custody and Stablecoin Business"
+    "Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues",
+    "Bitcoin Slumps Below $62K as Anthropic Pop Fades"
    ]
   },
   {
    "sujet": "Solana",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings",
-    "Allfunds picks Solana to push tokenized funds past the pilot stage"
+    "SOL Open Interest Sinks 34% to $1.68B, Lowest Since August, as Longs Get Flushed",
+    "SOL Retests $72 as Bears Get a Second Chance After VanEck Ends Its Gemini Custody Deal"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
+   "sujet": "XRP",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Democrats open probe into Nvidia influence on US Megaspeed investigation"
+    "XRP Price Targets as Bullish Weekly RSI Divergence Emerges",
+    "Crypto Pundit Expects an XRP Rally That Could 'Retire Many People' Before 2026 Ends"
    ]
   },
   {
-   "sujet": "Institutions",
+   "sujet": "Cardano",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "US spot bitcoin ETFs see $582 million in daily net outflows as November total nears $3.5 billion"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Ark buys $90 million worth of Anthropic shares on debut, trims Ethereum and Solana staking ETF holdings"
+    "23 Million ADA Flow Back to Cardano's Treasury as the DJED Stablecoin Winds Down"
    ]
   }
  ],
