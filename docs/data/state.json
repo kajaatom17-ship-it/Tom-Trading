@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T00:18:00Z",
+   "verifie_jusqu_a": "2026-11-20T00:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56642.4,
+   "dernier_prix": 56638.9,
    "atr": 598.5359,
    "rollover": 0.34129233962149785,
    "rollover_periodes": 19
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T00:18:00Z",
+   "verifie_jusqu_a": "2026-11-20T00:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.462e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T00:18:00Z",
+   "verifie_jusqu_a": "2026-11-20T00:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 536.737224015023,
+   "dernier_prix": 538.8850402887665,
    "atr": 2.771652,
    "rollover": 0.019255693408429825,
    "rollover_periodes": 1
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T00:18:00Z",
+   "verifie_jusqu_a": "2026-11-20T00:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.73470801655453,
+   "dernier_prix": 98.72570824370146,
    "atr": 1.08547,
    "rollover": 0.015273321303777834,
    "rollover_periodes": 1
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T00:18:00Z",
+   "verifie_jusqu_a": "2026-11-20T00:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 587.4856424000437,
+   "dernier_prix": 587.3044809858899,
    "atr": 3.304099,
    "rollover": 0.01923612679919796,
    "rollover_periodes": 1
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T00:18:36Z",
+ "maj": "2026-11-20T00:19:35Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -294,64 +294,47 @@
   }
  },
  "buzz_t": "2026-11-20T00:05:43Z",
- "sources_t": "2026-11-19T23:59:32Z",
+ "sources_t": "2026-11-20T00:19:33Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "Anthropic becomes one of world's most valuable public companies in stock market debut",
-    "Solana Announces 2027 Roadmap With On-Chain AI and Faster Blocks"
+    "Single-Family Rents & Multifamily Rents in 25 Large US Metros",
+    "Why Canada is embracing AI data centres while the US pushes back"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.18454393 | 🚶 0.18454393 | 🚀 0.202998323 Gwei"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "早报｜纳斯达克综合指数于 11 月 19 日下跌 2.3%；CZ：Anthropic 上市首日将登陆 BNB Chain 链上代币化交易"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Anchorage 研究主管：比特币初期抛压最高 60% 来自 Coinbase，与 AI 交易吸金有关",
-    "A Bitcoin trade that doesn’t need prices to rise could beat Treasury bills in 2027"
-   ]
-  },
-  {
-   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Solana Announces 2027 Roadmap With On-Chain AI and Faster Blocks"
+    "Russia To Let Retail Investors Trade Bitcoin On Margin"
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bybit hack wallets helped push $101.9M of North Korea-linked funds through Sky's PSM"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Anchorage 研究主管：比特币初期抛压最高 60% 来自 Coinbase，与 AI 交易吸金有关"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "SEC caps single-stock leveraged ETFs at 2x, rules out 3x and 5x funds"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "SEC caps single-stock leveraged ETFs at 2x, rules out 3x and 5x funds"
+    "Moonpay Seeks US Bank Charter as Crypto Firms Expand Into Federally Regulated Finance"
    ]
   }
  ],
