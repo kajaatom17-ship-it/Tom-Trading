@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T10:19:00Z",
+   "verifie_jusqu_a": "2026-11-20T10:20:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56237.4,
+   "dernier_prix": 56228.7,
    "atr": 598.5359,
    "rollover": 0.39518060377226066,
    "rollover_periodes": 22
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T10:19:00Z",
+   "verifie_jusqu_a": "2026-11-20T10:20:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.388e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T10:19:00Z",
+   "verifie_jusqu_a": "2026-11-20T10:20:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 533.2280935478278,
+   "dernier_prix": 533.2572888625268,
    "atr": 2.771652,
    "rollover": 0.0770227736337193,
    "rollover_periodes": 4
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T10:19:00Z",
+   "verifie_jusqu_a": "2026-11-20T10:20:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.59925541330949,
+   "dernier_prix": 97.60459916959438,
    "atr": 1.08547,
    "rollover": 0.061093285215111336,
    "rollover_periodes": 4
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T10:19:00Z",
+   "verifie_jusqu_a": "2026-11-20T10:20:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.4619813670831,
+   "dernier_prix": 581.4938175845234,
    "atr": 3.304099,
    "rollover": 0.07694450719679184,
    "rollover_periodes": 4
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T10:19:59Z",
+ "maj": "2026-11-20T10:21:00Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -299,42 +299,33 @@
   }
  },
  "buzz_t": "2026-11-20T10:15:04Z",
- "sources_t": "2026-11-20T10:00:28Z",
+ "sources_t": "2026-11-20T10:20:58Z",
  "actus_tendance": [
-  {
-   "sujet": "Bitcoin",
-   "mentions": 7,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin Falls Below $62K, but Robert Kiyosaki Has Other Plans",
-    "Saylor Says Strategy Could Shrink STRC to $5B and Even Sell Bitcoin to Defend It"
-   ]
-  },
   {
    "sujet": "AI",
    "mentions": 7,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "Guardforce AI to implement 1-for-40 reverse share split",
-    "Anthropic's debut rally fades as shares crack 7% in US pre-market trade"
+    "China’s AI firms struggle with funding as US rivals pull ahead",
+    "Berkshire Hathaway has about 31% of its portfolio in AI stocks under Greg Abel"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 5,
-   "sentiment": "bearish",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.14218949 | 🚶 0.14220949 | 🚀 0.14319949 Gwei",
-    "Binance Hackers Shift 197,000 ETH Across 17 Wallets in Sudden Move"
-   ]
-  },
-  {
-   "sujet": "Binance",
    "mentions": 4,
    "sentiment": "bearish",
    "titres": [
-    "Binance Hackers Shift 197,000 ETH Across 17 Wallets in Sudden Move",
-    "Binance.US and Backpack Race to Bring Regulated Perpetual Futures to US Traders"
+    "⛽ ETH Gas: 🐢 0.137098306 | 🚶 0.137108306 | 🚀 0.138098306 Gwei",
+    "ETHUSDT – Bearish Breakdown & Downside Continuation Setup"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "CryptoUK urges FCA to clarify how DeFi protocols fit the UK crypto regime",
+    "BingX EU wins Austrian MiCAR license, bringing its European crypto services under FMA supervision"
    ]
   },
   {
@@ -342,35 +333,44 @@
    "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "SEC Nominee Kristin Johnson Wants Tokenized Stock Exemption Put Through Public Comment",
-    "XRP Price Outlook: Can Bulls Reclaim $1 After Latest Sell-Off?"
+    "Solana (SOL) Price Tests Long-Term Support as Crypto Market Sell-Off Deepens",
+    "SEC Nominee Kristin Johnson Wants Tokenized Stock Exemption Put Through Public Comment"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "sujet": "Bitcoin",
+   "mentions": 3,
+   "sentiment": "bearish",
    "titres": [
-    "SEC Nominee Kristin Johnson Wants Tokenized Stock Exemption Put Through Public Comment",
-    "SpaceX-Tesla merger faces hurdles needing 50% shareholder approval"
+    "Gemini Will Stop Holding Coins for VanEck’s HODL, ETHV and VSOL in February",
+    "Bitcoin at a Critical Turning Point: Is a Rally Toward $73,897."
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "Binance",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Binance Hackers Shift 197,000 ETH Across 17 Wallets in Sudden Move",
+    "Binance.US and Backpack Race to Bring Regulated Perpetual Futures to US Traders"
+   ]
+  },
+  {
+   "sujet": "Solana",
    "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "XRP Price Outlook: Can Bulls Reclaim $1 After Latest Sell-Off?",
-    "XRP Sees Biggest Liquidation Flush in 13 Months as $44M Long Wipeout Raises Bottom Question"
+    "Solana (SOL) Price Tests Long-Term Support as Crypto Market Sell-Off Deepens",
+    "Gemini Will Stop Holding Coins for VanEck’s HODL, ETHV and VSOL in February"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "DeFi",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "The Market will PUMP. USDT.D is BEARISH HERE",
-    "Coinbase opens crypto options in a market that accounted for just 2% of Deribit’s trading"
+    "CryptoUK urges FCA to clarify how DeFi protocols fit the UK crypto regime",
+    "CryptoUK Urges FCA Not to Treat DeFi Devs as Regulated by Default"
    ]
   }
  ],
