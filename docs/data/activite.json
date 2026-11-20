@@ -1,29 +1,5 @@
 [
  {
-  "t": "2026-11-16T11:59:15Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[ETF, liquidations, hausse] Crypto Market Loses $750 Billion in Value as ETF Demand Fades and Liquidations Surge - Grayscale Bitcoin - Benzinga (Benzinga)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWmpmdzZMN1o3OW9LZHBmRkpHV0FtaFNMVXRjMzAyd1RWcGUxR3VmT0xSZ0tPS1FaX1JnS2FBdmlLRXBtdG9ESUFlQTF0Ykt5WFFGc3J6WlpnbURQemlIV1VJclh0eWNJQWhhVm1ubW1SZW9RS1V6VDBKT0YxajliUy1SX0ZFbFg0dldmVEZsM3J2QjRMbUFLWUN6VDhEQ29jNmhrQnJaelpzOW96N0F0R3FWS1N3d1JtS3RvMjgxUEIyQTB5aXZjdjJn?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-16T11:59:15Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "PLTR -2.32 % en 15 min"
- },
- {
-  "t": "2026-11-16T12:00:15Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 9 signal(aux) : AMD short (TPB-1, 70), HYPE short (TPB-1, 40), ONDO short (TPB-1, 40)"
- },
- {
   "t": "2026-11-16T12:01:11Z",
   "agent": "Veille",
   "type": "alerte",
@@ -3024,5 +3000,23 @@
   "data": {
    "lien": "https://www.youtube.com/watch?v=_9ka_42GxJc"
   }
+ },
+ {
+  "t": "2026-11-20T00:41:32Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, ETH, ANTHROPIC, XRP, BP, VVV, SKY, PEARL"
+ },
+ {
+  "t": "2026-11-20T00:41:32Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AGI, ALL, AMD, ANT, CAPR, DOW, EXK, GLD, GME, GOOG, INTU, NTDOY"
+ },
+ {
+  "t": "2026-11-20T00:41:34Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "615 actifs hors univers analysés, 1 en mouvement : PLAY +5.3 %."
  }
 ]
