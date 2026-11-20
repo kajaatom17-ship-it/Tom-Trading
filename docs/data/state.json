@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T11:40:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:42:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56332.3,
+   "dernier_prix": 56316.6,
    "atr": 598.5359,
    "rollover": 0.39518060377226066,
    "rollover_periodes": 22
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T11:40:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:42:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.375e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T11:40:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:42:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 531.1345285342821,
+   "dernier_prix": 531.1248369173501,
    "atr": 2.771652,
    "rollover": 0.0770227736337193,
    "rollover_periodes": 4
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T11:40:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:42:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.17622371242189,
+   "dernier_prix": 97.17445053691826,
    "atr": 1.08547,
    "rollover": 0.061093285215111336,
    "rollover_periodes": 4
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T11:40:00Z",
+   "verifie_jusqu_a": "2026-11-20T11:42:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.4935906208658,
+   "dernier_prix": 580.4829983486455,
    "atr": 3.304099,
    "rollover": 0.07694450719679184,
    "rollover_periodes": 4
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T11:40:15Z",
+ "maj": "2026-11-20T11:42:23Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,7 +152,7 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T11:36:21Z",
+ "chasseur_t": "2026-11-20T11:42:09Z",
  "tendance": [
   "WASTED",
   "CHUNKEE",
@@ -174,17 +174,17 @@
  "buzz": {
   "SPY": {
    "source": "Reddit + StockTwits",
-   "mentions": 731,
+   "mentions": 733,
    "x_vs_hier": 2.3
   },
   "AMD": {
    "source": "Reddit + StockTwits",
-   "mentions": 582,
-   "x_vs_hier": 3.0
+   "mentions": 586,
+   "x_vs_hier": 3.1
   },
   "GOOG": {
    "source": "Reddit",
-   "mentions": 149,
+   "mentions": 151,
    "x_vs_hier": 2.3
   },
   "VOO": {
@@ -193,7 +193,7 @@
    "x_vs_hier": 2.2
   },
   "GME": {
-   "source": "Reddit + StockTwits",
+   "source": "Reddit",
    "mentions": 89,
    "x_vs_hier": 4.7
   },
@@ -209,13 +209,13 @@
   },
   "GLD": {
    "source": "Reddit + StockTwits",
-   "mentions": 45,
-   "x_vs_hier": 3.8
+   "mentions": 46,
+   "x_vs_hier": 3.5
   },
   "YOU": {
    "source": "Reddit",
    "mentions": 45,
-   "x_vs_hier": 2.1
+   "x_vs_hier": 2.2
   },
   "META": {
    "source": "Reddit",
@@ -234,7 +234,7 @@
   },
   "IREN": {
    "source": "Reddit",
-   "mentions": 30,
+   "mentions": 31,
    "x_vs_hier": 2.1
   },
   "CAPR": {
@@ -248,6 +248,11 @@
    "x_vs_hier": null
   },
   "MU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SPCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -267,22 +272,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "QQQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "XMAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SPCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NVDA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SNOW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -291,54 +286,55 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "DRAM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-20T11:24:47Z",
- "sources_t": "2026-11-20T11:21:55Z",
+ "buzz_t": "2026-11-20T11:42:10Z",
+ "sources_t": "2026-11-20T11:42:14Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
+   "mentions": 11,
    "sentiment": "neutral",
    "titres": [
-    "The Seller Zone Gives Way as BTC Searches for Its Next Support",
-    "Bitcoin tailspin continues: Where will it all end?"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "neutral",
-   "titres": [
-    "OpenAI 讓少數 Plus 用戶試用 dots，月費 20 美元也能用",
-    "Bitcoin tailspin continues: Where will it all end?"
+    "Michael Saylor Explains When Strategy Buys Bitcoin — And Why It Sometimes Chooses STRC Instead",
+    "Bitcoin missed AI stocks’ 85% rally but could still face the fallout if the boom unravels"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.149759328 | 🚶 0.149773417 | 🚀 0.181979314 Gwei",
-    "Ethereum Devs Lean Toward Shipping Glamsterdam as Is, Push Hoodi Testnet Decision to Next Week"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Ripple CEO Expects Crypto Rebound as Anthropic Shares Start Trading On Nasdaq",
-    "Binance Puts 600,000 XRP on the Table for Ripple’s RLUSD Holders"
+    "⛽ ETH Gas: 🐢 0.124319998 | 🚶 0.124489312 | 🚀 0.134319998 Gwei",
+    "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Sky USDS Shrinks by a Third as North Korea Link Report Hits Reserve",
-    "MoonPay applies for national trust bank charter to expand stablecoin services"
+    "MoonPay Files for Federal Trust Bank Charter to Run Stablecoin and Custody Services",
+    "Bitcoin Borrowers Are Getting More Options"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "bullish",
+   "titres": [
+    "Bitcoin missed AI stocks’ 85% rally but could still face the fallout if the boom unravels",
+    "OpenAI 讓少數 Plus 用戶試用 dots，月費 20 美元也能用"
    ]
   },
   {
@@ -346,26 +342,32 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "VanEck to end Gemini ETF custody deals, keeps Coinbase",
-    "Coinbase Asks CFTC to Keep Crypto Contracts in Play Under Prediction Market Swap Rule"
+    "Coinbase Targets In-House Prediction Markets by First Half of 2027: Report",
+    "VanEck to end Gemini ETF custody deals, keeps Coinbase"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "bullish",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "Chainlink (LINK) Price Holds Steady as Whales Adds $2.16M and UBS Automates Tokenized Notes",
-    "Binance Puts 600,000 XRP on the Table for Ripple’s RLUSD Holders"
+    "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip"
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 2,
+   "sujet": "Solana",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "The Bonus Rules That Void Winnings at Licensed Web3 Casinos",
-    "If a Crypto Casino Gets Hacked, What Happens to Your Account?"
+    "SOLANA (SOL)Date: November 20, 2026"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin Borrowers Are Getting More Options"
    ]
   }
  ],
