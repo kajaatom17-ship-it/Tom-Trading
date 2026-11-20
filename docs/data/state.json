@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:48:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 55993.3,
+   "dernier_prix": 55989.1,
    "atr": 598.5359,
    "rollover": 0.3772178490553397,
    "rollover_periodes": 21
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T04:48:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.387e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:48:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 534.7209565122298,
+   "dernier_prix": 534.7160835847011,
    "atr": 2.771652,
    "rollover": 0.03851138681685965,
    "rollover_periodes": 2
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:48:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.92705865198847,
+   "dernier_prix": 96.92617535290205,
    "atr": 1.08547,
    "rollover": 0.030546642607555668,
    "rollover_periodes": 2
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T04:48:00Z",
+   "verifie_jusqu_a": "2026-11-20T04:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 584.0502314730434,
+   "dernier_prix": 584.0449090064064,
    "atr": 3.304099,
    "rollover": 0.03847225359839592,
    "rollover_periodes": 2
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T04:49:03Z",
+ "maj": "2026-11-20T04:50:01Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -274,42 +274,24 @@
   }
  },
  "buzz_t": "2026-11-20T04:37:21Z",
- "sources_t": "2026-11-20T04:29:28Z",
+ "sources_t": "2026-11-20T04:50:00Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 5,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "The US dollar marks its fourth consecutive week of gains",
-    "Dan Ives Calls Tech Selloff a Panic Moment but Anthropic IPO Shows Proof of Demand"
+    "The End Of Man: The Real Danger Isn't Artificial Intelligence",
+    "The US dollar marks its fourth consecutive week of gains"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.1282118 | 🚶 0.128234534 | 🚀 0.1342118 Gwei",
-    "ETH 15m: if/then plan for a retrace into supply"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling",
-    "Tokenized Stocks Hit $2.71B, but the Real Story Is the Churn"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Anza readies Solana direct mapping for mainnet but sets no activation date",
-    "DCTY dropped over 72% in 24 hours, with its current market capitalization at $3.8 million."
+    "ETH 15m: if/then plan for a retrace into supply",
+    "ETH: Entry Points and Market Scenarios"
    ]
   },
   {
@@ -330,11 +312,19 @@
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Tokenized Stocks Hit $2.71B, but the Real Story Is the Churn"
+    "Coinbase backs CFTC proposal to distinguish prediction market contracts from gambling"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "DCTY dropped over 72% in 24 hours, with its current market capitalization at $3.8 million."
    ]
   },
   {
@@ -343,6 +333,14 @@
    "sentiment": "neutral",
    "titres": [
     "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "CME’s XRP Futures Hit $81.2 Billion After 18 Months of Trading"
    ]
   }
  ],
