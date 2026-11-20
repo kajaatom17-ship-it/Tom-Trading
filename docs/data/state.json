@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 70.4305183213162,
+ "cash": 70.35879042508788,
  "positions": [
   {
    "id": "P0016",
@@ -20,13 +20,13 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T15:45:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 54435.5,
+   "dernier_prix": 53820.4,
    "atr": 598.5359,
-   "rollover": 0.4131433584891816,
-   "rollover_periodes": 23
+   "rollover": 0.43110611320610254,
+   "rollover_periodes": 24
   },
   {
    "id": "P0017",
@@ -44,10 +44,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T15:45:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.246e-06,
+   "dernier_prix": 3.252e-06,
    "atr": 3.5634e-08,
    "rollover": 0.22668951405146157,
    "rollover_periodes": 23
@@ -68,13 +68,13 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T15:45:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 527.3989428002147,
+   "dernier_prix": 517.1067633511196,
    "atr": 2.771652,
-   "rollover": 0.09627846704214912,
-   "rollover_periodes": 5
+   "rollover": 0.11553416045057895,
+   "rollover_periodes": 6
   },
   {
    "id": "P0023",
@@ -92,13 +92,13 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T15:45:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.80383576101099,
+   "dernier_prix": 96.64796825831166,
    "atr": 1.08547,
-   "rollover": 0.07636660651888917,
-   "rollover_periodes": 5
+   "rollover": 0.091639927822667,
+   "rollover_periodes": 6
   },
   {
    "id": "P0024",
@@ -116,18 +116,18 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T15:45:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 572.1889130494118,
+   "dernier_prix": 567.7840105805628,
    "atr": 3.304099,
-   "rollover": 0.0961806339959898,
-   "rollover_periodes": 5
+   "rollover": 0.11541676079518777,
+   "rollover_periodes": 6
   }
  ],
- "frais_cumules": 12.69317141312339,
+ "frais_cumules": 12.764899309351716,
  "pnl_realise": -19.413199427475774,
- "pic_equity": 507.06477718531966,
+ "pic_equity": 507.09085896662555,
  "entrees_par_jour": {
   "2026-11-13": 2,
   "2026-11-14": 2,
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T15:45:12Z",
+ "maj": "2026-11-20T18:37:21Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,117 +152,142 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T15:41:18Z",
+ "chasseur_t": "2026-11-20T18:37:01Z",
  "tendance": [
   "WASTED",
-  "TRUMP",
-  "LUCIA",
   "CHUNKEE",
-  "PEARL",
-  "G",
+  "LUCIA",
+  "TRUMP",
   "BTC",
   "HYPE",
+  "ZEC",
+  "SOL",
+  "ETH",
   "PENGU",
-  "LIT",
-  "TAO",
-  "VVV",
-  "AAVE",
-  "ENA",
-  "SKY"
+  "ONDO",
+  "PEARL",
+  "UNI",
+  "XRP",
+  "LIT"
  ],
- "tendance_t": "2026-11-20T15:00:25Z",
+ "tendance_t": "2026-11-20T18:37:01Z",
  "buzz": {
   "SPY": {
    "source": "Reddit + StockTwits",
-   "mentions": 817,
-   "x_vs_hier": 2.5
+   "mentions": 978,
+   "x_vs_hier": 2.2
   },
-  "AMD": {
+  "GOOG": {
    "source": "Reddit",
-   "mentions": 622,
-   "x_vs_hier": 3.4
-  },
-  "QQQ": {
-   "source": "Reddit",
-   "mentions": 421,
-   "x_vs_hier": 2.1
+   "mentions": 208,
+   "x_vs_hier": 2.4
   },
   "VOO": {
    "source": "Reddit",
-   "mentions": 169,
-   "x_vs_hier": 2.8
-  },
-  "NBIS": {
-   "source": "Reddit",
-   "mentions": 118,
-   "x_vs_hier": 2.3
+   "mentions": 201,
+   "x_vs_hier": 3.0
   },
   "SNDK": {
-   "source": "Reddit + StockTwits",
-   "mentions": 114,
-   "x_vs_hier": 2.0
+   "source": "Reddit",
+   "mentions": 173,
+   "x_vs_hier": 3.8
   },
   "GME": {
-   "source": "Reddit + StockTwits",
-   "mentions": 99,
-   "x_vs_hier": 5.5
-  },
-  "IT": {
    "source": "Reddit",
-   "mentions": 70,
-   "x_vs_hier": 2.4
+   "mentions": 91,
+   "x_vs_hier": 2.3
   },
   "AAPL": {
    "source": "Reddit",
-   "mentions": 67,
-   "x_vs_hier": 2.7
+   "mentions": 89,
+   "x_vs_hier": 4.9
   },
-  "SOXL": {
+  "IT": {
    "source": "Reddit",
-   "mentions": 65,
-   "x_vs_hier": 2.4
+   "mentions": 74,
+   "x_vs_hier": 2.2
   },
-  "DOW": {
+  "TQQQ": {
+   "source": "Reddit",
+   "mentions": 64,
+   "x_vs_hier": 6.4
+  },
+  "SO": {
+   "source": "Reddit",
+   "mentions": 58,
+   "x_vs_hier": 4.5
+  },
+  "VTI": {
    "source": "Reddit",
    "mentions": 55,
-   "x_vs_hier": 4.2
-  },
-  "GLD": {
-   "source": "Reddit",
-   "mentions": 50,
-   "x_vs_hier": 3.1
-  },
-  "YOU": {
-   "source": "Reddit",
-   "mentions": 48,
-   "x_vs_hier": 2.2
+   "x_vs_hier": 2.9
   },
   "META": {
    "source": "Reddit",
+   "mentions": 50,
+   "x_vs_hier": 2.9
+  },
+  "WMT": {
+   "source": "Reddit",
+   "mentions": 49,
+   "x_vs_hier": 2.5
+  },
+  "GLD": {
+   "source": "Reddit + StockTwits",
    "mentions": 48,
-   "x_vs_hier": 2.4
+   "x_vs_hier": 4.8
+  },
+  "CRWV": {
+   "source": "Reddit",
+   "mentions": 48,
+   "x_vs_hier": 2.1
   },
   "IREN": {
    "source": "Reddit + StockTwits",
    "mentions": 42,
-   "x_vs_hier": 3.5
+   "x_vs_hier": 2.8
   },
-  "TQQQ": {
-   "source": "Reddit + StockTwits",
+  "VT": {
+   "source": "Reddit",
+   "mentions": 40,
+   "x_vs_hier": 5.0
+  },
+  "TLT": {
+   "source": "Reddit",
    "mentions": 39,
    "x_vs_hier": 6.5
   },
-  "ALL": {
+  "AVGO": {
    "source": "Reddit",
-   "mentions": 35,
-   "x_vs_hier": 2.2
+   "mentions": 36,
+   "x_vs_hier": 2.6
   },
-  "ANT": {
+  "SGOV": {
+   "source": "Reddit",
+   "mentions": 34,
+   "x_vs_hier": 3.1
+  },
+  "MSTR": {
+   "source": "Reddit + StockTwits",
+   "mentions": 34,
+   "x_vs_hier": 2.8
+  },
+  "PUMP": {
+   "source": "Reddit",
+   "mentions": 32,
+   "x_vs_hier": 5.3
+  },
+  "ORCL": {
+   "source": "Reddit",
+   "mentions": 31,
+   "x_vs_hier": 15.5
+  },
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
+  "QQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -272,7 +297,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ABVX": {
+  "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOXL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -282,96 +317,55 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "INFQ": {
+  "NBIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVGO": {
+  "TSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PYPL": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "INTU": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GAP": {
+  "XLM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-20T15:29:43Z",
- "sources_t": "2026-11-20T15:26:35Z",
+ "buzz_t": "2026-11-20T18:37:02Z",
+ "sources_t": "2026-11-20T18:37:07Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 7,
-   "sentiment": "bullish",
+   "sujet": "Bitcoin",
+   "mentions": 6,
+   "sentiment": "neutral",
    "titres": [
-    "Alphabet and Nvidia are fighting for third place in global market value",
-    "US House committee calls to remove China open-weight models from government"
+    "JPMorgan says Bitcoin price drop widens gap to $86,000 production cost",
+    "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic"
    ]
   },
   {
-   "sujet": "Bitcoin",
+   "sujet": "AI",
    "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase Institutional: US dollar was the lone gainer as Bitcoin and Ethereum led monthly losses",
-    "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward"
+    "Anthropic defied the odds in its record IPO. Now it has to reckon with AI market turbulence",
+    "Google Gives Gemini Control of Mac Apps, But Its New AI Agent Comes With Risks"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Rep. Horsford sees a shot at a House vote on crypto tax bill before Congress wraps",
-    "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "SOL Retests $72 as Bears Get a Second Chance After VanEck Ends Its Gemini Custody Deal",
-    "Lark Davis Calls Cardano a “Largely Failed Blockchain,” Cites Massive Adoption Gap With Solana"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "SOL Retests $72 as Bears Get a Second Chance After VanEck Ends Its Gemini Custody Deal",
-    "ARK Invest Buys $90M in Anthropic Shares While Trimming Ethereum ETF Holdings"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
    "mentions": 2,
    "sentiment": "bullish",
    "titres": [
-    "Coinbase Institutional: US dollar was the lone gainer as Bitcoin and Ethereum led monthly losses",
-    "ARK Invest Buys $90M in Anthropic Shares While Trimming Ethereum ETF Holdings"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase Institutional: US dollar was the lone gainer as Bitcoin and Ethereum led monthly losses",
-    "Coinbase expands Deribit’s global liquidity pool for traders"
+    "Backpack secures CFTC approval with ‘novel but compliant’ approach",
+    "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward"
    ]
   },
   {
@@ -379,7 +373,39 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bybit opens CLEAR/USDT spot trading following Clearpool contract update"
+    "ELSA/USDT: +112% Breakout Expansion Setup"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "ETHEREUM: THE DIP BUYERS ARE RUNNING OUT OF EXCUSES!"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Robinhood’s Steve Quirk takes tokenization and prediction markets to Bloomberg’s ETF stage"
    ]
   }
  ],
