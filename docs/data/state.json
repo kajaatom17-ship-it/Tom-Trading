@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T01:21:00Z",
+   "verifie_jusqu_a": "2026-11-20T01:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 56915.8,
+   "dernier_prix": 56500.0,
    "atr": 598.5359,
    "rollover": 0.3592550943384188,
    "rollover_periodes": 20
@@ -44,10 +44,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T01:21:00Z",
+   "verifie_jusqu_a": "2026-11-20T01:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.452e-06,
+   "dernier_prix": 3.434e-06,
    "atr": 3.5634e-08,
    "rollover": 0.18726525073816394,
    "rollover_periodes": 19
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T01:21:00Z",
+   "verifie_jusqu_a": "2026-11-20T01:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 536.927440019697,
+   "dernier_prix": 537.1870666374717,
    "atr": 2.771652,
    "rollover": 0.03851138681685965,
    "rollover_periodes": 2
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T01:21:00Z",
+   "verifie_jusqu_a": "2026-11-20T01:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.84097354574551,
+   "dernier_prix": 98.34136194438364,
    "atr": 1.08547,
    "rollover": 0.030546642607555668,
    "rollover_periodes": 2
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T01:21:00Z",
+   "verifie_jusqu_a": "2026-11-20T01:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 586.3433672864555,
+   "dernier_prix": 584.7657105320781,
    "atr": 3.304099,
    "rollover": 0.03847225359839592,
    "rollover_periodes": 2
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T01:21:25Z",
+ "maj": "2026-11-20T01:46:31Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,85 +152,90 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T01:17:17Z",
+ "chasseur_t": "2026-11-20T01:46:27Z",
  "tendance": [
   "BTC",
+  "PEARL",
+  "NEAR",
+  "BP",
+  "PENGU",
   "ETH",
+  "UNI",
+  "LUNC",
+  "SOL",
+  "SUI",
+  "AAVE",
   "ANTHROPIC",
   "XRP",
-  "BP",
-  "VVV",
-  "SKY",
-  "PEARL",
-  "SYRUP",
-  "MON",
-  "PENGU",
   "QNT",
-  "NEAR",
-  "LIT",
-  "TAO"
+  "MON"
  ],
- "tendance_t": "2026-11-20T00:41:32Z",
+ "tendance_t": "2026-11-20T01:46:27Z",
  "buzz": {
   "SPY": {
    "source": "Reddit",
-   "mentions": 644,
+   "mentions": 650,
    "x_vs_hier": 2.1
   },
   "AMD": {
    "source": "Reddit + StockTwits",
-   "mentions": 520,
+   "mentions": 527,
    "x_vs_hier": 2.8
   },
   "QQQ": {
-   "source": "Reddit + StockTwits",
-   "mentions": 372,
+   "source": "Reddit",
+   "mentions": 378,
    "x_vs_hier": 2.1
   },
   "GOOG": {
    "source": "Reddit",
-   "mentions": 142,
+   "mentions": 144,
    "x_vs_hier": 2.6
   },
   "VOO": {
    "source": "Reddit + StockTwits",
-   "mentions": 113,
+   "mentions": 114,
    "x_vs_hier": 2.1
   },
   "GME": {
    "source": "Reddit + StockTwits",
-   "mentions": 70,
-   "x_vs_hier": 2.6
+   "mentions": 73,
+   "x_vs_hier": 2.7
+  },
+  "SOXL": {
+   "source": "Reddit",
+   "mentions": 58,
+   "x_vs_hier": 2.4
   },
   "DOW": {
    "source": "Reddit",
    "mentions": 55,
    "x_vs_hier": 3.2
   },
-  "SOXL": {
-   "source": "Reddit",
-   "mentions": 55,
-   "x_vs_hier": 2.4
-  },
   "YOU": {
    "source": "Reddit",
-   "mentions": 40,
-   "x_vs_hier": 2.4
+   "mentions": 38,
+   "x_vs_hier": 2.1
   },
   "ALL": {
    "source": "Reddit",
    "mentions": 34,
-   "x_vs_hier": 2.6
+   "x_vs_hier": 2.4
   },
   "META": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 34,
    "x_vs_hier": 2.1
   },
   "TQQQ": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 33,
    "x_vs_hier": 4.1
+  },
+  "AGI": {
+   "source": "Reddit",
+   "mentions": 30,
+   "x_vs_hier": 6.0
   },
   "ANT": {
    "source": "StockTwits",
@@ -242,12 +247,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SNDK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "GLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNDK": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -262,74 +272,57 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "IREN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NTDOY": {
+  "DIA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LUNC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CORT": {
+  "ORCL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-20T01:17:18Z",
- "sources_t": "2026-11-20T01:19:14Z",
+ "buzz_t": "2026-11-20T01:46:28Z",
+ "sources_t": "2026-11-20T01:46:29Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 8,
-   "sentiment": "neutral",
+   "mentions": 4,
+   "sentiment": "bearish",
    "titres": [
-    "Single-Family Rents & Multifamily Rents in 25 Large US Metros",
-    "Why Canada is embracing AI data centres while the US pushes back"
+    "SoftBank plunges over 16% as AI sell-off hits Asian tech stocks following Anthropic debut",
+    "AI 代理自己換匯！現代汽車 Card 在 Kinexys 完成實測"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 1,
+   "sujet": "Stablecoins",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.18454393 | 🚶 0.18454393 | 🚀 0.202998323 Gwei"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "早报｜纳斯达克综合指数于 11 月 19 日下跌 2.3%；CZ：Anthropic 上市首日将登陆 BNB Chain 链上代币化交易"
+    "北韓報告後 15 億美元撤出！Sky USDS 市值蒸發三成",
+    "Tether 于以太坊主网销毁 40 亿枚 USDT"
    ]
   },
   {
    "sujet": "Bitcoin",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Russia To Let Retail Investors Trade Bitcoin On Margin"
+    "BITCOIN - A short squeeze could trigger a decline"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Binance",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Moonpay Seeks US Bank Charter as Crypto Firms Expand Into Federally Regulated Finance"
+    "BITCOIN - A short squeeze could trigger a decline"
    ]
   }
  ],

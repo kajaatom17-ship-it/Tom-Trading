@@ -1,8 +1,10 @@
 {
- "t": "2026-11-20T01:17:19Z",
- "nb_analyses": 613,
- "nb_en_mouvement": 0,
+ "t": "2026-11-20T01:46:29Z",
+ "nb_analyses": 614,
+ "nb_en_mouvement": 1,
  "tendance": [
+  "AAVE",
+  "AGI",
   "ALL",
   "AMD",
   "ANT",
@@ -10,7 +12,7 @@
   "BP",
   "BTC",
   "CAPR",
-  "CORT",
+  "DIA",
   "DOW",
   "ETH",
   "GLD",
@@ -18,90 +20,93 @@
   "GOOG",
   "INTU",
   "IREN",
-  "LIT",
   "LUNC",
   "META",
   "MON",
   "NBIS",
   "NEAR",
-  "NTDOY",
+  "ORCL",
   "PEARL",
   "PENGU",
   "QNT",
   "QQQ",
-  "SKY",
   "SLV",
   "SNDK",
+  "SOL",
   "SOXL",
   "SPY",
-  "SYRUP",
-  "TAO",
+  "SUI",
   "TQQQ",
+  "UNI",
   "VOO",
-  "VVV",
   "XRP",
   "YOU"
  ],
  "buzz_reseaux": {
   "SPY": {
    "source": "Reddit",
-   "mentions": 644,
+   "mentions": 650,
    "x_vs_hier": 2.1
   },
   "AMD": {
    "source": "Reddit + StockTwits",
-   "mentions": 520,
+   "mentions": 527,
    "x_vs_hier": 2.8
   },
   "QQQ": {
-   "source": "Reddit + StockTwits",
-   "mentions": 372,
+   "source": "Reddit",
+   "mentions": 378,
    "x_vs_hier": 2.1
   },
   "GOOG": {
    "source": "Reddit",
-   "mentions": 142,
+   "mentions": 144,
    "x_vs_hier": 2.6
   },
   "VOO": {
    "source": "Reddit + StockTwits",
-   "mentions": 113,
+   "mentions": 114,
    "x_vs_hier": 2.1
   },
   "GME": {
    "source": "Reddit + StockTwits",
-   "mentions": 70,
-   "x_vs_hier": 2.6
+   "mentions": 73,
+   "x_vs_hier": 2.7
+  },
+  "SOXL": {
+   "source": "Reddit",
+   "mentions": 58,
+   "x_vs_hier": 2.4
   },
   "DOW": {
    "source": "Reddit",
    "mentions": 55,
    "x_vs_hier": 3.2
   },
-  "SOXL": {
-   "source": "Reddit",
-   "mentions": 55,
-   "x_vs_hier": 2.4
-  },
   "YOU": {
    "source": "Reddit",
-   "mentions": 40,
-   "x_vs_hier": 2.4
+   "mentions": 38,
+   "x_vs_hier": 2.1
   },
   "ALL": {
    "source": "Reddit",
    "mentions": 34,
-   "x_vs_hier": 2.6
+   "x_vs_hier": 2.4
   },
   "META": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 34,
    "x_vs_hier": 2.1
   },
   "TQQQ": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 33,
    "x_vs_hier": 4.1
+  },
+  "AGI": {
+   "source": "Reddit",
+   "mentions": 30,
+   "x_vs_hier": 6.0
   },
   "ANT": {
    "source": "StockTwits",
@@ -113,12 +118,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SNDK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "GLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNDK": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -133,32 +143,33 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "IREN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NTDOY": {
+  "DIA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LUNC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CORT": {
+  "ORCL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "TRUST",
+   "pair": "TRUSTEUR",
+   "action": false,
+   "variation_24h_pct": -7.99,
+   "volume_24h_eur": 87481.86,
+   "spread_pct": 0.272,
+   "tendance": false,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }

@@ -1,47 +1,5 @@
 [
  {
-  "t": "2026-11-16T13:01:36Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 8 signal(aux) : TSLA short (TPB-1, 70), GOOGL long (TPB-1, 45), ARB short (BRK-1, 42)"
- },
- {
-  "t": "2026-11-16T13:32:31Z",
-  "agent": "Comité",
-  "type": "aucune action",
-  "msg": "On garde notre short TAO (+2,70 €) et on n'ouvre rien : la bourse américaine n'est pas ouverte et le signal TSLA n'est pas assez fiable."
- },
- {
-  "t": "2026-11-16T13:32:39Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ALB, BIDU, BMNR, BTC, CAPR, COIN, HELP, HR, LHX, MSTR, NBIS, NVDA"
- },
- {
-  "t": "2026-11-16T13:32:43Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "609 actifs hors univers analysés, 10 en mouvement : NIGHT -13.3 %, REQ +16.0 %, DRV -8.8 %."
- },
- {
-  "t": "2026-11-16T13:33:02Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] How Did a Bitcoin Miner Hacker Get Paid Without Finding a Single Block? - BeInCrypto (BeInCrypto)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oQXhyUmlXVGwxbWo0cVZDZF9wZkVBZGgxOEo2YTg4RV94NXpnVGRSSzJDUmlpekVqcUxOZjltUWVNeDlfWDN5REVpYnY3cXY2TGFSRXRuU21mbnd6TEVyUFF6eENCTEtwcld6UQ?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-16T13:33:02Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "RARE +6.67 % en 15 min"
- },
- {
   "t": "2026-11-16T13:33:59Z",
   "agent": "Scanner",
   "type": "scan",
@@ -3037,5 +2995,49 @@
   "data": {
    "lien": "https://www.youtube.com/watch?v=p5VfknijlNM"
   }
+ },
+ {
+  "t": "2026-11-20T01:46:27Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : BTC, PEARL, NEAR, BP, PENGU, ETH, UNI, LUNC"
+ },
+ {
+  "t": "2026-11-20T01:46:28Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AGI, ALL, AMD, ANT, CAPR, DIA, DOW, GLD, GME, GOOG, INTU, IREN"
+ },
+ {
+  "t": "2026-11-20T01:46:29Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "614 actifs hors univers analysés, 1 en mouvement : TRUST -8.0 %."
+ },
+ {
+  "t": "2026-11-20T01:46:34Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[banque centrale, résultats] Fed's Paulson says understanding, not guidance, drives effective communication - Raleigh News & Observer (Raleigh News & Observer)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzNSTzNnVGJ0Znd2SmplY3VMT0l6NXdoekhXdmV4ckFsblNyMS1HdXpNdFBnNVZvdVFJdlB6WERkSEd2MGswQkl6MTFjSENpTmZFbzVGQzRaaFdoUzcxVHZMRU9pSUNyVlEzN2gtbHZycFBfeTY2Z2c4SWlZRExBNmxkQQ?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-20T01:46:34Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[banque centrale, résultats] Fed's Paulson backs further rate hikes, says shared understanding beats guidance - Wichita Eagle (Wichita Eagle)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMie0FVX3lxTE04ck50bDhCY3hqWWpkYWhxekwwZko3b3NXU0ZucEtmUXRZT2VOYTJOclJyVWZHRWhlOUFlblZVZWItNEdZcG9wTnk5QkttSTktOUcyU2hnOXlyczlRSDR4QzZXWmxSZHd0djF4TnlPUUM3YkxMSXFSVjVNMA?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-20T01:46:34Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "RARE -7.49 % en 1 h"
  }
 ]
