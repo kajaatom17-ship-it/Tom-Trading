@@ -1589,6 +1589,13 @@
  ],
  "alertes": [
   {
+   "sym": "CRCL",
+   "horizon": "15 min",
+   "variation_pct": -1.53,
+   "prix": 46.22362561144776,
+   "t": "2026-11-20T02:00:59Z"
+  },
+  {
    "sym": "BONK",
    "horizon": "15 min",
    "variation_pct": -2.58,
@@ -1649,13 +1656,6 @@
    "horizon": "15 min",
    "variation_pct": -2.62,
    "prix": 1.227,
-   "t": "2026-11-20T01:58:05Z"
-  },
-  {
-   "sym": "CRCL",
-   "horizon": "15 min",
-   "variation_pct": -1.75,
-   "prix": 45.972606239791226,
    "t": "2026-11-20T01:58:05Z"
   },
   {
@@ -1735,5 +1735,5 @@
  "erreurs_sources": [
   "Google (stock market today): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-20T02:00:00Z"
+ "t": "2026-11-20T02:00:59Z"
 }

@@ -1,5 +1,5 @@
 {
- "t": "2026-11-20T01:56:08Z",
+ "t": "2026-11-20T02:00:59Z",
  "nb_analyses": 614,
  "nb_en_mouvement": 2,
  "tendance": [
@@ -15,23 +15,24 @@
   "DIA",
   "DOW",
   "ETH",
+  "GDXU",
   "GLD",
   "GME",
   "GOOG",
   "INTU",
-  "IREN",
   "LUNC",
   "META",
   "MON",
   "NBIS",
   "NEAR",
-  "ORCL",
+  "NFLX",
   "PEARL",
   "PENGU",
   "QNT",
   "QQQ",
   "SLV",
   "SNDK",
+  "SOFI",
   "SOL",
   "SOXL",
   "SPY",
@@ -45,12 +46,12 @@
  "buzz_reseaux": {
   "SPY": {
    "source": "Reddit",
-   "mentions": 650,
+   "mentions": 649,
    "x_vs_hier": 2.1
   },
   "AMD": {
    "source": "Reddit + StockTwits",
-   "mentions": 527,
+   "mentions": 530,
    "x_vs_hier": 2.8
   },
   "QQQ": {
@@ -75,8 +76,8 @@
   },
   "SOXL": {
    "source": "Reddit",
-   "mentions": 58,
-   "x_vs_hier": 2.4
+   "mentions": 59,
+   "x_vs_hier": 2.3
   },
   "DOW": {
    "source": "Reddit",
@@ -88,25 +89,25 @@
    "mentions": 38,
    "x_vs_hier": 2.1
   },
+  "META": {
+   "source": "Reddit + StockTwits",
+   "mentions": 35,
+   "x_vs_hier": 2.2
+  },
   "ALL": {
    "source": "Reddit",
    "mentions": 34,
    "x_vs_hier": 2.4
   },
-  "META": {
-   "source": "Reddit + StockTwits",
-   "mentions": 34,
-   "x_vs_hier": 2.1
-  },
   "TQQQ": {
-   "source": "Reddit + StockTwits",
+   "source": "Reddit",
    "mentions": 33,
    "x_vs_hier": 4.1
   },
   "AGI": {
    "source": "Reddit",
    "mentions": 30,
-   "x_vs_hier": 6.0
+   "x_vs_hier": 5.0
   },
   "ANT": {
    "source": "StockTwits",
@@ -118,17 +119,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNDK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "GLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
+  "SNDK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DIA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -143,17 +149,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IREN": {
+  "NFLX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIA": {
+  "GDXU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ORCL": {
+  "SOFI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -164,9 +170,9 @@
    "sym": "TRUST",
    "pair": "TRUSTEUR",
    "action": false,
-   "variation_24h_pct": -8.36,
-   "volume_24h_eur": 88869.24,
-   "spread_pct": 0.2731,
+   "variation_24h_pct": -8.57,
+   "volume_24h_eur": 89876.79,
+   "spread_pct": 0.2316,
    "tendance": false,
    "impulsion": null
   },
@@ -174,9 +180,9 @@
    "sym": "QNT",
    "pair": "QNTEUR",
    "action": false,
-   "variation_24h_pct": -3.39,
-   "volume_24h_eur": 199074.73,
-   "spread_pct": 0.1368,
+   "variation_24h_pct": -3.13,
+   "volume_24h_eur": 201376.76,
+   "spread_pct": 0.0758,
    "tendance": true,
    "impulsion": null
   }
