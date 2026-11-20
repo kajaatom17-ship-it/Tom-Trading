@@ -1,14 +1,5 @@
 [
  {
-  "t": "2026-11-16T13:57:41Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "MSTR short ouvert à 92.59631 | 100.04 € engagés | stop 93.76129 | objectif 89.53114 | risque 1.42 EUR",
-  "data": {
-   "id": "P0013"
-  }
- },
- {
   "t": "2026-11-16T13:57:50Z",
   "agent": "Chasseur de mouvements",
   "type": "réseaux sociaux",
@@ -3039,5 +3030,11 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "614 actifs hors univers analysés, 1 en mouvement : TRUST -8.4 %."
+ },
+ {
+  "t": "2026-11-20T01:52:17Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "NEAR -2.71 % en 15 min"
  }
 ]
