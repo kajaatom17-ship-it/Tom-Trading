@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-20T18:56:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 53494.9,
+   "dernier_prix": 53410.6,
    "atr": 598.5359,
    "rollover": 0.43110611320610254,
    "rollover_periodes": 24
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-20T18:56:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.246e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T18:56:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 521.4824682256549,
+   "dernier_prix": 521.019212874268,
    "atr": 2.771652,
    "rollover": 0.11553416045057895,
    "rollover_periodes": 6
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T18:56:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 95.78379759308767,
+   "dernier_prix": 95.77243782728485,
    "atr": 1.08547,
    "rollover": 0.091639927822667,
    "rollover_periodes": 6
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-20T18:56:00Z",
+   "verifie_jusqu_a": "2026-11-20T18:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 569.9583033001524,
+   "dernier_prix": 569.8907073913916,
    "atr": 3.304099,
    "rollover": 0.11541676079518777,
    "rollover_periodes": 6
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-20T18:56:09Z",
+ "maj": "2026-11-20T18:58:16Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,7 +152,7 @@
   "2026-11-20": 491.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-20T18:52:13Z",
+ "chasseur_t": "2026-11-20T18:58:06Z",
  "tendance": [
   "WASTED",
   "CHUNKEE",
@@ -334,73 +334,78 @@
   }
  },
  "buzz_t": "2026-11-20T18:52:14Z",
- "sources_t": "2026-11-20T18:37:07Z",
+ "sources_t": "2026-11-20T18:58:11Z",
  "actus_tendance": [
+  {
+   "sujet": "AI",
+   "mentions": 8,
+   "sentiment": "neutral",
+   "titres": [
+    "Anthropic IPO Is Live- AI Stocks Are Facing a Different Reality",
+    "Anthropic Shares Slip as AI and Tech Stock Sell-Off Continues"
+   ]
+  },
   {
    "sujet": "Bitcoin",
    "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "JPMorgan says Bitcoin price drop widens gap to $86,000 production cost",
-    "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic"
+    "Binance hack laundering accelerates as $149M in Bitcoin passes through coinjoins, Elliptic says",
+    "JPMorgan says Bitcoin price drop widens gap to $86,000 production cost"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 5,
+   "sujet": "ETF",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Anthropic defied the odds in its record IPO. Now it has to reckon with AI market turbulence",
-    "Google Gives Gemini Control of Mac Apps, But Its New AI Agent Comes With Risks"
+    "Anthropic quickly finds itself already inside more than 80 ETFs",
+    "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "bullish",
    "titres": [
-    "Backpack secures CFTC approval with ‘novel but compliant’ approach",
-    "Bitcoin's regulation bull case is played out. What could drive crypto gains moving forward"
+    "Lumia CEO warns of liquidity risks ahead of OKXICE tokenized stock launch",
+    "Backpack secures CFTC approval with ‘novel but compliant’ approach"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 1,
+   "sujet": "Ethereum",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "ELSA/USDT: +112% Breakout Expansion Setup"
+    "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
+    "ETHEREUM: THE DIP BUYERS ARE RUNNING OUT OF EXCUSES!"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Cathie Wood Bets $91M on Anthropic IPO While Paring Crypto Exposure",
+    "Temporal CEO Marcryptonio pitches PropAMMs as Solana’s path to onchain options"
    ]
   },
   {
    "sujet": "Security",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
+    "Binance hack laundering accelerates as $149M in Bitcoin passes through coinjoins, Elliptic says",
     "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
+    "Binance hack laundering accelerates as $149M in Bitcoin passes through coinjoins, Elliptic says",
     "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "ETHEREUM: THE DIP BUYERS ARE RUNNING OUT OF EXCUSES!"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Robinhood’s Steve Quirk takes tokenization and prediction markets to Bloomberg’s ETF stage"
    ]
   }
  ],
