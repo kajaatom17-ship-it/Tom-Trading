@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T14:01:00Z",
+   "verifie_jusqu_a": "2026-11-21T16:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.6586603054482,
+   "dernier_prix": 518.5117503015241,
    "atr": 2.771652,
    "rollover": 0.2118126274927281,
    "rollover_periodes": 11
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T14:01:00Z",
+   "verifie_jusqu_a": "2026-11-21T16:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.61776022958881,
+   "dernier_prix": 93.5912430101239,
    "atr": 1.08547,
    "rollover": 0.16800653434155619,
    "rollover_periodes": 11
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T14:01:00Z",
+   "verifie_jusqu_a": "2026-11-21T16:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.8812115562135,
+   "dernier_prix": 568.4185519535105,
    "atr": 3.304099,
    "rollover": 0.21159739479117753,
    "rollover_periodes": 11
@@ -91,7 +91,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T14:02:01Z",
+ "maj": "2026-11-21T16:12:35Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -105,243 +105,209 @@
   "2026-11-21": 509.22
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-21T14:01:39Z",
+ "chasseur_t": "2026-11-21T16:12:26Z",
  "tendance": [
+  "BP",
+  "ZEC",
+  "DOGE",
   "WASTED",
+  "PENGU",
+  "TRUMP",
+  "WSTAR",
   "CHUNKEE",
   "BTC",
-  "TRUMP",
   "HYPE",
-  "PENGU",
-  "TAO",
-  "PI",
-  "SUI",
+  "ZRO",
   "PEARL",
-  "LIT",
-  "SOL",
-  "MON",
-  "NEAR",
-  "XMR"
+  "LINK",
+  "INJ",
+  "SOL"
  ],
- "tendance_t": "2026-11-21T13:33:01Z",
+ "tendance_t": "2026-11-21T16:12:26Z",
  "buzz": {
   "BTC": {
    "source": "Reddit + StockTwits",
-   "mentions": 314,
-   "x_vs_hier": 2.6
+   "mentions": 331,
+   "x_vs_hier": 2.8
   },
   "SO": {
    "source": "Reddit",
-   "mentions": 148,
-   "x_vs_hier": 9.2
+   "mentions": 145,
+   "x_vs_hier": 8.5
   },
   "PUMP": {
    "source": "Reddit",
-   "mentions": 113,
-   "x_vs_hier": 11.3
-  },
-  "TQQQ": {
-   "source": "Reddit",
-   "mentions": 72,
-   "x_vs_hier": 2.1
-  },
-  "VT": {
-   "source": "Reddit",
-   "mentions": 58,
-   "x_vs_hier": 3.4
-  },
-  "VTI": {
-   "source": "Reddit + StockTwits",
-   "mentions": 54,
-   "x_vs_hier": 2.6
+   "mentions": 106,
+   "x_vs_hier": 6.2
   },
   "NYT": {
    "source": "Reddit",
-   "mentions": 52,
-   "x_vs_hier": 13.0
+   "mentions": 64,
+   "x_vs_hier": 10.7
   },
-  "MSTR": {
+  "VT": {
    "source": "Reddit",
-   "mentions": 50,
+   "mentions": 51,
    "x_vs_hier": 2.3
   },
   "QQQM": {
    "source": "Reddit",
-   "mentions": 44,
-   "x_vs_hier": 14.7
+   "mentions": 37,
+   "x_vs_hier": 7.4
   },
   "MS": {
-   "source": "Reddit",
-   "mentions": 37,
-   "x_vs_hier": 2.5
-  },
-  "SMH": {
-   "source": "Reddit",
-   "mentions": 37,
-   "x_vs_hier": 3.4
+   "source": "Reddit + StockTwits",
+   "mentions": 36,
+   "x_vs_hier": 3.3
   },
   "EU": {
    "source": "Reddit",
-   "mentions": 37,
-   "x_vs_hier": 2.6
-  },
-  "AVGO": {
-   "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 2.0
+   "mentions": 36,
+   "x_vs_hier": 2.8
   },
   "DC": {
    "source": "Reddit",
    "mentions": 33,
    "x_vs_hier": 11.0
   },
-  "COST": {
-   "source": "Reddit",
-   "mentions": 30,
-   "x_vs_hier": 2.1
+  "ZS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   },
-  "CRWD": {
-   "source": "Reddit",
-   "mentions": 30,
-   "x_vs_hier": 3.0
+  "STRK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SONY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XRP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "C": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "T.TSX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WFC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   },
   "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TAO": {
+  "TXN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
+  "GM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ICP": {
+  "ASML": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SRPT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TRUMP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AFRM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JASMY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PEPE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PEP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LTC": {
+  "SUI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-21T14:01:40Z",
- "sources_t": "2026-11-21T14:01:45Z",
+ "buzz_t": "2026-11-21T16:12:27Z",
+ "sources_t": "2026-11-21T16:12:32Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 12,
+   "mentions": 9,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin drops to lowest level in more than two years",
-    "Kraken says trades stand after Bitcoin sold at $24,250 Canadian"
+    "30-day lows broke on BTC, ETH, SOL, XRP. Does volume matter?",
+    "Crypto Liquidations Top $2.4B As Bitcoin Sinks Below $57,000, But Shorts Are Now Piling In"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 8,
+   "mentions": 7,
    "sentiment": "bullish",
    "titres": [
-    "AI Stocks are Pulling Back, But I'm Watching $AMD",
-    "Anthropic IPO raises $81B but faces valuation doubts amid AI market slump"
+    "Signal Calls OS-Level AI an 'Existential Threat' and Blocks Screenshots to Fight It",
+    "Signal now stops Siri AI and Gemini from reading its chats by default"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 5,
-   "sentiment": "bullish",
+   "mentions": 4,
+   "sentiment": "neutral",
    "titres": [
-    "USDT.D Analyses-98, November 21, 2026",
-    "Chainflip 黑客已将赃款兑换为 2910 枚 ETH 并转入 Tornado Cash"
+    "Tether Treasury moves 165.9 million USDT to an unidentified wallet",
+    "数据：Garrett 认领的地址向币安存入 6500 万枚 USDT，链上仍有 1.2 亿美元稳定币"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "Chainflip 黑客已将赃款兑换为 2910 枚 ETH 并转入 Tornado Cash",
-    "数据：某鲸鱼在 Hyperliquid 以 3 倍杠杆做多 1.4 万枚 ETH，浮盈已达 144 万美元"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
    "mentions": 3,
-   "sentiment": "bullish",
-   "titres": [
-    "State and federal battle over prediction markets regulation heats up after midterms",
-    "Musk hints at potential Tesla-SpaceX merger, no deal yet"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin slips below its 200-week average for the first time since October 2023",
-    "Wells Fargo Leads as US Institutions Hit Record 356K Bitcoin Holdings: Galaxy"
+    "30-day lows broke on BTC, ETH, SOL, XRP. Does volume matter?",
+    "ETH 4H — Double bottom breakout: long example"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
+   "mentions": 2,
+   "sentiment": "bearish",
    "titres": [
-    "Solana Is Building A Quantum Shield Without Giving Up Its Speed, Even As SOL Trades Near $69"
+    "Solana new 60-day low 64.87, closes back over 67.15",
+    "30-day lows broke on BTC, ETH, SOL, XRP. Does volume matter?"
    ]
   },
   {
    "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "bearish",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
-    "XRP Price Sinks to $0.86 With Leveraged Bulls Gone"
+    "XRP: Is History About to Repeat?",
+    "30-day lows broke on BTC, ETH, SOL, XRP. Does volume matter?"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "FBI crime database hacked: CNN",
+    "FBI Probes Suspected Hack Of Critical Nationwide Crime Database"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "iShares head explains the trade-off behind BlackRock’s exchange-traded interval funds"
    ]
   }
  ],
