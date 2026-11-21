@@ -1359,6 +1359,27 @@
  ],
  "alertes": [
   {
+   "sym": "RARE",
+   "horizon": "15 min",
+   "variation_pct": 3.86,
+   "prix": 0.01425,
+   "t": "2026-11-21T11:33:55Z"
+  },
+  {
+   "sym": "USELESS",
+   "horizon": "15 min",
+   "variation_pct": 3.87,
+   "prix": 0.07294,
+   "t": "2026-11-21T11:33:55Z"
+  },
+  {
+   "sym": "ZEC",
+   "horizon": "15 min",
+   "variation_pct": 2.66,
+   "prix": 701.377,
+   "t": "2026-11-21T11:33:55Z"
+  },
+  {
    "sym": "ENA",
    "horizon": "15 min",
    "variation_pct": 2.55,
@@ -1366,31 +1387,10 @@
    "t": "2026-11-21T11:33:00Z"
   },
   {
-   "sym": "RARE",
-   "horizon": "15 min",
-   "variation_pct": 7.55,
-   "prix": 0.01425,
-   "t": "2026-11-21T11:33:00Z"
-  },
-  {
    "sym": "TRUMP",
    "horizon": "15 min",
    "variation_pct": 2.61,
    "prix": 0.786,
-   "t": "2026-11-21T11:33:00Z"
-  },
-  {
-   "sym": "USELESS",
-   "horizon": "15 min",
-   "variation_pct": 3.15,
-   "prix": 0.07266,
-   "t": "2026-11-21T11:33:00Z"
-  },
-  {
-   "sym": "ZEC",
-   "horizon": "15 min",
-   "variation_pct": 3.23,
-   "prix": 704.433,
    "t": "2026-11-21T11:33:00Z"
   },
   {
@@ -1539,5 +1539,5 @@
   "Google (stock market today): HTTP Error 429: Too Many Requests",
   "Google (crypto hack exploit): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-21T11:33:00Z"
+ "t": "2026-11-21T11:33:55Z"
 }
