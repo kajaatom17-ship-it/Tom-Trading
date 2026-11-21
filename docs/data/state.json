@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-21T01:47:00Z",
+   "verifie_jusqu_a": "2026-11-21T01:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 53746.9,
+   "dernier_prix": 53721.3,
    "atr": 598.5359,
    "rollover": 0.4670316226399444,
    "rollover_periodes": 26
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-21T01:47:00Z",
+   "verifie_jusqu_a": "2026-11-21T01:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.263e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T01:47:00Z",
+   "verifie_jusqu_a": "2026-11-21T01:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.1093591651526,
+   "dernier_prix": 518.090438497987,
    "atr": 2.771652,
    "rollover": 0.1540455472674386,
    "rollover_periodes": 8
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T01:47:00Z",
+   "verifie_jusqu_a": "2026-11-21T01:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.51861150928065,
+   "dernier_prix": 93.51519633352507,
    "atr": 1.08547,
    "rollover": 0.12218657043022266,
    "rollover_periodes": 8
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T01:47:00Z",
+   "verifie_jusqu_a": "2026-11-21T01:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 564.5262898410466,
+   "dernier_prix": 564.5056740890874,
    "atr": 3.304099,
    "rollover": 0.15388901439358368,
    "rollover_periodes": 8
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T01:47:21Z",
+ "maj": "2026-11-21T01:48:30Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -340,7 +340,7 @@
   }
  },
  "buzz_t": "2026-11-21T01:38:30Z",
- "sources_t": "2026-11-21T01:28:39Z",
+ "sources_t": "2026-11-21T01:48:19Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
@@ -353,29 +353,20 @@
   },
   {
    "sujet": "AI",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "数据：1.55 亿美元做多 ETH 和 BTC 的多军已浮亏超 6547 万美元",
-    "Anthropic 上市次日暴跌，盘中一度离破发仅差 5 美分，AI 交易“买方罢工”"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "DBS is building two paths for 24/7 dollars with JPMorgan and Circle using USDC",
-    "早报｜以太坊过去 24 小时下跌 7.6%；Tether 于以太坊主网销毁 40 亿枚 USDT"
+    "美股 45 天蒸發 6 兆美元！AI 泡沫破了嗎？",
+    "Ark Invest acquires 705,982 shares of Anthropic as Cathie Wood leans into AI"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "数据：1.55 亿美元做多 ETH 和 BTC 的多军已浮亏超 6547 万美元",
-    "Santiago Roel Santos：ETH 未来两年或跌至 100 美元"
+    "数据：7 Siblings 从 Spark 借款 2000 万枚 USDS 买入 1.2085 万枚 ETH",
+    "数据：1.55 亿美元做多 ETH 和 BTC 的多军已浮亏超 6547 万美元"
    ]
   },
   {
@@ -385,6 +376,14 @@
    "titres": [
     "Santiago Roel Santos：ETH 未来两年或跌至 100 美元",
     "Sunrise CEO says Solana is not being left behind in the tokenization race"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "US SEC opens probe into Nvidia's accounting"
    ]
   },
   {
@@ -401,6 +400,14 @@
    "sentiment": "neutral",
    "titres": [
     "Binance Hackers Move $860 Million in Ether as Bitcoin Laundering Surges"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "早报｜以太坊过去 24 小时下跌 7.6%；Tether 于以太坊主网销毁 40 亿枚 USDT"
    ]
   }
  ],
