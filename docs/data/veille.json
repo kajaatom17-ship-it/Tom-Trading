@@ -1627,18 +1627,25 @@
  ],
  "alertes": [
   {
+   "sym": "ZEC",
+   "horizon": "15 min",
+   "variation_pct": 2.51,
+   "prix": 643.612,
+   "t": "2026-11-21T04:17:20Z"
+  },
+  {
+   "sym": "MSTR",
+   "horizon": "15 min",
+   "variation_pct": -1.52,
+   "prix": 67.6051188299817,
+   "t": "2026-11-21T04:17:20Z"
+  },
+  {
    "sym": "PENGU",
    "horizon": "15 min",
    "variation_pct": -2.5,
    "prix": 0.003699,
    "t": "2026-11-21T04:16:22Z"
-  },
-  {
-   "sym": "ZEC",
-   "horizon": "15 min",
-   "variation_pct": 2.53,
-   "prix": 644.969,
-   "t": "2026-11-21T04:11:24Z"
   },
   {
    "sym": "FIL",
@@ -1652,13 +1659,6 @@
    "horizon": "15 min",
    "variation_pct": -2.84,
    "prix": 41.22674710910005,
-   "t": "2026-11-21T04:09:29Z"
-  },
-  {
-   "sym": "MSTR",
-   "horizon": "15 min",
-   "variation_pct": -1.72,
-   "prix": 67.23342017459665,
    "t": "2026-11-21T04:09:29Z"
   },
   {
@@ -1890,5 +1890,5 @@
  ],
  "t_actus": "2026-11-21T04:08:32Z",
  "erreurs_sources": [],
- "t": "2026-11-21T04:16:22Z"
+ "t": "2026-11-21T04:17:20Z"
 }
