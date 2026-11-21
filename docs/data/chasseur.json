@@ -1,7 +1,7 @@
 {
- "t": "2026-11-21T13:44:34Z",
+ "t": "2026-11-21T13:50:17Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 6,
+ "nb_en_mouvement": 8,
  "tendance": [
   "ARKK",
   "AVGO",
@@ -194,22 +194,32 @@
  },
  "candidats": [
   {
-   "sym": "VVV",
-   "pair": "VVVEUR",
+   "sym": "DRV",
+   "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": 12.51,
-   "volume_24h_eur": 635444.64,
-   "spread_pct": 0.1695,
+   "variation_24h_pct": 24.79,
+   "volume_24h_eur": 70688.77,
+   "spread_pct": 0.0911,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "ICNT",
-   "pair": "ICNTEUR",
+   "sym": "VVV",
+   "pair": "VVVEUR",
    "action": false,
-   "variation_24h_pct": -14.12,
-   "volume_24h_eur": 122863.82,
-   "spread_pct": 0.2913,
+   "variation_24h_pct": 13.22,
+   "volume_24h_eur": 638770.53,
+   "spread_pct": 0.2339,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "ORCA",
+   "pair": "ORCAEUR",
+   "action": false,
+   "variation_24h_pct": 10.72,
+   "volume_24h_eur": 95102.19,
+   "spread_pct": 0.362,
    "tendance": false,
    "impulsion": null
   },
@@ -217,23 +227,9 @@
    "sym": "UNI",
    "pair": "UNIEUR",
    "action": false,
-   "variation_24h_pct": 5.69,
-   "volume_24h_eur": 1066453.32,
-   "spread_pct": 0.1067,
-   "tendance": false,
-   "impulsion": {
-    "sens": "long",
-    "mouvement_pct": 5.0,
-    "volume_x": 4.2
-   }
-  },
-  {
-   "sym": "PLAY",
-   "pair": "PLAYEUR",
-   "action": false,
-   "variation_24h_pct": -6.58,
-   "volume_24h_eur": 40252.34,
-   "spread_pct": 0.4476,
+   "variation_24h_pct": 5.97,
+   "volume_24h_eur": 1076490.93,
+   "spread_pct": 0.0787,
    "tendance": false,
    "impulsion": null
   },
@@ -241,9 +237,19 @@
    "sym": "ZAMA",
    "pair": "ZAMAEUR",
    "action": false,
-   "variation_24h_pct": 5.86,
-   "volume_24h_eur": 122895.12,
-   "spread_pct": 0.1997,
+   "variation_24h_pct": 5.61,
+   "volume_24h_eur": 122923.47,
+   "spread_pct": 0.1638,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "PLAY",
+   "pair": "PLAYEUR",
+   "action": false,
+   "variation_24h_pct": -5.99,
+   "volume_24h_eur": 40256.93,
+   "spread_pct": 0.341,
    "tendance": false,
    "impulsion": null
   },
@@ -251,9 +257,19 @@
    "sym": "PI",
    "pair": "PIEUR",
    "action": false,
-   "variation_24h_pct": 5.36,
-   "volume_24h_eur": 40586.24,
-   "spread_pct": 0.1038,
+   "variation_24h_pct": 5.05,
+   "volume_24h_eur": 40450.06,
+   "spread_pct": 0.1249,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "XMR",
+   "pair": "XMREUR",
+   "action": false,
+   "variation_24h_pct": 3.71,
+   "volume_24h_eur": 600632.63,
+   "spread_pct": 0.3909,
    "tendance": true,
    "impulsion": null
   }
