@@ -1,36 +1,35 @@
 {
- "t": "2026-11-21T01:14:54Z",
+ "t": "2026-11-21T01:20:51Z",
  "nb_analyses": 456,
  "nb_en_mouvement": 2,
  "tendance": [
   "AAPL",
-  "AMBA",
   "AVGO",
   "B",
+  "BFLY",
   "BP",
+  "BRK.A",
   "BTC",
   "CAPR",
   "CELH",
+  "CRMD",
   "CRWD",
   "CSIQ",
   "ETH",
   "EU",
   "HYPE",
-  "INFQ",
   "IREN",
-  "KURA",
   "LIT",
   "MAGA",
-  "MARA",
   "MU",
   "NEAR",
+  "NEXT",
   "NVDL",
   "OCUL",
   "PEARL",
   "PENGU",
   "PUMP",
   "QQQM",
-  "RKT",
   "SMH",
   "SNDK",
   "SO",
@@ -38,11 +37,11 @@
   "SQQQ",
   "SRPT",
   "SUI",
+  "SVIX",
   "TAO",
   "TLT",
   "TQQQ",
   "TRUMP",
-  "TSLA",
   "UP",
   "VOO",
   "VT",
@@ -56,8 +55,8 @@
  "buzz_reseaux": {
   "BTC": {
    "source": "Reddit",
-   "mentions": 227,
-   "x_vs_hier": 2.2
+   "mentions": 230,
+   "x_vs_hier": 2.3
   },
   "MU": {
    "source": "Reddit",
@@ -66,18 +65,18 @@
   },
   "VOO": {
    "source": "Reddit",
-   "mentions": 246,
+   "mentions": 244,
    "x_vs_hier": 2.2
   },
   "SNDK": {
    "source": "Reddit",
-   "mentions": 204,
-   "x_vs_hier": 4.5
+   "mentions": 205,
+   "x_vs_hier": 4.7
   },
   "SO": {
    "source": "Reddit",
-   "mentions": 151,
-   "x_vs_hier": 11.6
+   "mentions": 150,
+   "x_vs_hier": 12.5
   },
   "PUMP": {
    "source": "Reddit",
@@ -87,17 +86,17 @@
   "AAPL": {
    "source": "Reddit",
    "mentions": 98,
-   "x_vs_hier": 3.8
+   "x_vs_hier": 3.5
   },
   "TQQQ": {
    "source": "Reddit",
-   "mentions": 66,
+   "mentions": 65,
    "x_vs_hier": 2.1
   },
   "VTI": {
    "source": "Reddit",
-   "mentions": 62,
-   "x_vs_hier": 2.7
+   "mentions": 61,
+   "x_vs_hier": 2.5
   },
   "VT": {
    "source": "Reddit",
@@ -106,28 +105,23 @@
   },
   "IREN": {
    "source": "Reddit",
-   "mentions": 49,
-   "x_vs_hier": 2.1
-  },
-  "TSLA": {
-   "source": "Reddit",
-   "mentions": 46,
+   "mentions": 47,
    "x_vs_hier": 2.0
   },
   "QQQM": {
    "source": "Reddit",
-   "mentions": 44,
-   "x_vs_hier": 11.0
+   "mentions": 43,
+   "x_vs_hier": 10.8
   },
   "SMH": {
    "source": "Reddit",
-   "mentions": 36,
-   "x_vs_hier": 9.0
+   "mentions": 35,
+   "x_vs_hier": 5.8
   },
   "EU": {
    "source": "Reddit",
    "mentions": 35,
-   "x_vs_hier": 2.1
+   "x_vs_hier": 2.2
   },
   "CRWD": {
    "source": "Reddit",
@@ -137,22 +131,22 @@
   "TLT": {
    "source": "Reddit",
    "mentions": 33,
-   "x_vs_hier": 3.0
+   "x_vs_hier": 2.2
   },
   "MAGA": {
    "source": "Reddit",
    "mentions": 32,
-   "x_vs_hier": 2.3
+   "x_vs_hier": 2.5
   },
-  "UP": {
+  "AVGO": {
    "source": "Reddit",
    "mentions": 31,
    "x_vs_hier": 2.6
   },
-  "AVGO": {
+  "UP": {
    "source": "Reddit",
-   "mentions": 30,
-   "x_vs_hier": 3.0
+   "mentions": 31,
+   "x_vs_hier": 2.4
   },
   "CAPR": {
    "source": "StockTwits",
@@ -174,7 +168,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMBA": {
+  "SQQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -189,7 +183,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "B": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "OCUL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SVIX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -199,32 +208,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SQQQ": {
+  "BRK.A": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KURA": {
+  "NEXT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MARA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "B": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "INFQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RKT": {
+  "BFLY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
