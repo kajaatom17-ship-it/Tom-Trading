@@ -1,7 +1,7 @@
 {
- "t": "2026-11-21T16:50:23Z",
+ "t": "2026-11-21T16:56:28Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 8,
+ "nb_en_mouvement": 10,
  "tendance": [
   "ADA",
   "BP",
@@ -146,12 +146,22 @@
  },
  "candidats": [
   {
+   "sym": "DRV",
+   "pair": "DRVEUR",
+   "action": false,
+   "variation_24h_pct": 29.84,
+   "volume_24h_eur": 70526.49,
+   "spread_pct": 0.2289,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "VVV",
    "pair": "VVVEUR",
    "action": false,
-   "variation_24h_pct": 14.43,
-   "volume_24h_eur": 650708.15,
-   "spread_pct": 0.2176,
+   "variation_24h_pct": 14.07,
+   "volume_24h_eur": 650340.9,
+   "spread_pct": 0.1811,
    "tendance": false,
    "impulsion": null
   },
@@ -159,9 +169,9 @@
    "sym": "ORCA",
    "pair": "ORCAEUR",
    "action": false,
-   "variation_24h_pct": 10.02,
-   "volume_24h_eur": 110171.2,
-   "spread_pct": 0.4554,
+   "variation_24h_pct": 9.62,
+   "volume_24h_eur": 110126.09,
+   "spread_pct": 0.2742,
    "tendance": false,
    "impulsion": null
   },
@@ -171,7 +181,7 @@
    "action": false,
    "variation_24h_pct": -8.87,
    "volume_24h_eur": 119803.7,
-   "spread_pct": 0.2745,
+   "spread_pct": 0.244,
    "tendance": false,
    "impulsion": null
   },
@@ -179,19 +189,19 @@
    "sym": "UNI",
    "pair": "UNIEUR",
    "action": false,
-   "variation_24h_pct": 5.8,
-   "volume_24h_eur": 1003780.4,
-   "spread_pct": 0.0626,
+   "variation_24h_pct": 6.17,
+   "volume_24h_eur": 1014911.52,
+   "spread_pct": 0.0647,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "ICP",
-   "pair": "ICPEUR",
+   "sym": "XMR",
+   "pair": "XMREUR",
    "action": false,
-   "variation_24h_pct": -5.25,
-   "volume_24h_eur": 275501.79,
-   "spread_pct": 0.1143,
+   "variation_24h_pct": 5.4,
+   "volume_24h_eur": 564306.12,
+   "spread_pct": 0.2594,
    "tendance": false,
    "impulsion": null
   },
@@ -201,27 +211,17 @@
    "action": false,
    "variation_24h_pct": 5.59,
    "volume_24h_eur": 107152.27,
-   "spread_pct": 0.3695,
+   "spread_pct": 0.1026,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "ZAMA",
-   "pair": "ZAMAEUR",
+   "sym": "ICP",
+   "pair": "ICPEUR",
    "action": false,
-   "variation_24h_pct": 5.11,
-   "volume_24h_eur": 103156.63,
-   "spread_pct": 0.2559,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "B2",
-   "pair": "B2EUR",
-   "action": false,
-   "variation_24h_pct": 5.04,
-   "volume_24h_eur": 62458.31,
-   "spread_pct": 0.2665,
+   "variation_24h_pct": -5.09,
+   "volume_24h_eur": 274457.46,
+   "spread_pct": 0.1141,
    "tendance": false,
    "impulsion": null
   }
