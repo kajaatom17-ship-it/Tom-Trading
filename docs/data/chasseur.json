@@ -1,7 +1,7 @@
 {
- "t": "2026-11-21T23:17:35Z",
+ "t": "2026-11-21T23:23:26Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 10,
+ "nb_en_mouvement": 11,
  "tendance": [
   "AKAM",
   "BTC",
@@ -130,12 +130,22 @@
  },
  "candidats": [
   {
+   "sym": "DRV",
+   "pair": "DRVEUR",
+   "action": false,
+   "variation_24h_pct": 32.64,
+   "volume_24h_eur": 66678.89,
+   "spread_pct": 0.3526,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "VVV",
    "pair": "VVVEUR",
    "action": false,
-   "variation_24h_pct": 19.89,
-   "volume_24h_eur": 694995.96,
-   "spread_pct": 0.137,
+   "variation_24h_pct": 20.8,
+   "volume_24h_eur": 755292.62,
+   "spread_pct": 0.2193,
    "tendance": true,
    "impulsion": null
   },
@@ -145,7 +155,7 @@
    "action": false,
    "variation_24h_pct": -10.64,
    "volume_24h_eur": 90658.79,
-   "spread_pct": 0.2177,
+   "spread_pct": 0.4977,
    "tendance": false,
    "impulsion": null
   },
@@ -154,7 +164,7 @@
    "pair": "ORCAEUR",
    "action": false,
    "variation_24h_pct": 9.22,
-   "volume_24h_eur": 122698.94,
+   "volume_24h_eur": 123207.64,
    "spread_pct": 0.1835,
    "tendance": false,
    "impulsion": null
@@ -163,9 +173,9 @@
    "sym": "XMR",
    "pair": "XMREUR",
    "action": false,
-   "variation_24h_pct": 7.37,
-   "volume_24h_eur": 325463.02,
-   "spread_pct": 0.3239,
+   "variation_24h_pct": 7.64,
+   "volume_24h_eur": 326952.17,
+   "spread_pct": 0.2875,
    "tendance": true,
    "impulsion": null
   },
@@ -173,9 +183,9 @@
    "sym": "UNI",
    "pair": "UNIEUR",
    "action": false,
-   "variation_24h_pct": 5.74,
-   "volume_24h_eur": 941857.63,
-   "spread_pct": 0.0394,
+   "variation_24h_pct": 6.02,
+   "volume_24h_eur": 942347.78,
+   "spread_pct": 0.074,
    "tendance": false,
    "impulsion": null
   },
@@ -194,18 +204,8 @@
    "pair": "NIGHTEUR",
    "action": false,
    "variation_24h_pct": 5.46,
-   "volume_24h_eur": 224207.58,
+   "volume_24h_eur": 223962.75,
    "spread_pct": 0.1479,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "ZAMA",
-   "pair": "ZAMAEUR",
-   "action": false,
-   "variation_24h_pct": 5.88,
-   "volume_24h_eur": 73823.52,
-   "spread_pct": 0.1815,
    "tendance": false,
    "impulsion": null
   }
