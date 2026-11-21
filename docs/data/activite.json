@@ -1,20 +1,5 @@
 [
  {
-  "t": "2026-11-21T00:16:37Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Yahoo Finance : Is the AI Trade Headed for a Dot-Com Crash? Dan Niles Weighs In",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=RT1x8q8ma7I"
-  }
- },
- {
-  "t": "2026-11-21T00:20:37Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "610 actifs hors univers analysés, 7 en mouvement : FARTCOIN -7.0 %, KSM -7.0 %, STX -7.1 %."
- },
- {
   "t": "2026-11-21T00:47:58Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -2782,5 +2767,20 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "450 actifs hors univers analysés, 11 en mouvement : VVV +16.1 %, ICNT -9.4 %, NIGHT +7.9 %."
+ },
+ {
+  "t": "2026-11-21T19:11:55Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "PEPE short ouvert à 3.089907e-06 | 26.76 € engagés | stop 3.333592e-06 | objectif 2.367225e-06 | risque 2.56 EUR",
+  "data": {
+   "id": "P0026"
+  }
+ },
+ {
+  "t": "2026-11-21T19:11:55Z",
+  "agent": "Trader de garde",
+  "type": "entrée",
+  "msg": "Entrée SWG-1 : PEPE short, stop 3.333592e-06, objectif 2.367225e-06, risque 2.56 €."
  }
 ]

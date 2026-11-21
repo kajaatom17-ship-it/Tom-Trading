@@ -14455,5 +14455,37 @@
   },
   "cree_le": "2026-11-21T17:01:10Z",
   "traite_le": "2026-11-21T17:01:10Z"
+ },
+ {
+  "id": "S-20261121-191155-PEPE",
+  "action": "open",
+  "sym": "PEPE",
+  "side": "short",
+  "strategie": "SWG-1",
+  "entry_ref": 3.092e-06,
+  "atr": 5.5986e-08,
+  "stop": 3.333592e-06,
+  "tp": 2.367225e-06,
+  "duree_max_h": 192,
+  "risque_pct_override": 1.0,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."
+   }
+  },
+  "synthese": "Entrée automatique SWG-1 sur PEPE (vente à découvert) : Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute. RR net 2.3. Position prévue pour durer plusieurs jours.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0026",
+   "prix": 3.089907e-06,
+   "risque_eur": 2.56
+  },
+  "cree_le": "2026-11-21T19:11:55Z",
+  "traite_le": "2026-11-21T19:11:55Z"
  }
 ]

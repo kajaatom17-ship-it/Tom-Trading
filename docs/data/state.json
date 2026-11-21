@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 156.77911414212917,
+ "cash": 129.80970886727442,
  "positions": [
   {
    "id": "P0022",
@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T19:09:00Z",
+   "verifie_jusqu_a": "2026-11-21T19:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.5543930186869,
+   "dernier_prix": 518.5022750945672,
    "atr": 2.771652,
    "rollover": 0.23106832090115795,
    "rollover_periodes": 12
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T19:09:00Z",
+   "verifie_jusqu_a": "2026-11-21T19:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.59894001005163,
+   "dernier_prix": 93.58953273760577,
    "atr": 1.08547,
    "rollover": 0.18327985564533403,
    "rollover_periodes": 12
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T19:09:00Z",
+   "verifie_jusqu_a": "2026-11-21T19:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.3190935258374,
+   "dernier_prix": 568.2619739414872,
    "atr": 3.304099,
    "rollover": 0.23083352159037548,
    "rollover_periodes": 12
@@ -92,14 +92,36 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-21T19:09:00Z",
+   "verifie_jusqu_a": "2026-11-21T19:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.1012,
    "atr": 0.001778075
+  },
+  {
+   "id": "P0026",
+   "sym": "PEPE",
+   "pair": "PEPEEUR",
+   "side": "short",
+   "strategie": "SWG-1",
+   "qty": 8658953.934810326,
+   "entry": 3.089907e-06,
+   "notionnel": 26.755362375847966,
+   "frais_entree": 0.21404289900678372,
+   "stop": 3.333592e-06,
+   "stop_initial": 3.333592e-06,
+   "tp": 2.367225e-06,
+   "risque_eur": 2.5550234451346565,
+   "rr_net": 2.28,
+   "ouvert_le": "2026-11-21T19:11:55Z",
+   "verifie_jusqu_a": "2026-11-21T19:11:55Z",
+   "duree_max_h": 192.0,
+   "decision_id": "S-20261121-191155-PEPE",
+   "dernier_prix": 3.089907e-06,
+   "atr": 5.5986e-08
   }
  ],
- "frais_cumules": 14.439099666301372,
+ "frais_cumules": 14.653142565308155,
  "pnl_realise": -6.521210711096159,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -114,8 +136,8 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T19:09:52Z",
- "seq": 25,
+ "maj": "2026-11-21T19:10:50Z",
+ "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
@@ -320,7 +342,8 @@
  "entrees_meme_par_jour": {
   "2026-11-14": 1,
   "2026-11-15": 2,
-  "2026-11-16": 2
+  "2026-11-16": 2,
+  "2026-11-21": 1
  },
  "impulsion_par_jour": {
   "2026-11-14": 1,
@@ -329,14 +352,14 @@
  },
  "entrees_crypto_par_jour": {
   "2026-11-16": 2,
-  "2026-11-21": 1
+  "2026-11-21": 2
  },
  "swing_par_jour": {
   "2026-11-16": 2,
   "2026-11-17": 3,
   "2026-11-18": 1,
   "2026-11-19": 3,
-  "2026-11-21": 1
+  "2026-11-21": 2
  },
  "swing_vus": {
   "BTC": 1794841200,
@@ -348,6 +371,7 @@
   "META": 1795100400,
   "COIN": 1795100400,
   "QQQ": 1795100400,
-  "FET": 1795276800
+  "FET": 1795276800,
+  "PEPE": 1795284000
  }
 }
