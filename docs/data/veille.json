@@ -1480,32 +1480,67 @@
  ],
  "alertes": [
   {
+   "sym": "ARB",
+   "horizon": "15 min",
+   "variation_pct": 2.76,
+   "prix": 0.1042,
+   "t": "2026-11-21T13:39:45Z"
+  },
+  {
+   "sym": "ENA",
+   "horizon": "15 min",
+   "variation_pct": 2.73,
+   "prix": 0.0902,
+   "t": "2026-11-21T13:39:45Z"
+  },
+  {
+   "sym": "NEAR",
+   "horizon": "15 min",
+   "variation_pct": 2.56,
+   "prix": 2.655,
+   "t": "2026-11-21T13:39:45Z"
+  },
+  {
+   "sym": "ONDO",
+   "horizon": "15 min",
+   "variation_pct": 2.51,
+   "prix": 0.25565,
+   "t": "2026-11-21T13:39:45Z"
+  },
+  {
    "sym": "RARE",
    "horizon": "15 min",
-   "variation_pct": -6.09,
-   "prix": 0.01419,
-   "t": "2026-11-21T13:38:50Z"
+   "variation_pct": -4.01,
+   "prix": 0.01413,
+   "t": "2026-11-21T13:39:45Z"
   },
   {
    "sym": "USELESS",
    "horizon": "15 min",
    "variation_pct": 3.79,
    "prix": 0.07374,
-   "t": "2026-11-21T13:38:50Z"
+   "t": "2026-11-21T13:39:45Z"
+  },
+  {
+   "sym": "ZEC",
+   "horizon": "15 min",
+   "variation_pct": 3.01,
+   "prix": 736.089,
+   "t": "2026-11-21T13:39:45Z"
   },
   {
    "sym": "CRCL",
    "horizon": "15 min",
-   "variation_pct": 2.8,
-   "prix": 45.25672908133411,
-   "t": "2026-11-21T13:38:50Z"
+   "variation_pct": 1.93,
+   "prix": 45.25797043145931,
+   "t": "2026-11-21T13:39:45Z"
   },
   {
    "sym": "MSTR",
    "horizon": "15 min",
-   "variation_pct": 2.18,
-   "prix": 74.0016091281451,
-   "t": "2026-11-21T13:38:50Z"
+   "variation_pct": 3.02,
+   "prix": 74.46079014016256,
+   "t": "2026-11-21T13:39:45Z"
   },
   {
    "sym": "RENDER",
@@ -1520,20 +1555,6 @@
    "variation_pct": 2.02,
    "prix": 119.7579059965807,
    "t": "2026-11-21T13:19:21Z"
-  },
-  {
-   "sym": "ZEC",
-   "horizon": "15 min",
-   "variation_pct": 2.59,
-   "prix": 700.454,
-   "t": "2026-11-21T11:34:49Z"
-  },
-  {
-   "sym": "ENA",
-   "horizon": "15 min",
-   "variation_pct": 2.55,
-   "prix": 0.0885,
-   "t": "2026-11-21T11:33:00Z"
   },
   {
    "sym": "TRUMP",
@@ -1585,13 +1606,6 @@
    "t": "2026-11-21T08:29:48Z"
   },
   {
-   "sym": "NEAR",
-   "horizon": "15 min",
-   "variation_pct": 2.79,
-   "prix": 2.4367,
-   "t": "2026-11-21T08:29:48Z"
-  },
-  {
    "sym": "STBL",
    "horizon": "15 min",
    "variation_pct": 3.53,
@@ -1634,13 +1648,6 @@
    "t": "2026-11-21T08:24:03Z"
   },
   {
-   "sym": "ONDO",
-   "horizon": "15 min",
-   "variation_pct": 2.69,
-   "prix": 0.2421,
-   "t": "2026-11-21T08:21:13Z"
-  },
-  {
    "sym": "PEPE",
    "horizon": "15 min",
    "variation_pct": 2.87,
@@ -1666,5 +1673,5 @@
  "erreurs_sources": [
   "Google (bitcoin): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-21T13:38:50Z"
+ "t": "2026-11-21T13:39:45Z"
 }
