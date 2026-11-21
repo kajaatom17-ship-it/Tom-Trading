@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-21T02:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T02:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 53805.7,
+   "dernier_prix": 53770.6,
    "atr": 598.5359,
    "rollover": 0.4670316226399444,
    "rollover_periodes": 26
@@ -44,10 +44,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-21T02:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T02:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.271e-06,
+   "dernier_prix": 3.267e-06,
    "atr": 3.5634e-08,
    "rollover": 0.24640164570811038,
    "rollover_periodes": 25
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T02:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T02:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.0431428754006,
+   "dernier_prix": 518.0289558724188,
    "atr": 2.771652,
    "rollover": 0.1540455472674386,
    "rollover_periodes": 8
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T02:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T02:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.50665948531628,
+   "dernier_prix": 93.50409873477808,
    "atr": 1.08547,
    "rollover": 0.12218657043022266,
    "rollover_periodes": 8
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T02:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T02:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 565.1935769515168,
+   "dernier_prix": 565.1780986982637,
    "atr": 3.304099,
    "rollover": 0.15388901439358368,
    "rollover_periodes": 8
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T02:06:12Z",
+ "maj": "2026-11-21T02:08:15Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -153,7 +153,7 @@
   "2026-11-21": 509.22
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-21T02:02:20Z",
+ "chasseur_t": "2026-11-21T02:08:12Z",
  "tendance": [
   "BTC",
   "HYPE",
@@ -345,15 +345,15 @@
   }
  },
  "buzz_t": "2026-11-21T01:56:25Z",
- "sources_t": "2026-11-21T01:48:19Z",
+ "sources_t": "2026-11-21T02:08:13Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "数据：交易员 AguilaTrades 平掉 BTC 空仓，净盈利约 687 万美元",
-    "数据：1.55 亿美元做多 ETH 和 BTC 的多军已浮亏超 6547 万美元"
+    "BTC Outlook Current Take, Short Term + Long Term Scenario",
+    "数据：交易员 AguilaTrades 平掉 BTC 空仓，净盈利约 687 万美元"
    ]
   },
   {
@@ -361,8 +361,8 @@
    "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "美股 45 天蒸發 6 兆美元！AI 泡沫破了嗎？",
-    "Ark Invest acquires 705,982 shares of Anthropic as Cathie Wood leans into AI"
+    "Fear Erupts, AI Stocks Tank, but so Do Gold, Silver, Cryptos, Nearly Everything but Treasuries",
+    "美股 45 天蒸發 6 兆美元！AI 泡沫破了嗎？"
    ]
   },
   {
@@ -384,6 +384,14 @@
    ]
   },
   {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "XRP/USD: Price Pinned Below Band, Swing High at 1.0078 Caps Rebo"
+   ]
+  },
+  {
    "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
@@ -392,27 +400,19 @@
    ]
   },
   {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "DBS is building two paths for 24/7 dollars with JPMorgan and Circle using USDC"
+   ]
+  },
+  {
    "sujet": "DeFi",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
     "Santiago Roel Santos：ETH 未来两年或跌至 100 美元"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance Hackers Move $860 Million in Ether as Bitcoin Laundering Surges"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "早报｜以太坊过去 24 小时下跌 7.6%；Tether 于以太坊主网销毁 40 亿枚 USDT"
    ]
   }
  ],
