@@ -1359,11 +1359,39 @@
  ],
  "alertes": [
   {
+   "sym": "ENA",
+   "horizon": "15 min",
+   "variation_pct": 2.55,
+   "prix": 0.0885,
+   "t": "2026-11-21T11:33:00Z"
+  },
+  {
    "sym": "RARE",
    "horizon": "15 min",
    "variation_pct": 7.55,
    "prix": 0.01425,
-   "t": "2026-11-21T11:32:05Z"
+   "t": "2026-11-21T11:33:00Z"
+  },
+  {
+   "sym": "TRUMP",
+   "horizon": "15 min",
+   "variation_pct": 2.61,
+   "prix": 0.786,
+   "t": "2026-11-21T11:33:00Z"
+  },
+  {
+   "sym": "USELESS",
+   "horizon": "15 min",
+   "variation_pct": 3.15,
+   "prix": 0.07266,
+   "t": "2026-11-21T11:33:00Z"
+  },
+  {
+   "sym": "ZEC",
+   "horizon": "15 min",
+   "variation_pct": 3.23,
+   "prix": 704.433,
+   "t": "2026-11-21T11:33:00Z"
   },
   {
    "sym": "NVDA",
@@ -1371,13 +1399,6 @@
    "variation_pct": 1.63,
    "prix": 119.73710671127444,
    "t": "2026-11-21T09:56:29Z"
-  },
-  {
-   "sym": "ZEC",
-   "horizon": "15 min",
-   "variation_pct": 3.23,
-   "prix": 673.828,
-   "t": "2026-11-21T08:52:59Z"
   },
   {
    "sym": "CRCL",
@@ -1457,13 +1478,6 @@
    "t": "2026-11-21T08:29:48Z"
   },
   {
-   "sym": "USELESS",
-   "horizon": "15 min",
-   "variation_pct": 2.52,
-   "prix": 0.06628,
-   "t": "2026-11-21T08:29:48Z"
-  },
-  {
    "sym": "BTC",
    "horizon": "15 min",
    "variation_pct": 2.72,
@@ -1492,13 +1506,6 @@
    "t": "2026-11-21T08:24:03Z"
   },
   {
-   "sym": "TRUMP",
-   "horizon": "15 min",
-   "variation_pct": 2.7,
-   "prix": 0.761,
-   "t": "2026-11-21T08:23:08Z"
-  },
-  {
    "sym": "ONDO",
    "horizon": "15 min",
    "variation_pct": 2.69,
@@ -1511,13 +1518,6 @@
    "variation_pct": 2.87,
    "prix": 3.012e-06,
    "t": "2026-11-21T08:21:13Z"
-  },
-  {
-   "sym": "ENA",
-   "horizon": "15 min",
-   "variation_pct": 2.52,
-   "prix": 0.0855,
-   "t": "2026-11-21T08:17:19Z"
   },
   {
    "sym": "LTC",
@@ -1539,5 +1539,5 @@
   "Google (stock market today): HTTP Error 429: Too Many Requests",
   "Google (crypto hack exploit): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-21T11:32:05Z"
+ "t": "2026-11-21T11:33:00Z"
 }
