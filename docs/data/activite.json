@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-20T12:19:03Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "AMD +1.51 % en 15 min"
- },
- {
   "t": "2026-11-20T12:22:56Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2699,5 +2693,17 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "450 actifs hors univers analysés, 44 en mouvement : JUP -7.3 %, CRV -7.5 %, KAS -7.7 %."
+ },
+ {
+  "t": "2026-11-21T06:12:56Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] A $3.4M @ethereum vault exploit took a wild turn! An MEV bot - KuCoin (KuCoin)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMickFVX3lxTE5iRnNKUURRdzlLM2ROY2phYXdyUzJJaEZhb252YVBwOUZZNFN5VVZjN2JqeWpzQjVFNklXbWdZb2FlaEdjSldGUGYwek5WbGpKMEZMNXlQbk80SUpJa2J3ZVIwM0VrWlRNWnVvLWttNDY0dw?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
  }
 ]
