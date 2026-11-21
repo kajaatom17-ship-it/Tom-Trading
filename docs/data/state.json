@@ -20,7 +20,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T16:30:00Z",
+   "verifie_jusqu_a": "2026-11-21T16:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 518.6254798025955,
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T16:30:00Z",
+   "verifie_jusqu_a": "2026-11-21T16:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 93.61177115700968,
@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T16:30:00Z",
+   "verifie_jusqu_a": "2026-11-21T16:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 568.4335587643941,
@@ -91,7 +91,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T16:30:57Z",
+ "maj": "2026-11-21T16:33:04Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -105,7 +105,7 @@
   "2026-11-21": 509.22
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-21T16:27:11Z",
+ "chasseur_t": "2026-11-21T16:32:55Z",
  "tendance": [
   "BP",
   "ZEC",
@@ -242,11 +242,11 @@
   }
  },
  "buzz_t": "2026-11-21T16:27:12Z",
- "sources_t": "2026-11-21T16:12:32Z",
+ "sources_t": "2026-11-21T16:33:01Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 8,
    "sentiment": "bearish",
    "titres": [
     "30-day lows broke on BTC, ETH, SOL, XRP. Does volume matter?",
@@ -272,6 +272,15 @@
    ]
   },
   {
+   "sujet": "XRP",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "XRP Price Crashes to $0.87 as ETF Assets Fall Below $1 Billion",
+    "XRP: Is History About to Repeat?"
+   ]
+  },
+  {
    "sujet": "Ethereum",
    "mentions": 3,
    "sentiment": "neutral",
@@ -290,15 +299,6 @@
    ]
   },
   {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP: Is History About to Repeat?",
-    "30-day lows broke on BTC, ETH, SOL, XRP. Does volume matter?"
-   ]
-  },
-  {
    "sujet": "Security",
    "mentions": 2,
    "sentiment": "neutral",
@@ -308,11 +308,11 @@
    ]
   },
   {
-   "sujet": "Institutions",
+   "sujet": "Dogecoin",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "iShares head explains the trade-off behind BlackRock’s exchange-traded interval funds"
+    "DOGE (BUY) Monthly Chart – Long-Term Outlook"
    ]
   }
  ],
