@@ -20,10 +20,10 @@
    "risque_eur": 2.471540708991292,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-21T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T05:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 51337.1,
+   "dernier_prix": 51355.2,
    "atr": 598.5359,
    "rollover": 0.24249718867843267,
    "rollover_periodes": 27,
@@ -46,10 +46,10 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-21T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T05:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.128e-06,
+   "dernier_prix": 3.119e-06,
    "atr": 3.5634e-08,
    "rollover": 0.2562577115364348,
    "rollover_periodes": 26
@@ -70,10 +70,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T05:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.4691145971331,
+   "dernier_prix": 518.4406946893358,
    "atr": 2.771652,
    "rollover": 0.17330124067586844,
    "rollover_periodes": 9
@@ -94,10 +94,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T05:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.58354727599975,
+   "dernier_prix": 93.57841748965367,
    "atr": 1.08547,
    "rollover": 0.1374598917340005,
    "rollover_periodes": 9
@@ -118,10 +118,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-21T05:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 559.2446072743552,
+   "dernier_prix": 559.4697557989749,
    "atr": 3.304099,
    "rollover": 0.17312514119278163,
    "rollover_periodes": 9
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T05:06:28Z",
+ "maj": "2026-11-21T05:08:39Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -155,7 +155,7 @@
   "2026-11-21": 509.22
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-21T05:02:32Z",
+ "chasseur_t": "2026-11-21T05:08:32Z",
  "tendance": [
   "BTC",
   "CHUNKEE",
@@ -337,7 +337,7 @@
   }
  },
  "buzz_t": "2026-11-21T04:56:32Z",
- "sources_t": "2026-11-21T04:48:34Z",
+ "sources_t": "2026-11-21T05:08:38Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
@@ -350,20 +350,11 @@
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 5,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
     "Bitcoin Weekly Outlook: Watch the $49,000 Neckline!",
     "USDT 兌 USDC 今晨一度折價 0.23%！標普維持 USDT 穩定性「最弱 5 分」評級"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "数据：Bit Digital 向 Galaxy Digital 存入 1.6639 万枚 ETH",
-    "数据：两名交易员 BTC 及 ETH 仓位累计被清算约 3609 万美元"
    ]
   },
   {
@@ -372,7 +363,7 @@
    "sentiment": "neutral",
    "titres": [
     "Wall Street Week Ahead: 'Black Friday' brings consumer spending into focus for AI-rocked market",
-    "Galaxy 研究主管：我们怎么看 Anthropic IPO 对市场流动性的影响"
+    "剛傳 Claude 破解黎曼猜想，純人類版本也來了！美國數學會會長貼出 940 頁證明草稿，強調「完全沒用 AI」"
    ]
   },
   {
@@ -385,19 +376,20 @@
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "bearish",
    "titres": [
-    "摩根士丹利增持近 800 枚比特币，总持仓升至 12448 枚"
+    "Peter Schiff Warns of Weekend Crypto Crash Sending ETH to $1K",
+    "Arthur Hayes 勸別急著抄底：等 Fed 啟動救市之後再買，別硬猜最低點"
    ]
   },
   {
-   "sujet": "Coinbase",
+   "sujet": "Dogecoin",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "摩根士丹利增持近 800 枚比特币，总持仓升至 12448 枚"
+    "Can Dogecoin Repeat a 760% Run From $0.054? A Technical Analyst's Call Meets the Chart"
    ]
   },
   {
@@ -406,6 +398,14 @@
    "sentiment": "neutral",
    "titres": [
     "Fidelity Strategist Stays Bullish as Bitcoin Dips Below $58K — Here’s Why"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance hack: $2.82 billion frozen, only $32 million recovered"
    ]
   }
  ],
