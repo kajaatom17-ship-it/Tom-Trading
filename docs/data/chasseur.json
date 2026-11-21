@@ -1,31 +1,32 @@
 {
- "t": "2026-11-21T01:32:41Z",
+ "t": "2026-11-21T01:38:32Z",
  "nb_analyses": 456,
- "nb_en_mouvement": 3,
+ "nb_en_mouvement": 1,
  "tendance": [
   "AAPL",
   "AVGO",
-  "B",
-  "BFLY",
+  "BMY",
   "BP",
   "BRK.A",
   "BTC",
   "CAPR",
-  "CELH",
-  "CRMD",
+  "CLF",
+  "CLM",
   "CRWD",
   "CSIQ",
+  "DELL",
   "ETH",
   "EU",
+  "HUM",
   "HYPE",
+  "INOD",
   "IREN",
   "LIT",
+  "LUNR",
   "MAGA",
   "MU",
   "NEAR",
-  "NEXT",
   "NVDL",
-  "OCUL",
   "PEARL",
   "PENGU",
   "PUMP",
@@ -34,12 +35,10 @@
   "SNDK",
   "SO",
   "SOL",
-  "SQQQ",
   "SRPT",
   "SUI",
   "SVIX",
   "TAO",
-  "TLT",
   "TQQQ",
   "TRUMP",
   "UP",
@@ -47,30 +46,30 @@
   "VT",
   "VTI",
   "VVV",
+  "WFC",
   "XRP",
   "ZAMA",
-  "ZEC",
-  "ZS"
+  "ZEC"
  ],
  "buzz_reseaux": {
   "BTC": {
    "source": "Reddit",
-   "mentions": 230,
-   "x_vs_hier": 2.3
+   "mentions": 250,
+   "x_vs_hier": 2.4
   },
   "MU": {
    "source": "Reddit",
-   "mentions": 257,
-   "x_vs_hier": 2.2
+   "mentions": 255,
+   "x_vs_hier": 2.1
   },
   "VOO": {
    "source": "Reddit",
-   "mentions": 244,
-   "x_vs_hier": 2.2
+   "mentions": 242,
+   "x_vs_hier": 2.1
   },
   "SNDK": {
    "source": "Reddit",
-   "mentions": 205,
+   "mentions": 203,
    "x_vs_hier": 4.7
   },
   "SO": {
@@ -85,23 +84,23 @@
   },
   "AAPL": {
    "source": "Reddit",
-   "mentions": 98,
+   "mentions": 97,
    "x_vs_hier": 3.5
   },
   "TQQQ": {
    "source": "Reddit",
-   "mentions": 65,
-   "x_vs_hier": 2.1
+   "mentions": 67,
+   "x_vs_hier": 2.0
   },
   "VTI": {
    "source": "Reddit",
    "mentions": 61,
-   "x_vs_hier": 2.5
+   "x_vs_hier": 2.3
   },
   "VT": {
    "source": "Reddit",
    "mentions": 56,
-   "x_vs_hier": 6.2
+   "x_vs_hier": 5.6
   },
   "IREN": {
    "source": "Reddit",
@@ -111,12 +110,12 @@
   "QQQM": {
    "source": "Reddit",
    "mentions": 43,
-   "x_vs_hier": 10.8
+   "x_vs_hier": 8.6
   },
   "SMH": {
    "source": "Reddit",
    "mentions": 35,
-   "x_vs_hier": 5.8
+   "x_vs_hier": 5.0
   },
   "EU": {
    "source": "Reddit",
@@ -128,20 +127,15 @@
    "mentions": 33,
    "x_vs_hier": 3.3
   },
-  "TLT": {
-   "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 2.2
-  },
-  "MAGA": {
-   "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 2.5
-  },
   "AVGO": {
    "source": "Reddit",
    "mentions": 31,
    "x_vs_hier": 2.6
+  },
+  "MAGA": {
+   "source": "Reddit",
+   "mentions": 31,
+   "x_vs_hier": 2.4
   },
   "UP": {
    "source": "Reddit",
@@ -153,7 +147,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TRUMP": {
+  "NVDL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -163,12 +157,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVDL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SQQQ": {
+  "TRUMP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -178,22 +167,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZS": {
+  "DELL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "B": {
+  "WFC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "OCUL": {
+  "INOD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRMD": {
+  "CLF": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -203,7 +192,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CELH": {
+  "LUNR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CLM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -213,12 +207,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NEXT": {
+  "HUM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BFLY": {
+  "BMY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -233,26 +227,6 @@
    "volume_24h_eur": 78157.97,
    "spread_pct": 0.4196,
    "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "KSM",
-   "pair": "KSMEUR",
-   "action": false,
-   "variation_24h_pct": -7.0,
-   "volume_24h_eur": 65065.45,
-   "spread_pct": 0.4425,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "VVV",
-   "pair": "VVVEUR",
-   "action": false,
-   "variation_24h_pct": 3.49,
-   "volume_24h_eur": 590405.66,
-   "spread_pct": 0.2201,
-   "tendance": true,
    "impulsion": null
   }
  ],
