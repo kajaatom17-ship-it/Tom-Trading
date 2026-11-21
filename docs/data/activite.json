@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-20T10:01:36Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 1 signal(aux) : XRP short (SWG-1, 80)"
- },
- {
-  "t": "2026-11-20T10:05:28Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "613 actifs hors univers analysés, 16 en mouvement : MEGA -14.0 %, TRUST -10.5 %, JUP -9.2 %."
- },
- {
-  "t": "2026-11-20T10:10:17Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "613 actifs hors univers analysés, 14 en mouvement : MEGA -13.8 %, TRUST -10.6 %, JUP -8.9 %."
- },
- {
   "t": "2026-11-20T10:15:04Z",
   "agent": "Chasseur de mouvements",
   "type": "réseaux sociaux",
@@ -2673,5 +2655,29 @@
   "agent": "Trader de garde",
   "type": "laisser courir",
   "msg": "BTC : objectif atteint, moitié encaissée. Le reste continue, stop suiveur à 53571.04."
+ },
+ {
+  "t": "2026-11-21T04:08:12Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "451 actifs hors univers analysés, 32 en mouvement : KNTQ -8.9 %, VIRTUAL -7.4 %, ICP -7.2 %."
+ },
+ {
+  "t": "2026-11-21T04:08:32Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Binance Exploit-Linked Wallet Moves About 197,500 ETH in 16 Minutes - www.tokenpost.com (www.tokenpost.com)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GbmdiZzlXczQybEFTSGVhY0d0Um5JbVZka2RhbFQxRkcyVHhxbTNpS2ZOQlRjWEVSM0Vmb2o2ZFlaYk5RZm5LRVh3dUFPN3cwd29LZE5LY3V3NDg?oc=5",
+   "actifs": [
+    "ETH"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-21T04:08:32Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "FIL -2.82 % en 15 min"
  }
 ]
