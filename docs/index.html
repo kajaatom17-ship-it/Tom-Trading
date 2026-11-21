@@ -233,39 +233,6 @@ table.list tr.click{cursor:pointer} table.list tr.click:hover td{background:var(
 .flash-up{animation:fu .8s} .flash-down{animation:fd .8s}
 @keyframes fu{from{background:rgba(43,196,138,.25)}} @keyframes fd{from{background:rgba(240,97,109,.25)}}
 
-/* coach (chat expert) */
-#coach{display:flex;flex-direction:column;padding-bottom:84px}
-#coach[hidden]{display:none}
-.bot-msgs{flex:1;display:flex;flex-direction:column;gap:12px;padding-bottom:12px}
-.bot-m{max-width:88%;padding:10px 13px;border-radius:14px;font-size:15px;line-height:1.5;overflow-wrap:anywhere}
-.bot-m.u{align-self:flex-end;background:#24406E;border-bottom-right-radius:4px;white-space:pre-wrap}
-.bot-m.a{align-self:flex-start;background:var(--panel);border:1px solid var(--line);border-bottom-left-radius:4px}
-.bot-m.a p{margin:0 0 8px}.bot-m.a p:last-child{margin:0}
-.bot-m.a ul,.bot-m.a ol{margin:4px 0 8px 20px}
-.bot-m.a h4{font-size:15px;margin:8px 0 4px}
-.bot-m.a table{border-collapse:collapse;font-size:13px;margin:6px 0;display:block;overflow-x:auto}
-.bot-m.a td,.bot-m.a th{border:1px solid var(--line);padding:4px 7px;text-align:left}
-.bot-m.err{align-self:center;background:rgba(240,97,109,.12);border:1px solid rgba(240,97,109,.4);font-size:14px}
-.bot-m .think{color:var(--muted);font-style:italic}
-.bot-bar{position:fixed;left:0;right:0;bottom:calc(64px + var(--safe-b));z-index:25;display:flex;gap:8px;align-items:flex-end;background:var(--ink);border-top:1px solid var(--line);padding:10px 16px}
-.bot-bar textarea{flex:1;resize:none;min-height:44px;max-height:140px;padding:11px 13px;border-radius:14px;border:1px solid var(--line);background:var(--panel);color:var(--text);font:16px/1.4 inherit;font-family:inherit}
-.bot-bar button{flex:none;height:44px;padding:0 16px;border-radius:14px;background:var(--amber);color:#1a1300;font-weight:600}
-.bot-bar button:disabled{opacity:.5}
-.bot-tools{display:flex;gap:14px;justify-content:flex-end;font-size:13px;margin-bottom:8px}
-.bot-tools button{color:var(--muted);text-decoration:underline}
-.bot-sugg{display:flex;flex-wrap:wrap;gap:8px}
-.bot-sugg button{border:1px solid var(--line);border-radius:20px;padding:8px 12px;font-size:14px;background:var(--panel)}
-.bot-key input{width:100%;margin:10px 0;padding:11px 13px;border-radius:10px;border:1px solid var(--line);background:var(--panel2);color:var(--text);font-size:16px}
-.bot-key ol{margin:8px 0 0 20px;font-size:14px;line-height:1.7}
-@media(min-width:1024px){.bot-bar{bottom:0;left:224px;padding:12px 28px}}
-body.on-coach #pnlBadge{display:none}
-body.coach-nokey .bot-bar,body.coach-nokey #botNew,body.coach-nokey .bot-tools label{display:none}
-.bot-bar .mic{width:44px;padding:0;background:var(--panel2);border:1px solid var(--line);color:var(--text);display:grid;place-items:center}
-.bot-bar .mic svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
-.bot-bar .mic.on{background:var(--down);border-color:var(--down);animation:micp 1.2s ease-in-out infinite}
-@keyframes micp{50%{box-shadow:0 0 0 8px rgba(240,97,109,.25)}}
-@media(prefers-reduced-motion:reduce){.bot-bar .mic.on{animation:none}}
-.bot-conf{border-color:var(--amber)!important}
 </style>
 </head>
 <body>
@@ -287,7 +254,6 @@ body.coach-nokey .bot-bar,body.coach-nokey #botNew,body.coach-nokey .bot-tools l
   <button role="tab" aria-selected="false" data-tab="positions"><svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="14" rx="2"/><path d="M8 6V4h8v2M3 12h18"/></svg>Positions</button>
   <button role="tab" aria-selected="false" data-tab="agents"><svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="3"/><circle cx="5" cy="10" r="2"/><circle cx="19" cy="10" r="2"/><path d="M6 20c0-3.3 2.7-6 6-6s6 2.7 6 6M1.5 17c.4-2 1.8-3.5 3.5-3.5M22.5 17c-.4-2-1.8-3.5-3.5-3.5"/></svg>Agents</button>
   <button role="tab" aria-selected="false" data-tab="stats"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Stats</button>
-  <button role="tab" aria-selected="false" data-tab="coach"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>Coach</button>
   <div class="side-foot"><div class="muted">Moteur de trading</div><div class="engine" id="engineStatus2"><span class="dot"></span><span>Chargement…</span></div><div class="muted" style="margin-top:10px">Prix Kraken en direct</div><div id="liveStatus" class="engine"><span class="dot"></span><span>—</span></div></div>
 </nav>
 
@@ -398,31 +364,6 @@ body.coach-nokey .bot-bar,body.coach-nokey #botNew,body.coach-nokey .bot-tools l
     <div class="panel"><h3>Par stratégie</h3><div class="scroll"><table class="list num" id="byStrat"></table></div></div>
   </div>
   <div class="panel"><h3>Règles en vigueur</h3><div id="rules" class="hint" style="font-size:14px;line-height:1.7"></div></div>
-</section>
-<section id="coach" hidden>
-  <div class="bot-tools"><label style="display:flex;gap:6px;align-items:center;color:var(--muted);margin-right:auto"><input type="checkbox" id="botSpeak"> Lire les réponses</label><button id="botNew" type="button">Nouvelle conversation</button><button id="botKeyBtn" type="button">Avancé : clés</button></div>
-  <div class="panel bot-key" id="botKey" hidden>
-    <h3>Brancher le coach</h3>
-    <p class="hint" style="font-size:14px" id="botKeyState"></p>
-    <p style="font-size:14px;margin-top:8px"><b>1. Clé Claude</b> (pour qu'il réponde). Les clés restent sur ce téléphone, jamais sur GitHub.</p>
-    <ol>
-      <li>Ouvre <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a> et connecte-toi.</li>
-      <li>Ajoute un peu de crédit (Billing). 5 € suffisent pour des centaines de questions.</li>
-      <li>« Create Key », copie la clé et colle-la ici.</li>
-    </ol>
-    <input id="botKeyIn" type="text" name="botKeyIn-x" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-1p-ignore data-lpignore="true" inputmode="text" style="-webkit-text-security:none" placeholder="sk-ant-..." aria-label="Clé Claude">
-    <p style="font-size:14px;margin-top:6px"><b>2. Clé GitHub</b> (pour prévenir le comité et passer des ordres fictifs). Facultatif.</p>
-    <ol>
-      <li>Ouvre <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
-      <li>Nom : coach. Expiration : 90 jours. Repository access : « Only select repositories », choisis Tom-Trading.</li>
-      <li>Permissions, Repository : « Contents » en « Read and write ». Puis « Generate token », copie et colle ici.</li>
-    </ol>
-    <input id="botGhIn" type="text" name="botGhIn-x" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-1p-ignore data-lpignore="true" inputmode="text" style="-webkit-text-security:none" placeholder="github_pat_..." aria-label="Clé GitHub">
-    <div style="display:flex;gap:10px;align-items:center"><button id="botKeySave" type="button" style="height:44px;padding:0 16px;border-radius:12px;background:var(--amber);color:#1a1300;font-weight:600">Enregistrer</button><button id="botKeyDel" type="button" class="muted" style="text-decoration:underline">Effacer les clés</button></div>
-  </div>
-  <div class="bot-msgs" id="botMsgs" aria-live="polite"></div>
-  <p class="hint" id="botVoiceHint" hidden style="text-align:center"></p><button id="botStop" type="button" hidden style="align-self:center;border:1px solid var(--line);border-radius:20px;padding:8px 14px;font-size:14px">Arrêter la lecture</button>
-  <form class="bot-bar" id="botForm"><button id="botMicBtn" type="button" aria-label="Parler au coach" class="mic"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button><textarea id="botIn" rows="1" placeholder="Pose ta question au coach…" aria-label="Message"></textarea><button id="botSend" type="submit">Envoyer</button></form>
 </section>
 </main>
 
@@ -814,13 +755,12 @@ async function loadBook(){
 /* ---------- navigation ---------- */
 document.addEventListener("click",e=>{const g=e.target.closest("[data-go]"); if(g) goChart(g.dataset.go);});
 $("histFilter").addEventListener("click",e=>{const b=e.target.closest("button"); if(!b) return; S.histF=b.dataset.f; [...$("histFilter").children].forEach(x=>x.setAttribute("aria-pressed",x===b)); renderPositions();});
-const TITLES={accueil:"Accueil",marche:"Marché",positions:"Positions",agents:"Agents",stats:"Statistiques",coach:"Coach"};
+const TITLES={accueil:"Accueil",marche:"Marché",positions:"Positions",agents:"Agents",stats:"Statistiques"};
 function show(tab){
   document.querySelectorAll(".tabs button").forEach(b=>b.setAttribute("aria-selected",b.dataset.tab===tab));
   if(!TITLES[tab]) tab="accueil";
   document.querySelectorAll("main>section").forEach(s=>s.hidden=s.id!==tab);
   $("pageTitle").textContent=TITLES[tab];
-  document.body.classList.toggle("on-coach",tab==="coach"); if(tab==="coach") botOpen();
   if(tab==="marche"){ S.fit=true; renderWatchlist(); loadChart(); loadBook(); renderInd(); requestAnimationFrame(()=>document.querySelector('#watchlist [aria-pressed="true"]')?.scrollIntoView({block:"nearest",inline:"nearest"})); }
   if(tab==="accueil"&&S.charts.eq) requestAnimationFrame(()=>S.charts.eq.applyOptions({width:$("eqChart").clientWidth}));
   requestAnimationFrame(()=>window.scrollTo(0,0));
@@ -828,278 +768,7 @@ function show(tab){
 document.querySelector(".tabs").addEventListener("click",e=>{const b=e.target.closest("button"); if(b){ if(location.hash!=="#"+b.dataset.tab) location.hash=b.dataset.tab; else show(b.dataset.tab);} });
 window.addEventListener("hashchange",()=>show(location.hash.slice(1)||"accueil"));
 
-/* ---------- coach : chat expert (API Claude, clé gardée sur l'appareil) ---------- */
-const BOT={model:"claude-sonnet-5-5",keyName:"coach_key",histName:"coach_hist",web:true,busy:false};
-const botGet=k=>{try{return localStorage.getItem(k);}catch(e){return null;}};
-const botSet=(k,v)=>{try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v);}catch(e){}};
-let botHist=[]; try{botHist=JSON.parse(botGet(BOT.histName)||"[]");}catch(e){botHist=[];}
-const botSave=()=>botSet(BOT.histName,JSON.stringify(botHist.slice(-40)));
-const BOT_PERSONA=`Tu es « le Coach », l'expert trading intégré dans l'appli Trading Desk IA de Tom.
-Tu raisonnes comme un trader professionnel, un analyste quantitatif et un gestionnaire de risques. Tu es aussi son mentor : Tom apprend, il a des bases mais débute en pratique.
-
-Comment tu parles :
-- En français, phrases courtes, mots simples. Ton naturel, direct, sans formules toutes faites.
-- Tom lit sur son téléphone : va droit au but, 5 à 12 lignes en général. Plus long seulement s'il le demande. Un petit tableau si ça aide vraiment.
-- Explique un terme technique la première fois que tu l'utilises.
-
-Règles absolues :
-- Ici tout est en argent fictif (paper trading). Jamais d'argent réel, jamais de compte d'échange.
-- Tes outils :
-  · informer_comite : transmet un message de Tom au comité d'agents (réunion chaque heure). Utilise-le quand Tom te demande de prévenir le comité, ou pour une consigne qu'il veut faire passer. Le comité répond dans ses notes, que tu vois dans les données.
-  · action_portefeuille : dépose un ordre FICTIF au moteur (ouvrir, fermer, resserrer un stop, rapprocher l'objectif, fermer dès que c'est positif). Utilise-le seulement quand Tom a clairement décidé l'action dans la conversation. Avant, résume en une ligne : actif, sens, stop, objectif, et ton avis honnête (même s'il est contre). L'appli demande ensuite à Tom de confirmer avec un bouton. Les garde-fous du code (risque 1 %, tendance de fond, ratio, limites) peuvent encore refuser l'ordre : dis-le. Pour ouvrir, propose un stop et un objectif cohérents avec les prix actuels (le stop entre 0,8 % et 8 % du prix, un objectif qui couvre largement les frais).
-- Tu ne modifies pas les règles du robot ni son code. Pour un changement de règle, envoie une demande au comité avec informer_comite (type demande_regle) : Claude la traitera avec Tom dans le projet « Trading ».
-- Tom parle parfois à voix haute (dictée) : comprends les fautes de transcription, et réponds de façon facile à écouter.
-- Ne jamais inventer un prix, une actu ou un chiffre. Utilise seulement les données de l'appli fournies ci-dessous ou ta recherche web. Donne l'heure et la source des chiffres que tu cites.
-- Ne jamais promettre de gain. Distingue toujours fait, hypothèse et scénario. Un bon trader sait aussi ne rien faire.
-- Garde un esprit critique : envers les vidéos YouTube et les influenceurs, envers le robot, et envers Tom. Contredis-le poliment si son raisonnement est faux. Ne valide pas une mauvaise idée pour lui faire plaisir.
-- Préservation du capital d'abord. Jamais de martingale, de levier excessif ou de « gain rapide ».
-- Tu n'es pas un conseiller financier agréé. Pour de l'argent réel (PEA, impôts), donne des infos générales et dis quand un professionnel est utile.
-
-Ce que tu sais de l'histoire du projet :
-- Capital fictif de 500 € depuis le 13 novembre 2026, sur Kraken (cryptos, memecoins, or PAXG, actions xStocks). Frais Kraken réels : cryptos 0,40 % (limite) / 0,80 % (au marché), actions xStocks 0 % / 0,08 %.
-- Les premières stratégies court terme (TPB-1, BRK-1, MOM-1) ont perdu, surtout à cause des frais et de signaux sans avantage réel.
-- Le 16 novembre, nouvelle stratégie SWG-1 (repli dans la tendance en 1 h, uniquement dans le sens de la tendance de fond sur 20 jours, stop large, objectif 3R). Elle avait été validée sur seulement 23 jours d'un mois très baissier : c'était trop court. Ses 4 premiers trades fermés (shorts NVDA, AMD, TSLA, GOOGL) ont tous touché leur stop, sans bug : les actions ont rebondi.
-- Plan de jugement convenu : bilan technique à 10 trades, point d'étape à 30, décision à 60.
-- Le 19 novembre, test au labo d'une méthode lente : on est investi quand le prix de fin de mois est au-dessus de sa moyenne des 10 derniers mois, sinon en cash. Résultats : S&P 500 2000-2026 environ 9,7 %/an avec une pire baisse de -19 % (contre 8,4 % et -49 % en achat-garde). Mélange 50 % S&P / 25 % or / 25 % BTC avec cette règle : environ 20 %/an depuis 2018, pire baisse -14 %. Ces chiffres sont flatteurs (actifs choisis après coup). Attente réaliste : 8 à 15 %/an, sans garantie. Les règles journalières (moyenne 50 ou 100 jours) perdaient sur 2025-2026. Proposition en attente de l'accord de Tom : remplacer SWG-1 par ce mélange mensuel. Tom vise au moins 15 % par an ; c'est un objectif, pas une garantie.
-- Tom ne veut pas qu'on interdise des actifs. Il veut des agents qui gardent un esprit critique.`;
-
-async function botData(){
-  const g=async p=>{try{return await getJSON(p);}catch(e){return null;}};
-  const [regime,videos,msgs]=await Promise.all([g("data/regime.json"),g("data/videos.json"),g("data/coach_messages.json")]);
-  const st=S.state||{}, cfg=S.cfg||{}, e=equityLive()||{};
-  const r2=v=>v==null||isNaN(v)?null:Math.round(v*100)/100;
-  const now=new Date().toLocaleString("fr-FR",{timeZone:"Europe/Paris"});
-  const pos=(st.positions||[]).map(p=>({sym:p.sym,sens:p.side,strategie:p.strategie,entree:p.entry,prix_actuel:livePrice(p.sym)??p.dernier_prix,stop:p.stop,objectif:p.tp,ouvert_le:p.ouvert_le,risque_eur:r2(p.risque_eur),pnl_latent_eur:r2(openPnl(p))}));
-  const tr=(S.trades||[]).slice(-40).map(t=>`${t.ferme_le?.slice(0,16)} ${t.sym} ${t.side} ${t.strategie} net ${t.pnl_net}€ (${t.r_multiple}R) ${t.raison_sortie}`);
-  const by={}; for(const t of S.trades||[]){const k=t.strategie; by[k]=by[k]||{trades:0,gagnants:0,net_eur:0}; by[k].trades++; if(t.pnl_net>0) by[k].gagnants++; by[k].net_eur=r2(by[k].net_eur+t.pnl_net);}
-  const prix=Object.entries(S.tk||{}).map(([s,t])=>`${s} ${t.last} € (${r2(t.chg_pct)} % sur 24 h)`);
-  const actus=(S.veille?.actus||[]).slice(0,15).map(a=>`${a.t?.slice(0,16)} [${a.source}] ${a.titre}`);
-  const sig=(S.signals?.candidats||[]).slice(0,8).map(c=>`${c.sym} ${c.side} ${c.strategie} score ${c.score} RR ${c.rr_net} : ${c.pourquoi||""}`);
-  const vids=(Array.isArray(videos)?videos:[]).slice(0,10).map(v=>`${v.publie_le?.slice(0,10)} ${v.chaine} : ${v.titre}`);
-  return `DONNÉES DE L'APPLI (heure de Paris : ${now}). Prix Kraken en euros, en direct dans l'appli.
-Portefeuille fictif : équity ${r2(e.eq)} €, cash ${r2(st.cash)} €, capital initial ${cfg.capital_initial_eur||500} €, P&L réalisé ${r2(st.pnl_realise)} €, frais cumulés ${r2(st.frais_cumules)} €, plus haut ${r2(st.pic_equity)} €.
-Positions ouvertes : ${JSON.stringify(pos)}
-Résultat par stratégie (trades fermés) : ${JSON.stringify(by)}
-Derniers trades fermés :
-${tr.join("\n")||"aucun"}
-Règles actives : stratégies ${JSON.stringify(cfg.strategies_actives)}, risque ${JSON.stringify(cfg.risque)}, swing ${JSON.stringify(cfg.swing)}.
-Tendance de fond 20 jours (1 haussière, -1 baissière) : ${JSON.stringify(regime?.par_actif||{})} ; variation 20 j en % : ${JSON.stringify(regime?.variation_pct||{})} (calcul du ${regime?.t||"?"}).
-Signaux du scanner (${S.signals?.t||"?"}) :
-${sig.join("\n")||"aucun"}
-Prix actuels :
-${prix.join("\n")}
-Titres d'actu récupérés par la veille :
-${actus.join("\n")||"aucun"}
-Dernières vidéos YouTube suivies :
-${vids.join("\n")||"aucune"}
-Messages envoyés au comité et réponses :
-${(Array.isArray(msgs)?msgs:[]).slice(-8).map(m=>`${m.cree_le?.slice(0,16)} [${m.type}] ${m.message} -> statut ${m.statut}${m.reponse?" ; réponse du comité : "+m.reponse:""}`).join("\n")||"aucun"}
-Actions demandées depuis le coach (dernières) : ${JSON.stringify((S.decisions||[]).filter(d=>d.source==="coach").slice(-5).map(d=>({id:d.id,action:d.action,sym:d.sym,resultat:d.resultat})))}`;
-}
-
-function botInline(s){
-  return s.replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/`([^`]+)`/g,"<code>$1</code>")
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
-}
-function botMd(src){
-  const L=esc(src).split("\n"); let out="",list=null,para=[];
-  const flushP=()=>{if(para.length){out+="<p>"+botInline(para.join("<br>"))+"</p>";para=[];}};
-  const flushL=()=>{if(list){out+=`<${list.t}>${list.i.map(x=>"<li>"+botInline(x)+"</li>").join("")}</${list.t}>`;list=null;}};
-  for(let i=0;i<L.length;i++){
-    const l=L[i];
-    if(/^\s*\|/.test(l)){flushP();flushL(); const rows=[]; while(i<L.length&&/^\s*\|/.test(L[i])){ if(!/^\s*\|[\s:|-]+\|\s*$/.test(L[i])) rows.push(L[i].trim().replace(/^\||\|$/g,"").split("|")); i++; } i--;
-      out+="<table>"+rows.map((r,j)=>"<tr>"+r.map(c=>`<${j?"td":"th"}>${botInline(c.trim())}</${j?"td":"th"}>`).join("")+"</tr>").join("")+"</table>"; continue;}
-    let m;
-    if(m=l.match(/^#{1,6}\s+(.*)/)){flushP();flushL();out+="<h4>"+botInline(m[1])+"</h4>";continue;}
-    if(m=l.match(/^\s*[-*•]\s+(.*)/)){flushP(); if(!list||list.t!=="ul"){flushL();list={t:"ul",i:[]};} list.i.push(m[1]);continue;}
-    if(m=l.match(/^\s*\d+[.)]\s+(.*)/)){flushP(); if(!list||list.t!=="ol"){flushL();list={t:"ol",i:[]};} list.i.push(m[1]);continue;}
-    if(!l.trim()){flushP();flushL();continue;}
-    flushL(); para.push(l);
-  }
-  flushP();flushL(); return out;
-}
-
-function botRender(){
-  const box=$("botMsgs");
-  if(!botGet(BOT.keyName)){ box.innerHTML=`<div class="bot-m a" style="max-width:100%"><p><b>Parle au Coach dans Claude.</b> Pas de clé à créer : ça passe par ton abonnement Claude.</p><p>Le bouton ouvre ton projet « Trading ». Là-bas, j'ai accès au robot : je peux lire tes positions, prévenir le comité et passer des ordres fictifs si tu le décides.</p><p>Pour parler au lieu d'écrire, appuie sur le micro dans Claude.</p><a href="https://claude.ai/project/01a17881-fa3b-7782-a9c9-51e1e75ae3cb" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;height:48px;padding:0 18px;border-radius:12px;background:var(--amber);color:#1a1300;font-weight:600;text-decoration:none;margin-top:6px">Ouvrir le Coach dans Claude</a></div>`; document.body.classList.add("coach-nokey"); return; }
-  document.body.classList.remove("coach-nokey");
-  if(!botHist.length){
-    box.innerHTML=`<div class="bot-m a"><p>Salut Tom. Je suis ton coach trading. Je vois ton portefeuille fictif, tes positions, les prix et la veille de l'appli.</p><p>Pose-moi n'importe quelle question.</p></div>
-    <div class="bot-sugg">${["Pourquoi on perd en ce moment ?","Explique-moi mes positions ouvertes","C'est quoi un stop-loss ?","Que dit le marché aujourd'hui ?"].map(q=>`<button type="button" data-q="${esc(q)}">${esc(q)}</button>`).join("")}</div>`;
-    return;
-  }
-  box.innerHTML=botHist.map(m=>m.role==="user"?`<div class="bot-m u">${esc(m.content)}</div>`:`<div class="bot-m a">${botMd(m.content)}</div>`).join("");
-}
-function botScroll(){ setTimeout(()=>window.scrollTo(0,document.body.scrollHeight),60); }
-function botKeyView(show){ $("botKey").hidden=!show; if(show){ $("botKeyIn").value=""; $("botGhIn").value=""; $("botKeyState").textContent=`Clé Claude : ${botGet(BOT.keyName)?"branchée":"manquante"}. Clé GitHub : ${botGet(GH.keyName)?"branchée":"manquante"}.`; } }
-function botOpen(){ botRender(); botKeyView(false); botScroll(); }
-
-
-const GH={owner:"kajaatom17-ship-it",repo:"Tom-Trading",keyName:"coach_gh"};
-const b64=s=>{const b=new TextEncoder().encode(s); let t=""; b.forEach(x=>t+=String.fromCharCode(x)); return btoa(t);};
-const unb64=s=>new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g,"")),c=>c.charCodeAt(0)));
-async function ghPut(path,content,msg,sha){
-  const tok=botGet(GH.keyName); if(!tok) throw new Error("nogh");
-  const r=await fetch(`https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${path}`,{method:"PUT",headers:{authorization:"Bearer "+tok,accept:"application/vnd.github+json"},body:JSON.stringify({message:msg,content:b64(content),branch:"main",...(sha?{sha}:{})})});
-  if(!r.ok) throw new Error("GitHub "+r.status+" "+(await r.text()).slice(0,160));
-}
-async function ghGet(path){
-  const tok=botGet(GH.keyName); if(!tok) throw new Error("nogh");
-  const r=await fetch(`https://api.github.com/repos/${GH.owner}/${GH.repo}/contents/${path}?ref=main&t=${Date.now()}`,{headers:{authorization:"Bearer "+tok,accept:"application/vnd.github+json"}});
-  if(r.status===404) return null; if(!r.ok) throw new Error("GitHub "+r.status);
-  const j=await r.json(); return {sha:j.sha,text:unb64(j.content)};
-}
-const ghErr=e=>/nogh/.test(String(e))?"La clé GitHub n'est pas branchée : Tom doit l'ajouter avec le bouton « Clés » pour que je puisse agir.":"Échec de l'envoi : "+String(e.message||e).slice(0,200);
-const BOT_TOOLS=[
- {name:"informer_comite",description:"Transmet un message de Tom au comité d'agents IA, lu à la prochaine réunion (chaque heure).",
-  input_schema:{type:"object",properties:{message:{type:"string",description:"Le message, en français, clair et daté si besoin."},type:{type:"string",enum:["info","consigne","demande_regle"]},urgent:{type:"boolean"}},required:["message","type"]}},
- {name:"action_portefeuille",description:"Dépose un ordre FICTIF au moteur de paper trading, après confirmation de Tom par un bouton.",
-  input_schema:{type:"object",properties:{action:{type:"string",enum:["open","close","tighten_stop","set_target","fermer_si_positif"]},sym:{type:"string",description:"Symbole de l'univers, ex. BTC, NVDA, PAXG"},side:{type:"string",enum:["long","short"]},stop:{type:"number"},tp:{type:"number",description:"Objectif de prix (open, set_target)"},duree_max_h:{type:"number",description:"Durée maximale en heures pour une ouverture (72 au plus)"},raison:{type:"string",description:"Pourquoi, en une ou deux phrases"}},required:["action","sym","raison"]}}
-];
-function botConfirm(el,txt){
-  return new Promise(res=>{
-    const c=document.createElement("div"); c.className="bot-m a bot-conf";
-    c.innerHTML=`<p><b>À confirmer :</b> ${esc(txt)}</p><p class="hint">Argent fictif. Les garde-fous du code vérifient encore l'ordre.</p><div style="display:flex;gap:10px;margin-top:8px"><button type="button" class="ok" style="height:44px;padding:0 16px;border-radius:12px;background:var(--amber);color:#1a1300;font-weight:600">Confirmer</button><button type="button" class="no" style="height:44px;padding:0 14px;border-radius:12px;border:1px solid var(--line)">Annuler</button></div>`;
-    el.after(c); botScroll();
-    c.querySelector(".ok").onclick=()=>{c.innerHTML="<p>Confirmé par Tom.</p>";res(true);};
-    c.querySelector(".no").onclick=()=>{c.innerHTML="<p>Annulé.</p>";res(false);};
-  });
-}
-async function botTool(name,inp,el){
-  const id=new Date().toISOString().replace(/[-:]/g,"").slice(0,15).replace("T","-");
-  if(name==="informer_comite"){
-    try{
-      const cur=await ghGet("docs/data/coach_messages.json"); let arr=[]; try{arr=cur?JSON.parse(cur.text):[];}catch(e){}
-      arr.push({id:"C-"+id,cree_le:new Date().toISOString(),type:inp.type||"info",urgent:!!inp.urgent,message:inp.message,statut:"nouveau"});
-      await ghPut("docs/data/coach_messages.json",JSON.stringify(arr.slice(-100),null,1),"Coach : message de Tom au comité",cur?.sha);
-      return "Message déposé. Le comité le lira à sa prochaine réunion (minute 25 de chaque heure).";
-    }catch(e){ return ghErr(e); }
-  }
-  if(name==="action_portefeuille"){
-    const a=inp.action, sym=String(inp.sym||"").toUpperCase(); const asset=(S.cfg?.univers||[]).find(u=>u.sym===sym);
-    if(!asset) return `${sym} n'est pas dans l'univers de l'appli.`;
-    const pos=(S.state?.positions||[]).find(p=>p.sym===sym);
-    if(a!=="open"&&!pos) return `Aucune position ouverte sur ${sym}.`;
-    const px=livePrice(sym);
-    const lab={open:`ouvrir ${sym} en ${inp.side==="short"?"vente à découvert":"achat"} vers ${px??"?"} €, stop ${inp.stop}, objectif ${inp.tp}`,close:`fermer la position ${sym}`,tighten_stop:`resserrer le stop de ${sym} à ${inp.stop}`,set_target:`mettre l'objectif de ${sym} à ${inp.tp}`,fermer_si_positif:`fermer ${sym} dès que le gain net est positif`}[a]||a;
-    if(!(await botConfirm(el,lab))) return "Tom a annulé. Rien n'a été envoyé.";
-    const d={id:"T-"+id,action:a,sym,source:"coach",cree_le:new Date().toISOString(),synthese:"Décision de Tom prise avec le Coach : "+(inp.raison||""),
-      agents:{coach:{avis:"demandé par Tom",resume:inp.raison||""},risk_manager:{verdict:"valide",motif:"Décision confirmée par Tom dans l'appli. Les contrôles automatiques du moteur s'appliquent."}}};
-    if(pos) d.position_id=pos.id;
-    if(a==="open"){ Object.assign(d,{side:inp.side,strategie:"TOM-1",stop:+inp.stop,tp:+inp.tp,entry_ref:px,duree_max_h:Math.min(+inp.duree_max_h||48,72)}); if(!d.side||!d.stop||!d.tp) return "Il manque le sens, le stop ou l'objectif."; }
-    if(a==="tighten_stop") d.stop=+inp.stop;
-    if(a==="set_target") d.tp=+inp.tp;
-    try{ await ghPut(`docs/data/inbox/${d.id}.json`,JSON.stringify(d,null,1),`Coach : ${a} ${sym} (décision de Tom)`); }
-    catch(e){ return ghErr(e); }
-    return `Ordre ${d.id} déposé. Le moteur l'exécute en une à deux minutes s'il tourne, après ses contrôles. Le résultat apparaîtra dans l'onglet Agents et dans tes données au prochain message.`;
-  }
-  return "Outil inconnu.";
-}
-
-async function botStream(body,key,el,state){
-  const call=()=>fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"content-type":"application/json","x-api-key":key,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},body:JSON.stringify(body)});
-  let r=await call();
-  if(r.status===400&&BOT.web){ const t=await r.text(); if(/web_search/i.test(t)){ BOT.web=false; body.tools=body.tools.filter(x=>x.name!=="web_search"); r=await call(); } else throw new Error("400 "+t); }
-  if(!r.ok){ const t=await r.text(); throw new Error(r.status+" "+t); }
-  const rd=r.body.getReader(), dec=new TextDecoder(); let buf="", blocks=[], stop=null;
-  for(;;){
-    const {value,done}=await rd.read(); if(done) break;
-    buf+=dec.decode(value,{stream:true}); let i;
-    while((i=buf.indexOf("\n\n"))>=0){
-      const chunk=buf.slice(0,i); buf=buf.slice(i+2);
-      const line=chunk.split("\n").find(x=>x.startsWith("data:")); if(!line) continue;
-      let ev; try{ev=JSON.parse(line.slice(5));}catch(e){continue;}
-      if(ev.type==="content_block_start"){ const b=ev.content_block; blocks[ev.index]=b.type==="text"?{type:"text",text:""}:b.type==="tool_use"?{type:"tool_use",id:b.id,name:b.name,json:""}:null;
-        if(b.type==="server_tool_use") el.innerHTML=(state.text?botMd(state.text):"")+'<p class="think">Je cherche sur le web…</p>'; }
-      else if(ev.type==="content_block_delta"){ const b=blocks[ev.index];
-        if(ev.delta?.type==="text_delta"){ state.text+=ev.delta.text; if(b) b.text+=ev.delta.text; el.innerHTML=botMd(state.text); }
-        else if(ev.delta?.type==="input_json_delta"&&b) b.json+=ev.delta.partial_json; }
-      else if(ev.type==="message_delta") stop=ev.delta?.stop_reason;
-      else if(ev.type==="error") throw new Error(ev.error?.type+" "+ev.error?.message);
-    }
-  }
-  return {stop,blocks:blocks.filter(Boolean)};
-}
-
-async function botAsk(q,viaVoice){
-  q=(q||"").trim(); if(!q||BOT.busy) return;
-  const key=botGet(BOT.keyName); if(!key){ botKeyView(true); $("botKeyIn").focus(); return; }
-  BOT.busy=true; $("botSend").disabled=true; $("botIn").value=""; $("botIn").style.height="";
-  botHist.push({role:"user",content:q}); botSave(); botRender();
-  const box=$("botMsgs"); const el=document.createElement("div"); el.className="bot-m a"; el.innerHTML='<span class="think">Je regarde…</span>'; box.appendChild(el); botScroll();
-  const state={text:""};
-  try{
-    const ctx=await botData();
-    const msgs=botHist.slice(-20).map(m=>({role:m.role,content:m.content}));
-    const body={model:BOT.model,max_tokens:1800,stream:true,
-      system:[{type:"text",text:BOT_PERSONA,cache_control:{type:"ephemeral"}},{type:"text",text:ctx}],
-      messages:msgs, tools:[...BOT_TOOLS,...(BOT.web?[{type:"web_search_20250305",name:"web_search",max_uses:3}]:[])]};
-    for(let round=0;round<4;round++){
-      const res=await botStream(body,key,el,state);
-      const uses=res.blocks.filter(b=>b.type==="tool_use");
-      if(res.stop!=="tool_use"||!uses.length) break;
-      const content=res.blocks.map(b=>b.type==="text"?{type:"text",text:b.text||" "}:{type:"tool_use",id:b.id,name:b.name,input:(()=>{try{return JSON.parse(b.json||"{}");}catch(e){return {};}})()}).filter(b=>b.type!=="text"||b.text.trim());
-      msgs.push({role:"assistant",content});
-      const results=[];
-      for(const u of content.filter(b=>b.type==="tool_use")){ el.innerHTML=botMd(state.text)+'<p class="think">Je m\'en occupe…</p>'; results.push({type:"tool_result",tool_use_id:u.id,content:await botTool(u.name,u.input,el)}); }
-      msgs.push({role:"user",content:results});
-      state.text+= state.text?"\n\n":"";
-      el.innerHTML=botMd(state.text)+'<span class="think">…</span>';
-    }
-    const text=state.text.trim()||"Je n'ai pas de réponse, réessaie.";
-    botHist.push({role:"assistant",content:text}); botSave(); el.innerHTML=botMd(text);
-    if(viaVoice||BOT.speak) botSpeak(text);
-  }catch(e){
-    const s=String(e.message||e);
-    const msg=/^401/.test(s)?"La clé Claude est refusée. Vérifie-la avec le bouton « Clés ».":/credit|billing|balance/i.test(s)?"Plus de crédit sur ton compte Claude API. Ajoute du crédit sur console.anthropic.com.":/^429/.test(s)?"Trop de questions d'un coup. Attends une minute.":/^5\d\d|overloaded/i.test(s)?"Le service Claude est surchargé. Réessaie dans un instant.":/Failed to fetch|NetworkError|Load failed/i.test(s)?"Pas de connexion internet.":"Erreur : "+s.slice(0,200);
-    if(state.text.trim()){ botHist.push({role:"assistant",content:state.text.trim()}); botSave(); }
-    else { botHist.pop(); botSave(); $("botIn").value=q; }
-    el.className="bot-m err"; el.textContent=msg;
-  }
-  BOT.busy=false; $("botSend").disabled=false; botScroll();
-}
-
-/* voix : dictée (reconnaissance vocale du navigateur) et lecture des réponses */
-const SR=window.SpeechRecognition||window.webkitSpeechRecognition;
-let rec=null;
-function botSpeak(text){
-  try{ if(!window.speechSynthesis) return; speechSynthesis.cancel();
-    const clean=text.replace(/\|/g," ").replace(/[*#`_>]/g,"").replace(/\[([^\]]+)\]\([^)]+\)/g,"$1").replace(/\n+/g,". ");
-    const u=new SpeechSynthesisUtterance(clean); u.lang="fr-FR"; u.rate=1.05;
-    const v=speechSynthesis.getVoices().find(x=>/^fr/i.test(x.lang)); if(v) u.voice=v;
-    $("botStop").hidden=false; u.onend=()=>{$("botStop").hidden=true;}; speechSynthesis.speak(u);
-  }catch(e){}
-}
-function botMic(){
-  if(BOT.busy) return;
-  if(window.speechSynthesis){ try{ speechSynthesis.cancel(); speechSynthesis.speak(new SpeechSynthesisUtterance("")); }catch(e){} }
-  if(!SR){ $("botVoiceHint").hidden=false; $("botVoiceHint").textContent="La dictée n'est pas disponible ici. Touche le micro du clavier de ton téléphone pour parler."; $("botIn").focus(); return; }
-  if(rec){ rec.stop(); return; }
-  rec=new SR(); rec.lang="fr-FR"; rec.interimResults=true; rec.continuous=false;
-  let final="";
-  rec.onresult=e=>{ let t=""; for(const r of e.results){ t+=r[0].transcript; if(r.isFinal) final=t; } $("botIn").value=t; };
-  rec.onerror=e=>{ $("botVoiceHint").hidden=false; $("botVoiceHint").textContent=e.error==="not-allowed"||e.error==="service-not-allowed"?"Le micro est bloqué. Autorise-le dans les réglages, ou utilise le micro du clavier.":"Je n'ai rien entendu. Réessaie."; };
-  rec.onend=()=>{ $("botMicBtn").classList.remove("on"); rec=null; const t=($("botIn").value||final).trim(); if(t) botAsk(t,true); };
-  $("botVoiceHint").hidden=true; $("botMicBtn").classList.add("on"); rec.start();
-}
-$("botForm").addEventListener("submit",e=>{e.preventDefault(); botAsk($("botIn").value);});
-$("botIn").addEventListener("input",e=>{const t=e.target; t.style.height=""; t.style.height=Math.min(t.scrollHeight,140)+"px";});
-$("botIn").addEventListener("keydown",e=>{ if(e.key==="Enter"&&!e.shiftKey&&window.matchMedia("(min-width:1024px)").matches){ e.preventDefault(); botAsk($("botIn").value);} });
-$("botMsgs").addEventListener("click",e=>{const b=e.target.closest("[data-q]"); if(b) botAsk(b.dataset.q);});
-$("botNew").addEventListener("click",()=>{ if(BOT.busy) return; botHist=[]; botSave(); botRender(); });
-$("botKeyBtn").addEventListener("click",()=>botKeyView($("botKey").hidden));
-$("botKeySave").addEventListener("click",()=>{ const v=$("botKeyIn").value.replace(/\s+/g,""), g=$("botGhIn").value.replace(/\s+/g,"");
-  if(v&&!/^sk-ant-/.test(v)){ $("botKeyIn").setCustomValidity("La clé Claude commence par sk-ant-"); $("botKeyIn").reportValidity(); return; } $("botKeyIn").setCustomValidity("");
-  if(g&&!/^(github_pat_|ghp_)/.test(g)){ $("botGhIn").setCustomValidity("La clé GitHub commence par github_pat_"); $("botGhIn").reportValidity(); return; } $("botGhIn").setCustomValidity("");
-  if(v) botSet(BOT.keyName,v); if(g) botSet(GH.keyName,g);
-  botKeyView(false); botRender(); if(botGet(BOT.keyName)) $("botIn").focus(); });
-$("botKeyDel").addEventListener("click",()=>{ botSet(BOT.keyName,null); botSet(GH.keyName,null); botKeyView(false); botRender(); });
-$("botMicBtn").addEventListener("click",botMic);
-$("botStop").addEventListener("click",()=>{ try{speechSynthesis.cancel();}catch(e){} $("botStop").hidden=true; });
-$("botSpeak").addEventListener("change",e=>{ BOT.speak=e.target.checked; botSet("coach_speak",e.target.checked?"1":null); });
-BOT.speak=!!botGet("coach_speak"); $("botSpeak").checked=BOT.speak;
-
-const BUILD="20261120b";
+const BUILD="20261121a";
 function hardReload(){ const u=new URL(location.href); u.searchParams.set("v",Date.now()); location.replace(u.toString()); }
 $("btnRefresh").addEventListener("click",()=>{ $("btnRefresh").classList.add("spin"); hardReload(); });
 async function checkVersion(){ try{ const r=await fetch(location.pathname+"?t="+Date.now(),{cache:"no-store"}); const m=(await r.text()).match(/const BUILD="([^"]+)"/); if(m&&m[1]!==BUILD) hardReload(); }catch(e){} }
