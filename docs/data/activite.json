@@ -1,27 +1,5 @@
 [
  {
-  "t": "2026-11-20T10:00:39Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[régulation, résultats] Earnings call transcript: PetroNor flags softer q4 2026 on workover issues (Investing.com)",
-  "data": {
-   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-petronor-flags-softer-q4-2026-on-workover-issues-93CH-5041033",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-20T10:00:39Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] Binance Exploit-Linked Wallet Moves About 197,500 ETH in 16 Minutes - www.tokenpost.com (www.tokenpost.com)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GbmdiZzlXczQybEFTSGVhY0d0Um5JbVZka2RhbFQxRkcyVHhxbTNpS2ZOQlRjWEVSM0Vmb2o2ZFlaYk5RZm5LRVh3dUFPN3cwd29LZE5LY3V3NDg?oc=5",
-   "actifs": [
-    "ETH"
-   ]
-  }
- },
- {
   "t": "2026-11-20T10:01:36Z",
   "agent": "Scanner",
   "type": "scan",
@@ -2680,5 +2658,20 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "451 actifs hors univers analysés, 19 en mouvement : CARV -9.5 %, KNTQ -8.5 %, STRK -6.2 %."
+ },
+ {
+  "t": "2026-11-21T04:05:03Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "BTC short fermé (objectif atteint (moitié encaissée)) à 51296.74 : +4.93 € net",
+  "data": {
+   "id": "P0016a"
+  }
+ },
+ {
+  "t": "2026-11-21T04:05:03Z",
+  "agent": "Trader de garde",
+  "type": "laisser courir",
+  "msg": "BTC : objectif atteint, moitié encaissée. Le reste continue, stop suiveur à 53571.04."
  }
 ]

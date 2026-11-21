@@ -438,5 +438,27 @@
   "r_multiple": -1.11,
   "raison_sortie": "stop-loss",
   "decision_id": "S-20261118-091814-GOOGL"
+ },
+ {
+  "id": "P0016a",
+  "sym": "BTC",
+  "side": "short",
+  "strategie": "SWG-1",
+  "qty": 0.0007646833312291849,
+  "entry": 58726.12,
+  "exit": 51296.74,
+  "stop": 61000.42,
+  "tp": 51296.74,
+  "notionnel": 44.91,
+  "ouvert_le": "2026-11-16T16:35:41Z",
+  "ferme_le": "2026-11-21T04:05:00Z",
+  "duree_h": 107.49,
+  "frais": 0.75,
+  "pnl_brut": 5.68,
+  "pnl_net": 4.93,
+  "pnl_pct": 10.98,
+  "r_multiple": 2.0,
+  "raison_sortie": "objectif atteint (moitié encaissée)",
+  "decision_id": "S-20261116-163541-BTC"
  }
 ]
