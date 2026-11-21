@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T22:51:00Z",
+   "verifie_jusqu_a": "2026-11-21T22:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.3791289096756,
+   "dernier_prix": 518.3554536569325,
    "atr": 2.771652,
    "rollover": 0.2503240143095878,
    "rollover_periodes": 13
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T22:51:00Z",
+   "verifie_jusqu_a": "2026-11-21T22:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.56730488161358,
+   "dernier_prix": 93.56303150433425,
    "atr": 1.08547,
    "rollover": 0.19855317694911187,
    "rollover_periodes": 13
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T22:51:00Z",
+   "verifie_jusqu_a": "2026-11-21T22:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.6020169541071,
+   "dernier_prix": 568.5760479370097,
    "atr": 3.304099,
    "rollover": 0.25006964838957346,
    "rollover_periodes": 13
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-21T22:51:00Z",
+   "verifie_jusqu_a": "2026-11-21T22:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.101,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-21T22:51:00Z",
+   "verifie_jusqu_a": "2026-11-21T22:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.114e-06,
@@ -138,7 +138,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T22:51:56Z",
+ "maj": "2026-11-21T22:53:58Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -152,7 +152,7 @@
   "2026-11-21": 509.22
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-21T22:48:01Z",
+ "chasseur_t": "2026-11-21T22:53:52Z",
  "tendance": [
   "WASTED",
   "PIPI",
@@ -259,33 +259,42 @@
   }
  },
  "buzz_t": "2026-11-21T22:42:12Z",
- "sources_t": "2026-11-21T22:34:06Z",
+ "sources_t": "2026-11-21T22:53:57Z",
  "actus_tendance": [
+  {
+   "sujet": "AI",
+   "mentions": 10,
+   "sentiment": "neutral",
+   "titres": [
+    "Tesla’s AI4 runs real-time AI video on half a TRIP accelerator",
+    "RUM Group posts $96.6 million Q3 revenue as AI hosting overtakes video"
+   ]
+  },
   {
    "sujet": "Bitcoin",
    "mentions": 9,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin Proof-of-Work Can Help Stop AI Cyberattacks: Ex-Space Force Director",
-    "3 Altcoins Defy the Market Crash as Bitcoin Hits a Two-Year Low"
+    "HOW-TO: BTC Macro Breakdown & 1:1 Wave Targets",
+    "Bitcoin Proof-of-Work Can Help Stop AI Cyberattacks: Ex-Space Force Director"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 8,
+   "sujet": "SEC/Regulation",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin Proof-of-Work Can Help Stop AI Cyberattacks: Ex-Space Force Director",
-    "Cloudflare CEO warns AI could fuel two years of tech outages"
+    "Webull posts record $218.7 million quarter as client assets climb to $32.4 billion",
+    "ARK withdraws two proposed CoinDesk 20 crypto ETFs from SEC consideration"
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "Ethereum",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Circle issues 500 million USDC on the Solana network",
-    "Circle mints 500M USDC on Solana in about 20 minutes"
+    "ETH is showing some strength",
+    "ETH swept 1,536 and reclaimed the 1,600 put wall"
    ]
   },
   {
@@ -293,24 +302,32 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Circle issues 500 million USDC on the Solana network",
+    "Coinbase moves 127,745,921 USDC from institutional arm to its exchange",
     "Circle mints 500M USDC on Solana in about 20 minutes"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "ETF",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "All-In Podcast’s David Friedberg slams Trump plan to force disclosure of Chinese AI use"
+    "ARK withdraws two proposed CoinDesk 20 crypto ETFs from SEC consideration"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "ETH swept 1,536 and reclaimed the 1,600 put wall"
+    "Coinbase moves 127,745,921 USDC from institutional arm to its exchange"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Circle mints 500M USDC on Solana in about 20 minutes"
    ]
   }
  ],
