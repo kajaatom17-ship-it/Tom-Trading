@@ -1359,17 +1359,17 @@
  ],
  "alertes": [
   {
+   "sym": "USELESS",
+   "horizon": "15 min",
+   "variation_pct": 3.89,
+   "prix": 0.07294,
+   "t": "2026-11-21T11:36:52Z"
+  },
+  {
    "sym": "RARE",
    "horizon": "15 min",
    "variation_pct": 3.41,
    "prix": 0.01425,
-   "t": "2026-11-21T11:34:49Z"
-  },
-  {
-   "sym": "USELESS",
-   "horizon": "15 min",
-   "variation_pct": 3.87,
-   "prix": 0.07294,
    "t": "2026-11-21T11:34:49Z"
   },
   {
@@ -1539,5 +1539,5 @@
   "Google (stock market today): HTTP Error 429: Too Many Requests",
   "Google (crypto hack exploit): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-21T11:34:49Z"
+ "t": "2026-11-21T11:36:52Z"
 }
