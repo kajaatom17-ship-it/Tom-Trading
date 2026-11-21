@@ -1,7 +1,7 @@
 {
- "t": "2026-11-21T03:32:01Z",
+ "t": "2026-11-21T03:37:59Z",
  "nb_analyses": 456,
- "nb_en_mouvement": 11,
+ "nb_en_mouvement": 16,
  "tendance": [
   "AAPL",
   "ABCL",
@@ -206,32 +206,50 @@
  },
  "candidats": [
   {
-   "sym": "KNTQ",
-   "pair": "KNTQEUR",
+   "sym": "CARV",
+   "pair": "CARVEUR",
    "action": false,
-   "variation_24h_pct": -6.84,
-   "volume_24h_eur": 144313.54,
-   "spread_pct": 0.1047,
+   "variation_24h_pct": -7.93,
+   "volume_24h_eur": 48050.91,
+   "spread_pct": 0.3332,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "ICP",
-   "pair": "ICPEUR",
+   "sym": "TON",
+   "pair": "TONEUR",
    "action": false,
-   "variation_24h_pct": -6.44,
-   "volume_24h_eur": 193490.08,
-   "spread_pct": 0.2894,
+   "variation_24h_pct": -6.61,
+   "volume_24h_eur": 88149.27,
+   "spread_pct": 0.2398,
    "tendance": false,
-   "impulsion": null
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -3.12,
+    "volume_x": 6.1
+   }
   },
   {
-   "sym": "ENA",
-   "pair": "ENAEUR",
+   "sym": "PUMP",
+   "pair": "PUMPEUR",
    "action": false,
-   "variation_24h_pct": -5.66,
-   "volume_24h_eur": 377734.02,
-   "spread_pct": 0.3529,
+   "variation_24h_pct": -5.74,
+   "volume_24h_eur": 459471.47,
+   "spread_pct": 0.1919,
+   "tendance": true,
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -4.8,
+    "volume_x": 58.8
+   }
+  },
+  {
+   "sym": "JUP",
+   "pair": "JUPEUR",
+   "action": false,
+   "variation_24h_pct": -5.26,
+   "volume_24h_eur": 650545.02,
+   "spread_pct": 0.2136,
    "tendance": false,
    "impulsion": null
   },
@@ -239,52 +257,55 @@
    "sym": "FIL",
    "pair": "FILEUR",
    "action": false,
-   "variation_24h_pct": -6.13,
-   "volume_24h_eur": 125694.49,
-   "spread_pct": 0.2179,
+   "variation_24h_pct": -5.93,
+   "volume_24h_eur": 129252.41,
+   "spread_pct": 0.2174,
    "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "PUMP",
-   "pair": "PUMPEUR",
-   "action": false,
-   "variation_24h_pct": -5.47,
-   "volume_24h_eur": 456166.32,
-   "spread_pct": 0.3349,
-   "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "VIRTUAL",
-   "pair": "VIRTUALEUR",
-   "action": false,
-   "variation_24h_pct": -5.33,
-   "volume_24h_eur": 433513.21,
-   "spread_pct": 0.1835,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "W",
-   "pair": "WEUR",
-   "action": false,
-   "variation_24h_pct": -5.04,
-   "volume_24h_eur": 221649.22,
-   "spread_pct": 0.4304,
-   "tendance": false,
-   "impulsion": null
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -3.97,
+    "volume_x": 34.8
+   }
   },
   {
    "sym": "DASH",
    "pair": "DASHEUR",
    "action": false,
-   "variation_24h_pct": -5.09,
-   "volume_24h_eur": 183500.11,
-   "spread_pct": 0.478,
+   "variation_24h_pct": -5.71,
+   "volume_24h_eur": 183526.46,
+   "spread_pct": 0.2423,
    "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "ENA",
+   "pair": "ENAEUR",
+   "action": false,
+   "variation_24h_pct": -5.33,
+   "volume_24h_eur": 380952.47,
+   "spread_pct": 0.2345,
+   "tendance": false,
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -3.76,
+    "volume_x": 4.2
+   }
+  },
+  {
+   "sym": "STRK",
+   "pair": "STRKEUR",
+   "action": false,
+   "variation_24h_pct": -5.38,
+   "volume_24h_eur": 113442.41,
+   "spread_pct": 0.1136,
+   "tendance": true,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "TON",
+  "PUMP",
+  "FIL",
+  "ENA"
+ ]
 }
