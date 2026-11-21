@@ -20,10 +20,10 @@
    "risque_eur": 2.471540708991292,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-21T06:27:00Z",
+   "verifie_jusqu_a": "2026-11-21T06:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 51100.8,
+   "dernier_prix": 51181.5,
    "atr": 598.5359,
    "rollover": 0.24249718867843267,
    "rollover_periodes": 27,
@@ -46,10 +46,10 @@
    "risque_eur": 1.2342780236594229,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-21T06:27:00Z",
+   "verifie_jusqu_a": "2026-11-21T06:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
-   "dernier_prix": 3.115e-06,
+   "dernier_prix": 3.109e-06,
    "atr": 3.5634e-08,
    "rollover": 0.1281288557682174,
    "rollover_periodes": 26,
@@ -72,10 +72,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T06:27:00Z",
+   "verifie_jusqu_a": "2026-11-21T06:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.5164880348675,
+   "dernier_prix": 518.4785885921553,
    "atr": 2.771652,
    "rollover": 0.17330124067586844,
    "rollover_periodes": 9
@@ -96,10 +96,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T06:27:00Z",
+   "verifie_jusqu_a": "2026-11-21T06:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.59209816982357,
+   "dernier_prix": 93.585257329764,
    "atr": 1.08547,
    "rollover": 0.1374598917340005,
    "rollover_periodes": 9
@@ -120,10 +120,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T06:27:00Z",
+   "verifie_jusqu_a": "2026-11-21T06:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 559.3962153815228,
+   "dernier_prix": 559.3553279549752,
    "atr": 3.304099,
    "rollover": 0.17312514119278163,
    "rollover_periodes": 9
@@ -143,7 +143,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T06:27:55Z",
+ "maj": "2026-11-21T06:28:54Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -344,11 +344,20 @@
   }
  },
  "buzz_t": "2026-11-21T06:26:50Z",
- "sources_t": "2026-11-21T06:08:41Z",
+ "sources_t": "2026-11-21T06:28:52Z",
  "actus_tendance": [
   {
+   "sujet": "AI",
+   "mentions": 9,
+   "sentiment": "bearish",
+   "titres": [
+    "AI to lead investment strategy in 2027; Energy and borrowing costs shape macro outlook: Barclays",
+    "AI bubble fears grow as $9 trillion stock rout tests returns"
+   ]
+  },
+  {
    "sujet": "Bitcoin",
-   "mentions": 11,
+   "mentions": 5,
    "sentiment": "bearish",
    "titres": [
     "BTC Loses $58K as ETF Outflows Deepen — Is $49K Back in Play?",
@@ -356,39 +365,20 @@
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 10,
-   "sentiment": "bearish",
-   "titres": [
-    "AI bubble fears grow as $9 trillion stock rout tests returns",
-    "US Treasury yields drop for day and week; AI trade concern spurs safe-haven bid"
-   ]
-  },
-  {
    "sujet": "Ethereum",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "疑似与以太坊基金会相关的钱包再度卖出 2500 枚 ETH，价值 388 万美元",
-    "数据：Bit Digital 向 Galaxy Digital 存入 1.6639 万枚 ETH"
+    "⛽ ETH Gas: 🐢 0.355375737 | 🚶 0.355440406 | 🚀 0.390984446 Gwei",
+    "疑似与以太坊基金会相关的钱包再度卖出 2500 枚 ETH，价值 388 万美元"
    ]
   },
   {
-   "sujet": "Coinbase",
-   "mentions": 2,
+   "sujet": "XRP",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase stock tokens on Base reach $1 billion a week within three months",
-    "摩根士丹利增持近 800 枚比特币，总持仓升至 12448 枚"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin Weekly Outlook: Watch the $49,000 Neckline!",
-    "USDT 兌 USDC 今晨一度折價 0.23%！標普維持 USDT 穩定性「最弱 5 分」評級"
+    "XRP Falls Below $0.95 as $1.4 Billion in Long Liquidations Sweep the Crypto Market"
    ]
   },
   {
@@ -400,6 +390,14 @@
    ]
   },
   {
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase stock tokens on Base reach $1 billion a week within three months"
+   ]
+  },
+  {
    "sujet": "Dogecoin",
    "mentions": 1,
    "sentiment": "neutral",
@@ -408,11 +406,11 @@
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "NVIDIA (NVDA.US) shares suffer another major setback! Following a seven-day losing streak, market value evaporates by $1.16 trillion; reports say SEC has launched an investigation into its accounting practices."
+    "Bitcoin Weekly Outlook: Watch the $49,000 Neckline!"
    ]
   }
  ],
