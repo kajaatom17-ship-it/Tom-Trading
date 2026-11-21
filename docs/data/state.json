@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T20:32:00Z",
+   "verifie_jusqu_a": "2026-11-21T20:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.4075420678568,
+   "dernier_prix": 518.4312220790966,
    "atr": 2.771652,
    "rollover": 0.23106832090115795,
    "rollover_periodes": 12
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T20:32:00Z",
+   "verifie_jusqu_a": "2026-11-21T20:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.5724334496556,
+   "dernier_prix": 93.57670768584245,
    "atr": 1.08547,
    "rollover": 0.18327985564533403,
    "rollover_periodes": 12
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T20:32:00Z",
+   "verifie_jusqu_a": "2026-11-21T20:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.9072406043886,
+   "dernier_prix": 568.9332273595161,
    "atr": 3.304099,
    "rollover": 0.23083352159037548,
    "rollover_periodes": 12
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-21T20:32:00Z",
+   "verifie_jusqu_a": "2026-11-21T20:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.1009,
@@ -114,7 +114,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-21T20:32:00Z",
+   "verifie_jusqu_a": "2026-11-21T20:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.106e-06,
@@ -136,7 +136,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T20:32:29Z",
+ "maj": "2026-11-21T20:33:28Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -267,24 +267,33 @@
   }
  },
  "buzz_t": "2026-11-21T20:19:31Z",
- "sources_t": "2026-11-21T20:13:18Z",
+ "sources_t": "2026-11-21T20:33:26Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
-   "sentiment": "bearish",
+   "mentions": 11,
+   "sentiment": "neutral",
    "titres": [
-    "BTC: Wyckoff Accumulation in progress?",
-    "TCB Daily Edition: What Happened in Crypto on November 21, 2026"
+    "Update on Bitcoin to 50K range chart and the key SMAs to watch",
+    "Bitcoin Hit $55K. Can It Bottom Before Gold and Stocks?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 7,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "Amazon nearing $7.5B deal to buy AI start-up Decart: FT",
-    "Airbnb authorizes $12 billion buyback after its fastest growth in over three years"
+    "\"It'll Mean That You're Not Retarded\": All-In Shreds White House Plan To Shame Open-Source AI Users",
+    "Howard Marks warns OpenAI and Anthropic their AI lead may not last"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Circle issues 500 million USDC on the Solana network",
+    "Circle mints 500M USDC on Solana in about 20 minutes"
    ]
   },
   {
@@ -297,45 +306,29 @@
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Aave’s $4 billion USDC borrow cap could leave just $190 million available for withdrawals",
-    "Coinbase moves $100M in USDC to an unidentified wallet"
-   ]
-  },
-  {
    "sujet": "Ethereum",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "SPX6900 price prediction 2026-2032: Will SPX6900 soar 10x or crash?",
-    "#ETHUSDT  Deep in Oversold Territory: Is a Major Rebound Next ?"
+    "ETH swept 1,536 and reclaimed the 1,600 put wall",
+    "SPX6900 price prediction 2026-2032: Will SPX6900 soar 10x or crash?"
    ]
   },
   {
-   "sujet": "Dogecoin",
-   "mentions": 1,
+   "sujet": "Stablecoins",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "DOGE (BUY) Monthly Chart – Long-Term Outlook"
+    "Circle issues 500 million USDC on the Solana network",
+    "Circle mints 500M USDC on Solana in about 20 minutes"
    ]
   },
   {
-   "sujet": "Coinbase",
+   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase moves $100M in USDC to an unidentified wallet"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "SOLANA – (BUY) Monthly Chart – Long-Term Outlook"
+    "Can AAVE Reach $120? A Nasdaq Firm's $54M Loan Shows Lenders Still Trust the Protocol"
    ]
   }
  ],
