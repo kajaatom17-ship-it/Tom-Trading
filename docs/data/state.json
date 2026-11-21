@@ -20,7 +20,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T10:17:00Z",
+   "verifie_jusqu_a": "2026-11-21T10:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 518.7677118566596,
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T10:17:00Z",
+   "verifie_jusqu_a": "2026-11-21T10:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 93.63744400767895,
@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T10:17:00Z",
+   "verifie_jusqu_a": "2026-11-21T10:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 563.6529847335222,
@@ -91,7 +91,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T10:17:51Z",
+ "maj": "2026-11-21T10:18:47Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -277,73 +277,71 @@
   }
  },
  "buzz_t": "2026-11-21T10:15:56Z",
- "sources_t": "2026-11-21T09:58:32Z",
+ "sources_t": "2026-11-21T10:18:46Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 13,
+   "mentions": 9,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin weekly | A possible Wyckoff spring?",
-    "BTC to $33K? Crazy, Maybe. Impossible? Not at All."
+    "BTC May Slide to $55,000 Unless Yields Ease, as CoinGlass Logs a $51.7M Long Wipeout",
+    "Bitcoin weekly | A possible Wyckoff spring?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Nvidia crisis and Anthropic IPO scale-back highlight AI sector challenges",
-    "数据：Forward Industries 关联地址向 Binance 转入 4050 枚 ETH"
+    "Anthropic’s Debut Shows the Disconnect Between Wall Street and Silicon Valley",
+    "Nvidia crisis and Anthropic IPO scale-back highlight AI sector challenges"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Biggest HYPE Whale Burns Through $50M of Profit and Nears Liquidation",
+    "BR/USDT: +135% Macro Expansion Setup"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 4,
-   "sentiment": "neutral",
+   "mentions": 3,
+   "sentiment": "bearish",
    "titres": [
-    "数据：Forward Industries 关联地址向 Binance 转入 4050 枚 ETH",
-    "BTC lost its 2026 floor: relief bounce first, then a lower low"
+    "BTC lost its 2026 floor: relief bounce first, then a lower low",
+    "Binance can hold MEXC deposits even after the blockchain clears them"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "mentions": 2,
+   "sentiment": "bearish",
    "titres": [
     "BTC to $33K? Crazy, Maybe. Impossible? Not at All.",
     "XRP Slips Below $0.90 For The First Time Since 2024 as ETFs Bleed"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 2,
+   "sujet": "Security",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SKYAI/USDT: +130% Macro Reversal Setup",
-    "数据：巨鲸 Smartestmoney 持有的 7933 万美元 HYPE 多单浮盈降至 2595 万美元"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "数据：Forward Industries 关联地址向 Binance 转入 4050 枚 ETH",
-    "$ETH 1H: Wicked The Low. Now Prove It"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP Slips Below $0.90 For The First Time Since 2024 as ETFs Bleed",
-    "Bitwise ETF clients sell $5M in XRP amid cautious market sentiment"
+    "FBI reportedly investigating apparent hack of its criminal database"
    ]
   },
   {
    "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase Backs CFTC Prediction Market Push Amid Senate Backlash"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
