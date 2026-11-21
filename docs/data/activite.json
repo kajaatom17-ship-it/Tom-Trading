@@ -3,12 +3,6 @@
   "t": "2026-11-20T15:14:59Z",
   "agent": "Veille",
   "type": "alerte",
-  "msg": "INJ -2.53 % en 15 min"
- },
- {
-  "t": "2026-11-20T15:14:59Z",
-  "agent": "Veille",
-  "type": "alerte",
   "msg": "NEAR -2.57 % en 15 min"
  },
  {
@@ -2717,5 +2711,11 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
+ },
+ {
+  "t": "2026-11-21T10:04:31Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "450 actifs hors univers analysés, 10 en mouvement : DRV +16.0 %, CARV -8.8 %, JUP -7.0 %."
  }
 ]
