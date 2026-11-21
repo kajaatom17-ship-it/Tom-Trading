@@ -1480,6 +1480,27 @@
  ],
  "alertes": [
   {
+   "sym": "RARE",
+   "horizon": "15 min",
+   "variation_pct": -5.98,
+   "prix": 0.01384,
+   "t": "2026-11-21T13:41:36Z"
+  },
+  {
+   "sym": "CRCL",
+   "horizon": "15 min",
+   "variation_pct": 1.91,
+   "prix": 45.25424658536139,
+   "t": "2026-11-21T13:41:36Z"
+  },
+  {
+   "sym": "MSTR",
+   "horizon": "15 min",
+   "variation_pct": 1.6,
+   "prix": 73.84213124645737,
+   "t": "2026-11-21T13:41:36Z"
+  },
+  {
    "sym": "ENA",
    "horizon": "15 min",
    "variation_pct": 2.73,
@@ -1487,31 +1508,10 @@
    "t": "2026-11-21T13:40:40Z"
   },
   {
-   "sym": "RARE",
-   "horizon": "15 min",
-   "variation_pct": -4.01,
-   "prix": 0.01413,
-   "t": "2026-11-21T13:40:40Z"
-  },
-  {
    "sym": "USELESS",
    "horizon": "15 min",
    "variation_pct": 2.74,
    "prix": 0.073,
-   "t": "2026-11-21T13:40:40Z"
-  },
-  {
-   "sym": "CRCL",
-   "horizon": "15 min",
-   "variation_pct": 1.93,
-   "prix": 45.25838422996745,
-   "t": "2026-11-21T13:40:40Z"
-  },
-  {
-   "sym": "MSTR",
-   "horizon": "15 min",
-   "variation_pct": 2.78,
-   "prix": 74.28775189262333,
    "t": "2026-11-21T13:40:40Z"
   },
   {
@@ -1673,5 +1673,5 @@
  "erreurs_sources": [
   "Google (bitcoin): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-21T13:40:40Z"
+ "t": "2026-11-21T13:41:36Z"
 }

@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T13:40:00Z",
+   "verifie_jusqu_a": "2026-11-21T13:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.8530885418571,
+   "dernier_prix": 518.805653581028,
    "atr": 2.771652,
    "rollover": 0.2118126274927281,
    "rollover_periodes": 11
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T13:40:00Z",
+   "verifie_jusqu_a": "2026-11-21T13:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.65285447829426,
+   "dernier_prix": 93.64429247956703,
    "atr": 1.08547,
    "rollover": 0.16800653434155619,
    "rollover_periodes": 11
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T13:40:00Z",
+   "verifie_jusqu_a": "2026-11-21T13:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 570.3104999451414,
+   "dernier_prix": 569.2709952277339,
    "atr": 3.304099,
    "rollover": 0.21159739479117753,
    "rollover_periodes": 11
@@ -91,7 +91,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T13:40:40Z",
+ "maj": "2026-11-21T13:41:36Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -272,15 +272,15 @@
   }
  },
  "buzz_t": "2026-11-21T13:27:16Z",
- "sources_t": "2026-11-21T13:21:23Z",
+ "sources_t": "2026-11-21T13:41:34Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 11,
+   "mentions": 12,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin clears its largest liquidation cluster between $59K and $62K",
-    "Bitcoin Breakdown – Bearish Momentum or Temporary Relief Rally?"
+    "Bitcoin drops to lowest level in more than two years",
+    "Kraken says trades stand after Bitcoin sold at $24,250 Canadian"
    ]
   },
   {
@@ -288,35 +288,44 @@
    "mentions": 8,
    "sentiment": "bullish",
    "titres": [
-    "Google ties Search access to AI Overviews, and big school districts are pushing back",
-    "New US AI chip rules against China threaten Southeast Asia’s data centers"
+    "AI Stocks are Pulling Back, But I'm Watching $AMD",
+    "Anthropic IPO raises $81B but faces valuation doubts amid AI market slump"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 5,
+   "sentiment": "bullish",
+   "titres": [
+    "USDT.D Analyses-98, November 21, 2026",
+    "Chainflip 黑客已将赃款兑换为 2910 枚 ETH 并转入 Tornado Cash"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Chainflip 黑客已将赃款兑换为 2910 枚 ETH 并转入 Tornado Cash",
+    "数据：某鲸鱼在 Hyperliquid 以 3 倍杠杆做多 1.4 万枚 ETH，浮盈已达 144 万美元"
    ]
   },
   {
    "sujet": "SEC/Regulation",
    "mentions": 3,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "EU’s Costa revives digital tax plan to secure budget agreement",
-    "Here’s what happened in crypto today"
+    "State and federal battle over prediction markets regulation heats up after midterms",
+    "Musk hints at potential Tesla-SpaceX merger, no deal yet"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "BTCUSDT is testing a MAJOR MidTERM Level.",
-    "Adam Back 分析 Kraken 比特币折价原因：加元交易对汇率出现偏差"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
+   "sujet": "ETF",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Weekly Project Updates: Ethereum Glamsterdam Upgrade Delayed, Solana 2027 Roadmap, First Tokenized Stock On-Chain Dividend, etc",
-    "数据：某巨鲸/机构卖出 27,728 枚 ETH 偿还 4318 万枚 USDT 借款，亏损 8471 万美元"
+    "Bitcoin slips below its 200-week average for the first time since October 2023",
+    "Wells Fargo Leads as US Institutions Hit Record 356K Bitcoin Holdings: Galaxy"
    ]
   },
   {
@@ -324,15 +333,15 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Weekly Project Updates: Ethereum Glamsterdam Upgrade Delayed, Solana 2027 Roadmap, First Tokenized Stock On-Chain Dividend, etc"
+    "Solana Is Building A Quantum Shield Without Giving Up Its Speed, Even As SOL Trades Near $69"
    ]
   },
   {
-   "sujet": "DeFi",
+   "sujet": "XRP",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Here’s what happened in crypto today"
+    "XRP Price Sinks to $0.86 With Leveraged Bulls Gone"
    ]
   }
  ],
