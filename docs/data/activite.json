@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-20T19:10:11Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "610 actifs hors univers analysés, 64 en mouvement : KNTQ -16.4 %, SPX -15.6 %, MEGA -16.2 %."
- },
- {
-  "t": "2026-11-20T19:10:11Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "NVDA -1.62 % en 15 min"
- },
- {
-  "t": "2026-11-20T19:11:09Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "AMD -1.68 % en 15 min"
- },
- {
   "t": "2026-11-20T19:13:03Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2741,5 +2723,23 @@
     "NVDA"
    ]
   }
+ },
+ {
+  "t": "2026-11-21T12:52:25Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AVGO, BTC, CAPR, CRWD, DC, DJIA, ETH, EU, HBAR, INTU, MS, MSTR"
+ },
+ {
+  "t": "2026-11-21T12:52:31Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "450 actifs hors univers analysés, 9 en mouvement : DRV +26.6 %, ICNT -11.3 %, VVV +9.2 %."
+ },
+ {
+  "t": "2026-11-21T12:52:31Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "RARE +3.14 % en 15 min"
  }
 ]
