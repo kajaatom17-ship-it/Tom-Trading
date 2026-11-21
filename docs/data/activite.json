@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-20T19:13:03Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "HOOD -1.61 % en 15 min"
- },
- {
-  "t": "2026-11-20T19:16:04Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "610 actifs hors univers analysés, 69 en mouvement : KNTQ -16.4 %, SPX -15.7 %, MEGA -16.2 %."
- },
- {
   "t": "2026-11-20T19:17:01Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2741,5 +2729,24 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "RARE +3.14 % en 15 min"
+ },
+ {
+  "t": "2026-11-21T12:58:13Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "450 actifs hors univers analysés, 8 en mouvement : DRV +23.3 %, ICNT -11.3 %, VVV +9.4 %."
+ },
+ {
+  "t": "2026-11-21T12:58:16Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Kelp DAO Exploiter Moves $175M in ETH After Arbitrum Freeze - CoinMarketCap (CoinMarketCap)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOUjI5c2FFd1VFOUlUdFdGQ3MzeUQ4akU2UmxYTlZXWHVUN3NucGhzYWtiQjczUFJwdDRHS05mNGlLN0QwTlNzY3JVTk5rb3IxZGFieVV3SzFqS05YUExSUUp5NUVVMkY5RDFrRE93YkFPM2ZESjRJQTI5bVZSLUtfdW56dXNCRDhRQTEwaFFPclkwY1M3dk1ia29TQVJPdmN1MmlBMVN0Ymtkdw?oc=5",
+   "actifs": [
+    "ETH",
+    "ARB"
+   ]
+  }
  }
 ]
