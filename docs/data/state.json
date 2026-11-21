@@ -20,7 +20,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T09:16:00Z",
+   "verifie_jusqu_a": "2026-11-21T09:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 518.6681412289441,
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T09:16:00Z",
+   "verifie_jusqu_a": "2026-11-21T09:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 93.61947153394084,
@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T09:16:00Z",
+   "verifie_jusqu_a": "2026-11-21T09:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 562.5485554468929,
@@ -91,7 +91,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T09:16:11Z",
+ "maj": "2026-11-21T09:18:18Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -105,25 +105,25 @@
   "2026-11-21": 509.22
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-21T09:12:25Z",
+ "chasseur_t": "2026-11-21T09:18:11Z",
  "tendance": [
   "BTC",
   "CHUNKEE",
   "HYPE",
-  "ZEC",
-  "SUI",
-  "PENGU",
-  "ETH",
-  "MON",
-  "LINK",
-  "BDX",
-  "PEARL",
+  "SOL",
   "EVAA",
+  "SUI",
   "BNB",
-  "GRAM",
-  "FLIP"
+  "PEARL",
+  "ZEC",
+  "PUMP",
+  "MON",
+  "ETH",
+  "XMR",
+  "AAVE",
+  "BTW"
  ],
- "tendance_t": "2026-11-21T08:16:54Z",
+ "tendance_t": "2026-11-21T09:18:11Z",
  "buzz": {
   "BTC": {
    "source": "Reddit + StockTwits",
@@ -297,65 +297,68 @@
   }
  },
  "buzz_t": "2026-11-21T09:06:41Z",
- "sources_t": "2026-11-21T08:57:49Z",
+ "sources_t": "2026-11-21T09:18:16Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 9,
+   "sujet": "Bitcoin",
+   "mentions": 14,
    "sentiment": "bearish",
    "titres": [
-    "AI to lead investment strategy in 2027; Energy and borrowing costs shape macro outlook: Barclays",
-    "AI bubble fears grow as $9 trillion stock rout tests returns"
+    "BTC to $33K? Crazy, Maybe. Impossible? Not at All.",
+    "#BTC Weekly Trade Plan: Waiting For Sellers Response. 21.11.26"
    ]
   },
   {
-   "sujet": "Bitcoin",
+   "sujet": "Binance",
    "mentions": 5,
+   "sentiment": "neutral",
+   "titres": [
+    "数据：Forward Industries 关联地址向 Binance 转入 4050 枚 ETH",
+    "BTC lost its 2026 floor: relief bounce first, then a lower low"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 4,
    "sentiment": "bearish",
    "titres": [
-    "BTC Loses $58K as ETF Outflows Deepen — Is $49K Back in Play?",
-    "Twenty One Capital expands Bitcoin stash to 43,841 BTC after latest buys"
+    "数据：Forward Industries 关联地址向 Binance 转入 4050 枚 ETH",
+    "馬斯克預告特斯拉 FSD V15 將於下月廣泛推出！稱特斯拉 AI 已把訓練做進主模型"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "BTC to $33K? Crazy, Maybe. Impossible? Not at All.",
+    "XRP Slips Below $0.90 For The First Time Since 2024 as ETFs Bleed"
    ]
   },
   {
    "sujet": "Ethereum",
    "mentions": 3,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.355375737 | 🚶 0.355440406 | 🚀 0.390984446 Gwei",
-    "疑似与以太坊基金会相关的钱包再度卖出 2500 枚 ETH，价值 388 万美元"
+    "数据：Forward Industries 关联地址向 Binance 转入 4050 枚 ETH",
+    "$ETH 1H: Wicked The Low. Now Prove It"
    ]
   },
   {
    "sujet": "XRP",
-   "mentions": 1,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "XRP Falls Below $0.95 as $1.4 Billion in Long Liquidations Sweep the Crypto Market"
+    "XRP Slips Below $0.90 For The First Time Since 2024 as ETFs Bleed",
+    "Bitwise ETF clients sell $5M in XRP amid cautious market sentiment"
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "BTC Loses $58K as ETF Outflows Deepen — Is $49K Back in Play?"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase stock tokens on Base reach $1 billion a week within three months"
-   ]
-  },
-  {
-   "sujet": "Dogecoin",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Can Dogecoin Repeat a 760% Run From $0.054? A Technical Analyst's Call Meets the Chart"
+    "数据：Forward Industries 关联地址向 Binance 转入 4050 枚 ETH"
    ]
   },
   {
@@ -363,7 +366,7 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin Weekly Outlook: Watch the $49,000 Neckline!"
+    "数据：巨鲸 Smartestmoney 持有的 7933 万美元 HYPE 多单浮盈降至 2595 万美元"
    ]
   }
  ],
