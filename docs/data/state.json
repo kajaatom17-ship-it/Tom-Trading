@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T19:10:00Z",
+   "verifie_jusqu_a": "2026-11-21T19:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.5022750945672,
+   "dernier_prix": 518.559131531334,
    "atr": 2.771652,
    "rollover": 0.23106832090115795,
    "rollover_periodes": 12
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T19:10:00Z",
+   "verifie_jusqu_a": "2026-11-21T19:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.58953273760577,
+   "dernier_prix": 93.5997953104154,
    "atr": 1.08547,
    "rollover": 0.18327985564533403,
    "rollover_periodes": 12
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T19:10:00Z",
+   "verifie_jusqu_a": "2026-11-21T19:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.2619739414872,
+   "dernier_prix": 568.6349763327667,
    "atr": 3.304099,
    "rollover": 0.23083352159037548,
    "rollover_periodes": 12
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-21T19:10:00Z",
+   "verifie_jusqu_a": "2026-11-21T19:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.1012,
@@ -117,7 +117,7 @@
    "verifie_jusqu_a": "2026-11-21T19:11:55Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.089907e-06,
+   "dernier_prix": 3.092e-06,
    "atr": 5.5986e-08
   }
  ],
@@ -136,7 +136,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T19:10:50Z",
+ "maj": "2026-11-21T19:13:00Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -150,25 +150,25 @@
   "2026-11-21": 509.22
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-21T19:06:57Z",
+ "chasseur_t": "2026-11-21T19:12:54Z",
  "tendance": [
   "ZEC",
-  "WSTAR",
   "WASTED",
+  "PIPI",
+  "WSTAR",
   "BP",
   "CHUNKEE",
-  "PENGU",
-  "TRUMP",
   "BTC",
+  "PENGU",
   "SOL",
-  "ETH",
-  "HYPE",
-  "LINK",
-  "CARDS",
-  "AAVE",
-  "JCT"
+  "VVV",
+  "NEAR",
+  "ONDO",
+  "DRV",
+  "XRP",
+  "ETH"
  ],
- "tendance_t": "2026-11-21T18:13:29Z",
+ "tendance_t": "2026-11-21T19:12:54Z",
  "buzz": {
   "PUMP": {
    "source": "Reddit",
@@ -262,8 +262,17 @@
   }
  },
  "buzz_t": "2026-11-21T19:06:57Z",
- "sources_t": "2026-11-21T18:53:12Z",
+ "sources_t": "2026-11-21T19:12:59Z",
  "actus_tendance": [
+  {
+   "sujet": "Bitcoin",
+   "mentions": 7,
+   "sentiment": "bearish",
+   "titres": [
+    "BTC: Wyckoff Accumulation in progress?",
+    "TCB Daily Edition: What Happened in Crypto on November 21, 2026"
+   ]
+  },
   {
    "sujet": "AI",
    "mentions": 7,
@@ -274,12 +283,12 @@
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 5,
-   "sentiment": "bearish",
+   "sujet": "Security",
+   "mentions": 3,
+   "sentiment": "neutral",
    "titres": [
-    "*BTCUSD Double Top 88K Support Broken Now Bounce From 59K to 70k",
-    "Bitcoin prints historic BUY signal!!"
+    "Cyber investigating suspected $1 million bridge exploit as Upbit, Bithumb freeze transfers",
+    "Cyber bridge exploit mints 5.21 million CYBER tokens, Upbit and Bithumb freeze transfers"
    ]
   },
   {
@@ -298,15 +307,6 @@
    "titres": [
     "SPX6900 price prediction 2026-2032: Will SPX6900 soar 10x or crash?",
     "#ETHUSDT  Deep in Oversold Territory: Is a Major Rebound Next ?"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Cyber bridge exploit mints 5.21 million CYBER tokens, Upbit and Bithumb freeze transfers",
-    "FBI national crime database suffers suspected breach: Reports"
    ]
   },
   {
