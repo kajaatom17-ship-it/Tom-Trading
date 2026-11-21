@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T11:58:00Z",
+   "verifie_jusqu_a": "2026-11-21T11:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.8293699772347,
+   "dernier_prix": 518.8246265245297,
    "atr": 2.771652,
    "rollover": 0.19255693408429828,
    "rollover_periodes": 10
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T11:58:00Z",
+   "verifie_jusqu_a": "2026-11-21T11:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.6485732832314,
+   "dernier_prix": 93.64771709118837,
    "atr": 1.08547,
    "rollover": 0.15273321303777834,
    "rollover_periodes": 10
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T11:58:00Z",
+   "verifie_jusqu_a": "2026-11-21T11:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 564.3599659891934,
+   "dernier_prix": 564.4279471191647,
    "atr": 3.304099,
    "rollover": 0.19236126799197958,
    "rollover_periodes": 10
@@ -91,7 +91,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T11:58:03Z",
+ "maj": "2026-11-21T12:00:07Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -105,7 +105,7 @@
   "2026-11-21": 509.22
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-21T11:54:18Z",
+ "chasseur_t": "2026-11-21T11:59:59Z",
  "tendance": [
   "WASTED",
   "BTC",
@@ -128,17 +128,12 @@
   "BTC": {
    "source": "Reddit + StockTwits",
    "mentions": 318,
-   "x_vs_hier": 3.0
-  },
-  "NVDA": {
-   "source": "Reddit",
-   "mentions": 15,
-   "x_vs_hier": 15.0
+   "x_vs_hier": 2.8
   },
   "SNDK": {
    "source": "Reddit",
    "mentions": 190,
-   "x_vs_hier": 2.8
+   "x_vs_hier": 2.7
   },
   "SO": {
    "source": "Reddit",
@@ -148,7 +143,7 @@
   "PUMP": {
    "source": "Reddit",
    "mentions": 114,
-   "x_vs_hier": 11.4
+   "x_vs_hier": 10.4
   },
   "TQQQ": {
    "source": "Reddit",
@@ -162,12 +157,12 @@
   },
   "VT": {
    "source": "Reddit",
-   "mentions": 59,
+   "mentions": 58,
    "x_vs_hier": 3.9
   },
   "MSTR": {
    "source": "Reddit",
-   "mentions": 50,
+   "mentions": 49,
    "x_vs_hier": 2.5
   },
   "QQQM": {
@@ -188,7 +183,7 @@
   "EU": {
    "source": "Reddit",
    "mentions": 38,
-   "x_vs_hier": 2.4
+   "x_vs_hier": 2.9
   },
   "MS": {
    "source": "Reddit",
@@ -225,17 +220,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "XRP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ETH": {
-   "source": "StockTwits",
+   "source": "Reddit + StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVDL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LINK": {
+  "SRPT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -245,17 +240,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ABVX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "DVN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DXYZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -265,98 +255,89 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "DXYZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RBLX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LINK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "LTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "V": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DKNG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PENN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-21T11:42:34Z",
- "sources_t": "2026-11-21T11:39:37Z",
+ "buzz_t": "2026-11-21T12:00:00Z",
+ "sources_t": "2026-11-21T12:00:06Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 13,
+   "mentions": 11,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin on 2hr Chart Shows Possible bouncback",
-    "BTC Update — Rebound Invalidated, Lower Supports in Focus"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 5,
-   "sentiment": "bullish",
-   "titres": [
-    "BTCUSDT is testing a MAJOR MidTERM Level.",
-    "Sui Price to Give Breakdown Another Go as Hashi's Bitcoin Loans Go Live Into a Sell-Off"
+    "Bitcoin clears its largest liquidation cluster between $59K and $62K",
+    "Bitcoin Breakdown – Bearish Momentum or Temporary Relief Rally?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "bearish",
+   "mentions": 8,
+   "sentiment": "bullish",
    "titres": [
-    "Europe's cyber weak spot is the everyday businesses nobody thought to protect",
-    "Frostbite: A new CPU architecture discovered, designed, and verified by AI"
+    "Google ties Search access to AI Overviews, and big school districts are pushing back",
+    "New US AI chip rules against China threaten Southeast Asia’s data centers"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "SEC/Regulation",
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Binance can hold MEXC deposits even after the blockchain clears them",
-    "Binance raises RLUSD yield to 6.37% as XRP rewards surge 54%"
+    "EU’s Costa revives digital tax plan to secure budget agreement",
+    "Here’s what happened in crypto today"
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "XMR Falls Toward $440 as a $13.5M Wrapped Monero Hack Rattles Privacy Coin Traders",
-    "Fluidkey’s $1.6 million hack exposes a security risk even when private keys never leave users’ devices"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
+   "sujet": "Stablecoins",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "XRP Falls Below $0.95 as $1.4 Billion in Long Liquidations Sweep the Crypto Market",
-    "Binance raises RLUSD yield to 6.37% as XRP rewards surge 54%"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "BTC to $33K? Crazy, Maybe. Impossible? Not at All."
+    "BTCUSDT is testing a MAJOR MidTERM Level.",
+    "Adam Back 分析 Kraken 比特币折价原因：加元交易对汇率出现偏差"
    ]
   },
   {
    "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Weekly Project Updates: Ethereum Glamsterdam Upgrade Delayed, Solana 2027 Roadmap, First Tokenized Stock On-Chain Dividend, etc",
+    "数据：某巨鲸/机构卖出 27,728 枚 ETH 偿还 4318 万枚 USDT 借款，亏损 8471 万美元"
+   ]
+  },
+  {
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Peter Schiff Warns ETH Could Hit $1,000 by Monday After Ether Breaks Key Support"
+    "Weekly Project Updates: Ethereum Glamsterdam Upgrade Delayed, Solana 2027 Roadmap, First Tokenized Stock On-Chain Dividend, etc"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today"
    ]
   }
  ],
