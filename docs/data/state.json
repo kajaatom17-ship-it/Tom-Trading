@@ -20,10 +20,10 @@
    "risque_eur": 4.943081417982584,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-16T16:35:41Z",
-   "verifie_jusqu_a": "2026-11-21T03:26:00Z",
+   "verifie_jusqu_a": "2026-11-21T03:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-163541-BTC",
-   "dernier_prix": 53240.0,
+   "dernier_prix": 53214.5,
    "atr": 598.5359,
    "rollover": 0.4670316226399444,
    "rollover_periodes": 26
@@ -44,7 +44,7 @@
    "risque_eur": 2.4685560473188457,
    "rr_net": 2.07,
    "ouvert_le": "2026-11-16T18:39:57Z",
-   "verifie_jusqu_a": "2026-11-21T03:26:00Z",
+   "verifie_jusqu_a": "2026-11-21T03:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261116-183957-SHIB",
    "dernier_prix": 3.22e-06,
@@ -68,10 +68,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T03:26:00Z",
+   "verifie_jusqu_a": "2026-11-21T03:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.1613981263354,
+   "dernier_prix": 518.1803239768432,
    "atr": 2.771652,
    "rollover": 0.1540455472674386,
    "rollover_periodes": 8
@@ -92,10 +92,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T03:26:00Z",
+   "verifie_jusqu_a": "2026-11-21T03:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.52800452893588,
+   "dernier_prix": 93.53142064028344,
    "atr": 1.08547,
    "rollover": 0.12218657043022266,
    "rollover_periodes": 8
@@ -116,10 +116,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T03:26:00Z",
+   "verifie_jusqu_a": "2026-11-21T03:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 563.7155536076261,
+   "dernier_prix": 563.7361433241412,
    "atr": 3.304099,
    "rollover": 0.15388901439358368,
    "rollover_periodes": 8
@@ -139,7 +139,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T03:26:58Z",
+ "maj": "2026-11-21T03:27:57Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -330,42 +330,68 @@
   }
  },
  "buzz_t": "2026-11-21T03:25:58Z",
- "sources_t": "2026-11-21T03:07:58Z",
+ "sources_t": "2026-11-21T03:27:56Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
-   "sentiment": "neutral",
+   "mentions": 9,
+   "sentiment": "bearish",
    "titres": [
-    "BTC Outlook Current Take, Short Term + Long Term Scenario",
-    "数据：交易员 AguilaTrades 平掉 BTC 空仓，净盈利约 687 万美元"
+    "3 Signs the Flush Is Over (Don't Buy the Wick)",
+    "Why Bitcoin Falls When Rates Rise - Real Yields Explained"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "neutral",
+   "mentions": 4,
+   "sentiment": "bearish",
    "titres": [
-    "Fear Erupts, AI Stocks Tank, but so Do Gold, Silver, Cryptos, Nearly Everything but Treasuries",
-    "美股 45 天蒸發 6 兆美元！AI 泡沫破了嗎？"
+    "剛傳 Claude 破解黎曼猜想，純人類版本也來了！美國數學會會長貼出 940 頁證明草稿，強調「完全沒用 AI」",
+    "Trump says only old chips will be sold to China"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "mentions": 4,
+   "sentiment": "bearish",
    "titres": [
-    "数据：7 Siblings 从 Spark 借款 2000 万枚 USDS 买入 1.2085 万枚 ETH",
-    "数据：1.55 亿美元做多 ETH 和 BTC 的多军已浮亏超 6547 万美元"
+    "数据：某鲸鱼地址以约 1600 美元价格买入 9425 枚 ETH",
+    "Peter Schiff Warns of Weekend Crypto Crash Sending ETH to $1K"
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "Stablecoins",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Santiago Roel Santos：ETH 未来两年或跌至 100 美元",
-    "Sunrise CEO says Solana is not being left behind in the tokenization race"
+    "USDC 对 USDT 溢价扩大至约 0.2%，USDT 跌至 0.9976 美元",
+    "Former Tether associates launch Kintsugi Capital to chase yield on Tether Gold"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "女股神連兩日掃貨 Anthropic！單日狂買 70.5 萬股 ANT，反手拋售 13.5 萬股輝達與加密 ETF",
+    "How ETF Flows Move Bitcoin: What $3.5B in Outflows Really Means"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Fluidkey’s $1.6 million hack exposes a security risk even when private keys never leave users’ devices",
+    "Binance hack: $2.82 billion frozen, only $32 million recovered"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance hack: $2.82 billion frozen, only $32 million recovered"
    ]
   },
   {
@@ -374,30 +400,6 @@
    "sentiment": "bearish",
    "titres": [
     "XRP/USD: Price Pinned Below Band, Swing High at 1.0078 Caps Rebo"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "US SEC opens probe into Nvidia's accounting"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "DBS is building two paths for 24/7 dollars with JPMorgan and Circle using USDC"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Santiago Roel Santos：ETH 未来两年或跌至 100 美元"
    ]
   }
  ],
