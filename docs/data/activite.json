@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-11-20T21:37:19Z",
-  "agent": "Chasseur de mouvements",
-  "type": "vidéo",
-  "msg": "Nouvelle vidéo de Unchained : 'The Slop Is the Human': Why People Still Want Humans Writing Code",
-  "data": {
-   "lien": "https://www.youtube.com/watch?v=uJuO0sHuBSY"
-  }
- },
- {
-  "t": "2026-11-20T21:39:22Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : WASTED, LUCIA, TRUMP, BTC, CHUNKEE, HYPE, PEARL, PENGU"
- },
- {
-  "t": "2026-11-20T21:39:27Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "607 actifs hors univers analysés, 68 en mouvement : MEGA -17.9 %, BLUAI -16.3 %, KNTQ -15.9 %."
- },
- {
   "t": "2026-11-20T21:39:27Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2762,5 +2741,26 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "450 actifs hors univers analysés, 10 en mouvement : DRV +29.8 %, VVV +14.1 %, ORCA +9.6 %."
+ },
+ {
+  "t": "2026-11-21T17:01:10Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "FET short ouvert à 0.1001997 | 66.48 € engagés | stop 0.1062668 | objectif 0.08279946 | risque 5.12 EUR",
+  "data": {
+   "id": "P0025"
+  }
+ },
+ {
+  "t": "2026-11-21T17:01:10Z",
+  "agent": "Trader de garde",
+  "type": "entrée",
+  "msg": "Entrée SWG-1 : FET short, stop 0.1062668, objectif 0.08279946, risque 5.12 €."
+ },
+ {
+  "t": "2026-11-21T17:01:10Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : INJ short (SWG-1, 70), FET short (SWG-1, 70)"
  }
 ]
