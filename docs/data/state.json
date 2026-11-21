@@ -20,7 +20,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T10:58:00Z",
+   "verifie_jusqu_a": "2026-11-21T10:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 518.7629695313143,
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T10:58:00Z",
+   "verifie_jusqu_a": "2026-11-21T10:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 93.63658801912408,
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-21T10:58:00Z",
+   "verifie_jusqu_a": "2026-11-21T10:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 563.8580870455522,
+   "dernier_prix": 563.8215209660758,
    "atr": 3.304099,
    "rollover": 0.19236126799197958,
    "rollover_periodes": 10
@@ -91,7 +91,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-21T10:58:17Z",
+ "maj": "2026-11-21T10:59:13Z",
  "seq": 24,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -277,51 +277,67 @@
   }
  },
  "buzz_t": "2026-11-21T10:50:36Z",
- "sources_t": "2026-11-21T10:38:56Z",
+ "sources_t": "2026-11-21T10:59:12Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "BTC May Slide to $55,000 Unless Yields Ease, as CoinGlass Logs a $51.7M Long Wipeout",
-    "Bitcoin weekly | A possible Wyckoff spring?"
+    "Solana ETFs Defy Wall Street’s Big Crypto Sell-Off",
+    "BTC Update — Rebound Invalidated, Lower Supports in Focus"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "mentions": 4,
+   "sentiment": "bullish",
    "titres": [
-    "Anthropic’s Debut Shows the Disconnect Between Wall Street and Silicon Valley",
-    "Nvidia crisis and Anthropic IPO scale-back highlight AI sector challenges"
+    "US Commerce Department closes cloud loophole that let Chinese firms rent AI chips",
+    "Anthropic researcher uses AI to solve math's greatest riddle"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Biggest HYPE Whale Burns Through $50M of Profit and Nears Liquidation",
-    "BR/USDT: +135% Macro Expansion Setup"
+    "数据：某巨鲸/机构卖出 27,728 枚 ETH 偿还 4318 万枚 USDT 借款，亏损 8471 万美元",
+    "Biggest HYPE Whale Burns Through $50M of Profit and Nears Liquidation"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 3,
+   "sujet": "Ethereum",
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "BTC lost its 2026 floor: relief bounce first, then a lower low",
-    "Binance can hold MEXC deposits even after the blockchain clears them"
+    "Solana ETFs Defy Wall Street’s Big Crypto Sell-Off",
+    "数据：某巨鲸/机构卖出 27,728 枚 ETH 偿还 4318 万枚 USDT 借款，亏损 8471 万美元"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "The European Central Bank invites market institutions to participate in the Appia project test",
+    "Coinbase Backs CFTC Prediction Market Push Amid Senate Backlash"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Solana ETFs Defy Wall Street’s Big Crypto Sell-Off"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "bearish",
    "titres": [
-    "BTC to $33K? Crazy, Maybe. Impossible? Not at All.",
-    "XRP Slips Below $0.90 For The First Time Since 2024 as ETFs Bleed"
+    "Solana ETFs Defy Wall Street’s Big Crypto Sell-Off"
    ]
   },
   {
@@ -330,22 +346,6 @@
    "sentiment": "neutral",
    "titres": [
     "FBI reportedly investigating apparent hack of its criminal database"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase Backs CFTC Prediction Market Push Amid Senate Backlash"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase Backs CFTC Prediction Market Push Amid Senate Backlash"
    ]
   }
  ],
