@@ -1480,17 +1480,45 @@
  ],
  "alertes": [
   {
-   "sym": "ARB",
-   "horizon": "15 min",
-   "variation_pct": 2.76,
-   "prix": 0.1042,
-   "t": "2026-11-21T13:39:45Z"
-  },
-  {
    "sym": "ENA",
    "horizon": "15 min",
    "variation_pct": 2.73,
    "prix": 0.0902,
+   "t": "2026-11-21T13:40:40Z"
+  },
+  {
+   "sym": "RARE",
+   "horizon": "15 min",
+   "variation_pct": -4.01,
+   "prix": 0.01413,
+   "t": "2026-11-21T13:40:40Z"
+  },
+  {
+   "sym": "USELESS",
+   "horizon": "15 min",
+   "variation_pct": 2.74,
+   "prix": 0.073,
+   "t": "2026-11-21T13:40:40Z"
+  },
+  {
+   "sym": "CRCL",
+   "horizon": "15 min",
+   "variation_pct": 1.93,
+   "prix": 45.25838422996745,
+   "t": "2026-11-21T13:40:40Z"
+  },
+  {
+   "sym": "MSTR",
+   "horizon": "15 min",
+   "variation_pct": 2.78,
+   "prix": 74.28775189262333,
+   "t": "2026-11-21T13:40:40Z"
+  },
+  {
+   "sym": "ARB",
+   "horizon": "15 min",
+   "variation_pct": 2.76,
+   "prix": 0.1042,
    "t": "2026-11-21T13:39:45Z"
   },
   {
@@ -1508,38 +1536,10 @@
    "t": "2026-11-21T13:39:45Z"
   },
   {
-   "sym": "RARE",
-   "horizon": "15 min",
-   "variation_pct": -4.01,
-   "prix": 0.01413,
-   "t": "2026-11-21T13:39:45Z"
-  },
-  {
-   "sym": "USELESS",
-   "horizon": "15 min",
-   "variation_pct": 3.79,
-   "prix": 0.07374,
-   "t": "2026-11-21T13:39:45Z"
-  },
-  {
    "sym": "ZEC",
    "horizon": "15 min",
    "variation_pct": 3.01,
    "prix": 736.089,
-   "t": "2026-11-21T13:39:45Z"
-  },
-  {
-   "sym": "CRCL",
-   "horizon": "15 min",
-   "variation_pct": 1.93,
-   "prix": 45.25797043145931,
-   "t": "2026-11-21T13:39:45Z"
-  },
-  {
-   "sym": "MSTR",
-   "horizon": "15 min",
-   "variation_pct": 3.02,
-   "prix": 74.46079014016256,
    "t": "2026-11-21T13:39:45Z"
   },
   {
@@ -1673,5 +1673,5 @@
  "erreurs_sources": [
   "Google (bitcoin): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-21T13:39:45Z"
+ "t": "2026-11-21T13:40:40Z"
 }
