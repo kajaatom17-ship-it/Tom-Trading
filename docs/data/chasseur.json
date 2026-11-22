@@ -1,7 +1,7 @@
 {
- "t": "2026-11-22T09:58:49Z",
+ "t": "2026-11-22T10:03:38Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 0,
  "tendance": [
   "ABVX",
   "APO",
@@ -18,18 +18,18 @@
   "HYPE",
   "KWEB",
   "MSTR",
+  "NTLA",
   "PEARL",
   "PENGU",
+  "PFE",
   "PIEVERSE",
   "PONS",
   "RVMD",
-  "SHOP",
   "SOL",
   "SUI",
   "TAO",
-  "TQQQ",
+  "TEAM",
   "TRUMP",
-  "UNG",
   "VVV",
   "XRP"
  ],
@@ -44,16 +44,6 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "GLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "MSTR": {
    "source": "StockTwits",
    "mentions": null,
@@ -64,12 +54,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UNG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ABVX": {
+  "GLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -79,12 +64,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "KWEB": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "APO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ABVX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KWEB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TEAM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -99,33 +99,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHOP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "RVMD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TQQQ": {
+  "NTLA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PFE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [
-  {
-   "sym": "AI",
-   "pair": "AIEUR",
-   "action": false,
-   "variation_24h_pct": 10.11,
-   "volume_24h_eur": 58067.83,
-   "spread_pct": 0.4237,
-   "tendance": false,
-   "impulsion": null
-  }
- ],
+ "candidats": [],
  "ajoutes": []
 }
