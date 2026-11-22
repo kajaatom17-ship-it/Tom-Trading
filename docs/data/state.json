@@ -20,7 +20,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T00:13:00Z",
+   "verifie_jusqu_a": "2026-11-22T00:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 518.3696585490619,
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T00:13:00Z",
+   "verifie_jusqu_a": "2026-11-22T00:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 93.56559548385918,
@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T00:13:00Z",
+   "verifie_jusqu_a": "2026-11-22T00:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 569.2036465279426,
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T00:13:00Z",
+   "verifie_jusqu_a": "2026-11-22T00:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0995,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T00:13:00Z",
+   "verifie_jusqu_a": "2026-11-22T00:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.108e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T00:13:33Z",
+ "maj": "2026-11-22T00:14:32Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -267,33 +267,41 @@
   }
  },
  "buzz_t": "2026-11-22T00:10:41Z",
- "sources_t": "2026-11-21T23:54:47Z",
+ "sources_t": "2026-11-22T00:14:30Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 9,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "Alphabet keeps borrowing as AI spending drags its stock 34% below its peak",
-    "Tesla’s AI4 runs real-time AI video on half a TRIP accelerator"
+    "OpenAI says new safeguards cut reasoning extraction attacks on GPT-6.2 Astra to 0.2%",
+    "Alphabet keeps borrowing as AI spending drags its stock 34% below its peak"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 7,
    "sentiment": "bearish",
    "titres": [
-    "BTCUSDT 8H: Wyckoff spring under the July low, test next",
-    "Behind Closed Doors, Central Banks Build a Case for Bitcoin—But With Gold"
+    "Bitcoin crashes below key level as extreme fear grips market",
+    "CleanSpark’s Harry Sudock says power access is the real edge for Bitcoin miners"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
     "Webull posts record $218.7 million quarter as client assets climb to $32.4 billion",
     "ARK withdraws two proposed CoinDesk 20 crypto ETFs from SEC consideration"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "FBI reportedly investigating apparent hack of its criminal database"
    ]
   },
   {
