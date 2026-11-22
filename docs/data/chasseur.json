@@ -1,14 +1,13 @@
 {
- "t": "2026-11-22T12:34:16Z",
+ "t": "2026-11-22T12:40:03Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AAVE",
   "AERO",
   "AVEX",
   "BTC",
   "CAD",
-  "CRO",
   "DRV",
   "ETH",
   "GNRC",
@@ -16,17 +15,18 @@
   "HUM",
   "HYMC",
   "HYPE",
+  "ICP",
   "JNJ",
   "MRK",
   "MSTR",
-  "NTLA",
+  "NDAQ",
   "PEARL",
   "PENGU",
   "PEPE",
   "PIEVERSE",
-  "SDGR",
   "TAO",
   "TRUMP",
+  "UVXY",
   "VVV",
   "WASTED",
   "WFC",
@@ -40,6 +40,11 @@
    "x_vs_hier": 4.2
   },
   "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -59,12 +64,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRO": {
+  "WFC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -74,22 +74,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SDGR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WFC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "HBAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NTLA": {
+  "HUM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -104,12 +94,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HUM": {
+  "GNRC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GNRC": {
+  "ICP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NDAQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UVXY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -117,12 +117,22 @@
  },
  "candidats": [
   {
-   "sym": "NIGHT",
-   "pair": "NIGHTEUR",
+   "sym": "DRV",
+   "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": 5.78,
-   "volume_24h_eur": 310210.63,
-   "spread_pct": 0.1168,
+   "variation_24h_pct": 9.5,
+   "volume_24h_eur": 43836.5,
+   "spread_pct": 0.4275,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "AI",
+   "pair": "AIEUR",
+   "action": false,
+   "variation_24h_pct": 7.39,
+   "volume_24h_eur": 65157.38,
+   "spread_pct": 0.4345,
    "tendance": false,
    "impulsion": null
   }
