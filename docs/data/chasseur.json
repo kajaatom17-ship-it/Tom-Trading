@@ -1,19 +1,21 @@
 {
- "t": "2026-11-22T11:59:33Z",
+ "t": "2026-11-22T12:05:18Z",
  "nb_analyses": 449,
  "nb_en_mouvement": 2,
  "tendance": [
   "AAVE",
   "AERO",
-  "BIDU",
   "BTC",
   "CAD",
+  "CRO",
   "DRV",
   "ETH",
+  "GNRC",
+  "HBAR",
+  "HYMC",
   "HYPE",
   "JNJ",
   "KWEB",
-  "LYFT",
   "MRK",
   "MSTR",
   "NTLA",
@@ -24,7 +26,6 @@
   "SDGR",
   "TAO",
   "TRUMP",
-  "TSM",
   "U",
   "VCX",
   "VVV",
@@ -35,14 +36,9 @@
   "CAD": {
    "source": "Reddit",
    "mentions": 27,
-   "x_vs_hier": 13.5
+   "x_vs_hier": 4.5
   },
   "BTC": {
-   "source": "Reddit + StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -52,17 +48,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "JNJ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GNRC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -77,6 +83,11 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "HBAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "U": {
    "source": "StockTwits",
    "mentions": null,
@@ -87,22 +98,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BIDU": {
+  "HYMC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
+  "VCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "PEPE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LYFT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -113,9 +119,9 @@
    "sym": "AI",
    "pair": "AIEUR",
    "action": false,
-   "variation_24h_pct": 8.94,
-   "volume_24h_eur": 63136.92,
-   "spread_pct": 0.2141,
+   "variation_24h_pct": 7.7,
+   "volume_24h_eur": 63684.57,
+   "spread_pct": 0.1444,
    "tendance": false,
    "impulsion": null
   },
@@ -123,9 +129,9 @@
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 5.58,
-   "volume_24h_eur": 289377.61,
-   "spread_pct": 0.1638,
+   "variation_24h_pct": 5.81,
+   "volume_24h_eur": 290158.95,
+   "spread_pct": 0.1401,
    "tendance": false,
    "impulsion": null
   }
