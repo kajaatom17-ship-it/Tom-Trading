@@ -1,7 +1,7 @@
 {
- "t": "2026-11-22T21:10:18Z",
+ "t": "2026-11-22T21:16:34Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 8,
+ "nb_en_mouvement": 10,
  "tendance": [
   "ABBV",
   "BTC",
@@ -116,9 +116,9 @@
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 10.13,
-   "volume_24h_eur": 588677.41,
-   "spread_pct": 0.157,
+   "variation_24h_pct": 10.3,
+   "volume_24h_eur": 587980.32,
+   "spread_pct": 0.2464,
    "tendance": true,
    "impulsion": null
   },
@@ -127,9 +127,33 @@
    "pair": "DRVEUR",
    "action": false,
    "variation_24h_pct": 11.45,
-   "volume_24h_eur": 72246.84,
-   "spread_pct": 0.2614,
+   "volume_24h_eur": 71878.82,
+   "spread_pct": 0.1615,
    "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "KAVA",
+   "pair": "KAVAEUR",
+   "action": false,
+   "variation_24h_pct": -10.13,
+   "volume_24h_eur": 75831.01,
+   "spread_pct": 0.4695,
+   "tendance": false,
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -4.07,
+    "volume_x": 9.0
+   }
+  },
+  {
+   "sym": "AI",
+   "pair": "AIEUR",
+   "action": false,
+   "variation_24h_pct": 5.99,
+   "volume_24h_eur": 70259.73,
+   "spread_pct": 0.2201,
+   "tendance": false,
    "impulsion": null
   },
   {
@@ -137,19 +161,19 @@
    "pair": "MONEUR",
    "action": false,
    "variation_24h_pct": -5.38,
-   "volume_24h_eur": 193461.25,
-   "spread_pct": 0.175,
+   "volume_24h_eur": 193036.27,
+   "spread_pct": 0.0875,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "AI",
-   "pair": "AIEUR",
+   "sym": "VVV",
+   "pair": "VVVEUR",
    "action": false,
-   "variation_24h_pct": 5.83,
-   "volume_24h_eur": 70250.63,
-   "spread_pct": 0.2204,
-   "tendance": false,
+   "variation_24h_pct": 4.91,
+   "volume_24h_eur": 586390.21,
+   "spread_pct": 0.1257,
+   "tendance": true,
    "impulsion": null
   },
   {
@@ -158,40 +182,22 @@
    "action": false,
    "variation_24h_pct": 5.86,
    "volume_24h_eur": 45216.25,
-   "spread_pct": 0.1697,
+   "spread_pct": 0.1909,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "VVV",
-   "pair": "VVVEUR",
+   "sym": "MELANIA",
+   "pair": "MELANIAEUR",
    "action": false,
-   "variation_24h_pct": 4.72,
-   "volume_24h_eur": 585848.19,
-   "spread_pct": 0.0966,
-   "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "RARE",
-   "pair": "RAREEUR",
-   "action": false,
-   "variation_24h_pct": -5.4,
-   "volume_24h_eur": 78094.51,
-   "spread_pct": 0.1631,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "CC",
-   "pair": "CCEUR",
-   "action": false,
-   "variation_24h_pct": -5.45,
-   "volume_24h_eur": 42245.63,
-   "spread_pct": 0.1224,
+   "variation_24h_pct": 5.45,
+   "volume_24h_eur": 84930.87,
+   "spread_pct": 0.4695,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "KAVA"
+ ]
 }
