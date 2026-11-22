@@ -1,15 +1,6 @@
 [
  {
   "t": "2026-11-21T06:18:48Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "SHIB short fermé (objectif atteint (moitié encaissée)) à 3.092859e-06 : +2.55 € net",
-  "data": {
-   "id": "P0017a"
-  }
- },
- {
-  "t": "2026-11-21T06:18:48Z",
   "agent": "Trader de garde",
   "type": "laisser courir",
   "msg": "SHIB : objectif atteint, moitié encaissée. Le reste continue, stop suiveur à 3.211758e-06."
@@ -2793,6 +2784,12 @@
  },
  {
   "t": "2026-11-22T04:54:01Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "449 actifs hors univers analysés, 1 en mouvement : PLAY -5.0 %."
+ },
+ {
+  "t": "2026-11-22T04:59:45Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "449 actifs hors univers analysés, 1 en mouvement : PLAY -5.0 %."
