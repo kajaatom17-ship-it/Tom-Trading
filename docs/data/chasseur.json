@@ -1,27 +1,27 @@
 {
- "t": "2026-11-22T14:01:30Z",
+ "t": "2026-11-22T14:07:17Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 2,
+ "nb_en_mouvement": 1,
  "tendance": [
+  "ABVX",
+  "ALGO",
+  "AMBA",
   "APT",
   "BLK",
   "BP",
-  "BRBR",
   "BTC",
   "CAD",
   "CAPR",
-  "CSIQ",
+  "CASHCAT",
   "DRTS",
   "DRV",
   "DVN",
-  "GNRC",
+  "FIG",
   "HALO",
+  "HPE",
   "HYPE",
-  "JASMY",
-  "LTC",
   "MON",
   "MRK",
-  "NEXT",
   "PEARL",
   "PENGU",
   "PI",
@@ -30,6 +30,7 @@
   "REPL",
   "SOL",
   "TRUMP",
+  "VOO",
   "VVV",
   "WASTED",
   "ZBCN"
@@ -37,20 +38,10 @@
  "buzz_reseaux": {
   "CAD": {
    "source": "Reddit",
-   "mentions": 23,
-   "x_vs_hier": 2.3
+   "mentions": 22,
+   "x_vs_hier": 2.2
   },
-  "MRK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZBCN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BRBR": {
+  "CASHCAT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -60,27 +51,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BLK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DVN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -90,7 +61,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NEXT": {
+  "ABVX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MRK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BLK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZBCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DVN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -100,17 +91,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "GNRC": {
+  "AMBA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CSIQ": {
+  "ALGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JASMY": {
+  "VOO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "FIG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -122,18 +123,8 @@
    "pair": "NIGHTEUR",
    "action": false,
    "variation_24h_pct": 10.3,
-   "volume_24h_eur": 348366.62,
-   "spread_pct": 0.1792,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "STRK",
-   "pair": "STRKEUR",
-   "action": false,
-   "variation_24h_pct": 5.06,
-   "volume_24h_eur": 62913.84,
-   "spread_pct": 0.1039,
+   "volume_24h_eur": 354843.46,
+   "spread_pct": 0.1568,
    "tendance": false,
    "impulsion": null
   }
