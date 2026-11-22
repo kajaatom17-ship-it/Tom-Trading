@@ -1,21 +1,22 @@
 {
- "t": "2026-11-22T04:42:32Z",
- "nb_analyses": 450,
- "nb_en_mouvement": 2,
+ "t": "2026-11-22T04:48:16Z",
+ "nb_analyses": 449,
+ "nb_en_mouvement": 1,
  "tendance": [
-  "AMPX",
+  "AAL",
+  "ABBV",
   "ASML",
   "BONK",
   "BP",
   "BTC",
   "CAD",
-  "DIS",
   "DRV",
   "ENA",
   "ETH",
   "ICP",
   "JNJ",
   "KURA",
+  "LTC",
   "LUCIA",
   "MRK",
   "NEAR",
@@ -23,13 +24,12 @@
   "ONDO",
   "PEARL",
   "PENGU",
+  "PFE",
   "PIEVERSE",
-  "RIOT",
-  "RKT",
+  "RVMD",
   "SHIB",
   "TEM",
   "TRUMP",
-  "VIR",
   "VVV",
   "XMR",
   "ZBCN",
@@ -51,37 +51,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHIB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "NTLA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BONK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KURA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AMPX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ICP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -91,22 +61,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "RIOT": {
+  "BONK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VIR": {
+  "AAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RKT": {
+  "PFE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TEM": {
+  "SHIB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RVMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ICP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KURA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -115,35 +105,29 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "ABBV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TEM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
  "candidats": [
-  {
-   "sym": "CCD",
-   "pair": "CCDEUR",
-   "action": false,
-   "variation_24h_pct": 5.21,
-   "volume_24h_eur": 49913.92,
-   "spread_pct": 0.2956,
-   "tendance": false,
-   "impulsion": {
-    "sens": "long",
-    "mouvement_pct": 5.29,
-    "volume_x": 22.0
-   }
-  },
   {
    "sym": "PLAY",
    "pair": "PLAYEUR",
    "action": false,
    "variation_24h_pct": -5.02,
    "volume_24h_eur": 54115.06,
-   "spread_pct": 0.4636,
+   "spread_pct": 0.3709,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": [
-  "CCD"
- ]
+ "ajoutes": []
 }
