@@ -1,7 +1,7 @@
 {
- "t": "2026-11-22T15:05:04Z",
+ "t": "2026-11-22T15:10:52Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 3,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AERO",
   "AZN",
@@ -117,33 +117,23 @@
  },
  "candidats": [
   {
+   "sym": "DRV",
+   "pair": "DRVEUR",
+   "action": false,
+   "variation_24h_pct": 16.65,
+   "volume_24h_eur": 62045.98,
+   "spread_pct": 0.1824,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 9.63,
-   "volume_24h_eur": 421687.99,
-   "spread_pct": 0.1352,
+   "variation_24h_pct": 8.4,
+   "volume_24h_eur": 453136.19,
+   "spread_pct": 0.1367,
    "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "MELANIA",
-   "pair": "MELANIAEUR",
-   "action": false,
-   "variation_24h_pct": 5.2,
-   "volume_24h_eur": 68697.07,
-   "spread_pct": 0.4706,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "VVV",
-   "pair": "VVVEUR",
-   "action": false,
-   "variation_24h_pct": 3.24,
-   "volume_24h_eur": 658683.7,
-   "spread_pct": 0.1278,
-   "tendance": true,
    "impulsion": null
   }
  ],
