@@ -1,11 +1,10 @@
 {
- "t": "2026-11-22T04:59:45Z",
+ "t": "2026-11-22T05:05:32Z",
  "nb_analyses": 449,
  "nb_en_mouvement": 1,
  "tendance": [
   "AAL",
   "ABBV",
-  "ASML",
   "BONK",
   "BP",
   "BTC",
@@ -13,15 +12,14 @@
   "DRV",
   "ENA",
   "ETH",
-  "ICP",
+  "HUM",
   "JNJ",
-  "KURA",
-  "LTC",
   "LUCIA",
   "MRK",
   "NEAR",
   "NTLA",
   "ONDO",
+  "PATH",
   "PEARL",
   "PENGU",
   "PFE",
@@ -30,16 +28,18 @@
   "SHIB",
   "TEM",
   "TRUMP",
+  "UNH",
   "VVV",
+  "VZ",
   "XMR",
-  "ZBCN",
-  "ZEC"
+  "ZEC",
+  "ZS"
  ],
  "buzz_reseaux": {
   "CAD": {
    "source": "Reddit",
-   "mentions": 23,
-   "x_vs_hier": 23.0
+   "mentions": 26,
+   "x_vs_hier": 26.0
   },
   "MRK": {
    "source": "StockTwits",
@@ -56,16 +56,6 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ASML": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BONK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "AAL": {
    "source": "StockTwits",
    "mentions": null,
@@ -76,32 +66,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHIB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "RVMD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ICP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KURA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZBCN": {
+  "ZS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -111,7 +81,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SHIB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "TEM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BONK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HUM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PATH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UNH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -124,7 +124,7 @@
    "action": false,
    "variation_24h_pct": -5.02,
    "volume_24h_eur": 54115.06,
-   "spread_pct": 0.4327,
+   "spread_pct": 0.3554,
    "tendance": false,
    "impulsion": null
   }
