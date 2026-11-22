@@ -1,33 +1,30 @@
 {
- "t": "2026-11-22T02:39:56Z",
+ "t": "2026-11-22T02:45:43Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 0,
  "tendance": [
-  "ADBE",
   "BTC",
   "CAD",
   "CASHCAT",
   "CCJ",
-  "CRO",
   "DRV",
   "ETH",
+  "GEO",
   "HYPE",
+  "IGV",
   "JNJ",
   "LINK",
   "LUCIA",
+  "MAGS",
   "MRK",
-  "MS",
   "OKTA",
   "ONDO",
   "PEARL",
   "PENGU",
   "PI",
-  "RCL",
-  "SBUX",
   "SLS",
   "SNOW",
   "SOL",
-  "SPOT",
   "SUI",
   "VVV",
   "WLFI",
@@ -40,11 +37,6 @@
    "source": "Reddit",
    "mentions": 21,
    "x_vs_hier": 7.0
-  },
-  "MS": {
-   "source": "Reddit",
-   "mentions": 30,
-   "x_vs_hier": 3.8
   },
   "SLS": {
    "source": "StockTwits",
@@ -71,17 +63,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ADBE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "XAGUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
+  "MAGS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -91,22 +78,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPOT": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRO": {
+  "IGV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RCL": {
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SBUX": {
+  "GEO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SUI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -122,17 +114,6 @@
    "x_vs_hier": null
   }
  },
- "candidats": [
-  {
-   "sym": "PLAY",
-   "pair": "PLAYEUR",
-   "action": false,
-   "variation_24h_pct": -6.5,
-   "volume_24h_eur": 57523.87,
-   "spread_pct": 0.3297,
-   "tendance": false,
-   "impulsion": null
-  }
- ],
+ "candidats": [],
  "ajoutes": []
 }
