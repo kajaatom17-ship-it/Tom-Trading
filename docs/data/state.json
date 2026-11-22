@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T14:11:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.237109824478,
+   "dernier_prix": 518.1803239768432,
    "atr": 2.771652,
    "rollover": 0.327346787943307,
    "rollover_periodes": 17
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T14:11:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.5416704717722,
+   "dernier_prix": 93.53142064028344,
    "atr": 1.08547,
    "rollover": 0.2596464621642232,
    "rollover_periodes": 17
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T14:11:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.6699238370074,
+   "dernier_prix": 571.607283087094,
    "atr": 3.304099,
    "rollover": 0.32701415558636526,
    "rollover_periodes": 17
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T14:11:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0991,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T14:11:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.108e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T14:11:05Z",
+ "maj": "2026-11-22T14:13:06Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -155,7 +155,7 @@
   "2026-11-22": 511.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-22T14:07:16Z",
+ "chasseur_t": "2026-11-22T14:13:04Z",
  "tendance": [
   "WASTED",
   "TRUMP",
@@ -257,60 +257,56 @@
   }
  },
  "buzz_t": "2026-11-22T14:07:16Z",
- "sources_t": "2026-11-22T13:52:50Z",
+ "sources_t": "2026-11-22T14:13:05Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 11,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "HOW-TO: Read the Liquidation Heatmap on BTC after the 55k flush",
-    "Bitcoin’s Bullish Comeback: Is the Road to $100,000 Finally"
+    "Bitcoin faces a quantum security challenge with roughly 6 million coins exposed",
+    "Deribit outage hit Bitcoin hedgers on Coinbase"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "A Society of AI Scientists",
-    "Google's AI Overviews cut clicks to websites by 40%"
+    "Tech suppliers jack up AI server prices after contracts inked - FT",
+    "Architect Labs unveils Frostbite CPU with 4.59x performance per watt"
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 4,
-   "sentiment": "bearish",
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
-    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Solana / U.S. Dollar (SOL/USD — 1M Chart) BEARISH",
-    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit"
+    "Deribit outage hit Bitcoin hedgers on Coinbase"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "bearish",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "$ETH 1H: 1,650 Cleared Now The Real Test",
-    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit"
+    "ETH Shorting Levels. Quick Gains"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
+   "sujet": "Solana",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Here’s what happened in crypto today",
-    "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges"
+    "Solana / U.S. Dollar (SOL/USD — 1M Chart) BEARISH"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Trump memecoin crashes 70% as holders prepare for another gala dinner"
    ]
   },
   {
@@ -319,14 +315,6 @@
    "sentiment": "bearish",
    "titres": [
     "TradeCityPro | Cardano (ADA): More Downside Ahead?"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Here’s what happened in crypto today"
    ]
   }
  ],
