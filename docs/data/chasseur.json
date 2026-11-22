@@ -1,5 +1,5 @@
 {
- "t": "2026-11-22T00:22:49Z",
+ "t": "2026-11-22T00:28:40Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 1,
  "tendance": [
@@ -9,16 +9,18 @@
   "BTC",
   "CAD",
   "CMPS",
-  "DELL",
+  "DJIA",
   "DOGE",
   "DRV",
   "FECCF",
-  "GBPUSD",
+  "FRVO",
   "GE",
   "GEV",
   "HYPE",
   "ICP",
   "IDOL",
+  "JNJ",
+  "KLAC",
   "LLY",
   "MS",
   "NEAR",
@@ -29,12 +31,10 @@
   "ROOT",
   "SHIB",
   "SOL",
-  "SPOT",
   "SUI",
-  "TTWO",
-  "UNG",
   "VVV",
   "XRP",
+  "ZBCN",
   "ZEC"
  ],
  "buzz_reseaux": {
@@ -45,15 +45,15 @@
   },
   "NYT": {
    "source": "Reddit",
-   "mentions": 52,
-   "x_vs_hier": 2.2
+   "mentions": 50,
+   "x_vs_hier": 2.1
   },
   "MS": {
    "source": "Reddit",
    "mentions": 38,
-   "x_vs_hier": 4.2
+   "x_vs_hier": 4.8
   },
-  "LLY": {
+  "QQQI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -63,7 +63,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ROOT": {
+  "AERO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -78,22 +78,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "GE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QQQI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AUDUSD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DELL": {
+  "ROOT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -103,27 +88,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AERO": {
+  "KLAC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "UNG": {
+  "AUDUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPOT": {
+  "JNJ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GBPUSD": {
+  "DJIA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TTWO": {
+  "LLY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZBCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "FRVO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -136,7 +136,7 @@
    "action": false,
    "variation_24h_pct": -11.67,
    "volume_24h_eur": 90780.06,
-   "spread_pct": 0.2517,
+   "spread_pct": 0.1573,
    "tendance": false,
    "impulsion": null
   }
