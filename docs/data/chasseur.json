@@ -1,19 +1,19 @@
 {
- "t": "2026-11-22T03:31:46Z",
+ "t": "2026-11-22T03:37:33Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 1,
  "tendance": [
   "ABBV",
-  "AXP",
   "BTC",
   "CAD",
   "CORT",
+  "CRWD",
+  "DELL",
   "DOGE",
   "DRV",
-  "ETH",
   "GEO",
+  "HPE",
   "JNJ",
-  "KURA",
   "LLY",
   "LUCIA",
   "MAGS",
@@ -29,20 +29,14 @@
   "TAO",
   "TRUMP",
   "UNI",
-  "VVV",
-  "WLFI",
-  "XLF"
+  "UVXY",
+  "VVV"
  ],
  "buzz_reseaux": {
   "CAD": {
    "source": "Reddit",
    "mentions": 23,
-   "x_vs_hier": 11.5
-  },
-  "SLS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "x_vs_hier": 23.0
   },
   "MRK": {
    "source": "StockTwits",
@@ -59,17 +53,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MAGS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "CORT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
+  "SLS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MAGS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DELL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -79,27 +83,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "WLFI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ABBV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLF": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LLY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KURA": {
+  "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -109,12 +98,33 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AXP": {
+  "CRWD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LLY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UVXY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "PLAY",
+   "pair": "PLAYEUR",
+   "action": false,
+   "variation_24h_pct": -5.34,
+   "volume_24h_eur": 55730.4,
+   "spread_pct": 0.2636,
+   "tendance": false,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
