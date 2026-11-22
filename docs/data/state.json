@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T14:32:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.2181798257631,
+   "dernier_prix": 518.2560412062321,
    "atr": 2.771652,
    "rollover": 0.327346787943307,
    "rollover_periodes": 17
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T14:32:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.53825361167426,
+   "dernier_prix": 93.54508758150834,
    "atr": 1.08547,
    "rollover": 0.2596464621642232,
    "rollover_periodes": 17
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T14:32:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.6673059010466,
+   "dernier_prix": 571.709072311823,
    "atr": 3.304099,
    "rollover": 0.32701415558636526,
    "rollover_periodes": 17
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T14:32:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0981,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T14:32:00Z",
+   "verifie_jusqu_a": "2026-11-22T14:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.091e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T14:32:19Z",
+ "maj": "2026-11-22T14:33:17Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -257,11 +257,11 @@
   }
  },
  "buzz_t": "2026-11-22T14:24:37Z",
- "sources_t": "2026-11-22T14:13:05Z",
+ "sources_t": "2026-11-22T14:33:16Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 18,
    "sentiment": "neutral",
    "titres": [
     "Bitcoin faces a quantum security challenge with roughly 6 million coins exposed",
@@ -270,11 +270,20 @@
   },
   {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "Tech suppliers jack up AI server prices after contracts inked - FT",
-    "Architect Labs unveils Frostbite CPU with 4.59x performance per watt"
+    "Architect Labs unveils Frostbite CPU with 4.59x performance per watt",
+    "Investors hunt for a bottom as the US stock selloff deepens"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "ETH Shorting Levels. Quick Gains",
+    "$ETH 1H: 1,650 Cleared Now The Real Test"
    ]
   },
   {
@@ -283,14 +292,6 @@
    "sentiment": "neutral",
    "titres": [
     "Deribit outage hit Bitcoin hedgers on Coinbase"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH Shorting Levels. Quick Gains"
    ]
   },
   {
@@ -315,6 +316,14 @@
    "sentiment": "bearish",
    "titres": [
     "TradeCityPro | Cardano (ADA): More Downside Ahead?"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today"
    ]
   }
  ],
