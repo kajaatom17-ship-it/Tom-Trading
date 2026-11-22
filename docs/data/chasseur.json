@@ -1,13 +1,11 @@
 {
- "t": "2026-11-22T11:42:13Z",
+ "t": "2026-11-22T11:48:00Z",
  "nb_analyses": 449,
  "nb_en_mouvement": 2,
  "tendance": [
-  "ALGO",
+  "BIDU",
   "BTC",
   "CAD",
-  "COIN",
-  "DIS",
   "DRV",
   "ETH",
   "ETHFI",
@@ -17,20 +15,22 @@
   "KWEB",
   "LINK",
   "LYFT",
+  "MRK",
   "MSTR",
   "NTLA",
   "PEARL",
   "PENGU",
+  "PEPE",
   "PIEVERSE",
-  "RSP",
   "SDGR",
   "TAO",
   "TRUMP",
+  "TSM",
+  "U",
   "UNI",
   "VCX",
   "VVV",
-  "WASTED",
-  "ZBCN"
+  "WASTED"
  ],
  "buzz_reseaux": {
   "CAD": {
@@ -43,12 +43,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NTLA": {
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
+  "MRK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -58,17 +58,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "VCX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "JNJ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ALGO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZBCN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -78,22 +73,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "RSP": {
+  "NTLA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LYFT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "COIN": {
+  "U": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -103,7 +88,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIS": {
+  "BIDU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TSM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PEPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LYFT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -111,22 +111,22 @@
  },
  "candidats": [
   {
-   "sym": "AI",
-   "pair": "AIEUR",
+   "sym": "NIGHT",
+   "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 7.62,
-   "volume_24h_eur": 62239.91,
-   "spread_pct": 0.1445,
+   "variation_24h_pct": 7.19,
+   "volume_24h_eur": 262279.4,
+   "spread_pct": 0.2305,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "TIA",
-   "pair": "TIAEUR",
+   "sym": "AI",
+   "pair": "AIEUR",
    "action": false,
-   "variation_24h_pct": 5.44,
-   "volume_24h_eur": 99641.07,
-   "spread_pct": 0.1281,
+   "variation_24h_pct": 7.78,
+   "volume_24h_eur": 62408.88,
+   "spread_pct": 0.2165,
    "tendance": false,
    "impulsion": null
   }
