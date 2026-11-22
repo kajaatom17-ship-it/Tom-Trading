@@ -1,12 +1,11 @@
 {
- "t": "2026-11-22T02:57:15Z",
+ "t": "2026-11-22T03:02:58Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 1,
  "tendance": [
   "BTC",
   "CAD",
   "CASHCAT",
-  "CCJ",
   "DRV",
   "ETH",
   "GEO",
@@ -17,18 +16,18 @@
   "LUCIA",
   "MAGS",
   "MRK",
-  "OKTA",
   "ONDO",
   "PEARL",
   "PENGU",
   "PI",
+  "SBUX",
   "SLS",
   "SNOW",
   "SOL",
   "SUI",
   "VVV",
   "WLFI",
-  "XAGUSD",
+  "XLF",
   "XRP",
   "ZBCN"
  ],
@@ -53,17 +52,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "WLFI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SNOW": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XAGUSD": {
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -73,27 +62,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZBCN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IGV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GEO": {
+  "SNOW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -103,17 +72,58 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CCJ": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "OKTA": {
+  "WLFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SBUX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZBCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IGV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XLF": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GEO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "PLAY",
+   "pair": "PLAYEUR",
+   "action": false,
+   "variation_24h_pct": -5.09,
+   "volume_24h_eur": 58181.83,
+   "spread_pct": 0.3712,
+   "tendance": false,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
