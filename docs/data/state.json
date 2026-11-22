@@ -20,7 +20,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T19:49:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 517.8256941846353,
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T19:49:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 93.46741005027877,
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T19:49:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.8183394318772,
+   "dernier_prix": 571.8730894524085,
    "atr": 3.304099,
    "rollover": 0.3462502823855632,
    "rollover_periodes": 18
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T19:49:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.098,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T19:49:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.095e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T19:49:27Z",
+ "maj": "2026-11-22T19:50:32Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -252,11 +252,11 @@
   }
  },
  "buzz_t": "2026-11-22T19:34:42Z",
- "sources_t": "2026-11-22T19:30:41Z",
+ "sources_t": "2026-11-22T19:50:24Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 13,
    "sentiment": "neutral",
    "titres": [
     "btc wating for support line-1month",
@@ -264,12 +264,48 @@
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 6,
+   "sujet": "Stablecoins",
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "OpenAI calls for industry-wide AI brake tied to perplexity",
-    "Anthropic’s reported 20% share of Yahoo Finance traffic isn’t backed by the data"
+    "How Progressive Jackpots Work When You Play With Crypto",
+    "What It Would Take for AAVE to Reclaim $120 After a 48% Jump in the USDC Cap"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 7,
+   "sentiment": "bullish",
+   "titres": [
+    "Anthropic’s reported 20% share of Yahoo Finance traffic isn’t backed by the data",
+    "The AI crash: who sold the top, and who's buying the dip (nobody)"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase stock drops 64% from 52-week high as analysts weigh options",
+    "ETH Weekend Rebound: Can the Prior High Hold?"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "PrimeRevenue plans to tokenize its trade finance instruments on Solana",
+    "DeFi Development Corp’s CHAD preferred stock funds another 800-plus SOL"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "BNB/USDT: Reversal Taking Shape After a Sharp Sell-Off",
+    "BNB/USDT BULLISH In SHORT Term"
    ]
   },
   {
@@ -281,35 +317,11 @@
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty"
-   ]
-  },
-  {
    "sujet": "Memecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Trump's Meme Coin Dinner Seat Falls From $55,000 to $518"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase stock drops 64% from 52-week high as analysts weigh options"
+    "Shiba Inu Price Prediction: 2 Levels Decide the Meme Coin's Path After a Rare Bearish Cross"
    ]
   }
  ],
