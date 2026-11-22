@@ -1,10 +1,9 @@
 {
- "t": "2026-11-22T18:35:08Z",
+ "t": "2026-11-22T18:41:01Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 3,
+ "nb_en_mouvement": 4,
  "tendance": [
-  "AAL",
-  "ALB",
+  "AVEX",
   "BP",
   "BTC",
   "CASHCAT",
@@ -12,13 +11,12 @@
   "DOGE",
   "DRV",
   "EVAA",
-  "EWY",
-  "FCX",
+  "GGLL",
   "HYPE",
   "IBKR",
   "JNJ",
-  "LUNC",
   "MRK",
+  "NTSK",
   "PEARL",
   "PENGU",
   "PIEVERSE",
@@ -29,63 +27,14 @@
   "TAO",
   "TRUMP",
   "TTMI",
+  "UCTT",
   "USDJPY",
   "VVV",
   "WSTAR",
   "XRP"
  ],
  "buzz_reseaux": {
-  "DAL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "MRK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PZZA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TTMI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LUNC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SUI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "EWY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ALB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CASHCAT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBKR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -95,17 +44,67 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "USDJPY": {
+  "DAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AAL": {
+  "PZZA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SUI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TTMI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CASHCAT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "DOGE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GGLL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NTSK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "USDJPY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBKR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVEX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UCTT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -116,9 +115,9 @@
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 11.02,
-   "volume_24h_eur": 557396.52,
-   "spread_pct": 0.1335,
+   "variation_24h_pct": 11.36,
+   "volume_24h_eur": 557640.09,
+   "spread_pct": 0.1331,
    "tendance": false,
    "impulsion": null
   },
@@ -127,18 +126,28 @@
    "pair": "DRVEUR",
    "action": false,
    "variation_24h_pct": 7.85,
-   "volume_24h_eur": 67143.33,
-   "spread_pct": 0.2792,
+   "volume_24h_eur": 67134.16,
+   "spread_pct": 0.2155,
    "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "ENSO",
+   "pair": "ENSOEUR",
+   "action": false,
+   "variation_24h_pct": -7.51,
+   "volume_24h_eur": 45225.75,
+   "spread_pct": 0.464,
+   "tendance": false,
    "impulsion": null
   },
   {
    "sym": "VVV",
    "pair": "VVVEUR",
    "action": false,
-   "variation_24h_pct": 3.88,
-   "volume_24h_eur": 583119.21,
-   "spread_pct": 0.1904,
+   "variation_24h_pct": 4.38,
+   "volume_24h_eur": 564742.24,
+   "spread_pct": 0.1053,
    "tendance": true,
    "impulsion": null
   }
