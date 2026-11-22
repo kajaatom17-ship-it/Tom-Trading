@@ -1,27 +1,27 @@
 {
- "t": "2026-11-22T13:26:32Z",
+ "t": "2026-11-22T13:32:18Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AERO",
-  "AVEX",
-  "BIDU",
   "BRBR",
   "BTC",
   "CAD",
+  "CAPR",
   "DRV",
-  "ETH",
+  "DVN",
   "GNRC",
   "HALO",
   "JNJ",
-  "LEU",
+  "LTC",
   "MRK",
   "MSTR",
-  "NDAQ",
   "NEAR",
   "PEARL",
   "PENGU",
   "PIEVERSE",
+  "REPL",
+  "SKHY",
   "SOL",
   "TAO",
   "TQQQ",
@@ -37,25 +37,10 @@
  "buzz_reseaux": {
   "CAD": {
    "source": "Reddit",
-   "mentions": 24,
-   "x_vs_hier": 4.0
+   "mentions": 25,
+   "x_vs_hier": 4.2
   },
   "ZBCN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HALO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -65,22 +50,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "JNJ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVEX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BRBR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GNRC": {
+  "HALO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -90,17 +60,47 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NDAQ": {
+  "GNRC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LEU": {
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BIDU": {
+  "DVN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "REPL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BRBR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JNJ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -110,7 +110,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
+  "SKHY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -121,10 +121,20 @@
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 6.6,
-   "volume_24h_eur": 321133.33,
-   "spread_pct": 0.1854,
+   "variation_24h_pct": 8.82,
+   "volume_24h_eur": 328668.49,
+   "spread_pct": 0.1135,
    "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "DRV",
+   "pair": "DRVEUR",
+   "action": false,
+   "variation_24h_pct": 7.71,
+   "volume_24h_eur": 52074.96,
+   "spread_pct": 0.1276,
+   "tendance": true,
    "impulsion": null
   }
  ],
