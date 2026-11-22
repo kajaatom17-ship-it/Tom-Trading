@@ -1,39 +1,39 @@
 {
- "t": "2026-11-22T14:36:10Z",
+ "t": "2026-11-22T14:41:58Z",
  "nb_analyses": 449,
  "nb_en_mouvement": 1,
  "tendance": [
   "ABVX",
-  "ALGO",
   "APT",
-  "BLK",
+  "AZN",
   "BP",
   "BTC",
   "CAD",
   "CAPR",
   "CASHCAT",
-  "DAL",
-  "DOGE",
-  "DRTS",
   "DRV",
-  "DVN",
+  "FIG",
+  "FSLY",
   "GS",
   "HALO",
+  "HPE",
   "HYPE",
   "MON",
   "MRK",
+  "NASA",
   "PEARL",
   "PENGU",
   "PI",
   "PIEVERSE",
   "PUMP",
   "REPL",
+  "SNY",
   "SOL",
   "TRUMP",
+  "UEC",
   "VVV",
   "WASTED",
-  "XLV",
-  "ZBCN"
+  "ZM"
  ],
  "buzz_reseaux": {
   "CAD": {
@@ -42,6 +42,11 @@
    "x_vs_hier": 2.2
   },
   "CASHCAT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "REPL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -56,12 +61,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "REPL": {
+  "ZM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UEC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AZN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -76,42 +91,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BLK": {
+  "NASA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZBCN": {
+  "FIG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
+  "SNY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ALGO": {
+  "FSLY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DVN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DAL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DRTS": {
+  "HPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -122,9 +122,9 @@
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 10.52,
-   "volume_24h_eur": 393474.8,
-   "spread_pct": 0.1565,
+   "variation_24h_pct": 9.54,
+   "volume_24h_eur": 403011.8,
+   "spread_pct": 0.1128,
    "tendance": false,
    "impulsion": null
   }
