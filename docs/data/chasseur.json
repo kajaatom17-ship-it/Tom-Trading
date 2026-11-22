@@ -1,7 +1,7 @@
 {
- "t": "2026-11-22T15:22:41Z",
+ "t": "2026-11-22T15:28:25Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "ABVX",
   "AERO",
@@ -118,12 +118,22 @@
  },
  "candidats": [
   {
+   "sym": "DRV",
+   "pair": "DRVEUR",
+   "action": false,
+   "variation_24h_pct": 12.55,
+   "volume_24h_eur": 64757.06,
+   "spread_pct": 0.1978,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 8.77,
-   "volume_24h_eur": 463462.98,
-   "spread_pct": 0.1136,
+   "variation_24h_pct": 9.34,
+   "volume_24h_eur": 463194.53,
+   "spread_pct": 0.113,
    "tendance": false,
    "impulsion": null
   }
