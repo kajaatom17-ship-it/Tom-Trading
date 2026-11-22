@@ -1,24 +1,24 @@
 {
- "t": "2026-11-22T11:24:52Z",
+ "t": "2026-11-22T11:30:39Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 3,
+ "nb_en_mouvement": 1,
  "tendance": [
-  "APO",
+  "ALGO",
   "BTC",
   "CAD",
-  "DAL",
+  "COIN",
+  "DIS",
   "DRV",
   "ETH",
   "ETHFI",
   "EVAA",
-  "GAP",
   "HYPE",
   "JNJ",
+  "KWEB",
   "LINK",
-  "LTC",
+  "LYFT",
   "MSTR",
   "NTLA",
-  "NVAX",
   "PEARL",
   "PENGU",
   "PIEVERSE",
@@ -27,34 +27,23 @@
   "TAO",
   "TRUMP",
   "UNI",
-  "USDCAD",
+  "VCX",
   "VVV",
   "WASTED",
-  "XRP",
   "ZBCN"
  ],
  "buzz_reseaux": {
   "CAD": {
    "source": "Reddit",
-   "mentions": 29,
-   "x_vs_hier": 14.5
+   "mentions": 27,
+   "x_vs_hier": 13.5
   },
   "BTC": {
-   "source": "StockTwits",
+   "source": "Reddit + StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "NTLA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NVAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -64,17 +53,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "USDCAD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RSP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZBCN": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -84,32 +63,47 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ALGO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZBCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SDGR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
+  "RSP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "APO": {
+  "LYFT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XRP": {
+  "VCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GAP": {
+  "COIN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DAL": {
+  "KWEB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -120,29 +114,9 @@
    "sym": "AI",
    "pair": "AIEUR",
    "action": false,
-   "variation_24h_pct": 10.58,
-   "volume_24h_eur": 61366.34,
-   "spread_pct": 0.0703,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "STRK",
-   "pair": "STRKEUR",
-   "action": false,
-   "variation_24h_pct": 5.35,
-   "volume_24h_eur": 71772.15,
-   "spread_pct": 0.1727,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "TIA",
-   "pair": "TIAEUR",
-   "action": false,
-   "variation_24h_pct": 5.03,
-   "volume_24h_eur": 98021.4,
-   "spread_pct": 0.1286,
+   "variation_24h_pct": 10.65,
+   "volume_24h_eur": 61993.73,
+   "spread_pct": 0.2108,
    "tendance": false,
    "impulsion": null
   }

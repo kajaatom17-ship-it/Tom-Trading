@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T11:28:00Z",
+   "verifie_jusqu_a": "2026-11-22T11:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.3885996163333,
+   "dernier_prix": 518.3933350994346,
    "atr": 2.771652,
    "rollover": 0.3080910945348772,
    "rollover_periodes": 16
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T11:28:00Z",
+   "verifie_jusqu_a": "2026-11-22T11:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.56901434182882,
+   "dernier_prix": 93.56986909536035,
    "atr": 1.08547,
    "rollover": 0.2443731408604454,
    "rollover_periodes": 16
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T11:28:00Z",
+   "verifie_jusqu_a": "2026-11-22T11:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 572.713985566822,
+   "dernier_prix": 572.7192173126639,
    "atr": 3.304099,
    "rollover": 0.3077780287871673,
    "rollover_periodes": 16
@@ -92,10 +92,10 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T11:28:00Z",
+   "verifie_jusqu_a": "2026-11-22T11:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
-   "dernier_prix": 0.1003,
+   "dernier_prix": 0.1004,
    "atr": 0.001778075,
    "rollover": 0.05318549629013017,
    "rollover_periodes": 4
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T11:28:00Z",
+   "verifie_jusqu_a": "2026-11-22T11:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.119e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T11:28:42Z",
+ "maj": "2026-11-22T11:30:41Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -155,7 +155,7 @@
   "2026-11-22": 511.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-22T11:24:50Z",
+ "chasseur_t": "2026-11-22T11:30:38Z",
  "tendance": [
   "WASTED",
   "TRUMP",
@@ -177,25 +177,15 @@
  "buzz": {
   "CAD": {
    "source": "Reddit",
-   "mentions": 29,
-   "x_vs_hier": 14.5
+   "mentions": 27,
+   "x_vs_hier": 13.5
   },
   "BTC": {
-   "source": "StockTwits",
+   "source": "Reddit + StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "NTLA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NVAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -205,17 +195,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "USDCAD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RSP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZBCN": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -225,65 +205,86 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ALGO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZBCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SDGR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
+  "RSP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "APO": {
+  "LYFT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XRP": {
+  "VCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GAP": {
+  "COIN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DAL": {
+  "KWEB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-22T11:13:21Z",
- "sources_t": "2026-11-22T11:10:26Z",
+ "buzz_t": "2026-11-22T11:30:38Z",
+ "sources_t": "2026-11-22T11:30:39Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 12,
+   "mentions": 15,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin's Bigger Downside Target: $41K! (8H)",
-    "3 Events That Could Shake Bitcoin Prices During Thanksgiving Week"
+    "Here’s what happened in crypto today",
+    "Bitcoin (22/22/2026) - Merry Christmas?"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 1,
    "sentiment": "bearish",
    "titres": [
-    "Taiwan Announces Short-Selling Ban To Save Its AI Stock Market",
-    "JPMorgan forecasts hyperscaler spending to reach $2 trillion by 2030"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
-    "Chainflip Suffers $12M Crypto Hack and Offers Attacker 10% Bounty"
+    "Bored Crypto Investors Dump Bitcoin to Chase Massive AI Stocks"
    ]
   },
   {
@@ -303,19 +304,11 @@
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "BTC Shorts Lose $68.8M in an Hour as ETF Sellers Pull $3.47B in November"
-   ]
-  },
-  {
-   "sujet": "Solana",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SOL | Week 48 2026 - 1hr chart"
+    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades"
    ]
   }
  ],
