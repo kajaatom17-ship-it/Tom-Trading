@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T03:14:00Z",
+   "verifie_jusqu_a": "2026-11-22T03:15:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.3175777503767,
+   "dernier_prix": 518.3128436512432,
    "atr": 2.771652,
    "rollover": 0.2695797077180176,
    "rollover_periodes": 14
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T03:14:00Z",
+   "verifie_jusqu_a": "2026-11-22T03:15:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.5561949125451,
+   "dernier_prix": 93.5553404088194,
    "atr": 1.08547,
    "rollover": 0.2138264982528897,
    "rollover_periodes": 14
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T03:14:00Z",
+   "verifie_jusqu_a": "2026-11-22T03:15:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 567.2557884641731,
+   "dernier_prix": 567.2506073835924,
    "atr": 3.304099,
    "rollover": 0.2693057751887714,
    "rollover_periodes": 14
@@ -92,10 +92,10 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T03:14:00Z",
+   "verifie_jusqu_a": "2026-11-22T03:15:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
-   "dernier_prix": 0.0991,
+   "dernier_prix": 0.098,
    "atr": 0.001778075,
    "rollover": 0.026592748145065084,
    "rollover_periodes": 2
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T03:14:00Z",
+   "verifie_jusqu_a": "2026-11-22T03:15:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.074e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T03:14:31Z",
+ "maj": "2026-11-22T03:15:29Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -257,42 +257,24 @@
   }
  },
  "buzz_t": "2026-11-22T03:02:57Z",
- "sources_t": "2026-11-22T02:55:15Z",
+ "sources_t": "2026-11-22T03:15:28Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 15,
+   "mentions": 13,
    "sentiment": "bearish",
    "titres": [
     "Bitcoin has further downside to go",
-    "比特幣打三折！Kraken 加幣盤 BTC 最低「錯價至 1.7 萬美元」，官方：成交有效"
+    "Bitcoin Mining Profits Turn Ugly Despite Hashrate’s Return Above 1 ZH/s"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "bearish",
-   "titres": [
-    "Watch: Ex-NSA Hacker Says AI 'Agent Swarm' Gutted A Company In 14 Minutes - And Nobody Noticed For Hours",
-    "Elon Musk warns AI industry faces a cash crunch in 2027"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "BTC Hits 55K Oversold: Capitulation or Pause?",
-    "数据：F2Pool 联创王纯将 3885 枚 ETH 转入币安出售并提回 USDC"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "数据：F2Pool 联创王纯将 3885 枚 ETH 转入币安出售并提回 USDC",
-    "ETH | 1hr chart - 11/22/26 | Levels of interest"
+    "David Tepper exits AMD and Broadcom, doubles down on Nvidia and Micron",
+    "Novo founder says AI will spark a gold rush for solo entrepreneurs"
    ]
   },
   {
@@ -304,11 +286,27 @@
    ]
   },
   {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BTC Hits 55K Oversold: Capitulation or Pause?"
+   ]
+  },
+  {
    "sujet": "Institutions",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
     "THE BOTTOM IS IN BOOOYYYYYYS ;-)))"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "ETH | 1hr chart - 11/22/26 | Levels of interest"
    ]
   },
   {
