@@ -1,116 +1,110 @@
 {
- "t": "2026-11-22T15:28:25Z",
+ "t": "2026-11-22T17:50:18Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 2,
+ "nb_en_mouvement": 3,
  "tendance": [
-  "ABVX",
-  "AERO",
-  "AZN",
-  "BONK",
+  "ALB",
+  "BLK",
   "BP",
   "BTC",
-  "CAD",
-  "CASHCAT",
+  "DAL",
   "DRV",
   "EVAA",
-  "HALO",
-  "HPE",
+  "EWY",
+  "FCX",
   "HYPE",
-  "ICP",
-  "JMKE",
-  "JUP",
-  "NASA",
-  "NEAR",
-  "ONDO",
+  "INTU",
+  "JNJ",
+  "LTC",
+  "LUNC",
+  "MRK",
+  "NIGHT",
   "PEARL",
   "PENGU",
   "PIEVERSE",
-  "REPL",
-  "RTY_F",
-  "SNY",
+  "POPO",
+  "RVMD",
+  "SHIB",
+  "SOL",
+  "TAO",
   "TRUMP",
-  "TU",
-  "UEC",
   "VVV",
-  "ZM"
+  "WSTAR",
+  "XRP",
+  "ZBCN"
  ],
  "buzz_reseaux": {
-  "CAD": {
-   "source": "Reddit",
-   "mentions": 22,
-   "x_vs_hier": 2.2
-  },
-  "CASHCAT": {
+  "DAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RTY_F": {
+  "JNJ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HPE": {
+  "MRK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ICP": {
+  "FCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AZN": {
+  "LUNC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BONK": {
+  "LTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "REPL": {
+  "SHIB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JMKE": {
+  "ZBCN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TU": {
+  "NIGHT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NASA": {
+  "RVMD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNY": {
+  "ALB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "UEC": {
+  "EWY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZM": {
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HALO": {
+  "INTU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ABVX": {
+  "BLK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -118,22 +112,32 @@
  },
  "candidats": [
   {
-   "sym": "DRV",
-   "pair": "DRVEUR",
+   "sym": "NIGHT",
+   "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 12.55,
-   "volume_24h_eur": 64757.06,
-   "spread_pct": 0.1978,
+   "variation_24h_pct": 13.29,
+   "volume_24h_eur": 565434.77,
+   "spread_pct": 0.1744,
    "tendance": true,
    "impulsion": null
   },
   {
-   "sym": "NIGHT",
-   "pair": "NIGHTEUR",
+   "sym": "DRV",
+   "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": 9.34,
-   "volume_24h_eur": 463194.53,
-   "spread_pct": 0.113,
+   "variation_24h_pct": 7.85,
+   "volume_24h_eur": 67297.45,
+   "spread_pct": 0.1943,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "MELANIA",
+   "pair": "MELANIAEUR",
+   "action": false,
+   "variation_24h_pct": 5.2,
+   "volume_24h_eur": 81449.96,
+   "spread_pct": 0.4706,
    "tendance": false,
    "impulsion": null
   }
