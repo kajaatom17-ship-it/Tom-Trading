@@ -1384,6 +1384,13 @@
  ],
  "alertes": [
   {
+   "sym": "RARE",
+   "horizon": "15 min",
+   "variation_pct": -2.68,
+   "prix": 0.01234,
+   "t": "2026-11-22T03:16:25Z"
+  },
+  {
    "sym": "NVDA",
    "horizon": "15 min",
    "variation_pct": 1.75,
@@ -1395,13 +1402,6 @@
    "horizon": "15 min",
    "variation_pct": -3.22,
    "prix": 0.5022,
-   "t": "2026-11-22T02:28:08Z"
-  },
-  {
-   "sym": "RARE",
-   "horizon": "15 min",
-   "variation_pct": -3.5,
-   "prix": 0.01241,
    "t": "2026-11-22T02:28:08Z"
   },
   {
@@ -1421,5 +1421,5 @@
  ],
  "t_actus": "2026-11-22T03:12:35Z",
  "erreurs_sources": [],
- "t": "2026-11-22T03:15:29Z"
+ "t": "2026-11-22T03:16:25Z"
 }
