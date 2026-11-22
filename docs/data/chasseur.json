@@ -1,38 +1,39 @@
 {
- "t": "2026-11-22T04:06:37Z",
+ "t": "2026-11-22T04:12:23Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 1,
  "tendance": [
-  "ADBE",
+  "ABBV",
   "AMPX",
+  "BONK",
+  "BRK.A",
   "BTC",
   "BWET",
   "CAD",
   "CORT",
-  "CRWD",
   "DELL",
   "DOGE",
   "DRV",
   "FED",
   "HPE",
+  "ICP",
   "JNJ",
+  "KURA",
   "LUCIA",
-  "MAGS",
   "MRK",
   "NEAR",
-  "NEM",
+  "NTLA",
   "PAXG",
   "PEARL",
   "PENGU",
   "PIEVERSE",
+  "SHIB",
   "SOL",
   "SUI",
   "TAO",
   "TRUMP",
   "UNI",
-  "UVXY",
-  "VVV",
-  "XLK"
+  "VVV"
  ],
  "buzz_reseaux": {
   "CAD": {
@@ -50,6 +51,11 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SHIB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "CORT": {
    "source": "StockTwits",
    "mentions": null,
@@ -60,17 +66,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ADBE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UVXY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "HPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BONK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -80,7 +81,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NEM": {
+  "ICP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -90,27 +91,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BTC": {
+  "BRK.A": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KURA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NTLA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ABBV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "FED": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRWD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MAGS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XLK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -122,8 +123,8 @@
    "pair": "PLAYEUR",
    "action": false,
    "variation_24h_pct": -5.02,
-   "volume_24h_eur": 54397.39,
-   "spread_pct": 0.3709,
+   "volume_24h_eur": 54355.83,
+   "spread_pct": 0.3554,
    "tendance": false,
    "impulsion": null
   }
