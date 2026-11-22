@@ -20,7 +20,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T13:12:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 518.2560412062321,
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T13:12:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 93.54508758150834,
@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T13:12:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 572.6771265228589,
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T13:12:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0996,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T13:12:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.102e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T13:13:00Z",
+ "maj": "2026-11-22T13:15:01Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -155,7 +155,7 @@
   "2026-11-22": 511.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-22T13:09:09Z",
+ "chasseur_t": "2026-11-22T13:14:58Z",
  "tendance": [
   "WASTED",
   "TRUMP",
@@ -180,6 +180,11 @@
    "mentions": 24,
    "x_vs_hier": 4.0
   },
+  "ZBCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "BTC": {
    "source": "StockTwits",
    "mentions": null,
@@ -190,12 +195,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZBCN": {
+  "HALO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -205,37 +205,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HYMC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "JNJ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UNH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XLM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WFC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GNRC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BRBR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -245,7 +215,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ICP": {
+  "BRBR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GNRC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UNH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NDAQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -254,9 +239,24 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "BIDU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TQQQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-22T12:57:38Z",
+ "buzz_t": "2026-11-22T13:14:58Z",
  "sources_t": "2026-11-22T13:12:02Z",
  "actus_tendance": [
   {
