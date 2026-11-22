@@ -1,24 +1,26 @@
 {
- "t": "2026-11-22T06:09:37Z",
+ "t": "2026-11-22T06:15:26Z",
  "nb_analyses": 449,
  "nb_en_mouvement": 1,
  "tendance": [
   "AAL",
+  "ARM",
+  "ASST",
   "BNB",
   "BTC",
   "CAD",
-  "CORZ",
+  "CAPR",
+  "COST",
   "CRCL",
   "EVAA",
   "GALA",
   "HYPE",
-  "IBIT",
   "INJ",
   "JNJ",
   "LIT",
   "MRK",
   "ONDO",
-  "PATH",
+  "OXY",
   "PEAQ",
   "PEARL",
   "PENGU",
@@ -27,11 +29,9 @@
   "PYPL",
   "RBLX",
   "RIOT",
-  "SLS",
   "SUI",
   "TRUMP",
   "VVV",
-  "VZ",
   "XAUUSD"
  ],
  "buzz_reseaux": {
@@ -55,7 +55,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRCL": {
+  "OXY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -65,37 +65,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBIT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "AAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XAUUSD": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RBLX": {
+  "CRCL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CORZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BTC": {
+  "COST": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -105,12 +90,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "PATH": {
+  "RBLX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SLS": {
+  "XAUUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ASST": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ARM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -122,8 +122,8 @@
    "pair": "PLAYEUR",
    "action": false,
    "variation_24h_pct": -7.05,
-   "volume_24h_eur": 46732.75,
-   "spread_pct": 0.2211,
+   "volume_24h_eur": 45001.65,
+   "spread_pct": 0.2369,
    "tendance": false,
    "impulsion": null
   }
