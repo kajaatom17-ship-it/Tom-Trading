@@ -1,10 +1,9 @@
 {
- "t": "2026-11-22T11:07:33Z",
+ "t": "2026-11-22T11:13:22Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 2,
  "tendance": [
   "APO",
-  "AXSM",
   "BTC",
   "CAD",
   "DAL",
@@ -16,22 +15,23 @@
   "HYPE",
   "JNJ",
   "LINK",
+  "LTC",
   "MSTR",
   "NTLA",
   "NVAX",
   "PEARL",
   "PENGU",
   "PIEVERSE",
+  "RSP",
   "SDGR",
-  "SOXX",
   "TAO",
   "TRUMP",
-  "TSM",
   "UNI",
   "USDCAD",
   "VVV",
   "WASTED",
-  "XRP"
+  "XRP",
+  "ZBCN"
  ],
  "buzz_reseaux": {
   "CAD": {
@@ -40,11 +40,6 @@
    "x_vs_hier": 14.5
   },
   "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -59,7 +54,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AXSM": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -69,22 +64,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "APO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SDGR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "USDCAD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOXX": {
+  "RSP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZBCN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -94,7 +84,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DAL": {
+  "SDGR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "APO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -109,12 +109,33 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
+  "DAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "AI",
+   "pair": "AIEUR",
+   "action": false,
+   "variation_24h_pct": 8.09,
+   "volume_24h_eur": 60657.84,
+   "spread_pct": 0.3597,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "STRK",
+   "pair": "STRKEUR",
+   "action": false,
+   "variation_24h_pct": 5.31,
+   "volume_24h_eur": 71906.54,
+   "spread_pct": 0.2419,
+   "tendance": false,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
