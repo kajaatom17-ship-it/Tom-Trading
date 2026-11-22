@@ -1,5 +1,5 @@
 {
- "t": "2026-11-22T18:46:57Z",
+ "t": "2026-11-22T18:52:56Z",
  "nb_analyses": 449,
  "nb_en_mouvement": 5,
  "tendance": [
@@ -9,20 +9,20 @@
   "CASHCAT",
   "DAL",
   "DOGE",
-  "DRV",
-  "EVAA",
+  "ETH",
   "GGLL",
-  "HYPE",
   "IBKR",
   "JNJ",
+  "MON",
   "MRK",
   "NTSK",
-  "PEARL",
+  "ONDO",
+  "ORCA",
   "PENGU",
-  "PIEVERSE",
+  "PI",
   "POPO",
+  "PUMP",
   "PZZA",
-  "SOL",
   "SUI",
   "TAO",
   "TRUMP",
@@ -31,7 +31,7 @@
   "USDJPY",
   "VVV",
   "WSTAR",
-  "XRP"
+  "ZEC"
  ],
  "buzz_reseaux": {
   "MRK": {
@@ -115,9 +115,9 @@
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 10.89,
-   "volume_24h_eur": 556246.34,
-   "spread_pct": 0.0891,
+   "variation_24h_pct": 10.18,
+   "volume_24h_eur": 562245.65,
+   "spread_pct": 0.0897,
    "tendance": false,
    "impulsion": null
   },
@@ -126,8 +126,18 @@
    "pair": "DRVEUR",
    "action": false,
    "variation_24h_pct": 7.85,
-   "volume_24h_eur": 67134.16,
-   "spread_pct": 0.2823,
+   "volume_24h_eur": 66604.19,
+   "spread_pct": 0.2246,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "VVV",
+   "pair": "VVVEUR",
+   "action": false,
+   "variation_24h_pct": 4.53,
+   "volume_24h_eur": 573443.42,
+   "spread_pct": 0.0883,
    "tendance": true,
    "impulsion": null
   },
@@ -142,23 +152,13 @@
    "impulsion": null
   },
   {
-   "sym": "VVV",
-   "pair": "VVVEUR",
+   "sym": "MON",
+   "pair": "MONEUR",
    "action": false,
-   "variation_24h_pct": 4.44,
-   "volume_24h_eur": 572047.92,
-   "spread_pct": 0.0631,
+   "variation_24h_pct": -3.64,
+   "volume_24h_eur": 176189.62,
+   "spread_pct": 0.1718,
    "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "PYTH",
-   "pair": "PYTHEUR",
-   "action": false,
-   "variation_24h_pct": 5.46,
-   "volume_24h_eur": 40277.9,
-   "spread_pct": 0.2768,
-   "tendance": false,
    "impulsion": null
   }
  ],
