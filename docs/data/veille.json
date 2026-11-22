@@ -1376,6 +1376,13 @@
  ],
  "alertes": [
   {
+   "sym": "RARE",
+   "horizon": "15 min",
+   "variation_pct": 2.9,
+   "prix": 0.01278,
+   "t": "2026-11-22T05:34:33Z"
+  },
+  {
    "sym": "CCD",
    "horizon": "15 min",
    "variation_pct": 2.75,
@@ -1388,13 +1395,6 @@
    "variation_pct": -3.29,
    "prix": 119.19942999123066,
    "t": "2026-11-22T04:51:08Z"
-  },
-  {
-   "sym": "RARE",
-   "horizon": "15 min",
-   "variation_pct": 2.5,
-   "prix": 0.01269,
-   "t": "2026-11-22T04:23:11Z"
   },
   {
    "sym": "PROS",
@@ -1413,5 +1413,5 @@
  ],
  "t_actus": "2026-11-22T05:28:51Z",
  "erreurs_sources": [],
- "t": "2026-11-22T05:32:37Z"
+ "t": "2026-11-22T05:34:33Z"
 }
