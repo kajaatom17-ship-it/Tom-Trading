@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-22T18:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 517.8776761758747,
+   "dernier_prix": 517.8965813057843,
    "atr": 2.771652,
    "rollover": 0.3466024813517368,
    "rollover_periodes": 18
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-22T18:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.47679278687329,
+   "dernier_prix": 93.48020515815797,
    "atr": 1.08547,
    "rollover": 0.27491978346800106,
    "rollover_periodes": 18
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T18:30:00Z",
+   "verifie_jusqu_a": "2026-11-22T18:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.9396229170089,
+   "dernier_prix": 571.9605015788418,
    "atr": 3.304099,
    "rollover": 0.3462502823855632,
    "rollover_periodes": 18
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T18:30:00Z",
+   "verifie_jusqu_a": "2026-11-22T18:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0995,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T18:30:00Z",
+   "verifie_jusqu_a": "2026-11-22T18:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.094e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T18:30:07Z",
+ "maj": "2026-11-22T18:31:06Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -252,48 +252,30 @@
   }
  },
  "buzz_t": "2026-11-22T18:23:14Z",
- "sources_t": "2026-11-22T18:11:08Z",
+ "sources_t": "2026-11-22T18:31:04Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 13,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin Core Releases Fixes For Bug That Can Freeze Nodes For 12 Seconds",
-    "Bitcoin: Saturday's wick to 55,130 hit four levels at once"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 7,
+   "mentions": 11,
    "sentiment": "neutral",
    "titres": [
-    "AIGENSYN/USDT: +75% Breakout Expansion Setup",
-    "Samsung Wallet brings USDC transfers on Sui to 82 million US Galaxy devices"
+    "BTC: Relief Rally Before Another Major Sell-Off?",
+    "UK to ban crypto exchanges from making markets on their own platforms as Bitcoin rules change"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 9,
    "sentiment": "bullish",
    "titres": [
-    "Bitcoin Core Releases Fixes For Bug That Can Freeze Nodes For 12 Seconds",
-    "Apple Starts Siri AI Rollout in Its Apps Alongside Third-Party Developer Preview"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana (SOL) Price Recovers Toward $70 as Spot ETFs Snap Six-Week Outflow Streak",
-    "PrimeRevenue plans to tokenize its trade finance instruments on Solana"
+    "Anthropic’s reported 20% share of Yahoo Finance traffic isn’t backed by the data",
+    "The AI crash: who sold the top, and who's buying the dip (nobody)"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "bearish",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
     "Ethereum (ETH) Price Rebounds Toward $1,700 After a Rough Weekend Selloff",
     "ETH Weekend Rebound: Can the Prior High Hold?"
@@ -309,12 +291,29 @@
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Solana",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "BNB/USDT: Reversal Taking Shape After a Sharp Sell-Off",
-    "BNB/USDT BULLISH In SHORT Term"
+    "Solana (SOL) Price Recovers Toward $70 as Spot ETFs Snap Six-Week Outflow Streak",
+    "PrimeRevenue plans to tokenize its trade finance instruments on Solana"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "AIGENSYN/USDT: +75% Breakout Expansion Setup",
+    "Samsung Wallet brings USDC transfers on Sui to 82 million US Galaxy devices"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Shiba Inu Price Prediction: 2 Levels Decide the Meme Coin's Path After a Rare Bearish Cross"
    ]
   },
   {
