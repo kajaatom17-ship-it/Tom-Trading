@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T04:34:00Z",
+   "verifie_jusqu_a": "2026-11-22T04:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.3459841613461,
+   "dernier_prix": 518.3554536569325,
    "atr": 2.771652,
    "rollover": 0.2695797077180176,
    "rollover_periodes": 14
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T04:34:00Z",
+   "verifie_jusqu_a": "2026-11-22T04:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.56132226271707,
+   "dernier_prix": 93.56303150433425,
    "atr": 1.08547,
    "rollover": 0.2138264982528897,
    "rollover_periodes": 14
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T04:34:00Z",
+   "verifie_jusqu_a": "2026-11-22T04:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 567.1589985293983,
+   "dernier_prix": 567.169359774199,
    "atr": 3.304099,
    "rollover": 0.2693057751887714,
    "rollover_periodes": 14
@@ -92,10 +92,10 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T04:34:00Z",
+   "verifie_jusqu_a": "2026-11-22T04:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
-   "dernier_prix": 0.0983,
+   "dernier_prix": 0.0978,
    "atr": 0.001778075,
    "rollover": 0.026592748145065084,
    "rollover_periodes": 2
@@ -116,10 +116,10 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T04:34:00Z",
+   "verifie_jusqu_a": "2026-11-22T04:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.06e-06,
+   "dernier_prix": 3.063e-06,
    "atr": 5.5986e-08,
    "rollover": 0.010702144950339188,
    "rollover_periodes": 2
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T04:34:41Z",
+ "maj": "2026-11-22T04:36:45Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -155,7 +155,7 @@
   "2026-11-22": 511.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-22T04:30:49Z",
+ "chasseur_t": "2026-11-22T04:36:36Z",
  "tendance": [
   "TRUMP",
   "LUCIA",
@@ -257,24 +257,66 @@
   }
  },
  "buzz_t": "2026-11-22T04:30:50Z",
- "sources_t": "2026-11-22T04:16:10Z",
+ "sources_t": "2026-11-22T04:36:37Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 14,
+   "mentions": 12,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin USD 45 Minute Chart Analysis",
-    "Bitcoin has further downside to go"
+    "BTCUSD | Buy From Key Support Zone Targeting SupplyZone Near 75k",
+    "Chainflip's Second Exploit in 10 Weeks Hits Its Token Twice as Hard"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 8,
+   "mentions": 10,
    "sentiment": "neutral",
    "titres": [
-    "David Tepper exits AMD and Broadcom, doubles down on Nvidia and Micron",
-    "Novo founder says AI will spark a gold rush for solo entrepreneurs"
+    "Meta Platforms commits up to $145B to AI as its ad machine keeps paying off",
+    "下周宏观展望：美国 10 月核心 PCE 与褐皮书检验加息预期，感恩节前经济数据密集发布"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.113279564 | 🚶 0.113379564 | 🚀 0.12471752 Gwei",
+    "Ethereum (ETH) Analysis | Bounce From 1,556 Support Zone Target"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Aave lenders face a thin withdrawal cushion if the $4B USDC cap fills",
+    "Chainflip's Second Exploit in 10 Weeks Hits Its Token Twice as Hard"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase CEO Brian Armstrong says AI agents can give workers an unlimited team of L5-level staff"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Russia’s Communist Party proposes adding seized crypto to national reserves"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Chainflip's Second Exploit in 10 Weeks Hits Its Token Twice as Hard"
    ]
   },
   {
@@ -283,38 +325,6 @@
    "sentiment": "neutral",
    "titres": [
     "Cardano, ADA, Reversion to the Mean, 80% odds for 80x ($10)"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "BTC Hits 55K Oversold: Capitulation or Pause?"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "THE BOTTOM IS IN BOOOYYYYYYS ;-)))"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH | 1hr chart - 11/22/26 | Levels of interest"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "FBI reportedly investigating apparent hack of its criminal database"
    ]
   }
  ],
