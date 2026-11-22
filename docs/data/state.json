@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T02:54:00Z",
+   "verifie_jusqu_a": "2026-11-22T02:55:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.3507188658908,
+   "dernier_prix": 518.426485903784,
    "atr": 2.771652,
    "rollover": 0.2695797077180176,
    "rollover_periodes": 14
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T02:54:00Z",
+   "verifie_jusqu_a": "2026-11-22T02:55:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.56217687571932,
+   "dernier_prix": 93.57585280736696,
    "atr": 1.08547,
    "rollover": 0.2138264982528897,
    "rollover_periodes": 14
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T02:54:00Z",
+   "verifie_jusqu_a": "2026-11-22T02:55:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.0867388881784,
+   "dernier_prix": 568.1697758126107,
    "atr": 3.304099,
    "rollover": 0.2693057751887714,
    "rollover_periodes": 14
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T02:54:00Z",
+   "verifie_jusqu_a": "2026-11-22T02:55:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0991,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T02:54:00Z",
+   "verifie_jusqu_a": "2026-11-22T02:55:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.08e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T02:54:19Z",
+ "maj": "2026-11-22T02:55:18Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -257,33 +257,58 @@
   }
  },
  "buzz_t": "2026-11-22T02:45:42Z",
- "sources_t": "2026-11-22T02:34:53Z",
+ "sources_t": "2026-11-22T02:55:15Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 15,
    "sentiment": "bearish",
    "titres": [
-    "AI Finds Bitcoin Core Security Flaw That Could Temporarily Freeze Nodes",
-    "Bitcoin crashes below key level as extreme fear grips market"
+    "Bitcoin has further downside to go",
+    "比特幣打三折！Kraken 加幣盤 BTC 最低「錯價至 1.7 萬美元」，官方：成交有效"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 9,
-   "sentiment": "neutral",
+   "mentions": 5,
+   "sentiment": "bearish",
    "titres": [
-    "AI Finds Bitcoin Core Security Flaw That Could Temporarily Freeze Nodes",
-    "OpenAI says new safeguards cut reasoning extraction attacks on GPT-6.2 Astra to 0.2%"
+    "Watch: Ex-NSA Hacker Says AI 'Agent Swarm' Gutted A Company In 14 Minutes - And Nobody Noticed For Hours",
+    "Elon Musk warns AI industry faces a cash crunch in 2027"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "Stablecoins",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Webull posts record $218.7 million quarter as client assets climb to $32.4 billion",
-    "ARK withdraws two proposed CoinDesk 20 crypto ETFs from SEC consideration"
+    "BTC Hits 55K Oversold: Capitulation or Pause?",
+    "数据：F2Pool 联创王纯将 3885 枚 ETH 转入币安出售并提回 USDC"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "数据：F2Pool 联创王纯将 3885 枚 ETH 转入币安出售并提回 USDC",
+    "ETH | 1hr chart - 11/22/26 | Levels of interest"
+   ]
+  },
+  {
+   "sujet": "Cardano",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Cardano, ADA, Reversion to the Mean, 80% odds for 80x ($10)"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "THE BOTTOM IS IN BOOOYYYYYYS ;-)))"
    ]
   },
   {
@@ -292,38 +317,6 @@
    "sentiment": "neutral",
    "titres": [
     "FBI reportedly investigating apparent hack of its criminal database"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "ARK withdraws two proposed CoinDesk 20 crypto ETFs from SEC consideration"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH is showing some strength"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase moves 127,745,921 USDC from institutional arm to its exchange"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase moves 127,745,921 USDC from institutional arm to its exchange"
    ]
   }
  ],
