@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-22T10:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.3412495432956,
+   "dernier_prix": 518.3128436512432,
    "atr": 2.771652,
    "rollover": 0.3080910945348772,
    "rollover_periodes": 16
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-22T10:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.56046766532701,
+   "dernier_prix": 93.5553404088194,
    "atr": 1.08547,
    "rollover": 0.2443731408604454,
    "rollover_periodes": 16
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-22T10:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 572.0405553525758,
+   "dernier_prix": 572.2192791772464,
    "atr": 3.304099,
    "rollover": 0.3077780287871673,
    "rollover_periodes": 16
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-22T10:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.101,
@@ -116,10 +116,10 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-22T10:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.104e-06,
+   "dernier_prix": 3.107e-06,
    "atr": 5.5986e-08,
    "rollover": 0.016053217425508783,
    "rollover_periodes": 3
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T10:48:13Z",
+ "maj": "2026-11-22T10:50:13Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -155,25 +155,25 @@
   "2026-11-22": 511.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-22T10:44:24Z",
+ "chasseur_t": "2026-11-22T10:50:11Z",
  "tendance": [
+  "WASTED",
   "TRUMP",
+  "PIEVERSE",
   "BTC",
   "PENGU",
-  "PIEVERSE",
-  "HYPE",
   "PEARL",
+  "HYPE",
   "VVV",
-  "SUI",
-  "EVAA",
-  "ENA",
-  "PONS",
-  "FLIP",
-  "SOL",
   "TAO",
-  "ETH"
+  "DRV",
+  "ETH",
+  "LINK",
+  "ETHFI",
+  "EVAA",
+  "UNI"
  ],
- "tendance_t": "2026-11-22T09:49:01Z",
+ "tendance_t": "2026-11-22T10:50:11Z",
  "buzz": {
   "CAD": {
    "source": "Reddit",
@@ -257,42 +257,41 @@
   }
  },
  "buzz_t": "2026-11-22T10:38:39Z",
- "sources_t": "2026-11-22T10:29:50Z",
+ "sources_t": "2026-11-22T10:50:12Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 13,
+   "sentiment": "bearish",
+   "titres": [
+    "Bored Crypto Investors Dump Bitcoin to Chase Massive AI Stocks",
+    "BTC retests PDH 61k with spot buying: 62k or 60k next?"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "BTC retests PDH 61k with spot buying: 62k or 60k next?",
-    "BTC/USD 45-Minute Chart Analysis – 22 November 2026"
+    "JPMorgan forecasts hyperscaler spending to reach $2 trillion by 2030",
+    "Bored Crypto Investors Dump Bitcoin to Chase Massive AI Stocks"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+    "Chainflip Suffers $12M Crypto Hack and Offers Attacker 10% Bounty"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "ETH holds 1,538 low, tests 1,723.88 under 21 MA 1,990.29",
-    "Unbacked CYBER mint on Solana nets attacker 575 ETH from Cyber's bridge"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "SOL | Week 48 2026 - 1hr chart",
-    "Unbacked CYBER mint on Solana nets attacker 575 ETH from Cyber's bridge"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Can Stablecoins Pay Interest? Understanding Yield, Rewards, and the GENIUS Act",
-    "USDC.D - Bullish Count Could Suggest Further Down For TOTAL"
+    "ETH holds 1,538 low, tests 1,723.88 under 21 MA 1,990.29"
    ]
   },
   {
@@ -304,27 +303,27 @@
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "South Korea education minister resigns over exam cheating scandal"
-   ]
-  },
-  {
    "sujet": "ETF",
    "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "BTC Shorts Lose $68.8M in an Hour as ETF Sellers Pull $3.47B in November"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "摩根士丹利逢低加碼 799 枚 BTC，MSBT 比特幣 ETF 持倉升至 12,448 枚"
+    "SOL | Week 48 2026 - 1hr chart"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase receives $237M USDC transfer from unknown wallet"
    ]
   }
  ],
