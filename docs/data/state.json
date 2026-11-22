@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 129.5924711030971,
+ "cash": 129.52540958751317,
  "positions": [
   {
    "id": "P0022",
@@ -20,13 +20,13 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T07:57:00Z",
+   "verifie_jusqu_a": "2026-11-22T09:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 518.3743936861144,
    "atr": 2.771652,
-   "rollover": 0.2888354011264474,
-   "rollover_periodes": 15
+   "rollover": 0.3080910945348772,
+   "rollover_periodes": 16
   },
   {
    "id": "P0023",
@@ -44,13 +44,13 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T07:57:00Z",
+   "verifie_jusqu_a": "2026-11-22T09:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 93.56645017492899,
    "atr": 1.08547,
-   "rollover": 0.22909981955666756,
-   "rollover_periodes": 15
+   "rollover": 0.2443731408604454,
+   "rollover_periodes": 16
   },
   {
    "id": "P0024",
@@ -68,13 +68,13 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T07:57:00Z",
+   "verifie_jusqu_a": "2026-11-22T09:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 567.2266220894651,
+   "dernier_prix": 570.0309665396948,
    "atr": 3.304099,
-   "rollover": 0.28854190198796936,
-   "rollover_periodes": 15
+   "rollover": 0.3077780287871673,
+   "rollover_periodes": 16
   },
   {
    "id": "P0025",
@@ -92,13 +92,13 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T07:57:00Z",
+   "verifie_jusqu_a": "2026-11-22T09:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
-   "dernier_prix": 0.0974,
+   "dernier_prix": 0.1001,
    "atr": 0.001778075,
-   "rollover": 0.039889122217597626,
-   "rollover_periodes": 3
+   "rollover": 0.05318549629013017,
+   "rollover_periodes": 4
   },
   {
    "id": "P0026",
@@ -116,16 +116,16 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T07:57:00Z",
+   "verifie_jusqu_a": "2026-11-22T09:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.054e-06,
+   "dernier_prix": 3.061e-06,
    "atr": 5.5986e-08,
    "rollover": 0.016053217425508783,
    "rollover_periodes": 3
   }
  ],
- "frais_cumules": 14.870380329485481,
+ "frais_cumules": 14.93744184506942,
  "pnl_realise": -6.521210711096159,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T07:58:00Z",
+ "maj": "2026-11-22T09:49:13Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -155,37 +155,82 @@
   "2026-11-22": 511.43
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-22T07:54:09Z",
+ "chasseur_t": "2026-11-22T09:49:01Z",
  "tendance": [
   "TRUMP",
-  "PENGU",
   "BTC",
+  "PENGU",
   "PIEVERSE",
-  "AKE",
-  "EVAA",
+  "HYPE",
   "PEARL",
   "VVV",
-  "HYPE",
-  "ZEC",
-  "LIT",
-  "OP",
-  "ETH",
-  "SKY",
-  "LINK"
+  "SUI",
+  "EVAA",
+  "ENA",
+  "PONS",
+  "FLIP",
+  "SOL",
+  "TAO",
+  "ETH"
  ],
- "tendance_t": "2026-11-22T07:25:10Z",
+ "tendance_t": "2026-11-22T09:49:01Z",
  "buzz": {
   "CAD": {
    "source": "Reddit",
-   "mentions": 27,
-   "x_vs_hier": 27.0
+   "mentions": 30,
+   "x_vs_hier": 15.0
   },
-  "JNJ": {
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MRK": {
+  "GLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XRP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UNG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ABVX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KWEB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "APO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CCL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -195,104 +240,59 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "VOO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PINS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LINK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XYZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZBCN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CEG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WDC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SHOP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DRAM": {
+  "RVMD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNOW": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ALGO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADBE": {
+  "TQQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-22T07:42:41Z",
- "sources_t": "2026-11-22T07:39:33Z",
+ "buzz_t": "2026-11-22T09:49:01Z",
+ "sources_t": "2026-11-22T09:49:02Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 9,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Anthropic IPOs, Researchers Reveal Plan for Post-Quantum, And More – Weekly Recap",
-    "BTC swept the low, now watching the 0.618 for a long"
+    "Kraken upholds trades after Bitcoin briefly drops to $17K on its CAD markets",
+    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 5,
+   "sujet": "Solana",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "孫宇晨獎擬提供 200 萬美元獎勵黎曼猜想兩項研究成果，推動 AI 數學研究創新",
-    "Meta Platforms commits up to $145B to AI as its ad machine keeps paying off"
+    "SOL | Week 48 2026 - 1hr chart",
+    "Unbacked CYBER mint on Solana nets attacker 575 ETH from Cyber's bridge"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "ADA/USDT Technical Analysis BULLISH 2027",
-    "Thai cyber police raid Chiang Mai exchange shop tied to 2.7 million USDT wallet"
+    "Coinbase receives $237M USDC transfer from unknown wallet",
+    "Can Stablecoins Pay Interest? Understanding Yield, Rewards, and the GENIUS Act"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "Dogecoin",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "bullish",
    "titres": [
-    "Anthropic IPOs, Researchers Reveal Plan for Post-Quantum, And More – Weekly Recap",
-    "Russia’s Communist Party proposes adding seized crypto to national reserves"
+    "DOGEUSD: New Bullrun Incoming ?!",
+    "Dogecoin price prediction 2026-2032: DOGE to the moon?"
    ]
   },
   {
@@ -300,33 +300,34 @@
    "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "Chainflip confirms $12M hack, offers attacker 10% bounty",
-    "Chainflip's Second Exploit in 10 Weeks Hits Its Token Twice as Hard"
+    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+    "Chainflip Suffers $12M Crypto Hack and Offers Attacker 10% Bounty"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "South Korea education minister resigns over exam cheating scandal",
+    "High valuations, margin debt spark stock market crash fears: Motley Fool"
    ]
   },
   {
    "sujet": "Ethereum",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Ethereum (ETH) Analysis | Bounce From 1,556 Support Zone Target",
-    "Chainflip's Second Exploit in 10 Weeks Hits Its Token Twice as Hard"
+    "Unbacked CYBER mint on Solana nets attacker 575 ETH from Cyber's bridge",
+    "BTCS Warned $54M Aave Loan Could Be Liquidated as Ethereum Slides"
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "Anthropic IPOs, Researchers Reveal Plan for Post-Quantum, And More – Weekly Recap"
-   ]
-  },
-  {
-   "sujet": "Cardano",
+   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "ADA/USDT Technical Analysis BULLISH 2027"
+    "Coinbase receives $237M USDC transfer from unknown wallet"
    ]
   }
  ],
