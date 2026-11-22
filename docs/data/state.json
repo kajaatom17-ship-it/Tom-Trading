@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 517.8445955194597,
+   "dernier_prix": 517.8351446795697,
    "atr": 2.771652,
    "rollover": 0.3466024813517368,
    "rollover_periodes": 18
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.47082173655154,
+   "dernier_prix": 93.46911586228295,
    "atr": 1.08547,
    "rollover": 0.27491978346800106,
    "rollover_periodes": 18
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.948715608888,
+   "dernier_prix": 571.9382773504157,
    "atr": 3.304099,
    "rollover": 0.3462502823855632,
    "rollover_periodes": 18
@@ -92,10 +92,10 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
-   "dernier_prix": 0.0987,
+   "dernier_prix": 0.098,
    "atr": 0.001778075,
    "rollover": 0.07977824443519524,
    "rollover_periodes": 6
@@ -116,10 +116,10 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T19:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.102e-06,
+   "dernier_prix": 3.09e-06,
    "atr": 5.5986e-08,
    "rollover": 0.032106434851017565,
    "rollover_periodes": 6
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T19:29:42Z",
+ "maj": "2026-11-22T19:30:44Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -252,77 +252,64 @@
   }
  },
  "buzz_t": "2026-11-22T19:16:52Z",
- "sources_t": "2026-11-22T19:10:41Z",
+ "sources_t": "2026-11-22T19:30:41Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 11,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "BTC: Relief Rally Before Another Major Sell-Off?",
-    "UK to ban crypto exchanges from making markets on their own platforms as Bitcoin rules change"
+    "btc wating for support line-1month",
+    "Don’t buy BTC until you see this!!!"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 9,
-   "sentiment": "bullish",
+   "mentions": 6,
+   "sentiment": "neutral",
    "titres": [
-    "Anthropic’s reported 20% share of Yahoo Finance traffic isn’t backed by the data",
-    "The AI crash: who sold the top, and who's buying the dip (nobody)"
+    "OpenAI calls for industry-wide AI brake tied to perplexity",
+    "Anthropic’s reported 20% share of Yahoo Finance traffic isn’t backed by the data"
    ]
   },
   {
-   "sujet": "Coinbase",
-   "mentions": 2,
+   "sujet": "Dogecoin",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase stock drops 64% from 52-week high as analysts weigh options",
-    "ETH Weekend Rebound: Can the Prior High Hold?"
+    "0.05$ support zone of DOGE soon can pump it back?"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Ethereum (ETH) Price Rebounds Toward $1,700 After a Rough Weekend Selloff",
-    "ETH Weekend Rebound: Can the Prior High Hold?"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Ethereum (ETH) Price Rebounds Toward $1,700 After a Rough Weekend Selloff",
-    "Solana (SOL) Price Recovers Toward $70 as Spot ETFs Snap Six-Week Outflow Streak"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana (SOL) Price Recovers Toward $70 as Spot ETFs Snap Six-Week Outflow Streak",
-    "PrimeRevenue plans to tokenize its trade finance instruments on Solana"
+    "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "AIGENSYN/USDT: +75% Breakout Expansion Setup",
-    "Samsung Wallet brings USDC transfers on Sui to 82 million US Galaxy devices"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "US data centers face power demand surge, Texas moratorium considered"
+    "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Trump's Meme Coin Dinner Seat Falls From $55,000 to $518"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase stock drops 64% from 52-week high as analysts weigh options"
    ]
   }
  ],
