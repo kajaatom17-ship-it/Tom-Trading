@@ -1,43 +1,44 @@
 {
- "t": "2026-11-22T12:51:35Z",
+ "t": "2026-11-22T12:57:40Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
-  "AAVE",
   "AERO",
   "AVEX",
+  "BRBR",
   "BTC",
   "CAD",
   "DRV",
   "ETH",
   "GNRC",
-  "HBAR",
-  "HUM",
   "HYMC",
-  "HYPE",
   "ICP",
   "JNJ",
+  "LEU",
   "MRK",
   "MSTR",
-  "NDAQ",
+  "NEAR",
   "PEARL",
   "PENGU",
-  "PEPE",
   "PIEVERSE",
+  "SOL",
   "TAO",
   "TRUMP",
-  "UVXY",
+  "UNH",
   "VVV",
   "WASTED",
   "WFC",
   "XLM",
+  "XRP",
+  "ZBCN",
+  "ZEC",
   "ZRO"
  ],
  "buzz_reseaux": {
   "CAD": {
    "source": "Reddit",
-   "mentions": 25,
-   "x_vs_hier": 4.2
+   "mentions": 24,
+   "x_vs_hier": 4.0
   },
   "BTC": {
    "source": "StockTwits",
@@ -49,37 +50,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MRK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JNJ": {
+  "ZBCN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WFC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XLM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HBAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HUM": {
+  "MRK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -89,7 +70,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVEX": {
+  "JNJ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UNH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XLM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WFC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -99,17 +95,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "BRBR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVEX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ICP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NDAQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UVXY": {
+  "LEU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -117,12 +118,22 @@
  },
  "candidats": [
   {
+   "sym": "DRV",
+   "pair": "DRVEUR",
+   "action": false,
+   "variation_24h_pct": 10.03,
+   "volume_24h_eur": 52019.56,
+   "spread_pct": 0.4314,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 6.2,
-   "volume_24h_eur": 307549.51,
-   "spread_pct": 0.1396,
+   "variation_24h_pct": 5.41,
+   "volume_24h_eur": 307966.08,
+   "spread_pct": 0.1172,
    "tendance": false,
    "impulsion": null
   }
