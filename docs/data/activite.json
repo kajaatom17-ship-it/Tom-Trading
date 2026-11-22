@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-21T12:05:07Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
-  "t": "2026-11-21T12:06:08Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "450 actifs hors univers analysés, 15 en mouvement : DRV +28.7 %, ICNT -10.8 %, VVV +7.4 %."
- },
- {
   "t": "2026-11-21T12:09:51Z",
   "agent": "Veille",
   "type": "actu",
@@ -2754,5 +2742,17 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "MSTR +1.56 % en 15 min"
+ },
+ {
+  "t": "2026-11-22T12:22:40Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AVEX, BTC, CAD, CRO, ETH, GNRC, HBAR, HUM, HYMC, JNJ, MRK, MSTR"
+ },
+ {
+  "t": "2026-11-22T12:22:43Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "449 actifs hors univers analysés, 4 en mouvement : AI +7.0 %, NIGHT +5.3 %, CRV +5.2 %."
  }
 ]
