@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T23:08:00Z",
+   "verifie_jusqu_a": "2026-11-22T23:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 517.5659406807486,
+   "dernier_prix": 517.4857059483317,
    "atr": 2.771652,
    "rollover": 0.36585817476016663,
    "rollover_periodes": 19
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T23:08:00Z",
+   "verifie_jusqu_a": "2026-11-22T23:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.42052460690964,
+   "dernier_prix": 93.40604225750266,
    "atr": 1.08547,
    "rollover": 0.2901931047717789,
    "rollover_periodes": 19
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T23:08:00Z",
+   "verifie_jusqu_a": "2026-11-22T23:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.9595417897924,
+   "dernier_prix": 567.4487739488058,
    "atr": 3.304099,
    "rollover": 0.36548640918476116,
    "rollover_periodes": 19
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T23:08:00Z",
+   "verifie_jusqu_a": "2026-11-22T23:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0984,
@@ -116,10 +116,10 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T23:08:00Z",
+   "verifie_jusqu_a": "2026-11-22T23:10:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.092e-06,
+   "dernier_prix": 3.075e-06,
    "atr": 5.5986e-08,
    "rollover": 0.032106434851017565,
    "rollover_periodes": 6
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T23:08:07Z",
+ "maj": "2026-11-22T23:10:17Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,7 +156,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-22T23:04:12Z",
+ "chasseur_t": "2026-11-22T23:10:07Z",
  "tendance": [
   "WSTAR",
   "POPO",
@@ -201,7 +201,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CASHCAT": {
+  "SNOW": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -211,12 +216,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "B": {
+  "ASML": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PYTH": {
+  "TECL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -226,39 +231,34 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "EURUSD": {
+  "SPY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ASML": {
+  "SCO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TU": {
+  "LRCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "UCO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAPR": {
+  "PFE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-22T22:52:18Z",
- "sources_t": "2026-11-22T22:50:13Z",
+ "buzz_t": "2026-11-22T23:10:08Z",
+ "sources_t": "2026-11-22T23:10:14Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 15,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
     "Bitcoin Follows the Nasdaq, and the Nasdaq Just Turned Bearish",
     "Bitcoin climbs back above $60K after leveraged longs get flushed"
@@ -269,14 +269,14 @@
    "mentions": 6,
    "sentiment": "bullish",
    "titres": [
-    "PHA/USDT | Back at the September Launchpad",
-    "Senators want state-licensed firms to keep issuing stablecoins after Jan. 18"
+    "Aptos named sole Move-based chain in PayPal’s PYUSD0 stablecoin rollout",
+    "PHA/USDT | Back at the September Launchpad"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "neutral",
+   "mentions": 4,
+   "sentiment": "bullish",
    "titres": [
     "US targets AI chip exports to China, impacting Southeast Asia cloud firms",
     "OpenAI’s chief scientist wants perplexity to be AI’s speedometer"
@@ -292,21 +292,20 @@
    ]
   },
   {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP/USD – Bullish Shark | Potential Major Long-Term Reversal",
-    "XRP Ledger trial settled 213,000 paid AI requests in 6,324 transactions"
-   ]
-  },
-  {
    "sujet": "Ethereum",
    "mentions": 2,
    "sentiment": "bearish",
    "titres": [
     "ETH monthly chart  important support zone",
     "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "XRP/USD – Bullish Shark | Potential Major Long-Term Reversal"
    ]
   },
   {
