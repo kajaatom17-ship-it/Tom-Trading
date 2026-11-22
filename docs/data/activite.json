@@ -1,15 +1,6 @@
 [
  {
   "t": "2026-11-21T17:01:10Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "FET short ouvert à 0.1001997 | 66.48 € engagés | stop 0.1062668 | objectif 0.08279946 | risque 5.12 EUR",
-  "data": {
-   "id": "P0025"
-  }
- },
- {
-  "t": "2026-11-21T17:01:10Z",
   "agent": "Trader de garde",
   "type": "entrée",
   "msg": "Entrée SWG-1 : FET short, stop 0.1062668, objectif 0.08279946, risque 5.12 €."
@@ -2690,5 +2681,11 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "449 actifs hors univers analysés, 3 en mouvement : NIGHT +11.7 %, DRV +7.8 %, VVV +3.8 %."
+ },
+ {
+  "t": "2026-11-22T18:35:08Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "449 actifs hors univers analysés, 3 en mouvement : NIGHT +11.0 %, DRV +7.8 %, VVV +3.9 %."
  }
 ]
