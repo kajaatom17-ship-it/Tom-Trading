@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T13:51:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.1945192720366,
+   "dernier_prix": 518.1897874205566,
    "atr": 2.771652,
    "rollover": 0.327346787943307,
    "rollover_periodes": 17
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T13:51:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.53398288756381,
+   "dernier_prix": 93.53312878953905,
    "atr": 1.08547,
    "rollover": 0.2596464621642232,
    "rollover_periodes": 17
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T13:51:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.6685995014199,
+   "dernier_prix": 571.663379355687,
    "atr": 3.304099,
    "rollover": 0.32701415558636526,
    "rollover_periodes": 17
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T13:51:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.099,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T13:51:00Z",
+   "verifie_jusqu_a": "2026-11-22T13:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.1e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T13:51:50Z",
+ "maj": "2026-11-22T13:52:51Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -257,32 +257,60 @@
   }
  },
  "buzz_t": "2026-11-22T13:49:54Z",
- "sources_t": "2026-11-22T13:32:18Z",
+ "sources_t": "2026-11-22T13:52:50Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 13,
+   "mentions": 11,
    "sentiment": "neutral",
    "titres": [
-    "Short-term Bitcoin holders capitulate as over 113K BTC hits exchanges",
-    "Bitcoin’s next big threat could come from two oil tankers in the Middle East"
+    "HOW-TO: Read the Liquidation Heatmap on BTC after the 55k flush",
+    "Bitcoin’s Bullish Comeback: Is the Road to $100,000 Finally"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "Investors hunt for a bottom as the US stock selloff deepens",
-    "Dow, S&P 500 and Nasdaq hit record highs in 2026 before AI-fueled selloff"
+    "A Society of AI Scientists",
+    "Google's AI Overviews cut clicks to websites by 40%"
    ]
   },
   {
-   "sujet": "Memecoins",
-   "mentions": 1,
+   "sujet": "Security",
+   "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
+    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Solana / U.S. Dollar (SOL/USD — 1M Chart) BEARISH",
+    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "$ETH 1H: 1,650 Cleared Now The Real Test",
+    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Trump memecoin crashes 70% as holders prepare for another gala dinner"
+    "Here’s what happened in crypto today",
+    "Fraudsters Used Fake Crypto Exchanges to Steal $37 Million, SEC Alleges"
    ]
   },
   {
@@ -294,23 +322,7 @@
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "$ETH 1H: 1,650 Cleared Now The Real Test"
-   ]
-  },
-  {
    "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Here’s what happened in crypto today"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
