@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T12:30:00Z",
+   "verifie_jusqu_a": "2026-11-22T12:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 518.3507188658908,
+   "dernier_prix": 518.3365150117372,
    "atr": 2.771652,
    "rollover": 0.3080910945348772,
    "rollover_periodes": 16
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T12:30:00Z",
+   "verifie_jusqu_a": "2026-11-22T12:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.56217687571932,
+   "dernier_prix": 93.55961308354874,
    "atr": 1.08547,
    "rollover": 0.2443731408604454,
    "rollover_periodes": 16
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T12:30:00Z",
+   "verifie_jusqu_a": "2026-11-22T12:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.8865890863917,
+   "dernier_prix": 571.8709182415214,
    "atr": 3.304099,
    "rollover": 0.3077780287871673,
    "rollover_periodes": 16
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T12:30:00Z",
+   "verifie_jusqu_a": "2026-11-22T12:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.1019,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T12:30:00Z",
+   "verifie_jusqu_a": "2026-11-22T12:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.083e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T12:30:22Z",
+ "maj": "2026-11-22T12:31:23Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -257,40 +257,24 @@
   }
  },
  "buzz_t": "2026-11-22T12:22:40Z",
- "sources_t": "2026-11-22T12:11:05Z",
+ "sources_t": "2026-11-22T12:31:19Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 12,
+   "mentions": 16,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin consolidates capital as altcoin froth dissipates",
+    "Bitcoin’s $60,000 breakdown puts December Fed decision under the spotlight",
     "BTCUSD Bullish Recovery Setup | Liquidity Sweep to 66.4K"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 6,
-   "sentiment": "neutral",
-   "titres": [
-    "Dow, S&P 500 and Nasdaq hit record highs in 2026 before AI-fueled selloff",
-    "Tribe AI crosses $100M in annualized revenue with Koch Industries among its clients"
-   ]
-  },
-  {
    "sujet": "Ethereum",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "$ETH 1H: 1,650 Cleared Now The Real Test"
-   ]
-  },
-  {
-   "sujet": "Chainlink",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Chainlink Price Prediction: LINK Nears a 10% Drop Even as CCIP 2.0 Goes Live"
+    "$ETH 1H: 1,650 Cleared Now The Real Test",
+    "ETH holds 1,538 low, tests 1,723.88 under 21 MA 1,990.29"
    ]
   },
   {
@@ -307,6 +291,22 @@
    "sentiment": "neutral",
    "titres": [
     "Here’s what happened in crypto today"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Bored Crypto Investors Dump Bitcoin to Chase Massive AI Stocks"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades"
    ]
   }
  ],
