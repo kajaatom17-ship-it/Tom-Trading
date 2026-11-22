@@ -1,36 +1,36 @@
 {
- "t": "2026-11-22T14:53:31Z",
+ "t": "2026-11-22T14:59:16Z",
  "nb_analyses": 449,
  "nb_en_mouvement": 2,
  "tendance": [
-  "ABVX",
   "APT",
   "AZN",
+  "BONK",
   "BP",
   "BTC",
   "CAD",
-  "CAPR",
   "CASHCAT",
+  "DOGE",
   "DRV",
-  "FIG",
-  "FSLY",
-  "GS",
   "HALO",
   "HPE",
   "HYPE",
+  "ICP",
+  "JNJ",
   "MON",
   "MRK",
-  "NASA",
+  "NEAR",
   "PEARL",
   "PENGU",
   "PI",
   "PIEVERSE",
   "PUMP",
   "REPL",
-  "SNY",
+  "RTY_F",
   "SOL",
   "TRUMP",
   "UEC",
+  "VOYG",
   "VVV",
   "WASTED",
   "ZM"
@@ -51,27 +51,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "UEC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NEAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "MRK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HALO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAPR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UEC": {
+  "RTY_F": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -81,37 +76,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ABVX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NASA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FIG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SNY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FSLY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "HPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BONK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DOGE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VOYG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ICP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HALO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JNJ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -122,8 +122,8 @@
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 9.93,
-   "volume_24h_eur": 410704.93,
+   "variation_24h_pct": 9.96,
+   "volume_24h_eur": 414835.53,
    "spread_pct": 0.0674,
    "tendance": false,
    "impulsion": null
@@ -134,7 +134,7 @@
    "action": false,
    "variation_24h_pct": 5.45,
    "volume_24h_eur": 68457.73,
-   "spread_pct": 0.2347,
+   "spread_pct": 0.4695,
    "tendance": false,
    "impulsion": null
   }
