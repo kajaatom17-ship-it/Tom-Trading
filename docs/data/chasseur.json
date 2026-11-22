@@ -1,15 +1,19 @@
 {
- "t": "2026-11-22T00:04:33Z",
+ "t": "2026-11-22T00:10:42Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 3,
+ "nb_en_mouvement": 2,
  "tendance": [
+  "AERO",
+  "AUDUSD",
   "BTC",
   "CAD",
   "CMPS",
   "DELL",
   "EVAA",
   "FECCF",
-  "GLD",
+  "GBPUSD",
+  "GE",
+  "GEV",
   "HYPE",
   "ICP",
   "KAS",
@@ -17,7 +21,6 @@
   "LLY",
   "MON",
   "MS",
-  "NTDOY",
   "NYT",
   "PEARL",
   "PENGU",
@@ -27,11 +30,9 @@
   "SPOT",
   "SUI",
   "TTWO",
-  "TU",
   "UNG",
   "VVV",
   "WASTED",
-  "XAGUSD",
   "XMR",
   "ZEC"
  ],
@@ -51,6 +52,11 @@
    "mentions": 38,
    "x_vs_hier": 4.2
   },
+  "LLY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "FECCF": {
    "source": "StockTwits",
    "mentions": null,
@@ -61,22 +67,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XAGUSD": {
+  "CMPS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LLY": {
+  "ICP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TU": {
+  "GE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -86,17 +87,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TTWO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CMPS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SUI": {
+  "AUDUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -106,12 +97,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPOT": {
+  "GEV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NTDOY": {
+  "AERO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -121,7 +112,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ICP": {
+  "SPOT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GBPUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TTWO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -134,17 +135,7 @@
    "action": false,
    "variation_24h_pct": -11.67,
    "volume_24h_eur": 90800.23,
-   "spread_pct": 0.472,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "B2",
-   "pair": "B2EUR",
-   "action": false,
-   "variation_24h_pct": 6.25,
-   "volume_24h_eur": 51903.44,
-   "spread_pct": 0.1464,
+   "spread_pct": 0.1573,
    "tendance": false,
    "impulsion": null
   },
@@ -154,7 +145,7 @@
    "action": false,
    "variation_24h_pct": 5.9,
    "volume_24h_eur": 91485.96,
-   "spread_pct": 0.1228,
+   "spread_pct": 0.2456,
    "tendance": false,
    "impulsion": null
   }
