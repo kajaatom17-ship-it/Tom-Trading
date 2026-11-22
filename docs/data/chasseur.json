@@ -1,7 +1,7 @@
 {
- "t": "2026-11-22T04:36:37Z",
+ "t": "2026-11-22T04:42:32Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AMPX",
   "ASML",
@@ -119,15 +119,31 @@
  },
  "candidats": [
   {
+   "sym": "CCD",
+   "pair": "CCDEUR",
+   "action": false,
+   "variation_24h_pct": 5.21,
+   "volume_24h_eur": 49913.92,
+   "spread_pct": 0.2956,
+   "tendance": false,
+   "impulsion": {
+    "sens": "long",
+    "mouvement_pct": 5.29,
+    "volume_x": 22.0
+   }
+  },
+  {
    "sym": "PLAY",
    "pair": "PLAYEUR",
    "action": false,
    "variation_24h_pct": -5.02,
-   "volume_24h_eur": 54344.37,
-   "spread_pct": 0.4172,
+   "volume_24h_eur": 54115.06,
+   "spread_pct": 0.4636,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "CCD"
+ ]
 }
