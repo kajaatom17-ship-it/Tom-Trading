@@ -1,7 +1,7 @@
 {
- "t": "2026-11-22T18:11:08Z",
+ "t": "2026-11-22T18:17:21Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 3,
  "tendance": [
   "ALB",
   "BP",
@@ -115,9 +115,29 @@
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 12.6,
-   "volume_24h_eur": 561575.35,
-   "spread_pct": 0.0658,
+   "variation_24h_pct": 12.28,
+   "volume_24h_eur": 562996.03,
+   "spread_pct": 0.11,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "DRV",
+   "pair": "DRVEUR",
+   "action": false,
+   "variation_24h_pct": 7.85,
+   "volume_24h_eur": 67143.33,
+   "spread_pct": 0.2155,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "VVV",
+   "pair": "VVVEUR",
+   "action": false,
+   "variation_24h_pct": 3.98,
+   "volume_24h_eur": 621757.77,
+   "spread_pct": 0.1776,
    "tendance": true,
    "impulsion": null
   }
