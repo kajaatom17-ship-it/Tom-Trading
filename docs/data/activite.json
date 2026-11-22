@@ -1,20 +1,5 @@
 [
  {
-  "t": "2026-11-21T19:11:55Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "PEPE short ouvert à 3.089907e-06 | 26.76 € engagés | stop 3.333592e-06 | objectif 2.367225e-06 | risque 2.56 EUR",
-  "data": {
-   "id": "P0026"
-  }
- },
- {
-  "t": "2026-11-21T19:11:55Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée SWG-1 : PEPE short, stop 3.333592e-06, objectif 2.367225e-06, risque 2.56 €."
- },
- {
   "t": "2026-11-21T19:12:54Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -2654,5 +2639,17 @@
    "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ3k0UkRmd0huMm13SjZrdzIwcXJBTWRIazd4Nmc5bHZFazRlbGlJMGdtWnY4M3hBMmtlLXVoR1NmcngzN0luOUQ1Mm9lQ3d3VElQWEYxOURQSWhhbjd1V3J2YldDc3JwaFNONU93dGZ4VFMzcWdVaW1SMGVnYjV6UmNaNjJnelpPQ3A0TnE3RE5qVFNsYV9fTEZVa3BNNEpKbW0xVmJFN0h0Qk9aNndsWl9kLXdNeHJ2UGpVNnpuczZwT0stTkVlUmxnNDFPTWJ5Mk5qRWYxUjZNU1lqRzFmWHY1cDYtNGQ3SVNFMVRVbw?oc=5",
    "actifs": []
   }
+ },
+ {
+  "t": "2026-11-22T21:22:28Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABBV, ASML, BMY, CASHCAT, CMCSA, GE, JNJ, MRK, MS, NDAQ, RTX, SUI"
+ },
+ {
+  "t": "2026-11-22T21:22:33Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "449 actifs hors univers analysés, 8 en mouvement : NIGHT +9.8 %, DRV +11.4 %, ENSO -8.4 %."
  }
 ]
