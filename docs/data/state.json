@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T21:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T21:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 517.816244034638,
+   "dernier_prix": 517.8115190889846,
    "atr": 2.771652,
    "rollover": 0.36585817476016663,
    "rollover_periodes": 19
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T21:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T21:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.46570430053563,
+   "dernier_prix": 93.46485144901088,
    "atr": 1.08547,
    "rollover": 0.2901931047717789,
    "rollover_periodes": 19
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-22T21:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T21:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.8626529550785,
+   "dernier_prix": 571.8574348492591,
    "atr": 3.304099,
    "rollover": 0.36548640918476116,
    "rollover_periodes": 19
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-22T21:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T21:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0998,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-22T21:29:00Z",
+   "verifie_jusqu_a": "2026-11-22T21:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.116e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-22T21:29:25Z",
+ "maj": "2026-11-22T21:30:29Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -252,24 +252,42 @@
   }
  },
  "buzz_t": "2026-11-22T21:22:28Z",
- "sources_t": "2026-11-22T21:10:18Z",
+ "sources_t": "2026-11-22T21:30:23Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 12,
-   "sentiment": "bearish",
+   "mentions": 13,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin Could Test $50,000 if Nasdaq Slides, Arthur Hayes Warns",
-    "Bitcoin - Wave 4 Ending. $150K–$200K Next?"
+    "Bitcoin - Wave 4 Ending. $150K–$200K Next?",
+    "Cassis: Bitcoin payments across every layer"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 8,
+   "sentiment": "bullish",
+   "titres": [
+    "OpenAI’s chief scientist wants perplexity to be AI’s speedometer",
+    "XRP Ledger trial settled 213,000 paid AI requests in 6,324 transactions"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Anthropic prices the largest IPO in history as AI rivals close in",
-    "AI just exposed a major weakness in anonymous peer reviews"
+    "How Progressive Jackpots Work When You Play With Crypto",
+    "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Trump to host second memecoin dinner tonight with TRUMP down 99% from peak",
+    "Trump's Meme Coin Dinner Seat Falls From $55,000 to $518"
    ]
   },
   {
@@ -282,6 +300,14 @@
    ]
   },
   {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "XRP Ledger trial settled 213,000 paid AI requests in 6,324 transactions"
+   ]
+  },
+  {
    "sujet": "Dogecoin",
    "mentions": 1,
    "sentiment": "neutral",
@@ -290,19 +316,11 @@
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Chainflip’s losses climb to $12 million after protocol discloses 122.9 BTC theft, offers hacker bounty"
-   ]
-  },
-  {
-   "sujet": "Memecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Trump's Meme Coin Dinner Seat Falls From $55,000 to $518"
+    "Coinbase stock drops 64% from 52-week high as analysts weigh options"
    ]
   }
  ],
