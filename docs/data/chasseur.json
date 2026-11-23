@@ -1,12 +1,13 @@
 {
- "t": "2026-11-23T12:59:27Z",
+ "t": "2026-11-23T13:05:14Z",
  "nb_analyses": 605,
- "nb_en_mouvement": 11,
+ "nb_en_mouvement": 12,
  "tendance": [
   "AAVE",
   "ADUR",
   "ALGO",
   "AM",
+  "ARM",
   "BP",
   "BTC",
   "CAPR",
@@ -16,6 +17,7 @@
   "GME",
   "HUM",
   "HYPE",
+  "JPM",
   "LINK",
   "LOOSY",
   "MINELIUS",
@@ -24,11 +26,9 @@
   "PEARL",
   "PENGU",
   "QQQ",
-  "SHAZ",
   "SKY",
   "SOXL",
   "SPY",
-  "TECL",
   "TQQQ",
   "UNH",
   "UNI",
@@ -41,13 +41,13 @@
  "buzz_reseaux": {
   "QQQ": {
    "source": "Reddit",
-   "mentions": 130,
-   "x_vs_hier": 2.3
+   "mentions": 132,
+   "x_vs_hier": 2.4
   },
   "SOXL": {
    "source": "Reddit",
-   "mentions": 42,
-   "x_vs_hier": 2.6
+   "mentions": 43,
+   "x_vs_hier": 2.7
   },
   "VT": {
    "source": "Reddit",
@@ -56,15 +56,15 @@
   },
   "AM": {
    "source": "Reddit",
-   "mentions": 31,
-   "x_vs_hier": 3.4
+   "mentions": 32,
+   "x_vs_hier": 3.6
   },
-  "CRWD": {
+  "UNH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "UNH": {
+  "CRWD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -89,7 +89,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPY": {
+  "HUM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -99,7 +99,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HUM": {
+  "SPY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -114,22 +114,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ARM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JPM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ADUR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "OUST": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SHAZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TECL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -140,9 +140,9 @@
    "sym": "ALGO",
    "pair": "ALGOEUR",
    "action": false,
-   "variation_24h_pct": 10.74,
-   "volume_24h_eur": 206786.63,
-   "spread_pct": 0.1051,
+   "variation_24h_pct": 11.47,
+   "volume_24h_eur": 207061.89,
+   "spread_pct": 0.1044,
    "tendance": true,
    "impulsion": null
   },
@@ -150,9 +150,9 @@
    "sym": "QNT",
    "pair": "QNTEUR",
    "action": false,
-   "variation_24h_pct": 9.41,
-   "volume_24h_eur": 348449.9,
-   "spread_pct": 0.0837,
+   "variation_24h_pct": 9.69,
+   "volume_24h_eur": 348150.92,
+   "spread_pct": 0.0766,
    "tendance": false,
    "impulsion": null
   },
@@ -160,9 +160,9 @@
    "sym": "JUP",
    "pair": "JUPEUR",
    "action": false,
-   "variation_24h_pct": 7.4,
-   "volume_24h_eur": 851724.11,
-   "spread_pct": 0.1092,
+   "variation_24h_pct": 7.28,
+   "volume_24h_eur": 852901.0,
+   "spread_pct": 0.1048,
    "tendance": false,
    "impulsion": null
   },
@@ -171,19 +171,9 @@
    "pair": "BLUREUR",
    "action": false,
    "variation_24h_pct": 8.61,
-   "volume_24h_eur": 57082.84,
-   "spread_pct": 0.1366,
+   "volume_24h_eur": 57019.05,
+   "spread_pct": 0.2732,
    "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "MON",
-   "pair": "MONEUR",
-   "action": false,
-   "variation_24h_pct": -7.29,
-   "volume_24h_eur": 249975.57,
-   "spread_pct": 0.0948,
-   "tendance": true,
    "impulsion": null
   },
   {
@@ -191,19 +181,19 @@
    "pair": "DRVEUR",
    "action": false,
    "variation_24h_pct": -7.63,
-   "volume_24h_eur": 112201.2,
-   "spread_pct": 0.2097,
+   "volume_24h_eur": 112100.31,
+   "spread_pct": 0.271,
    "tendance": true,
    "impulsion": null
   },
   {
-   "sym": "KAS",
-   "pair": "KASEUR",
+   "sym": "MON",
+   "pair": "MONEUR",
    "action": false,
-   "variation_24h_pct": 6.11,
-   "volume_24h_eur": 136701.11,
-   "spread_pct": 0.12,
-   "tendance": false,
+   "variation_24h_pct": -7.12,
+   "volume_24h_eur": 250211.69,
+   "spread_pct": 0.1892,
+   "tendance": true,
    "impulsion": null
   },
   {
@@ -212,7 +202,17 @@
    "action": false,
    "variation_24h_pct": 6.21,
    "volume_24h_eur": 44125.67,
-   "spread_pct": 0.2176,
+   "spread_pct": 0.226,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "MELANIA",
+   "pair": "MELANIAEUR",
+   "action": false,
+   "variation_24h_pct": 5.66,
+   "volume_24h_eur": 93182.48,
+   "spread_pct": 0.4464,
    "tendance": false,
    "impulsion": null
   }
