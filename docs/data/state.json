@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T09:16:00Z",
+   "verifie_jusqu_a": "2026-11-23T09:17:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 532.86872551699,
+   "dernier_prix": 533.9339722333564,
    "atr": 2.771652,
    "rollover": 0.42362525498545606,
    "rollover_periodes": 22
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T09:16:00Z",
+   "verifie_jusqu_a": "2026-11-23T09:17:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.33287783547418,
+   "dernier_prix": 98.33108625150311,
    "atr": 1.08547,
    "rollover": 0.3360130686831124,
    "rollover_periodes": 22
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T09:16:00Z",
+   "verifie_jusqu_a": "2026-11-23T09:17:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 577.1066775986153,
+   "dernier_prix": 577.1599314943701,
    "atr": 3.304099,
    "rollover": 0.423194789582355,
    "rollover_periodes": 22
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T09:16:00Z",
+   "verifie_jusqu_a": "2026-11-23T09:17:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.101,
@@ -116,10 +116,10 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T09:16:00Z",
+   "verifie_jusqu_a": "2026-11-23T09:17:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.119e-06,
+   "dernier_prix": 3.127e-06,
    "atr": 5.5986e-08,
    "rollover": 0.048159652276526355,
    "rollover_periodes": 9
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T09:16:06Z",
+ "maj": "2026-11-23T09:18:06Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,7 +156,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T09:12:13Z",
+ "chasseur_t": "2026-11-23T09:17:59Z",
  "tendance": [
   "HYPE",
   "PEARL",
@@ -176,15 +176,30 @@
  ],
  "tendance_t": "2026-11-23T08:37:41Z",
  "buzz": {
+  "QQQ": {
+   "source": "Reddit + StockTwits",
+   "mentions": 120,
+   "x_vs_hier": 2.0
+  },
   "VT": {
    "source": "Reddit",
    "mentions": 40,
    "x_vs_hier": 2.9
   },
   "SOXL": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 39,
    "x_vs_hier": 2.6
+  },
+  "SPY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ASTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   },
   "CAPR": {
    "source": "StockTwits",
@@ -201,12 +216,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "EURUSD": {
+  "HPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "OKLO": {
+  "ANET": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EURUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -216,12 +241,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPY": {
+  "ALGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RBRK": {
+  "SLS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -230,48 +255,27 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
-  },
-  "AAL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HPE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "APP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ALGO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DJIA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TLT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-23T09:00:44Z",
- "sources_t": "2026-11-23T08:57:50Z",
+ "buzz_t": "2026-11-23T09:18:00Z",
+ "sources_t": "2026-11-23T09:18:04Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 11,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Yearly controlling expansion: COP revisit",
-    "瑞典比特幣財庫 H100 交易虧 30 枚 BTC，股價重挫"
+    "Bitcoin’s 21 Million Supply Isn’t The Problem — Analyst Blames Leverage For Crypto Market Chaos",
+    "Chainflip Attacker Became a Validator One Day Before the $12 Million Vault Theft"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 5,
+   "sentiment": "neutral",
+   "titres": [
+    "California AG Bonta sues OpenAI, alleging it put growth ahead of safety",
+    "Nasdaq futures lead rebound as Wall Street looks to recover from AI-driven selloff"
    ]
   },
   {
@@ -279,13 +283,22 @@
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.098460026 | 🚶 0.098470709 | 🚀 0.100700849 Gwei",
-    "Lido V3 & Myrmidon Staking: Pooled Ethereum Staking with stVaults"
+    "⛽ ETH Gas: 🐢 0.107685929 | 🚶 0.107694719 | 🚀 0.11268593 Gwei",
+    "Chainflip Attacker Became a Validator One Day Before the $12 Million Vault Theft"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Chainflip Attacker Became a Validator One Day Before the $12 Million Vault Theft",
+    "OCBC pilots cross-border stablecoin payments with StraitsX"
    ]
   },
   {
    "sujet": "Memecoins",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
     "Trump Hands Out Gold Watches to Memecoin Whales as TRUMP Sits Down 98%",
@@ -293,47 +306,27 @@
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 3,
+   "sujet": "Dogecoin",
+   "mentions": 1,
    "sentiment": "bearish",
    "titres": [
-    "XRP Price Eyes $1 as Analyst Spots First Bullish Signal After Weekend Crash",
-    "ZECUSDT: Failed Recovery Could Trigger a Sharp Sell-Off!"
+    "Dogecoin (DOGE) Price Dips to One-Year Low While Big Wallets Buy the Drop"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "亚马逊拟以 75 亿美元收购 AI 初创公司 Decart",
-    "JPMorgan previews US stock hardware sector earnings: Sell-off lowers the threshold, AI infrastructure fundamentals remain intact, opportunities exist for Dell (DELL.US) and Hewlett Packard Enterprise (HPE.US)"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP Ledger Holds Just 27% of RLUSD Supply but Leads in Transfer Volume",
-    "XRP Price Eyes $1 as Analyst Spots First Bullish Signal After Weekend Crash"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP Price Eyes $1 as Analyst Spots First Bullish Signal After Weekend Crash",
-    "Bitcoin ETFs shed $1.8B in third-largest weekly outflow"
-   ]
-  },
-  {
-   "sujet": "Institutions",
+   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BlackRock Executive Sees New Wave Of Wall Street Investors Entering Crypto — What It Means For Bitcoin"
+    "Federal Reserve flags AI as top financial stability risk"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Solana (SOL) Price Reclaims $72 as ETF Inflows Defy Bitcoin and Ethereum Fund Losses"
    ]
   }
  ],
