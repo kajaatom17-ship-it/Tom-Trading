@@ -1,51 +1,41 @@
 {
- "t": "2026-11-23T01:23:23Z",
+ "t": "2026-11-23T01:29:09Z",
  "nb_analyses": 602,
  "nb_en_mouvement": 1,
  "tendance": [
   "ABBV",
   "AKE",
   "ARM",
+  "AVEX",
   "BTC",
-  "CLF",
+  "CSIQ",
   "DELL",
-  "EROC",
   "ETH",
-  "FCX",
   "GALA",
+  "GME",
   "HBAR",
   "HPE",
   "HYPE",
-  "KHC",
+  "KWEB",
   "LIT",
   "NBIS",
   "NES",
   "PEARL",
   "PENGU",
   "PONS",
-  "RTY_F",
-  "SNDK",
+  "SLS",
+  "SONY",
+  "SPX",
   "SPY",
   "SUI",
-  "SVIX",
+  "TQQQ",
   "TRUMP",
-  "TSN",
   "VVV",
   "ZEC",
-  "ZM"
+  "ZS"
  ],
  "buzz_reseaux": {
-  "ABBV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SPY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NBIS": {
+  "GME": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -55,42 +45,42 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SPX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ABBV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KWEB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NBIS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SPY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ARM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "FCX": {
+  "TQQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SNDK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RTY_F": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SVIX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KHC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CLF": {
+  "ZS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -100,12 +90,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "EROC": {
+  "CSIQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSN": {
+  "SLS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SONY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVEX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -116,9 +116,9 @@
    "sym": "DRV",
    "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": 6.33,
-   "volume_24h_eur": 84372.37,
-   "spread_pct": 0.2522,
+   "variation_24h_pct": 6.26,
+   "volume_24h_eur": 84412.59,
+   "spread_pct": 0.2243,
    "tendance": false,
    "impulsion": null
   }
