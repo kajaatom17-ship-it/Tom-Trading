@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T18:08:00Z",
+   "verifie_jusqu_a": "2026-11-23T18:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 547.618609952023,
+   "dernier_prix": 547.6236431650445,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T18:08:00Z",
+   "verifie_jusqu_a": "2026-11-23T18:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 100.39337512178085,
+   "dernier_prix": 100.39429784652715,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T18:08:00Z",
+   "verifie_jusqu_a": "2026-11-23T18:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 598.8309038436793,
+   "dernier_prix": 598.8364077536053,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T18:08:25Z",
+ "maj": "2026-11-23T18:09:21Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -285,15 +285,15 @@
   }
  },
  "buzz_t": "2026-11-23T18:00:40Z",
- "sources_t": "2026-11-23T17:49:11Z",
+ "sources_t": "2026-11-23T18:09:19Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 10,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "Nvidia Reinstates Huang, Caving to Trump, Musk, Tech Billionaires Worried about their Billions. Shares Explode",
-    "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks"
+    "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
+    "Philosopher Thomas Nagel calls Anthropic’s AI consciousness concerns ‘just ridiculous’"
    ]
   },
   {
@@ -301,17 +301,26 @@
    "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin struggles to hold its rebound as US selling pressure lingers",
-    "Abraxas Capital reportedly scoops up $1 billion in Bitcoin over two days"
+    "Bitcoin - Potential Long Squeeze Coming Up",
+    "TCB Daily Edition: What Happened in Crypto on November 23, 2026"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 2,
+   "sujet": "SEC/Regulation",
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.539937106 | 🚶 0.540037106 | 🚀 0.620337106 Gwei",
-    "# Ethereum | Two Possible Paths for the Corrective Structure"
+    "Nvidia bounces back with Huang's comeback, but SEC probe still looms: BofA",
+    "Coinbase tops CoinDesk exchange benchmark as field shrinks to 62"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Robinhood Crypto expands Stock Tokens to include T. Rowe Price Technology ETF",
+    "女股神不玩了！ARK Invest 撤回兩檔加密 ETF 申請"
    ]
   },
   {
@@ -319,40 +328,32 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Sky cofounder seeks to repay $77M as stUSDS holders remain unable to withdraw",
+    "Sky founder considers institutional token sale to repay $77M amid stUSDS liquidity crisis",
     "BNB Smart Chain’s $261M tokenized ANT volume claim meets first-day data"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "XMoney pledges full cooperation with DOJ in financial crime probe"
+    "Robinhood Chain pays Ethereum 70% more than Base despite collecting 64% less in fees"
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Nomura’s McElligott says AI is now too big to fail as a $41 billion leveraged ETF bid builds"
+    "TCB Daily Edition: What Happened in Crypto on November 23, 2026"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BNB Smart Chain’s $261M tokenized ANT volume claim meets first-day data"
-   ]
-  },
-  {
-   "sujet": "Memecoins",
-   "mentions": 1,
-   "sentiment": "bullish",
-   "titres": [
-    "Fomo and Pump hit record perps volume as memecoin traders chase leverage"
+    "Coinbase tops CoinDesk exchange benchmark as field shrinks to 62"
    ]
   }
  ],
