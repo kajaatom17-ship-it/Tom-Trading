@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T20:10:00Z",
+   "verifie_jusqu_a": "2026-11-23T20:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 547.4246288786538,
+   "dernier_prix": 547.4396968557037,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T20:10:00Z",
+   "verifie_jusqu_a": "2026-11-23T20:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 99.06049874305009,
+   "dernier_prix": 98.97147470892094,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T20:10:00Z",
+   "verifie_jusqu_a": "2026-11-23T20:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 595.4547956768263,
+   "dernier_prix": 595.2693341652063,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T20:10:14Z",
+ "maj": "2026-11-23T20:11:17Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -295,60 +295,33 @@
   }
  },
  "buzz_t": "2026-11-23T20:02:32Z",
- "sources_t": "2026-11-23T19:50:48Z",
+ "sources_t": "2026-11-23T20:11:09Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 9,
+   "sentiment": "bearish",
+   "titres": [
+    "Strive’s Bitcoin amplification ratio hits a record 79.8%",
+    "NQ ES YM and Crude Gold and BTC. Daily Walkthrough. 24.11.26"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 3,
    "sentiment": "bullish",
    "titres": [
-    "Bitcoin (BTC) Macro Regime Analysis: Week 48, 2026 Soft Exit",
-    "Strive pauses Bitcoin purchases, holds 43,404 BTC"
+    "Corning carried higher by AI rally, advances 15%",
+    "Cathie Wood sells $17M in Nvidia shares, signaling strategic shift"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 5,
-   "sentiment": "neutral",
-   "titres": [
-    "Base makes quantum security a 2027 priority as regulators warn of risks",
-    "USDC Treasury mints 250M USDC on Solana, boosting liquidity potential"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "US prosecutors seek to forfeit $1.17 billion in stolen USDC from Binance hack",
-    "PEPE Slides 38% From Its Nov. 10 High as a Fresh Wallet Hoards $10.5M Off Binance"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "# Ethereum | The Bearish Structure Takes the Lead",
-    "ETH went from $1,845 to $1,743. Buy the dip? I’m waiting."
-   ]
-  },
-  {
-   "sujet": "Memecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "POPCAT is extremely bearish! (3D)",
-    "PEPE Slides 38% From Its Nov. 10 High as a Fresh Wallet Hoards $10.5M Off Binance"
-   ]
-  },
-  {
-   "sujet": "Solana",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
     "USDC Treasury mints 250M USDC on Solana, boosting liquidity potential",
-    "Decrypt launches The Information Exchange for trading on Solana"
+    "Aave V4 leads DeFi venues for tokenized stocks with $17.1M in deposits"
    ]
   },
   {
@@ -367,6 +340,31 @@
    "titres": [
     "Aave V4 leads DeFi venues for tokenized stocks with $17.1M in deposits",
     "Pyth Network hires former Nasdaq global compliance head Nick Carso as head of data solutions"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "# Ethereum | The Bearish Structure Takes the Lead",
+    "ETH went from $1,845 to $1,743. Buy the dip? I’m waiting."
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "TradeCityPro | XRP (XRP): Breakout or Breakdown?"
+   ]
+  },
+  {
+   "sujet": "Layer 2",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Nvidia stock soars over 30% as Jensen Huang returns as CEO"
    ]
   }
  ],
