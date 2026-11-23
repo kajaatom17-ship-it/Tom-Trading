@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T08:56:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 527.445018933877,
+   "dernier_prix": 527.4306156072784,
    "atr": 2.771652,
    "rollover": 0.42362525498545606,
    "rollover_periodes": 22
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T08:56:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.22727934750947,
+   "dernier_prix": 97.22462429113682,
    "atr": 1.08547,
    "rollover": 0.3360130686831124,
    "rollover_periodes": 22
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T08:56:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 573.7146810369939,
+   "dernier_prix": 573.6990141909174,
    "atr": 3.304099,
    "rollover": 0.423194789582355,
    "rollover_periodes": 22
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T08:56:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.1,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T08:56:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.107e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T08:56:54Z",
+ "maj": "2026-11-23T08:57:52Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -263,15 +263,24 @@
   }
  },
  "buzz_t": "2026-11-23T08:43:25Z",
- "sources_t": "2026-11-23T08:37:43Z",
+ "sources_t": "2026-11-23T08:57:50Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
+   "mentions": 11,
    "sentiment": "bearish",
    "titres": [
-    "BTCUSDT: Bears Are Still in Control!",
-    "Bitcoin's $65K Comeback: The Bull Trap Nobody Should Ignore"
+    "Yearly controlling expansion: COP revisit",
+    "瑞典比特幣財庫 H100 交易虧 30 枚 BTC，股價重挫"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.098460026 | 🚶 0.098470709 | 🚀 0.100700849 Gwei",
+    "Lido V3 & Myrmidon Staking: Pooled Ethereum Staking with stVaults"
    ]
   },
   {
@@ -302,15 +311,6 @@
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Lido V3 & Myrmidon Staking: Pooled Ethereum Staking with stVaults",
-    "Ethereum (ETH) Price Bounces After Brutal Weekend, but Bulls Are Not Out of the Woods"
-   ]
-  },
-  {
    "sujet": "XRP",
    "mentions": 2,
    "sentiment": "neutral",
@@ -329,11 +329,11 @@
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Institutions",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "XRP Ledger Holds Just 27% of RLUSD Supply but Leads in Transfer Volume"
+    "BlackRock Executive Sees New Wave Of Wall Street Investors Entering Crypto — What It Means For Bitcoin"
    ]
   }
  ],
