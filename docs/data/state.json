@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:06:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 543.8578764134737,
+   "dernier_prix": 547.148145766542,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:06:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 101.17303399685844,
+   "dernier_prix": 101.00221387299167,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:06:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 598.302453542526,
+   "dernier_prix": 598.3244380345218,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T17:06:39Z",
+ "maj": "2026-11-23T17:08:45Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -108,7 +108,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T17:02:50Z",
+ "chasseur_t": "2026-11-23T17:08:36Z",
  "tendance": [
   "PEI",
   "BTC",
@@ -130,28 +130,28 @@
  "buzz": {
   "NVDA": {
    "source": "Reddit + StockTwits",
-   "mentions": 1151,
-   "x_vs_hier": 4.1
+   "mentions": 1216,
+   "x_vs_hier": 4.3
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 337,
+   "mentions": 341,
    "x_vs_hier": 3.7
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 195,
+   "mentions": 198,
    "x_vs_hier": 3.6
   },
   "NYT": {
    "source": "Reddit",
-   "mentions": 87,
-   "x_vs_hier": 7.9
+   "mentions": 92,
+   "x_vs_hier": 8.4
   },
   "DTE": {
    "source": "Reddit",
-   "mentions": 65,
-   "x_vs_hier": 2.7
+   "mentions": 66,
+   "x_vs_hier": 2.8
   },
   "SOXL": {
    "source": "Reddit",
@@ -160,45 +160,40 @@
   },
   "AM": {
    "source": "Reddit",
-   "mentions": 58,
-   "x_vs_hier": 6.4
+   "mentions": 62,
+   "x_vs_hier": 6.9
   },
   "HR": {
    "source": "Reddit",
-   "mentions": 51,
-   "x_vs_hier": 10.2
+   "mentions": 57,
+   "x_vs_hier": 11.4
   },
   "ET": {
    "source": "Reddit",
-   "mentions": 47,
-   "x_vs_hier": 2.6
+   "mentions": 51,
+   "x_vs_hier": 2.8
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 39,
-   "x_vs_hier": 2.2
-  },
-  "IT": {
-   "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 2.0
+   "mentions": 41,
+   "x_vs_hier": 2.3
   },
   "CIA": {
    "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 8.5
+   "mentions": 35,
+   "x_vs_hier": 8.8
   },
   "ALL": {
    "source": "Reddit",
-   "mentions": 30,
-   "x_vs_hier": 3.3
+   "mentions": 33,
+   "x_vs_hier": 3.7
+  },
+  "YOU": {
+   "source": "Reddit",
+   "mentions": 31,
+   "x_vs_hier": 3.4
   },
   "CRWD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -208,12 +203,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZS": {
+  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HPE": {
+  "ZS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -223,22 +218,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "WLFI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "CSIQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LKNCY": {
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZM": {
+  "HPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AUPH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -248,41 +243,46 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XRP": {
+  "T": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TQQQ": {
+  "IREN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
+  "UCO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DELL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-23T16:51:21Z",
- "sources_t": "2026-11-23T16:48:09Z",
+ "buzz_t": "2026-11-23T17:08:36Z",
+ "sources_t": "2026-11-23T17:08:42Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "This Btc / Eth fractal is STILL mapping out Btc's next moves",
-    "Bitcoin ETFs Lose $1.79B in 3rd-Largest Weekly Outflow"
+    "XRP Price Tops $1 as Nvidia Brings Back Jensen Huang, Ripple CEO Eyes Rally",
+    "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "neutral",
+   "mentions": 8,
+   "sentiment": "bearish",
    "titres": [
-    "Revealed: Anthropic's \"Weird\" Billionaire Boss Once Had A Plan To Pacify The Masses AI Puts Out Of Work",
-    "Apple hits all-time high as AI stocks decline amid market volatility"
+    "Google DeepMind and Google Quantum AI use AI agents to build formally verified quantum algorithms",
+    "US banks take passwords away from in-house AI agents after the Hugging Face breach"
    ]
   },
   {
@@ -290,50 +290,52 @@
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "This Btc / Eth fractal is STILL mapping out Btc's next moves",
-    "Researchers Warn $72B in ETH Faces Future Quantum Risk"
+    "# Ethereum | Two Possible Paths for the Corrective Structure",
+    "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "XRP Price Tops $1 as Nvidia Brings Back Jensen Huang, Ripple CEO Eyes Rally",
+    "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
+    "Jupiter COO Kash Dhanda puts security first as the Solana aggregator plans for 2027"
+   ]
+  },
+  {
+   "sujet": "Cardano",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
+    "ADA Hovers at $0.15 as Ben Simpson Says Cardano Is Barely Used for Its Valuation"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin ETFs Lose $1.79B in 3rd-Largest Weekly Outflow",
-    "Ethereum Reclaims $1700 After Rebound as ETF Outflows Weigh on Recovery"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "# PROM/USDT — Potential Breakout Ahead? Key Levels to Watch",
-    "Spark Liquidity Layer recalls $408M in 24 hours amid stablecoin outflows"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
+    "\"Never A Dull Moment\": Global X Files For First Tungsten ETF As CME Plans Futures And Resource Nationalism Intensifies",
     "Bitcoin ETFs Lose $1.79B in 3rd-Largest Weekly Outflow"
    ]
   },
   {
-   "sujet": "Polygon",
+   "sujet": "Memecoins",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "# PROM/USDT — Potential Breakout Ahead? Key Levels to Watch"
-   ]
-  },
-  {
-   "sujet": "Layer 2",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "# PROM/USDT — Potential Breakout Ahead? Key Levels to Watch"
+    "Fomo and Pump hit record perps volume as memecoin traders chase leverage"
    ]
   }
  ],
