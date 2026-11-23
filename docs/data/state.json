@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T16:25:00Z",
+   "verifie_jusqu_a": "2026-11-23T16:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 543.9518054586196,
+   "dernier_prix": 544.1137304961934,
    "atr": 2.771652,
    "rollover": 0.44288094839388586,
    "rollover_periodes": 23
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T16:25:00Z",
+   "verifie_jusqu_a": "2026-11-23T16:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 101.77974506850823,
+   "dernier_prix": 101.92030416295495,
    "atr": 1.08547,
    "rollover": 0.35128638998689027,
    "rollover_periodes": 23
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T16:25:00Z",
+   "verifie_jusqu_a": "2026-11-23T16:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 599.7777614517136,
+   "dernier_prix": 599.5830616499371,
    "atr": 3.304099,
    "rollover": 0.44243091638155296,
    "rollover_periodes": 23
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T16:25:45Z",
+ "maj": "2026-11-23T16:28:06Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -108,25 +108,25 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T16:21:59Z",
+ "chasseur_t": "2026-11-23T16:27:46Z",
  "tendance": [
-  "MINELIUS",
-  "BTC",
   "PEI",
+  "BTC",
   "LOOSY",
-  "PEARL",
   "PENGU",
-  "HYPE",
+  "PEARL",
   "DRV",
+  "HYPE",
+  "SUI",
   "SKY",
+  "MON",
   "ETH",
   "VVV",
-  "SOL",
-  "MON",
-  "ZEC",
-  "TAC"
+  "XRP",
+  "AAVE",
+  "PI"
  ],
- "tendance_t": "2026-11-23T15:26:33Z",
+ "tendance_t": "2026-11-23T16:27:46Z",
  "buzz": {
   "NVDA": {
    "source": "Reddit + StockTwits",
@@ -255,74 +255,75 @@
   }
  },
  "buzz_t": "2026-11-23T16:16:10Z",
- "sources_t": "2026-11-23T16:07:18Z",
+ "sources_t": "2026-11-23T16:27:51Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 14,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "数据：过去 24 小时全网爆仓 6.39 亿美元，主爆空单",
-    "不賣幣改抵押借錢！川普家族礦企 ABTC 取得 1.5 億美元信貸"
+    "This Btc / Eth fractal is STILL mapping out Btc's next moves",
+    "Bitcoin ETFs Lose $1.79B in 3rd-Largest Weekly Outflow"
    ]
   },
   {
-   "sujet": "Institutions",
-   "mentions": 6,
+   "sujet": "AI",
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "BlackRock Enhanced Equity Dividend Trust declares $0.0619 dividend",
-    "BlackRock Resources & Commodities Strategy Trust declares $0.0697 dividend"
+    "Revealed: Anthropic's \"Weird\" Billionaire Boss Once Had A Plan To Pacify The Masses AI Puts Out Of Work",
+    "Apple hits all-time high as AI stocks decline amid market volatility"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 2,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "数据：过去 24 小时全网爆仓 6.39 亿美元，主爆空单",
-    "Bitmine adds 7,819 ETH as Tom Lee makes the ‘hard money’ case"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "BTC 4H — A sharp turn at resistance: short example",
-    "Dead Cat Bounce Explained: Bitcoin's Bounce From 55K"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "DeFi Development extends Solana buying streak to 11 straight weeks, SOL treasury hits 2.62 million"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "DeFi Development extends Solana buying streak to 11 straight weeks, SOL treasury hits 2.62 million"
+    "This Btc / Eth fractal is STILL mapping out Btc's next moves",
+    "Researchers Warn $72B in ETH Faces Future Quantum Risk"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 1,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Why Bitcoin surged toward $64,000 before pulling back as trading slows 54% into Thanksgiving"
+    "Bitcoin ETFs Lose $1.79B in 3rd-Largest Weekly Outflow",
+    "Ethereum Reclaims $1700 After Rebound as ETF Outflows Weigh on Recovery"
    ]
   },
   {
-   "sujet": "Coinbase",
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "# PROM/USDT — Potential Breakout Ahead? Key Levels to Watch",
+    "Spark Liquidity Layer recalls $408M in 24 hours amid stablecoin outflows"
+   ]
+  },
+  {
+   "sujet": "Institutions",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Why Bitcoin surged toward $64,000 before pulling back as trading slows 54% into Thanksgiving"
+    "Bitcoin ETFs Lose $1.79B in 3rd-Largest Weekly Outflow"
+   ]
+  },
+  {
+   "sujet": "Polygon",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "# PROM/USDT — Potential Breakout Ahead? Key Levels to Watch"
+   ]
+  },
+  {
+   "sujet": "Layer 2",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "# PROM/USDT — Potential Breakout Ahead? Key Levels to Watch"
    ]
   }
  ],
