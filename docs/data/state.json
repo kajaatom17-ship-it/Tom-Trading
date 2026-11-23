@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T11:58:00Z",
+   "verifie_jusqu_a": "2026-11-23T12:00:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 530.7596103813115,
+   "dernier_prix": 531.6940938090413,
    "atr": 2.771652,
    "rollover": 0.42362525498545606,
    "rollover_periodes": 22
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T11:58:00Z",
+   "verifie_jusqu_a": "2026-11-23T12:00:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.59637767817205,
+   "dernier_prix": 97.57856210582038,
    "atr": 1.08547,
    "rollover": 0.3360130686831124,
    "rollover_periodes": 22
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T11:58:00Z",
+   "verifie_jusqu_a": "2026-11-23T12:00:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 576.8328418977023,
+   "dernier_prix": 576.7275448828527,
    "atr": 3.304099,
    "rollover": 0.423194789582355,
    "rollover_periodes": 22
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T11:58:00Z",
+   "verifie_jusqu_a": "2026-11-23T12:00:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.1009,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T11:59:00Z",
+   "verifie_jusqu_a": "2026-11-23T12:00:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.154e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T11:59:01Z",
+ "maj": "2026-11-23T12:01:04Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,7 +156,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T11:55:08Z",
+ "chasseur_t": "2026-11-23T12:00:58Z",
  "tendance": [
   "MINELIUS",
   "LOOSY",
@@ -263,42 +263,66 @@
   }
  },
  "buzz_t": "2026-11-23T11:55:09Z",
- "sources_t": "2026-11-23T11:40:38Z",
+ "sources_t": "2026-11-23T12:01:03Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 15,
-   "sentiment": "bearish",
+   "mentions": 13,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin rebounds above $61,000 as Wall Street futures rise",
-    "Saylor Boasts 34% Annual MSTR Returns While Strategy Sits $12B Underwater"
+    "HYPE: the one chart here where the weekly is still up",
+    "Trump-linked American Bitcoin secures $150M credit facility backed by Bitcoin holdings"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 8,
-   "sentiment": "bearish",
+   "mentions": 9,
+   "sentiment": "neutral",
    "titres": [
-    "Visa launches experimental AI agent wallet for eligible US users to earn OUSD from paid tasks",
-    "North Korea unveils its own chatbot after US labs banned its hackers"
+    "Qnity to acquire Meridian electronics unit for $840 million",
+    "Nvidia posts $115.8 billion quarter as analysts see roughly 64% upside"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 3,
+   "sentiment": "bullish",
+   "titres": [
+    "Jupiter’s weekly Solana perps volume hits $3.95 billion, a 12-month high",
+    "Jupiter Exchange hits $4B weekly volume, leads Solana perps market"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "HYPE: the one chart here where the weekly is still up",
+    "ETH: sellers look spent, but the weekly is still red"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "KuCoin opens CLEAR/USDT spot trading after Clearpool’s ticker migration",
-    "Bitcoin (BTC/USDT) 15m Analysis: Long Setup with Tight Risk"
+    "KuCoin opens CLEAR/USDT spot trading after Clearpool’s ticker migration"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin Rebounds to $61K After Weekend Plunge to Two-Year Low",
-    "Bitcoin Regains $61,000 After Weekend Plunge as AI-Stock Rout Eases"
+    "Bitcoin Rebounds to $61K After Weekend Plunge to Two-Year Low"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Are Changpeng Zhao and Elon Musk Done Fighting? A Grok Experiment Hints Yes"
    ]
   },
   {
