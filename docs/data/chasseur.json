@@ -1,19 +1,18 @@
 {
- "t": "2026-11-23T03:41:53Z",
+ "t": "2026-11-23T03:47:38Z",
  "nb_analyses": 603,
  "nb_en_mouvement": 1,
  "tendance": [
+  "APLD",
+  "AVGO",
+  "BMY",
   "BTC",
-  "CAPR",
-  "CRSP",
   "DRV",
   "ELSA",
   "ETH",
   "EWY",
   "HYPE",
-  "META",
-  "MU",
-  "NBIS",
+  "JD",
   "NVDA",
   "ONDO",
   "PEARL",
@@ -21,6 +20,7 @@
   "PI",
   "QQQ",
   "RVMD",
+  "SHIB",
   "SOXL",
   "SPY",
   "SUI",
@@ -29,9 +29,9 @@
   "TQQQ",
   "TRUMP",
   "TSM",
+  "VOO",
   "VT",
   "VVV",
-  "WMT",
   "XRP"
  ],
  "buzz_reseaux": {
@@ -45,22 +45,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NBIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "EWY": {
+  "TSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -70,37 +60,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "RVMD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "META": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QQQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRSP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TRUMP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MU": {
+  "EWY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -110,7 +70,47 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
+  "VOO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "QQQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TRUMP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RVMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "APLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SHIB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -121,9 +121,9 @@
    "sym": "AI",
    "pair": "AIEUR",
    "action": false,
-   "variation_24h_pct": 6.85,
-   "volume_24h_eur": 74474.22,
-   "spread_pct": 0.2089,
+   "variation_24h_pct": 5.65,
+   "volume_24h_eur": 73860.01,
+   "spread_pct": 0.493,
    "tendance": false,
    "impulsion": null
   }
