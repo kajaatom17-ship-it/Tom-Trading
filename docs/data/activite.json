@@ -1,15 +1,5 @@
 [
  {
-  "t": "2026-11-22T14:30:25Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[liquidations, chute] $400M in crypto shorts liquidated as market recovers from crash - Crypto Briefing (Crypto Briefing)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUS1vam80cGplUFZwU1RCYzQ4MENSaFdETV9UMVlYcHdQVnllZmVUUzlMNktPWkxSMy16RmZSTWtmam5OdnU3dm9RWWxqemRXV0RyemFqdVRjcVpBWENKaGZmbVctdkdFVVZRSktBQzRKZldfQkF6RnM4S3BESl9hWW84cVpZc0NrLU8wNUJ3UDFqUUhq?oc=5",
-   "actifs": []
-  }
- },
- {
   "t": "2026-11-22T14:36:10Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2731,5 +2721,18 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "608 actifs hors univers analysés, 43 en mouvement : SOXL +27.3 %, INX +20.3 %, ALGO +15.4 %."
+ },
+ {
+  "t": "2026-11-23T17:04:49Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[liquidations, hausse] Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations (Cointelegraph)",
+  "data": {
+   "lien": "https://cointelegraph.com/markets/bitcoin-rebounds-lows-nvidia-rally-sparks-500m-crypto-liquidations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "actifs": [
+    "BTC",
+    "NVDA"
+   ]
+  }
  }
 ]
