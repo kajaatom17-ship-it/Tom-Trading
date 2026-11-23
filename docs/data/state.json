@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T07:49:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 526.4593562465902,
+   "dernier_prix": 526.425850327766,
    "atr": 2.771652,
    "rollover": 0.40436956157702625,
    "rollover_periodes": 21
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T07:49:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.44498999818148,
+   "dernier_prix": 97.43878822042606,
    "atr": 1.08547,
    "rollover": 0.3207397473793346,
    "rollover_periodes": 21
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T07:49:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.5584651754864,
+   "dernier_prix": 571.5220889741515,
    "atr": 3.304099,
    "rollover": 0.40395866278315706,
    "rollover_periodes": 21
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T07:49:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0995,
@@ -116,10 +116,10 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T07:49:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.111e-06,
+   "dernier_prix": 3.108e-06,
    "atr": 5.5986e-08,
    "rollover": 0.048159652276526355,
    "rollover_periodes": 9
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T07:49:16Z",
+ "maj": "2026-11-23T07:51:13Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,7 +156,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T07:46:22Z",
+ "chasseur_t": "2026-11-23T07:51:10Z",
  "tendance": [
   "BTC",
   "PEARL",
@@ -184,14 +184,14 @@
   "SOXL": {
    "source": "Reddit",
    "mentions": 39,
-   "x_vs_hier": 2.3
+   "x_vs_hier": 2.6
   },
-  "CAPR": {
+  "GME": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GME": {
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -206,7 +206,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBIT": {
+  "LTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -216,22 +216,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HUM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NBIS": {
+  "PEP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -246,23 +231,38 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BNB": {
+  "IBIT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ALGO": {
+  "MCD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AAPL": {
+  "SHOP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CPS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SNOW": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DRAM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-23T07:36:29Z",
+ "buzz_t": "2026-11-23T07:51:11Z",
  "sources_t": "2026-11-23T07:36:32Z",
  "actus_tendance": [
   {
