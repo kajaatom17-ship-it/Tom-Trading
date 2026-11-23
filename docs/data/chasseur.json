@@ -1,28 +1,28 @@
 {
- "t": "2026-11-23T03:24:29Z",
+ "t": "2026-11-23T03:30:11Z",
  "nb_analyses": 603,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 0,
  "tendance": [
-  "ALNY",
-  "BLK",
   "BTC",
+  "CAPR",
   "CRSP",
   "DRV",
   "ELSA",
   "ETH",
   "EWY",
-  "GAP",
-  "GME",
   "HYPE",
-  "JEPQ",
+  "META",
+  "MU",
   "NBIS",
+  "NVDA",
   "ONDO",
   "PEARL",
   "PENGU",
   "PI",
   "QQQ",
-  "SNY",
-  "SRPT",
+  "RVMD",
+  "SOXL",
+  "SPY",
   "SUI",
   "TAC",
   "TAO",
@@ -50,7 +50,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TRUMP": {
+  "NVDA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -65,27 +65,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNY": {
+  "SOXL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ALNY": {
+  "RVMD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GME": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SRPT": {
+  "META": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -100,33 +90,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BLK": {
+  "WMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JEPQ": {
+  "TRUMP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GAP": {
+  "MU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SPY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [
-  {
-   "sym": "AI",
-   "pair": "AIEUR",
-   "action": false,
-   "variation_24h_pct": 5.36,
-   "volume_24h_eur": 75724.87,
-   "spread_pct": 0.2119,
-   "tendance": false,
-   "impulsion": null
-  }
- ],
+ "candidats": [],
  "ajoutes": []
 }
