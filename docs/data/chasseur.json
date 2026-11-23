@@ -1,5 +1,5 @@
 {
- "t": "2026-11-23T10:33:45Z",
+ "t": "2026-11-23T10:39:31Z",
  "nb_analyses": 605,
  "nb_en_mouvement": 9,
  "tendance": [
@@ -124,12 +124,32 @@
  },
  "candidats": [
   {
+   "sym": "AI",
+   "pair": "AIEUR",
+   "action": false,
+   "variation_24h_pct": 10.27,
+   "volume_24h_eur": 40288.21,
+   "spread_pct": 0.135,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "JUP",
    "pair": "JUPEUR",
    "action": false,
-   "variation_24h_pct": 7.75,
-   "volume_24h_eur": 810461.62,
-   "spread_pct": 0.127,
+   "variation_24h_pct": 7.66,
+   "volume_24h_eur": 811987.47,
+   "spread_pct": 0.118,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "ALGO",
+   "pair": "ALGOEUR",
+   "action": false,
+   "variation_24h_pct": 7.87,
+   "volume_24h_eur": 111232.35,
+   "spread_pct": 0.0674,
    "tendance": false,
    "impulsion": null
   },
@@ -138,18 +158,18 @@
    "pair": "BLUREUR",
    "action": false,
    "variation_24h_pct": 8.31,
-   "volume_24h_eur": 48173.8,
+   "volume_24h_eur": 48237.47,
    "spread_pct": 0.274,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "ALGO",
-   "pair": "ALGOEUR",
+   "sym": "QNT",
+   "pair": "QNTEUR",
    "action": false,
-   "variation_24h_pct": 7.58,
-   "volume_24h_eur": 109833.6,
-   "spread_pct": 0.0811,
+   "variation_24h_pct": 6.15,
+   "volume_24h_eur": 304482.87,
+   "spread_pct": 0.0575,
    "tendance": false,
    "impulsion": null
   },
@@ -159,27 +179,7 @@
    "action": false,
    "variation_24h_pct": 5.65,
    "volume_24h_eur": 132737.18,
-   "spread_pct": 0.2812,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "QNT",
-   "pair": "QNTEUR",
-   "action": false,
-   "variation_24h_pct": 5.01,
-   "volume_24h_eur": 300336.34,
-   "spread_pct": 0.1163,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "RARE",
-   "pair": "RAREEUR",
-   "action": false,
-   "variation_24h_pct": 5.39,
-   "volume_24h_eur": 61662.07,
-   "spread_pct": 0.0787,
+   "spread_pct": 0.2009,
    "tendance": false,
    "impulsion": null
   },
@@ -187,9 +187,9 @@
    "sym": "EDGEX",
    "pair": "EDGEXEUR",
    "action": false,
-   "variation_24h_pct": 5.56,
-   "volume_24h_eur": 40277.25,
-   "spread_pct": 0.16,
+   "variation_24h_pct": 5.19,
+   "volume_24h_eur": 40791.05,
+   "spread_pct": 0.1733,
    "tendance": false,
    "impulsion": null
   },
@@ -197,9 +197,9 @@
    "sym": "MON",
    "pair": "MONEUR",
    "action": false,
-   "variation_24h_pct": -4.39,
-   "volume_24h_eur": 210314.41,
-   "spread_pct": 0.0919,
+   "variation_24h_pct": -4.13,
+   "volume_24h_eur": 213331.55,
+   "spread_pct": 0.0917,
    "tendance": true,
    "impulsion": null
   }
