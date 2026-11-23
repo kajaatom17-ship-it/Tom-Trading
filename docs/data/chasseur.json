@@ -1,36 +1,36 @@
 {
- "t": "2026-11-23T04:33:40Z",
+ "t": "2026-11-23T04:39:39Z",
  "nb_analyses": 603,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "BTC",
   "C",
+  "CAPR",
   "CLS",
   "ETH",
   "EVAA",
   "FCEL",
+  "HPE",
   "HYPE",
-  "JD",
+  "KLAR",
   "LIT",
   "MAGMA",
-  "META",
   "NEAR",
   "NTSK",
   "NVDA",
+  "OMER",
   "PEARL",
   "PENGU",
   "PEPE",
   "PI",
   "PONS",
-  "QQQ",
   "SANM",
-  "SOXL",
   "SPY",
   "TQQQ",
   "TRUMP",
+  "TTMI",
+  "UPST",
   "VKTX",
-  "VOO",
-  "VRT",
   "VT",
   "VVV",
   "ZRO"
@@ -39,14 +39,9 @@
   "VT": {
    "source": "Reddit",
    "mentions": 43,
-   "x_vs_hier": 3.1
+   "x_vs_hier": 3.3
   },
   "NVDA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TQQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -66,37 +61,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "FCEL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VOO": {
+  "TQQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOXL": {
+  "OMER": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "QQQ": {
+  "CLS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "META": {
+  "UPST": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JD": {
+  "SPY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -106,12 +96,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "VRT": {
+  "HPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CLS": {
+  "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TTMI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KLAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -122,9 +122,19 @@
    "sym": "AI",
    "pair": "AIEUR",
    "action": false,
-   "variation_24h_pct": 6.77,
-   "volume_24h_eur": 72688.67,
-   "spread_pct": 0.0697,
+   "variation_24h_pct": 7.37,
+   "volume_24h_eur": 72696.6,
+   "spread_pct": 0.2079,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "ICNT",
+   "pair": "ICNTEUR",
+   "action": false,
+   "variation_24h_pct": 5.06,
+   "volume_24h_eur": 118956.74,
+   "spread_pct": 0.2377,
    "tendance": false,
    "impulsion": null
   }
