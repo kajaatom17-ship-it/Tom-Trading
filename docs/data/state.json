@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T10:58:00Z",
+   "verifie_jusqu_a": "2026-11-23T10:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 533.6921813703129,
+   "dernier_prix": 533.7262666167896,
    "atr": 2.771652,
    "rollover": 0.42362525498545606,
    "rollover_periodes": 22
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T10:58:00Z",
+   "verifie_jusqu_a": "2026-11-23T10:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.08411641273607,
+   "dernier_prix": 98.09038073775353,
    "atr": 1.08547,
    "rollover": 0.3360130686831124,
    "rollover_periodes": 22
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T10:58:00Z",
+   "verifie_jusqu_a": "2026-11-23T10:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 576.8543016148161,
+   "dernier_prix": 576.8911434905979,
    "atr": 3.304099,
    "rollover": 0.423194789582355,
    "rollover_periodes": 22
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T10:58:00Z",
+   "verifie_jusqu_a": "2026-11-23T10:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0997,
@@ -116,10 +116,10 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T10:58:00Z",
+   "verifie_jusqu_a": "2026-11-23T10:59:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.142e-06,
+   "dernier_prix": 3.143e-06,
    "atr": 5.5986e-08,
    "rollover": 0.048159652276526355,
    "rollover_periodes": 9
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T10:58:49Z",
+ "maj": "2026-11-23T10:59:46Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -263,60 +263,58 @@
   }
  },
  "buzz_t": "2026-11-23T10:45:17Z",
- "sources_t": "2026-11-23T10:39:31Z",
+ "sources_t": "2026-11-23T10:59:45Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 17,
+   "mentions": 8,
    "sentiment": "bearish",
    "titres": [
-    "BTC: 19.6% Under Its Cost Line. 61,500 Decides the Bounce.",
-    "Bitcoin’s plunge below $60,000 triggers $20 million buying spree at Twenty One Capital"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 6,
-   "sentiment": "neutral",
-   "titres": [
-    "SanDisk splits stock 8-for-1 as AI demand drives record profits",
-    "TSMC’s Cliff Hou says clients have not adjusted their orders"
+    "BTC: this looks like forced selling, not a base yet",
+    "BTCUSDT — BEARISH REJECTION SETUP | RESISTANCE & DOWNSIDE TARGET"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 5,
-   "sentiment": "neutral",
-   "titres": [
-    "Williams pushes EPA to exempt data center gas plants from acid rain rules",
-    "Williams seeks exemption for Meta data center plants from Acid Rain rules"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase Institutional moves 165.97 million USDC to an unknown wallet",
-    "Ripple’s RLUSD overtakes Trump-linked USD1 as supply hits a record $2.87 billion"
+    "South Korea to unveil draft crypto laws this week, impacting Hyperliquid outlook",
+    "Williams pushes EPA to exempt data center gas plants from acid rain rules"
    ]
   },
   {
    "sujet": "XRP",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Ripple’s RLUSD overtakes Trump-linked USD1 as supply hits a record $2.87 billion",
-    "Ripple’s RLUSD surpasses Trump’s USD1 stablecoin with $3B supply"
+    "XRP Ledger Takes Another Step Toward Institutional Lending — Could This Change XRP’s Future?",
+    "Founder Explains Why He Wouldn’t Touch XRP With a 10-Foot Pole"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "AI",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "ZECUSDT: Failed Recovery Could Trigger a Sharp Sell-Off!",
-    "Binance Bitcoin open interest drops nearly 40% in largest deleveraging on record"
+    "ELSA — AI Infrastructure + Stage 1 Accumulation",
+    "Meta AI Chief Wang Says Humans May Lose Control of Superintelligence Within a Year"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Top $TRUMP Holders Bring Just $8.6 Million to Trump’s Third Meme Coin Dinner, Versus $148 Million in 2025"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "bullish",
+   "titres": [
+    "Solana hits record $1.8 billion in weekly tokenized equities trading"
    ]
   },
   {
@@ -324,15 +322,15 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin Volume Profile & VWAP BTC Trade Plan"
+    "比特幣 ETF 上週失血 17.9 億美元，連 4 週淨流出"
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Solana: A Short-Term Bullish Setup"
+    "South Korea to publish draft of comprehensive crypto legal framework this week"
    ]
   }
  ],
