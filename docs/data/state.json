@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T01:30:00Z",
+   "verifie_jusqu_a": "2026-11-23T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 526.0424260096223,
+   "dernier_prix": 526.0663938982494,
    "atr": 2.771652,
    "rollover": 0.38511386816859644,
    "rollover_periodes": 20
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T01:30:00Z",
+   "verifie_jusqu_a": "2026-11-23T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.09870243475726,
+   "dernier_prix": 97.10312650926288,
    "atr": 1.08547,
    "rollover": 0.30546642607555674,
    "rollover_periodes": 20
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T01:30:00Z",
+   "verifie_jusqu_a": "2026-11-23T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.5938912377898,
+   "dernier_prix": 572.2304741249692,
    "atr": 3.304099,
    "rollover": 0.3847225359839591,
    "rollover_periodes": 20
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T01:30:00Z",
+   "verifie_jusqu_a": "2026-11-23T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0979,
@@ -119,7 +119,7 @@
    "verifie_jusqu_a": "2026-11-23T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.07e-06,
+   "dernier_prix": 3.072e-06,
    "atr": 5.5986e-08,
    "rollover": 0.03745750732618716,
    "rollover_periodes": 7
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T01:31:01Z",
+ "maj": "2026-11-23T01:31:59Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -253,15 +253,24 @@
   }
  },
  "buzz_t": "2026-11-23T01:29:08Z",
- "sources_t": "2026-11-23T01:11:56Z",
+ "sources_t": "2026-11-23T01:31:58Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 7,
+   "mentions": 10,
+   "sentiment": "bearish",
+   "titres": [
+    "From Tagalog Crypto Guides to AI Trading Agents: Practical Takeaways From Binance’s Manila Tech Event",
+    "Elon Musk issues another warning: AI companies will face \"crazy cash shortages\" next year, and data center delays may require tens of billions more in investment."
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "US-China Commission recommends Congress require software AI disclosures",
-    "Anthropic’s Claude nears 350 million weekly website visits ahead of IPO"
+    "From Tagalog Crypto Guides to AI Trading Agents: Practical Takeaways From Binance’s Manila Tech Event",
+    "Fusionist 跨鏈橋遭印鈔攻擊！5,370 萬枚 ACE 儲備被搬光"
    ]
   },
   {
@@ -274,12 +283,11 @@
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 2,
+   "sujet": "XRP",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Solo Bitcoin Miner Wins $190K Jackpot Against 130 Million-to-One Odds",
-    "Abraxas Capital Withdraws $1B in Bitcoin, and Nobody Knows Why"
+    "Ripple CEO Sees Room for Crypto Rally as XRP Trades Below $1"
    ]
   },
   {
@@ -307,19 +315,11 @@
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Bitcoin",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Abraxas Capital Withdraws $1B in Bitcoin, and Nobody Knows Why"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "早报｜以太坊过去 24 小时上涨 2.3%；美国 SEC 起诉 8 家实体，指控其利用虚假加密平台骗取逾 3700 万美元"
+    "Solo Bitcoin Miner Wins $190K Jackpot Against 130 Million-to-One Odds"
    ]
   }
  ],
