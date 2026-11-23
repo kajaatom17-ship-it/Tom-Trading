@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:47:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 545.4837790906,
+   "dernier_prix": 545.694353808399,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:47:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 100.10014608465559,
+   "dernier_prix": 100.0009191260949,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:47:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 597.1646714014021,
+   "dernier_prix": 597.395196647028,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T17:47:09Z",
+ "maj": "2026-11-23T17:49:14Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -108,7 +108,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T17:43:17Z",
+ "chasseur_t": "2026-11-23T17:49:05Z",
  "tendance": [
   "DRV",
   "PEI",
@@ -285,15 +285,15 @@
   }
  },
  "buzz_t": "2026-11-23T17:43:18Z",
- "sources_t": "2026-11-23T17:28:46Z",
+ "sources_t": "2026-11-23T17:49:11Z",
  "actus_tendance": [
   {
    "sujet": "AI",
    "mentions": 10,
    "sentiment": "neutral",
    "titres": [
-    "Larry Ellison drops from top 10 billionaires after $11B loss",
-    "Cerebras stock surges as strong earnings collide with Nvidia leadership shake-up"
+    "Nvidia Reinstates Huang, Caving to Trump, Musk, Tech Billionaires Worried about their Billions. Shares Explode",
+    "CrowdStrike to buy Zscaler in $44 billion deal as AI supercharges cyberattacks"
    ]
   },
   {
@@ -301,17 +301,8 @@
    "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "Btc is at a major inflection point. Trap door or spring board?",
-    "Trump-Linked American Bitcoin Secures $150M FalconX Credit Line Backed by BTC"
-   ]
-  },
-  {
-   "sujet": "Layer 2",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Dell Q3 preview: Short-term optimism points to better-than-expected Q3 despite long-term concerns",
-    "Quant’s multichain Rollup Fusion mainnet is now open to the public"
+    "Bitcoin struggles to hold its rebound as US selling pressure lingers",
+    "Abraxas Capital reportedly scoops up $1 billion in Bitcoin over two days"
    ]
   },
   {
@@ -319,35 +310,25 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "# Ethereum | Two Possible Paths for the Corrective Structure",
-    "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More"
+    "⛽ ETH Gas: 🐢 0.539937106 | 🚶 0.540037106 | 🚀 0.620337106 Gwei",
+    "# Ethereum | Two Possible Paths for the Corrective Structure"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Sky cofounder seeks to repay $77M as stUSDS holders remain unable to withdraw",
+    "BNB Smart Chain’s $261M tokenized ANT volume claim meets first-day data"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Hacksaw corrects earlier claim that buyback programme follows Safe Harbour Regulation",
-    "Ondo Finance accuses Backpack Securities of wash trading its Anthropic token"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP Price Tops $1 as Nvidia Brings Back Jensen Huang, Ripple CEO Eyes Rally",
-    "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
-    "Viscofan Director Santiago Domecq Bohórquez Sells EUR 522,680.42 in Shares Held Indirectly"
+    "XMoney pledges full cooperation with DOJ in financial crime probe"
    ]
   },
   {
@@ -356,6 +337,22 @@
    "sentiment": "neutral",
    "titres": [
     "Nomura’s McElligott says AI is now too big to fail as a $41 billion leveraged ETF bid builds"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BNB Smart Chain’s $261M tokenized ANT volume claim meets first-day data"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 1,
+   "sentiment": "bullish",
+   "titres": [
+    "Fomo and Pump hit record perps volume as memecoin traders chase leverage"
    ]
   }
  ],
