@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-22T05:34:33Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "RARE +2.9 % en 15 min"
- },
- {
-  "t": "2026-11-22T05:40:34Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAL, ASST, CAD, CRCL, GDXU, JNJ, MRK, NTLA, NVTS, OXY, PFE, PYPL"
- },
- {
   "t": "2026-11-22T05:40:35Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2634,5 +2622,23 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "604 actifs hors univers analysés, 6 en mouvement : JUP +7.5 %, BLUR +7.4 %, MELANIA +6.1 %."
+ },
+ {
+  "t": "2026-11-23T09:04:35Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, hausse] Institutional Bitcoin ETF Holdings Surge 15% in Q3 2026 - KuCoin (KuCoin)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORThia2pqclRUSk9yYnJOekJLRjQ0dlpzWFpYaTdJS1NRZWZCYlpvRU5XbHQwVFNlOWFORm9WNFFXYUZQd19mZzdrdUVqaXc2X1NkRE5MSmUxMnVfbVZPdjZtbnBnSDlwaXBCd1Z4MkdVYlk0N1hURzNaN3BUQ3QtcFJBR2d1Z2UtOUVlMWthYndwUQ?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-23T09:05:33Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : ARB short (SWG-1, 80), PEPE short (SWG-1, 70)"
  }
 ]
