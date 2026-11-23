@@ -1,7 +1,7 @@
 {
- "t": "2026-11-23T23:36:55Z",
- "nb_analyses": 606,
- "nb_en_mouvement": 24,
+ "t": "2026-11-23T23:42:48Z",
+ "nb_analyses": 605,
+ "nb_en_mouvement": 19,
  "tendance": [
   "AERO",
   "ALGO",
@@ -239,26 +239,12 @@
  },
  "candidats": [
   {
-   "sym": "INX",
-   "pair": "INXEUR",
-   "action": false,
-   "variation_24h_pct": 25.63,
-   "volume_24h_eur": 84906.63,
-   "spread_pct": 0.3037,
-   "tendance": false,
-   "impulsion": {
-    "sens": "short",
-    "mouvement_pct": -3.05,
-    "volume_x": 3.6
-   }
-  },
-  {
    "sym": "APR",
    "pair": "APREUR",
    "action": false,
-   "variation_24h_pct": 25.69,
-   "volume_24h_eur": 75818.57,
-   "spread_pct": 0.1969,
+   "variation_24h_pct": 24.87,
+   "volume_24h_eur": 76422.39,
+   "spread_pct": 0.2972,
    "tendance": false,
    "impulsion": null
   },
@@ -267,8 +253,8 @@
    "pair": "STBLEUR",
    "action": false,
    "variation_24h_pct": 13.49,
-   "volume_24h_eur": 212447.54,
-   "spread_pct": 0.1471,
+   "volume_24h_eur": 212099.61,
+   "spread_pct": 0.198,
    "tendance": false,
    "impulsion": null
   },
@@ -277,7 +263,7 @@
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": 11.15,
-   "volume_24h_eur": 544116.72,
+   "volume_24h_eur": 544096.76,
    "spread_pct": 0.04,
    "tendance": false,
    "impulsion": null
@@ -288,7 +274,7 @@
    "action": false,
    "variation_24h_pct": 12.43,
    "volume_24h_eur": 41850.95,
-   "spread_pct": 0.2758,
+   "spread_pct": 0.3056,
    "tendance": false,
    "impulsion": null
   },
@@ -296,34 +282,42 @@
    "sym": "ATOM",
    "pair": "ATOMEUR",
    "action": false,
-   "variation_24h_pct": 9.07,
-   "volume_24h_eur": 408539.69,
-   "spread_pct": 0.0857,
+   "variation_24h_pct": 9.13,
+   "volume_24h_eur": 408551.37,
+   "spread_pct": 0.0685,
    "tendance": true,
    "impulsion": null
   },
   {
-   "sym": "QNT",
-   "pair": "QNTEUR",
+   "sym": "MON",
+   "pair": "MONEUR",
    "action": false,
-   "variation_24h_pct": 8.31,
-   "volume_24h_eur": 862196.94,
-   "spread_pct": 0.0846,
-   "tendance": false,
+   "variation_24h_pct": -8.26,
+   "volume_24h_eur": 476649.65,
+   "spread_pct": 0.0958,
+   "tendance": true,
    "impulsion": null
   },
   {
    "sym": "ALGO",
    "pair": "ALGOEUR",
    "action": false,
-   "variation_24h_pct": 8.54,
-   "volume_24h_eur": 504007.92,
-   "spread_pct": 0.0938,
+   "variation_24h_pct": 8.22,
+   "volume_24h_eur": 504152.36,
+   "spread_pct": 0.0672,
    "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "MELANIA",
+   "pair": "MELANIAEUR",
+   "action": false,
+   "variation_24h_pct": 8.96,
+   "volume_24h_eur": 132552.26,
+   "spread_pct": 0.4329,
+   "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": [
-  "INX"
- ]
+ "ajoutes": []
 }
