@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T02:01:00Z",
+   "verifie_jusqu_a": "2026-11-23T02:03:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 525.1159020320428,
+   "dernier_prix": 524.8863833003944,
    "atr": 2.771652,
    "rollover": 0.38511386816859644,
    "rollover_periodes": 20
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T02:01:00Z",
+   "verifie_jusqu_a": "2026-11-23T02:03:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.91140439562443,
+   "dernier_prix": 96.90434339110557,
    "atr": 1.08547,
    "rollover": 0.30546642607555674,
    "rollover_periodes": 20
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T02:01:00Z",
+   "verifie_jusqu_a": "2026-11-23T02:03:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.9867748722573,
+   "dernier_prix": 571.9450996821465,
    "atr": 3.304099,
    "rollover": 0.3847225359839591,
    "rollover_periodes": 20
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T02:01:00Z",
+   "verifie_jusqu_a": "2026-11-23T02:03:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0975,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T02:01:00Z",
+   "verifie_jusqu_a": "2026-11-23T02:03:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.053e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T02:01:48Z",
+ "maj": "2026-11-23T02:03:46Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,32 +156,32 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T01:58:02Z",
+ "chasseur_t": "2026-11-23T02:03:44Z",
  "tendance": [
   "BTC",
-  "HYPE",
   "VVV",
-  "ETH",
-  "TRUMP",
   "PEARL",
-  "PENGU",
-  "SUI",
-  "LIT",
-  "GALA",
   "ZEC",
-  "PONS",
-  "HBAR",
-  "NES",
-  "AKE"
+  "SUI",
+  "SOL",
+  "PENGU",
+  "DRV",
+  "HYPE",
+  "ORE",
+  "GRVT",
+  "XRP",
+  "NEAR",
+  "LIT",
+  "TAO"
  ],
- "tendance_t": "2026-11-23T01:00:28Z",
+ "tendance_t": "2026-11-23T02:03:44Z",
  "buzz": {
-  "GME": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+  "VT": {
+   "source": "Reddit",
+   "mentions": 38,
+   "x_vs_hier": 2.1
   },
-  "ABBV": {
+  "GME": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -191,7 +191,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPX": {
+  "TQQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -201,32 +201,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TQQQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DELL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JEPQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SPY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "HPE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KWEB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -236,12 +211,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "RTY_F": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BONK": {
+  "JEPQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -250,9 +220,44 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "AGEN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SPX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ABBV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAPR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SPY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AGQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JNJ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-23T01:46:17Z",
+ "buzz_t": "2026-11-23T02:03:45Z",
  "sources_t": "2026-11-23T01:52:02Z",
  "actus_tendance": [
   {
