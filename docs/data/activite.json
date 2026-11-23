@@ -3,12 +3,6 @@
   "t": "2026-11-23T01:00:29Z",
   "agent": "Veille",
   "type": "alerte",
-  "msg": "INTC +2.96 % en 15 min"
- },
- {
-  "t": "2026-11-23T01:00:29Z",
-  "agent": "Veille",
-  "type": "alerte",
   "msg": "AMZN +1.51 % en 15 min"
  },
  {
@@ -2810,5 +2804,14 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "606 actifs hors univers analysés, 22 en mouvement : INX +28.6 %, APR +26.0 %, STBL +13.5 %."
+ },
+ {
+  "t": "2026-11-23T23:32:52Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Yahoo Finance : Wall Street is going wild after Jensen Huang returns to Nvidia as CEO.",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=l9KhINUgukE"
+  }
  }
 ]
