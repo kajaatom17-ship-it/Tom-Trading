@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-23T19:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 550.1817113909182,
+   "dernier_prix": 550.1867606435211,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-23T19:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 99.74854080246688,
+   "dernier_prix": 99.74945623743838,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T19:29:00Z",
+   "verifie_jusqu_a": "2026-11-23T19:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 597.5918652031863,
+   "dernier_prix": 597.5973495590246,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T19:29:25Z",
+ "maj": "2026-11-23T19:30:31Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -290,20 +290,38 @@
   }
  },
  "buzz_t": "2026-11-23T19:27:28Z",
- "sources_t": "2026-11-23T19:10:00Z",
+ "sources_t": "2026-11-23T19:30:23Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 5,
+   "mentions": 6,
    "sentiment": "bullish",
    "titres": [
-    "BTC/USD (30M): Support Retest After Liquidity Spike",
-    "Eric Trump’s American Bitcoin Stock Jumps After $150M BTC-Backed Loan"
+    "Bitcoin (BTC) Macro Regime Analysis: Week 48, 2026 Soft Exit",
+    "Strive pauses Bitcoin purchases, holds 43,404 BTC"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 5,
+   "sentiment": "neutral",
+   "titres": [
+    "Base makes quantum security a 2027 priority as regulators warn of risks",
+    "USDC Treasury mints 250M USDC on Solana, boosting liquidity potential"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "US prosecutors seek to forfeit $1.17 billion in stolen USDC from Binance hack",
+    "PEPE Slides 38% From Its Nov. 10 High as a Fresh Wallet Hoards $10.5M Off Binance"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
     "# Ethereum | The Bearish Structure Takes the Lead",
@@ -311,54 +329,39 @@
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "GPU Jesus Has Risen: Jensen Huang’s Nvidia Comeback Gets a Meme Parade",
-    "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
+   "sujet": "Memecoins",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "9,293 Ether moves between wallets tied to the 2026 Binance hack",
-    "€43,000 Crypto Scam: How the Purchase of a Polish VASP Company Led to Lost Money and Vanishing Intermediaries"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Retail investors pull $250 million from tech ETFs in biggest weekly exit in two years",
-    "Robinhood Crypto expands Stock Tokens to include T. Rowe Price Technology ETF"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "9,293 Ether moves between wallets tied to the 2026 Binance hack"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "9,293 Ether moves between wallets tied to the 2026 Binance hack"
+    "POPCAT is extremely bearish! (3D)",
+    "PEPE Slides 38% From Its Nov. 10 High as a Fresh Wallet Hoards $10.5M Off Binance"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
+    "USDC Treasury mints 250M USDC on Solana, boosting liquidity potential",
     "Decrypt launches The Information Exchange for trading on Solana"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "USDC Treasury mints 250M USDC on Solana, boosting liquidity potential",
+    "US prosecutors seek to forfeit $1.17 billion in stolen USDC from Binance hack"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Aave V4 leads DeFi venues for tokenized stocks with $17.1M in deposits",
+    "Pyth Network hires former Nasdaq global compliance head Nick Carso as head of data solutions"
    ]
   }
  ],
