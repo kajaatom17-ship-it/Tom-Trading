@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 129.0185214710994,
+ "cash": 215.22506441657572,
  "positions": [
   {
    "id": "P0022",
@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T13:20:00Z",
+   "verifie_jusqu_a": "2026-11-23T15:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 532.172880116959,
+   "dernier_prix": 542.2163951260212,
    "atr": 2.771652,
    "rollover": 0.44288094839388586,
    "rollover_periodes": 23
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T13:20:00Z",
+   "verifie_jusqu_a": "2026-11-23T15:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.39583333333333,
+   "dernier_prix": 101.31201349604379,
    "atr": 1.08547,
    "rollover": 0.35128638998689027,
    "rollover_periodes": 23
@@ -68,65 +68,17 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T13:20:00Z",
+   "verifie_jusqu_a": "2026-11-23T15:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 576.781798245614,
+   "dernier_prix": 602.7743905234302,
    "atr": 3.304099,
    "rollover": 0.44243091638155296,
    "rollover_periodes": 23
-  },
-  {
-   "id": "P0025",
-   "sym": "FET",
-   "pair": "FETEUR",
-   "side": "short",
-   "strategie": "SWG-1",
-   "qty": 663.4937066943584,
-   "entry": 0.1001997,
-   "notionnel": 66.4818703626627,
-   "frais_entree": 0.5318549629013016,
-   "stop": 0.1062668,
-   "stop_initial": 0.1062668,
-   "tp": 0.08279946,
-   "risque_eur": 5.121396455031022,
-   "rr_net": 2.05,
-   "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T13:20:00Z",
-   "duree_max_h": 192.0,
-   "decision_id": "S-20261121-170110-FET",
-   "dernier_prix": 0.0996,
-   "atr": 0.001778075,
-   "rollover": 0.14626011479785792,
-   "rollover_periodes": 11
-  },
-  {
-   "id": "P0026",
-   "sym": "PEPE",
-   "pair": "PEPEEUR",
-   "side": "short",
-   "strategie": "SWG-1",
-   "qty": 8658953.934810326,
-   "entry": 3.089907e-06,
-   "notionnel": 26.755362375847966,
-   "frais_entree": 0.21404289900678372,
-   "stop": 3.333592e-06,
-   "stop_initial": 3.333592e-06,
-   "tp": 2.367225e-06,
-   "risque_eur": 2.5550234451346565,
-   "rr_net": 2.28,
-   "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T13:20:00Z",
-   "duree_max_h": 192.0,
-   "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.14e-06,
-   "atr": 5.5986e-08,
-   "rollover": 0.05351072475169595,
-   "rollover_periodes": 10
   }
  ],
- "frais_cumules": 15.444329961483183,
- "pnl_realise": -6.521210711096159,
+ "frais_cumules": 16.24010712443195,
+ "pnl_realise": -14.49756920558815,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
   "2026-11-13": 2,
@@ -140,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T13:20:38Z",
+ "maj": "2026-11-23T15:26:42Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,62 +108,92 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T13:16:45Z",
+ "chasseur_t": "2026-11-23T15:26:33Z",
  "tendance": [
   "MINELIUS",
+  "BTC",
+  "PEI",
   "LOOSY",
   "PEARL",
   "PENGU",
-  "VVV",
   "HYPE",
-  "AAVE",
   "DRV",
-  "BTC",
   "SKY",
-  "ZEC",
-  "BP",
+  "ETH",
+  "VVV",
+  "SOL",
   "MON",
-  "UNI",
-  "LINK"
+  "ZEC",
+  "TAC"
  ],
- "tendance_t": "2026-11-23T12:47:46Z",
+ "tendance_t": "2026-11-23T15:26:33Z",
  "buzz": {
+  "NVDA": {
+   "source": "Reddit + StockTwits",
+   "mentions": 913,
+   "x_vs_hier": 3.1
+  },
+  "SPY": {
+   "source": "Reddit + StockTwits",
+   "mentions": 279,
+   "x_vs_hier": 2.9
+  },
   "QQQ": {
+   "source": "Reddit + StockTwits",
+   "mentions": 178,
+   "x_vs_hier": 3.2
+  },
+  "NYT": {
    "source": "Reddit",
-   "mentions": 132,
-   "x_vs_hier": 2.4
+   "mentions": 72,
+   "x_vs_hier": 5.1
   },
   "SOXL": {
-   "source": "Reddit",
-   "mentions": 43,
-   "x_vs_hier": 2.7
+   "source": "Reddit + StockTwits",
+   "mentions": 63,
+   "x_vs_hier": 3.7
   },
-  "VT": {
+  "DTE": {
    "source": "Reddit",
-   "mentions": 35,
-   "x_vs_hier": 2.3
+   "mentions": 61,
+   "x_vs_hier": 2.5
   },
   "AM": {
    "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 3.6
+   "mentions": 50,
+   "x_vs_hier": 5.6
   },
-  "UNH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+  "NBIS": {
+   "source": "Reddit",
+   "mentions": 42,
+   "x_vs_hier": 2.3
+  },
+  "ET": {
+   "source": "Reddit",
+   "mentions": 41,
+   "x_vs_hier": 2.3
+  },
+  "HR": {
+   "source": "Reddit",
+   "mentions": 36,
+   "x_vs_hier": 6.0
   },
   "CRWD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZS": {
+  "SOXS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAPR": {
+  "DELL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "APLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -221,85 +203,47 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DJIA": {
+  "IREN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HUM": {
+  "SCHW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ALGO": {
+  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPY": {
+  "MU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLK": {
+  "VOO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TQQQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ARM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JPM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADUR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OUST": {
+  "ZS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-23T13:05:10Z",
- "sources_t": "2026-11-23T13:02:18Z",
+ "buzz_t": "2026-11-23T15:26:34Z",
+ "sources_t": "2026-11-23T15:26:40Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 11,
    "sentiment": "bearish",
    "titres": [
-    "#BTCUSDT Key 200 MA Resistance  Potential Breakdown of Ascending",
-    "American Bitcoin secures $150M credit line from FalconX"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.215275363 | 🚶 0.216375363 | 🚀 0.255019437 Gwei",
-    "85,500 ETH moves from an unknown wallet to Binance"
-   ]
-  },
-  {
-   "sujet": "Memecoins",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Fiona the Hippo meme coin donates $100K to Cincinnati Zoo charity",
-    "Solana Meme Coin for Fiona the Hippo Raises $100K for Cincinnati Zoo Charity"
+    "BTC 4H — A sharp turn at resistance: short example",
+    "Bitcoin Breaks Above $63K — Is a Rally Toward $66K Next?"
    ]
   },
   {
@@ -307,8 +251,8 @@
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Senator Adam Schiff plans no-AI-bailouts resolution: report",
-    "SpaceX sued by Oregon and Virginia over AI deepfake porn, Grok safety claims"
+    "How important are Nvidia and Jensen Huang to the US economy?",
+    "黃仁勳回歸 Nvidia 帶動美股狂飆！那指漲 6.54%、輝達噴漲 29%，AI 雲端與半導體股同步走高"
    ]
   },
   {
@@ -316,32 +260,41 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "85,500 ETH moves from an unknown wallet to Binance",
-    "New PEPE Whale Scoops $10.5 Million: Is Someone Buying the Dip?"
+    "BTC 4H — A sharp turn at resistance: short example",
+    "Dead Cat Bounce Explained: Bitcoin's Bounce From 55K"
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 1,
+   "sujet": "Ethereum",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Solana Meme Coin for Fiona the Hippo Raises $100K for Cincinnati Zoo Charity"
+    "Bitmine adds 7,819 ETH as Tom Lee makes the ‘hard money’ case",
+    "$ETH Looking Good for a Short"
    ]
   },
   {
-   "sujet": "Coinbase",
+   "sujet": "Cardano",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "数据：贝莱德向 Coinbase Prime 转入价值 6.45 亿美元 BTC 和 ETH"
+    "Cardano Developer Toolkit Seeks 600,000 ADA as Downloads Surge 144%"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "Institutions",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "China’s getting worried about its stock markets"
+    "BlackRock MuniYield New York Quality Fund declares $0.0512 dividend"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "XRP Weekly Downtrend Deepens: $0.9548 Resistance Could Decide Next Move"
    ]
   }
  ],
