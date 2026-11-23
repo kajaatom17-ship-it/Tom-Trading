@@ -14487,5 +14487,69 @@
   },
   "cree_le": "2026-11-21T19:11:55Z",
   "traite_le": "2026-11-21T19:11:55Z"
+ },
+ {
+  "id": "S-20261123-230557-SHIB",
+  "action": "open",
+  "sym": "SHIB",
+  "side": "short",
+  "strategie": "SWG-1",
+  "entry_ref": 3.315e-06,
+  "atr": 3.3103e-08,
+  "stop": 3.552862e-06,
+  "tp": 2.601415e-06,
+  "duree_max_h": 192,
+  "risque_pct_override": 1.0,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."
+   }
+  },
+  "synthese": "Entrée automatique SWG-1 sur SHIB (vente à découvert) : Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute. RR net 2.25. Position prévue pour durer plusieurs jours.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0027",
+   "prix": 3.323673e-06,
+   "risque_eur": 2.44
+  },
+  "cree_le": "2026-11-23T23:05:57Z",
+  "traite_le": "2026-11-23T23:05:57Z"
+ },
+ {
+  "id": "S-20261123-230557-BTC",
+  "action": "open",
+  "sym": "BTC",
+  "side": "short",
+  "strategie": "SWG-1",
+  "entry_ref": 56132.3,
+  "atr": 640.9446,
+  "stop": 58456.87,
+  "tp": 49158.6,
+  "duree_max_h": 192,
+  "risque_pct_override": 1.0,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."
+   }
+  },
+  "synthese": "Entrée automatique SWG-1 sur BTC (vente à découvert) : Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute. RR net 1.91. Position prévue pour durer plusieurs jours.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0028",
+   "prix": 56234.97,
+   "risque_eur": 4.88
+  },
+  "cree_le": "2026-11-23T23:05:57Z",
+  "traite_le": "2026-11-23T23:05:57Z"
  }
 ]

@@ -1,39 +1,5 @@
 [
  {
-  "t": "2026-11-23T00:02:44Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABBV, AUDUSD, BMY, DRAM, FLUT, JNJ, MLTX, MRK, QQQ, RTX, SLV, SPY"
- },
- {
-  "t": "2026-11-23T00:02:45Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "449 actifs hors univers analysés, 2 en mouvement : DRV +10.3 %, RARE -6.6 %."
- },
- {
-  "t": "2026-11-23T00:08:27Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "449 actifs hors univers analysés, 1 en mouvement : DRV +10.3 %."
- },
- {
-  "t": "2026-11-23T00:20:09Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABBV, AG, BMY, CLF, DIS, FLUT, GNRC, JNJ, MDB, MRK, RTX, SLV"
- },
- {
-  "t": "2026-11-23T00:20:12Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[chute, banque centrale] Zcash tumbles as hawkish Fed repricing weighs on the crypto market; focus remains on the Fed and US-Iran negotiations - investingLive (investingLive)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ3k0UkRmd0huMm13SjZrdzIwcXJBTWRIazd4Nmc5bHZFazRlbGlJMGdtWnY4M3hBMmtlLXVoR1NmcngzN0luOUQ1Mm9lQ3d3VElQWEYxOURQSWhhbjd1V3J2YldDc3JwaFNONU93dGZ4VFMzcWdVaW1SMGVnYjV6UmNaNjJnelpPQ3A0TnE3RE5qVFNsYV9fTEZVa3BNNEpKbW0xVmJFN0h0Qk9aNndsWl9kLXdNeHJ2UGpVNnpuczZwT0stTkVlUmxnNDFPTWJ5Mk5qRWYxUjZNU1lqRzFmWHY1cDYtNGQ3SVNFMVRVbw?oc=5",
-   "actifs": []
-  }
- },
- {
   "t": "2026-11-23T00:29:42Z",
   "agent": "Veille",
   "type": "actu",
@@ -2814,5 +2780,41 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "606 actifs hors univers analysés, 19 en mouvement : INX +29.9 %, APR +25.4 %, STBL +13.1 %."
+ },
+ {
+  "t": "2026-11-23T23:05:57Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "SHIB short ouvert à 3.323673e-06 | 28.57 € engagés | stop 3.552862e-06 | objectif 2.601415e-06 | risque 2.44 EUR",
+  "data": {
+   "id": "P0027"
+  }
+ },
+ {
+  "t": "2026-11-23T23:05:57Z",
+  "agent": "Trader de garde",
+  "type": "entrée",
+  "msg": "Entrée SWG-1 : SHIB short, stop 3.552862e-06, objectif 2.601415e-06, risque 2.44 €."
+ },
+ {
+  "t": "2026-11-23T23:05:57Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "BTC short ouvert à 56234.97 | 87.48 € engagés | stop 58456.87 | objectif 49158.6 | risque 4.88 EUR",
+  "data": {
+   "id": "P0028"
+  }
+ },
+ {
+  "t": "2026-11-23T23:05:57Z",
+  "agent": "Trader de garde",
+  "type": "entrée",
+  "msg": "Entrée SWG-1 : BTC short, stop 58456.87, objectif 49158.6, risque 4.88 €."
+ },
+ {
+  "t": "2026-11-23T23:05:57Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 17 signal(aux) : DOT short (SWG-1, 80), INJ short (SWG-1, 80), FET short (SWG-1, 80)"
  }
 ]
