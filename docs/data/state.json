@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T15:44:00Z",
+   "verifie_jusqu_a": "2026-11-23T15:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 543.7040024195989,
+   "dernier_prix": 541.7858452511919,
    "atr": 2.771652,
    "rollover": 0.44288094839388586,
    "rollover_periodes": 23
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T15:45:00Z",
+   "verifie_jusqu_a": "2026-11-23T15:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 101.72396410928522,
+   "dernier_prix": 101.32929959662633,
    "atr": 1.08547,
    "rollover": 0.35128638998689027,
    "rollover_periodes": 23
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T15:45:00Z",
+   "verifie_jusqu_a": "2026-11-23T15:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 600.0604899687469,
+   "dernier_prix": 598.5881921525487,
    "atr": 3.304099,
    "rollover": 0.44243091638155296,
    "rollover_periodes": 23
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T15:45:03Z",
+ "maj": "2026-11-23T15:47:07Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -108,7 +108,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T15:41:16Z",
+ "chasseur_t": "2026-11-23T15:47:00Z",
  "tendance": [
   "MINELIUS",
   "BTC",
@@ -240,24 +240,33 @@
   }
  },
  "buzz_t": "2026-11-23T15:41:17Z",
- "sources_t": "2026-11-23T15:26:40Z",
+ "sources_t": "2026-11-23T15:47:05Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 11,
-   "sentiment": "bearish",
+   "mentions": 14,
+   "sentiment": "neutral",
    "titres": [
-    "BTC 4H — A sharp turn at resistance: short example",
-    "Bitcoin Breaks Above $63K — Is a Rally Toward $66K Next?"
+    "数据：过去 24 小时全网爆仓 6.39 亿美元，主爆空单",
+    "不賣幣改抵押借錢！川普家族礦企 ABTC 取得 1.5 億美元信貸"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 3,
+   "sujet": "Institutions",
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "How important are Nvidia and Jensen Huang to the US economy?",
-    "黃仁勳回歸 Nvidia 帶動美股狂飆！那指漲 6.54%、輝達噴漲 29%，AI 雲端與半導體股同步走高"
+    "BlackRock Enhanced Equity Dividend Trust declares $0.0619 dividend",
+    "BlackRock Resources & Commodities Strategy Trust declares $0.0697 dividend"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "数据：过去 24 小时全网爆仓 6.39 亿美元，主爆空单",
+    "Bitmine adds 7,819 ETH as Tom Lee makes the ‘hard money’ case"
    ]
   },
   {
@@ -270,36 +279,35 @@
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitmine adds 7,819 ETH as Tom Lee makes the ‘hard money’ case",
-    "$ETH Looking Good for a Short"
-   ]
-  },
-  {
-   "sujet": "Cardano",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Cardano Developer Toolkit Seeks 600,000 ADA as Downloads Surge 144%"
+    "DeFi Development extends Solana buying streak to 11 straight weeks, SOL treasury hits 2.62 million"
    ]
   },
   {
-   "sujet": "Institutions",
+   "sujet": "DeFi",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BlackRock MuniYield New York Quality Fund declares $0.0512 dividend"
+    "DeFi Development extends Solana buying streak to 11 straight weeks, SOL treasury hits 2.62 million"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "ETF",
    "mentions": 1,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "XRP Weekly Downtrend Deepens: $0.9548 Resistance Could Decide Next Move"
+    "Why Bitcoin surged toward $64,000 before pulling back as trading slows 54% into Thanksgiving"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Why Bitcoin surged toward $64,000 before pulling back as trading slows 54% into Thanksgiving"
    ]
   }
  ],
