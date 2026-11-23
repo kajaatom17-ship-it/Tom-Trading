@@ -1,51 +1,46 @@
 {
- "t": "2026-11-23T01:06:12Z",
+ "t": "2026-11-23T01:11:56Z",
  "nb_analyses": 602,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 0,
  "tendance": [
-  "AG",
+  "ABBV",
   "AKE",
-  "BMY",
+  "ARM",
   "BTC",
-  "CRSP",
-  "DIS",
+  "CLF",
+  "DELL",
+  "EROC",
   "ETH",
+  "FCX",
   "GALA",
-  "GEO",
   "HBAR",
+  "HPE",
   "HYPE",
+  "KHC",
   "LIT",
-  "MRK",
   "NBIS",
   "NES",
   "PEARL",
   "PENGU",
-  "PGY",
   "PONS",
+  "RTY_F",
   "SNDK",
   "SPY",
   "SUI",
   "SVIX",
   "TRUMP",
-  "VOO",
+  "TSN",
   "VVV",
-  "WFC",
-  "XPEV",
   "ZEC",
   "ZM"
  ],
  "buzz_reseaux": {
+  "ABBV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SPY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MRK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XPEV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -55,37 +50,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "VOO": {
+  "DELL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIS": {
+  "ARM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WFC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SVIX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BMY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PGY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GEO": {
+  "FCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -95,33 +70,47 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRSP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SNDK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RTY_F": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SVIX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KHC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CLF": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EROC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TSN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [
-  {
-   "sym": "DRV",
-   "pair": "DRVEUR",
-   "action": false,
-   "variation_24h_pct": 6.42,
-   "volume_24h_eur": 84677.24,
-   "spread_pct": 0.4004,
-   "tendance": false,
-   "impulsion": null
-  }
- ],
+ "candidats": [],
  "ajoutes": []
 }

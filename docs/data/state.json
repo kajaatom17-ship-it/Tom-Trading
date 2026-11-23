@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T01:09:00Z",
+   "verifie_jusqu_a": "2026-11-23T01:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 524.9382581039087,
+   "dernier_prix": 524.8999899762163,
    "atr": 2.771652,
    "rollover": 0.38511386816859644,
    "rollover_periodes": 20
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T01:09:00Z",
+   "verifie_jusqu_a": "2026-11-23T01:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.1010926720799,
+   "dernier_prix": 97.09401397862199,
    "atr": 1.08547,
    "rollover": 0.30546642607555674,
    "rollover_periodes": 20
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T01:09:00Z",
+   "verifie_jusqu_a": "2026-11-23T01:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 571.8985519133153,
+   "dernier_prix": 572.1302362879195,
    "atr": 3.304099,
    "rollover": 0.3847225359839591,
    "rollover_periodes": 20
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T01:09:00Z",
+   "verifie_jusqu_a": "2026-11-23T01:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0979,
@@ -116,7 +116,7 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T01:10:00Z",
+   "verifie_jusqu_a": "2026-11-23T01:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
    "dernier_prix": 3.067e-06,
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T01:10:01Z",
+ "maj": "2026-11-23T01:11:57Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,7 +156,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T01:06:11Z",
+ "chasseur_t": "2026-11-23T01:11:55Z",
  "tendance": [
   "BTC",
   "HYPE",
@@ -176,17 +176,12 @@
  ],
  "tendance_t": "2026-11-23T01:00:28Z",
  "buzz": {
+  "ABBV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SPY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MRK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XPEV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -196,37 +191,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "VOO": {
+  "DELL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIS": {
+  "ARM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WFC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SVIX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BMY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PGY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GEO": {
+  "FCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -236,41 +211,66 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRSP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SNDK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RTY_F": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SVIX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KHC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CLF": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EROC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TSN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-23T00:54:45Z",
- "sources_t": "2026-11-23T00:51:37Z",
+ "buzz_t": "2026-11-23T01:11:56Z",
+ "sources_t": "2026-11-23T01:11:56Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "bearish",
+   "mentions": 7,
+   "sentiment": "neutral",
    "titres": [
-    "Goldman Sachs says DRAM prices would need to crater before memory buyers walk away from long-term deals",
-    "South Korea’s stock market tumbles as AI bubble fears mount"
+    "US-China Commission recommends Congress require software AI disclosures",
+    "Anthropic’s Claude nears 350 million weekly website visits ahead of IPO"
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 3,
+   "sujet": "Memecoins",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Fusionist’s ACE bridge exploited, leading to $4M loss",
-    "A $2 million exploit leads to a $3.7 million free-for-all as traders empty Fusionist’s ACE bridge"
+    "Half of Trump memecoin dinner wallets got tokens from non-US exchanges",
+    "Half of wallets on Trump’s dinner list got tokens from non-US exchanges"
    ]
   },
   {
@@ -278,8 +278,32 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Abraxas Capital Withdraws $1B in Bitcoin, and Nobody Knows Why",
-    "Chainflip Hacker Steals $12 Million as FLIP Token Craters 69%"
+    "Solo Bitcoin Miner Wins $190K Jackpot Against 130 Million-to-One Odds",
+    "Abraxas Capital Withdraws $1B in Bitcoin, and Nobody Knows Why"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase captures 34% weekly spot volume share in tokenized equities"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase captures 34% weekly spot volume share in tokenized equities"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "ETH Relief Bounce Tests Old Support at 1,750: Low-Volume Rally?"
    ]
   },
   {
@@ -296,22 +320,6 @@
    "sentiment": "neutral",
    "titres": [
     "早报｜以太坊过去 24 小时上涨 2.3%；美国 SEC 起诉 8 家实体，指控其利用虚假加密平台骗取逾 3700 万美元"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Fusionist’s ACE bridge exploited, leading to $4M loss"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Chainflip Hacker Steals $12 Million as FLIP Token Craters 69%"
    ]
   }
  ],
