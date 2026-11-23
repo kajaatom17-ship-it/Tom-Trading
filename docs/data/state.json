@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T20:50:00Z",
+   "verifie_jusqu_a": "2026-11-23T20:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 550.2174990363966,
+   "dernier_prix": 550.2780990142629,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T20:50:00Z",
+   "verifie_jusqu_a": "2026-11-23T20:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 100.05873391700163,
+   "dernier_prix": 100.06975420819796,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T20:50:00Z",
+   "verifie_jusqu_a": "2026-11-23T20:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 598.4894370721141,
+   "dernier_prix": 598.5553536354792,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T20:50:45Z",
+ "maj": "2026-11-23T20:51:42Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -295,33 +295,33 @@
   }
  },
  "buzz_t": "2026-11-23T20:37:17Z",
- "sources_t": "2026-11-23T20:31:37Z",
+ "sources_t": "2026-11-23T20:51:40Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "neutral",
+   "mentions": 8,
+   "sentiment": "bearish",
    "titres": [
-    "TradeCityPro | Bitcoin Daily Analysis #412",
-    "$BTC (Bitcoin) Technical Analysis | 1H"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "Musk's SpaceX sued by Virginia and Oregon over Grok AI child sexual abuse images",
-    "Why Jensen Huang's Nvidia Return Could Hurt Anthropic Stock"
+    "Michael Saylor says Strategy does not need a bailout",
+    "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "First Trust Val Line® Div Idx ETF CAD-Hgd declares CAD 0.065 dividend",
-    "First Trust Senior Loan ETF (CAD-Hedged) declares CAD 0.075 dividend"
+    "Roundhill GOOGL WeeklyPay ETF declares $0.4212 dividend",
+    "Roundhill Gold Miners WeeklyPay ETF declares $0.2081 dividend"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "AI surge sends FuelCell Energy higher by 18%",
+    "Musk's SpaceX sued by Virginia and Oregon over Grok AI child sexual abuse images"
    ]
   },
   {
@@ -329,7 +329,7 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "DOJ files action to recover over $1B of crypto assets stolen in Binance hack",
+    "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
     "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens"
    ]
   },
@@ -338,17 +338,16 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "DOJ files action to recover over $1B of crypto assets stolen in Binance hack",
+    "North Korea Moves $247 Million of Binance Hack Loot Through Bitcoin Mixers",
     "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens"
    ]
   },
   {
-   "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "bearish",
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "DeFi Development lifts its Solana holdings to about 2.62 million SOL in week 11",
-    "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn"
+    "Bitmine Reveals $13M ETH Buy as Ether Recovers From 5-Month Price Low"
    ]
   },
   {
