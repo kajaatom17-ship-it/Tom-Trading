@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T20:29:00Z",
+   "verifie_jusqu_a": "2026-11-23T20:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 547.4196064039635,
+   "dernier_prix": 547.4095617310568,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T20:29:00Z",
+   "verifie_jusqu_a": "2026-11-23T20:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 99.52750126152577,
+   "dernier_prix": 99.52567501857848,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T20:29:00Z",
+   "verifie_jusqu_a": "2026-11-23T20:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 599.1742740492683,
+   "dernier_prix": 598.7962971457929,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T20:29:34Z",
+ "maj": "2026-11-23T20:31:39Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -108,7 +108,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T20:25:43Z",
+ "chasseur_t": "2026-11-23T20:31:31Z",
  "tendance": [
   "DRV",
   "LOOSY",
@@ -295,60 +295,68 @@
   }
  },
  "buzz_t": "2026-11-23T20:19:58Z",
- "sources_t": "2026-11-23T20:11:09Z",
+ "sources_t": "2026-11-23T20:31:37Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
-   "sentiment": "bearish",
+   "mentions": 6,
+   "sentiment": "neutral",
    "titres": [
-    "Strive’s Bitcoin amplification ratio hits a record 79.8%",
-    "NQ ES YM and Crude Gold and BTC. Daily Walkthrough. 24.11.26"
+    "TradeCityPro | Bitcoin Daily Analysis #412",
+    "$BTC (Bitcoin) Technical Analysis | 1H"
    ]
   },
   {
    "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Musk's SpaceX sued by Virginia and Oregon over Grok AI child sexual abuse images",
+    "Why Jensen Huang's Nvidia Return Could Hurt Anthropic Stock"
+   ]
+  },
+  {
+   "sujet": "ETF",
    "mentions": 3,
-   "sentiment": "bullish",
+   "sentiment": "neutral",
    "titres": [
-    "Corning carried higher by AI rally, advances 15%",
-    "Cathie Wood sells $17M in Nvidia shares, signaling strategic shift"
+    "First Trust Val Line® Div Idx ETF CAD-Hgd declares CAD 0.065 dividend",
+    "First Trust Senior Loan ETF (CAD-Hedged) declares CAD 0.075 dividend"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "Security",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "USDC Treasury mints 250M USDC on Solana, boosting liquidity potential",
-    "Aave V4 leads DeFi venues for tokenized stocks with $17.1M in deposits"
+    "DOJ files action to recover over $1B of crypto assets stolen in Binance hack",
+    "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Binance",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "USDC Treasury mints 250M USDC on Solana, boosting liquidity potential",
-    "US prosecutors seek to forfeit $1.17 billion in stolen USDC from Binance hack"
+    "DOJ files action to recover over $1B of crypto assets stolen in Binance hack",
+    "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens"
    ]
   },
   {
    "sujet": "DeFi",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Aave V4 leads DeFi venues for tokenized stocks with $17.1M in deposits",
-    "Pyth Network hires former Nasdaq global compliance head Nick Carso as head of data solutions"
+    "DeFi Development lifts its Solana holdings to about 2.62 million SOL in week 11",
+    "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 2,
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "# Ethereum | The Bearish Structure Takes the Lead",
-    "ETH went from $1,845 to $1,743. Buy the dip? I’m waiting."
+    "DeepSeek investors promised Nvidia chips despite US export controls: report"
    ]
   },
   {
@@ -357,14 +365,6 @@
    "sentiment": "bearish",
    "titres": [
     "TradeCityPro | XRP (XRP): Breakout or Breakdown?"
-   ]
-  },
-  {
-   "sujet": "Layer 2",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Nvidia stock soars over 30% as Jensen Huang returns as CEO"
    ]
   }
  ],
