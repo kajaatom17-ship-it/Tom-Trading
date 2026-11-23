@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:27:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 545.8872390473391,
+   "dernier_prix": 545.8721918500482,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:27:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 101.13753307850632,
+   "dernier_prix": 101.13474525658107,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:27:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 599.0517494854455,
+   "dernier_prix": 599.0352368263887,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T17:27:51Z",
+ "maj": "2026-11-23T17:28:49Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -275,33 +275,51 @@
   }
  },
  "buzz_t": "2026-11-23T17:25:55Z",
- "sources_t": "2026-11-23T17:08:42Z",
+ "sources_t": "2026-11-23T17:28:46Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 9,
+   "sujet": "AI",
+   "mentions": 10,
    "sentiment": "neutral",
    "titres": [
-    "XRP Price Tops $1 as Nvidia Brings Back Jensen Huang, Ripple CEO Eyes Rally",
-    "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations"
+    "Larry Ellison drops from top 10 billionaires after $11B loss",
+    "Cerebras stock surges as strong earnings collide with Nvidia leadership shake-up"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 8,
-   "sentiment": "bearish",
+   "sujet": "Bitcoin",
+   "mentions": 6,
+   "sentiment": "neutral",
    "titres": [
-    "Google DeepMind and Google Quantum AI use AI agents to build formally verified quantum algorithms",
-    "US banks take passwords away from in-house AI agents after the Hugging Face breach"
+    "Btc is at a major inflection point. Trap door or spring board?",
+    "Trump-Linked American Bitcoin Secures $150M FalconX Credit Line Backed by BTC"
+   ]
+  },
+  {
+   "sujet": "Layer 2",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Dell Q3 preview: Short-term optimism points to better-than-expected Q3 despite long-term concerns",
+    "Quant’s multichain Rollup Fusion mainnet is now open to the public"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 4,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
     "# Ethereum | Two Possible Paths for the Corrective Structure",
     "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Hacksaw corrects earlier claim that buyback programme follows Safe Harbour Regulation",
+    "Ondo Finance accuses Backpack Securities of wash trading its Anthropic token"
    ]
   },
   {
@@ -316,36 +334,18 @@
   {
    "sujet": "Solana",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
     "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
-    "Jupiter COO Kash Dhanda puts security first as the Solana aggregator plans for 2027"
-   ]
-  },
-  {
-   "sujet": "Cardano",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Tom Lee Says Ethereum Is as Scarce as Bitcoin—And Bitmine Just Bought More",
-    "ADA Hovers at $0.15 as Ben Simpson Says Cardano Is Barely Used for Its Valuation"
+    "Viscofan Director Santiago Domecq Bohórquez Sells EUR 522,680.42 in Shares Held Indirectly"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "\"Never A Dull Moment\": Global X Files For First Tungsten ETF As CME Plans Futures And Resource Nationalism Intensifies",
-    "Bitcoin ETFs Lose $1.79B in 3rd-Largest Weekly Outflow"
-   ]
-  },
-  {
-   "sujet": "Memecoins",
-   "mentions": 1,
-   "sentiment": "bullish",
-   "titres": [
-    "Fomo and Pump hit record perps volume as memecoin traders chase leverage"
+    "Nomura’s McElligott says AI is now too big to fail as a $41 billion leveraged ETF bid builds"
    ]
   }
  ],
