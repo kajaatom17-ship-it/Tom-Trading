@@ -1,51 +1,41 @@
 {
- "t": "2026-11-23T00:48:45Z",
+ "t": "2026-11-23T00:54:46Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 1,
  "tendance": [
-  "ABBV",
+  "AG",
   "ALGO",
   "BMY",
   "BTC",
   "CASHCAT",
-  "CLF",
+  "CRSP",
   "DASH",
   "DIS",
   "DRV",
   "ETH",
-  "FLUT",
-  "GNRC",
+  "GEO",
   "GRASS",
   "HYPE",
-  "JNJ",
-  "KWEB",
-  "MDB",
   "MRK",
+  "NBIS",
   "NEAR",
   "PEARL",
   "PENGU",
+  "PGY",
   "SNDK",
   "SPY",
+  "SVIX",
   "TAC",
   "VOO",
   "VVV",
   "WFC",
   "XPEV",
   "XRP",
-  "ZEC"
+  "ZEC",
+  "ZM"
  ],
  "buzz_reseaux": {
   "SPY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JNJ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ABBV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -55,22 +45,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "FLUT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GNRC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WFC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "XPEV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NBIS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VOO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -80,17 +65,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CLF": {
+  "WFC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KWEB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MDB": {
+  "SVIX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -100,7 +80,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "VOO": {
+  "PGY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GEO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRSP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -111,6 +111,17 @@
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "DRV",
+   "pair": "DRVEUR",
+   "action": false,
+   "variation_24h_pct": 7.38,
+   "volume_24h_eur": 84059.81,
+   "spread_pct": 0.2831,
+   "tendance": true,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
