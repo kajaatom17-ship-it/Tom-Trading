@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 129.23575923527673,
+ "cash": 129.23040816280155,
  "positions": [
   {
    "id": "P0022",
@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T03:10:00Z",
+   "verifie_jusqu_a": "2026-11-23T03:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 523.6408341681085,
+   "dernier_prix": 523.7457645644333,
    "atr": 2.771652,
    "rollover": 0.38511386816859644,
    "rollover_periodes": 20
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T03:10:00Z",
+   "verifie_jusqu_a": "2026-11-23T03:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.31181131044531,
+   "dernier_prix": 96.33111086821876,
    "atr": 1.08547,
    "rollover": 0.30546642607555674,
    "rollover_periodes": 20
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T03:10:00Z",
+   "verifie_jusqu_a": "2026-11-23T03:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 569.9389855204444,
+   "dernier_prix": 570.0531934273328,
    "atr": 3.304099,
    "rollover": 0.3847225359839591,
    "rollover_periodes": 20
@@ -92,10 +92,10 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T03:11:00Z",
+   "verifie_jusqu_a": "2026-11-23T03:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
-   "dernier_prix": 0.0961,
+   "dernier_prix": 0.0963,
    "atr": 0.001778075,
    "rollover": 0.10637099258026031,
    "rollover_periodes": 8
@@ -116,16 +116,16 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T03:11:00Z",
+   "verifie_jusqu_a": "2026-11-23T03:12:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.047e-06,
+   "dernier_prix": 3.06e-06,
    "atr": 5.5986e-08,
-   "rollover": 0.03745750732618716,
-   "rollover_periodes": 7
+   "rollover": 0.04280857980135676,
+   "rollover_periodes": 8
   }
  ],
- "frais_cumules": 15.227092197305856,
+ "frais_cumules": 15.232443269781026,
  "pnl_realise": -6.521210711096159,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T03:11:02Z",
+ "maj": "2026-11-23T03:13:01Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,7 +156,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T03:07:16Z",
+ "chasseur_t": "2026-11-23T03:12:57Z",
  "tendance": [
   "BTC",
   "VVV",
@@ -179,34 +179,19 @@
   "VT": {
    "source": "Reddit",
    "mentions": 43,
-   "x_vs_hier": 2.9
-  },
-  "GME": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "x_vs_hier": 3.1
   },
   "TQQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GAP": {
+  "TSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ALNY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KLAC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRSP": {
+  "TRUMP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -216,17 +201,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SRPT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "EWY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LRCX": {
+  "SNY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ALNY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GME": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -236,96 +226,109 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SRPT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "QQQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRSP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BLK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "JEPQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BHC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DDOG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GM": {
+  "GAP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-23T02:55:50Z",
- "sources_t": "2026-11-23T02:52:40Z",
+ "buzz_t": "2026-11-23T03:12:58Z",
+ "sources_t": "2026-11-23T03:12:58Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "bearish",
-   "titres": [
-    "China’s CSI Semiconductor Index slides 4.5% as chip stocks face fresh selling",
-    "Elon Musk issues another warning: AI companies will face \"crazy cash shortages\" next year, and data center delays may require tens of billions more in investment."
-   ]
-  },
-  {
    "sujet": "Bitcoin",
-   "mentions": 4,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "Repaying a Bitcoin-backed loan on Sui can leave you waiting to withdraw native BTC",
-    "BTC 1H Night: Back under 60,882.80 flip, 60,460.21 HL decides"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.099220166 | 🚶 0.099230472 | 🚀 0.109142182 Gwei",
-    "Ethereum (ETH) Analysis: Weekend Bounce Meets Resistantance"
-   ]
-  },
-  {
-   "sujet": "Memecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Half of Trump memecoin dinner wallets got tokens from non-US exchanges",
-    "Half of wallets on Trump’s dinner list got tokens from non-US exchanges"
+    "BITCOIN - A liquidity grab before the downtrend resumes",
+    "BTC 11/22 | Longs Crowd Back In, 59.1K on Test"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 1,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Solana (SOL) Daily Analysis: Three Drives Pattern ?"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Ripple CEO Sees Room for Crypto Rally as XRP Trades Below $1"
+    "Solana’s new memory checks could make some older app transactions fail",
+    "How to Buy Tokenized Stocks on BNB Chain"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 1,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Fusionist 跨鏈橋遭印鈔攻擊！5,370 萬枚 ACE 儲備被搬光"
+    "BITCOIN - A liquidity grab before the downtrend resumes",
+    "Former FTX Executive, Binance Founder Criticize Netflix Series ‘The Altruists’ Over Accuracy"
    ]
   },
   {
-   "sujet": "DeFi",
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "USDT.D - the Risk-Off Surge Fading?",
+    "21shares Sees Bitcoin Hitting New High in 2027, Cycle Peak Later"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "How to Buy Tokenized Stocks on BNB Chain",
+    "Ethereum (ETH) Analysis: Weekend Bounce Meets Resistantance"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Meta’s Chief AI Officer warns society against handing control to AI",
+    "South Korean shares slump nearly 3% on AI-driven tech selloff despite policy pledge"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Samsung Securities reports security breach affecting 8,000 clients",
+    "Supreme Court Upholds Prison Sentences for Two Former Medicox Directors"
+   ]
+  },
+  {
+   "sujet": "ETF",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase captures 34% weekly spot volume share in tokenized equities"
+    "Bitcoin spot ETFs bleed $669 million as outflow streak stretches to four days"
    ]
   }
  ],
