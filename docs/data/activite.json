@@ -1,35 +1,5 @@
 [
  {
-  "t": "2026-11-22T09:51:12Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "HYPE +2.93 % en 15 min"
- },
- {
-  "t": "2026-11-22T09:51:12Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "SUI +2.71 % en 15 min"
- },
- {
-  "t": "2026-11-22T09:51:12Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "TAO +3.15 % en 15 min"
- },
- {
-  "t": "2026-11-22T09:52:09Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "BTC +2.71 % en 15 min"
- },
- {
-  "t": "2026-11-22T09:54:59Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "NEAR +2.5 % en 15 min"
- },
- {
   "t": "2026-11-22T09:56:54Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2666,5 +2636,54 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "605 actifs hors univers analysés, 10 en mouvement : ALGO +9.9 %, JUP +7.8 %, QNT +7.8 %."
+ },
+ {
+  "t": "2026-11-23T11:49:20Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : MINELIUS, LOOSY, DOGE, PEARL, BTC, PENGU, NEAR, DRV"
+ },
+ {
+  "t": "2026-11-23T11:49:24Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "605 actifs hors univers analysés, 10 en mouvement : ALGO +10.4 %, QNT +8.2 %, JUP +7.4 %."
+ },
+ {
+  "t": "2026-11-23T11:49:27Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, hausse] MSTR Stock Jumps In Premarket As Bitcoin Reclaims $61K After Brutal Nasdaq Sell-Off - Yahoo Finance (Yahoo Finance)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNmtyQTg4U2ZLdy1nTktJMHo4MDk2eFVEdVEyX01yekhqeTQ3ZVZJOUFfclZzM1Ryemp6UDQtbS12c3ZUaklPeDZNV0ZyZlVhelVCTzJFV09adGNXQWVoRk84QlA3Znp4SF9VRFhtdW15U0dBTElIQ0lWMWVQSGpEX0tKblViSnpIeDhzQk5RNnVBSzV6MV9RYVNmU2M0RnFY?oc=5",
+   "actifs": [
+    "BTC",
+    "MSTR"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-23T11:49:27Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, baleines] Crypto News: Pepeto Clears $11.311M While Whales Buy the Bitcoin Price Crash and a $250,000 Bitcoin Price Prediction Holds - markets.businessinsider.com (markets.businessinsider.com)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQc2ZHbzhoOHhlZDZ6TVhEWm5RMmlZUzJpdVR4NlV0VTNfX29hd3J6cDc0V1NWQkgwdER4Rl9acEM5blZaRGVBbHo0X1liLUNMLWs4bTk0VkxkVDNYT0NGRWtjYmJnVEwyMlZLMERsT2k4eTVRdERlZl92RDBVS0tJOHhBREpucXRoazBxcDlXMGhpREg2QVdxell5QURjTE5ETkVyZkY0Z3RwY1RPYmJuQlVEZFhyQ2dObWNQRXVpbzFWbG9lSFh1M0F2ZnpRMTg3ci1hQWIxaWNReHNUMHYzMmJpenZjR0hRZVpFb3BYd1I0bGRYOGJweHFUYXN2SFlhNy11eUczU0ZfQQ?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-23T11:49:27Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, hausse] Nasdaq, Dow, S&P 500 Futures Jump Nearly 2% After Brutal Tech Selloff Last Week: GME, JNJ, ALNY, GAP In Focus - Yahoo Finance (Yahoo Finance)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQczlNSFY2MjRSSnItYlJNVVV3NEp0MVZDeUtDWkpmcTltUVhMaTVIeWhoWVNJRG5NemN2RkY3Vm1aUHQxeEZrM1B1Wk85MFZ6ZHBtYTBab0hjTzczTmVKbURmQnhXZURZd1djaTAxV3NrY2lmV0hBZmJUcHBuZllhaGRNQVJIMjZkMHlHUXNmd1JReXc?oc=5",
+   "actifs": [
+    "SPY"
+   ]
+  }
  }
 ]
