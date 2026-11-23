@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T18:48:00Z",
+   "verifie_jusqu_a": "2026-11-23T18:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 549.6477029497414,
+   "dernier_prix": 549.6628511584324,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T18:48:00Z",
+   "verifie_jusqu_a": "2026-11-23T18:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 99.91089227151217,
+   "dernier_prix": 99.9136458007974,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T18:48:00Z",
+   "verifie_jusqu_a": "2026-11-23T18:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 596.9850354134323,
+   "dernier_prix": 597.0014882319437,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T18:48:45Z",
+ "maj": "2026-11-23T18:49:42Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -285,50 +285,51 @@
   }
  },
  "buzz_t": "2026-11-23T18:35:22Z",
- "sources_t": "2026-11-23T18:29:37Z",
+ "sources_t": "2026-11-23T18:49:40Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
-   "sentiment": "neutral",
+   "mentions": 5,
+   "sentiment": "bullish",
    "titres": [
-    "Solo Bitcoin Miner Scores Again, Hitting $191,000 Jackpot Against the Odds",
-    "BTC Weekly: $60K Floor Is on Its Fourth Test. Levels and a Jan 1"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 6,
-   "sentiment": "neutral",
-   "titres": [
-    "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
-    "Philosopher Thomas Nagel calls Anthropic’s AI consciousness concerns ‘just ridiculous’"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "9,293 Ether moves between wallets tied to the 2026 Binance hack",
-    "Nvidia bounces back with Huang's comeback, but SEC probe still looms: BofA"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Retail investors pull $250 million from tech ETFs in biggest weekly exit in two years",
-    "Robinhood Crypto expands Stock Tokens to include T. Rowe Price Technology ETF"
+    "BTC/USD (30M): Support Retest After Liquidity Spike",
+    "Eric Trump’s American Bitcoin Stock Jumps After $150M BTC-Backed Loan"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 1,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "9,293 Ether moves between wallets tied to the 2026 Binance hack"
+    "# Ethereum | The Bearish Structure Takes the Lead",
+    "ETH went from $1,845 to $1,743. Buy the dip? I’m waiting."
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "GPU Jesus Has Risen: Jensen Huang’s Nvidia Comeback Gets a Meme Parade",
+    "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "9,293 Ether moves between wallets tied to the 2026 Binance hack",
+    "€43,000 Crypto Scam: How the Purchase of a Polish VASP Company Led to Lost Money and Vanishing Intermediaries"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Retail investors pull $250 million from tech ETFs in biggest weekly exit in two years",
+    "Robinhood Crypto expands Stock Tokens to include T. Rowe Price Technology ETF"
    ]
   },
   {
