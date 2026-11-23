@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:23:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 547.0119229144085,
+   "dernier_prix": 545.7418175471472,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:23:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 101.00490511270736,
+   "dernier_prix": 101.11059056962547,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T17:23:00Z",
+   "verifie_jusqu_a": "2026-11-23T17:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 598.8646593059358,
+   "dernier_prix": 598.8921652382396,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T17:23:54Z",
+ "maj": "2026-11-23T17:26:01Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -108,7 +108,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T17:20:08Z",
+ "chasseur_t": "2026-11-23T17:25:54Z",
  "tendance": [
   "PEI",
   "BTC",
@@ -130,38 +130,38 @@
  "buzz": {
   "NVDA": {
    "source": "Reddit + StockTwits",
-   "mentions": 1216,
-   "x_vs_hier": 4.3
+   "mentions": 1254,
+   "x_vs_hier": 4.5
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 341,
+   "mentions": 348,
    "x_vs_hier": 3.7
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 198,
-   "x_vs_hier": 3.6
+   "mentions": 199,
+   "x_vs_hier": 3.5
   },
   "NYT": {
    "source": "Reddit",
-   "mentions": 92,
-   "x_vs_hier": 8.4
+   "mentions": 95,
+   "x_vs_hier": 8.6
   },
   "DTE": {
    "source": "Reddit",
-   "mentions": 66,
+   "mentions": 67,
    "x_vs_hier": 2.8
   },
   "SOXL": {
    "source": "Reddit",
-   "mentions": 65,
-   "x_vs_hier": 3.4
+   "mentions": 67,
+   "x_vs_hier": 3.5
   },
   "AM": {
    "source": "Reddit",
-   "mentions": 62,
-   "x_vs_hier": 6.9
+   "mentions": 61,
+   "x_vs_hier": 7.6
   },
   "HR": {
    "source": "Reddit",
@@ -188,10 +188,20 @@
    "mentions": 33,
    "x_vs_hier": 3.7
   },
+  "DJT": {
+   "source": "Reddit",
+   "mentions": 32,
+   "x_vs_hier": 10.7
+  },
   "YOU": {
    "source": "Reddit",
    "mentions": 31,
    "x_vs_hier": 3.4
+  },
+  "GOOGL": {
+   "source": "Reddit",
+   "mentions": 30,
+   "x_vs_hier": 2.7
   },
   "CRWD": {
    "source": "StockTwits",
@@ -213,17 +223,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SYM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CSIQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BMNR": {
+  "AUPH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -233,17 +233,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AUPH": {
+  "SYM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "OKLO": {
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "T": {
+  "NTLA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DELL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -253,18 +258,23 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UCO": {
+  "TXN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DELL": {
+  "T": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UCO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-23T17:08:36Z",
+ "buzz_t": "2026-11-23T17:25:55Z",
  "sources_t": "2026-11-23T17:08:42Z",
  "actus_tendance": [
   {
