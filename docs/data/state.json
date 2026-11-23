@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T18:27:00Z",
+   "verifie_jusqu_a": "2026-11-23T18:29:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 547.4777175411192,
+   "dernier_prix": 547.422386784392,
    "atr": 2.771652,
    "rollover": 0.4621366418023157,
    "rollover_periodes": 24
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T18:27:00Z",
+   "verifie_jusqu_a": "2026-11-23T18:29:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 100.36754571349812,
+   "dernier_prix": 100.35740208193603,
    "atr": 1.08547,
    "rollover": 0.3665597112906681,
    "rollover_periodes": 24
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T18:27:00Z",
+   "verifie_jusqu_a": "2026-11-23T18:29:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 599.6875861435266,
+   "dernier_prix": 599.6269788039433,
    "atr": 3.304099,
    "rollover": 0.4616670431807509,
    "rollover_periodes": 24
@@ -92,7 +92,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T18:27:34Z",
+ "maj": "2026-11-23T18:29:39Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -108,7 +108,7 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T18:23:47Z",
+ "chasseur_t": "2026-11-23T18:29:31Z",
  "tendance": [
   "DRV",
   "PEI",
@@ -285,11 +285,20 @@
   }
  },
  "buzz_t": "2026-11-23T18:18:00Z",
- "sources_t": "2026-11-23T18:09:19Z",
+ "sources_t": "2026-11-23T18:29:37Z",
  "actus_tendance": [
   {
+   "sujet": "Bitcoin",
+   "mentions": 7,
+   "sentiment": "neutral",
+   "titres": [
+    "Solo Bitcoin Miner Scores Again, Hitting $191,000 Jackpot Against the Odds",
+    "BTC Weekly: $60K Floor Is on Its Fourth Test. Levels and a Jan 1"
+   ]
+  },
+  {
    "sujet": "AI",
-   "mentions": 9,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
     "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
@@ -297,21 +306,12 @@
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin - Potential Long Squeeze Coming Up",
-    "TCB Daily Edition: What Happened in Crypto on November 23, 2026"
-   ]
-  },
-  {
    "sujet": "SEC/Regulation",
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Nvidia bounces back with Huang's comeback, but SEC probe still looms: BofA",
-    "Coinbase tops CoinDesk exchange benchmark as field shrinks to 62"
+    "9,293 Ether moves between wallets tied to the 2026 Binance hack",
+    "Nvidia bounces back with Huang's comeback, but SEC probe still looms: BofA"
    ]
   },
   {
@@ -319,17 +319,8 @@
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Robinhood Crypto expands Stock Tokens to include T. Rowe Price Technology ETF",
-    "女股神不玩了！ARK Invest 撤回兩檔加密 ETF 申請"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Sky founder considers institutional token sale to repay $77M amid stUSDS liquidity crisis",
-    "BNB Smart Chain’s $261M tokenized ANT volume claim meets first-day data"
+    "Retail investors pull $250 million from tech ETFs in biggest weekly exit in two years",
+    "Robinhood Crypto expands Stock Tokens to include T. Rowe Price Technology ETF"
    ]
   },
   {
@@ -337,23 +328,31 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Robinhood Chain pays Ethereum 70% more than Base despite collecting 64% less in fees"
+    "9,293 Ether moves between wallets tied to the 2026 Binance hack"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "TCB Daily Edition: What Happened in Crypto on November 23, 2026"
+    "9,293 Ether moves between wallets tied to the 2026 Binance hack"
    ]
   },
   {
-   "sujet": "Coinbase",
+   "sujet": "Binance",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase tops CoinDesk exchange benchmark as field shrinks to 62"
+    "9,293 Ether moves between wallets tied to the 2026 Binance hack"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Decrypt launches The Information Exchange for trading on Solana"
    ]
   }
  ],
