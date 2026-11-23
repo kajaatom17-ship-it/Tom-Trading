@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 129.16334664721762,
+ "cash": 129.15799557474244,
  "positions": [
   {
    "id": "P0022",
@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T05:20:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 526.8190510882433,
+   "dernier_prix": 525.1534300131837,
    "atr": 2.771652,
    "rollover": 0.40436956157702625,
    "rollover_periodes": 21
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T05:20:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.30443493306619,
+   "dernier_prix": 97.44056007637406,
    "atr": 1.08547,
    "rollover": 0.3207397473793346,
    "rollover_periodes": 21
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T05:20:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 572.4979510062835,
+   "dernier_prix": 571.4961131063326,
    "atr": 3.304099,
    "rollover": 0.40395866278315706,
    "rollover_periodes": 21
@@ -92,10 +92,10 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T05:20:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
-   "dernier_prix": 0.0973,
+   "dernier_prix": 0.0995,
    "atr": 0.001778075,
    "rollover": 0.11966736665279284,
    "rollover_periodes": 9
@@ -116,16 +116,16 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T05:20:00Z",
+   "verifie_jusqu_a": "2026-11-23T07:36:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.123e-06,
+   "dernier_prix": 3.112e-06,
    "atr": 5.5986e-08,
-   "rollover": 0.04280857980135676,
-   "rollover_periodes": 8
+   "rollover": 0.048159652276526355,
+   "rollover_periodes": 9
   }
  ],
- "frais_cumules": 15.299504785364965,
+ "frais_cumules": 15.304855857840135,
  "pnl_realise": -6.521210711096159,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T05:21:00Z",
+ "maj": "2026-11-23T07:36:48Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,57 +156,87 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T05:20:02Z",
+ "chasseur_t": "2026-11-23T07:36:29Z",
  "tendance": [
-  "PENGU",
-  "PI",
   "BTC",
   "PEARL",
-  "PUMP",
-  "TRUMP",
-  "MON",
+  "PENGU",
+  "PONS",
   "HYPE",
-  "VVV",
-  "LINK",
-  "ASTER",
-  "KAS",
+  "PI",
+  "PUMP",
+  "PEPE",
+  "EVAA",
+  "DRV",
+  "BP",
   "ENA",
+  "SKY",
   "AAVE",
-  "SOL"
+  "TIA"
  ],
- "tendance_t": "2026-11-23T05:14:16Z",
+ "tendance_t": "2026-11-23T07:36:29Z",
  "buzz": {
   "VT": {
    "source": "Reddit",
-   "mentions": 43,
-   "x_vs_hier": 3.3
+   "mentions": 40,
+   "x_vs_hier": 2.9
   },
-  "IBRX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+  "SOXL": {
+   "source": "Reddit",
+   "mentions": 39,
+   "x_vs_hier": 2.3
   },
   "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VKTX": {
+  "GME": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "OMER": {
+  "UNH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PATH": {
+  "CRMD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NFLX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HUM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NBIS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OUST": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -216,49 +246,24 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVDA": {
+  "BNB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CBRS": {
+  "ALGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XLP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MLTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UPST": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AAOI": {
+  "AAPL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-23T05:14:17Z",
- "sources_t": "2026-11-23T05:14:18Z",
+ "buzz_t": "2026-11-23T07:36:29Z",
+ "sources_t": "2026-11-23T07:36:32Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
