@@ -1,29 +1,5 @@
 [
  {
-  "t": "2026-11-22T04:59:45Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "449 actifs hors univers analysés, 1 en mouvement : PLAY -5.0 %."
- },
- {
-  "t": "2026-11-22T05:04:34Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 12 signal(aux) : CRCL short (SWG-1, 80), MSTR short (SWG-1, 70), HOOD short (SWG-1, 70)"
- },
- {
-  "t": "2026-11-22T05:05:31Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAL, ABBV, BONK, CAD, HUM, JNJ, MRK, NTLA, PATH, PFE, RVMD, SHIB"
- },
- {
-  "t": "2026-11-22T05:05:32Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "449 actifs hors univers analysés, 1 en mouvement : PLAY -5.0 %."
- },
- {
   "t": "2026-11-22T05:05:32Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2626,5 +2602,40 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "603 actifs hors univers analysés, 3 en mouvement : AI +10.3 %, JUP +8.1 %, BLUR +8.0 %."
+ },
+ {
+  "t": "2026-11-23T08:26:10Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : BONK, CAPR, COST, DELL, DRAM, FPS, FTNT, GME, HPE, IBIT, MSTY, OKLO"
+ },
+ {
+  "t": "2026-11-23T08:26:13Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "603 actifs hors univers analysés, 5 en mouvement : JUP +8.4 %, AI +10.0 %, BLUR +8.0 %."
+ },
+ {
+  "t": "2026-11-23T08:26:16Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage, chute] Fusionist Project Hacked for More Than $2 Million — ACE Token Price Plunges to an All-Time Low - Incrypted (Incrypted)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTEtubzgwcFY3Q2tQOVk4R3pVQ2ZJaEFFZDZDOFQxdkk0ZERTbWEyeUZKQ2tvUUwzMjdJSUhqYW5UMFVCcHh0XzU3VG8xSkRfSzlPUDlvdnhoT0F6R0M1OFpQTVdUTVlaeWR3YjRuc2Fack8zMmIyTFdEb2ViN01DOGxLSkVZa01KaDkyVHoxTVlMeUJYQWo4YlZQSm9POUl1blN3OHR3c1lrdmZFSVd5ajl3TnpSdElJ?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-23T08:26:16Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Chainflip Hack : $12M Stolen In Bitcoin, Ethereum And Stablecoins, 10% Bounty Offered - Crowdfund Insider (Crowdfund Insider)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNelVRM0JqZ1JmMnMtaVU2ckhjYWxxcFluSUpzWHlyd2xiWGdzdkZIS3llWlhzNDJackprNDlOc2pBLV9sRlE1QUh4czRzNjhGOHZQVTJwWEhMOEZlN3gtVndyd2FEUWJZek9JTDVHak1sV2pHVWVURmQ3MzhSV2N2OEdEVXJmVUNXOWVfbDJYcWU1NDNEZncyY3IzX3JJNFQ5OGh5NnMzc2lzMEY5UC1jTUZFS2ZMYXoxNFhCX1ZUM0dtdDF4amRr?oc=5",
+   "actifs": [
+    "BTC",
+    "ETH"
+   ]
+  }
  }
 ]
