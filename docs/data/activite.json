@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-22T00:03:33Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
   "t": "2026-11-22T00:04:33Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2615,5 +2609,11 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "603 actifs hors univers analysés, 1 en mouvement : AI +5.5 %."
+ },
+ {
+  "t": "2026-11-23T03:22:34Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "ENA +2.54 % en 15 min"
  }
 ]
