@@ -1,25 +1,25 @@
 {
- "t": "2026-11-23T03:59:03Z",
+ "t": "2026-11-23T04:04:48Z",
  "nb_analyses": 603,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 0,
  "tendance": [
-  "APLD",
-  "AVGO",
-  "BMY",
   "BTC",
+  "C",
+  "CAPR",
   "DRV",
   "ELSA",
   "ETH",
-  "EWY",
+  "FCEL",
+  "HPE",
   "HYPE",
   "JD",
+  "META",
   "NVDA",
   "ONDO",
   "PEARL",
   "PENGU",
   "PI",
-  "QQQ",
-  "RVMD",
+  "SANM",
   "SHIB",
   "SOXL",
   "SPY",
@@ -29,6 +29,7 @@
   "TQQQ",
   "TRUMP",
   "TSM",
+  "VKTX",
   "VOO",
   "VT",
   "VVV",
@@ -50,17 +51,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
+  "JD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOXL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "EWY": {
+  "SANM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -70,37 +66,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "TSM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "VOO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "QQQ": {
+  "SOXL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TRUMP": {
+  "FCEL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RVMD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "APLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BMY": {
+  "VKTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -110,23 +96,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVGO": {
+  "HPE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "META": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "C": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAPR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [
-  {
-   "sym": "AI",
-   "pair": "AIEUR",
-   "action": false,
-   "variation_24h_pct": 6.03,
-   "volume_24h_eur": 73804.74,
-   "spread_pct": 0.4211,
-   "tendance": false,
-   "impulsion": null
-  }
- ],
+ "candidats": [],
  "ajoutes": []
 }
