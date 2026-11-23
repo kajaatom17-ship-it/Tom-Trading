@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T08:35:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 527.1605612272751,
+   "dernier_prix": 527.0310836994787,
    "atr": 2.771652,
    "rollover": 0.40436956157702625,
    "rollover_periodes": 21
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T08:35:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.18658441156666,
+   "dernier_prix": 97.16271411547453,
    "atr": 1.08547,
    "rollover": 0.3207397473793346,
    "rollover_periodes": 21
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-23T08:35:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 572.9013120780331,
+   "dernier_prix": 572.7606000236516,
    "atr": 3.304099,
    "rollover": 0.40395866278315706,
    "rollover_periodes": 21
@@ -92,7 +92,7 @@
    "risque_eur": 5.121396455031022,
    "rr_net": 2.05,
    "ouvert_le": "2026-11-21T17:01:10Z",
-   "verifie_jusqu_a": "2026-11-23T08:35:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-170110-FET",
    "dernier_prix": 0.0991,
@@ -116,10 +116,10 @@
    "risque_eur": 2.5550234451346565,
    "rr_net": 2.28,
    "ouvert_le": "2026-11-21T19:11:55Z",
-   "verifie_jusqu_a": "2026-11-23T08:35:00Z",
+   "verifie_jusqu_a": "2026-11-23T08:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261121-191155-PEPE",
-   "dernier_prix": 3.098e-06,
+   "dernier_prix": 3.092e-06,
    "atr": 5.5986e-08,
    "rollover": 0.048159652276526355,
    "rollover_periodes": 9
@@ -140,7 +140,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-23T08:35:44Z",
+ "maj": "2026-11-23T08:37:44Z",
  "seq": 26,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -156,25 +156,25 @@
   "2026-11-23": 512.49
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-23T08:31:55Z",
+ "chasseur_t": "2026-11-23T08:37:41Z",
  "tendance": [
-  "BTC",
+  "HYPE",
   "PEARL",
   "PENGU",
-  "PONS",
-  "HYPE",
-  "PI",
-  "PUMP",
-  "PEPE",
-  "EVAA",
+  "BTC",
   "DRV",
-  "BP",
-  "ENA",
+  "MON",
+  "ETH",
+  "VVV",
+  "LIT",
+  "SUI",
   "SKY",
-  "AAVE",
-  "TIA"
+  "BP",
+  "PI",
+  "TRUMP",
+  "PUMP"
  ],
- "tendance_t": "2026-11-23T07:36:29Z",
+ "tendance_t": "2026-11-23T08:37:41Z",
  "buzz": {
   "QQQ": {
    "source": "Reddit",
@@ -268,24 +268,51 @@
   }
  },
  "buzz_t": "2026-11-23T08:26:10Z",
- "sources_t": "2026-11-23T08:17:19Z",
+ "sources_t": "2026-11-23T08:37:43Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 11,
-   "sentiment": "neutral",
+   "mentions": 10,
+   "sentiment": "bearish",
    "titres": [
-    "BTC Rebounded From $55.15K — Can Buyers Push Toward $73K?",
-    "BTC: buy 500 days before the halving and sell 500 days after"
+    "BTCUSDT: Bears Are Still in Control!",
+    "Bitcoin's $65K Comeback: The Bull Trap Nobody Should Ignore"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Memecoins",
    "mentions": 3,
-   "sentiment": "bullish",
+   "sentiment": "neutral",
    "titres": [
-    "XRP HOLDERS WATCH THIS! Key Levels That Could Change Everything!",
-    "USDT.D - the Risk-Off Surge Fading?"
+    "Trump Hands Out Gold Watches to Memecoin Whales as TRUMP Sits Down 98%",
+    "5,000 Holders Never Registered for Trump’s Memecoin Dinner as TRUMP Sits 99% Below Peak"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "XRP Price Eyes $1 as Analyst Spots First Bullish Signal After Weekend Crash",
+    "ZECUSDT: Failed Recovery Could Trigger a Sharp Sell-Off!"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "亚马逊拟以 75 亿美元收购 AI 初创公司 Decart",
+    "JPMorgan previews US stock hardware sector earnings: Sell-off lowers the threshold, AI infrastructure fundamentals remain intact, opportunities exist for Dell (DELL.US) and Hewlett Packard Enterprise (HPE.US)"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Lido V3 & Myrmidon Staking: Pooled Ethereum Staking with stVaults",
+    "Ethereum (ETH) Price Bounces After Brutal Weekend, but Bulls Are Not Out of the Woods"
    ]
   },
   {
@@ -293,42 +320,25 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "XRP HOLDERS WATCH THIS! Key Levels That Could Change Everything!",
-    "XRPUSD: Could $1.16 Surprise the Bears?"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH Major Support Retest After Descending Trendline Rejection!",
-    "How to Buy Tokenized Stocks on BNB Chain"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "BITCOIN - A liquidity grab before the downtrend resumes",
-    "How to Buy Tokenized Stocks on BNB Chain"
+    "XRP Ledger Holds Just 27% of RLUSD Supply but Leads in Transfer Volume",
+    "XRP Price Eyes $1 as Analyst Spots First Bullish Signal After Weekend Crash"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Beijing steps up market rescue with record 90B yuan ETF purchases"
+    "XRP Price Eyes $1 as Analyst Spots First Bullish Signal After Weekend Crash",
+    "Bitcoin ETFs shed $1.8B in third-largest weekly outflow"
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "How to Buy Tokenized Stocks on BNB Chain"
+    "XRP Ledger Holds Just 27% of RLUSD Supply but Leads in Transfer Volume"
    ]
   }
  ],
