@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T01:30:00Z",
+   "verifie_jusqu_a": "2026-11-24T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 551.5469112163661,
+   "dernier_prix": 550.727161093445,
    "atr": 2.771652,
    "rollover": 0.5006480286191753,
    "rollover_periodes": 26
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T01:30:00Z",
+   "verifie_jusqu_a": "2026-11-24T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 100.24461077570018,
+   "dernier_prix": 100.27216993667697,
    "atr": 1.08547,
    "rollover": 0.3971063538982238,
    "rollover_periodes": 26
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T01:30:00Z",
+   "verifie_jusqu_a": "2026-11-24T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 600.1484155268295,
+   "dernier_prix": 600.3134078058705,
    "atr": 3.304099,
    "rollover": 0.5001392967791468,
    "rollover_periodes": 26
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T01:30:00Z",
+   "verifie_jusqu_a": "2026-11-24T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.361e-06,
@@ -114,10 +114,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T01:30:00Z",
+   "verifie_jusqu_a": "2026-11-24T01:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 56325.8,
+   "dernier_prix": 56308.4,
    "atr": 640.9446
   }
  ],
@@ -137,7 +137,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T01:30:23Z",
+ "maj": "2026-11-24T01:31:24Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -351,42 +351,42 @@
   }
  },
  "buzz_t": "2026-11-24T01:17:46Z",
- "sources_t": "2026-11-24T01:11:37Z",
+ "sources_t": "2026-11-24T01:31:22Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 7,
-   "sentiment": "bullish",
-   "titres": [
-    "Visa Launches Wallet That Lets AI Agents Earn Stablecoins for Owners",
-    "Claude AI aids in Riemann Hypothesis proof, pending verification"
-   ]
-  },
-  {
    "sujet": "Ethereum",
-   "mentions": 6,
-   "sentiment": "neutral",
+   "mentions": 7,
+   "sentiment": "bearish",
    "titres": [
-    "Ethereum Foundation cuts staff 20% to focus on protocol security and post-quantum research",
-    "Ethereum Foundation doubles protocol security team ahead of overhaul"
+    "⛽ ETH Gas: 🐢 0.608101343 | 🚶 0.668911477 | 🚀 0.699316544 Gwei",
+    "ETH 崩跌逼出賣壓！BTCS 砍 81% Aave 債務、套現 4,380 萬美元"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 4,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "CFTC staff say bitcoin, ether can count toward derivatives firms’ operating expenses",
-    "$BTC - Market Update (11/24)"
+    "Bitcoin Remains in a Strong Bearish Structure",
+    "Chainflip's $12.6M hack leaves a safe restart in question"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "bullish",
    "titres": [
-    "Visa Launches Wallet That Lets AI Agents Earn Stablecoins for Owners",
-    "早报｜纳斯达克综合指数于 11 月 23 日上涨 6.5%；Circle 的 USDC Treasury 新铸造 2.5 亿枚 USDC"
+    "数据：Opus 5.5 对 GPT-6 Astra 测试评分高出 0.2 分",
+    "Visa Launches Wallet That Lets AI Agents Earn Stablecoins for Owners"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "A US Court Order Can Freeze Your Crypto Even If You're Innocent",
+    "数据：超 1.1 万枚 BTC 从 Coinbase、Binance 转入 Kraken"
    ]
   },
   {
@@ -394,33 +394,33 @@
    "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "Solana Price Prediction 2030: Is $2,000 SOL Still on the Table After a 75% Crash?",
-    "$SOL: Rejection After Filling the Imbalance"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Solana Price Prediction 2030: Is $2,000 SOL Still on the Table After a 75% Crash?",
-    "Clockwork Laundering: Binance Hackers Follow a Daily Cadence Linked to China"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Anthropic CEO 在 IPO 出售约 338 万股，价值约 2.8 亿美元"
+    "Solana 4H: Nvidia Spike to 78.5 Fully Faded, Is 70 Next?",
+    "Solana Price Prediction 2030: Is $2,000 SOL Still on the Table After a 75% Crash?"
    ]
   },
   {
    "sujet": "XRP",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Morpho XRP 抵押借贷市场中，Sentora 供应 99.99% RLUSD",
+    "XRP 4H – Bullish Divergence At Lows"
+   ]
+  },
+  {
+   "sujet": "ETF",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "XRP 4H – Bullish Divergence At Lows"
+    "首檔 2 倍槓桿 Zcash ETF 掛牌！灰度 ZECX 首日跌 13%"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Chainflip's $12.6M hack leaves a safe restart in question"
    ]
   }
  ],
