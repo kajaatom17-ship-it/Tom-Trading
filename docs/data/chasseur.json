@@ -1,7 +1,7 @@
 {
- "t": "2026-11-24T04:52:53Z",
+ "t": "2026-11-24T04:57:37Z",
  "nb_analyses": 608,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 2,
  "tendance": [
   "ACU",
   "ALL",
@@ -224,6 +224,27 @@
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "AI",
+   "pair": "AIEUR",
+   "action": false,
+   "variation_24h_pct": 6.59,
+   "volume_24h_eur": 63890.83,
+   "spread_pct": 0.0672,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "SKY",
+   "pair": "SKYEUR",
+   "action": false,
+   "variation_24h_pct": -3.19,
+   "volume_24h_eur": 274699.41,
+   "spread_pct": 0.0837,
+   "tendance": true,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
