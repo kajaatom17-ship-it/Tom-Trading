@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T06:07:00Z",
+   "verifie_jusqu_a": "2026-11-24T06:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 597.3406694176982,
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T06:07:00Z",
+   "verifie_jusqu_a": "2026-11-24T06:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.368e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T06:07:00Z",
+   "verifie_jusqu_a": "2026-11-24T06:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55393.2,
+   "dernier_prix": 55397.9,
    "atr": 640.9446,
    "rollover": 0.017495706713782186,
    "rollover_periodes": 1
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T06:07:07Z",
+ "maj": "2026-11-24T06:08:05Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -365,11 +365,11 @@
   }
  },
  "buzz_t": "2026-11-24T05:53:46Z",
- "sources_t": "2026-11-24T05:48:04Z",
+ "sources_t": "2026-11-24T06:08:03Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 7,
    "sentiment": "bearish",
    "titres": [
     "LendingUSA, Cross River Bank Debut Bitcoin-Backed Loans Up to $250K",
@@ -381,35 +381,26 @@
    "mentions": 6,
    "sentiment": "bullish",
    "titres": [
-    "Raghuram Rajan warns AI boom may face a reckoning on returns",
-    "Grayscale Calls Bitcoin Oversold, but One Outside Risk Could Decide Its Path"
+    "Malaysia's Sunway Group selects HPE private cloud AI co-developed with Nvidia",
+    "Raghuram Rajan warns AI boom may face a reckoning on returns"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "sujet": "ETF",
+   "mentions": 3,
+   "sentiment": "bearish",
    "titres": [
-    "Crypto Price Analysis, ETH, XRP, VVV, UNI and SOL, Nov. 24: XRP Momentum Turns Higher Despite Failed Test of $1 as Ethereum Loses $1,710",
-    "ETH/USD: $1,770 Rejection Puts $1,565 in Focus"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Crypto Price Analysis, ETH, XRP, VVV, UNI and SOL, Nov. 24: XRP Momentum Turns Higher Despite Failed Test of $1 as Ethereum Loses $1,710",
-    "SOL Could Stall Below $80 Unless ETF Inflows Return, Analyst Warns"
+    "DOGE Bounce From a One-Year Low Meets a Wall as Its ETFs Post Only Outflows",
+    "比特币现货 ETF 昨日总净流出 5.7 亿美元，贝莱德 IBIT 净流出 5.09 亿美元居首"
    ]
   },
   {
    "sujet": "Institutions",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Grayscale Calls Bitcoin Oversold, but One Outside Risk Could Decide Its Path",
-    "Fidelity Analyst Says Bitcoin Quantum Threat Is Largely Solved: Will Holders Upgrade?"
+    "比特币现货 ETF 昨日总净流出 5.7 亿美元，贝莱德 IBIT 净流出 5.09 亿美元居首",
+    "Grayscale Calls Bitcoin Oversold, but One Outside Risk Could Decide Its Path"
    ]
   },
   {
@@ -422,16 +413,23 @@
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "bearish",
+   "sujet": "Dogecoin",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus",
-    "SOL Could Stall Below $80 Unless ETF Inflows Return, Analyst Warns"
+    "DOGE Bounce From a One-Year Low Meets a Wall as Its ETFs Post Only Outflows"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Crypto Price Analysis, ETH, XRP, VVV, UNI and SOL, Nov. 24: XRP Momentum Turns Higher Despite Failed Test of $1 as Ethereum Loses $1,710"
+   ]
+  },
+  {
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
