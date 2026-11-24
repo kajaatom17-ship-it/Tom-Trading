@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T18:53:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 539.7517397371469,
+   "dernier_prix": 539.7665085735133,
    "atr": 2.771652,
    "rollover": 0.5776708022528946,
    "rollover_periodes": 30
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T18:53:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 94.57056082011619,
+   "dernier_prix": 94.57314848595402,
    "atr": 1.08547,
    "rollover": 0.45819963911333517,
    "rollover_periodes": 30
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T18:53:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 582.7549410359074,
+   "dernier_prix": 582.7708865377599,
    "atr": 3.304099,
    "rollover": 0.5770838039759386,
    "rollover_periodes": 30
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T18:53:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.252e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T18:53:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54636.5,
+   "dernier_prix": 54681.7,
    "atr": 640.9446,
    "rollover": 0.06998282685512874,
    "rollover_periodes": 4
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T18:53:23Z",
+ "maj": "2026-11-24T18:54:31Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -270,24 +270,24 @@
   }
  },
  "buzz_t": "2026-11-24T18:50:26Z",
- "sources_t": "2026-11-24T18:34:29Z",
+ "sources_t": "2026-11-24T18:54:22Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 4,
+   "sujet": "Bitcoin",
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "Faisal Islam: Fears over the AI boom haven't gone away",
-    "美众议员 Raskin 扩大调查 Trump Jr. 基金对 Polymarket 与 Juul 的投资"
+    "TradeCityPro | Bitcoin Daily Analysis #413",
+    "Kraken’s Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC"
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 4,
+   "sujet": "SEC/Regulation",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Wall Street and Crypto Are in 'Extreme Fear'. What's Spooking Investors?",
-    "Eric Trump’s Bitcoin miner surges 17% after $150 million deal to avoid selling BTC"
+    "CFTC approves permanent reporting rules for prediction markets",
+    "SEC staff clears Molecule to sell research-funding tokens without registration"
    ]
   },
   {
@@ -295,17 +295,25 @@
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Aptos leads all chains with $93.2 million weekly stablecoin gain",
-    "South Korea’s Crypto Bill Would Force Bithumb’s Owner to Sell Most of Its Stake"
+    "#ORCAUSDT #4h (Binance) Falling wedge breakout [LONG]",
+    "Kraken’s Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "AI",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "SEC staff clears Molecule to sell research-funding tokens without registration",
-    "Utah drops criminal charges against Kalshi after the platform exits the state"
+    "Faisal Islam: Fears over the AI boom haven't gone away",
+    "Anthropic’s $83 IPO price looked bold. Then the stock slipped below it"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "#ORCAUSDT #4h (Binance) Falling wedge breakout [LONG]"
    ]
   },
   {
@@ -322,14 +330,6 @@
    "sentiment": "neutral",
    "titres": [
     "Rialto raises $5 million from Robinhood and Tandem to expand onchain trading"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong"
    ]
   },
   {
