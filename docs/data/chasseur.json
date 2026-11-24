@@ -1,56 +1,55 @@
 {
- "t": "2026-11-24T00:18:32Z",
+ "t": "2026-11-24T00:24:23Z",
  "nb_analyses": 605,
- "nb_en_mouvement": 4,
+ "nb_en_mouvement": 2,
  "tendance": [
+  "ALGO",
   "ALL",
   "AM",
   "AMD",
-  "AMTM",
   "ATOM",
-  "BB.TSX",
   "BBIO",
   "BP",
   "BTC",
   "CIA",
   "CRWD",
   "DELL",
-  "DIS",
   "DJT",
   "DRV",
   "DTE",
   "ET",
   "FET",
   "FUBO",
-  "GLSI",
   "GOOGL",
   "HPE",
   "HR",
   "HYPE",
-  "IBRX",
   "IT",
   "MAGA",
+  "MAGS",
   "MON",
+  "MP",
   "MU",
   "NBIS",
   "NEAR",
-  "NTSK",
   "NVDA",
   "NYT",
   "PBR",
   "PEARL",
   "PENGU",
   "QQQ",
-  "SHIB",
   "SKY",
   "SO",
   "SOL",
   "SOXL",
   "SOXS",
   "SPY",
+  "SQQQ",
   "TRUMP",
+  "UNH",
   "VVV",
   "XLE",
+  "XOM",
   "XRP",
   "YOU",
   "ZM"
@@ -58,33 +57,33 @@
  "buzz_reseaux": {
   "NVDA": {
    "source": "Reddit",
-   "mentions": 1729,
+   "mentions": 1755,
    "x_vs_hier": 5.8
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 404,
+   "mentions": 407,
    "x_vs_hier": 3.1
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 221,
-   "x_vs_hier": 2.7
+   "mentions": 223,
+   "x_vs_hier": 2.8
   },
   "AMD": {
    "source": "Reddit",
-   "mentions": 127,
+   "mentions": 126,
    "x_vs_hier": 2.6
   },
   "NYT": {
    "source": "Reddit",
-   "mentions": 126,
-   "x_vs_hier": 12.6
+   "mentions": 123,
+   "x_vs_hier": 11.2
   },
   "HR": {
    "source": "Reddit",
-   "mentions": 114,
-   "x_vs_hier": 114.0
+   "mentions": 119,
+   "x_vs_hier": 119.0
   },
   "MU": {
    "source": "Reddit",
@@ -96,20 +95,20 @@
    "mentions": 74,
    "x_vs_hier": 2.2
   },
-  "SOXL": {
-   "source": "Reddit",
-   "mentions": 62,
-   "x_vs_hier": 2.4
-  },
   "AM": {
    "source": "Reddit",
    "mentions": 62,
    "x_vs_hier": 5.6
   },
+  "SOXL": {
+   "source": "Reddit",
+   "mentions": 62,
+   "x_vs_hier": 2.1
+  },
   "ET": {
    "source": "Reddit",
-   "mentions": 58,
-   "x_vs_hier": 3.4
+   "mentions": 60,
+   "x_vs_hier": 3.3
   },
   "CIA": {
    "source": "Reddit",
@@ -118,28 +117,28 @@
   },
   "DJT": {
    "source": "Reddit",
-   "mentions": 49,
-   "x_vs_hier": 12.2
-  },
-  "MAGA": {
-   "source": "Reddit",
-   "mentions": 47,
-   "x_vs_hier": 7.8
+   "mentions": 48,
+   "x_vs_hier": 16.0
   },
   "HPE": {
    "source": "Reddit + StockTwits",
    "mentions": 47,
    "x_vs_hier": 47.0
   },
-  "NBIS": {
+  "MAGA": {
    "source": "Reddit",
-   "mentions": 45,
-   "x_vs_hier": 2.2
+   "mentions": 47,
+   "x_vs_hier": 7.8
   },
   "IT": {
    "source": "Reddit",
    "mentions": 45,
    "x_vs_hier": 2.6
+  },
+  "NBIS": {
+   "source": "Reddit",
+   "mentions": 45,
+   "x_vs_hier": 2.2
   },
   "YOU": {
    "source": "Reddit",
@@ -149,17 +148,17 @@
   "ALL": {
    "source": "Reddit",
    "mentions": 43,
-   "x_vs_hier": 6.1
+   "x_vs_hier": 5.4
+  },
+  "CRWD": {
+   "source": "Reddit + StockTwits",
+   "mentions": 39,
+   "x_vs_hier": 19.5
   },
   "GOOGL": {
    "source": "Reddit",
    "mentions": 39,
    "x_vs_hier": 3.5
-  },
-  "CRWD": {
-   "source": "Reddit",
-   "mentions": 37,
-   "x_vs_hier": 18.5
   },
   "SO": {
    "source": "Reddit",
@@ -176,7 +175,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMTM": {
+  "ZM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SQQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -186,22 +190,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZM": {
+  "MAGS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBRX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BB.TSX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SHIB": {
+  "XOM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -211,22 +205,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "GLSI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PBR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NTSK": {
+  "UNH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -235,36 +214,31 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
+  },
+  "MP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ALGO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PBR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   }
  },
  "candidats": [
-  {
-   "sym": "LSK",
-   "pair": "LSKEUR",
-   "action": false,
-   "variation_24h_pct": 12.43,
-   "volume_24h_eur": 41834.88,
-   "spread_pct": 0.2198,
-   "tendance": false,
-   "impulsion": null
-  },
   {
    "sym": "SNDK",
    "pair": "SNDKxUSD",
    "action": true,
    "variation_24h_pct": 5.87,
-   "volume_24h_eur": 794963.19,
-   "spread_pct": 0.0564,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "KSM",
-   "pair": "KSMEUR",
-   "action": false,
-   "variation_24h_pct": 5.73,
-   "volume_24h_eur": 70832.55,
-   "spread_pct": 0.4167,
+   "volume_24h_eur": 794970.48,
+   "spread_pct": 0.124,
    "tendance": false,
    "impulsion": null
   },
