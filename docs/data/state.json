@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T05:46:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 552.026035936927,
+   "dernier_prix": 551.9906129969658,
    "atr": 2.771652,
    "rollover": 0.5199037220276052,
    "rollover_periodes": 27
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T05:46:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.69820315364869,
+   "dernier_prix": 98.69186979200087,
    "atr": 1.08547,
    "rollover": 0.41237967520200164,
    "rollover_periodes": 27
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T05:46:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 598.4231756508984,
+   "dernier_prix": 598.3847754544538,
    "atr": 3.304099,
    "rollover": 0.5193754235783448,
    "rollover_periodes": 27
@@ -92,10 +92,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T05:46:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.374e-06,
+   "dernier_prix": 3.377e-06,
    "atr": 3.3103e-08,
    "rollover": 0.005713656114347733,
    "rollover_periodes": 1
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T05:46:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55591.7,
+   "dernier_prix": 55573.6,
    "atr": 640.9446,
    "rollover": 0.017495706713782186,
    "rollover_periodes": 1
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T05:46:06Z",
+ "maj": "2026-11-24T05:48:05Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -158,25 +158,25 @@
   "2026-11-24": 488.56
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-24T05:42:19Z",
+ "chasseur_t": "2026-11-24T05:48:03Z",
  "tendance": [
-  "BTC",
-  "ON",
+  "MON",
   "PENGU",
-  "HYPE",
-  "VVV",
+  "BTC",
   "PEARL",
-  "ETH",
+  "VVV",
+  "INJ",
   "SAHARA",
-  "SOL",
-  "ZEC",
-  "PEPE",
+  "ETH",
+  "NEAR",
   "PUMP",
-  "SANC",
-  "SKY",
-  "ACU"
+  "XRP",
+  "PI",
+  "AVAX",
+  "EVAA",
+  "HYPE"
  ],
- "tendance_t": "2026-11-24T04:47:48Z",
+ "tendance_t": "2026-11-24T05:48:03Z",
  "buzz": {
   "ETH": {
    "source": "Reddit",
@@ -365,11 +365,20 @@
   }
  },
  "buzz_t": "2026-11-24T05:36:36Z",
- "sources_t": "2026-11-24T05:28:05Z",
+ "sources_t": "2026-11-24T05:48:04Z",
  "actus_tendance": [
   {
+   "sujet": "Bitcoin",
+   "mentions": 6,
+   "sentiment": "bearish",
+   "titres": [
+    "LendingUSA, Cross River Bank Debut Bitcoin-Backed Loans Up to $250K",
+    "bitcoin’s road to $50K: bearish pressure intensifies"
+   ]
+  },
+  {
    "sujet": "AI",
-   "mentions": 8,
+   "mentions": 6,
    "sentiment": "bullish",
    "titres": [
     "Raghuram Rajan warns AI boom may face a reckoning on returns",
@@ -377,12 +386,21 @@
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "bearish",
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
-    "bitcoin’s road to $50K: bearish pressure intensifies",
-    "Grayscale Calls Bitcoin Oversold, but One Outside Risk Could Decide Its Path"
+    "Crypto Price Analysis, ETH, XRP, VVV, UNI and SOL, Nov. 24: XRP Momentum Turns Higher Despite Failed Test of $1 as Ethereum Loses $1,710",
+    "ETH/USD: $1,770 Rejection Puts $1,565 in Focus"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Crypto Price Analysis, ETH, XRP, VVV, UNI and SOL, Nov. 24: XRP Momentum Turns Higher Despite Failed Test of $1 as Ethereum Loses $1,710",
+    "SOL Could Stall Below $80 Unless ETF Inflows Return, Analyst Warns"
    ]
   },
   {
@@ -405,34 +423,19 @@
   },
   {
    "sujet": "ETF",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus"
+    "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus",
+    "SOL Could Stall Below $80 Unless ETF Inflows Return, Analyst Warns"
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus"
-   ]
-  },
-  {
-   "sujet": "Layer 2",
+   "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Microsoft Ignite '26 sends a key signal: Security becomes the core foundation in the era of AI agents, Citi reiterates its optimism on Palo Alto (PANW.US) and Rubrik (RBRK.US)"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH/USD: $1,770 Rejection Puts $1,565 in Focus"
+    "Crypto Price Analysis, ETH, XRP, VVV, UNI and SOL, Nov. 24: XRP Momentum Turns Higher Despite Failed Test of $1 as Ethereum Loses $1,710"
    ]
   }
  ],
