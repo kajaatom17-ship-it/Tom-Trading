@@ -1615,6 +1615,13 @@
  ],
  "alertes": [
   {
+   "sym": "AMD",
+   "horizon": "15 min",
+   "variation_pct": 1.57,
+   "prix": 368.2477424062756,
+   "t": "2026-11-24T16:45:27Z"
+  },
+  {
    "sym": "INTC",
    "horizon": "15 min",
    "variation_pct": -1.74,
@@ -1636,13 +1643,6 @@
    "t": "2026-11-24T16:17:28Z"
   },
   {
-   "sym": "AMD",
-   "horizon": "15 min",
-   "variation_pct": -1.82,
-   "prix": 361.91587507065105,
-   "t": "2026-11-24T16:15:34Z"
-  },
-  {
    "sym": "MON",
    "horizon": "15 min",
    "variation_pct": -2.56,
@@ -1652,5 +1652,5 @@
  ],
  "t_actus": "2026-11-24T16:44:30Z",
  "erreurs_sources": [],
- "t": "2026-11-24T16:44:30Z"
+ "t": "2026-11-24T16:45:27Z"
 }
