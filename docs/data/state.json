@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T16:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T16:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 536.0038671664796,
+   "dernier_prix": 536.0576484538902,
    "atr": 2.771652,
    "rollover": 0.5584151088444648,
    "rollover_periodes": 29
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T16:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T16:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 94.17097618591585,
+   "dernier_prix": 94.18042506613153,
    "atr": 1.08547,
    "rollover": 0.4429263178095573,
    "rollover_periodes": 29
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T16:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T16:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 577.6306308771353,
+   "dernier_prix": 578.5277752440026,
    "atr": 3.304099,
    "rollover": 0.5578476771767407,
    "rollover_periodes": 29
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T16:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T16:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.228e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T16:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T16:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54225.6,
+   "dernier_prix": 54292.3,
    "atr": 640.9446,
    "rollover": 0.06998282685512874,
    "rollover_periodes": 4
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T16:33:25Z",
+ "maj": "2026-11-24T16:34:24Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -275,76 +275,78 @@
   }
  },
  "buzz_t": "2026-11-24T16:26:26Z",
- "sources_t": "2026-11-24T16:14:15Z",
+ "sources_t": "2026-11-24T16:34:22Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 6,
-   "sentiment": "bullish",
+   "sujet": "Bitcoin",
+   "mentions": 9,
+   "sentiment": "neutral",
    "titres": [
-    "Anthropic researcher publishes AI-built Lean proof of the Riemann hypothesis",
-    "CoreWeave faces bankruptcy risk amid Nvidia CEO resignation, $66B debt concerns"
+    "21Shares says Bitcoin’s bear market could drag the price toward $43,800",
+    "Bitcoin ETFs Lose $4.71B in November as BlackRock’s IBIT Shares Rebound"
    ]
   },
   {
-   "sujet": "Bitcoin",
+   "sujet": "AI",
+   "mentions": 8,
+   "sentiment": "neutral",
+   "titres": [
+    "AMD powers on Helios AI racks inside Microsoft Azure labs",
+    "KLA posts $4.14 billion quarter, sees wafer equipment market topping $200 billion in 2027"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "BITCOIN rebounding on a major Pivot just like 2015.",
-    "Santa Rally Incoming: Coiled Spring Setup Ahead of Tomorrow PCE"
+    "Binance and Coinbase assist Europol in crackdown on illegal streaming networks",
+    "Coinbase Bitcoin discount stretches to 80 consecutive days"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "ETHGas builds a market for institutions to pay validators for trade protection",
+    "ETH at $1,674 | Extreme fear in crypto and stock"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin ETFs Lose $4.71B in November as BlackRock’s IBIT Shares Rebound",
+    "Bybit Introduces TradFi Earn, Unifying Access to Global ETFs and RWA"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin ETFs Lose $4.71B in November as BlackRock’s IBIT Shares Rebound",
+    "Blackrock Expands Its Tokenized Fund Empire With $100M Hong Kong Debut"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "USDT.d by zonnour of trade active",
-    "Solana token crashes 60% amid suspected $2.15 million USDC hack"
-   ]
-  },
-  {
-   "sujet": "Memecoins",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "DOGE: Surged 18%+ in the last 24hrs, is the memecoins awakened?",
-    "ANSEM memecoin plunges 75% amid disputed wallet hack claims"
+    "Russia Will Impose 22% VAT on USDT Trades as Moscow Exchange Opens",
+    "South Korea Drafts Over 50% Bank-Ownership Rule for Stablecoin Issuers, Cap on Exchange Stakes"
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "DeFi",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "ANSEM memecoin plunges 75% amid disputed wallet hack claims",
-    "Solana token crashes 60% amid suspected $2.15 million USDC hack"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "CoreWeave faces mounting risks as Nvidia turmoil rattles its biggest backer",
-    "Nvidia loses $2.7T in 45 days, faces hurdles for quick rebound"
-   ]
-  },
-  {
-   "sujet": "Dogecoin",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "DOGE: Surged 18%+ in the last 24hrs, is the memecoins awakened?"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana token crashes 60% amid suspected $2.15 million USDC hack"
+    "Stacks opens Bond 4 enrollment with 1,050 BTC staking capacity",
+    "Backpack’s ANT token leads tokenized stock DeFi TVL growth with $3.8M gain"
    ]
   }
  ],
