@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:07:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 551.8117137932298,
+   "dernier_prix": 551.8015953057669,
    "atr": 2.771652,
    "rollover": 0.5199037220276052,
    "rollover_periodes": 27
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:07:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.41566729013093,
+   "dernier_prix": 98.41386265700926,
    "atr": 1.08547,
    "rollover": 0.41237967520200164,
    "rollover_periodes": 27
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 598.0672607914328,
+   "dernier_prix": 598.0562941230402,
    "atr": 3.304099,
    "rollover": 0.5193754235783448,
    "rollover_periodes": 27
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.359e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T05:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55432.3,
+   "dernier_prix": 55435.0,
    "atr": 640.9446,
    "rollover": 0.017495706713782186,
    "rollover_periodes": 1
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T05:06:10Z",
+ "maj": "2026-11-24T05:08:05Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -158,7 +158,7 @@
   "2026-11-24": 488.56
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-24T05:02:22Z",
+ "chasseur_t": "2026-11-24T05:08:03Z",
  "tendance": [
   "BTC",
   "ON",
@@ -360,76 +360,75 @@
   }
  },
  "buzz_t": "2026-11-24T05:02:22Z",
- "sources_t": "2026-11-24T04:47:48Z",
+ "sources_t": "2026-11-24T05:08:04Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
-   "sentiment": "neutral",
-   "titres": [
-    "BTCUSD: Next Stop Target, Sellers Control",
-    "Bitcoin (BTC): Rejection at the 0.618, Local Range in Focus"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
    "mentions": 5,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.131287562 | 🚶 0.13130058 | 🚀 0.144430638 Gwei",
-    "Ethereum co-founder recommends synchronous composability technology"
+    "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus",
+    "Short Term Trade Buy Bitcoin 60366 Sell 61000"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Claude Opus 5.6 傳開始小規模測試，網友曬驚艷 3D 作品",
-    "US to add Singaporean AI firm Megaspeed to trade blacklist"
+    "AWS CEO says AI agent security needs more than a kill switch",
+    "What Is Kymera and Why Did an Eczema Pill Outperform All AI Stocks on Monday?"
    ]
   },
   {
    "sujet": "Binance",
    "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "‘The Mistake Has Been Corrected’: Musk, Trump, CZ React to Nvidia’s CEO Reversal",
-    "Binance traders shed $4.5B in bitcoin leverage, a record in dollar terms"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana (SOL): Channel Midpoint Holds the Key Between $68 and $75",
-    "Solana 4H: Nvidia Spike to 78.5 Fully Faded, Is 70 Next?"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "XRP/USD: EMA55 Rejection Keeps Downtrend Pressure Toward 0.86",
-    "Morpho XRP 抵押借贷市场中，Sentora 供应 99.99% RLUSD"
+    "BNBUSDT — BEARISH REVERSAL SETUP | RESISTANCE & DOWNSIDE TARGETS",
+    "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 1,
+   "sujet": "Ethereum",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Aave’s USDC loans surge 36% to $2.6 billion as liquid collateral share plunges"
+    "ETH/USD: $1,770 Rejection Puts $1,565 in Focus",
+    "数据：某巨鲸正做空 5080 万美元 ETH，曾在 BTC 和 ETH 上盈利 2050 万美元"
    ]
   },
   {
-   "sujet": "Coinbase",
-   "mentions": 1,
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "美国法院驳回 TerraUSD 投资者对 Coinbase 的诉讼"
+    "A Low-Clarity SEC Guidance Update",
+    "Attorney: RJ Luis Jr. plans to sue SEC, Greg Sankey over LSU eligibility saga"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus"
+   ]
+  },
+  {
+   "sujet": "Dogecoin",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "DOGEUSDT (4H) – Can Buyers Gain Recovery?"
    ]
   }
  ],
