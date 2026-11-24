@@ -1603,8 +1603,23 @@
    "actifs": []
   }
  ],
- "alertes": [],
+ "alertes": [
+  {
+   "sym": "MON",
+   "horizon": "15 min",
+   "variation_pct": -2.66,
+   "prix": 0.00914,
+   "t": "2026-11-24T16:08:19Z"
+  },
+  {
+   "sym": "ORCL",
+   "horizon": "15 min",
+   "variation_pct": -2.53,
+   "prix": 99.39157324381766,
+   "t": "2026-11-24T16:08:19Z"
+  }
+ ],
  "t_actus": "2026-11-24T16:03:21Z",
  "erreurs_sources": [],
- "t": "2026-11-24T16:06:13Z"
+ "t": "2026-11-24T16:08:19Z"
 }
