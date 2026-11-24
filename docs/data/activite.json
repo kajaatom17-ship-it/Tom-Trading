@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-23T03:06:19Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 27 signal(aux) : INTC short (SWG-1, 80), CRCL short (SWG-1, 80), ADA short (SWG-1, 80)"
- },
- {
   "t": "2026-11-23T03:07:16Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -2826,5 +2820,11 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "ICNT -2.59 % en 15 min"
+ },
+ {
+  "t": "2026-11-24T00:53:57Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "605 actifs hors univers analysés, 1 en mouvement : SNDK +5.9 %."
  }
 ]
