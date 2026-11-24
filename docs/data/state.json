@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T09:48:00Z",
+   "verifie_jusqu_a": "2026-11-24T09:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 544.7169362076229,
+   "dernier_prix": 544.5424001904187,
    "atr": 2.771652,
    "rollover": 0.539159415436035,
    "rollover_periodes": 28
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T09:48:00Z",
+   "verifie_jusqu_a": "2026-11-24T09:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.60252019267753,
+   "dernier_prix": 97.57124678439665,
    "atr": 1.08547,
    "rollover": 0.4276529965057795,
    "rollover_periodes": 28
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T09:48:00Z",
+   "verifie_jusqu_a": "2026-11-24T09:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 591.3936152676789,
+   "dernier_prix": 590.435124916463,
    "atr": 3.304099,
    "rollover": 0.5386115503775427,
    "rollover_periodes": 28
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T09:48:00Z",
+   "verifie_jusqu_a": "2026-11-24T09:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.314e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T09:48:00Z",
+   "verifie_jusqu_a": "2026-11-24T09:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54965.5,
+   "dernier_prix": 54886.9,
    "atr": 640.9446,
    "rollover": 0.03499141342756437,
    "rollover_periodes": 2
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T09:48:15Z",
+ "maj": "2026-11-24T09:50:14Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -158,7 +158,7 @@
   "2026-11-24": 488.56
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-24T09:44:21Z",
+ "chasseur_t": "2026-11-24T09:50:08Z",
  "tendance": [
   "PENGU",
   "BTC",
@@ -340,59 +340,57 @@
   }
  },
  "buzz_t": "2026-11-24T09:38:38Z",
- "sources_t": "2026-11-24T09:29:44Z",
+ "sources_t": "2026-11-24T09:50:13Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin: Relief Rallies Are Becoming Selling Opportunities",
-    "BTC | False Break, a Recovery Chance"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 6,
+   "mentions": 12,
    "sentiment": "neutral",
    "titres": [
-    "Signal restricts screen access to block AI agents, urges tech giants to strengthen privacy protections",
-    "UK ICO monitors agentic AI rollout and engages with major developers"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
-    "Who Sold Bitcoin's Nvidia Rally? The Answer Sits in Wall Street's Fund Data"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Binance Hack: US Moves to Recover $1.1 Billion, but Who Gets the Money?",
-    "BITCOIN - Short squeeze of resistance will trigger a fall"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "Solana Mobile Seeker Price Prediction 2026–2032: Can SKR Token Sustain the Bullish Surge?",
-    "Solana price prediction 2026-2032: Trends and insights for investors"
+    "BTCUSDT | Liquidity Sweep Completed, Bearish Rejection in Play",
+    "Saylor’s Strategy Is Now Worth Less That Its Bitcoin Stash"
    ]
   },
   {
    "sujet": "Ethereum",
+   "mentions": 5,
+   "sentiment": "neutral",
+   "titres": [
+    "ETH - Back to a Major Support Zone!",
+    "BRETT price prediction 2026-2032: IS BRETT a good investment?"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Time For XRP Departure as Bullish Divergence Puts $1.09 in Focus",
+    "XRP: Double Three (WXY) Wave 4 (Elliott Wave)"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Meme Coin Dominance Hits a Record Low. Why Are Buyers Walking Away?"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "Meme Coin Dominance Hits a Record Low. Why Are Buyers Walking Away?"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "ETH wrapping up a fourth wave horizontal correction"
+    "RBI DG asks primary dealers to bid responsibly in G-Sec underwriting auctions"
    ]
   },
   {
@@ -400,15 +398,15 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Hoskinson Says Cardano Biggest Upgrade Is Almost Ready for Mainnet, Confirms Next Hard Fork Plans"
+    "ADA | Crypto Q4 Nov 2026 - Day chart | Levels of interest"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "AI",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Binance Hack: US Moves to Recover $1.1 Billion, but Who Gets the Money?"
+    "ARKO AI 于新加坡金融科技节正式发布，聚焦个人消费 AI Agent"
    ]
   }
  ],
