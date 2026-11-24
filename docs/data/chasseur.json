@@ -1,7 +1,7 @@
 {
- "t": "2026-11-24T08:34:37Z",
+ "t": "2026-11-24T08:40:22Z",
  "nb_analyses": 609,
- "nb_en_mouvement": 3,
+ "nb_en_mouvement": 4,
  "tendance": [
   "ALGO",
   "ALL",
@@ -225,7 +225,7 @@
    "pair": "AIEUR",
    "action": false,
    "variation_24h_pct": 8.73,
-   "volume_24h_eur": 59431.42,
+   "volume_24h_eur": 59331.65,
    "spread_pct": 0.1975,
    "tendance": false,
    "impulsion": null
@@ -234,22 +234,38 @@
    "sym": "DRV",
    "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": -5.76,
-   "volume_24h_eur": 70391.62,
-   "spread_pct": 0.2398,
+   "variation_24h_pct": -5.66,
+   "volume_24h_eur": 71131.58,
+   "spread_pct": 0.2396,
    "tendance": true,
    "impulsion": null
   },
   {
-   "sym": "REKT",
-   "pair": "REKTEUR",
+   "sym": "ZRO",
+   "pair": "ZROEUR",
    "action": false,
-   "variation_24h_pct": -5.14,
-   "volume_24h_eur": 51468.92,
-   "spread_pct": 0.4392,
+   "variation_24h_pct": -3.34,
+   "volume_24h_eur": 824786.83,
+   "spread_pct": 0.1976,
+   "tendance": true,
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -2.5,
+    "volume_x": 36.1
+   }
+  },
+  {
+   "sym": "SKHY",
+   "pair": "SKHYxUSD",
+   "action": true,
+   "variation_24h_pct": -3.23,
+   "volume_24h_eur": 550126.8,
+   "spread_pct": 0.0333,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "ZRO"
+ ]
 }
