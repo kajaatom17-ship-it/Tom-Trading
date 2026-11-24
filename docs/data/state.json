@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T17:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T17:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 539.3985812498861,
+   "dernier_prix": 539.3936630955095,
    "atr": 2.771652,
    "rollover": 0.5776708022528946,
    "rollover_periodes": 30
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T17:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T17:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 94.76266024764301,
+   "dernier_prix": 94.83473900159564,
    "atr": 1.08547,
    "rollover": 0.45819963911333517,
    "rollover_periodes": 30
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T17:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T17:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 583.7390812772398,
+   "dernier_prix": 583.7337588329156,
    "atr": 3.304099,
    "rollover": 0.5770838039759386,
    "rollover_periodes": 30
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T17:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T17:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.254e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T17:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T17:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54652.6,
+   "dernier_prix": 54706.7,
    "atr": 640.9446,
    "rollover": 0.06998282685512874,
    "rollover_periodes": 4
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T17:33:30Z",
+ "maj": "2026-11-24T17:34:30Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -270,24 +270,33 @@
   }
  },
  "buzz_t": "2026-11-24T17:20:31Z",
- "sources_t": "2026-11-24T17:14:34Z",
+ "sources_t": "2026-11-24T17:34:28Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "HOW-TO: Read the DGEN Console decision table (BTC daily example)",
-    "Issue 112 – We have a lot of advisers"
+    "Is the Bottom Near? Expecting x3 Growth Before 2028 Halving",
+    "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 4,
-   "sentiment": "bearish",
+   "mentions": 3,
+   "sentiment": "neutral",
    "titres": [
     "HOW-TO: Read the DGEN Console decision table (BTC daily example)",
     "BNB at Weekly Support: Liquidity Grab Before $750?"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "SEC ends Arqit Quantum investigation without enforcement action",
+    "AMD breaks below $400 for the first time since May"
    ]
   },
   {
@@ -300,21 +309,27 @@
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
+   "sujet": "Solana",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "AMD breaks below $400 for the first time since May",
-    "Nvidia surges 31% as Jensen Huang returns as CEO amid lingering concerns"
+    "Injective’s Stockdrop returns to Solana with tokenized stock claims"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Injective’s Stockdrop returns to Solana with tokenized stock claims"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Nvidia’s $30 billion OpenAI stake comes with a much bigger safety net",
-    "Micron stock slides as much as 12% after BNP Paribas downgrade and price target cut"
+    "OpenAI prepares dedicated email inboxes for its Dots AI agents"
    ]
   },
   {
