@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T19:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T19:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 539.8157438657302,
+   "dernier_prix": 539.8108199323184,
    "atr": 2.771652,
    "rollover": 0.5776708022528946,
    "rollover_periodes": 30
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T19:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T19:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 94.52704551673811,
+   "dernier_prix": 94.47145424195712,
    "atr": 1.08547,
    "rollover": 0.45819963911333517,
    "rollover_periodes": 30
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T19:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T19:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 582.4500592903402,
+   "dernier_prix": 582.0616431483796,
    "atr": 3.304099,
    "rollover": 0.5770838039759386,
    "rollover_periodes": 30
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T19:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T19:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.248e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T19:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T19:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54526.9,
+   "dernier_prix": 54549.0,
    "atr": 640.9446,
    "rollover": 0.08747853356891093,
    "rollover_periodes": 5
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T19:33:26Z",
+ "maj": "2026-11-24T19:34:25Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -265,11 +265,11 @@
   }
  },
  "buzz_t": "2026-11-24T19:26:28Z",
- "sources_t": "2026-11-24T19:14:28Z",
+ "sources_t": "2026-11-24T19:34:23Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
     "Syncracy’s Watkins Says 12.5% of Data Centers Mining Pearl Would Pass Bitcoin’s Energy Use",
@@ -278,20 +278,20 @@
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 6,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "Stablecoin Development Corp down 99% as 600M potential new shares loom",
-    "What the CFTC’s New Crypto Reserves Guidance Actually Allows—And What It Doesn’t"
+    "#BRUSDT #1D (Binance) Descending trendline breakout [LONG]",
+    "Stablecoin Development Corp down 99% as 600M potential new shares loom"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 3,
+   "sujet": "Binance",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "France dominates euro stablecoin market with 89% share",
-    "CFTC approves permanent reporting rules for prediction markets"
+    "#BRUSDT #1D (Binance) Descending trendline breakout [LONG]",
+    "#ORCAUSDT #4h (Binance) Falling wedge breakout [LONG]"
    ]
   },
   {
@@ -299,8 +299,25 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Anthropic IPO Wealth Is ‘Not Gonna Go to Crypto,’ Ram Ahluwalia Says",
-    "Faisal Islam: Fears over the AI boom haven't gone away"
+    "Updated Version: HPE Stock Plunges as Declining AI Business Margins Overshadow Optimistic Performance Expectations",
+    "Anthropic IPO Wealth Is ‘Not Gonna Go to Crypto,’ Ram Ahluwalia Says"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "France dominates euro stablecoin market with 89% share",
+    "CFTC approves permanent reporting rules for prediction markets"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BlackOpal’s LiquidStone II now accepts confidential deposits via Zama"
    ]
   },
   {
@@ -309,30 +326,6 @@
    "sentiment": "neutral",
    "titres": [
     "What the CFTC’s New Crypto Reserves Guidance Actually Allows—And What It Doesn’t"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "#ORCAUSDT #4h (Binance) Falling wedge breakout [LONG]"
-   ]
-  },
-  {
-   "sujet": "Dogecoin",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Dogecoin: The Buy Zone Is Finally Here!"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Rialto raises $5 million from Robinhood and Tandem to expand onchain trading"
    ]
   }
  ],
