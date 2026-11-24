@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T07:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T07:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 553.1172848004259,
+   "dernier_prix": 553.0512985225291,
    "atr": 2.771652,
    "rollover": 0.5199037220276052,
    "rollover_periodes": 27
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T07:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T07:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.62606349293758,
+   "dernier_prix": 98.61429751307699,
    "atr": 1.08547,
    "rollover": 0.41237967520200164,
    "rollover_periodes": 27
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T07:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T07:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 600.1725451324835,
+   "dernier_prix": 600.1009452142791,
    "atr": 3.304099,
    "rollover": 0.5193754235783448,
    "rollover_periodes": 27
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T07:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T07:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.362e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T07:06:00Z",
+   "verifie_jusqu_a": "2026-11-24T07:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55460.6,
+   "dernier_prix": 55483.6,
    "atr": 640.9446,
    "rollover": 0.03499141342756437,
    "rollover_periodes": 2
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T07:06:12Z",
+ "maj": "2026-11-24T07:08:12Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -158,7 +158,7 @@
   "2026-11-24": 488.56
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-24T07:02:22Z",
+ "chasseur_t": "2026-11-24T07:08:07Z",
  "tendance": [
   "PENGU",
   "VVV",
@@ -355,11 +355,11 @@
   }
  },
  "buzz_t": "2026-11-24T07:02:23Z",
- "sources_t": "2026-11-24T06:48:06Z",
+ "sources_t": "2026-11-24T07:08:09Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
     "Bitcoin slips back toward $60,000 as Jensen Huang’s Nvidia return rally fizzles",
@@ -368,11 +368,11 @@
   },
   {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 4,
    "sentiment": "bullish",
    "titres": [
-    "Ethereum Foundation Puts AI Ahead of Quantum. Here's What Holders Give Up",
-    "Asian markets rally on Wall Street AI surge; KOSPI jumps 7%, Nikkei climbs 4%"
+    "Nvidia live: Markets surge as Jensen Huang returns as CEO",
+    "Ethereum Foundation Puts AI Ahead of Quantum. Here's What Holders Give Up"
    ]
   },
   {
@@ -394,15 +394,6 @@
    ]
   },
   {
-   "sujet": "Dogecoin",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Dogwifhat price prediction 2026 – 2032: Can WIF recover to $1?",
-    "DOGE Bounce From a One-Year Low Meets a Wall as Its ETFs Post Only Outflows"
-   ]
-  },
-  {
    "sujet": "Ethereum",
    "mentions": 2,
    "sentiment": "neutral",
@@ -421,12 +412,19 @@
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 2,
+   "sujet": "Cardano",
+   "mentions": 1,
+   "sentiment": "bullish",
+   "titres": [
+    "Cardano Founder Says Midnight Helped Get ADA Listed on Sony-Backed Exchange in Japan"
+   ]
+  },
+  {
+   "sujet": "Dogecoin",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "DOGE Bounce From a One-Year Low Meets a Wall as Its ETFs Post Only Outflows",
-    "比特币现货 ETF 昨日总净流出 5.7 亿美元，贝莱德 IBIT 净流出 5.09 亿美元居首"
+    "Dogwifhat price prediction 2026 – 2032: Can WIF recover to $1?"
    ]
   }
  ],
