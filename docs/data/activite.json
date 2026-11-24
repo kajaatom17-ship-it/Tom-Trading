@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-23T12:50:43Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ICNT +3.2 % en 15 min"
- },
- {
   "t": "2026-11-23T12:53:38Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2723,5 +2717,11 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 21 signal(aux) : NEAR short (SWG-1, 80), OP short (SWG-1, 80), MSFT short (SWG-1, 70)"
+ },
+ {
+  "t": "2026-11-24T10:07:34Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "608 actifs hors univers analysés, 7 en mouvement : DRV -8.4 %, ZEC -4.3 %, SKY -5.2 %."
  }
 ]
