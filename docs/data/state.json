@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T21:12:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 537.9218480571496,
+   "dernier_prix": 537.9120327710316,
    "atr": 2.771652,
    "rollover": 0.5969264956613244,
    "rollover_periodes": 31
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T21:12:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.26046694098004,
+   "dernier_prix": 93.25876524737932,
    "atr": 1.08547,
    "rollover": 0.473472960417113,
    "rollover_periodes": 31
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T21:12:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 582.1069822182889,
+   "dernier_prix": 581.2205202127562,
    "atr": 3.304099,
    "rollover": 0.5963199307751366,
    "rollover_periodes": 31
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T21:12:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.229e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T21:12:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54450.0,
+   "dernier_prix": 54424.2,
    "atr": 640.9446,
    "rollover": 0.08747853356891093,
    "rollover_periodes": 5
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T21:12:09Z",
+ "maj": "2026-11-24T21:14:16Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -158,7 +158,7 @@
   "2026-11-24": 488.56
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-24T21:08:13Z",
+ "chasseur_t": "2026-11-24T21:14:08Z",
  "tendance": [
   "VAR",
   "PEI",
@@ -183,32 +183,27 @@
    "mentions": 32,
    "x_vs_hier": 2.1
   },
-  "AAPL": {
-   "source": "Reddit",
-   "mentions": 77,
-   "x_vs_hier": 5.9
-  },
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 62,
-   "x_vs_hier": 4.1
+   "mentions": 85,
+   "x_vs_hier": 5.0
+  },
+  "AAPL": {
+   "source": "Reddit",
+   "mentions": 82,
+   "x_vs_hier": 6.3
   },
   "HPE": {
    "source": "Reddit + StockTwits",
-   "mentions": 60,
-   "x_vs_hier": 4.0
+   "mentions": 52,
+   "x_vs_hier": 3.1
   },
   "SPCX": {
    "source": "Reddit",
-   "mentions": 49,
-   "x_vs_hier": 2.9
+   "mentions": 50,
+   "x_vs_hier": 2.8
   },
   "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRCL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -223,22 +218,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TGTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRWD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ANF": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BB.TSX": {
+  "CRCL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -248,12 +228,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BB": {
+  "BB.TSX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KSS": {
+  "ANF": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -263,58 +243,69 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BWET": {
+  "WDAY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SNY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TGTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KSS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-24T20:56:18Z",
- "sources_t": "2026-11-24T20:54:13Z",
+ "buzz_t": "2026-11-24T21:14:09Z",
+ "sources_t": "2026-11-24T21:14:14Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 7,
-   "sentiment": "bearish",
-   "titres": [
-    "CrowdStrike plans $43.9 billion Zscaler deal to push its AI kill switch onto the network",
-    "CoreWeave bonds plunge to record lows amid AI credit jitters - report"
-   ]
-  },
-  {
    "sujet": "Bitcoin",
-   "mentions": 7,
+   "mentions": 8,
    "sentiment": "bearish",
    "titres": [
-    "$BTC (Bitcoin) Technical Analysis | 15M",
-    "Grayscale: Bitcoin is oversold, but AI risks now drive the outlook"
+    "Bitcoin Square Payment - Aptos, California",
+    "Bitcoin: sell 60.6k-61.3k, target 59,250"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "bearish",
    "titres": [
-    "CrowdStrike plans $43.9 billion Zscaler deal to push its AI kill switch onto the network",
-    "Prediction market bets placed just before big news could soon be easier to trace"
+    "Texas data center growth faces hurdles amid regulatory, power challenges",
+    "SEC staff gives Molecule no-action relief for scientific research tokens"
    ]
   },
   {
-   "sujet": "Institutions",
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "CrowdStrike plans $43.9 billion Zscaler deal to push its AI kill switch onto the network",
+    "How Meta is using Instagram to get an ad boost from its Muse personal AI agent"
+   ]
+  },
+  {
+   "sujet": "ETF",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Grayscale: Bitcoin is oversold, but AI risks now drive the outlook",
-    "Larry Fink Plots His Next Major Move Beyond BlackRock: Report"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin likely in front of final capitulation",
-    "US Stocks Movement: Circle Plunges on November 24 as Stablecoin Market Cap Shrinks, Crypto Sector Weakens, and Bearish Call Option Positions Increase"
+    "November becomes the worst month for US spot bitcoin ETFs with $4.71B out",
+    "Bitcoin options traders pile into puts at a pace last seen in 2022"
    ]
   },
   {
@@ -339,6 +330,14 @@
    "sentiment": "neutral",
    "titres": [
     "Security Alliance’s latest funding bids lag by 88% despite on-chain crime wave"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin likely in front of final capitulation"
    ]
   }
  ],
