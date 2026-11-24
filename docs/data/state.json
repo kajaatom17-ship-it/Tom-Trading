@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T20:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T20:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 537.6875712656786,
+   "dernier_prix": 537.677761865234,
    "atr": 2.771652,
    "rollover": 0.5776708022528946,
    "rollover_periodes": 30
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T20:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T20:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.28164196123149,
+   "dernier_prix": 93.27994016072682,
    "atr": 1.08547,
    "rollover": 0.45819963911333517,
    "rollover_periodes": 30
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T20:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T20:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.2417331813,
+   "dernier_prix": 580.2311474363067,
    "atr": 3.304099,
    "rollover": 0.5770838039759386,
    "rollover_periodes": 30
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T20:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T20:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.234e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T20:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T20:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54206.2,
+   "dernier_prix": 54226.8,
    "atr": 640.9446,
    "rollover": 0.08747853356891093,
    "rollover_periodes": 5
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T20:33:24Z",
+ "maj": "2026-11-24T20:34:23Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -265,74 +265,75 @@
   }
  },
  "buzz_t": "2026-11-24T20:20:25Z",
- "sources_t": "2026-11-24T20:14:26Z",
+ "sources_t": "2026-11-24T20:34:21Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
+   "mentions": 8,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin likely in front of final capitulation",
-    "Bitcoin Update Following the Weekly Close"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin likely in front of final capitulation",
-    "#BRUSDT #1D (Binance) Descending trendline breakout [LONG]"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Jersey and UAE issuers control 88% of tokenized stock DeFi deposits",
-    "BlackOpal’s LiquidStone II now accepts confidential deposits via Zama"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Netflix’s FTX Series Sparks Claims of Internal Betrayal at Binance",
-    "#BRUSDT #1D (Binance) Descending trendline breakout [LONG]"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Larry Fink Plots His Next Major Move Beyond BlackRock: Report"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Jersey and UAE issuers control 88% of tokenized stock DeFi deposits"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin options traders pile into puts at a pace last seen in 2022"
+    "Grayscale: Bitcoin is oversold, but AI risks now drive the outlook",
+    "Bitcoin likely in front of final capitulation"
    ]
   },
   {
    "sujet": "AI",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Grayscale: Bitcoin is oversold, but AI risks now drive the outlook",
+    "Trump touts $22.2 trillion in US investment for factories and AI data centers"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Prediction market bets placed just before big news could soon be easier to trace",
+    "US Stocks Alert: Arqit Quantum plunges on November 24 as SEC investigation concludes, insider selling, and cumulative decline over the past 5 days"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Grayscale: Bitcoin is oversold, but AI risks now drive the outlook",
+    "Larry Fink Plots His Next Major Move Beyond BlackRock: Report"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin likely in front of final capitulation",
+    "US Stocks Movement: Circle Plunges on November 24 as Stablecoin Market Cap Shrinks, Crypto Sector Weakens, and Bearish Call Option Positions Increase"
+   ]
+  },
+  {
+   "sujet": "Avalanche",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "AVAX: Is Another Crash Coming?"
+   ]
+  },
+  {
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Trump touts $22.2 trillion in US investment for factories and AI data centers"
+    "Security Alliance’s latest funding bids lag by 88% despite on-chain crime wave"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Jersey and UAE issuers control 88% of tokenized stock DeFi deposits"
    ]
   }
  ],
