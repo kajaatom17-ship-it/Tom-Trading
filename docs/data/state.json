@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T05:27:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 551.8471314218648,
+   "dernier_prix": 551.8370116354768,
    "atr": 2.771652,
    "rollover": 0.5199037220276052,
    "rollover_periodes": 27
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T05:27:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.7245669854485,
+   "dernier_prix": 98.72275657188965,
    "atr": 1.08547,
    "rollover": 0.41237967520200164,
    "rollover_periodes": 27
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T05:27:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 598.0964781177505,
+   "dernier_prix": 598.0855102096953,
    "atr": 3.304099,
    "rollover": 0.5193754235783448,
    "rollover_periodes": 27
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T05:27:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.368e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T05:27:00Z",
+   "verifie_jusqu_a": "2026-11-24T05:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55516.0,
+   "dernier_prix": 55551.9,
    "atr": 640.9446,
    "rollover": 0.017495706713782186,
    "rollover_periodes": 1
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T05:27:06Z",
+ "maj": "2026-11-24T05:28:06Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -360,51 +360,42 @@
   }
  },
  "buzz_t": "2026-11-24T05:19:31Z",
- "sources_t": "2026-11-24T05:08:04Z",
+ "sources_t": "2026-11-24T05:28:05Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 5,
-   "sentiment": "bearish",
+   "sujet": "AI",
+   "mentions": 8,
+   "sentiment": "bullish",
    "titres": [
-    "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus",
-    "Short Term Trade Buy Bitcoin 60366 Sell 61000"
+    "Raghuram Rajan warns AI boom may face a reckoning on returns",
+    "Grayscale Calls Bitcoin Oversold, but One Outside Risk Could Decide Its Path"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 4,
+   "sujet": "Bitcoin",
+   "mentions": 6,
+   "sentiment": "bearish",
+   "titres": [
+    "bitcoin’s road to $50K: bearish pressure intensifies",
+    "Grayscale Calls Bitcoin Oversold, but One Outside Risk Could Decide Its Path"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "AWS CEO says AI agent security needs more than a kill switch",
-    "What Is Kymera and Why Did an Eczema Pill Outperform All AI Stocks on Monday?"
+    "Grayscale Calls Bitcoin Oversold, but One Outside Risk Could Decide Its Path",
+    "Fidelity Analyst Says Bitcoin Quantum Threat Is Largely Solved: Will Holders Upgrade?"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
     "BNBUSDT — BEARISH REVERSAL SETUP | RESISTANCE & DOWNSIDE TARGETS",
     "Bitcoin fails to hold Nvidia bump with crypto headwinds in focus"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH/USD: $1,770 Rejection Puts $1,565 in Focus",
-    "数据：某巨鲸正做空 5080 万美元 ETH，曾在 BTC 和 ETH 上盈利 2050 万美元"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "A Low-Clarity SEC Guidance Update",
-    "Attorney: RJ Luis Jr. plans to sue SEC, Greg Sankey over LSU eligibility saga"
    ]
   },
   {
@@ -424,11 +415,19 @@
    ]
   },
   {
-   "sujet": "Dogecoin",
+   "sujet": "Layer 2",
    "mentions": 1,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "DOGEUSDT (4H) – Can Buyers Gain Recovery?"
+    "Microsoft Ignite '26 sends a key signal: Security becomes the core foundation in the era of AI agents, Citi reiterates its optimism on Palo Alto (PANW.US) and Rubrik (RBRK.US)"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "ETH/USD: $1,770 Rejection Puts $1,565 in Focus"
    ]
   }
  ],
