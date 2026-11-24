@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T08:26:00Z",
+   "verifie_jusqu_a": "2026-11-24T08:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 550.2291475710357,
+   "dernier_prix": 550.299763489357,
    "atr": 2.771652,
    "rollover": 0.5199037220276052,
    "rollover_periodes": 27
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T08:26:00Z",
+   "verifie_jusqu_a": "2026-11-24T08:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.80934922089826,
+   "dernier_prix": 97.82190198558935,
    "atr": 1.08547,
    "rollover": 0.41237967520200164,
    "rollover_periodes": 27
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T08:26:00Z",
+   "verifie_jusqu_a": "2026-11-24T08:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 597.5160403299725,
+   "dernier_prix": 595.1542819426875,
    "atr": 3.304099,
    "rollover": 0.5193754235783448,
    "rollover_periodes": 27
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T08:26:00Z",
+   "verifie_jusqu_a": "2026-11-24T08:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.333e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T08:26:00Z",
+   "verifie_jusqu_a": "2026-11-24T08:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55151.0,
+   "dernier_prix": 55070.3,
    "atr": 640.9446,
    "rollover": 0.03499141342756437,
    "rollover_periodes": 2
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T08:26:55Z",
+ "maj": "2026-11-24T08:28:54Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -158,7 +158,7 @@
   "2026-11-24": 488.56
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-24T08:23:06Z",
+ "chasseur_t": "2026-11-24T08:28:48Z",
  "tendance": [
   "PENGU",
   "MON",
@@ -179,19 +179,19 @@
  "tendance_t": "2026-11-24T07:54:15Z",
  "buzz": {
   "ETH": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 27,
-   "x_vs_hier": 3.0
+   "x_vs_hier": 3.4
   },
   "NVDA": {
    "source": "Reddit",
-   "mentions": 1826,
+   "mentions": 1824,
    "x_vs_hier": 4.5
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 388,
-   "x_vs_hier": 2.5
+   "mentions": 386,
+   "x_vs_hier": 2.4
   },
   "HR": {
    "source": "Reddit",
@@ -230,8 +230,8 @@
   },
   "ALL": {
    "source": "Reddit",
-   "mentions": 49,
-   "x_vs_hier": 3.5
+   "mentions": 50,
+   "x_vs_hier": 3.6
   },
   "YOU": {
    "source": "Reddit",
@@ -244,13 +244,13 @@
    "x_vs_hier": 3.6
   },
   "HPE": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 47,
    "x_vs_hier": 47.0
   },
   "IT": {
    "source": "Reddit",
-   "mentions": 45,
+   "mentions": 46,
    "x_vs_hier": 2.4
   },
   "GOOGL": {
@@ -288,6 +288,11 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SNY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "AXSM": {
    "source": "StockTwits",
    "mentions": null,
@@ -298,12 +303,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BMNR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QQQM": {
+  "PFE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -313,27 +313,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRCL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MCD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PATH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DDOG": {
+  "XMAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -343,90 +323,97 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "JD": {
+  "DELL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LMT": {
+  "BOIL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DDOG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KORU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-24T08:11:42Z",
- "sources_t": "2026-11-24T08:08:32Z",
+ "buzz_t": "2026-11-24T08:28:49Z",
+ "sources_t": "2026-11-24T08:28:51Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 10,
    "sentiment": "bearish",
    "titres": [
-    "ZachXBT Challenges the Bitcoin Trail Behind a $3 Million Gate Account Freeze",
-    "BTC 1D: 61.9K Said No. Again"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 5,
-   "sentiment": "neutral",
-   "titres": [
-    "Top Analyst Calls XRP Sudden Spike and Crash Market Manipulation",
-    "XRP to $0.80? A Wider Middle East Conflict Could Trigger It"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Ethereum Price Outlook: $1,700 Holds the Key After the Nvidia Relief Rally Fades",
-    "Crypto Price Analysis, ETH, XRP, VVV, UNI and SOL, Nov. 24: XRP Momentum Turns Higher Despite Failed Test of $1 as Ethereum Loses $1,710"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Crypto Price Analysis, ETH, XRP, VVV, UNI and SOL, Nov. 24: XRP Momentum Turns Higher Despite Failed Test of $1 as Ethereum Loses $1,710",
-    "SOL Could Stall Below $80 Unless ETF Inflows Return, Analyst Warns"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "BNBUSDT — BEARISH REVERSAL SETUP | RESISTANCE & DOWNSIDE TARGETS",
-    "SOLUSDT - Bears Eye Lower, Downside Signal"
+    "Bitcoin: Relief Rallies Are Becoming Selling Opportunities",
+    "BTC | False Break, a Recovery Chance"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 2,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "Signal joins United Airlines, banks in limiting AI agents over customer risks",
-    "AI adoption grows in Asia, but measuring the gains remains tricky"
-   ]
-  },
-  {
-   "sujet": "Dogecoin",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "DOGE Bounce From a One-Year Low Meets a Wall as Its ETFs Post Only Outflows",
-    "DOGEUSDT (4H) – Can Buyers Gain Recovery?"
+    "Signal restricts screen access to block AI agents, urges tech giants to strengthen privacy protections",
+    "UK ICO monitors agentic AI rollout and engages with major developers"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "DOGE Bounce From a One-Year Low Meets a Wall as Its ETFs Post Only Outflows",
-    "SOL Could Stall Below $80 Unless ETF Inflows Return, Analyst Warns"
+    "Bitcoin ETFs keep bleeding as BlackRock’s IBIT shares gain nearly 5%",
+    "Who Sold Bitcoin's Nvidia Rally? The Answer Sits in Wall Street's Fund Data"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Binance Hack: US Moves to Recover $1.1 Billion, but Who Gets the Money?",
+    "BITCOIN - Short squeeze of resistance will trigger a fall"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "Solana Mobile Seeker Price Prediction 2026–2032: Can SKR Token Sustain the Bullish Surge?",
+    "Solana price prediction 2026-2032: Trends and insights for investors"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "ETH wrapping up a fourth wave horizontal correction"
+   ]
+  },
+  {
+   "sujet": "Cardano",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Hoskinson Says Cardano Biggest Upgrade Is Almost Ready for Mainnet, Confirms Next Hard Fork Plans"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance Hack: US Moves to Recover $1.1 Billion, but Who Gets the Money?"
    ]
   }
  ],
