@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T18:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 540.107049394086,
+   "dernier_prix": 540.0775017095966,
    "atr": 2.771652,
    "rollover": 0.5776708022528946,
    "rollover_periodes": 30
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T18:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 94.43872014881143,
+   "dernier_prix": 94.67061773421473,
    "atr": 1.08547,
    "rollover": 0.45819963911333517,
    "rollover_periodes": 30
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T18:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 583.5650913202455,
+   "dernier_prix": 583.5331661727832,
    "atr": 3.304099,
    "rollover": 0.5770838039759386,
    "rollover_periodes": 30
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T18:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.248e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T18:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T18:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54720.9,
+   "dernier_prix": 54695.0,
    "atr": 640.9446,
    "rollover": 0.06998282685512874,
    "rollover_periodes": 4
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T18:33:30Z",
+ "maj": "2026-11-24T18:34:31Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -265,32 +265,66 @@
   }
  },
  "buzz_t": "2026-11-24T18:32:28Z",
- "sources_t": "2026-11-24T18:14:37Z",
+ "sources_t": "2026-11-24T18:34:29Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "bearish",
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "neutral",
    "titres": [
-    "Eric Trump’s Bitcoin miner surges 17% after $150 million deal to avoid selling BTC",
-    "LuqEE Reaches Milestone of 100 Bitcoin Cash Blocks Found Through Its Solo Mining Platform"
+    "Faisal Islam: Fears over the AI boom haven't gone away",
+    "美众议员 Raskin 扩大调查 Trump Jr. 基金对 Polymarket 与 Juul 的投资"
    ]
   },
   {
-   "sujet": "Memecoins",
+   "sujet": "Bitcoin",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Wall Street and Crypto Are in 'Extreme Fear'. What's Spooking Investors?",
+    "Eric Trump’s Bitcoin miner surges 17% after $150 million deal to avoid selling BTC"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Aptos leads all chains with $93.2 million weekly stablecoin gain",
+    "South Korea’s Crypto Bill Would Force Bithumb’s Owner to Sell Most of Its Stake"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "What Is Pons? The Robinhood Chain Meme Coin Launchpad Explained",
-    "Ansem Meme Coin Crashes After $2.57 Million Wallet Drain, Bullpen Confirms Security Breach"
+    "SEC staff clears Molecule to sell research-funding tokens without registration",
+    "Utah drops criminal charges against Kalshi after the platform exits the state"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Dogecoin",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.359628708 | 🚶 0.359657585 | 🚀 0.388076458 Gwei"
+    "Dogecoin: The Buy Zone Is Finally Here!"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Rialto raises $5 million from Robinhood and Tandem to expand onchain trading"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong"
    ]
   },
   {
@@ -299,38 +333,6 @@
    "sentiment": "neutral",
    "titres": [
     "Anthropic’s $83 IPO price looked bold. Then the stock slipped below it"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Anthropic’s $83 IPO price looked bold. Then the stock slipped below it"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Utah drops criminal charges against Kalshi after the platform exits the state"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Ansem Meme Coin Crashes After $2.57 Million Wallet Drain, Bullpen Confirms Security Breach"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "富達開放 AAVE、LINK 與 UNI 交易！Fidelity Crypto 與加密退休帳戶同步上架，支援資產增至 8 種"
    ]
   }
  ],
