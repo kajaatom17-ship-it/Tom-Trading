@@ -1,29 +1,5 @@
 [
  {
-  "t": "2026-11-23T13:05:10Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADUR, ALGO, AM, ARM, CAPR, CRWD, DJIA, GME, HUM, JPM, OUST, QQQ"
- },
- {
-  "t": "2026-11-23T13:05:14Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "605 actifs hors univers analysés, 12 en mouvement : ALGO +11.5 %, QNT +9.7 %, JUP +7.3 %."
- },
- {
-  "t": "2026-11-23T13:11:03Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "605 actifs hors univers analysés, 13 en mouvement : ALGO +12.0 %, QNT +9.6 %, JUP +7.3 %."
- },
- {
-  "t": "2026-11-23T13:16:49Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "605 actifs hors univers analysés, 13 en mouvement : INX +17.1 %, ALGO +11.8 %, QNT +10.3 %."
- },
- {
   "t": "2026-11-23T15:26:32Z",
   "agent": "Execution",
   "type": "cloture",
@@ -2723,5 +2699,43 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "608 actifs hors univers analysés, 9 en mouvement : DRV -8.7 %, APR -6.0 %, ZEC -4.2 %."
+ },
+ {
+  "t": "2026-11-24T10:24:50Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "608 actifs hors univers analysés, 8 en mouvement : DRV -9.1 %, APR -6.4 %, ZEC -4.5 %."
+ },
+ {
+  "t": "2026-11-24T10:24:53Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Earnings call transcript: Severfield H1 2026 profit jumps as order book grows (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/transcripts/earnings-call-transcript-severfield-h1-2026-profit-jumps-as-order-book-grows-93CH-5047479",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-24T10:24:53Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage, chute] Solana token crashes 60% amid suspected $2.15 million USDC hack - Crypto Briefing (Crypto Briefing)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IemY2aGZXcnNvcjBsZUhxMlQ5QjlXVUx5Sm1XLThvRXI4eUE4ZVg2OXhoa0kwektLVTdLZ1ktS05GSlRpdmNPTmozRzJhcHJNak1OTFp0VFdRak9PbzkydDNUbWF0YUZteTJDN0VHd0lkc00xaFRJ?oc=5",
+   "actifs": [
+    "SOL"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-24T10:24:53Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[régulation, résultats] A Low-Clarity SEC Guidance Update - Blockhead (Blockhead)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBCWjBLUE13bWdvV1ZzdVAzdEJ2aFpqNXZ4MlYwM1NjQTBwbGg1cXhtZ3d4Q2JuUDlldHFpQndOSkVUSFVaaXNxQy1henFWWHFmWDZzWExjaElJSTQ2X28wa1dNbER4T0pjbHFlQ1Jmb1lwcE1CZmRzbWtR?oc=5",
+   "actifs": []
+  }
  }
 ]
