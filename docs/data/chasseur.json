@@ -1,7 +1,7 @@
 {
- "t": "2026-11-24T09:21:08Z",
+ "t": "2026-11-24T09:26:52Z",
  "nb_analyses": 609,
- "nb_en_mouvement": 8,
+ "nb_en_mouvement": 10,
  "tendance": [
   "ALL",
   "AM",
@@ -213,7 +213,7 @@
    "action": false,
    "variation_24h_pct": 10.67,
    "volume_24h_eur": 58238.28,
-   "spread_pct": 0.1294,
+   "spread_pct": 0.194,
    "tendance": false,
    "impulsion": null
   },
@@ -221,9 +221,9 @@
    "sym": "DRV",
    "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": -6.34,
-   "volume_24h_eur": 71662.09,
-   "spread_pct": 0.2179,
+   "variation_24h_pct": -7.45,
+   "volume_24h_eur": 72421.96,
+   "spread_pct": 0.2103,
    "tendance": false,
    "impulsion": null
   },
@@ -231,9 +231,9 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": -3.75,
-   "volume_24h_eur": 5025249.56,
-   "spread_pct": 0.0665,
+   "variation_24h_pct": -4.25,
+   "volume_24h_eur": 4647320.35,
+   "spread_pct": 0.0356,
    "tendance": true,
    "impulsion": null
   },
@@ -241,9 +241,9 @@
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
-   "variation_24h_pct": -4.22,
-   "volume_24h_eur": 571114.84,
-   "spread_pct": 0.0252,
+   "variation_24h_pct": -4.31,
+   "volume_24h_eur": 571028.36,
+   "spread_pct": 0.0337,
    "tendance": false,
    "impulsion": null
   },
@@ -252,9 +252,19 @@
    "pair": "SKYEUR",
    "action": false,
    "variation_24h_pct": -4.45,
-   "volume_24h_eur": 281523.13,
+   "volume_24h_eur": 281402.39,
    "spread_pct": 0.113,
    "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "REKT",
+   "pair": "REKTEUR",
+   "action": false,
+   "variation_24h_pct": -5.14,
+   "volume_24h_eur": 51431.65,
+   "spread_pct": 0.4392,
+   "tendance": false,
    "impulsion": null
   },
   {
@@ -263,7 +273,7 @@
    "action": false,
    "variation_24h_pct": -5.09,
    "volume_24h_eur": 44830.56,
-   "spread_pct": 0.2785,
+   "spread_pct": 0.2188,
    "tendance": false,
    "impulsion": null
   },
@@ -271,20 +281,10 @@
    "sym": "ANT",
    "pair": "ANTxUSD",
    "action": true,
-   "variation_24h_pct": -3.06,
-   "volume_24h_eur": 6038293.73,
-   "spread_pct": 0.142,
+   "variation_24h_pct": -3.31,
+   "volume_24h_eur": 6036431.05,
+   "spread_pct": 0.1186,
    "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "USELESS",
-   "pair": "USELESSEUR",
-   "action": false,
-   "variation_24h_pct": -3.38,
-   "volume_24h_eur": 220736.5,
-   "spread_pct": 0.2066,
-   "tendance": true,
    "impulsion": null
   }
  ],
