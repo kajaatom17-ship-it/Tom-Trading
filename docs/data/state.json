@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T10:28:00Z",
+   "verifie_jusqu_a": "2026-11-24T10:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 542.469364034887,
+   "dernier_prix": 542.2317392338805,
    "atr": 2.771652,
    "rollover": 0.539159415436035,
    "rollover_periodes": 28
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T10:28:00Z",
+   "verifie_jusqu_a": "2026-11-24T10:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.7080637337897,
+   "dernier_prix": 96.70748000512454,
    "atr": 1.08547,
    "rollover": 0.4276529965057795,
    "rollover_periodes": 28
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T10:28:00Z",
+   "verifie_jusqu_a": "2026-11-24T10:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 589.3911244932139,
+   "dernier_prix": 589.3317959699116,
    "atr": 3.304099,
    "rollover": 0.5386115503775427,
    "rollover_periodes": 28
@@ -92,10 +92,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T10:28:00Z",
+   "verifie_jusqu_a": "2026-11-24T10:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.295e-06,
+   "dernier_prix": 3.29e-06,
    "atr": 3.3103e-08,
    "rollover": 0.011427312228695466,
    "rollover_periodes": 2
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T10:28:00Z",
+   "verifie_jusqu_a": "2026-11-24T10:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54792.4,
+   "dernier_prix": 54698.8,
    "atr": 640.9446,
    "rollover": 0.03499141342756437,
    "rollover_periodes": 2
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T10:28:40Z",
+ "maj": "2026-11-24T10:30:39Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -158,7 +158,7 @@
   "2026-11-24": 488.56
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-24T10:24:46Z",
+ "chasseur_t": "2026-11-24T10:30:33Z",
  "tendance": [
   "BTC",
   "PENGU",
@@ -185,12 +185,12 @@
   },
   "NVDA": {
    "source": "Reddit + StockTwits",
-   "mentions": 1870,
+   "mentions": 1871,
    "x_vs_hier": 4.4
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 397,
+   "mentions": 398,
    "x_vs_hier": 2.3
   },
   "HR": {
@@ -210,8 +210,8 @@
   },
   "DJT": {
    "source": "Reddit",
-   "mentions": 54,
-   "x_vs_hier": 10.8
+   "mentions": 55,
+   "x_vs_hier": 11.0
   },
   "AM": {
    "source": "Reddit",
@@ -220,33 +220,33 @@
   },
   "ALL": {
    "source": "Reddit",
-   "mentions": 50,
+   "mentions": 49,
    "x_vs_hier": 3.3
+  },
+  "HPE": {
+   "source": "Reddit + StockTwits",
+   "mentions": 48,
+   "x_vs_hier": 48.0
   },
   "MAGA": {
    "source": "Reddit",
    "mentions": 48,
    "x_vs_hier": 4.0
   },
-  "HPE": {
-   "source": "Reddit + StockTwits",
-   "mentions": 47,
-   "x_vs_hier": 47.0
-  },
-  "CIA": {
-   "source": "Reddit",
-   "mentions": 47,
-   "x_vs_hier": 3.4
-  },
-  "YOU": {
-   "source": "Reddit",
-   "mentions": 47,
-   "x_vs_hier": 3.9
-  },
   "IT": {
    "source": "Reddit",
    "mentions": 46,
-   "x_vs_hier": 2.3
+   "x_vs_hier": 2.4
+  },
+  "CIA": {
+   "source": "Reddit",
+   "mentions": 46,
+   "x_vs_hier": 3.3
+  },
+  "YOU": {
+   "source": "Reddit",
+   "mentions": 46,
+   "x_vs_hier": 3.8
   },
   "PR": {
    "source": "Reddit",
@@ -283,6 +283,11 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "QQQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SNY": {
    "source": "StockTwits",
    "mentions": null,
@@ -293,7 +298,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "QQQ": {
+  "SKYD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -303,27 +308,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ABBV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JNJ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SKYD": {
+  "ANT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "LTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IWM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -334,34 +334,16 @@
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-24T10:13:15Z",
- "sources_t": "2026-11-24T10:10:22Z",
+ "buzz_t": "2026-11-24T10:30:34Z",
+ "sources_t": "2026-11-24T10:30:38Z",
  "actus_tendance": [
   {
-   "sujet": "Ethereum",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH - Back to a Major Support Zone!",
-    "BRETT price prediction 2026-2032: IS BRETT a good investment?"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Here’s Why XRP $5.94 Long-Term Price Target is Still in Focus",
-    "Time For XRP Departure as Bullish Divergence Puts $1.09 in Focus"
-   ]
-  },
-  {
    "sujet": "AI",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "mentions": 6,
+   "sentiment": "bullish",
    "titres": [
-    "Anthropic CEO 十年前想法曝光：沉浸式电子游戏或可缓解 AI 失业引发的社会反弹",
-    "OpenRouter 清退 Together AI、Phala 和 Novita"
+    "Anthropic researcher publishes AI-built Lean proof of the Riemann hypothesis",
+    "CoreWeave faces bankruptcy risk amid Nvidia CEO resignation, $66B debt concerns"
    ]
   },
   {
@@ -369,32 +351,60 @@
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "BTCUSDT | Liquidity Sweep Completed, Bearish Rejection in Play",
-    "Saylor’s Strategy Is Now Worth Less That Its Bitcoin Stash"
+    "BITCOIN rebounding on a major Pivot just like 2015.",
+    "Santa Rally Incoming: Coiled Spring Setup Ahead of Tomorrow PCE"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "USDT.d by zonnour of trade active",
+    "Solana token crashes 60% amid suspected $2.15 million USDC hack"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "DOGE: Surged 18%+ in the last 24hrs, is the memecoins awakened?",
+    "ANSEM memecoin plunges 75% amid disputed wallet hack claims"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "ANSEM memecoin plunges 75% amid disputed wallet hack claims",
+    "Solana token crashes 60% amid suspected $2.15 million USDC hack"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "RBI DG asks primary dealers to bid responsibly in G-Sec underwriting auctions"
+    "CoreWeave faces mounting risks as Nvidia turmoil rattles its biggest backer",
+    "Nvidia loses $2.7T in 45 days, faces hurdles for quick rebound"
    ]
   },
   {
-   "sujet": "Cardano",
+   "sujet": "Dogecoin",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "ADA | Crypto Q4 Nov 2026 - Day chart | Levels of interest"
+    "DOGE: Surged 18%+ in the last 24hrs, is the memecoins awakened?"
    ]
   },
   {
-   "sujet": "Layer 2",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BRETT price prediction 2026-2032: IS BRETT a good investment?"
+    "Solana token crashes 60% amid suspected $2.15 million USDC hack"
    ]
   }
  ],

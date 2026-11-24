@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-23T15:26:32Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "FET short fermé (stop-loss) à 0.1063731 : -5.34 € net",
-  "data": {
-   "id": "P0025"
-  }
- },
- {
-  "t": "2026-11-23T15:26:33Z",
-  "agent": "Execution",
-  "type": "cloture",
-  "msg": "PEPE short fermé (stop-loss) à 3.336926e-06 : -2.64 € net",
-  "data": {
-   "id": "P0026"
-  }
- },
- {
   "t": "2026-11-23T15:26:33Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -2737,5 +2719,17 @@
    "lien": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBCWjBLUE13bWdvV1ZzdVAzdEJ2aFpqNXZ4MlYwM1NjQTBwbGg1cXhtZ3d4Q2JuUDlldHFpQndOSkVUSFVaaXNxQy1henFWWHFmWDZzWExjaElJSTQ2X28wa1dNbER4T0pjbHFlQ1Jmb1lwcE1CZmRzbWtR?oc=5",
    "actifs": []
   }
+ },
+ {
+  "t": "2026-11-24T10:30:34Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ALL, AM, AMD, ANT, AXSM, BAC, BB, CIA, CRWD, DELL, DJT, ETH"
+ },
+ {
+  "t": "2026-11-24T10:30:38Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "608 actifs hors univers analysés, 10 en mouvement : DRV -9.1 %, APR -6.4 %, ZEC -4.4 %."
  }
 ]
