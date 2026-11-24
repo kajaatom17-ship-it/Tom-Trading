@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T21:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 538.8959854014598,
+   "dernier_prix": 538.8763183825408,
    "atr": 2.771652,
    "rollover": 0.5969264956613244,
    "rollover_periodes": 31
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T21:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.76824817518246,
+   "dernier_prix": 93.76482610123719,
    "atr": 1.08547,
    "rollover": 0.473472960417113,
    "rollover_periodes": 31
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T21:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 582.162408759124,
+   "dernier_prix": 582.4604941425496,
    "atr": 3.304099,
    "rollover": 0.5963199307751366,
    "rollover_periodes": 31
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T21:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.229e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T21:33:00Z",
+   "verifie_jusqu_a": "2026-11-24T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54621.8,
+   "dernier_prix": 54591.9,
    "atr": 640.9446,
    "rollover": 0.08747853356891093,
    "rollover_periodes": 5
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T21:33:08Z",
+ "maj": "2026-11-24T21:34:08Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -265,66 +265,50 @@
   }
  },
  "buzz_t": "2026-11-24T21:32:04Z",
- "sources_t": "2026-11-24T21:14:14Z",
+ "sources_t": "2026-11-24T21:34:06Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin Square Payment - Aptos, California",
-    "Bitcoin: sell 60.6k-61.3k, target 59,250"
+    "Stablecoin Supply Fell More Than $17 Billion in a Month. At Past Turns, It Moved After Bitcoin",
+    "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Garbage In, Garbage Out: Why AI Hates Men",
+    "Dell’s AI server backlog hits $132.3 billion, up 619% year over year"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 5,
-   "sentiment": "bearish",
+   "mentions": 3,
+   "sentiment": "neutral",
    "titres": [
     "Texas data center growth faces hurdles amid regulatory, power challenges",
     "SEC staff gives Molecule no-action relief for scientific research tokens"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "CrowdStrike plans $43.9 billion Zscaler deal to push its AI kill switch onto the network",
-    "How Meta is using Instagram to get an ad boost from its Muse personal AI agent"
-   ]
-  },
-  {
-   "sujet": "ETF",
+   "sujet": "Security",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "November becomes the worst month for US spot bitcoin ETFs with $4.71B out",
-    "Bitcoin options traders pile into puts at a pace last seen in 2022"
+    "Ansem claims wallet hack after an 87 million ANSEM token dump, but on-chain data raises questions",
+    "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Ethereum Foundation Says AI Is a More Urgent Threat Than Quantum Computing"
-   ]
-  },
-  {
-   "sujet": "Avalanche",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "bearish",
    "titres": [
-    "AVAX: Is Another Crash Coming?"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Security Alliance’s latest funding bids lag by 88% despite on-chain crime wave"
+    "Ansem claims wallet hack after an 87 million ANSEM token dump, but on-chain data raises questions"
    ]
   },
   {
@@ -332,7 +316,15 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin likely in front of final capitulation"
+    "Stablecoin Supply Fell More Than $17 Billion in a Month. At Past Turns, It Moved After Bitcoin"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "November becomes the worst month for US spot bitcoin ETFs with $4.71B out"
    ]
   }
  ],
