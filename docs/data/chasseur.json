@@ -1,22 +1,21 @@
 {
- "t": "2026-11-25T04:07:23Z",
+ "t": "2026-11-25T04:13:17Z",
  "nb_analyses": 605,
  "nb_en_mouvement": 2,
  "tendance": [
   "AAPL",
-  "ABSI",
   "ADA",
   "AMBA",
   "AMD",
   "AVGO",
   "BTC",
   "BWET",
-  "CHTR",
   "DELL",
   "DRV",
-  "HIMX",
+  "GILD",
   "HPE",
   "HYPE",
+  "IBM",
   "INJ",
   "LUNC",
   "MON",
@@ -27,20 +26,21 @@
   "QNT",
   "SMH",
   "SNDK",
-  "SNY",
   "SOL",
   "SOXL",
   "SPCX",
   "TAO",
   "TGTX",
   "UNI",
-  "VVV"
+  "VVV",
+  "XBI",
+  "XRP"
  ],
  "buzz_reseaux": {
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 147,
-   "x_vs_hier": 8.2
+   "mentions": 148,
+   "x_vs_hier": 7.8
   },
   "AAPL": {
    "source": "Reddit",
@@ -49,7 +49,7 @@
   },
   "SNDK": {
    "source": "Reddit + StockTwits",
-   "mentions": 73,
+   "mentions": 74,
    "x_vs_hier": 2.1
   },
   "SPCX": {
@@ -67,7 +67,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "AMBA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "AMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XBI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -77,22 +87,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVGO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AMBA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HPE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ABSI": {
+  "XRP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -102,22 +97,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SMH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CHTR": {
+  "HPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HIMX": {
+  "GILD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVGO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -130,7 +130,7 @@
    "action": false,
    "variation_24h_pct": -5.04,
    "volume_24h_eur": 150437.33,
-   "spread_pct": 0.1716,
+   "spread_pct": 0.2746,
    "tendance": false,
    "impulsion": null
   },
@@ -139,8 +139,8 @@
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": -2.59,
-   "volume_24h_eur": 541423.69,
-   "spread_pct": 0.0367,
+   "volume_24h_eur": 541413.79,
+   "spread_pct": 0.0459,
    "tendance": false,
    "impulsion": null
   }
