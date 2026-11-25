@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-24T18:01:38Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
-  "t": "2026-11-24T18:02:41Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "608 actifs hors univers analysés, 17 en mouvement : PROS +15.6 %, SNDK -10.8 %, SOXL -12.8 %."
- },
- {
   "t": "2026-11-24T18:04:39Z",
   "agent": "Veille",
   "type": "actu",
@@ -2932,5 +2920,17 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 1 signal(aux) : PEPE short (SWG-1, 80)"
+ },
+ {
+  "t": "2026-11-25T17:05:21Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "605 actifs hors univers analysés, 13 en mouvement : MOODENG +15.5 %, PLAY -15.4 %, USELESS -7.9 %."
+ },
+ {
+  "t": "2026-11-25T17:05:21Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "INTC +2.25 % en 15 min"
  }
 ]
