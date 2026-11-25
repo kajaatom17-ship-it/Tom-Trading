@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 97.70370781656902,
+ "cash": 97.68049845374088,
  "positions": [
   {
    "id": "P0022",
@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T21:36:00Z",
+   "verifie_jusqu_a": "2026-11-25T00:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 538.761917795721,
+   "dernier_prix": 535.7517681953,
    "atr": 2.771652,
    "rollover": 0.5969264956613244,
    "rollover_periodes": 31
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T21:36:00Z",
+   "verifie_jusqu_a": "2026-11-25T00:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.7639706217782,
+   "dernier_prix": 93.11430527036276,
    "atr": 1.08547,
    "rollover": 0.473472960417113,
    "rollover_periodes": 31
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-24T21:36:00Z",
+   "verifie_jusqu_a": "2026-11-25T00:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 582.4551799644177,
+   "dernier_prix": 579.8676705452885,
    "atr": 3.304099,
    "rollover": 0.5963199307751366,
    "rollover_periodes": 31
@@ -92,13 +92,13 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T21:36:00Z",
+   "verifie_jusqu_a": "2026-11-25T00:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.229e-06,
+   "dernier_prix": 3.222e-06,
    "atr": 3.3103e-08,
-   "rollover": 0.028568280571738665,
-   "rollover_periodes": 5
+   "rollover": 0.034281936686086395,
+   "rollover_periodes": 6
   },
   {
    "id": "P0028",
@@ -116,16 +116,16 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-24T21:36:00Z",
+   "verifie_jusqu_a": "2026-11-25T00:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54614.9,
+   "dernier_prix": 54330.9,
    "atr": 640.9446,
-   "rollover": 0.08747853356891093,
-   "rollover_periodes": 5
+   "rollover": 0.10497424028269312,
+   "rollover_periodes": 6
   }
  ],
- "frais_cumules": 17.71464958378901,
+ "frais_cumules": 17.73785894661714,
  "pnl_realise": -14.49756920558815,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-24T21:36:06Z",
+ "maj": "2026-11-25T00:44:32Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -155,75 +155,46 @@
   "2026-11-21": 509.22,
   "2026-11-22": 511.43,
   "2026-11-23": 512.49,
-  "2026-11-24": 488.56
+  "2026-11-24": 488.56,
+  "2026-11-25": 501.54
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-24T21:32:03Z",
+ "chasseur_t": "2026-11-25T00:44:27Z",
  "tendance": [
-  "VAR",
-  "PEI",
-  "MON",
-  "HYPE",
-  "VVV",
-  "PEARL",
   "PENGU",
-  "PUMP",
+  "CC",
+  "SOL",
+  "PEARL",
+  "MON",
+  "SKY",
+  "XRP",
   "BTC",
-  "ZRO",
-  "ZEC",
-  "ARB",
-  "ICP",
-  "JUP",
-  "INJ"
+  "HYPE",
+  "ETH",
+  "QNT",
+  "SUI",
+  "PEAQ",
+  "GEOD",
+  "DRV"
  ],
- "tendance_t": "2026-11-24T20:56:17Z",
+ "tendance_t": "2026-11-25T00:44:27Z",
  "buzz": {
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 109,
-   "x_vs_hier": 5.7
+   "mentions": 132,
+   "x_vs_hier": 6.9
   },
   "AAPL": {
    "source": "Reddit",
-   "mentions": 83,
-   "x_vs_hier": 6.9
+   "mentions": 91,
+   "x_vs_hier": 8.3
   },
   "SPCX": {
    "source": "Reddit",
-   "mentions": 50,
-   "x_vs_hier": 2.9
-  },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+   "mentions": 52,
+   "x_vs_hier": 2.5
   },
   "AMBA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XBI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRCL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WDAY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BB.TSX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ANF": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -233,17 +204,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SLV": {
+  "DKS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LKNCY": {
+  "WDAY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BB": {
+  "INFQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ANF": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "INSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -253,62 +234,72 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNY": {
+  "CMPS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ADI": {
+  "XRPN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BBIO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XBI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SNDK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "COGT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-24T21:32:04Z",
- "sources_t": "2026-11-24T21:34:06Z",
+ "buzz_t": "2026-11-25T00:44:28Z",
+ "sources_t": "2026-11-25T00:44:29Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "bearish",
-   "titres": [
-    "Stablecoin Supply Fell More Than $17 Billion in a Month. At Past Turns, It Moved After Bitcoin",
-    "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits"
-   ]
-  },
-  {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "Garbage In, Garbage Out: Why AI Hates Men",
-    "Dell’s AI server backlog hits $132.3 billion, up 619% year over year"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Texas data center growth faces hurdles amid regulatory, power challenges",
-    "SEC staff gives Molecule no-action relief for scientific research tokens"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Ansem claims wallet hack after an 87 million ANSEM token dump, but on-chain data raises questions",
-    "Coldcard Bitcoin Exploit, Revisited: How a Hidden Flaw Survived Years of Audits"
+    "Ethereum Foundation Warns AI Threats Outpace Quantum, Doubles Security Team",
+    "OpenAI’s GPT-6.2 Astra finds optimizations that rival models cannot"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
-    "Ansem claims wallet hack after an 87 million ANSEM token dump, but on-chain data raises questions"
+    "USDC Treasury mints 250M USDC on Solana, liquidity impact eyed",
+    "ANSEM crashes 57% after $2.57M drain tests the creator-token model"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Ethereum Foundation Warns AI Threats Outpace Quantum, Doubles Security Team"
+   ]
+  },
+  {
+   "sujet": "Polygon",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "POL 1D – Testing Macro Trendline"
    ]
   },
   {
@@ -316,15 +307,31 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Stablecoin Supply Fell More Than $17 Billion in a Month. At Past Turns, It Moved After Bitcoin"
+    "USDC Treasury mints 250M USDC on Solana, liquidity impact eyed"
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "Layer 2",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "November becomes the worst month for US spot bitcoin ETFs with $4.71B out"
+    "ANSEM crashes 57% after $2.57M drain tests the creator-token model"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "ANSEM crashes 57% after $2.57M drain tests the creator-token model"
+   ]
+  },
+  {
+   "sujet": "Memecoins",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "ANSEM crashes 57% after $2.57M drain tests the creator-token model"
    ]
   }
  ],
