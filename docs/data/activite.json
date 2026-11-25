@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-24T06:05:10Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "609 actifs hors univers analysés, 3 en mouvement : AI +8.4 %, REKT -5.1 %, VVV +3.0 %."
- },
- {
-  "t": "2026-11-24T06:10:55Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ALL, AM, AMD, APPS, BABA, BMY, CIA, CRWD, DELL, DJT, ETH, FPS"
- },
- {
-  "t": "2026-11-24T06:10:56Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "609 actifs hors univers analysés, 3 en mouvement : AI +7.5 %, REKT -5.1 %, VVV +3.8 %."
- },
- {
   "t": "2026-11-24T06:16:40Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2951,5 +2933,41 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "606 actifs hors univers analysés, 8 en mouvement : PROS +6.4 %, MEGA -5.9 %, SKHY -4.6 %."
+ },
+ {
+  "t": "2026-11-25T10:22:18Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold (CoinDesk)",
+  "data": {
+   "lien": "https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered",
+   "actifs": [
+    "TRUMP"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-25T10:22:18Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, géopolitique] Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture (CoinDesk)",
+  "data": {
+   "lien": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-25T10:22:18Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Amazon says AI agents found and exploited a zero-day with almost no human help - Crypto Briefing (Crypto Briefing)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BeTE3d2t0S1VHV1lxZ2NoQmw3M0JtUlJoMUo2OTlLVW5kb1ktWVliMGcyZXVLM2ZYQXNXeWpfZ0dfWXlSQmd2YzdwUm1Bd3c1Y2xaMGFBWWMzVmxncVZ5bUV0YzJSeC12S3lvNEV3?oc=5",
+   "actifs": [
+    "AMZN"
+   ]
+  }
  }
 ]
