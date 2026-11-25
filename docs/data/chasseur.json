@@ -1,7 +1,7 @@
 {
- "t": "2026-11-25T02:55:42Z",
+ "t": "2026-11-25T03:01:37Z",
  "nb_analyses": 606,
- "nb_en_mouvement": 2,
+ "nb_en_mouvement": 1,
  "tendance": [
   "AAPL",
   "AAVE",
@@ -11,7 +11,6 @@
   "BTC",
   "DELL",
   "DKS",
-  "EWY",
   "HYPE",
   "INFQ",
   "KAS",
@@ -20,28 +19,28 @@
   "LUNC",
   "MON",
   "MSTR",
+  "MU",
+  "NIGHT",
   "PEAQ",
   "PEARL",
   "PENGU",
+  "QUANT",
   "SEI",
   "SNDK",
   "SOXL",
-  "SOXX",
   "SPCX",
+  "STUDY",
   "SUI",
   "TAO",
   "TGTX",
   "VVV",
-  "WDAY",
-  "XBI",
-  "XTZ",
   "ZRO"
  ],
  "buzz_reseaux": {
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 144,
-   "x_vs_hier": 8.0
+   "mentions": 145,
+   "x_vs_hier": 8.1
   },
   "AAPL": {
    "source": "Reddit",
@@ -49,26 +48,36 @@
    "x_vs_hier": 5.8
   },
   "SNDK": {
-   "source": "Reddit",
-   "mentions": 71,
-   "x_vs_hier": 2.2
+   "source": "Reddit + StockTwits",
+   "mentions": 72,
+   "x_vs_hier": 2.1
   },
   "SPCX": {
    "source": "Reddit",
-   "mentions": 51,
-   "x_vs_hier": 2.4
+   "mentions": 49,
+   "x_vs_hier": 2.3
+  },
+  "SOXL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   },
   "AMBA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TGTX": {
+  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
+  "TGTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -83,47 +92,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "INFQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOXL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVGO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ASTS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOXX": {
+  "INFQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XBI": {
+  "MU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "EWY": {
+  "NIGHT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XTZ": {
+  "QUANT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WDAY": {
+  "STUDY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -135,19 +129,9 @@
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": -2.59,
-   "volume_24h_eur": 543519.61,
-   "spread_pct": 0.0275,
+   "volume_24h_eur": 542914.87,
+   "spread_pct": 0.0367,
    "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "SOXL",
-   "pair": "SOXLxUSD",
-   "action": true,
-   "variation_24h_pct": -2.91,
-   "volume_24h_eur": 56114.8,
-   "spread_pct": 0.4185,
-   "tendance": true,
    "impulsion": null
   }
  ],
