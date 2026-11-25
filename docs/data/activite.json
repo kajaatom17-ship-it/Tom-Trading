@@ -1,26 +1,5 @@
 [
  {
-  "t": "2026-11-23T23:00:14Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 5 signal(aux) : MSFT short (SWG-1, 70), MSTR short (SWG-1, 70), ETH short (SWG-1, 70)"
- },
- {
-  "t": "2026-11-23T23:01:14Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "606 actifs hors univers analysés, 19 en mouvement : INX +29.9 %, APR +25.4 %, STBL +13.1 %."
- },
- {
-  "t": "2026-11-23T23:05:57Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "SHIB short ouvert à 3.323673e-06 | 28.57 € engagés | stop 3.552862e-06 | objectif 2.601415e-06 | risque 2.44 EUR",
-  "data": {
-   "id": "P0027"
-  }
- },
- {
   "t": "2026-11-23T23:05:57Z",
   "agent": "Trader de garde",
   "type": "entrée",
@@ -2837,5 +2816,35 @@
   "agent": "Execution",
   "type": "erreur",
   "msg": "Bougies 1 min indisponibles pour QQQ : OHLC: The read operation timed out"
+ },
+ {
+  "t": "2026-11-25T01:35:01Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, AMBA, ANF, ARWR, CLSK, DELL, DKS, INFQ, INSM, KSS, MSTR, PFE"
+ },
+ {
+  "t": "2026-11-25T01:35:06Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[banque centrale, géopolitique] Why are Dow futures down today, Nov. 24, 2026? Nvidia pullback, Fed rate fears, and Iran sanctions - Clarin.com (Clarin.com)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQWkxQSHJjVGhFa2o0bG00bVFxS1RQTXMxdTFkekVQSDFQa05BWmZ4WENwMngxYnRKbXJMZklSNEFTS2pvOUMtRXNrWVpwZnYzTFdhai02WTZxMm4yVUcwVzZvX0VjWkFlN1VJY1BPZExOMVFQS3loX3dxcS1tZVMxa0d3bms1M3FxVm5HS1ZZajNpUUZkYnUtZXdpcU4yUDFtVmIzVnN1MzEzSXVFaERzWXI2SUIzb2RlTkJacmVieFRfWnFLcjZfSm1RVlFsYTAwLVJJUkE0bkbSAd4BQVVfeXFMUDktUEJJU2RiYnFvaFY1WDA3aU9uU1ptcFljbDRNZUlnN2tzVG52emdZWDM0OGxwLUJzZ2RyeThwXzdJcGZOVUpXWXlzOEJRdnhfaExaeFE4WEJqQWk0WC1kdzVSRWlrQTZGNXMtakNQV2VGRzNXZmRmVnNqNC1jQjRiQ0hxY2VnMGwwaHBvVzJGOGxrSUx0TnF0NXZ5WGp3ekh5ZTByR0V6Y2h6LUhaX3NqR1JXbDRnajBhZDJmVzlKcGctVGtfQ0NjTF9mYkYzMmk3WXlUeDQ0cEdyOEhR?oc=5",
+   "actifs": [
+    "NVDA"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-25T01:35:06Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Solana token on pump.fun lost 60% value after a $2.15M USDC exploit was flagged. - Pluang (Pluang)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNFhreENOM2wtanZRMEpnQkpXaUFPaFl4U2ZDNjFKLXhWQlp6OHlFZ2NSNEhFM2pLWGUwS08yc1IyU3plcWpMbklTN3dRTDRvaW0yaEpiTUxHMHM5RWN2UVpXUUp3TkNIQ2lmMmZZT0QtTGhUeWNjTHh0ZXk5eHdPSm82eXVCZ3FHTFRBOQ?oc=5",
+   "actifs": [
+    "SOL"
+   ]
+  }
  }
 ]
