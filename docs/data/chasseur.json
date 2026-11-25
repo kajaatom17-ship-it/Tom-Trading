@@ -1,7 +1,7 @@
 {
- "t": "2026-11-25T11:23:37Z",
+ "t": "2026-11-25T11:29:30Z",
  "nb_analyses": 605,
- "nb_en_mouvement": 5,
+ "nb_en_mouvement": 7,
  "tendance": [
   "AAPL",
   "AAVE",
@@ -137,12 +137,22 @@
  },
  "candidats": [
   {
+   "sym": "SOXL",
+   "pair": "SOXLxUSD",
+   "action": true,
+   "variation_24h_pct": -10.94,
+   "volume_24h_eur": 189044.1,
+   "spread_pct": 0.351,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
    "sym": "PROS",
    "pair": "PROSEUR",
    "action": false,
    "variation_24h_pct": 8.7,
-   "volume_24h_eur": 191486.66,
-   "spread_pct": 0.3148,
+   "volume_24h_eur": 190902.79,
+   "spread_pct": 0.2999,
    "tendance": false,
    "impulsion": null
   },
@@ -150,9 +160,9 @@
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
-   "variation_24h_pct": -5.2,
-   "volume_24h_eur": 495128.06,
-   "spread_pct": 0.2639,
+   "variation_24h_pct": -5.42,
+   "volume_24h_eur": 496214.93,
+   "spread_pct": 0.1889,
    "tendance": false,
    "impulsion": null
   },
@@ -161,8 +171,18 @@
    "pair": "MEGAEUR",
    "action": false,
    "variation_24h_pct": -5.6,
-   "volume_24h_eur": 48857.2,
-   "spread_pct": 0.1379,
+   "volume_24h_eur": 48288.38,
+   "spread_pct": 0.2207,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "USELESS",
+   "pair": "USELESSEUR",
+   "action": false,
+   "variation_24h_pct": -5.16,
+   "volume_24h_eur": 115037.24,
+   "spread_pct": 0.1664,
    "tendance": false,
    "impulsion": null
   },
@@ -171,8 +191,8 @@
    "pair": "ZEREBROEUR",
    "action": false,
    "variation_24h_pct": -5.16,
-   "volume_24h_eur": 65158.7,
-   "spread_pct": 0.3474,
+   "volume_24h_eur": 64658.7,
+   "spread_pct": 0.2316,
    "tendance": false,
    "impulsion": null
   },
@@ -180,9 +200,9 @@
    "sym": "ANT",
    "pair": "ANTxUSD",
    "action": true,
-   "variation_24h_pct": -2.81,
-   "volume_24h_eur": 3002436.68,
-   "spread_pct": 0.1922,
+   "variation_24h_pct": -3.31,
+   "volume_24h_eur": 2999556.58,
+   "spread_pct": 0.2189,
    "tendance": false,
    "impulsion": null
   }
