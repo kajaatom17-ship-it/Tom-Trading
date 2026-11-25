@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T18:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 551.0339740846301,
+   "dernier_prix": 551.0590635073853,
    "atr": 2.771652,
    "rollover": 0.6932049627034734,
    "rollover_periodes": 36
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T18:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.24433841138601,
+   "dernier_prix": 93.24858396925713,
    "atr": 1.08547,
    "rollover": 0.549839566936002,
    "rollover_periodes": 36
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T18:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 576.0205428933062,
+   "dernier_prix": 576.5749358005355,
    "atr": 3.304099,
    "rollover": 0.6925005647711263,
    "rollover_periodes": 36
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T18:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.221e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T18:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:50:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54356.3,
+   "dernier_prix": 54408.3,
    "atr": 640.9446,
    "rollover": 0.1749570671378219,
    "rollover_periodes": 10
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T18:48:45Z",
+ "maj": "2026-11-25T18:50:45Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -159,7 +159,7 @@
   "2026-11-25": 501.54
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-25T18:44:49Z",
+ "chasseur_t": "2026-11-25T18:50:39Z",
  "tendance": [
   "VAR",
   "BTC",
@@ -286,33 +286,49 @@
   }
  },
  "buzz_t": "2026-11-25T18:44:49Z",
- "sources_t": "2026-11-25T18:30:19Z",
+ "sources_t": "2026-11-25T18:50:44Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "neutral",
+   "sujet": "AI",
+   "mentions": 8,
+   "sentiment": "bullish",
    "titres": [
-    "Galaxy Research retracts October call, withdraws “bear market over” verdict",
-    "Bitcoin gains $2,500 in 3 hours, reclaims $59,500"
+    "US chip export controls challenge China’s AI progress, spur domestic chip push",
+    "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 6,
+   "sujet": "Bitcoin",
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "Elon Musk’s SpaceX Gets FCC Approval to Launch AI Data Centers in Space",
-    "FCC Clears Musk's Million-Satellite AI Empire In Heavens As Dems Signal Moratoriums On Earth"
+    "BTC/USD (30M): Supply Zone Retest — Next Leg to 55,145?",
+    "Galaxy Research retracts October call, withdraws “bear market over” verdict"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "SEC Investor Panel to Examine Broker-Free Trading of Tokenised US Stocks",
+    "US stocks movement: TMC the metals surges on November 25 due to insider buying and deep-sea mining."
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "#MANTAUSDT #8h (Binance) Broadening wedge on support [LONG]"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 2,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "#MANTAUSDT #8h (Binance) Broadening wedge on support [LONG]",
-    "Chainlink price prediction 2026–2032: Can LINK reclaim $50?"
+    "#MANTAUSDT #8h (Binance) Broadening wedge on support [LONG]"
    ]
   },
   {
@@ -321,22 +337,6 @@
    "sentiment": "neutral",
    "titres": [
     "Bitcoin gains $2,500 in 3 hours, reclaims $59,500"
-   ]
-  },
-  {
-   "sujet": "Chainlink",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Chainlink price prediction 2026–2032: Can LINK reclaim $50?"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "US stocks movement: TMC the metals surges on November 25 due to insider buying and deep-sea mining."
    ]
   }
  ],
