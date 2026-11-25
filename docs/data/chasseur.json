@@ -1,7 +1,7 @@
 {
- "t": "2026-11-25T18:33:19Z",
+ "t": "2026-11-25T18:39:07Z",
  "nb_analyses": 605,
- "nb_en_mouvement": 10,
+ "nb_en_mouvement": 12,
  "tendance": [
   "AMBA",
   "AMZN",
@@ -155,12 +155,22 @@
  },
  "candidats": [
   {
+   "sym": "MOODENG",
+   "pair": "MOODENGEUR",
+   "action": false,
+   "variation_24h_pct": 22.32,
+   "volume_24h_eur": 322277.87,
+   "spread_pct": 0.2943,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "VVV",
    "pair": "VVVEUR",
    "action": false,
-   "variation_24h_pct": 7.06,
-   "volume_24h_eur": 619127.57,
-   "spread_pct": 0.1204,
+   "variation_24h_pct": 8.76,
+   "volume_24h_eur": 626993.29,
+   "spread_pct": 0.1757,
    "tendance": true,
    "impulsion": null
   },
@@ -168,9 +178,9 @@
    "sym": "XPL",
    "pair": "XPLEUR",
    "action": false,
-   "variation_24h_pct": 7.71,
-   "volume_24h_eur": 54730.85,
-   "spread_pct": 0.4619,
+   "variation_24h_pct": 8.96,
+   "volume_24h_eur": 54747.23,
+   "spread_pct": 0.2283,
    "tendance": false,
    "impulsion": null
   },
@@ -179,7 +189,7 @@
    "pair": "IRENxUSD",
    "action": true,
    "variation_24h_pct": 7.36,
-   "volume_24h_eur": 42151.85,
+   "volume_24h_eur": 42168.74,
    "spread_pct": 0.4785,
    "tendance": false,
    "impulsion": null
@@ -190,27 +200,17 @@
    "action": false,
    "variation_24h_pct": -6.24,
    "volume_24h_eur": 118891.89,
-   "spread_pct": 0.0804,
+   "spread_pct": 0.0731,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "STBL",
-   "pair": "STBLEUR",
-   "action": false,
-   "variation_24h_pct": 5.72,
-   "volume_24h_eur": 105073.95,
-   "spread_pct": 0.275,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "SYRUP",
-   "pair": "SYRUPEUR",
-   "action": false,
-   "variation_24h_pct": -5.61,
-   "volume_24h_eur": 125724.91,
-   "spread_pct": 0.2329,
+   "sym": "ANT",
+   "pair": "ANTxUSD",
+   "action": true,
+   "variation_24h_pct": 4.69,
+   "volume_24h_eur": 1692905.69,
+   "spread_pct": 0.1308,
    "tendance": false,
    "impulsion": null
   },
@@ -218,19 +218,19 @@
    "sym": "WLFI",
    "pair": "WLFIEUR",
    "action": false,
-   "variation_24h_pct": 5.75,
-   "volume_24h_eur": 65999.3,
-   "spread_pct": 0.2591,
+   "variation_24h_pct": 6.03,
+   "volume_24h_eur": 67819.82,
+   "spread_pct": 0.2584,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "SKHY",
-   "pair": "SKHYxUSD",
-   "action": true,
-   "variation_24h_pct": -4.34,
-   "volume_24h_eur": 311232.9,
-   "spread_pct": 0.028,
+   "sym": "STBL",
+   "pair": "STBLEUR",
+   "action": false,
+   "variation_24h_pct": 5.49,
+   "volume_24h_eur": 105288.8,
+   "spread_pct": 0.1877,
    "tendance": false,
    "impulsion": null
   }
