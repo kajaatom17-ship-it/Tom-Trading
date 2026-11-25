@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T12:12:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 530.8049507303608,
+   "dernier_prix": 530.7370306730523,
    "atr": 2.771652,
    "rollover": 0.6546935758866138,
    "rollover_periodes": 34
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T12:12:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 91.3179399989031,
+   "dernier_prix": 91.30625525536504,
    "atr": 1.08547,
    "rollover": 0.5192929243284464,
    "rollover_periodes": 34
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T12:12:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 566.1620870582643,
+   "dernier_prix": 566.0896428179725,
    "atr": 3.304099,
    "rollover": 0.6540283111727304,
    "rollover_periodes": 34
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T12:12:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.168e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T12:12:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53429.0,
+   "dernier_prix": 53450.9,
    "atr": 640.9446,
    "rollover": 0.1574613604240397,
    "rollover_periodes": 9
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T12:12:53Z",
+ "maj": "2026-11-25T12:14:03Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -271,75 +271,76 @@
   }
  },
  "buzz_t": "2026-11-25T12:10:51Z",
- "sources_t": "2026-11-25T11:53:14Z",
+ "sources_t": "2026-11-25T12:13:52Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 13,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "Gold loses its safe-haven edge over Bitcoin as the Fed turns hawkish",
-    "Bitcoin: lower highs pile up, selling the 59,400 bounce"
+    "Bitcoin.com Explorer Opens Free MCP Server and API for AI Agents",
+    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "Commodity Corner: Copper extends AI-driven slide to near one-year lows",
-    "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout"
+    "OpenAI addresses ChatGPT errors affecting Team, Business and Pro plans",
+    "David Tepper makes Micron his biggest bet as Appaloosa leans into AI chips"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 4,
-   "sentiment": "bullish",
+   "mentions": 5,
+   "sentiment": "neutral",
    "titres": [
-    "Kraken’s Krak Moves Into Credit With Two US Cards, One Backed by a USDC Deposit",
-    "Bitcoin (BTC/USDT) 15m Analysis: Projecting a Relief Bounce Befo"
+    "The history and slow death of Dai",
+    "Japan’s SBI, SMFG launch Solana venture for stablecoins, tokenization"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "bullish",
+   "mentions": 4,
+   "sentiment": "neutral",
    "titres": [
-    "Anthropic’s tokenized stock reaches 121,000 holders on Solana",
-    "SBI, SMFG’s Solana Venture Begins Full Operations in Japan"
+    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs",
+    "Zcash supply on Solana hits all-time high of 110,221 ZEC"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs",
+    "Bit Digital 出售 29,825 枚 ETH 全额用于偿还 Galaxy Digital 贷款"
    ]
   },
   {
    "sujet": "ETF",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Hyperliquid Leads Altcoin Losses as Bitcoin Slips Below $59K",
-    "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout"
+    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs",
+    "Hyperliquid Leads Altcoin Losses as Bitcoin Slips Below $59K"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "XRP market faces pressure as net longs underwater at $0.982"
+    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "DeFi",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bit Digital 出售 29,825 枚 ETH 全额用于偿还 Galaxy Digital 贷款"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Ukraine legalizes crypto, law effective July 1, 2027"
+    "Zcash supply on Solana hits all-time high of 110,221 ZEC"
    ]
   }
  ],
