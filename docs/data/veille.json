@@ -1591,17 +1591,24 @@
  ],
  "alertes": [
   {
-   "sym": "ORCL",
+   "sym": "MON",
    "horizon": "15 min",
-   "variation_pct": 3.57,
-   "prix": 94.09547052288416,
-   "t": "2026-11-25T17:32:52Z"
+   "variation_pct": 3.08,
+   "prix": 0.01037,
+   "t": "2026-11-25T17:34:53Z"
   },
   {
    "sym": "AMD",
    "horizon": "15 min",
-   "variation_pct": -1.74,
-   "prix": 349.01742947165206,
+   "variation_pct": -1.51,
+   "prix": 349.03967870900755,
+   "t": "2026-11-25T17:34:53Z"
+  },
+  {
+   "sym": "ORCL",
+   "horizon": "15 min",
+   "variation_pct": 3.57,
+   "prix": 94.09547052288416,
    "t": "2026-11-25T17:32:52Z"
   },
   {
@@ -1725,13 +1732,6 @@
    "t": "2026-11-25T17:19:08Z"
   },
   {
-   "sym": "MON",
-   "horizon": "15 min",
-   "variation_pct": 2.53,
-   "prix": 0.01014,
-   "t": "2026-11-25T17:19:08Z"
-  },
-  {
    "sym": "NEAR",
    "horizon": "15 min",
    "variation_pct": 2.72,
@@ -1848,5 +1848,5 @@
  ],
  "t_actus": "2026-11-25T17:26:51Z",
  "erreurs_sources": [],
- "t": "2026-11-25T17:32:52Z"
+ "t": "2026-11-25T17:34:53Z"
 }
