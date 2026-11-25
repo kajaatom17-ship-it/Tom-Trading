@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T13:13:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 528.1097142857143,
+   "dernier_prix": 528.0662619761574,
    "atr": 2.771652,
    "rollover": 0.6739492692950436,
    "rollover_periodes": 35
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T13:13:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 91.63885714285715,
+   "dernier_prix": 91.63131719447087,
    "atr": 1.08547,
    "rollover": 0.5345662456322242,
    "rollover_periodes": 35
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T13:13:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 567.4605714285714,
+   "dernier_prix": 567.532728735464,
    "atr": 3.304099,
    "rollover": 0.6732644379719284,
    "rollover_periodes": 35
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T13:13:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.152e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T13:13:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:14:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53710.9,
+   "dernier_prix": 53698.6,
    "atr": 640.9446,
    "rollover": 0.1574613604240397,
    "rollover_periodes": 9
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T13:13:15Z",
+ "maj": "2026-11-25T13:14:14Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -286,29 +286,47 @@
   }
  },
  "buzz_t": "2026-11-25T13:04:22Z",
- "sources_t": "2026-11-25T12:54:30Z",
+ "sources_t": "2026-11-25T13:14:12Z",
  "actus_tendance": [
-  {
-   "sujet": "Bitcoin",
-   "mentions": 7,
-   "sentiment": "bearish",
-   "titres": [
-    "BTC: 72K zone failed, now 35% below mining cost",
-    "Bitcoin's Roadmap to 42K (8H)"
-   ]
-  },
   {
    "sujet": "AI",
    "mentions": 6,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Wharton survey shows 62% of US managers use AI daily, and most now spend their time checking its work",
-    "Coinbase CEO 喊多 COIN 遭網友反嗆：先取消 817 萬股預排出售計畫再說"
+    "Ethereum Foundation Says AI-Driven Crypto Upgrades Take Priority Over Quantum Threats",
+    "Why the Nvidia Rally Fizzled"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.131834263 | 🚶 0.131841446 | 🚀 0.141834263 Gwei",
+    "Ethereum Foundation Says AI-Driven Crypto Upgrades Take Priority Over Quantum Threats"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "BITCOIN READY TO BUY BACK TO 80K",
+    "BTCUSDT Update: Price Enters the Demand Zone — What Happens Next"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Nvidia faces scrutiny over chip smuggling allegations tied to Megaspeed",
+    "Ukraine passes bill to legalize crypto and tax profits at 23%"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
     "European Banking Authority flags stablecoin risks in DeFi, urges EU action",
@@ -316,44 +334,29 @@
    ]
   },
   {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Nvidia faces scrutiny over chip smuggling allegations tied to Megaspeed",
+    "Bithumb confirms additional personal data exposed in October breach"
+   ]
+  },
+  {
    "sujet": "ETF",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Overlay Shares Short Term Bond ETF declares $0.1179 dividend",
-    "Overlay Shares Foreign Equity ETF declares $0.2442 dividend"
+    "Infrastructure Capital Nasdaq Option Income ETF declares $1.09 dividend",
+    "Infracap Small Cap Income ETF raises quarterly dividend by 2% to  $0.255/share"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.155398557 | 🚶 0.155498557 | 🚀 0.171048412 Gwei"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "European Banking Authority flags stablecoin risks in DeFi, urges EU action"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "European Banking Authority flags stablecoin risks in DeFi, urges EU action"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase CEO 喊多 COIN 遭網友反嗆：先取消 817 萬股預排出售計畫再說"
+    "XRP price prediction 2026-2032: Will XRP reach $5?"
    ]
   }
  ],
