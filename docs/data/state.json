@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T11:50:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 531.003959508765,
+   "dernier_prix": 530.9942483014659,
    "atr": 2.771652,
    "rollover": 0.6546935758866138,
    "rollover_periodes": 34
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T11:51:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 92.22089120952477,
+   "dernier_prix": 92.21920463793559,
    "atr": 1.08547,
    "rollover": 0.5192929243284464,
    "rollover_periodes": 34
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T11:51:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.5141326115385,
+   "dernier_prix": 568.5037354035791,
    "atr": 3.304099,
    "rollover": 0.6540283111727304,
    "rollover_periodes": 34
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T11:51:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.168e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T11:51:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53672.8,
+   "dernier_prix": 53666.9,
    "atr": 640.9446,
    "rollover": 0.1574613604240397,
    "rollover_periodes": 9
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T11:51:05Z",
+ "maj": "2026-11-25T11:53:15Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -159,52 +159,52 @@
   "2026-11-25": 501.54
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-25T11:47:11Z",
+ "chasseur_t": "2026-11-25T11:53:08Z",
  "tendance": [
   "BTC",
   "BIGTIME",
   "MON",
-  "PEARL",
-  "HYPE",
   "ETH",
-  "PENGU",
-  "ZRO",
-  "SUI",
-  "CARDS",
+  "HYPE",
+  "PEARL",
   "SOL",
   "VVV",
-  "AAVE",
-  "DOGE",
-  "BTW"
+  "XRP",
+  "EVAA",
+  "INJ",
+  "BP",
+  "PENGU",
+  "LINK",
+  "SUI"
  ],
- "tendance_t": "2026-11-25T10:53:53Z",
+ "tendance_t": "2026-11-25T11:53:08Z",
  "buzz": {
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 161,
-   "x_vs_hier": 7.0
+   "mentions": 162,
+   "x_vs_hier": 6.8
   },
   "AAPL": {
    "source": "Reddit",
-   "mentions": 90,
-   "x_vs_hier": 4.1
+   "mentions": 94,
+   "x_vs_hier": 4.3
   },
   "SNDK": {
    "source": "Reddit",
    "mentions": 81,
-   "x_vs_hier": 2.3
+   "x_vs_hier": 2.2
   },
   "SPCX": {
    "source": "Reddit",
-   "mentions": 51,
-   "x_vs_hier": 2.1
+   "mentions": 49,
+   "x_vs_hier": 2.0
   },
   "WMT": {
    "source": "Reddit",
    "mentions": 31,
    "x_vs_hier": 10.3
   },
-  "SOXL": {
+  "QQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -214,7 +214,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "QQQ": {
+  "SOXL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -224,17 +224,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMBA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "MU": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -244,65 +234,84 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "LABU": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XBI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ARM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "GLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LABD": {
+  "AMBA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
+  "BTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ANF": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SHIB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WDAY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-25T11:35:22Z",
- "sources_t": "2026-11-25T11:31:26Z",
+ "buzz_t": "2026-11-25T11:53:09Z",
+ "sources_t": "2026-11-25T11:53:14Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
+   "mentions": 13,
    "sentiment": "neutral",
    "titres": [
-    "Hyperliquid Leads Altcoin Losses as Bitcoin Slips Below $59K",
-    "BTC: $58k put wall vs crowded longs in short gamma"
+    "Gold loses its safe-haven edge over Bitcoin as the Fed turns hawkish",
+    "Bitcoin: lower highs pile up, selling the 59,400 bounce"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "bearish",
+   "mentions": 4,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout",
-    "California sues OpenAI after its agents allegedly hacked Hugging Face"
+    "Commodity Corner: Copper extends AI-driven slide to near one-year lows",
+    "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "bullish",
    "titres": [
-    "USDT Dominance: Is History About to Repeat?",
-    "BCHUSDT: Inverse Head & Shoulders Signals a Potential Bullish Re"
+    "Kraken’s Krak Moves Into Credit With Two US Cards, One Backed by a USDC Deposit",
+    "Bitcoin (BTC/USDT) 15m Analysis: Projecting a Relief Bounce Befo"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "Anthropic’s tokenized stock reaches 121,000 holders on Solana",
+    "SBI, SMFG’s Solana Venture Begins Full Operations in Japan"
    ]
   },
   {
@@ -315,11 +324,19 @@
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "XRP",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SBI, SMFG’s Solana Venture Begins Full Operations in Japan"
+    "XRP market faces pressure as net longs underwater at $0.982"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Bit Digital 出售 29,825 枚 ETH 全额用于偿还 Galaxy Digital 贷款"
    ]
   },
   {
@@ -328,22 +345,6 @@
    "sentiment": "neutral",
    "titres": [
     "Ukraine legalizes crypto, law effective July 1, 2027"
-   ]
-  },
-  {
-   "sujet": "Chainlink",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "LINKUSDT Inverse Head & Shoulders Pattern Signals Potential Bull"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "California sues OpenAI after its agents allegedly hacked Hugging Face"
    ]
   }
  ],
