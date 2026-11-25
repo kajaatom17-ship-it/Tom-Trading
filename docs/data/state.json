@@ -20,7 +20,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T19:00:00Z",
+   "verifie_jusqu_a": "2026-11-25T19:02:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 551.023938955209,
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T19:00:00Z",
+   "verifie_jusqu_a": "2026-11-25T19:02:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 93.65239799309786,
@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T19:00:00Z",
+   "verifie_jusqu_a": "2026-11-25T19:02:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 574.9173655311826,
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T19:00:00Z",
+   "verifie_jusqu_a": "2026-11-25T19:02:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.228e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T19:00:00Z",
+   "verifie_jusqu_a": "2026-11-25T19:02:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54306.8,
+   "dernier_prix": 54352.9,
    "atr": 640.9446,
    "rollover": 0.1749570671378219,
    "rollover_periodes": 10
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T19:00:22Z",
+ "maj": "2026-11-25T19:02:22Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -159,7 +159,7 @@
   "2026-11-25": 501.54
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-25T18:56:29Z",
+ "chasseur_t": "2026-11-25T19:02:16Z",
  "tendance": [
   "VAR",
   "BTC",
@@ -181,18 +181,13 @@
  "buzz": {
   "ETH": {
    "source": "Reddit",
-   "mentions": 62,
-   "x_vs_hier": 2.4
+   "mentions": 66,
+   "x_vs_hier": 2.5
   },
   "DELL": {
    "source": "Reddit + StockTwits",
    "mentions": 172,
-   "x_vs_hier": 4.4
-  },
-  "SNDK": {
-   "source": "Reddit",
-   "mentions": 115,
-   "x_vs_hier": 2.1
+   "x_vs_hier": 4.3
   },
   "NBIS": {
    "source": "Reddit",
@@ -201,50 +196,40 @@
   },
   "ASTS": {
    "source": "Reddit + StockTwits",
-   "mentions": 46,
-   "x_vs_hier": 9.2
+   "mentions": 47,
+   "x_vs_hier": 9.4
   },
   "WMT": {
    "source": "Reddit",
-   "mentions": 36,
-   "x_vs_hier": 2.4
+   "mentions": 37,
+   "x_vs_hier": 2.6
   },
   "CRWV": {
    "source": "Reddit",
    "mentions": 35,
-   "x_vs_hier": 2.5
+   "x_vs_hier": 2.7
   },
   "AMZN": {
    "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 2.3
+   "mentions": 33,
+   "x_vs_hier": 2.4
   },
   "AMBA": {
    "source": "Reddit + StockTwits",
-   "mentions": 31,
-   "x_vs_hier": 31.0
+   "mentions": 32,
+   "x_vs_hier": 32.0
   },
-  "GDXU": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BABA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "META": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SPCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
+  "COST": {
+   "source": "Reddit",
+   "mentions": 30,
+   "x_vs_hier": 4.3
   },
   "SOXL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GDXU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -254,7 +239,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SLV": {
+  "BABA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SPCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -264,28 +254,38 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "GENI": {
+  "META": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CSIQ": {
+  "SLV": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "IWM": {
+  "APLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "HPQ": {
+  "RKLB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PATH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-25T18:44:49Z",
+ "buzz_t": "2026-11-25T19:02:17Z",
  "sources_t": "2026-11-25T18:50:44Z",
  "actus_tendance": [
   {
