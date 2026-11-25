@@ -1,41 +1,41 @@
 {
- "t": "2026-11-25T02:37:52Z",
+ "t": "2026-11-25T02:43:44Z",
  "nb_analyses": 606,
  "nb_en_mouvement": 0,
  "tendance": [
   "AAPL",
   "AAVE",
   "AMBA",
-  "BETR",
+  "ASTS",
+  "AVGO",
   "BTC",
-  "CC",
   "DELL",
   "DKS",
-  "ETH",
   "EWY",
   "HYPE",
   "INFQ",
-  "IRYS",
-  "IWM",
-  "JD",
+  "KAS",
+  "KITE",
+  "KSS",
   "LUNC",
   "MON",
   "MSTR",
-  "NEAR",
+  "PEAQ",
   "PEARL",
   "PENGU",
-  "PEPE",
-  "PI",
+  "SEI",
   "SNDK",
-  "SOL",
+  "SOXL",
+  "SOXX",
   "SPCX",
-  "SYM",
-  "TEAM",
+  "SUI",
+  "TAO",
   "TGTX",
   "VVV",
   "WDAY",
-  "WMT",
-  "XBI"
+  "XBI",
+  "XTZ",
+  "ZRO"
  ],
  "buzz_reseaux": {
   "DELL": {
@@ -45,25 +45,20 @@
   },
   "AAPL": {
    "source": "Reddit",
-   "mentions": 89,
-   "x_vs_hier": 5.6
+   "mentions": 92,
+   "x_vs_hier": 5.8
   },
   "SNDK": {
    "source": "Reddit",
-   "mentions": 70,
-   "x_vs_hier": 2.1
+   "mentions": 71,
+   "x_vs_hier": 2.2
   },
   "SPCX": {
    "source": "Reddit",
-   "mentions": 52,
-   "x_vs_hier": 2.5
+   "mentions": 51,
+   "x_vs_hier": 2.4
   },
   "AMBA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "INFQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -73,7 +68,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "JD": {
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -83,27 +78,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "KSS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "INFQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOXL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVGO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ASTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOXX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "XBI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WDAY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IWM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TEAM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -113,17 +118,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BETR": {
+  "XTZ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SYM": {
+  "WDAY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
