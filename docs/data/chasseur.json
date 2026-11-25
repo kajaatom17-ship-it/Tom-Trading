@@ -1,5 +1,5 @@
 {
- "t": "2026-11-25T03:49:22Z",
+ "t": "2026-11-25T03:55:22Z",
  "nb_analyses": 606,
  "nb_en_mouvement": 2,
  "tendance": [
@@ -8,26 +8,26 @@
   "ADA",
   "AMBA",
   "AMD",
-  "ASTS",
   "AVGO",
   "BTC",
+  "BWET",
+  "CHTR",
   "DELL",
   "DRV",
+  "HIMX",
   "HPE",
   "HYPE",
   "INJ",
-  "KSS",
   "LUNC",
   "MON",
-  "MSTR",
   "MU",
   "NEAR",
-  "NIGHT",
   "PEARL",
   "PENGU",
-  "PTLO",
   "QNT",
+  "SMH",
   "SNDK",
+  "SNY",
   "SOL",
   "SOXL",
   "SPCX",
@@ -39,8 +39,8 @@
  "buzz_reseaux": {
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 145,
-   "x_vs_hier": 8.1
+   "mentions": 147,
+   "x_vs_hier": 8.2
   },
   "AAPL": {
    "source": "Reddit",
@@ -49,20 +49,15 @@
   },
   "SNDK": {
    "source": "Reddit + StockTwits",
-   "mentions": 72,
+   "mentions": 73,
    "x_vs_hier": 2.1
   },
   "SPCX": {
    "source": "Reddit",
-   "mentions": 49,
-   "x_vs_hier": 2.1
+   "mentions": 48,
+   "x_vs_hier": 2.2
   },
   "SOXL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -72,12 +67,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "AMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "TGTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMD": {
+  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -87,12 +87,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "KSS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MSTR": {
+  "HPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -102,22 +97,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HPE": {
+  "BWET": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PTLO": {
+  "SNY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NIGHT": {
+  "SMH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ASTS": {
+  "CHTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HIMX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -128,22 +128,28 @@
    "sym": "DRV",
    "pair": "DRVEUR",
    "action": false,
-   "variation_24h_pct": 5.67,
-   "volume_24h_eur": 52847.85,
-   "spread_pct": 0.2302,
+   "variation_24h_pct": 4.79,
+   "volume_24h_eur": 52911.71,
+   "spread_pct": 0.2321,
    "tendance": true,
-   "impulsion": null
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -2.51,
+    "volume_x": 3.5
+   }
   },
   {
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": -2.59,
-   "volume_24h_eur": 541433.58,
-   "spread_pct": 0.0459,
+   "volume_24h_eur": 541398.95,
+   "spread_pct": 0.0275,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "DRV"
+ ]
 }
