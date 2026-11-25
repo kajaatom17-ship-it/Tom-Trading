@@ -1,10 +1,10 @@
 {
- "t": "2026-11-25T05:01:03Z",
+ "t": "2026-11-25T05:07:18Z",
  "nb_analyses": 606,
  "nb_en_mouvement": 1,
  "tendance": [
   "AAPL",
-  "ADBE",
+  "ABSI",
   "AMBA",
   "AMD",
   "BIGTIME",
@@ -14,11 +14,9 @@
   "DELL",
   "DRV",
   "ETH",
-  "ETN",
-  "GILD",
   "HYPE",
+  "IBB",
   "JUP",
-  "LITE",
   "MLTX",
   "MON",
   "MU",
@@ -32,8 +30,11 @@
   "SOXL",
   "SPCX",
   "TAO",
-  "TSLL",
+  "TGTX",
   "TSM",
+  "VTI",
+  "WMT",
+  "XE",
   "ZEC"
  ],
  "buzz_reseaux": {
@@ -48,8 +49,8 @@
    "x_vs_hier": 5.5
   },
   "SNDK": {
-   "source": "Reddit + StockTwits",
-   "mentions": 77,
+   "source": "Reddit",
+   "mentions": 76,
    "x_vs_hier": 2.2
   },
   "SPCX": {
@@ -67,6 +68,26 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "TSM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "COHR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SOXL": {
    "source": "StockTwits",
    "mentions": null,
@@ -77,47 +98,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LITE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "COHR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "DE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
+  "ABSI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GILD": {
+  "WMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ADBE": {
+  "VTI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETN": {
+  "XE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSLL": {
+  "TGTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -129,8 +135,8 @@
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": -2.98,
-   "volume_24h_eur": 541489.71,
-   "spread_pct": 0.0645,
+   "volume_24h_eur": 541573.85,
+   "spread_pct": 0.0553,
    "tendance": false,
    "impulsion": null
   }
