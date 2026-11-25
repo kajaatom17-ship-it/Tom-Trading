@@ -1605,6 +1605,13 @@
  ],
  "alertes": [
   {
+   "sym": "MON",
+   "horizon": "15 min",
+   "variation_pct": 2.69,
+   "prix": 0.00879,
+   "t": "2026-11-25T02:49:44Z"
+  },
+  {
    "sym": "AI",
    "horizon": "15 min",
    "variation_pct": 2.72,
@@ -1626,13 +1633,6 @@
    "t": "2026-11-24T21:35:08Z"
   },
   {
-   "sym": "MON",
-   "horizon": "15 min",
-   "variation_pct": 2.89,
-   "prix": 0.00855,
-   "t": "2026-11-24T21:22:10Z"
-  },
-  {
    "sym": "MSTR",
    "horizon": "15 min",
    "variation_pct": -1.84,
@@ -1649,5 +1649,5 @@
  ],
  "t_actus": "2026-11-25T02:43:48Z",
  "erreurs_sources": [],
- "t": "2026-11-25T02:47:43Z"
+ "t": "2026-11-25T02:49:44Z"
 }
