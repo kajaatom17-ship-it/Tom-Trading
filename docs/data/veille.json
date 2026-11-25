@@ -1594,6 +1594,13 @@
  ],
  "alertes": [
   {
+   "sym": "HOOD",
+   "horizon": "15 min",
+   "variation_pct": 1.76,
+   "prix": 58.592113650851466,
+   "t": "2026-11-25T17:58:08Z"
+  },
+  {
    "sym": "INTC",
    "horizon": "15 min",
    "variation_pct": 1.75,
@@ -1704,13 +1711,6 @@
    "horizon": "15 min",
    "variation_pct": 2.54,
    "prix": 0.888,
-   "t": "2026-11-25T17:21:02Z"
-  },
-  {
-   "sym": "HOOD",
-   "horizon": "15 min",
-   "variation_pct": 1.75,
-   "prix": 57.902546037120985,
    "t": "2026-11-25T17:21:02Z"
   },
   {
@@ -1853,5 +1853,5 @@
  "erreurs_sources": [
   "Google (Nasdaq stocks): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-25T17:56:09Z"
+ "t": "2026-11-25T17:58:08Z"
 }
