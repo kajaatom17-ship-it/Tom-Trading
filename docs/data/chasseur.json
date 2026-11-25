@@ -1,5 +1,5 @@
 {
- "t": "2026-11-25T00:54:33Z",
+ "t": "2026-11-25T00:59:32Z",
  "nb_analyses": 607,
  "nb_en_mouvement": 1,
  "tendance": [
@@ -9,7 +9,6 @@
   "BBIO",
   "BTC",
   "CC",
-  "CLSK",
   "CMPS",
   "COGT",
   "DELL",
@@ -18,6 +17,7 @@
   "ETH",
   "GEOD",
   "HYPE",
+  "IBB",
   "INFQ",
   "INSM",
   "KSS",
@@ -31,8 +31,8 @@
   "SOL",
   "SPCX",
   "SUI",
+  "TGTX",
   "WDAY",
-  "XBI",
   "XRP",
   "XRPN"
  ],
@@ -40,7 +40,7 @@
   "DELL": {
    "source": "Reddit + StockTwits",
    "mentions": 132,
-   "x_vs_hier": 6.9
+   "x_vs_hier": 7.3
   },
   "AAPL": {
    "source": "Reddit",
@@ -57,7 +57,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CLSK": {
+  "INFQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -67,22 +67,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "WDAY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "INFQ": {
+  "INSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "ANF": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "INSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -97,7 +87,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XRPN": {
+  "WDAY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -107,7 +97,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XBI": {
+  "XRPN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -117,7 +107,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "TGTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "COGT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -130,7 +130,7 @@
    "action": false,
    "variation_24h_pct": -8.53,
    "volume_24h_eur": 40011.66,
-   "spread_pct": 0.3592,
+   "spread_pct": 0.3182,
    "tendance": false,
    "impulsion": null
   }
