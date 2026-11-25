@@ -1,12 +1,6 @@
 [
  {
   "t": "2026-11-23T23:05:57Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
-  "msg": "Entrée SWG-1 : BTC short, stop 58456.87, objectif 49158.6, risque 4.88 €."
- },
- {
-  "t": "2026-11-23T23:05:57Z",
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 17 signal(aux) : DOT short (SWG-1, 80), INJ short (SWG-1, 80), FET short (SWG-1, 80)"
@@ -2851,5 +2845,11 @@
     "SPY"
    ]
   }
+ },
+ {
+  "t": "2026-11-25T01:50:11Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, AMBA, DELL, DKS, ETH, INFQ, INSM, JD, KSS, LABU, MSTR, PFE"
  }
 ]
