@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T12:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 525.8116408306522,
+   "dernier_prix": 525.7972233139265,
    "atr": 2.771652,
    "rollover": 0.6739492692950436,
    "rollover_periodes": 35
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T12:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 91.5198157355952,
+   "dernier_prix": 91.51730630375374,
    "atr": 1.08547,
    "rollover": 0.5345662456322242,
    "rollover_periodes": 35
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T12:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 566.8049868382568,
+   "dernier_prix": 566.7894453025748,
    "atr": 3.304099,
    "rollover": 0.6732644379719284,
    "rollover_periodes": 35
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T12:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.148e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T12:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53606.5,
+   "dernier_prix": 53628.7,
    "atr": 640.9446,
    "rollover": 0.1574613604240397,
    "rollover_periodes": 9
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T12:53:33Z",
+ "maj": "2026-11-25T12:54:31Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -276,24 +276,24 @@
   }
  },
  "buzz_t": "2026-11-25T12:46:34Z",
- "sources_t": "2026-11-25T12:34:45Z",
+ "sources_t": "2026-11-25T12:54:30Z",
  "actus_tendance": [
-  {
-   "sujet": "AI",
-   "mentions": 8,
-   "sentiment": "bearish",
-   "titres": [
-    "HyroTrader Adds Hyro Core From $9 and No-Evaluation Hyro Instant to Rebuilt Crypto Prop Platform",
-    "EU Admits AI Cyberattack Leaked Users' Personal Data"
-   ]
-  },
   {
    "sujet": "Bitcoin",
    "mentions": 7,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin's Roadmap to 42K (8H)",
-    "UniCredit offers bitcoin exposure to Italian retail clients with capital protection at maturity"
+    "BTC: 72K zone failed, now 35% below mining cost",
+    "Bitcoin's Roadmap to 42K (8H)"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 6,
+   "sentiment": "bearish",
+   "titres": [
+    "Wharton survey shows 62% of US managers use AI daily, and most now spend their time checking its work",
+    "Coinbase CEO 喊多 COIN 遭網友反嗆：先取消 817 萬股預排出售計畫再說"
    ]
   },
   {
@@ -301,25 +301,25 @@
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Tether Freezes USDT in Minutes, but Recovery Can Cost Victims 20%",
-    "SBI, SMBC and Solana Foundation unite to develop stablecoin payments and tokenized investment products"
+    "European Banking Authority flags stablecoin risks in DeFi, urges EU action",
+    "Tether Freezes USDT in Minutes, but Recovery Can Cost Victims 20%"
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 2,
+   "sujet": "ETF",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "SBI, SMBC and Solana Foundation unite to develop stablecoin payments and tokenized investment products",
-    "Zcash supply on Solana hits all-time high of 110,221 ZEC"
+    "Overlay Shares Short Term Bond ETF declares $0.1179 dividend",
+    "Overlay Shares Foreign Equity ETF declares $0.2442 dividend"
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bithumb confirms additional personal data exposed in October breach"
+    "⛽ ETH Gas: 🐢 0.155398557 | 🚶 0.155498557 | 🚀 0.171048412 Gwei"
    ]
   },
   {
@@ -327,7 +327,23 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Zcash supply on Solana hits all-time high of 110,221 ZEC"
+    "European Banking Authority flags stablecoin risks in DeFi, urges EU action"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "European Banking Authority flags stablecoin risks in DeFi, urges EU action"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Coinbase CEO 喊多 COIN 遭網友反嗆：先取消 817 萬股預排出售計畫再說"
    ]
   }
  ],
