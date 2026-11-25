@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T18:29:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 550.0578203108638,
+   "dernier_prix": 550.9888188804313,
    "atr": 2.771652,
    "rollover": 0.6932049627034734,
    "rollover_periodes": 36
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T18:29:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.40484233721533,
+   "dernier_prix": 93.40969515970427,
    "atr": 1.08547,
    "rollover": 0.549839566936002,
    "rollover_periodes": 36
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T18:29:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 572.867250029593,
+   "dernier_prix": 572.6772771970718,
    "atr": 3.304099,
    "rollover": 0.6925005647711263,
    "rollover_periodes": 36
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T18:29:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.214e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T18:29:00Z",
+   "verifie_jusqu_a": "2026-11-25T18:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54303.3,
+   "dernier_prix": 54237.0,
    "atr": 640.9446,
    "rollover": 0.1749570671378219,
    "rollover_periodes": 10
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T18:29:22Z",
+ "maj": "2026-11-25T18:30:20Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -291,77 +291,57 @@
   }
  },
  "buzz_t": "2026-11-25T18:27:25Z",
- "sources_t": "2026-11-25T18:09:47Z",
+ "sources_t": "2026-11-25T18:30:19Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 12,
-   "sentiment": "bearish",
+   "mentions": 6,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin Remains Under Pressure Below 60k",
-    "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%"
+    "Galaxy Research retracts October call, withdraws “bear market over” verdict",
+    "Bitcoin gains $2,500 in 3 hours, reclaims $59,500"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 7,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "Prediction markets push OpenAI IPO expectations to 2027",
-    "OpenAI tests Private Inference with select customers"
+    "Elon Musk’s SpaceX Gets FCC Approval to Launch AI Data Centers in Space",
+    "FCC Clears Musk's Million-Satellite AI Empire In Heavens As Dems Signal Moratoriums On Earth"
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "Binance",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "SBI Solana Global Puts a Japanese Megabank On-Chain",
-    "SOL Look Bullish In Hourly Time Frame (2H)"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "SBI Solana Global Puts a Japanese Megabank On-Chain",
-    "USDT and USDC control 86.5% of the $281.3 billion stablecoin market"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Ripple Lands Major Turkish Bank Deal, Points to Widespread XRP Holdings",
-    "Ripple Signs Another Top Turkish Bank as Custody Race Heats Up"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "US data center boom fuels surge in natural-gas power plant development",
-    "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF"
+    "#MANTAUSDT #8h (Binance) Broadening wedge on support [LONG]",
+    "Chainlink price prediction 2026–2032: Can LINK reclaim $50?"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF",
-    "Bitcoin stuck below $60,000 as inflation picks up, ETF outflows near $5 billion"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Market Structure Break: A Record, Not an Order (BTCUSD 4H)"
+    "Bitcoin gains $2,500 in 3 hours, reclaims $59,500"
+   ]
+  },
+  {
+   "sujet": "Chainlink",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Chainlink price prediction 2026–2032: Can LINK reclaim $50?"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "US stocks movement: TMC the metals surges on November 25 due to insider buying and deep-sea mining."
    ]
   }
  ],
