@@ -1,6 +1,6 @@
 {
- "t": "2026-11-25T03:55:22Z",
- "nb_analyses": 606,
+ "t": "2026-11-25T04:01:15Z",
+ "nb_analyses": 605,
  "nb_en_mouvement": 2,
  "tendance": [
   "AAPL",
@@ -125,31 +125,25 @@
  },
  "candidats": [
   {
-   "sym": "DRV",
-   "pair": "DRVEUR",
+   "sym": "PROS",
+   "pair": "PROSEUR",
    "action": false,
-   "variation_24h_pct": 4.79,
-   "volume_24h_eur": 52911.71,
-   "spread_pct": 0.2321,
-   "tendance": true,
-   "impulsion": {
-    "sens": "short",
-    "mouvement_pct": -2.51,
-    "volume_x": 3.5
-   }
+   "variation_24h_pct": -5.04,
+   "volume_24h_eur": 150566.59,
+   "spread_pct": 0.2746,
+   "tendance": false,
+   "impulsion": null
   },
   {
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": -2.59,
-   "volume_24h_eur": 541398.95,
-   "spread_pct": 0.0275,
+   "volume_24h_eur": 541483.06,
+   "spread_pct": 0.0367,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": [
-  "DRV"
- ]
+ "ajoutes": []
 }
