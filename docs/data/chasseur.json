@@ -1,46 +1,46 @@
 {
- "t": "2026-11-25T01:11:39Z",
- "nb_analyses": 606,
+ "t": "2026-11-25T01:17:37Z",
+ "nb_analyses": 603,
  "nb_en_mouvement": 1,
  "tendance": [
   "AAPL",
   "AMBA",
   "ANF",
-  "BBIO",
+  "AVGO",
   "BTC",
   "CC",
   "CMPS",
-  "COGT",
   "DELL",
   "DKS",
   "DRV",
   "ETH",
   "GEOD",
+  "HPE",
   "HYPE",
-  "IBB",
   "INFQ",
   "INSM",
   "KSS",
   "MON",
+  "MSTR",
   "PEAQ",
   "PEARL",
   "PENGU",
   "QNT",
   "SKY",
-  "SNDK",
   "SOL",
   "SPCX",
   "SUI",
   "TGTX",
   "WDAY",
-  "XRP",
-  "XRPN"
+  "WFC",
+  "XBI",
+  "XRP"
  ],
  "buzz_reseaux": {
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 132,
-   "x_vs_hier": 7.3
+   "mentions": 134,
+   "x_vs_hier": 7.4
   },
   "AAPL": {
    "source": "Reddit",
@@ -50,14 +50,9 @@
   "SPCX": {
    "source": "Reddit",
    "mentions": 52,
-   "x_vs_hier": 2.5
+   "x_vs_hier": 2.4
   },
   "AMBA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "INFQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -67,7 +62,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "INSM": {
+  "INFQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -82,7 +77,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "INSM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MSTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "CMPS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -92,32 +102,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BBIO": {
+  "WFC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XRPN": {
+  "HPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNDK": {
+  "XBI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "TGTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "COGT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -130,7 +130,7 @@
    "action": false,
    "variation_24h_pct": -8.53,
    "volume_24h_eur": 40011.66,
-   "spread_pct": 0.3182,
+   "spread_pct": 0.3695,
    "tendance": false,
    "impulsion": null
   }
