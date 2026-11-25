@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T21:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 554.322067884356,
+   "dernier_prix": 554.271549131473,
    "atr": 2.771652,
    "rollover": 0.7124606561119032,
    "rollover_periodes": 37
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T21:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 94.96335994750082,
+   "dernier_prix": 94.95470535698011,
    "atr": 1.08547,
    "rollover": 0.5651128882397798,
    "rollover_periodes": 37
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T21:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 577.9649276313392,
+   "dernier_prix": 577.4930280881468,
    "atr": 3.304099,
    "rollover": 0.7117366915703243,
    "rollover_periodes": 37
@@ -92,10 +92,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T21:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.269e-06,
+   "dernier_prix": 3.268e-06,
    "atr": 3.3103e-08,
    "rollover": 0.06285021725782505,
    "rollover_periodes": 11
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T21:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54912.0,
+   "dernier_prix": 54969.2,
    "atr": 640.9446,
    "rollover": 0.1924527738516041,
    "rollover_periodes": 11
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T21:32:22Z",
+ "maj": "2026-11-25T21:34:22Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -159,7 +159,7 @@
   "2026-11-25": 501.54
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-25T21:28:27Z",
+ "chasseur_t": "2026-11-25T21:34:17Z",
  "tendance": [
   "NPS",
   "PENGU",
@@ -286,65 +286,78 @@
   }
  },
  "buzz_t": "2026-11-25T21:22:40Z",
- "sources_t": "2026-11-25T21:13:44Z",
+ "sources_t": "2026-11-25T21:34:21Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "bearish",
-   "titres": [
-    "Solo miner claims 3.178 BTC block reward using an Avalon Nano 3S",
-    "Another Bitcoin Mining Firm Flags 'Hashrate Hijacking' Attacks That Reroute Rewards"
-   ]
-  },
-  {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 14,
    "sentiment": "bearish",
    "titres": [
-    "Claude Fable 5.2 tops new FrontierPhysics benchmark for AI research agents",
-    "Schumer accuses Nvidia’s Huang of violating US export laws with China chip sales"
+    "PIEVERSE — Key Market Structure and Potential Breakout Zones",
+    "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Taylor Monahan says chasing North Korea’s Binance loot is no longer worth it",
-    "Taylor Monahan Says Chasing North Korea’s $6.4 Billion Binance Loot Is No Longer Worth It"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Taylor Monahan says chasing North Korea’s Binance loot is no longer worth it"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
+   "sujet": "Bitcoin",
+   "mentions": 14,
    "sentiment": "bearish",
    "titres": [
-    "What Is Artex? The AI Hacking Tool Linked to the US Spy Agency Breach"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Pendle price prediction 2026-2032: Is PENDLE a good investment?"
+    "BTCUSD: $93,000 can come earlier than most expect.",
+    "Why ECB collateral eligibility could boost demand for tokenized bonds"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 1,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Argentine App Lemon Says Tether Deal Is Worth $14.5 Million, Mostly Product Incentives"
+    "CFG/USDT: +150% Mean-Reversion Squeeze Setup",
+    "AT/USDT: +163% Oversold Mean-Reversion Squeeze Setup"
+   ]
+  },
+  {
+   "sujet": "Chainlink",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Chainlink connects banks to Swift’s blockchain ledger for 24/7 payments",
+    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 3,
+   "sentiment": "bullish",
+   "titres": [
+    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
+    "CoinShares flags $20 billion AI ETF haul as Bitcoin funds draw almost nothing"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "The 1Password Breach Didn’t Touch Your Vault. The Phishing Emails Might",
+    "What Is Artex? The AI Hacking Tool Linked to the US Spy Agency Breach"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "Taylor Monahan says chasing North Korea’s Binance loot is no longer worth it",
+    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
+    "Fidelity files for spot Chainlink ETF with proposed FLNK ticker"
    ]
   }
  ],
