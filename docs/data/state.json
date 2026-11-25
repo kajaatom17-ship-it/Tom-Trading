@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T21:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 554.266497762629,
+   "dernier_prix": 554.2614464858559,
    "atr": 2.771652,
    "rollover": 0.7124606561119032,
    "rollover_periodes": 37
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T21:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 94.95383998468928,
+   "dernier_prix": 94.95297462817148,
    "atr": 1.08547,
    "rollover": 0.5651128882397798,
    "rollover_periodes": 37
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T21:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 576.8953858211744,
+   "dernier_prix": 575.5322251385243,
    "atr": 3.304099,
    "rollover": 0.7117366915703243,
    "rollover_periodes": 37
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T21:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.269e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T21:53:00Z",
+   "verifie_jusqu_a": "2026-11-25T21:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54890.9,
+   "dernier_prix": 54868.1,
    "atr": 640.9446,
    "rollover": 0.1924527738516041,
    "rollover_periodes": 11
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T21:53:40Z",
+ "maj": "2026-11-25T21:54:37Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -291,78 +291,49 @@
   }
  },
  "buzz_t": "2026-11-25T21:40:04Z",
- "sources_t": "2026-11-25T21:34:21Z",
+ "sources_t": "2026-11-25T21:54:36Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 14,
-   "sentiment": "bearish",
+   "mentions": 7,
+   "sentiment": "neutral",
    "titres": [
-    "PIEVERSE — Key Market Structure and Potential Breakout Zones",
-    "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price"
+    "OpenAI tests private inference feature with select customers",
+    "US stocks fall further as fears over AI intensify"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 14,
-   "sentiment": "bearish",
+   "mentions": 5,
+   "sentiment": "neutral",
    "titres": [
-    "BTCUSD: $93,000 can come earlier than most expect.",
-    "Why ECB collateral eligibility could boost demand for tokenized bonds"
+    "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites",
+    "Braiins says attacker hijacked hashrate at 1,000+ sites"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "CFG/USDT: +150% Mean-Reversion Squeeze Setup",
-    "AT/USDT: +163% Oversold Mean-Reversion Squeeze Setup"
+    "Tether Expands Latin American Push With Investment in Argentine Fintech Lemon",
+    "CFG/USDT: +150% Mean-Reversion Squeeze Setup"
    ]
   },
   {
-   "sujet": "Chainlink",
-   "mentions": 3,
+   "sujet": "Solana",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Chainlink connects banks to Swift’s blockchain ledger for 24/7 payments",
-    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "bullish",
-   "titres": [
-    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
-    "CoinShares flags $20 billion AI ETF haul as Bitcoin funds draw almost nothing"
+    "SOLUSDT Update 2: $65 support decides the breakdown"
    ]
   },
   {
    "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "bearish",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "The 1Password Breach Didn’t Touch Your Vault. The Phishing Emails Might",
-    "What Is Artex? The AI Hacking Tool Linked to the US Spy Agency Breach"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "Taylor Monahan says chasing North Korea’s Binance loot is no longer worth it",
-    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
-    "Fidelity files for spot Chainlink ETF with proposed FLNK ticker"
+    "The 1Password Breach Didn’t Touch Your Vault. The Phishing Emails Might"
    ]
   }
  ],
