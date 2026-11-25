@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T03:23:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 533.6742614492489,
+   "dernier_prix": 533.6401490247644,
    "atr": 2.771652,
    "rollover": 0.6161821890697542,
    "rollover_periodes": 32
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T03:23:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 92.56198347107437,
+   "dernier_prix": 92.55606691504127,
    "atr": 1.08547,
    "rollover": 0.48874628172089085,
    "rollover_periodes": 32
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T03:23:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 577.0786722067485,
+   "dernier_prix": 577.0417853751186,
    "atr": 3.304099,
    "rollover": 0.6155560575743345,
    "rollover_periodes": 32
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T03:23:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.205e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T03:23:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54298.4,
+   "dernier_prix": 54286.5,
    "atr": 640.9446,
    "rollover": 0.1224699469964753,
    "rollover_periodes": 7
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T03:23:17Z",
+ "maj": "2026-11-25T03:25:23Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -159,7 +159,7 @@
   "2026-11-25": 501.54
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-25T03:19:23Z",
+ "chasseur_t": "2026-11-25T03:25:21Z",
  "tendance": [
   "BTC",
   "PEARL",
@@ -266,7 +266,7 @@
   }
  },
  "buzz_t": "2026-11-25T03:19:24Z",
- "sources_t": "2026-11-25T03:05:31Z",
+ "sources_t": "2026-11-25T03:25:22Z",
  "actus_tendance": [
   {
    "sujet": "AI",
@@ -278,30 +278,28 @@
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 4,
+   "sujet": "Ethereum",
+   "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "The CFTC opens the door to Bitcoin reserves at US exchanges with a 20% catch",
-    "50x on SOL: 7 in 10 entries liquidated within a day"
+    "ETH/USD: Bearish BoS Keeps Pressure On, 1,538 Swing Low Next Tes",
+    "Ethereum Tests $1,650 — Can Buyers Preserve the Recovery?"
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Solana 4H Update: 70 Lost After Nvidia Fade, 64.87 Back in Play",
-    "50x on SOL: 7 in 10 entries liquidated within a day"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 2,
+   "sujet": "Binance",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "加密金流露餡！Europol 聯手幣安、Coinbase 抄掉 57 個盜版串流",
-    "数据：Uniswap 生态相关实体疑似抛售 61.2 万枚 UNI，时隔 14 天向 Coinbase 充值价值 288 万美元 UNI"
+    "BTCUSDT – Bearish Momentum Remains Intact"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "The CFTC opens the door to Bitcoin reserves at US exchanges with a 20% catch"
    ]
   },
   {
@@ -329,11 +327,11 @@
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Solana",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Liquity V2 ETH 分支抵押率降至约 149%，触发安全模式"
+    "Solana 4H Update: 70 Lost After Nvidia Fade, 64.87 Back in Play"
    ]
   }
  ],
