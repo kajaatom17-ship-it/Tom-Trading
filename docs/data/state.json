@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T05:43:00Z",
+   "verifie_jusqu_a": "2026-11-25T05:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 533.285199875706,
+   "dernier_prix": 533.2900737545353,
    "atr": 2.771652,
    "rollover": 0.635437882478184,
    "rollover_periodes": 33
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T05:43:00Z",
+   "verifie_jusqu_a": "2026-11-25T05:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 92.38882085214499,
+   "dernier_prix": 92.38966522569619,
    "atr": 1.08547,
    "rollover": 0.5040196030246686,
    "rollover_periodes": 33
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T05:43:00Z",
+   "verifie_jusqu_a": "2026-11-25T05:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 575.7370816501856,
+   "dernier_prix": 575.7423435115202,
    "atr": 3.304099,
    "rollover": 0.6347921843735325,
    "rollover_periodes": 33
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T05:43:00Z",
+   "verifie_jusqu_a": "2026-11-25T05:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.211e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T05:43:00Z",
+   "verifie_jusqu_a": "2026-11-25T05:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53875.2,
+   "dernier_prix": 53883.1,
    "atr": 640.9446,
    "rollover": 0.1224699469964753,
    "rollover_periodes": 7
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T05:43:55Z",
+ "maj": "2026-11-25T05:44:53Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -271,24 +271,33 @@
   }
  },
  "buzz_t": "2026-11-25T05:42:51Z",
- "sources_t": "2026-11-25T05:25:07Z",
+ "sources_t": "2026-11-25T05:44:52Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
+   "mentions": 12,
    "sentiment": "neutral",
    "titres": [
-    "How much risk is really in our BTC purchase with a loan",
-    "We bought BTC at half price with a small loan: the plan"
+    "Researchers find a way to make Bitcoin bridges dramatically cheaper to test",
+    "Over 2,200 Institutions Held $29.8B in Bitcoin ETFs, Advisers Led"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "OpenClaw’s ShellBench finds top AI agents still fail about 4 in 10 everyday tasks",
-    "OpenAI offers AI coaches up to $8,000 a month under OpenWorks but leaves payment terms unclear"
+    "South Africa's President Pledges To Spend Millions On AI Development",
+    "Bitcoin Miner Turned AI Landlord TeraWulf Says Selloff Hits Price, Not Demand"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Over 2,200 Institutions Held $29.8B in Bitcoin ETFs, Advisers Led",
+    "比特币现货 ETF 昨日总净流出 2.31 亿美元，贝莱德 IBIT 净流出 1.75 亿美元居首"
    ]
   },
   {
@@ -296,8 +305,16 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "BlackRock Science and Technology Term Trust declares $0.8438 special dividend",
-    "BlackRock Science & Technology Trust declares $2.3618 special dividend"
+    "BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break?",
+    "比特币现货 ETF 昨日总净流出 2.31 亿美元，贝莱德 IBIT 净流出 1.75 亿美元居首"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "HOW-TO: Read BTC with Whale Hunter - From the $126K Top to Now"
    ]
   },
   {
