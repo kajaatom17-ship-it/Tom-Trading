@@ -1600,17 +1600,17 @@
  ],
  "alertes": [
   {
+   "sym": "INTC",
+   "horizon": "15 min",
+   "variation_pct": 1.57,
+   "prix": 47.397896462231934,
+   "t": "2026-11-25T17:52:21Z"
+  },
+  {
    "sym": "MON",
    "horizon": "15 min",
    "variation_pct": 3.47,
    "prix": 0.01072,
-   "t": "2026-11-25T17:50:19Z"
-  },
-  {
-   "sym": "INTC",
-   "horizon": "15 min",
-   "variation_pct": 1.57,
-   "prix": 47.39401223776223,
    "t": "2026-11-25T17:50:19Z"
   },
   {
@@ -1859,5 +1859,5 @@
  "erreurs_sources": [
   "Google (crypto market): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-25T17:50:19Z"
+ "t": "2026-11-25T17:52:21Z"
 }
