@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-24T10:06:33Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 21 signal(aux) : NEAR short (SWG-1, 80), OP short (SWG-1, 80), MSFT short (SWG-1, 70)"
- },
- {
   "t": "2026-11-24T10:07:34Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -3028,5 +3022,17 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "MON +3.2 % en 15 min"
+ },
+ {
+  "t": "2026-11-25T13:49:49Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, banque centrale] Bitcoin slides toward worst month since 2022 as ETF outflows, Fed hike bets bite (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/cryptocurrency-news/bitcoin-extends-losses-below-59000-as-etf-outflows-weigh-5049793",
+   "actifs": [
+    "BTC"
+   ]
+  }
  }
 ]
