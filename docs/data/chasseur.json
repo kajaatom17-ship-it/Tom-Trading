@@ -1,21 +1,21 @@
 {
- "t": "2026-11-25T03:13:28Z",
+ "t": "2026-11-25T03:19:26Z",
  "nb_analyses": 606,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AAPL",
   "AAVE",
   "AMBA",
-  "ASTS",
   "AVGO",
   "BTC",
   "DELL",
   "DKS",
+  "HPE",
   "HYPE",
-  "INFQ",
   "KAS",
   "KITE",
   "KSS",
+  "LU",
   "LUNC",
   "MON",
   "MSTR",
@@ -24,22 +24,22 @@
   "PEAQ",
   "PEARL",
   "PENGU",
-  "QUANT",
   "SEI",
   "SNDK",
+  "SNDQ",
   "SOXL",
   "SPCX",
-  "STUDY",
   "SUI",
   "TAO",
   "TGTX",
+  "TSM",
   "VVV",
   "ZRO"
  ],
  "buzz_reseaux": {
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 145,
+   "mentions": 146,
    "x_vs_hier": 8.1
   },
   "AAPL": {
@@ -55,7 +55,7 @@
   "SPCX": {
    "source": "Reddit",
    "mentions": 49,
-   "x_vs_hier": 2.3
+   "x_vs_hier": 2.1
   },
   "SOXL": {
    "source": "StockTwits",
@@ -67,7 +67,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMBA": {
+  "MU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -77,12 +77,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TGTX": {
+  "AMBA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DKS": {
+  "TGTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -92,17 +92,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ASTS": {
+  "DKS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "INFQ": {
+  "TSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MU": {
+  "LU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HPE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -112,12 +117,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "QUANT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "STUDY": {
+  "SNDQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -125,11 +125,21 @@
  },
  "candidats": [
   {
+   "sym": "BLUR",
+   "pair": "BLUREUR",
+   "action": false,
+   "variation_24h_pct": 5.62,
+   "volume_24h_eur": 40009.01,
+   "spread_pct": 0.2418,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": -2.59,
-   "volume_24h_eur": 541825.17,
+   "volume_24h_eur": 541234.37,
    "spread_pct": 0.0367,
    "tendance": false,
    "impulsion": null
