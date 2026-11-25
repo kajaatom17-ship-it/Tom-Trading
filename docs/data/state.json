@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T13:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 526.0083372947672,
+   "dernier_prix": 525.6860271668587,
    "atr": 2.771652,
    "rollover": 0.6739492692950436,
    "rollover_periodes": 35
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T13:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 90.3755439353494,
+   "dernier_prix": 90.36728276568128,
    "atr": 1.08547,
    "rollover": 0.5345662456322242,
    "rollover_periodes": 35
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T13:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 565.1168318279884,
+   "dernier_prix": 565.0651748660853,
    "atr": 3.304099,
    "rollover": 0.6732644379719284,
    "rollover_periodes": 35
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T13:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.136e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T13:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T13:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53084.7,
+   "dernier_prix": 53082.0,
    "atr": 640.9446,
    "rollover": 0.1574613604240397,
    "rollover_periodes": 9
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T13:52:51Z",
+ "maj": "2026-11-25T13:53:49Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -276,76 +276,75 @@
   }
  },
  "buzz_t": "2026-11-25T13:39:55Z",
- "sources_t": "2026-11-25T13:34:03Z",
+ "sources_t": "2026-11-25T13:53:48Z",
  "actus_tendance": [
+  {
+   "sujet": "AI",
+   "mentions": 6,
+   "sentiment": "neutral",
+   "titres": [
+    "OpenAI’s AI agents accessed US Census Bureau data using exposed credentials",
+    "Pimloc sees surge in demand for video anonymization amid AI scrutiny"
+   ]
+  },
   {
    "sujet": "Bitcoin",
    "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "Here’s what happened in crypto today",
-    "Keeping an eye on a Wyckoff accumilation for BTC"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "bullish",
-   "titres": [
-    "Franklin Templeton adds Hyperliquid’s HYPE token to its crypto index ETF",
-    "Infrastructure Capital Bond Income ETF raises monthly dividend by 0.7% to  $0.3425 /share"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Federal Reserve warns AI infrastructure debt tops $680 billion",
-    "Fed warns of $680B AI infrastructure debt risk to financial stability"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Bit Digital sells 29,825 ETH to halve Galaxy debt",
-    "Ethereum Foundation Says AI-Driven Crypto Upgrades Take Priority Over Quantum Threats"
+    "BTC/USD – Bearish Continuation Setup",
+    "Bitcoin trades at $58,500 as on-chain indicators signal a market reset"
    ]
   },
   {
    "sujet": "SEC/Regulation",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "Here’s what happened in crypto today",
-    "Nvidia faces scrutiny over chip smuggling allegations tied to Megaspeed"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance Co-CEOs Address $6.34B Hack: Fake Job Interviews, Wallet Exploit, and Recovery Efforts",
-    "Nvidia faces scrutiny over chip smuggling allegations tied to Megaspeed"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
+    "Pimloc sees surge in demand for video anonymization amid AI scrutiny",
     "Here’s what happened in crypto today"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "DeFi",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "PancakeSwap warns users of fake Android and iPhone apps",
+    "Here’s what happened in crypto today"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin trades at $58,500 as on-chain indicators signal a market reset",
+    "Franklin Templeton adds HYPE to crypto index ETF starting Dec. 1"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Turkey’s top private bank selects Ripple as custody partner"
+    "Morning Minute: Ethereum Focuses on Security As AI Threats Rise"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "bullish",
+   "titres": [
+    "Japan’s $2.3T Financial Giants SBI, SMFG Launch Solana Venture"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "bullish",
+   "titres": [
+    "Japan’s $2.3T Financial Giants SBI, SMFG Launch Solana Venture"
    ]
   }
  ],
