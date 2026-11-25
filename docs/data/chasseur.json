@@ -1,46 +1,46 @@
 {
- "t": "2026-11-25T05:36:59Z",
+ "t": "2026-11-25T05:42:53Z",
  "nb_analyses": 606,
  "nb_en_mouvement": 2,
  "tendance": [
   "AAPL",
   "AMBA",
-  "AMZN",
+  "AMD",
+  "AVAX",
+  "BE",
   "BIGTIME",
   "BTC",
   "COHR",
   "CRCL",
-  "DE",
+  "CRWD",
   "DELL",
   "DRAM",
-  "DRV",
-  "ETH",
   "HYPE",
   "IBB",
-  "JUP",
+  "LIT",
   "LKNCY",
   "MLTX",
   "MON",
   "MU",
-  "MUU",
-  "NEAR",
+  "ONDO",
   "PEARL",
   "PENGU",
-  "PIEVERSE",
-  "RAY",
-  "SKY",
+  "PUMP",
   "SNDK",
   "SOL",
+  "SONY",
   "SOXL",
+  "SOXX",
   "SPCX",
   "TAO",
-  "VTI",
-  "ZEC"
+  "VVV",
+  "ZEC",
+  "ZRO"
  ],
  "buzz_reseaux": {
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 147,
+   "mentions": 146,
    "x_vs_hier": 7.3
   },
   "AAPL": {
@@ -55,7 +55,7 @@
   },
   "SPCX": {
    "source": "Reddit",
-   "mentions": 48,
+   "mentions": 47,
    "x_vs_hier": 2.1
   },
   "AMBA": {
@@ -68,7 +68,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DE": {
+  "IBB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRWD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -83,7 +88,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRCL": {
+  "SONY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AMD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOXX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -93,7 +113,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBB": {
+  "SOXL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -103,27 +123,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOXL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VTI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MUU": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AMZN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NEAR": {
+  "CRCL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -134,9 +134,9 @@
    "sym": "MOODENG",
    "pair": "MOODENGEUR",
    "action": false,
-   "variation_24h_pct": 6.75,
-   "volume_24h_eur": 177199.89,
-   "spread_pct": 0.2108,
+   "variation_24h_pct": 6.12,
+   "volume_24h_eur": 177156.55,
+   "spread_pct": 0.2969,
    "tendance": false,
    "impulsion": null
   },
@@ -145,8 +145,8 @@
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": -2.98,
-   "volume_24h_eur": 541455.07,
-   "spread_pct": 0.0276,
+   "volume_24h_eur": 541509.51,
+   "spread_pct": 0.0368,
    "tendance": false,
    "impulsion": null
   }
