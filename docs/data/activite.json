@@ -1,29 +1,5 @@
 [
  {
-  "t": "2026-11-24T16:11:12Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "INX +2.95 % en 15 min"
- },
- {
-  "t": "2026-11-24T16:14:15Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "608 actifs hors univers analysés, 34 en mouvement : ANT -12.6 %, PROS +14.4 %, SNDK -12.4 %."
- },
- {
-  "t": "2026-11-24T16:14:35Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] Amazon says AI agents found and exploited a zero-day with almost no human help - Crypto Briefing (Crypto Briefing)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BeTE3d2t0S1VHV1lxZ2NoQmw3M0JtUlJoMUo2OTlLVW5kb1ktWVliMGcyZXVLM2ZYQXNXeWpfZ0dfWXlSQmd2YzdwUm1Bd3c1Y2xaMGFBWWMzVmxncVZ5bUV0YzJSeC12S3lvNEV3?oc=5",
-   "actifs": [
-    "AMZN"
-   ]
-  }
- },
- {
   "t": "2026-11-24T16:14:35Z",
   "agent": "Veille",
   "type": "actu",
@@ -2993,5 +2969,23 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "AMZN -1.71 % en 15 min"
+ },
+ {
+  "t": "2026-11-25T14:51:35Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PEI, NPS, BTC, VAR, PEARL, SOL, MON, PENGU"
+ },
+ {
+  "t": "2026-11-25T14:51:35Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, AMBA, DE, DELL, DIA, DRAM, GOOG, HBAR, HPQ, MSFT, MSTR, MU"
+ },
+ {
+  "t": "2026-11-25T14:51:40Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "604 actifs hors univers analysés, 18 en mouvement : ZEC -7.3 %, MOODENG +8.7 %, SKHY -8.1 %."
  }
 ]
