@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T23:56:00Z",
+   "verifie_jusqu_a": "2026-11-25T23:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 554.9122934976842,
+   "dernier_prix": 554.9224120639668,
    "atr": 2.771652,
    "rollover": 0.7124606561119032,
    "rollover_periodes": 37
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T23:56:00Z",
+   "verifie_jusqu_a": "2026-11-25T23:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.88742204879472,
+   "dernier_prix": 96.8891887456465,
    "atr": 1.08547,
    "rollover": 0.5651128882397798,
    "rollover_periodes": 37
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T23:56:00Z",
+   "verifie_jusqu_a": "2026-11-25T23:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 579.2184821851864,
+   "dernier_prix": 579.229043963458,
    "atr": 3.304099,
    "rollover": 0.7117366915703243,
    "rollover_periodes": 37
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T23:56:00Z",
+   "verifie_jusqu_a": "2026-11-25T23:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.271e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T23:56:00Z",
+   "verifie_jusqu_a": "2026-11-25T23:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55107.9,
+   "dernier_prix": 55086.7,
    "atr": 640.9446,
    "rollover": 0.2099484805653863,
    "rollover_periodes": 12
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T23:56:29Z",
+ "maj": "2026-11-25T23:57:29Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -302,8 +302,17 @@
   }
  },
  "buzz_t": "2026-11-25T23:43:01Z",
- "sources_t": "2026-11-25T23:37:02Z",
+ "sources_t": "2026-11-25T23:57:28Z",
  "actus_tendance": [
+  {
+   "sujet": "AI",
+   "mentions": 5,
+   "sentiment": "neutral",
+   "titres": [
+    "GDS Holdings tops expectations with Q3 revenue of about $477 million as AI bookings climb",
+    "Our Rate-Hike Economy: Sizzling Private-Sector Economic Growth, Hot Inflation."
+   ]
+  },
   {
    "sujet": "SEC/Regulation",
    "mentions": 5,
@@ -315,20 +324,11 @@
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 5,
-   "sentiment": "neutral",
-   "titres": [
-    "Samson Mow Pitches Himself for NVIDIA Board in Bitcoin Meme Campaign",
-    "How One Brewer Turned Bitcoin Into a Taproom"
-   ]
-  },
-  {
-   "sujet": "AI",
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Our Rate-Hike Economy: Sizzling Private-Sector Economic Growth, Hot Inflation.",
-    "Anthropic brings Skills over MCP to Claude and Claude Code in public beta"
+    "Top 7 Signs to Watch That Could Signal a Bitcoin Price Reversal",
+    "Samson Mow Pitches Himself for NVIDIA Board in Bitcoin Meme Campaign"
    ]
   },
   {
