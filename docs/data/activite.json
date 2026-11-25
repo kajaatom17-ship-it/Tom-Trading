@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-24T16:01:15Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 5 signal(aux) : HOOD short (SWG-1, 80), SPY short (SWG-1, 80), BTC short (SWG-1, 80)"
- },
- {
   "t": "2026-11-24T16:03:17Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2993,5 +2987,11 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "604 actifs hors univers analysés, 17 en mouvement : SKHY -8.2 %, ZEC -6.9 %, MOODENG +8.1 %."
+ },
+ {
+  "t": "2026-11-25T14:40:46Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "HOOD -1.52 % en 15 min"
  }
 ]
