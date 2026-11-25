@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T12:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 530.6982270151709,
+   "dernier_prix": 530.6109395274037,
    "atr": 2.771652,
    "rollover": 0.6546935758866138,
    "rollover_periodes": 34
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T12:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 91.40924876622189,
+   "dernier_prix": 91.39421407554963,
    "atr": 1.08547,
    "rollover": 0.5192929243284464,
    "rollover_periodes": 34
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T12:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 566.048254432462,
+   "dernier_prix": 565.9551526891939,
    "atr": 3.304099,
    "rollover": 0.6540283111727304,
    "rollover_periodes": 34
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T12:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.168e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T12:32:00Z",
+   "verifie_jusqu_a": "2026-11-25T12:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53566.5,
+   "dernier_prix": 53554.8,
    "atr": 640.9446,
    "rollover": 0.1574613604240397,
    "rollover_periodes": 9
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T12:32:40Z",
+ "maj": "2026-11-25T12:34:52Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -159,7 +159,7 @@
   "2026-11-25": 501.54
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-25T12:28:44Z",
+ "chasseur_t": "2026-11-25T12:34:41Z",
  "tendance": [
   "BTC",
   "BIGTIME",
@@ -271,68 +271,50 @@
   }
  },
  "buzz_t": "2026-11-25T12:28:45Z",
- "sources_t": "2026-11-25T12:13:52Z",
+ "sources_t": "2026-11-25T12:34:45Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 9,
-   "sentiment": "neutral",
+   "sujet": "AI",
+   "mentions": 8,
+   "sentiment": "bearish",
    "titres": [
-    "Bitcoin.com Explorer Opens Free MCP Server and API for AI Agents",
-    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs"
+    "HyroTrader Adds Hyro Core From $9 and No-Evaluation Hyro Instant to Rebuilt Crypto Prop Platform",
+    "EU Admits AI Cyberattack Leaked Users' Personal Data"
    ]
   },
   {
-   "sujet": "AI",
+   "sujet": "Bitcoin",
    "mentions": 7,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "OpenAI addresses ChatGPT errors affecting Team, Business and Pro plans",
-    "David Tepper makes Micron his biggest bet as Appaloosa leans into AI chips"
+    "Bitcoin's Roadmap to 42K (8H)",
+    "UniCredit offers bitcoin exposure to Italian retail clients with capital protection at maturity"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 5,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "The history and slow death of Dai",
-    "Japan’s SBI, SMFG launch Solana venture for stablecoins, tokenization"
+    "Tether Freezes USDT in Minutes, but Recovery Can Cost Victims 20%",
+    "SBI, SMBC and Solana Foundation unite to develop stablecoin payments and tokenized investment products"
    ]
   },
   {
    "sujet": "Solana",
-   "mentions": 4,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs",
+    "SBI, SMBC and Solana Foundation unite to develop stablecoin payments and tokenized investment products",
     "Zcash supply on Solana hits all-time high of 110,221 ZEC"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs",
-    "Bit Digital 出售 29,825 枚 ETH 全额用于偿还 Galaxy Digital 贷款"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs",
-    "Hyperliquid Leads Altcoin Losses as Bitcoin Slips Below $59K"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "VanEck is dropping Gemini from nearly $1 billion in Bitcoin, Ethereum and Solana ETFs"
+    "Bithumb confirms additional personal data exposed in October breach"
    ]
   },
   {
