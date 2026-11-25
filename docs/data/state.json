@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T14:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T14:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 523.1782634117819,
+   "dernier_prix": 523.2895987135444,
    "atr": 2.771652,
    "rollover": 0.6739492692950436,
    "rollover_periodes": 35
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T14:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T14:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 87.55116211080251,
+   "dernier_prix": 87.55756158175572,
    "atr": 1.08547,
    "rollover": 0.5345662456322242,
    "rollover_periodes": 35
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T14:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T14:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 558.4892559567314,
+   "dernier_prix": 558.5300782106572,
    "atr": 3.304099,
    "rollover": 0.6732644379719284,
    "rollover_periodes": 35
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T14:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T14:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.119e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T14:52:00Z",
+   "verifie_jusqu_a": "2026-11-25T14:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 52510.3,
+   "dernier_prix": 52447.2,
    "atr": 640.9446,
    "rollover": 0.1574613604240397,
    "rollover_periodes": 9
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T14:52:38Z",
+ "maj": "2026-11-25T14:53:37Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -276,42 +276,33 @@
   }
  },
  "buzz_t": "2026-11-25T14:51:35Z",
- "sources_t": "2026-11-25T14:33:37Z",
+ "sources_t": "2026-11-25T14:53:35Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "OpenAI’s AI agents accessed US Census Bureau data using exposed credentials",
-    "Pimloc sees surge in demand for video anonymization amid AI scrutiny"
+    "Anthropic slips below $1 trillion market cap for the first time since its IPO",
+    "China’s power buildout leaves the U.S. far behind as AI demand surges"
    ]
   },
   {
    "sujet": "Bitcoin",
    "mentions": 6,
-   "sentiment": "bearish",
-   "titres": [
-    "BTC/USD – Bearish Continuation Setup",
-    "Bitcoin trades at $58,500 as on-chain indicators signal a market reset"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "Pimloc sees surge in demand for video anonymization amid AI scrutiny",
-    "Here’s what happened in crypto today"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "PancakeSwap warns users of fake Android and iPhone apps",
-    "Here’s what happened in crypto today"
+    "EBP: Bitcoin checkout you hold the keys to",
+    "Bitcoin price tests $58K floor as $107M liquidated, ETFs bleed cash"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 4,
+   "sentiment": "bullish",
+   "titres": [
+    "Open Standard’s OUSD doubles to a $1 billion market cap in 54 days",
+    "Stable launches Galaxy-curated PYUSD lending vault on Morpho"
    ]
   },
   {
@@ -319,8 +310,17 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin trades at $58,500 as on-chain indicators signal a market reset",
-    "Franklin Templeton adds HYPE to crypto index ETF starting Dec. 1"
+    "Bitcoin price tests $58K floor as $107M liquidated, ETFs bleed cash",
+    "Morgan Stanley lifts Bitcoin ETF holdings to $1.2B and adds Strategy shares"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "Ukraine passes crypto market law, with $332 million revenue target",
+    "New York AG secures $1.37 billion judgment against NovaTechFx founders"
    ]
   },
   {
@@ -328,23 +328,7 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Morning Minute: Ethereum Focuses on Security As AI Threats Rise"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "bullish",
-   "titres": [
-    "Japan’s $2.3T Financial Giants SBI, SMFG Launch Solana Venture"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "bullish",
-   "titres": [
-    "Japan’s $2.3T Financial Giants SBI, SMFG Launch Solana Venture"
+    "Bit Digital repays $50 million to Galaxy after selling 29,825 ETH"
    ]
   }
  ],
