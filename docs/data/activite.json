@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-24T02:03:41Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 5 signal(aux) : MSTR short (SWG-1, 70), BTC short (SWG-1, 70), SOL short (SWG-1, 70)"
- },
- {
-  "t": "2026-11-24T02:04:40Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "604 actifs hors univers analysés, 2 en mouvement : SNDK +5.9 %, DRV -3.1 %."
- },
- {
   "t": "2026-11-24T02:04:40Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2913,5 +2901,17 @@
     "AMZN"
    ]
   }
+ },
+ {
+  "t": "2026-11-25T04:49:11Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, ADBE, AMBA, AMD, COHR, DE, DELL, ETN, GILD, LITE, MLTX, MU"
+ },
+ {
+  "t": "2026-11-25T04:49:14Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "606 actifs hors univers analysés, 2 en mouvement : PROS -5.9 %, SKHY -2.6 %."
  }
 ]
