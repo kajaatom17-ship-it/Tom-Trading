@@ -1,5 +1,5 @@
 {
- "t": "2026-11-25T05:54:49Z",
+ "t": "2026-11-25T06:00:43Z",
  "nb_analyses": 606,
  "nb_en_mouvement": 2,
  "tendance": [
@@ -7,18 +7,17 @@
   "AMBA",
   "AMD",
   "AVAX",
-  "BE",
   "BIGTIME",
+  "BMNR",
   "BTC",
-  "COHR",
   "CRCL",
   "CRWD",
   "DELL",
-  "DRAM",
   "HYPE",
-  "IBB",
+  "JD",
   "LIT",
   "LKNCY",
+  "META",
   "MLTX",
   "MON",
   "MU",
@@ -30,10 +29,10 @@
   "SOL",
   "SONY",
   "SOXL",
-  "SOXX",
   "SPCX",
   "TAO",
   "VVV",
+  "WULF",
   "ZEC",
   "ZRO"
  ],
@@ -50,40 +49,20 @@
   },
   "SNDK": {
    "source": "Reddit",
-   "mentions": 76,
+   "mentions": 77,
    "x_vs_hier": 2.2
   },
   "SPCX": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 47,
    "x_vs_hier": 2.1
   },
-  "AMBA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MLTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRWD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LKNCY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "MU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AMBA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -93,7 +72,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BE": {
+  "SOXL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "META": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BMNR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -103,27 +92,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOXX": {
+  "MLTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "COHR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOXL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DRAM": {
+  "LKNCY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "CRCL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRWD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WULF": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -134,9 +128,9 @@
    "sym": "MOODENG",
    "pair": "MOODENGEUR",
    "action": false,
-   "variation_24h_pct": 6.66,
-   "volume_24h_eur": 178763.86,
-   "spread_pct": 0.211,
+   "variation_24h_pct": 6.3,
+   "volume_24h_eur": 179344.8,
+   "spread_pct": 0.2117,
    "tendance": false,
    "impulsion": null
   },
@@ -145,7 +139,7 @@
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": -2.98,
-   "volume_24h_eur": 541573.85,
+   "volume_24h_eur": 541667.92,
    "spread_pct": 0.046,
    "tendance": false,
    "impulsion": null
