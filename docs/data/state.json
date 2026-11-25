@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 97.29562593204315,
+ "cash": 97.24186079053175,
  "positions": [
   {
    "id": "P0022",
@@ -20,13 +20,13 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T20:51:00Z",
+   "verifie_jusqu_a": "2026-11-25T20:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 551.3923312436216,
+   "dernier_prix": 551.362186788155,
    "atr": 2.771652,
-   "rollover": 0.6932049627034734,
-   "rollover_periodes": 36
+   "rollover": 0.7124606561119032,
+   "rollover_periodes": 37
   },
   {
    "id": "P0023",
@@ -44,13 +44,13 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T20:51:00Z",
+   "verifie_jusqu_a": "2026-11-25T20:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 93.73633182679691,
+   "dernier_prix": 94.39635535307518,
    "atr": 1.08547,
-   "rollover": 0.549839566936002,
-   "rollover_periodes": 36
+   "rollover": 0.5651128882397798,
+   "rollover_periodes": 37
   },
   {
    "id": "P0024",
@@ -68,13 +68,13 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T20:51:00Z",
+   "verifie_jusqu_a": "2026-11-25T20:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 574.6737862662195,
+   "dernier_prix": 574.6423690205012,
    "atr": 3.304099,
-   "rollover": 0.6925005647711263,
-   "rollover_periodes": 36
+   "rollover": 0.7117366915703243,
+   "rollover_periodes": 37
   },
   {
    "id": "P0027",
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T20:51:00Z",
+   "verifie_jusqu_a": "2026-11-25T20:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.249e-06,
@@ -116,16 +116,16 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T20:51:00Z",
+   "verifie_jusqu_a": "2026-11-25T20:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54789.0,
+   "dernier_prix": 54801.4,
    "atr": 640.9446,
    "rollover": 0.1924527738516041,
    "rollover_periodes": 11
   }
  ],
- "frais_cumules": 18.1227314683148,
+ "frais_cumules": 18.176496609826202,
  "pnl_realise": -14.49756920558815,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T20:51:21Z",
+ "maj": "2026-11-25T20:53:24Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -159,7 +159,7 @@
   "2026-11-25": 501.54
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-25T20:47:28Z",
+ "chasseur_t": "2026-11-25T20:53:18Z",
  "tendance": [
   "NPS",
   "PEI",
@@ -296,60 +296,33 @@
   }
  },
  "buzz_t": "2026-11-25T20:47:29Z",
- "sources_t": "2026-11-25T20:32:46Z",
+ "sources_t": "2026-11-25T20:53:23Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 9,
-   "sentiment": "neutral",
-   "titres": [
-    "CoreWeave, Nvidia credit risk hits new highs amid AI debt concerns",
-    "Altman and Wang reject Anthropic's view that humans should defer to AI"
-   ]
-  },
-  {
    "sujet": "Bitcoin",
-   "mentions": 5,
-   "sentiment": "neutral",
+   "mentions": 6,
+   "sentiment": "bearish",
    "titres": [
-    "Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections",
-    "Potential bear flag setup on BTC"
+    "Solo miner claims 3.178 BTC block reward using an Avalon Nano 3S",
+    "Another Bitcoin Mining Firm Flags 'Hashrate Hijacking' Attacks That Reroute Rewards"
    ]
   },
   {
-   "sujet": "Chainlink",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "sujet": "AI",
+   "mentions": 6,
+   "sentiment": "bearish",
    "titres": [
-    "Chainlink connects banks to Swift’s blockchain ledger for 24/7 payments",
-    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing"
+    "Claude Fable 5.2 tops new FrontierPhysics benchmark for AI research agents",
+    "Schumer accuses Nvidia’s Huang of violating US export laws with China chip sales"
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "bullish",
-   "titres": [
-    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
-    "CoinShares flags $20 billion AI ETF haul as Bitcoin funds draw almost nothing"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
+   "sujet": "Binance",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "AT/USDT: +163% Oversold Mean-Reversion Squeeze Setup",
-    "MON/USDT: +200% Post-Unlock Capitulation Squeeze Setup"
-   ]
-  },
-  {
-   "sujet": "Institutions",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing",
-    "Fidelity files for spot Chainlink ETF with proposed FLNK ticker"
+    "Taylor Monahan says chasing North Korea’s Binance loot is no longer worth it",
+    "Taylor Monahan Says Chasing North Korea’s $6.4 Billion Binance Loot Is No Longer Worth It"
    ]
   },
   {
@@ -357,15 +330,31 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Fidelity files for spot Chainlink ETF with planned Nasdaq listing"
+    "Taylor Monahan says chasing North Korea’s Binance loot is no longer worth it"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "What Is Artex? The AI Hacking Tool Linked to the US Spy Agency Breach"
+   ]
+  },
+  {
+   "sujet": "DeFi",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "ETH 1616.68: Entry Points and Market Scenarios"
+    "Pendle price prediction 2026-2032: Is PENDLE a good investment?"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Argentine App Lemon Says Tether Deal Is Worth $14.5 Million, Mostly Product Incentives"
    ]
   }
  ],
