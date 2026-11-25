@@ -1620,6 +1620,13 @@
  ],
  "alertes": [
   {
+   "sym": "MON",
+   "horizon": "15 min",
+   "variation_pct": 3.2,
+   "prix": 0.00935,
+   "t": "2026-11-25T13:47:52Z"
+  },
+  {
    "sym": "AMD",
    "horizon": "15 min",
    "variation_pct": -1.59,
@@ -1669,13 +1676,6 @@
    "t": "2026-11-25T12:18:56Z"
   },
   {
-   "sym": "MON",
-   "horizon": "15 min",
-   "variation_pct": -3.01,
-   "prix": 0.00902,
-   "t": "2026-11-25T10:15:22Z"
-  },
-  {
    "sym": "DRV",
    "horizon": "15 min",
    "variation_pct": -3.42,
@@ -1685,5 +1685,5 @@
  ],
  "t_actus": "2026-11-25T13:40:04Z",
  "erreurs_sources": [],
- "t": "2026-11-25T13:46:55Z"
+ "t": "2026-11-25T13:47:52Z"
 }
