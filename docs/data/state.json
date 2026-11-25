@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T10:50:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 529.7881286218307,
+   "dernier_prix": 529.7300261382953,
    "atr": 2.771652,
    "rollover": 0.6546935758866138,
    "rollover_periodes": 34
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T10:50:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 92.04248395883224,
+   "dernier_prix": 92.03238955199328,
    "atr": 1.08547,
    "rollover": 0.5192929243284464,
    "rollover_periodes": 34
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T10:50:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 569.182677366872,
+   "dernier_prix": 569.1202544371127,
    "atr": 3.304099,
    "rollover": 0.6540283111727304,
    "rollover_periodes": 34
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T10:50:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.173e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T10:50:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:51:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53790.6,
+   "dernier_prix": 53777.7,
    "atr": 640.9446,
    "rollover": 0.1399656537102575,
    "rollover_periodes": 8
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T10:50:51Z",
+ "maj": "2026-11-25T10:51:51Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -276,51 +276,58 @@
   }
  },
  "buzz_t": "2026-11-25T10:41:58Z",
- "sources_t": "2026-11-25T10:32:08Z",
+ "sources_t": "2026-11-25T10:51:49Z",
  "actus_tendance": [
   {
-   "sujet": "Stablecoins",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "Japan’s SBI, SMFG launch Solana joint venture for stablecoin payments and tokenization",
-    "RootData 数据：近 30 天稳定币供应规模减少 182.8 亿美元，其中 USDT 减少 75.1 亿美元"
-   ]
-  },
-  {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "Rival AI leaders challenge Anthropic’s vision of AI-driven life decisions",
-    "AI leaders push back on Anthropic’s idea of handing decisions to superintelligence"
+    "Sequent raises $2.2M pre-seed round, lands Curve as first client",
+    "Wes Moore wants Congress to treat AI oversight as an emergency"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "sujet": "Stablecoins",
+   "mentions": 5,
+   "sentiment": "bearish",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.094897517 | 🚶 0.09490329 | 🚀 0.104393619 Gwei",
-    "Ethereum Foundation researchers pick one hash ‘to rule them all’ for post-quantum upgrade"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Ukraine’s parliament passes crypto legalization bill with 271 votes",
-    "AI leaders push back on Anthropic’s idea of handing decisions to superintelligence"
+    "Tron average transaction fees drop 60% since August 2025 energy price cut",
+    "Abraxas Capital Pulls Its Last Funds From Hyperliquid, Stirring Tether Speculation"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 2,
+   "mentions": 5,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin’s $10,000 Liquidity Trap — More Fakeouts Before the Road",
+    "Bullish Reversal Potential Towards $61,220"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Wes Moore wants Congress to treat AI oversight as an emergency",
+    "Ukraine’s parliament passes crypto legalization bill with 271 votes"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
    "sentiment": "bearish",
    "titres": [
-    "BTCUSDT – Head and Shoulders Pattern | Bearish Outlook",
-    "#BTC How to Read a Falling Wedge"
+    "ETHUSD: Bearish Trend Continues | Relief Bounce Before Potential"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Sequent raises $2.2M pre-seed round, lands Curve as first client"
    ]
   },
   {
@@ -329,22 +336,6 @@
    "sentiment": "neutral",
    "titres": [
     "Japan’s SBI, SMFG launch Solana joint venture for stablecoin payments and tokenization"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance Wallet Launches Gacha for Graded Trading Cards"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Advancecon faces shareholder lawsuit over alleged breaches of agreement, oppression"
    ]
   }
  ],
