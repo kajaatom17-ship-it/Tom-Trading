@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-25T02:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 534.7480832420592,
+   "dernier_prix": 534.8213063124743,
    "atr": 2.771652,
    "rollover": 0.6161821890697542,
    "rollover_periodes": 32
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-25T02:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 92.28733114275283,
+   "dernier_prix": 92.29996804965995,
    "atr": 1.08547,
    "rollover": 0.48874628172089085,
    "rollover_periodes": 32
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-25T02:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 576.4877692588536,
+   "dernier_prix": 576.5667077456753,
    "atr": 3.304099,
    "rollover": 0.6155560575743345,
    "rollover_periodes": 32
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-25T02:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.19e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-25T02:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53931.4,
+   "dernier_prix": 53994.9,
    "atr": 640.9446,
    "rollover": 0.10497424028269312,
    "rollover_periodes": 6
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T02:44:47Z",
+ "maj": "2026-11-25T02:45:48Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -271,24 +271,33 @@
   }
  },
  "buzz_t": "2026-11-25T02:43:43Z",
- "sources_t": "2026-11-25T02:26:02Z",
+ "sources_t": "2026-11-25T02:45:44Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 11,
-   "sentiment": "neutral",
+   "mentions": 9,
+   "sentiment": "bearish",
    "titres": [
-    "News Corp chair calls Australian AI report ‘state-sanctioned theft’",
-    "SoftBank drops 14% as Wall Street AI sell-off ripples across Asian tech names"
+    "AI uses just 1.9 gallons of water for every $25 spent, compared with 308 gallons for almond milk, study finds",
+    "OpenAI preprint claims the matrix multiplication exponent is exactly 9/4"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 3,
    "sentiment": "bearish",
    "titres": [
     "50x on SOL: 7 in 10 entries liquidated within a day",
     "BTC/USDT – Bearish Breakout Alert"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.063581024 | 🚶 0.063681023 | 🚀 0.064581023 Gwei",
+    "Liquity V2 ETH 分支抵押率降至约 149%，触发安全模式"
    ]
   },
   {
@@ -301,12 +310,12 @@
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Coinbase",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "BTC/USDT – Bearish Breakout Alert",
-    "21shares Dissects Bitcoin’s Selling Spiral as the Market Eyes $53K"
+    "加密金流露餡！Europol 聯手幣安、Coinbase 抄掉 57 個盜版串流",
+    "数据：Uniswap 生态相关实体疑似抛售 61.2 万枚 UNI，时隔 14 天向 Coinbase 充值价值 288 万美元 UNI"
    ]
   },
   {
@@ -331,14 +340,6 @@
    "sentiment": "neutral",
    "titres": [
     "Cardano (ADA): Monthly Support Reclaim Sets Up"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Ethereum Foundation Warns AI Threats Outpace Quantum, Doubles Security Team"
    ]
   }
  ],
