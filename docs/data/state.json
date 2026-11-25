@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T10:31:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 530.1690269529465,
+   "dernier_prix": 530.1932477500114,
    "atr": 2.771652,
    "rollover": 0.6546935758866138,
    "rollover_periodes": 34
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T10:31:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 91.81361352215623,
+   "dernier_prix": 91.81780803143131,
    "atr": 1.08547,
    "rollover": 0.5192929243284464,
    "rollover_periodes": 34
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T10:31:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.8533576975788,
+   "dernier_prix": 568.9798528941478,
    "atr": 3.304099,
    "rollover": 0.6540283111727304,
    "rollover_periodes": 34
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T10:31:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.181e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T10:31:00Z",
+   "verifie_jusqu_a": "2026-11-25T10:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53811.7,
+   "dernier_prix": 53834.4,
    "atr": 640.9446,
    "rollover": 0.1399656537102575,
    "rollover_periodes": 8
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T10:31:11Z",
+ "maj": "2026-11-25T10:32:09Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -276,42 +276,59 @@
   }
  },
  "buzz_t": "2026-11-25T10:24:17Z",
- "sources_t": "2026-11-25T10:12:24Z",
+ "sources_t": "2026-11-25T10:32:08Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 12,
+   "sujet": "Stablecoins",
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Researchers find a way to make Bitcoin bridges dramatically cheaper to test",
-    "Over 2,200 Institutions Held $29.8B in Bitcoin ETFs, Advisers Led"
+    "Japan’s SBI, SMFG launch Solana joint venture for stablecoin payments and tokenization",
+    "RootData 数据：近 30 天稳定币供应规模减少 182.8 亿美元，其中 USDT 减少 75.1 亿美元"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "South Africa's President Pledges To Spend Millions On AI Development",
-    "Bitcoin Miner Turned AI Landlord TeraWulf Says Selloff Hits Price, Not Demand"
+    "Rival AI leaders challenge Anthropic’s vision of AI-driven life decisions",
+    "AI leaders push back on Anthropic’s idea of handing decisions to superintelligence"
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "Ethereum",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Over 2,200 Institutions Held $29.8B in Bitcoin ETFs, Advisers Led",
-    "比特币现货 ETF 昨日总净流出 2.31 亿美元，贝莱德 IBIT 净流出 1.75 亿美元居首"
+    "⛽ ETH Gas: 🐢 0.094897517 | 🚶 0.09490329 | 🚀 0.104393619 Gwei",
+    "Ethereum Foundation researchers pick one hash ‘to rule them all’ for post-quantum upgrade"
    ]
   },
   {
-   "sujet": "Institutions",
+   "sujet": "SEC/Regulation",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "BlackRock Says Markets Overprice Fed Hikes: Will Bitcoin Catch a Break?",
-    "比特币现货 ETF 昨日总净流出 2.31 亿美元，贝莱德 IBIT 净流出 1.75 亿美元居首"
+    "Ukraine’s parliament passes crypto legalization bill with 271 votes",
+    "AI leaders push back on Anthropic’s idea of handing decisions to superintelligence"
+   ]
+  },
+  {
+   "sujet": "Bitcoin",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "BTCUSDT – Head and Shoulders Pattern | Bearish Outlook",
+    "#BTC How to Read a Falling Wedge"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Japan’s SBI, SMFG launch Solana joint venture for stablecoin payments and tokenization"
    ]
   },
   {
@@ -319,15 +336,15 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "HOW-TO: Read BTC with Whale Hunter - From the $126K Top to Now"
+    "Binance Wallet Launches Gacha for Graded Trading Cards"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Ethereum Foundation says its quantum-safe overhaul is tougher than the Merge"
+    "Advancecon faces shareholder lawsuit over alleged breaches of agreement, oppression"
    ]
   }
  ],
