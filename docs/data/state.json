@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T17:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 541.376044872612,
+   "dernier_prix": 545.9785290877138,
    "atr": 2.771652,
    "rollover": 0.6932049627034734,
    "rollover_periodes": 36
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T17:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 91.63009233122689,
+   "dernier_prix": 91.62925798785318,
    "atr": 1.08547,
    "rollover": 0.549839566936002,
    "rollover_periodes": 36
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T17:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 568.1557429294677,
+   "dernier_prix": 568.2507307212514,
    "atr": 3.304099,
    "rollover": 0.6925005647711263,
    "rollover_periodes": 36
@@ -92,10 +92,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T17:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.208e-06,
+   "dernier_prix": 3.205e-06,
    "atr": 3.3103e-08,
    "rollover": 0.057136561143477316,
    "rollover_periodes": 10
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T17:48:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54236.9,
+   "dernier_prix": 54176.6,
    "atr": 640.9446,
    "rollover": 0.1749570671378219,
    "rollover_periodes": 10
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T17:48:25Z",
+ "maj": "2026-11-25T17:49:23Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -296,15 +296,15 @@
   }
  },
  "buzz_t": "2026-11-25T17:34:48Z",
- "sources_t": "2026-11-25T17:28:49Z",
+ "sources_t": "2026-11-25T17:49:22Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 12,
    "sentiment": "bearish",
    "titres": [
-    "#BTC Trade Plan: Pullback Into The Zone Next? 25.11.26",
-    "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF"
+    "Bitcoin Remains Under Pressure Below 60k",
+    "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4%"
    ]
   },
   {
@@ -312,26 +312,26 @@
    "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "Anthropic reportedly testing next Opus model inside Claude Code",
-    "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets"
+    "Prediction markets push OpenAI IPO expectations to 2027",
+    "OpenAI tests Private Inference with select customers"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 4,
+   "sujet": "Solana",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF",
-    "Ukraine Approves Crypto Rules After Disagreements Between Regulators"
+    "SBI Solana Global Puts a Japanese Megabank On-Chain",
+    "SOL Look Bullish In Hourly Time Frame (2H)"
    ]
   },
   {
-   "sujet": "Layer 2",
-   "mentions": 3,
+   "sujet": "Stablecoins",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Michael Burry shifts to a predominantly long portfolio stance",
-    "ARB Drops 20% in a Week Even as Variational Pushes $59B of Perps Through Arbitrum"
+    "SBI Solana Global Puts a Japanese Megabank On-Chain",
+    "USDT and USDC control 86.5% of the $281.3 billion stablecoin market"
    ]
   },
   {
@@ -339,8 +339,17 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Ripple Signs Another Top Turkish Bank as Custody Race Heats Up",
-    "BTC historic PA tells you what will happen"
+    "Ripple Lands Major Turkish Bank Deal, Points to Widespread XRP Holdings",
+    "Ripple Signs Another Top Turkish Bank as Custody Race Heats Up"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "US data center boom fuels surge in natural-gas power plant development",
+    "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF"
    ]
   },
   {
@@ -350,14 +359,6 @@
    "titres": [
     "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF",
     "Bitcoin stuck below $60,000 as inflation picks up, ETF outflows near $5 billion"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.49059053 | 🚶 0.49059053 | 🚀 0.539649583 Gwei"
    ]
   },
   {
