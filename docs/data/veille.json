@@ -1594,18 +1594,25 @@
  ],
  "alertes": [
   {
+   "sym": "BLUR",
+   "horizon": "15 min",
+   "variation_pct": 3.52,
+   "prix": 0.01001,
+   "t": "2026-11-25T18:01:56Z"
+  },
+  {
    "sym": "MON",
    "horizon": "15 min",
-   "variation_pct": -3.61,
-   "prix": 0.01041,
-   "t": "2026-11-25T18:00:59Z"
+   "variation_pct": -4.15,
+   "prix": 0.01039,
+   "t": "2026-11-25T18:01:56Z"
   },
   {
    "sym": "HOOD",
    "horizon": "15 min",
    "variation_pct": 1.75,
-   "prix": 58.58784534411482,
-   "t": "2026-11-25T18:00:59Z"
+   "prix": 58.579843944898165,
+   "t": "2026-11-25T18:01:56Z"
   },
   {
    "sym": "INTC",
@@ -1771,13 +1778,6 @@
    "t": "2026-11-25T17:15:11Z"
   },
   {
-   "sym": "BLUR",
-   "horizon": "15 min",
-   "variation_pct": 4.59,
-   "prix": 0.00957,
-   "t": "2026-11-25T17:11:21Z"
-  },
-  {
    "sym": "HYPE",
    "horizon": "15 min",
    "variation_pct": 2.51,
@@ -1853,5 +1853,5 @@
  "erreurs_sources": [
   "Google (Nasdaq stocks): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-25T18:00:59Z"
+ "t": "2026-11-25T18:01:56Z"
 }
