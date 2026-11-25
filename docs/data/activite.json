@@ -3,21 +3,6 @@
   "t": "2026-11-23T23:05:57Z",
   "agent": "Trader de garde",
   "type": "entrée",
-  "msg": "Entrée SWG-1 : SHIB short, stop 3.552862e-06, objectif 2.601415e-06, risque 2.44 €."
- },
- {
-  "t": "2026-11-23T23:05:57Z",
-  "agent": "Execution",
-  "type": "ouverture",
-  "msg": "BTC short ouvert à 56234.97 | 87.48 € engagés | stop 58456.87 | objectif 49158.6 | risque 4.88 EUR",
-  "data": {
-   "id": "P0028"
-  }
- },
- {
-  "t": "2026-11-23T23:05:57Z",
-  "agent": "Trader de garde",
-  "type": "entrée",
   "msg": "Entrée SWG-1 : BTC short, stop 58456.87, objectif 49158.6, risque 4.88 €."
  },
  {
@@ -2844,6 +2829,26 @@
    "lien": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNFhreENOM2wtanZRMEpnQkpXaUFPaFl4U2ZDNjFKLXhWQlp6OHlFZ2NSNEhFM2pLWGUwS08yc1IyU3plcWpMbklTN3dRTDRvaW0yaEpiTUxHMHM5RWN2UVpXUUp3TkNIQ2lmMmZZT0QtTGhUeWNjTHh0ZXk5eHdPSm82eXVCZ3FHTFRBOQ?oc=5",
    "actifs": [
     "SOL"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-25T01:44:55Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PEARL, BTC, PENGU, MON, CC, HYPE, VVV, SOL"
+ },
+ {
+  "t": "2026-11-25T01:45:00Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[régulation, géopolitique] S&P 500, Nasdaq End Lower As AI Jitters Resurface With Nvidia’s Governance Issues And Talks Of Fresh Import Tariffs — NVDA, DELL, TSLA, TGTX In Focus - Yahoo Finance (Yahoo Finance)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWXpVa25QTGpzYXFUdHh4cEZHblQ4cVl3NmJCREo4U2VueldtcEcxb0RSb0NVeGtjRy1CY1VzV0JPYnI5X29LVXI0WTdKY3lmU090bnl5M1g3TkY3VWlRNUJwZXJyR3ZSbkVqT0ZiUTE4NzJnLVRWa0g2RmJBV2VQajVtdXdtUmNhWUl6QnlDZkM?oc=5",
+   "actifs": [
+    "NVDA",
+    "TSLA",
+    "SPY"
    ]
   }
  }
