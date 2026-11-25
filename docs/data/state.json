@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T03:35:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 533.7522490843829,
+   "dernier_prix": 533.8010029320692,
    "atr": 2.771652,
    "rollover": 0.6161821890697542,
    "rollover_periodes": 32
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T03:35:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 92.57550986857127,
+   "dernier_prix": 92.58396587473398,
    "atr": 1.08547,
    "rollover": 0.48874628172089085,
    "rollover_periodes": 32
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T03:35:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 577.6562029062281,
+   "dernier_prix": 577.9555896564639,
    "atr": 3.304099,
    "rollover": 0.6155560575743345,
    "rollover_periodes": 32
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T03:35:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.205e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T03:35:00Z",
+   "verifie_jusqu_a": "2026-11-25T03:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54268.4,
+   "dernier_prix": 54281.5,
    "atr": 640.9446,
    "rollover": 0.1224699469964753,
    "rollover_periodes": 7
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T03:35:12Z",
+ "maj": "2026-11-25T03:37:14Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -159,7 +159,7 @@
   "2026-11-25": 501.54
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-25T03:31:15Z",
+ "chasseur_t": "2026-11-25T03:37:12Z",
  "tendance": [
   "BTC",
   "PEARL",
@@ -181,7 +181,7 @@
  "buzz": {
   "DELL": {
    "source": "Reddit + StockTwits",
-   "mentions": 146,
+   "mentions": 145,
    "x_vs_hier": 8.1
   },
   "AAPL": {
@@ -204,7 +204,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MSTR": {
+  "AVGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -214,7 +214,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AVGO": {
+  "TGTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AMD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -224,27 +229,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TGTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "KSS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DKS": {
+  "MSTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LU": {
+  "ABSI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -254,18 +249,23 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "PTLO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "NIGHT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNDQ": {
+  "ASTS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-25T03:19:24Z",
+ "buzz_t": "2026-11-25T03:37:13Z",
  "sources_t": "2026-11-25T03:25:22Z",
  "actus_tendance": [
   {
