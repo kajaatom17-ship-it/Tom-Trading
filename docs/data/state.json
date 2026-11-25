@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T11:30:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 532.9919063514564,
+   "dernier_prix": 530.3306049659335,
    "atr": 2.771652,
    "rollover": 0.6546935758866138,
    "rollover_periodes": 34
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T11:30:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 92.23101193470208,
@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T11:30:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 568.3295989757191,
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T11:30:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.168e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T11:30:00Z",
+   "verifie_jusqu_a": "2026-11-25T11:31:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53520.0,
+   "dernier_prix": 53406.0,
    "atr": 640.9446,
    "rollover": 0.1574613604240397,
    "rollover_periodes": 9
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T11:30:27Z",
+ "maj": "2026-11-25T11:31:27Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -276,58 +276,42 @@
   }
  },
  "buzz_t": "2026-11-25T11:17:42Z",
- "sources_t": "2026-11-25T11:11:35Z",
+ "sources_t": "2026-11-25T11:31:26Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 8,
+   "sujet": "Bitcoin",
+   "mentions": 10,
    "sentiment": "neutral",
    "titres": [
-    "Sequent raises $2.2M pre-seed round, lands Curve as first client",
-    "Wes Moore wants Congress to treat AI oversight as an emergency"
+    "Hyperliquid Leads Altcoin Losses as Bitcoin Slips Below $59K",
+    "BTC: $58k put wall vs crowded longs in short gamma"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 5,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout",
+    "California sues OpenAI after its agents allegedly hacked Hugging Face"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 5,
-   "sentiment": "bearish",
-   "titres": [
-    "Tron average transaction fees drop 60% since August 2025 energy price cut",
-    "Abraxas Capital Pulls Its Last Funds From Hyperliquid, Stirring Tether Speculation"
-   ]
-  },
-  {
-   "sujet": "Bitcoin",
-   "mentions": 5,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin’s $10,000 Liquidity Trap — More Fakeouts Before the Road",
-    "Bullish Reversal Potential Towards $61,220"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
    "mentions": 3,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "Wes Moore wants Congress to treat AI oversight as an emergency",
-    "Ukraine’s parliament passes crypto legalization bill with 271 votes"
+    "USDT Dominance: Is History About to Repeat?",
+    "BCHUSDT: Inverse Head & Shoulders Signals a Potential Bullish Re"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "ETHUSD: Bearish Trend Continues | Relief Bounce Before Potential"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
+   "sujet": "ETF",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Sequent raises $2.2M pre-seed round, lands Curve as first client"
+    "Hyperliquid Leads Altcoin Losses as Bitcoin Slips Below $59K",
+    "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout"
    ]
   },
   {
@@ -335,7 +319,31 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Japan’s SBI, SMFG launch Solana joint venture for stablecoin payments and tokenization"
+    "SBI, SMFG’s Solana Venture Begins Full Operations in Japan"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Ukraine legalizes crypto, law effective July 1, 2027"
+   ]
+  },
+  {
+   "sujet": "Chainlink",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "LINKUSDT Inverse Head & Shoulders Pattern Signals Potential Bull"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "California sues OpenAI after its agents allegedly hacked Hugging Face"
    ]
   }
  ],

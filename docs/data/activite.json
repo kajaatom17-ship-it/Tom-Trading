@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-24T07:48:27Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "609 actifs hors univers analysés, 3 en mouvement : AI +8.9 %, REKT -5.1 %, VVV +3.1 %."
- },
- {
-  "t": "2026-11-24T07:54:15Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PENGU, MON, BTC, PEARL, VVV, MORPHO, BABY, HYPE"
- },
- {
-  "t": "2026-11-24T07:54:15Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ALL, AM, AMD, AXSM, BMNR, CIA, CRWD, DJT, ETH, GME, GOAT, GOOGL"
- },
- {
   "t": "2026-11-24T07:54:17Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2986,5 +2968,39 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "605 actifs hors univers analysés, 7 en mouvement : SOXL -10.9 %, PROS +8.7 %, SKHY -5.4 %."
+ },
+ {
+  "t": "2026-11-25T11:31:31Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] Pets at Home H1 FY27 slides: PBT jumps 44%, guidance raised (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/company-news/pets-at-home-h1-fy27-slides-pbt-jumps-44-guidance-raised-93CH-5050375",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-25T11:31:31Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Crypto trader Ansem says his wallet was hacked as $2 million in memecoins were sold (CoinDesk)",
+  "data": {
+   "lien": "https://www.coindesk.com/markets/2026/11/24/a-wallet-linked-to-popular-crypto-trader-ansem-sold-usd2-million-in-memecoins-as-his-namesake-token-cratered",
+   "actifs": [
+    "TRUMP"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-25T11:31:31Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, géopolitique] Live updates: Bitcoin pulls back below $60,000, stock rally fades, as tariffs re-enter the picture (CoinDesk)",
+  "data": {
+   "lien": "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+   "actifs": [
+    "BTC"
+   ]
+  }
  }
 ]
