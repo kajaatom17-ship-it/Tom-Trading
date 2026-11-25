@@ -1600,60 +1600,75 @@
  ],
  "alertes": [
   {
+   "sym": "PEPE",
+   "horizon": "15 min",
+   "variation_pct": -3.05,
+   "prix": 3.048e-06,
+   "t": "2026-11-25T15:19:19Z"
+  },
+  {
+   "sym": "AVGO",
+   "horizon": "15 min",
+   "variation_pct": -1.62,
+   "prix": 259.91987267438674,
+   "t": "2026-11-25T15:19:19Z"
+  },
+  {
+   "sym": "COIN",
+   "horizon": "15 min",
+   "variation_pct": -2.49,
+   "prix": 87.75588606552878,
+   "t": "2026-11-25T15:19:19Z",
+   "position": "en notre faveur"
+  },
+  {
+   "sym": "CRCL",
+   "horizon": "15 min",
+   "variation_pct": -3.26,
+   "prix": 40.30148363609755,
+   "t": "2026-11-25T15:19:19Z"
+  },
+  {
+   "sym": "HOOD",
+   "horizon": "15 min",
+   "variation_pct": -1.83,
+   "prix": 56.830031282586035,
+   "t": "2026-11-25T15:19:19Z"
+  },
+  {
+   "sym": "MSTR",
+   "horizon": "15 min",
+   "variation_pct": -3.73,
+   "prix": 64.970821213618,
+   "t": "2026-11-25T15:19:19Z"
+  },
+  {
+   "sym": "PLTR",
+   "horizon": "15 min",
+   "variation_pct": -1.61,
+   "prix": 141.21983791595778,
+   "t": "2026-11-25T15:19:19Z"
+  },
+  {
+   "sym": "AMD",
+   "horizon": "15 min",
+   "variation_pct": -2.06,
+   "prix": 344.9408192012879,
+   "t": "2026-11-25T15:19:19Z"
+  },
+  {
+   "sym": "SNDK",
+   "horizon": "15 min",
+   "variation_pct": -3.31,
+   "prix": 63.57133710187879,
+   "t": "2026-11-25T15:19:19Z"
+  },
+  {
    "sym": "NEAR",
    "horizon": "15 min",
    "variation_pct": -2.64,
    "prix": 2.4975,
    "t": "2026-11-25T15:18:22Z"
-  },
-  {
-   "sym": "PEPE",
-   "horizon": "15 min",
-   "variation_pct": -2.65,
-   "prix": 3.052e-06,
-   "t": "2026-11-25T15:18:22Z"
-  },
-  {
-   "sym": "CRCL",
-   "horizon": "15 min",
-   "variation_pct": -3.79,
-   "prix": 40.302589574014625,
-   "t": "2026-11-25T15:18:22Z"
-  },
-  {
-   "sym": "MSTR",
-   "horizon": "15 min",
-   "variation_pct": -3.5,
-   "prix": 64.98175132405808,
-   "t": "2026-11-25T15:18:22Z"
-  },
-  {
-   "sym": "AMD",
-   "horizon": "15 min",
-   "variation_pct": -1.83,
-   "prix": 345.79182788617214,
-   "t": "2026-11-25T15:18:22Z"
-  },
-  {
-   "sym": "SNDK",
-   "horizon": "15 min",
-   "variation_pct": -3.32,
-   "prix": 63.573081602224605,
-   "t": "2026-11-25T15:18:22Z"
-  },
-  {
-   "sym": "PLTR",
-   "horizon": "15 min",
-   "variation_pct": 1.78,
-   "prix": 143.55992026480862,
-   "t": "2026-11-25T15:13:22Z"
-  },
-  {
-   "sym": "AVGO",
-   "horizon": "15 min",
-   "variation_pct": 1.63,
-   "prix": 261.8501074580456,
-   "t": "2026-11-25T15:12:24Z"
   },
   {
    "sym": "AMZN",
@@ -1663,26 +1678,11 @@
    "t": "2026-11-25T15:11:27Z"
   },
   {
-   "sym": "HOOD",
-   "horizon": "15 min",
-   "variation_pct": 1.66,
-   "prix": 57.8677882417482,
-   "t": "2026-11-25T15:09:31Z"
-  },
-  {
    "sym": "NVDA",
    "horizon": "15 min",
    "variation_pct": 1.7,
    "prix": 132.27764774722058,
    "t": "2026-11-25T15:07:26Z"
-  },
-  {
-   "sym": "COIN",
-   "horizon": "15 min",
-   "variation_pct": 2.36,
-   "prix": 89.61746635459332,
-   "t": "2026-11-25T15:07:26Z",
-   "position": "contre nous"
   },
   {
    "sym": "INTC",
@@ -1815,5 +1815,5 @@
  ],
  "t_actus": "2026-11-25T15:17:25Z",
  "erreurs_sources": [],
- "t": "2026-11-25T15:18:22Z"
+ "t": "2026-11-25T15:19:19Z"
 }
