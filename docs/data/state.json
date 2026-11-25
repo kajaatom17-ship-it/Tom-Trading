@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T17:07:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 536.198621091651,
+   "dernier_prix": 538.405486888486,
    "atr": 2.771652,
    "rollover": 0.6932049627034734,
    "rollover_periodes": 36
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T17:07:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 89.11901053762854,
+   "dernier_prix": 89.12550437657688,
    "atr": 1.08547,
    "rollover": 0.549839566936002,
    "rollover_periodes": 36
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-25T17:07:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 563.0754938659527,
+   "dernier_prix": 563.1165235132846,
    "atr": 3.304099,
    "rollover": 0.6925005647711263,
    "rollover_periodes": 36
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T17:07:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.169e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-25T17:07:00Z",
+   "verifie_jusqu_a": "2026-11-25T17:08:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 53748.3,
+   "dernier_prix": 53899.3,
    "atr": 640.9446,
    "rollover": 0.1749570671378219,
    "rollover_periodes": 10
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-25T17:07:14Z",
+ "maj": "2026-11-25T17:08:24Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -296,67 +296,68 @@
   }
  },
  "buzz_t": "2026-11-25T16:59:31Z",
- "sources_t": "2026-11-25T16:47:52Z",
+ "sources_t": "2026-11-25T17:08:14Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 8,
-   "sentiment": "neutral",
+   "sujet": "Bitcoin",
+   "mentions": 9,
+   "sentiment": "bearish",
    "titres": [
-    "JetBrains rebuilds its Kotlin benchmark after catching AI agents gaming the test",
-    "AI agents are reshaping the job market and less-experienced workers are feeling it first"
+    "#BTC Trade Plan: Pullback Into The Zone Next? 25.11.26",
+    "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF"
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
+   "sujet": "AI",
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "BTC historic PA tells you what will happen",
-    "Bitcoin dominance slips below 60%, but altcoin season is not arriving"
+    "Anthropic reportedly testing next Opus model inside Claude Code",
+    "Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Ukraine Approves Crypto Rules After Disagreements Between Regulators",
-    "SpaceX’s 1 million satellite orbital data center plan is still awaiting FCC approval"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "BLUR/USDT: +126% Relief Squeeze Setup",
-    "Ukraine Passes Law to Legalize and Tax Its Crypto Market From July 2027"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "stUSDS holders accept 11% haircut on Curve as Sky’s module hits full utilization",
-    "Aave Labs opens Aave App to the public after $63M early access run"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "BTC historic PA tells you what will happen"
+    "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF",
+    "Ukraine Approves Crypto Rules After Disagreements Between Regulators"
    ]
   },
   {
    "sujet": "Layer 2",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Michael Burry shifts to a predominantly long portfolio stance",
+    "ARB Drops 20% in a Week Even as Variational Pushes $59B of Perps Through Arbitrum"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Ripple Signs Another Top Turkish Bank as Custody Race Heats Up",
+    "BTC historic PA tells you what will happen"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Hyperliquid’s HYPE will join bitcoin, ether and more in Franklin Templeton’s crypto ETF",
+    "Bitcoin stuck below $60,000 as inflation picks up, ETF outflows near $5 billion"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "JPMorgan bets on an AI supercycle, sets S&P 500 target of 8,200 for 2027"
+    "⛽ ETH Gas: 🐢 0.49059053 | 🚶 0.49059053 | 🚀 0.539649583 Gwei"
    ]
   },
   {
@@ -364,7 +365,7 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase Exchange schedules four-hour system upgrade for December 5"
+    "Market Structure Break: A Record, Not an Order (BTCUSD 4H)"
    ]
   }
  ],
