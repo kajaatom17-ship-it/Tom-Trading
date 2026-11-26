@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 557.6669185734187,
+   "dernier_prix": 557.6821517673411,
    "atr": 2.771652,
    "rollover": 0.7894834297456225,
    "rollover_periodes": 41
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.78682315235503,
+   "dernier_prix": 96.78946697503324,
    "atr": 1.08547,
    "rollover": 0.6262061734548909,
    "rollover_periodes": 41
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T14:34:00Z",
+   "verifie_jusqu_a": "2026-11-26T14:35:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.8575148640159,
+   "dernier_prix": 580.8733815307851,
    "atr": 3.304099,
    "rollover": 0.7886811987671161,
    "rollover_periodes": 41
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T14:34:00Z",
+   "verifie_jusqu_a": "2026-11-26T14:35:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.329e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T14:34:00Z",
+   "verifie_jusqu_a": "2026-11-26T14:35:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55423.3,
+   "dernier_prix": 55363.3,
    "atr": 640.9446,
    "rollover": 0.2624356007067329,
    "rollover_periodes": 15
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T14:34:11Z",
+ "maj": "2026-11-26T14:35:10Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -277,33 +277,60 @@
   }
  },
  "buzz_t": "2026-11-26T14:33:08Z",
- "sources_t": "2026-11-26T14:15:22Z",
+ "sources_t": "2026-11-26T14:35:08Z",
  "actus_tendance": [
-  {
-   "sujet": "AI",
-   "mentions": 7,
-   "sentiment": "neutral",
-   "titres": [
-    "Anthropic and OpenAI post huge losses as AI pricing power erodes",
-    "Meta’s AI glasses draw legal challenge from Dutch consumer bodies"
-   ]
-  },
   {
    "sujet": "Bitcoin",
    "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin public key exposure climbs to a record 7.12 million BTC",
+    "Israel Discount Bank opens direct Bitcoin and Ether trading inside its app"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Here’s what happened in crypto today",
-    "US government could be barred from selling its strategic Bitcoin holdings for 20 years"
+    "⛽ ETH Gas: 🐢 0.080889305 | 🚶 0.081889305 | 🚀 0.090889305 Gwei",
+    "Binance hacker moves $35.52 million in ETH as $1.9 billion stays unfrozen"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Cournot Raises $5M to Build AI-Native Oracle for Verifiable Intelligence",
+    "The portfolio risk Toobit’s growth chief wants AI to flag before a trade"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 3,
+   "sentiment": "bullish",
+   "titres": [
+    "KuCoin to delist Monero on November 30, ending XMR trading support",
+    "KuCoin to delist Monero across spot trading and other services on Nov. 30"
    ]
   },
   {
    "sujet": "Polygon",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "Polygon Labs expands Open Money Stack to Coinbase’s Base network",
-    "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base"
+    "Polygon brings cross-border payments stack to Coinbase’s Base network",
+    "Polygon Labs expands Open Money Stack to Coinbase’s Base network"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Polygon brings cross-border payments stack to Coinbase’s Base network",
+    "Polygon Labs expands Open Money Stack to Coinbase’s Base network"
    ]
   },
   {
@@ -316,37 +343,11 @@
    ]
   },
   {
-   "sujet": "Coinbase",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Polygon Labs expands Open Money Stack to Coinbase’s Base network",
-    "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Elizabeth Warren’s War on Crypto Reaches Tokenized Stocks",
-    "Here’s what happened in crypto today"
-   ]
-  },
-  {
-   "sujet": "Solana",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Solana Reclaims $70 After a Major Deal With Japan’s $2.3 Trillion Banking Giants"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Here’s what happened in crypto today"
+    "FIFA Confirms Cyberattack After Hackers Impersonate Staff to Access Personal and Business Data"
    ]
   }
  ],
