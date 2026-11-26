@@ -1,21 +1,20 @@
 {
- "t": "2026-11-26T16:32:21Z",
+ "t": "2026-11-26T16:38:16Z",
  "nb_analyses": 453,
- "nb_en_mouvement": 13,
+ "nb_en_mouvement": 11,
  "tendance": [
-  "ASTS",
+  "ALGO",
   "BB.TSX",
   "BONK",
   "BTC",
-  "CASHCAT",
   "CRO",
   "DOGE",
   "ETH",
+  "EURUSD",
   "EWZ",
+  "GDXU",
   "HYPE",
-  "MO",
   "MON",
-  "NASA",
   "NPS",
   "NTRA",
   "PEARL",
@@ -27,31 +26,15 @@
   "QNT",
   "SHIB",
   "SOL",
-  "TXN",
   "UCTT",
-  "VOO",
+  "VRTX",
   "XAUUSD",
   "XMR",
   "ZEC",
   "ZYLO"
  ],
  "buzz_reseaux": {
-  "VOO": {
-   "source": "Reddit",
-   "mentions": 73,
-   "x_vs_hier": 2.1
-  },
-  "ASTS": {
-   "source": "Reddit",
-   "mentions": 42,
-   "x_vs_hier": 3.0
-  },
   "SHIB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XAUUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -61,27 +44,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UCTT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "BONK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PYTH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NTRA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -91,12 +54,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MO": {
+  "PYTH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
+  "EURUSD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UCTT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XAUUSD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -106,17 +79,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CASHCAT": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NASA": {
+  "NTRA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TXN": {
+  "VRTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ALGO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GDXU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -124,22 +112,12 @@
  },
  "candidats": [
   {
-   "sym": "TEL",
-   "pair": "TELEUR",
-   "action": false,
-   "variation_24h_pct": 25.63,
-   "volume_24h_eur": 40995.34,
-   "spread_pct": 0.2494,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
    "sym": "XMR",
    "pair": "XMREUR",
    "action": false,
-   "variation_24h_pct": -13.29,
-   "volume_24h_eur": 308140.2,
-   "spread_pct": 0.2475,
+   "variation_24h_pct": -13.52,
+   "volume_24h_eur": 322352.0,
+   "spread_pct": 0.2015,
    "tendance": true,
    "impulsion": null
   },
@@ -147,9 +125,9 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": -9.86,
-   "volume_24h_eur": 5131105.44,
-   "spread_pct": 0.0706,
+   "variation_24h_pct": -9.97,
+   "volume_24h_eur": 5175455.58,
+   "spread_pct": 0.1922,
    "tendance": true,
    "impulsion": null
   },
@@ -157,9 +135,9 @@
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": 9.77,
-   "volume_24h_eur": 174368.42,
-   "spread_pct": 0.119,
+   "variation_24h_pct": 9.82,
+   "volume_24h_eur": 174400.19,
+   "spread_pct": 0.0951,
    "tendance": false,
    "impulsion": null
   },
@@ -167,9 +145,9 @@
    "sym": "STBL",
    "pair": "STBLEUR",
    "action": false,
-   "variation_24h_pct": 8.08,
-   "volume_24h_eur": 132710.71,
-   "spread_pct": 0.247,
+   "variation_24h_pct": 7.78,
+   "volume_24h_eur": 133738.76,
+   "spread_pct": 0.1669,
    "tendance": false,
    "impulsion": null
   },
@@ -177,9 +155,9 @@
    "sym": "SYRUP",
    "pair": "SYRUPEUR",
    "action": false,
-   "variation_24h_pct": 6.68,
-   "volume_24h_eur": 223534.21,
-   "spread_pct": 0.4498,
+   "variation_24h_pct": 6.77,
+   "volume_24h_eur": 223325.8,
+   "spread_pct": 0.3409,
    "tendance": false,
    "impulsion": null
   },
@@ -187,19 +165,29 @@
    "sym": "2Z",
    "pair": "2ZEUR",
    "action": false,
-   "variation_24h_pct": 6.7,
-   "volume_24h_eur": 172127.45,
-   "spread_pct": 0.4353,
+   "variation_24h_pct": 6.17,
+   "volume_24h_eur": 174369.47,
+   "spread_pct": 0.1875,
    "tendance": false,
    "impulsion": null
   },
   {
-   "sym": "POPCAT",
-   "pair": "POPCATEUR",
+   "sym": "KNTQ",
+   "pair": "KNTQEUR",
    "action": false,
-   "variation_24h_pct": 6.41,
-   "volume_24h_eur": 108452.4,
-   "spread_pct": 0.4016,
+   "variation_24h_pct": 6.18,
+   "volume_24h_eur": 149867.96,
+   "spread_pct": 0.0613,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "B2",
+   "pair": "B2EUR",
+   "action": false,
+   "variation_24h_pct": 6.58,
+   "volume_24h_eur": 48930.1,
+   "spread_pct": 0.247,
    "tendance": false,
    "impulsion": null
   }
