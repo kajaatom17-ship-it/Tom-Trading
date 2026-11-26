@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 557.9463260881448,
+   "dernier_prix": 557.9564916372117,
    "atr": 2.771652,
    "rollover": 0.7894834297456225,
    "rollover_periodes": 41
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.83531619509174,
+   "dernier_prix": 96.83708049411507,
    "atr": 1.08547,
    "rollover": 0.6262061734548909,
    "rollover_periodes": 41
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T13:31:00Z",
+   "verifie_jusqu_a": "2026-11-26T13:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.312514803141,
+   "dernier_prix": 581.3231060744088,
    "atr": 3.304099,
    "rollover": 0.7886811987671161,
    "rollover_periodes": 41
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T13:31:00Z",
+   "verifie_jusqu_a": "2026-11-26T13:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.315e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T13:31:00Z",
+   "verifie_jusqu_a": "2026-11-26T13:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55342.2,
+   "dernier_prix": 55370.2,
    "atr": 640.9446,
    "rollover": 0.2624356007067329,
    "rollover_periodes": 15
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T13:31:53Z",
+ "maj": "2026-11-26T13:34:01Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -160,25 +160,25 @@
   "2026-11-26": 495.75
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-26T13:27:59Z",
+ "chasseur_t": "2026-11-26T13:33:54Z",
  "tendance": [
-  "XTZ",
-  "ZYLO",
-  "NPS",
+  "PEI",
   "PEJAK",
+  "NPS",
+  "ZYLO",
   "PENGU",
-  "VVV",
-  "ASTER",
-  "BTC",
-  "SOL",
-  "ZEC",
+  "XTZ",
   "MON",
-  "ETH",
-  "NEAR",
-  "SEI",
-  "LINK"
+  "HYPE",
+  "BTC",
+  "SKY",
+  "ZEC",
+  "DRV",
+  "PUMP",
+  "VVV",
+  "ETH"
  ],
- "tendance_t": "2026-11-26T12:31:40Z",
+ "tendance_t": "2026-11-26T13:33:54Z",
  "buzz": {
   "VOO": {
    "source": "Reddit",
@@ -282,60 +282,32 @@
   }
  },
  "buzz_t": "2026-11-26T13:22:03Z",
- "sources_t": "2026-11-26T13:13:16Z",
+ "sources_t": "2026-11-26T13:34:00Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 11,
-   "sentiment": "bearish",
+   "mentions": 8,
+   "sentiment": "bullish",
    "titres": [
-    "Nvidia brings GTC to Washington with four livestreamed executive keynotes",
-    "South Korea’s AI boom faces an earnings reality check"
+    "Apple pulls MiniMax’s Talkie chatbot from App Store after child safety allegations",
+    "‘The time to prepare for a cryptographic breakthrough is before it happens’: Zcash team urges faster deprecation of legacy shielded pool"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "NOVEMBER 26 Bitcoin chart analysis.",
-    "Bitcoin (BTCUSDT) W time frame"
+    "数据：某神秘地址两日累计接收约 7186 枚 BTC，约合 4.35 亿美元",
+    "Nucula unveils open hardware point of sale for Bitcoin payments"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 2,
+   "sujet": "DeFi",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Scammers bait TRON users with frozen USDT, then drain their TRX deposits",
-    "HSBC Redcoin Draws 100K Users in Hong Kong Rollout"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "BNB Chain 发布新 L1 网络白皮书：聚焦高频交易、支付及 AI 代理",
-    "BNB Chain unveils new L1 litepaper built for high-frequency trading and payments"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "数据：币安黑客转移价值 3552 万美元 ETH，仍持有价值约 18.95 亿美元 ETH 和 BTC",
-    "麻吉大哥重启 25 倍杠杆做多约 220 万美元 ETH，建仓均价 1665.27 美元"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "StanChart’s Zodia Custody hit by breach, no funds moved: report",
-    "ALTEO files warranty claim against seller over ÉLTEX acquisition"
+    "VelocityDEX resumes trading after fixing insurance fund bug"
    ]
   },
   {
@@ -347,11 +319,35 @@
    ]
   },
   {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Scammers bait TRON users with frozen USDT, then drain their TRX deposits"
+   ]
+  },
+  {
    "sujet": "ETF",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
     "瑞士首檔現貨比特幣 ETF 登陸 SIX！掛牌時持有 350 枚 BTC"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BNB Chain 发布新 L1 网络白皮书：聚焦高频交易、支付及 AI 代理"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "数据：币安黑客转移价值 3552 万美元 ETH，仍持有价值约 18.95 亿美元 ETH 和 BTC"
    ]
   }
  ],
