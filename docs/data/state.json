@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.4397822697557,
+   "dernier_prix": 558.4143250487774,
    "atr": 2.771652,
    "rollover": 0.8087391231540523,
    "rollover_periodes": 42
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.92095881543077,
+   "dernier_prix": 96.91654054448315,
    "atr": 1.08547,
    "rollover": 0.6414794947586687,
    "rollover_periodes": 42
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T16:52:00Z",
+   "verifie_jusqu_a": "2026-11-26T16:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.9239858858284,
+   "dernier_prix": 580.8975036924929,
    "atr": 3.304099,
    "rollover": 0.807917325566314,
    "rollover_periodes": 42
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T16:52:00Z",
+   "verifie_jusqu_a": "2026-11-26T16:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.311e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T16:52:00Z",
+   "verifie_jusqu_a": "2026-11-26T16:53:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55099.9,
+   "dernier_prix": 55106.2,
    "atr": 640.9446,
    "rollover": 0.2799313074205151,
    "rollover_periodes": 16
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T16:52:58Z",
+ "maj": "2026-11-26T16:53:57Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -257,33 +257,49 @@
   }
  },
  "buzz_t": "2026-11-26T16:38:10Z",
- "sources_t": "2026-11-26T16:34:15Z",
+ "sources_t": "2026-11-26T16:53:55Z",
  "actus_tendance": [
+  {
+   "sujet": "ETF",
+   "mentions": 8,
+   "sentiment": "neutral",
+   "titres": [
+    "YieldMax INTC Option Income Strategy ETF declares $0.2391 dividend",
+    "YieldMax JP Option Income Strategy ETF declares $0.0453 dividend"
+   ]
+  },
   {
    "sujet": "Bitcoin",
    "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin’s recovery above $60,000 faces a threat from Japan while Wall Street sleeps",
-    "JPMorgan says bitcoin ‘capitulation’ signaled by Strategy’s record-low NAV multiple"
+    "JPMorgan flags Strategy’s record-low mNAV as a Bitcoin capitulation signal",
+    "Bitcoin ETFs Lose $3.05B in 7 Days as November Outflows Hit $5.39B"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "bullish",
+   "mentions": 3,
+   "sentiment": "neutral",
    "titres": [
-    "Chip sellers threaten to cut off neoclouds that rent Nvidia GPUs to Chinese firms",
-    "Meta and Walmart team up to put the Muse AI agent in your shopping cart"
+    "Jensen Huang’s return to Nvidia exposes risks of concentrated AI infrastructure, io.net strategist says",
+    "Chip sellers threaten to cut off neoclouds that rent Nvidia GPUs to Chinese firms"
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 4,
+   "sujet": "Security",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin’s recovery above $60,000 faces a threat from Japan while Wall Street sleeps",
-    "Amplify XRP 3% Monthly Option Income ETF declares $0.1497 dividend"
+    "Zodia Custody Breach Exposes the Weak Spot in Bank Crypto"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BIS chief Pablo Hernández de Cos set to become next ECB president: FT"
    ]
   },
   {
@@ -303,19 +319,11 @@
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Amplify XRP 3% Monthly Option Income ETF declares $0.1497 dividend"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Amplify Solana 3% Monthly Option Income ETF declares $0.1521 dividend"
+    "At FM Summit London, Brokers and Panellists Weigh UK Rules and On-Chain Competition"
    ]
   }
  ],
