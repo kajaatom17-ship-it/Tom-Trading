@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.4092338830995,
+   "dernier_prix": 558.3735983225454,
    "atr": 2.771652,
    "rollover": 0.8087391231540523,
    "rollover_periodes": 42
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.91565693863224,
+   "dernier_prix": 96.90947214878294,
    "atr": 1.08547,
    "rollover": 0.6414794947586687,
    "rollover_periodes": 42
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T17:11:00Z",
+   "verifie_jusqu_a": "2026-11-26T17:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.764566979386,
+   "dernier_prix": 580.7275047862157,
    "atr": 3.304099,
    "rollover": 0.807917325566314,
    "rollover_periodes": 42
@@ -92,10 +92,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T17:11:00Z",
+   "verifie_jusqu_a": "2026-11-26T17:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.311e-06,
+   "dernier_prix": 3.313e-06,
    "atr": 3.3103e-08,
    "rollover": 0.09141849782956374,
    "rollover_periodes": 16
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T17:11:00Z",
+   "verifie_jusqu_a": "2026-11-26T17:13:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55184.6,
+   "dernier_prix": 55133.8,
    "atr": 640.9446,
    "rollover": 0.2799313074205151,
    "rollover_periodes": 16
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T17:11:40Z",
+ "maj": "2026-11-26T17:13:46Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -160,7 +160,7 @@
   "2026-11-26": 495.75
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-26T17:07:43Z",
+ "chasseur_t": "2026-11-26T17:13:38Z",
  "tendance": [
   "PEJAK",
   "NPS",
@@ -205,7 +205,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "PYTH": {
+  "DE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AC.TSX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -215,17 +220,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XAUUSD": {
+  "XTZ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "EWZ": {
+  "AMGN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NTRA": {
+  "NEM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -235,51 +240,64 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AXON": {
+  "KLAC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BB.TSX": {
+  "SBUX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ETH": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ZBCN": {
+  "BLK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-26T16:55:55Z",
- "sources_t": "2026-11-26T16:53:55Z",
+ "buzz_t": "2026-11-26T17:13:39Z",
+ "sources_t": "2026-11-26T17:13:44Z",
  "actus_tendance": [
   {
    "sujet": "ETF",
-   "mentions": 8,
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "YieldMax INTC Option Income Strategy ETF declares $0.2391 dividend",
-    "YieldMax JP Option Income Strategy ETF declares $0.0453 dividend"
+    "YieldMax™ GOOGL Option Income Strategy ETF declares $0.0648 dividend",
+    "YieldMax HIMS Option Income Strategy ETF declares $0.0823 dividend"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 5,
+   "mentions": 6,
+   "sentiment": "bearish",
+   "titres": [
+    "Bitcoin close to breakout, but fear could stop it",
+    "Bitcoin dormant supply climbs toward 69% as holders sit tight through the slump"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "JPMorgan flags Strategy’s record-low mNAV as a Bitcoin capitulation signal",
-    "Bitcoin ETFs Lose $3.05B in 7 Days as November Outflows Hit $5.39B"
+    "⛽ ETH Gas: 🐢 0.254270625 | 🚶 0.255502467 | 🚀 0.304270625 Gwei",
+    "Stellar adds $80.4 million in tokenized fund value in a single day"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "USDT.D Double Top? A Potential Breakout Opportunity for Altcoins",
+    "BIS chief Pablo Hernández de Cos set to become next ECB president: FT"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
     "Jensen Huang’s return to Nvidia exposes risks of concentrated AI infrastructure, io.net strategist says",
@@ -288,42 +306,27 @@
   },
   {
    "sujet": "Security",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Zodia Custody Breach Exposes the Weak Spot in Bank Crypto"
+    "Zodia Custody Breach Exposes the Weak Spot in Bank Crypto",
+    "Standard Chartered Crypto Breach Raises Institutional Security Fears"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BIS chief Pablo Hernández de Cos set to become next ECB president: FT"
+    "SOL Long Setup – Major Support Holding Strong"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Cardano",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Stellar adds $80.4 million in tokenized fund value in a single day"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Plume’s nOPAL tops $12 million in supply on Kamino"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "At FM Summit London, Brokers and Panellists Weigh UK Rules and On-Chain Competition"
+    "Cardano Price Prediction: ADA Nears a 10% Crash Back to $0.13 After the German Bank Pop"
    ]
   }
  ],
