@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 557.8446909667196,
+   "dernier_prix": 557.8650150286911,
    "atr": 2.771652,
    "rollover": 0.7894834297456225,
    "rollover_periodes": 41
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.81767674007688,
+   "dernier_prix": 96.82120411695053,
    "atr": 1.08547,
    "rollover": 0.6262061734548909,
    "rollover_periodes": 41
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T13:53:00Z",
+   "verifie_jusqu_a": "2026-11-26T13:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.2977029710186,
+   "dernier_prix": 581.0456325712723,
    "atr": 3.304099,
    "rollover": 0.7886811987671161,
    "rollover_periodes": 41
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T13:53:00Z",
+   "verifie_jusqu_a": "2026-11-26T13:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.312e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T13:53:00Z",
+   "verifie_jusqu_a": "2026-11-26T13:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55410.5,
+   "dernier_prix": 55366.6,
    "atr": 640.9446,
    "rollover": 0.2624356007067329,
    "rollover_periodes": 15
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T13:53:37Z",
+ "maj": "2026-11-26T13:54:36Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -282,24 +282,48 @@
   }
  },
  "buzz_t": "2026-11-26T13:39:48Z",
- "sources_t": "2026-11-26T13:34:00Z",
+ "sources_t": "2026-11-26T13:54:34Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 8,
+   "mentions": 7,
    "sentiment": "bullish",
    "titres": [
-    "Apple pulls MiniMax’s Talkie chatbot from App Store after child safety allegations",
-    "‘The time to prepare for a cryptographic breakthrough is before it happens’: Zcash team urges faster deprecation of legacy shielded pool"
+    "社群用 AI 嘗試移植 GTA 6 上 PC！但涉法律與資安風險",
+    "Stoxx 600 rises 1.7% as global stocks rebound on AI trade"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "数据：某神秘地址两日累计接收约 7186 枚 BTC，约合 4.35 亿美元",
-    "Nucula unveils open hardware point of sale for Bitcoin payments"
+    "Bitcoin is 30.9% off its September high and 62,470 decides",
+    "Switzerland lists first spot Bitcoin ETF, BBIT, for non-US investors"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.108883082 | 🚶 0.109449002 | 🚀 0.120992869 Gwei"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Switzerland lists first spot Bitcoin ETF, BBIT, for non-US investors"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BNB Faces a Deeper Correction as Price Approaches"
    ]
   },
   {
@@ -316,38 +340,6 @@
    "sentiment": "neutral",
    "titres": [
     "Nvidia’s Jay Puri tied to Super Micro through marriage as chip-smuggling case widens"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Scammers bait TRON users with frozen USDT, then drain their TRX deposits"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "瑞士首檔現貨比特幣 ETF 登陸 SIX！掛牌時持有 350 枚 BTC"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "BNB Chain 发布新 L1 网络白皮书：聚焦高频交易、支付及 AI 代理"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "数据：币安黑客转移价值 3552 万美元 ETH，仍持有价值约 18.95 亿美元 ETH 和 BTC"
    ]
   }
  ],
