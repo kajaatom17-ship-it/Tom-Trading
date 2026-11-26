@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T14:53:00Z",
+   "verifie_jusqu_a": "2026-11-26T14:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 580.619589977221,
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T14:53:00Z",
+   "verifie_jusqu_a": "2026-11-26T14:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.319e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T14:53:00Z",
+   "verifie_jusqu_a": "2026-11-26T14:54:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55287.6,
+   "dernier_prix": 55297.9,
    "atr": 640.9446,
    "rollover": 0.2624356007067329,
    "rollover_periodes": 15
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T14:53:50Z",
+ "maj": "2026-11-26T14:54:50Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -272,39 +272,48 @@
   }
  },
  "buzz_t": "2026-11-26T14:50:49Z",
- "sources_t": "2026-11-26T14:35:08Z",
+ "sources_t": "2026-11-26T14:54:48Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 4,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin public key exposure climbs to a record 7.12 million BTC",
-    "Israel Discount Bank opens direct Bitcoin and Ether trading inside its app"
+    "BTC/USD | Bitcoin Bounces From FVG, But Bears Still in Control!",
+    "Be Careful With Saylor’s MSTR Pitch as Bitcoin Outperforms Too"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.080889305 | 🚶 0.081889305 | 🚀 0.090889305 Gwei",
-    "Binance hacker moves $35.52 million in ETH as $1.9 billion stays unfrozen"
+    "⛽ ETH Gas: 🐢 0.134057568 | 🚶 0.135057568 | 🚀 0.164057568 Gwei",
+    "ETH Bulls Are Showing Signs of Life, But Is It Enough?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Cournot Raises $5M to Build AI-Native Oracle for Verifiable Intelligence",
-    "The portfolio risk Toobit’s growth chief wants AI to flag before a trade"
+    "Cournot raises $5M to build an AI oracle that shows its work",
+    "Cournot Raises $5M to Build AI-Native Oracle for Verifiable Intelligence"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Tether Fun Unbelievable Details - Part VII",
+    "Polygon Labs expands Open Money Stack to Coinbase’s Base network"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 3,
-   "sentiment": "bullish",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
     "KuCoin to delist Monero on November 30, ending XMR trading support",
     "KuCoin to delist Monero across spot trading and other services on Nov. 30"
@@ -312,8 +321,8 @@
   },
   {
    "sujet": "Polygon",
-   "mentions": 3,
-   "sentiment": "bearish",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
     "Polygon brings cross-border payments stack to Coinbase’s Base network",
     "Polygon Labs expands Open Money Stack to Coinbase’s Base network"
@@ -321,28 +330,19 @@
   },
   {
    "sujet": "Coinbase",
-   "mentions": 3,
-   "sentiment": "bearish",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
     "Polygon brings cross-border payments stack to Coinbase’s Base network",
     "Polygon Labs expands Open Money Stack to Coinbase’s Base network"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Polygon Labs expands Open Money Stack to Coinbase’s Base network",
-    "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base"
-   ]
-  },
-  {
-   "sujet": "Security",
+   "sujet": "Chainlink",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "FIFA Confirms Cyberattack After Hackers Impersonate Staff to Access Personal and Business Data"
+    "Chainlink 24/7 extends tokenized asset pricing to weekends and holidays"
    ]
   }
  ],
