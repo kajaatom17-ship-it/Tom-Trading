@@ -1582,11 +1582,18 @@
  ],
  "alertes": [
   {
+   "sym": "AI",
+   "horizon": "15 min",
+   "variation_pct": -2.6,
+   "prix": 0.01463,
+   "t": "2026-11-26T02:07:54Z"
+  },
+  {
    "sym": "ETC",
    "horizon": "15 min",
    "variation_pct": -2.57,
    "prix": 5.605,
-   "t": "2026-11-26T02:06:58Z"
+   "t": "2026-11-26T02:07:54Z"
   },
   {
    "sym": "MON",
@@ -1594,13 +1601,6 @@
    "variation_pct": 2.69,
    "prix": 0.01031,
    "t": "2026-11-26T00:55:55Z"
-  },
-  {
-   "sym": "AI",
-   "horizon": "15 min",
-   "variation_pct": 2.61,
-   "prix": 0.01532,
-   "t": "2026-11-26T00:38:46Z"
   },
   {
    "sym": "AMD",
@@ -1663,5 +1663,5 @@
  "erreurs_sources": [
   "Google (SEC crypto): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-26T02:06:58Z"
+ "t": "2026-11-26T02:07:54Z"
 }
