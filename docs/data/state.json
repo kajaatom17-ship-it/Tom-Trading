@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.3023408444542,
+   "dernier_prix": 558.3277878558602,
    "atr": 2.771652,
    "rollover": 0.8279948165624821,
    "rollover_periodes": 43
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.89710493692117,
+   "dernier_prix": 96.90152143592923,
    "atr": 1.08547,
    "rollover": 0.6567528160624465,
    "rollover_periodes": 43
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T22:39:00Z",
+   "verifie_jusqu_a": "2026-11-26T22:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.583169255451,
+   "dernier_prix": 581.6096773899488,
    "atr": 3.304099,
    "rollover": 0.827153452365512,
    "rollover_periodes": 43
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T22:39:00Z",
+   "verifie_jusqu_a": "2026-11-26T22:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.311e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T22:39:00Z",
+   "verifie_jusqu_a": "2026-11-26T22:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55122.4,
+   "dernier_prix": 55153.5,
    "atr": 640.9446,
    "rollover": 0.2974270141342973,
    "rollover_periodes": 17
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T22:39:28Z",
+ "maj": "2026-11-26T22:41:29Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -160,7 +160,7 @@
   "2026-11-26": 495.75
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-26T22:35:35Z",
+ "chasseur_t": "2026-11-26T22:41:24Z",
  "tendance": [
   "PENGU",
   "XTZ",
@@ -257,24 +257,24 @@
   }
  },
  "buzz_t": "2026-11-26T22:35:36Z",
- "sources_t": "2026-11-26T22:20:57Z",
+ "sources_t": "2026-11-26T22:41:28Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 8,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "JERA plans AI data centers beside its power plants with Dell and RHAELM",
-    "Japan’s JERA is in talks with Amazon, Microsoft and Google over the AI power crunch"
+    "Cryptio AI breach exposes risk across crypto's shared infrastructure",
+    "JERA plans AI data centers beside its power plants with Dell and RHAELM"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "bearish",
    "titres": [
-    "Here’s what happened in crypto today",
-    "Bitcoin Bounced 10.5%. Can Buyers Turn $62.2K Into Support?"
+    "Bitcoin Near US$60,000: Extreme Fear and US$6.8bn Options Expiry",
+    "Here’s what happened in crypto today"
    ]
   },
   {
@@ -284,6 +284,24 @@
    "titres": [
     "Here’s what happened in crypto today",
     "Parex Resources Secures Regulatory Approval for Colombian Dual Listing, Awaits Exchange Clearance"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.046247167 | 🚶 0.046257167 | 🚀 0.048073892 Gwei",
+    "ETHUSD: Bottom similar to 2022. Bull Cycle targets $5,800."
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Cryptio AI breach exposes risk across crypto's shared infrastructure",
+    "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack"
    ]
   },
   {
@@ -302,24 +320,6 @@
    "titres": [
     "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
     "BNB Chain details new layer-1 for trading, private finance and AI"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
-    "Binance completes withdrawal recovery four weeks after $6.3B hack"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "ETHUSD: Bottom similar to 2022. Bull Cycle targets $5,800.",
-    "Ethereum ICO Whale Hits the Jackpot Turning $31K Into $87M"
    ]
   },
   {
