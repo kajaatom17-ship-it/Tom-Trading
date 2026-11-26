@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T09:03:00Z",
+   "verifie_jusqu_a": "2026-11-26T09:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.4805186515789,
+   "dernier_prix": 558.444873992487,
    "atr": 2.771652,
    "rollover": 0.7702277363371927,
    "rollover_periodes": 40
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T09:03:00Z",
+   "verifie_jusqu_a": "2026-11-26T09:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.92802888692339,
+   "dernier_prix": 96.92184251796199,
    "atr": 1.08547,
    "rollover": 0.6109328521511131,
    "rollover_periodes": 40
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T09:03:00Z",
+   "verifie_jusqu_a": "2026-11-26T09:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.8234870382697,
+   "dernier_prix": 581.7863525292681,
    "atr": 3.304099,
    "rollover": 0.7694450719679181,
    "rollover_periodes": 40
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T09:03:00Z",
+   "verifie_jusqu_a": "2026-11-26T09:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.311e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T09:03:00Z",
+   "verifie_jusqu_a": "2026-11-26T09:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55402.6,
+   "dernier_prix": 55402.1,
    "atr": 640.9446,
    "rollover": 0.24493989399295069,
    "rollover_periodes": 14
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T09:03:23Z",
+ "maj": "2026-11-26T09:04:22Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -277,68 +277,67 @@
   }
  },
  "buzz_t": "2026-11-26T09:02:19Z",
- "sources_t": "2026-11-26T08:44:32Z",
+ "sources_t": "2026-11-26T09:04:20Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 10,
    "sentiment": "bearish",
    "titres": [
-    "Arthur Hayes Sees BTC at $1 Million After an AI Bailout, but First a Drop to $50K",
-    "BITCOIN COULD CRASH TO $54K AS AI TREATS SPARK PANIC"
-   ]
-  },
-  {
-   "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "bearish",
-   "titres": [
-    "Arthur Hayes Sees BTC at $1 Million After an AI Bailout, but First a Drop to $50K",
-    "European stock markets are expected to open higher"
+    "Spot bitcoin ETFs on track for worst month on record as bear market drags on",
+    "Why Crypto Markets React to Treasury Yields"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 3,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "A Veteran Trader's $500 Ethereum Crash Call: What the ETH Chart Says Now",
-    "Ethereum Price Bounce Rests on Short Squeezes as Funds Pull Cash, Analyst Warns"
+    "⛽ ETH Gas: 🐢 0.075099451 | 🚶 0.075104878 | 🚀 0.076199451 Gwei",
+    "A Veteran Trader's $500 Ethereum Crash Call: What the ETH Chart Says Now"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 3,
-   "sentiment": "neutral",
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "bearish",
    "titres": [
-    "Canadian drone and robotics manufacturer Indrocorp plans to go public in the US, aiming to raise $18 million through an IPO.",
-    "Obesity and cachexia pharmaceutical company Kalohexis (KHXS.US) files for Nasdaq IPO, plans to raise $35 million"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Standard Chartered Puts a $12.60 Target on XRP for 2028 While the Chart Leans Bearish",
-    "XRP/USD: EMA55 Reclaim Test Opens Path to 1.026 Swing"
-   ]
-  },
-  {
-   "sujet": "Layer 2",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "ARB Drops 20% in a Week Even as Variational Pushes $59B of Perps Through Arbitrum",
-    "以太坊 L2 今年迄今向主网支付 63 万美元，较 2023 年下降 99%"
+    "Global stocks rally as investors shrug off U.S. tariffs and AI jitters",
+    "Arthur Hayes Sees BTC at $1 Million After an AI Bailout, but First a Drop to $50K"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
+    "Spot bitcoin ETFs on track for worst month on record as bear market drags on",
     "Hyperliquid Price Prediction: HYPE Edges Closer to a 9% Drop Before the Dec. 1 ETF Add"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "LTCUSDT - Short squeeze resistance before fall",
+    "Abraxas Capital 从 Binance 提取 1.1 万枚 ETH，约合 1855 万美元"
+   ]
+  },
+  {
+   "sujet": "Layer 2",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "ARB Drops 20% in a Week Even as Variational Pushes $59B of Perps Through Arbitrum"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Standard Chartered Puts a $12.60 Target on XRP for 2028 While the Chart Leans Bearish"
    ]
   },
   {
