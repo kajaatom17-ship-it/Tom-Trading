@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T04:57:00Z",
+   "verifie_jusqu_a": "2026-11-26T04:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.8780100555703,
+   "dernier_prix": 558.8831097727895,
    "atr": 2.771652,
    "rollover": 0.7509720429287629,
    "rollover_periodes": 39
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T04:57:00Z",
+   "verifie_jusqu_a": "2026-11-26T04:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.99701617833581,
+   "dernier_prix": 96.99790126836389,
    "atr": 1.08547,
    "rollover": 0.5956595308473354,
    "rollover_periodes": 39
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T04:57:00Z",
+   "verifie_jusqu_a": "2026-11-26T04:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 583.8709383069778,
+   "dernier_prix": 583.8762660826717,
    "atr": 3.304099,
    "rollover": 0.7502089451687202,
    "rollover_periodes": 39
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T04:57:00Z",
+   "verifie_jusqu_a": "2026-11-26T04:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.325e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T04:57:00Z",
+   "verifie_jusqu_a": "2026-11-26T04:58:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55512.0,
+   "dernier_prix": 55507.1,
    "atr": 640.9446,
    "rollover": 0.22744418727916849,
    "rollover_periodes": 13
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T04:58:00Z",
+ "maj": "2026-11-26T04:58:59Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -282,29 +282,38 @@
   }
  },
  "buzz_t": "2026-11-26T04:55:04Z",
- "sources_t": "2026-11-26T04:39:16Z",
+ "sources_t": "2026-11-26T04:58:57Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "bullish",
+   "mentions": 4,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin (BTC): Oversold Bounce Meets Key Resistance",
-    "Coinbase CEO Says Investors Swap Bitcoin for Big IPOs, Then Rotate Back"
+    "Switzerland’s Crypto Tax Data Deal Could Make Bitcoin Holdings Less Private",
+    "Bitcoin Price Prediction: Can Bulls Break $61,600?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 6,
-   "sentiment": "bullish",
+   "mentions": 4,
+   "sentiment": "bearish",
    "titres": [
-    "Anthropic CEO Amodei denies wanting humanity to ‘surrender’ free will to AI",
-    "FCC 批准 SpaceX 部署百萬顆軌道 AI 衛星，能否商業化還是未知數"
+    "There Is No Rogue AI: The Real Threat Is The Coming AI Patriot Act",
+    "China’s domestic AI chip output could rise nearly sixfold by 2030, UBS says"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
+    "Why is Alphabet stock sliding? Key factors behind the sell-off"
    ]
   },
   {
    "sujet": "Coinbase",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
     "数据：疑似 Erik Voorhees 关联钱包向 Coinbase 存入 81463 枚 VVV",
@@ -312,43 +321,35 @@
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "ETH Breakout to the Downside"
-   ]
-  },
-  {
-   "sujet": "Security",
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "1Password stretches invite and recovery codes after GitHub breach"
+    "Bitcoin Price Prediction: Can Bulls Break $61,600?"
    ]
   },
   {
-   "sujet": "Cardano",
+   "sujet": "Chainlink",
    "mentions": 1,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "$ADA ’s Monthly Support Is Breaking Down — $0.082 Could Be Next"
+    "Fidelity Files for Chainlink ETF. What Does It Mean for LINK?"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "ETF",
    "mentions": 1,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "XRPUSDT (4H) – Bearish Structure, Trap Points to 0.859"
+    "Fidelity Files for Chainlink ETF. What Does It Mean for LINK?"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Institutions",
    "mentions": 1,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "LINKUSDT - Daily Downtrend Meets Key Demand Zone"
+    "Fidelity Files for Chainlink ETF. What Does It Mean for LINK?"
    ]
   }
  ],
