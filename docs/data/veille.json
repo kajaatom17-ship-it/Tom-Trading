@@ -1591,17 +1591,17 @@
  ],
  "alertes": [
   {
+   "sym": "AMD",
+   "horizon": "15 min",
+   "variation_pct": 2.22,
+   "prix": 380.25652479101524,
+   "t": "2026-11-26T00:33:02Z"
+  },
+  {
    "sym": "MSTR",
    "horizon": "15 min",
    "variation_pct": -1.65,
    "prix": 75.41751750291716,
-   "t": "2026-11-26T00:32:04Z"
-  },
-  {
-   "sym": "AMD",
-   "horizon": "15 min",
-   "variation_pct": 2.22,
-   "prix": 380.25999124854144,
    "t": "2026-11-26T00:32:04Z"
   },
   {
@@ -1679,5 +1679,5 @@
  "erreurs_sources": [
   "Google (crypto hack exploit): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-26T00:32:04Z"
+ "t": "2026-11-26T00:33:02Z"
 }
