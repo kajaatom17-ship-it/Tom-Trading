@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-25T14:41:45Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ORCL -3.0 % en 15 min"
- },
- {
-  "t": "2026-11-25T14:45:43Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "604 actifs hors univers analysés, 20 en mouvement : ZEC -8.3 %, SKHY -8.2 %, USELESS -8.6 %."
- },
- {
   "t": "2026-11-25T14:45:43Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2740,5 +2728,21 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "453 actifs hors univers analysés, 5 en mouvement : SYRUP +9.9 %, SEI +7.0 %, B2 +6.9 %."
+ },
+ {
+  "t": "2026-11-26T08:51:39Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, géopolitique] European stocks rally as tech and banks rebound, tariff fears ease (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-26T08:51:39Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "ICNT -2.56 % en 15 min"
  }
 ]
