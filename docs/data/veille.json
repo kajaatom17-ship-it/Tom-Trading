@@ -1584,6 +1584,13 @@
  ],
  "alertes": [
   {
+   "sym": "VVV",
+   "horizon": "15 min",
+   "variation_pct": -2.58,
+   "prix": 24.926,
+   "t": "2026-11-26T07:28:02Z"
+  },
+  {
    "sym": "BLUR",
    "horizon": "15 min",
    "variation_pct": 2.69,
@@ -1603,13 +1610,6 @@
    "variation_pct": -1.6,
    "prix": 135.23819950006387,
    "t": "2026-11-26T06:15:28Z"
-  },
-  {
-   "sym": "VVV",
-   "horizon": "15 min",
-   "variation_pct": 3.02,
-   "prix": 25.708,
-   "t": "2026-11-26T05:45:05Z"
   },
   {
    "sym": "ICNT",
@@ -1635,5 +1635,5 @@
  ],
  "t_actus": "2026-11-26T07:23:11Z",
  "erreurs_sources": [],
- "t": "2026-11-26T07:26:03Z"
+ "t": "2026-11-26T07:28:02Z"
 }
