@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.139534883721,
+   "dernier_prix": 558.1649670558002,
    "atr": 2.771652,
    "rollover": 0.7702277363371927,
    "rollover_periodes": 40
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.86884887366043,
+   "dernier_prix": 96.87326279720406,
    "atr": 1.08547,
    "rollover": 0.6109328521511131,
    "rollover_periodes": 40
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T09:35:00Z",
+   "verifie_jusqu_a": "2026-11-26T09:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 579.4725523073558,
+   "dernier_prix": 579.7723523890241,
    "atr": 3.304099,
    "rollover": 0.7694450719679181,
    "rollover_periodes": 40
@@ -92,10 +92,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T09:29:00Z",
+   "verifie_jusqu_a": "2026-11-26T09:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.311e-06,
+   "dernier_prix": 3.317e-06,
    "atr": 3.3103e-08,
    "rollover": 0.07999118560086826,
    "rollover_periodes": 14
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T09:35:00Z",
+   "verifie_jusqu_a": "2026-11-26T09:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55345.2,
+   "dernier_prix": 55457.2,
    "atr": 640.9446,
    "rollover": 0.24493989399295069,
    "rollover_periodes": 14
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T09:35:55Z",
+ "maj": "2026-11-26T09:37:56Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -160,7 +160,7 @@
   "2026-11-26": 495.75
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-26T09:31:57Z",
+ "chasseur_t": "2026-11-26T09:37:51Z",
  "tendance": [
   "VVV",
   "BTC",
@@ -192,8 +192,8 @@
   },
   "CRWV": {
    "source": "Reddit",
-   "mentions": 40,
-   "x_vs_hier": 3.6
+   "mentions": 39,
+   "x_vs_hier": 3.5
   },
   "SGOV": {
    "source": "Reddit",
@@ -205,22 +205,17 @@
    "mentions": 33,
    "x_vs_hier": 2.2
   },
+  "BB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OTLY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "VKTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RIOT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBRX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBKR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -230,17 +225,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BB": {
+  "RIOT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "COHR": {
+  "ALGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XLE": {
+  "IONQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LINK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZBCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XPEV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBKR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -255,7 +270,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XPEV": {
+  "SOL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -264,24 +279,9 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
-  },
-  "OPEAZZX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IONQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ICP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-26T09:19:56Z",
+ "buzz_t": "2026-11-26T09:37:52Z",
  "sources_t": "2026-11-26T09:25:55Z",
  "actus_tendance": [
   {
