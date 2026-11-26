@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-25T05:07:18Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "606 actifs hors univers analysés, 1 en mouvement : SKHY -3.0 %."
- },
- {
-  "t": "2026-11-25T05:13:11Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "606 actifs hors univers analysés, 1 en mouvement : SKHY -3.0 %."
- },
- {
   "t": "2026-11-25T05:19:08Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2801,5 +2789,23 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "AI +2.7 % en 15 min"
+ },
+ {
+  "t": "2026-11-26T00:34:56Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AG, ASTS, BIDU, CHTR, COST, CRWV, DE, DIS, DVN, ETH, HPQ, IONQ"
+ },
+ {
+  "t": "2026-11-26T00:35:00Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections - The Block (The Block)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRmdjMHoxUHhoUGR2c2x5YnlhSTYwWmFodVk2dWNzYkFJS25zYlM2d24zZ2xkbVFvMFl3RHJWWVJ3MTRDUmRsZVRuVk5qRmJHOFJZVFIzUjlQZUtZM0FfVnRLbjFaQ2tfdzhpa3pOazB2aG5WTXVUb0VfU1dORkJucUVLU3lobUcyVzhxZVlfbzhmc0w3aTdGNnloQ25BUFUydF9TbnctQjN5ZkZqSTM5bGFwX3p5QzRhWl9ZV29NT09wWmc0eXhfakk3RlBFNEt3aHIw?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
  }
 ]

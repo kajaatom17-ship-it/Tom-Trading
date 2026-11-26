@@ -1,38 +1,37 @@
 {
- "t": "2026-11-26T00:29:15Z",
+ "t": "2026-11-26T00:34:56Z",
  "nb_analyses": 606,
  "nb_en_mouvement": 0,
  "tendance": [
   "AAVE",
   "AG",
   "ASTS",
+  "BIDU",
   "BTC",
+  "CHTR",
   "COST",
   "CRWV",
   "DE",
   "DIS",
   "DRV",
+  "DVN",
   "ETH",
   "HPQ",
   "HYPE",
   "IONQ",
-  "IONS",
-  "KHC",
   "KNTQ",
   "LINK",
   "LIT",
-  "LNG",
-  "MLTX",
   "NBIS",
   "NIGHT",
   "NOW",
   "OTLY",
   "PEARL",
   "PENGU",
-  "PL",
   "PUMP",
   "QQQ",
   "SGOV",
+  "SNDK",
   "SUI",
   "TAC",
   "VOO",
@@ -46,33 +45,33 @@
  "buzz_reseaux": {
   "ETH": {
    "source": "Reddit",
-   "mentions": 64,
-   "x_vs_hier": 2.2
+   "mentions": 66,
+   "x_vs_hier": 2.3
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 290,
+   "mentions": 288,
    "x_vs_hier": 2.2
   },
   "VOO": {
    "source": "Reddit",
-   "mentions": 88,
-   "x_vs_hier": 2.3
+   "mentions": 90,
+   "x_vs_hier": 2.4
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 54,
-   "x_vs_hier": 2.1
+   "mentions": 55,
+   "x_vs_hier": 2.2
   },
   "ASTS": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 50,
    "x_vs_hier": 8.3
   },
   "CRWV": {
    "source": "Reddit",
-   "mentions": 40,
-   "x_vs_hier": 4.0
+   "mentions": 41,
+   "x_vs_hier": 4.6
   },
   "SGOV": {
    "source": "Reddit",
@@ -94,12 +93,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AG": {
+  "WLFI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WLFI": {
+  "XERS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -119,12 +123,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XERS": {
+  "DIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIS": {
+  "CHTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SNDK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BIDU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -134,32 +148,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "DVN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "NIGHT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LNG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IONS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KHC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MLTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
