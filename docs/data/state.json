@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T06:18:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.6893859233044,
+   "dernier_prix": 558.6435236279723,
    "atr": 2.771652,
    "rollover": 0.7509720429287629,
    "rollover_periodes": 39
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T06:18:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.96427919874485,
+   "dernier_prix": 96.95631949068289,
    "atr": 1.08547,
    "rollover": 0.5956595308473354,
    "rollover_periodes": 39
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T06:18:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 579.8518626628234,
+   "dernier_prix": 579.8042631593348,
    "atr": 3.304099,
    "rollover": 0.7502089451687202,
    "rollover_periodes": 39
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T06:18:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.294e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T06:18:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55044.0,
+   "dernier_prix": 55018.2,
    "atr": 640.9446,
    "rollover": 0.22744418727916849,
    "rollover_periodes": 13
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T06:18:24Z",
+ "maj": "2026-11-26T06:19:22Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -277,24 +277,24 @@
   }
  },
  "buzz_t": "2026-11-26T06:05:45Z",
- "sources_t": "2026-11-26T05:59:41Z",
+ "sources_t": "2026-11-26T06:19:21Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 4,
-   "sentiment": "neutral",
+   "mentions": 6,
+   "sentiment": "bearish",
    "titres": [
-    "Renting compute time on supercomputers (with bitcoin?)",
-    "Matt Hougan Sees Bitcoin Surging to $1.6M and Calls That Target Conservative"
+    "Btc with Bearish Structure will make new lows!!!",
+    "Here’s what happened in crypto today"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 3,
+   "sujet": "AI",
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "South Korea's Draft Crypto Law Caps Exchange Owners at 20%",
-    "SBI brings Japanese stocks to Solana but investors face a five-day wait to cash out"
+    "How Chinese companies circumvent chips sanctions in Southeast Asia",
+    "BITCOIN - The hunt for liquidity before the decline"
    ]
   },
   {
@@ -302,51 +302,53 @@
    "mentions": 3,
    "sentiment": "bearish",
    "titres": [
-    "South Korea's Draft Crypto Law Caps Exchange Owners at 20%",
-    "1Password hacker stole customer names and emails, but vaults safe"
+    "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
+    "South Korea's Draft Crypto Law Caps Exchange Owners at 20%"
    ]
   },
   {
-   "sujet": "AI",
+   "sujet": "ETF",
    "mentions": 3,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "There Is No Rogue AI: The Real Threat Is The Coming AI Patriot Act",
-    "China’s domestic AI chip output could rise nearly sixfold by 2030, UBS says"
+    "BTC/USD Rebounds Above $60,800 Amid Record ETF Outflows",
+    "比特币现货 ETF 昨日总净流出 4.53 亿美元，贝莱德 IBIT 净流出 3.3 亿美元居首"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today",
+    "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report"
    ]
   },
   {
    "sujet": "SEC/Regulation",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions",
-    "Why is Alphabet stock sliding? Key factors behind the sell-off"
+    "Here’s what happened in crypto today",
+    "Nvidia halts chip shipments to Southeast Asia amid US export controls: FT"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Binance",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "ETH Breakout to the Downside",
-    "A Veteran Trader's $500 Ethereum Crash Call: What the ETH Chart Says Now"
+    "BITCOIN - The hunt for liquidity before the decline",
+    "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report"
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 1,
+   "sujet": "Stablecoins",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "SBI brings Japanese stocks to Solana but investors face a five-day wait to cash out"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "数据：疑似 Erik Voorhees 关联钱包向 Coinbase 存入 81463 枚 VVV"
+    "HSBC Stablecoin Draws 100,000 Users a Month After Hong Kong Launch",
+    "South Korea's Draft Crypto Law Caps Exchange Owners at 20%"
    ]
   }
  ],
