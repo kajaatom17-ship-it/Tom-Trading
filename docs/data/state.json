@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.2361894692709,
+   "dernier_prix": 558.2107508065839,
    "atr": 2.771652,
    "rollover": 0.7894834297456225,
    "rollover_periodes": 41
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.88562392336648,
+   "dernier_prix": 96.88120887333442,
    "atr": 1.08547,
    "rollover": 0.6262061734548909,
    "rollover_periodes": 41
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T15:33:00Z",
+   "verifie_jusqu_a": "2026-11-26T15:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.7851107850197,
+   "dernier_prix": 580.75864457447,
    "atr": 3.304099,
    "rollover": 0.7886811987671161,
    "rollover_periodes": 41
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T15:33:00Z",
+   "verifie_jusqu_a": "2026-11-26T15:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.293e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T15:33:00Z",
+   "verifie_jusqu_a": "2026-11-26T15:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54930.0,
+   "dernier_prix": 54951.8,
    "atr": 640.9446,
    "rollover": 0.2799313074205151,
    "rollover_periodes": 16
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T15:33:33Z",
+ "maj": "2026-11-26T15:34:38Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -267,42 +267,33 @@
   }
  },
  "buzz_t": "2026-11-26T15:26:35Z",
- "sources_t": "2026-11-26T15:14:35Z",
+ "sources_t": "2026-11-26T15:34:30Z",
  "actus_tendance": [
-  {
-   "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "bearish",
-   "titres": [
-    "BTC/USD | Bitcoin Bounces From FVG, But Bears Still in Control!",
-    "Be Careful With Saylor’s MSTR Pitch as Bitcoin Outperforms Too"
-   ]
-  },
   {
    "sujet": "Ethereum",
    "mentions": 4,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.134057568 | 🚶 0.135057568 | 🚀 0.164057568 Gwei",
-    "ETH Bulls Are Showing Signs of Life, But Is It Enough?"
+    "⛽ ETH Gas: 🐢 0.196065204 | 🚶 0.19608964 | 🚀 0.203028955 Gwei",
+    "ETH 1D — Squeeze breakout ran +7.5%, then gave it all back"
    ]
   },
   {
    "sujet": "AI",
    "mentions": 4,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "Cournot raises $5M to build an AI oracle that shows its work",
-    "Cournot Raises $5M to Build AI-Native Oracle for Verifiable Intelligence"
+    "AI Math Breakthroughs Ignite RSA Crack Rumors and Bitcoin Security Debate",
+    "Huawei to unveil HBM design with double the data connections of HBM4"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "sujet": "Bitcoin",
+   "mentions": 3,
+   "sentiment": "bullish",
    "titres": [
-    "Tether Fun Unbelievable Details - Part VII",
-    "Polygon Labs expands Open Money Stack to Coinbase’s Base network"
+    "AI Math Breakthroughs Ignite RSA Crack Rumors and Bitcoin Security Debate",
+    "BITCOIN : HALVING & PRICE PREDICTION"
    ]
   },
   {
@@ -310,34 +301,41 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "KuCoin to delist Monero on November 30, ending XMR trading support",
-    "KuCoin to delist Monero across spot trading and other services on Nov. 30"
+    "Authorities complete 2026 review of payments Memorandum of Understanding",
+    "Injective urges SEC to expand tokenized stock trading exemption to onchain order books"
    ]
   },
   {
-   "sujet": "Polygon",
+   "sujet": "DeFi",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Polygon brings cross-border payments stack to Coinbase’s Base network",
-    "Polygon Labs expands Open Money Stack to Coinbase’s Base network"
+    "BNB Chain’s New Blockchain Hides Who Is Trading, But Not What They Trade",
+    "Injective urges SEC to expand tokenized stock trading exemption to onchain order books"
    ]
   },
   {
-   "sujet": "Coinbase",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "bearish",
    "titres": [
-    "Polygon brings cross-border payments stack to Coinbase’s Base network",
-    "Polygon Labs expands Open Money Stack to Coinbase’s Base network"
+    "US-dollar stablecoin supply falls $20.7 billion in 2026 as November posts steepest monthly drop since 2022"
    ]
   },
   {
-   "sujet": "Chainlink",
+   "sujet": "Binance",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Chainlink 24/7 extends tokenized asset pricing to weekends and holidays"
+    "BNB Chain’s New Blockchain Hides Who Is Trading, But Not What They Trade"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "SOL Jumps 6% to $71 as SBI Solana Global Goes Live, but the Month Is Still Down 29%"
    ]
   }
  ],
