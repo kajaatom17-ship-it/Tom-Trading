@@ -1,7 +1,7 @@
 {
- "t": "2026-11-26T01:09:30Z",
+ "t": "2026-11-26T01:15:14Z",
  "nb_analyses": 454,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AAVE",
   "AKT",
@@ -164,6 +164,27 @@
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "VVV",
+   "pair": "VVVEUR",
+   "action": false,
+   "variation_24h_pct": 3.56,
+   "volume_24h_eur": 1036800.94,
+   "spread_pct": 0.0399,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "AKT",
+   "pair": "AKTEUR",
+   "action": false,
+   "variation_24h_pct": 3.06,
+   "volume_24h_eur": 150691.15,
+   "spread_pct": 0.1797,
+   "tendance": true,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
