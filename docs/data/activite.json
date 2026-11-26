@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-25T16:40:07Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "HOOD -1.75 % en 15 min"
- },
- {
-  "t": "2026-11-25T16:42:02Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, AMBA, AMZN, BMNR, CRWV, DE, DELL, ETH, GOOG, HPQ, KSS, LRCX"
- },
- {
   "t": "2026-11-25T16:42:06Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2737,5 +2725,23 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "454 actifs hors univers analysés, 8 en mouvement : B2 +11.3 %, SEI +10.7 %, SYRUP +7.8 %."
+ },
+ {
+  "t": "2026-11-26T14:01:30Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, macro, géopolitique] Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets (Decrypt)",
+  "data": {
+   "lien": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-26T14:02:30Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 1 signal(aux) : ARB short (SWG-1, 80)"
  }
 ]
