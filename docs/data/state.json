@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.4041428102549,
+   "dernier_prix": 558.4194163072912,
    "atr": 2.771652,
    "rollover": 0.8087391231540523,
    "rollover_periodes": 42
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.91477334889318,
+   "dernier_prix": 96.91742416644632,
    "atr": 1.08547,
    "rollover": 0.6414794947586687,
    "rollover_periodes": 42
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T17:32:00Z",
+   "verifie_jusqu_a": "2026-11-26T17:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.3854709893877,
+   "dernier_prix": 580.401345720772,
    "atr": 3.304099,
    "rollover": 0.807917325566314,
    "rollover_periodes": 42
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T17:32:00Z",
+   "verifie_jusqu_a": "2026-11-26T17:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.314e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T17:32:00Z",
+   "verifie_jusqu_a": "2026-11-26T17:33:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55062.8,
+   "dernier_prix": 55068.8,
    "atr": 640.9446,
    "rollover": 0.2799313074205151,
    "rollover_periodes": 16
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T17:32:28Z",
+ "maj": "2026-11-26T17:33:26Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -257,11 +257,11 @@
   }
  },
  "buzz_t": "2026-11-26T17:31:26Z",
- "sources_t": "2026-11-26T17:13:44Z",
+ "sources_t": "2026-11-26T17:33:25Z",
  "actus_tendance": [
   {
    "sujet": "ETF",
-   "mentions": 7,
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
     "YieldMax™ GOOGL Option Income Strategy ETF declares $0.0648 dividend",
@@ -269,21 +269,30 @@
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "bearish",
+   "sujet": "AI",
+   "mentions": 4,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin close to breakout, but fear could stop it",
-    "Bitcoin dormant supply climbs toward 69% as holders sit tight through the slump"
+    "Bank of America’s Hartnett maps S&P 500 scenarios of 6,666, 7,777, and 8,888 for 2027",
+    "Dutch groups seek court order to halt Meta smart glasses sales over privacy concerns"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Bitcoin",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin dormant supply climbs toward 69% as holders sit tight through the slump",
+    "JPMorgan flags Strategy’s record-low mNAV as a Bitcoin capitulation signal"
+   ]
+  },
+  {
+   "sujet": "Solana",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.254270625 | 🚶 0.255502467 | 🚀 0.304270625 Gwei",
-    "Stellar adds $80.4 million in tokenized fund value in a single day"
+    "SOL's Holiday Rebound: Can Buyers Clear $71.83?",
+    "SOL Long Setup – Major Support Holding Strong"
    ]
   },
   {
@@ -296,15 +305,6 @@
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Jensen Huang’s return to Nvidia exposes risks of concentrated AI infrastructure, io.net strategist says",
-    "Chip sellers threaten to cut off neoclouds that rent Nvidia GPUs to Chinese firms"
-   ]
-  },
-  {
    "sujet": "Security",
    "mentions": 2,
    "sentiment": "neutral",
@@ -314,19 +314,11 @@
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SOL Long Setup – Major Support Holding Strong"
-   ]
-  },
-  {
-   "sujet": "Cardano",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "Cardano Price Prediction: ADA Nears a 10% Crash Back to $0.13 After the German Bank Pop"
+    "Stellar adds $80.4 million in tokenized fund value in a single day"
    ]
   }
  ],
