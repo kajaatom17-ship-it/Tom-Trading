@@ -1,5 +1,5 @@
 {
- "t": "2026-11-26T12:31:45Z",
+ "t": "2026-11-26T12:37:02Z",
  "nb_analyses": 453,
  "nb_en_mouvement": 6,
  "tendance": [
@@ -143,12 +143,22 @@
  },
  "candidats": [
   {
+   "sym": "SKY",
+   "pair": "SKYEUR",
+   "action": false,
+   "variation_24h_pct": 13.01,
+   "volume_24h_eur": 143404.25,
+   "spread_pct": 0.1387,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "SEI",
    "pair": "SEIEUR",
    "action": false,
-   "variation_24h_pct": 12.08,
-   "volume_24h_eur": 83308.05,
-   "spread_pct": 0.1175,
+   "variation_24h_pct": 11.78,
+   "volume_24h_eur": 83738.07,
+   "spread_pct": 0.1472,
    "tendance": true,
    "impulsion": null
   },
@@ -158,17 +168,7 @@
    "action": false,
    "variation_24h_pct": 12.17,
    "volume_24h_eur": 45024.92,
-   "spread_pct": 0.2868,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "SKY",
-   "pair": "SKYEUR",
-   "action": false,
-   "variation_24h_pct": 11.02,
-   "volume_24h_eur": 132142.19,
-   "spread_pct": 0.1647,
+   "spread_pct": 0.4172,
    "tendance": false,
    "impulsion": null
   },
@@ -176,9 +176,9 @@
    "sym": "SYRUP",
    "pair": "SYRUPEUR",
    "action": false,
-   "variation_24h_pct": 9.55,
-   "volume_24h_eur": 232422.35,
-   "spread_pct": 0.151,
+   "variation_24h_pct": 9.33,
+   "volume_24h_eur": 232532.82,
+   "spread_pct": 0.3027,
    "tendance": false,
    "impulsion": null
   },
@@ -186,9 +186,9 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": -6.03,
-   "volume_24h_eur": 6635559.8,
-   "spread_pct": 0.0528,
+   "variation_24h_pct": -6.06,
+   "volume_24h_eur": 6579095.48,
+   "spread_pct": 0.0605,
    "tendance": true,
    "impulsion": null
   },
