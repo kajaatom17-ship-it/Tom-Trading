@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.3074300611652,
+   "dernier_prix": 558.3379673099538,
    "atr": 2.771652,
    "rollover": 0.7894834297456225,
    "rollover_periodes": 41
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.89798820451583,
+   "dernier_prix": 96.90328814826294,
    "atr": 1.08547,
    "rollover": 0.6262061734548909,
    "rollover_periodes": 41
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T16:33:00Z",
+   "verifie_jusqu_a": "2026-11-26T16:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.0597704711813,
+   "dernier_prix": 581.0915521846541,
    "atr": 3.304099,
    "rollover": 0.7886811987671161,
    "rollover_periodes": 41
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T16:33:00Z",
+   "verifie_jusqu_a": "2026-11-26T16:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.313e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T16:33:00Z",
+   "verifie_jusqu_a": "2026-11-26T16:34:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55057.7,
+   "dernier_prix": 55025.4,
    "atr": 640.9446,
    "rollover": 0.2799313074205151,
    "rollover_periodes": 16
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T16:33:18Z",
+ "maj": "2026-11-26T16:34:17Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -267,67 +267,57 @@
   }
  },
  "buzz_t": "2026-11-26T16:20:24Z",
- "sources_t": "2026-11-26T16:14:21Z",
+ "sources_t": "2026-11-26T16:34:15Z",
  "actus_tendance": [
   {
-   "sujet": "Ethereum",
-   "mentions": 4,
-   "sentiment": "bearish",
+   "sujet": "Bitcoin",
+   "mentions": 5,
+   "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.196065204 | 🚶 0.19608964 | 🚀 0.203028955 Gwei",
-    "ETH 1D — Squeeze breakout ran +7.5%, then gave it all back"
+    "Bitcoin’s recovery above $60,000 faces a threat from Japan while Wall Street sleeps",
+    "JPMorgan says bitcoin ‘capitulation’ signaled by Strategy’s record-low NAV multiple"
    ]
   },
   {
    "sujet": "AI",
+   "mentions": 5,
+   "sentiment": "bullish",
+   "titres": [
+    "Chip sellers threaten to cut off neoclouds that rent Nvidia GPUs to Chinese firms",
+    "Meta and Walmart team up to put the Muse AI agent in your shopping cart"
+   ]
+  },
+  {
+   "sujet": "ETF",
    "mentions": 4,
-   "sentiment": "bullish",
-   "titres": [
-    "AI Math Breakthroughs Ignite RSA Crack Rumors and Bitcoin Security Debate",
-    "Huawei to unveil HBM design with double the data connections of HBM4"
-   ]
-  },
-  {
-   "sujet": "Bitcoin",
-   "mentions": 3,
-   "sentiment": "bullish",
-   "titres": [
-    "AI Math Breakthroughs Ignite RSA Crack Rumors and Bitcoin Security Debate",
-    "BITCOIN : HALVING & PRICE PREDICTION"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Authorities complete 2026 review of payments Memorandum of Understanding",
-    "Injective urges SEC to expand tokenized stock trading exemption to onchain order books"
+    "Bitcoin’s recovery above $60,000 faces a threat from Japan while Wall Street sleeps",
+    "Amplify XRP 3% Monthly Option Income ETF declares $0.1497 dividend"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Stellar adds $80.4 million in tokenized fund value in a single day"
    ]
   },
   {
    "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "BNB Chain’s New Blockchain Hides Who Is Trading, But Not What They Trade",
-    "Injective urges SEC to expand tokenized stock trading exemption to onchain order books"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "US-dollar stablecoin supply falls $20.7 billion in 2026 as November posts steepest monthly drop since 2022"
-   ]
-  },
-  {
-   "sujet": "Binance",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BNB Chain’s New Blockchain Hides Who Is Trading, But Not What They Trade"
+    "Plume’s nOPAL tops $12 million in supply on Kamino"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Amplify XRP 3% Monthly Option Income ETF declares $0.1497 dividend"
    ]
   },
   {
@@ -335,7 +325,7 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SOL Jumps 6% to $71 as SBI Solana Global Goes Live, but the Month Is Still Down 29%"
+    "Amplify Solana 3% Monthly Option Income ETF declares $0.1521 dividend"
    ]
   }
  ],
