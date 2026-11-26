@@ -1591,6 +1591,20 @@
  ],
  "alertes": [
   {
+   "sym": "MSTR",
+   "horizon": "15 min",
+   "variation_pct": -1.65,
+   "prix": 75.41751750291716,
+   "t": "2026-11-26T00:32:04Z"
+  },
+  {
+   "sym": "AMD",
+   "horizon": "15 min",
+   "variation_pct": 2.22,
+   "prix": 380.25999124854144,
+   "t": "2026-11-26T00:32:04Z"
+  },
+  {
    "sym": "AI",
    "horizon": "15 min",
    "variation_pct": 2.56,
@@ -1598,24 +1612,10 @@
    "t": "2026-11-26T00:31:08Z"
   },
   {
-   "sym": "AMD",
-   "horizon": "15 min",
-   "variation_pct": 2.23,
-   "prix": 380.2530583966891,
-   "t": "2026-11-26T00:31:08Z"
-  },
-  {
    "sym": "HOOD",
    "horizon": "15 min",
    "variation_pct": 1.52,
    "prix": 62.05387665800628,
-   "t": "2026-11-26T00:21:38Z"
-  },
-  {
-   "sym": "MSTR",
-   "horizon": "15 min",
-   "variation_pct": 2.06,
-   "prix": 76.1383837002598,
    "t": "2026-11-26T00:21:38Z"
   },
   {
@@ -1673,25 +1673,11 @@
    "variation_pct": 4.68,
    "prix": 540.9424083769634,
    "t": "2026-11-25T19:22:38Z"
-  },
-  {
-   "sym": "ORCL",
-   "horizon": "15 min",
-   "variation_pct": 1.5,
-   "prix": 95.46224302128665,
-   "t": "2026-11-25T18:31:17Z"
-  },
-  {
-   "sym": "SNDK",
-   "horizon": "15 min",
-   "variation_pct": 2.87,
-   "prix": 65.65362273977092,
-   "t": "2026-11-25T18:31:17Z"
   }
  ],
  "t_actus": "2026-11-26T00:25:27Z",
  "erreurs_sources": [
   "Google (crypto hack exploit): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-26T00:31:08Z"
+ "t": "2026-11-26T00:32:04Z"
 }
