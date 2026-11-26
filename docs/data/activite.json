@@ -1,31 +1,5 @@
 [
  {
-  "t": "2026-11-25T16:27:16Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[chute, géopolitique] Nasdaq slides 4% as AI selloff, tariff proposals rattle Wall St (Investing.com)",
-  "data": {
-   "lien": "https://www.investing.com/news/economy-news/nasdaq-futures-slide-over-2-on-fresh-us-tariff-concerns-inflation-data-in-focus-5050138",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-25T16:27:16Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[chute, géopolitique] Nasdaq slides 4% as AI selloff, tariff proposals rattle Wall St - Reuters (Reuters)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-25T16:27:16Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "BLUR +5.22 % en 15 min"
- },
- {
   "t": "2026-11-25T16:29:12Z",
   "agent": "Scanner",
   "type": "scan",
@@ -2750,5 +2724,29 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "454 actifs hors univers analysés, 7 en mouvement : SKY +11.1 %, B2 +11.9 %, SYRUP +9.3 %."
+ },
+ {
+  "t": "2026-11-26T13:22:03Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADI, ASML, ASTS, BB, BB.TSX, CHFJPY, CRWV, DELL, DOGE, FIG, LTC, NOW"
+ },
+ {
+  "t": "2026-11-26T13:22:09Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "454 actifs hors univers analysés, 8 en mouvement : SKY +12.3 %, B2 +11.3 %, SYRUP +8.7 %."
+ },
+ {
+  "t": "2026-11-26T13:22:13Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[chute, macro, géopolitique] Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets (Decrypt)",
+  "data": {
+   "lien": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff",
+   "actifs": [
+    "BTC"
+   ]
+  }
  }
 ]
