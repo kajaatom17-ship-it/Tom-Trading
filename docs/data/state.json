@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T06:38:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:40:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.7250618038515,
+   "dernier_prix": 558.6944821987283,
    "atr": 2.771652,
    "rollover": 0.7509720429287629,
    "rollover_periodes": 39
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T06:38:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:40:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.9704709863986,
+   "dernier_prix": 96.96516369142637,
    "atr": 1.08547,
    "rollover": 0.5956595308473354,
    "rollover_periodes": 39
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T06:38:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:40:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.6369217576924,
+   "dernier_prix": 579.8662738194058,
    "atr": 3.304099,
    "rollover": 0.7502089451687202,
    "rollover_periodes": 39
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T06:38:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:40:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.31e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T06:38:00Z",
+   "verifie_jusqu_a": "2026-11-26T06:40:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55196.9,
+   "dernier_prix": 55084.5,
    "atr": 640.9446,
    "rollover": 0.22744418727916849,
    "rollover_periodes": 13
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T06:38:46Z",
+ "maj": "2026-11-26T06:40:48Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -160,7 +160,7 @@
   "2026-11-26": 495.75
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-26T06:34:52Z",
+ "chasseur_t": "2026-11-26T06:40:44Z",
  "tendance": [
   "BTC",
   "PENGU",
@@ -182,18 +182,18 @@
  "buzz": {
   "VOO": {
    "source": "Reddit",
-   "mentions": 96,
-   "x_vs_hier": 2.7
+   "mentions": 94,
+   "x_vs_hier": 2.6
   },
   "ASTS": {
    "source": "Reddit",
-   "mentions": 58,
-   "x_vs_hier": 6.4
+   "mentions": 57,
+   "x_vs_hier": 6.3
   },
   "CRWV": {
    "source": "Reddit",
-   "mentions": 42,
-   "x_vs_hier": 5.2
+   "mentions": 41,
+   "x_vs_hier": 5.1
   },
   "SGOV": {
    "source": "Reddit",
@@ -215,12 +215,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SENS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IONQ": {
+  "AFRM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -230,12 +225,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MELANIA": {
+  "KLAC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SONY": {
+  "GLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DJIA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EBAY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VKTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -245,47 +255,55 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "WDAY": {
+  "LRCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BAC": {
+  "KORU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TER": {
+  "CRM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ANET": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VXX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "EBAY": {
+  "AMBA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-26T06:23:15Z",
- "sources_t": "2026-11-26T06:19:21Z",
+ "buzz_t": "2026-11-26T06:40:45Z",
+ "sources_t": "2026-11-26T06:40:46Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 7,
    "sentiment": "bearish",
    "titres": [
-    "Btc with Bearish Structure will make new lows!!!",
-    "Here’s what happened in crypto today"
+    "Europe’s only spot bitcoin ETF starts trading in Switzerland, BIT says",
+    "Some Hopium. 4hrly BTC/USD Chart"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 5,
+   "sentiment": "neutral",
+   "titres": [
+    "TDAQ Lift ETF declares $0.0905 dividend",
+    "T-Strive Digital Credit Preferred Income ETF declares $0.0531 dividend"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-11-27)",
+    "UK DeFi Rules Could Punish an Entire Industry for Binance’s Mistake"
    ]
   },
   {
@@ -293,34 +311,34 @@
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "How Chinese companies circumvent chips sanctions in Southeast Asia",
-    "BITCOIN - The hunt for liquidity before the decline"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report",
-    "South Korea's Draft Crypto Law Caps Exchange Owners at 20%"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "BTC/USD Rebounds Above $60,800 Amid Record ETF Outflows",
-    "比特币现货 ETF 昨日总净流出 4.53 亿美元，贝莱德 IBIT 净流出 3.3 亿美元居首"
+    "How Silicon Valley became central to Israel’s war on Palestinians",
+    "How Chinese companies circumvent chips sanctions in Southeast Asia"
    ]
   },
   {
    "sujet": "DeFi",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "UK DeFi Rules Could Punish an Entire Industry for Binance’s Mistake",
+    "Here’s what happened in crypto today"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Here’s what happened in crypto today",
+    "币安合约将上线多个 U 本位 TradFi 永续合约",
+    "HSBC Stablecoin Draws 100,000 Users a Month After Hong Kong Launch"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "UK DeFi Rules Could Punish an Entire Industry for Binance’s Mistake",
     "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report"
    ]
   },
@@ -331,24 +349,6 @@
    "titres": [
     "Here’s what happened in crypto today",
     "Nvidia halts chip shipments to Southeast Asia amid US export controls: FT"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "BITCOIN - The hunt for liquidity before the decline",
-    "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "HSBC Stablecoin Draws 100,000 Users a Month After Hong Kong Launch",
-    "South Korea's Draft Crypto Law Caps Exchange Owners at 20%"
    ]
   }
  ],

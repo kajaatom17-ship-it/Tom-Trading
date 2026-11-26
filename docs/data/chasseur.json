@@ -1,58 +1,58 @@
 {
- "t": "2026-11-26T06:34:54Z",
+ "t": "2026-11-26T06:40:46Z",
  "nb_analyses": 453,
  "nb_en_mouvement": 1,
  "tendance": [
   "AERO",
-  "ANET",
+  "AFRM",
+  "AMBA",
   "ASTS",
-  "BAC",
   "BTC",
   "CASHCAT",
   "CCL",
+  "CRM",
   "CRWV",
+  "DJIA",
   "DRV",
   "EBAY",
   "ETH",
   "FUBO",
+  "GLD",
   "IMX",
-  "IONQ",
   "KAS",
+  "KLAC",
+  "KORU",
+  "LRCX",
   "LTC",
-  "MELANIA",
   "MON",
   "NEAR",
   "PEARL",
   "PENGU",
   "PI",
-  "SENS",
   "SGOV",
   "SOL",
-  "SONY",
-  "TER",
   "UNI",
+  "VKTX",
   "VOO",
   "VRTX",
   "VVV",
-  "VXX",
-  "WDAY",
   "ZRO"
  ],
  "buzz_reseaux": {
   "VOO": {
    "source": "Reddit",
-   "mentions": 96,
-   "x_vs_hier": 2.7
+   "mentions": 94,
+   "x_vs_hier": 2.6
   },
   "ASTS": {
    "source": "Reddit",
-   "mentions": 58,
-   "x_vs_hier": 6.4
+   "mentions": 57,
+   "x_vs_hier": 6.3
   },
   "CRWV": {
    "source": "Reddit",
-   "mentions": 42,
-   "x_vs_hier": 5.2
+   "mentions": 41,
+   "x_vs_hier": 5.1
   },
   "SGOV": {
    "source": "Reddit",
@@ -74,12 +74,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SENS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IONQ": {
+  "AFRM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -89,12 +84,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MELANIA": {
+  "KLAC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SONY": {
+  "GLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DJIA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EBAY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VKTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -104,32 +114,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "WDAY": {
+  "LRCX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BAC": {
+  "KORU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TER": {
+  "CRM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ANET": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VXX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "EBAY": {
+  "AMBA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -140,9 +140,9 @@
    "sym": "SYRUP",
    "pair": "SYRUPEUR",
    "action": false,
-   "variation_24h_pct": 5.82,
-   "volume_24h_eur": 224339.28,
-   "spread_pct": 0.3127,
+   "variation_24h_pct": 6.72,
+   "volume_24h_eur": 224298.26,
+   "spread_pct": 0.2791,
    "tendance": false,
    "impulsion": null
   }
