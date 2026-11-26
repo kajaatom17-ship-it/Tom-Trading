@@ -1,29 +1,5 @@
 [
  {
-  "t": "2026-11-25T16:53:45Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "MON +7.16 % en 1 h"
- },
- {
-  "t": "2026-11-25T16:57:36Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[chute, macro, géopolitique] Bitcoin Falls Further as Inflation, Trump Tariffs and AI Selloff Rattle Markets (Decrypt)",
-  "data": {
-   "lien": "https://decrypt.co/383967/bitcoin-sinks-inflation-trump-tariffs-ai-selloff",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
-  "t": "2026-11-25T16:59:31Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, AMBA, AMZN, BMNR, CRWV, DE, DELL, ETH, GLD, GOOG, HPQ, MSFT"
- },
- {
   "t": "2026-11-25T16:59:35Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2740,5 +2716,23 @@
     "BTC"
    ]
   }
+ },
+ {
+  "t": "2026-11-26T14:33:07Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PENGU, PEJAK, ZYLO, VVV, PEI, NPS, PEARL, ETH"
+ },
+ {
+  "t": "2026-11-26T14:33:08Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AC.TSX, ADI, ADUR, ALM, ASTS, B, BB.TSX, DOGE, LTC, MO, NASA, NOW"
+ },
+ {
+  "t": "2026-11-26T14:33:13Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "454 actifs hors univers analysés, 10 en mouvement : SKY +13.2 %, SEI +11.9 %, XMR -10.2 %."
  }
 ]
