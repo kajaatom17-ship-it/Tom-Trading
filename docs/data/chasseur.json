@@ -1,7 +1,7 @@
 {
- "t": "2026-11-26T02:58:25Z",
+ "t": "2026-11-26T03:04:09Z",
  "nb_analyses": 454,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AKE",
   "ASTS",
@@ -170,12 +170,28 @@
    "sym": "VVV",
    "pair": "VVVEUR",
    "action": false,
-   "variation_24h_pct": -6.0,
-   "volume_24h_eur": 1152625.93,
-   "spread_pct": 0.2076,
+   "variation_24h_pct": -7.1,
+   "volume_24h_eur": 1172792.96,
+   "spread_pct": 0.1939,
    "tendance": true,
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -6.25,
+    "volume_x": 5.1
+   }
+  },
+  {
+   "sym": "SYRUP",
+   "pair": "SYRUPEUR",
+   "action": false,
+   "variation_24h_pct": 6.59,
+   "volume_24h_eur": 193720.21,
+   "spread_pct": 0.3881,
+   "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "VVV"
+ ]
 }
