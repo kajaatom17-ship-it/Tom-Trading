@@ -1,5 +1,5 @@
 {
- "t": "2026-11-26T02:29:49Z",
+ "t": "2026-11-26T02:35:34Z",
  "nb_analyses": 454,
  "nb_en_mouvement": 2,
  "tendance": [
@@ -7,21 +7,21 @@
   "B",
   "BP",
   "BTC",
-  "C",
+  "CASHCAT",
   "CHTR",
   "COST",
+  "CRSP",
   "CRVS",
   "CRWV",
   "CURLF",
   "DE",
   "DIS",
+  "DOGE",
   "DRV",
   "ENA",
   "ETH",
   "GILD",
   "HYPE",
-  "JNUG",
-  "KRMN",
   "MANTRA",
   "MON",
   "NBIS",
@@ -35,23 +35,22 @@
   "SNDQ",
   "SOL",
   "TAO",
-  "VKTX",
+  "TDOC",
   "VOO",
   "VRTX",
   "VVV",
-  "WHR",
   "ZEC"
  ],
  "buzz_reseaux": {
   "ETH": {
    "source": "Reddit",
-   "mentions": 65,
+   "mentions": 63,
    "x_vs_hier": 2.2
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 286,
-   "x_vs_hier": 2.2
+   "mentions": 282,
+   "x_vs_hier": 2.1
   },
   "VOO": {
    "source": "Reddit",
@@ -64,9 +63,9 @@
    "x_vs_hier": 2.3
   },
   "ASTS": {
-   "source": "Reddit",
+   "source": "Reddit + StockTwits",
    "mentions": 49,
-   "x_vs_hier": 6.1
+   "x_vs_hier": 5.4
   },
   "CRWV": {
    "source": "Reddit",
@@ -75,8 +74,8 @@
   },
   "SGOV": {
    "source": "Reddit",
-   "mentions": 37,
-   "x_vs_hier": 3.7
+   "mentions": 38,
+   "x_vs_hier": 3.8
   },
   "COST": {
    "source": "Reddit",
@@ -86,14 +85,14 @@
   "NOW": {
    "source": "Reddit",
    "mentions": 31,
-   "x_vs_hier": 2.2
+   "x_vs_hier": 2.1
   },
-  "DIS": {
+  "VRTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VRTX": {
+  "DIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -103,22 +102,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CHTR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "B": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "CRVS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GILD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -128,17 +112,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "WHR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VKTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "DE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CHTR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CASHCAT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TDOC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "B": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DOGE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRSP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -148,17 +152,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "C": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "JNUG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KRMN": {
+  "GILD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -169,9 +163,9 @@
    "sym": "SYRUP",
    "pair": "SYRUPEUR",
    "action": false,
-   "variation_24h_pct": 5.44,
-   "volume_24h_eur": 192959.74,
-   "spread_pct": 0.1883,
+   "variation_24h_pct": 6.29,
+   "volume_24h_eur": 193757.82,
+   "spread_pct": 0.4359,
    "tendance": false,
    "impulsion": null
   },
@@ -179,9 +173,9 @@
    "sym": "TIA",
    "pair": "TIAEUR",
    "action": false,
-   "variation_24h_pct": 5.16,
-   "volume_24h_eur": 119118.18,
-   "spread_pct": 0.0621,
+   "variation_24h_pct": 5.72,
+   "volume_24h_eur": 119782.84,
+   "spread_pct": 0.0618,
    "tendance": false,
    "impulsion": null
   }
