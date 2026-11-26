@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.0937628137956,
+   "dernier_prix": 558.0683371298406,
    "atr": 2.771652,
    "rollover": 0.7702277363371927,
    "rollover_periodes": 40
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.86090482482118,
+   "dernier_prix": 96.85649202733485,
    "atr": 1.08547,
    "rollover": 0.6109328521511131,
    "rollover_periodes": 40
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T12:50:00Z",
+   "verifie_jusqu_a": "2026-11-26T12:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.4570139869697,
+   "dernier_prix": 581.4305239179955,
    "atr": 3.304099,
    "rollover": 0.7694450719679181,
    "rollover_periodes": 40
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T12:50:00Z",
+   "verifie_jusqu_a": "2026-11-26T12:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.319e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T12:50:00Z",
+   "verifie_jusqu_a": "2026-11-26T12:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55375.8,
+   "dernier_prix": 55411.3,
    "atr": 640.9446,
    "rollover": 0.2624356007067329,
    "rollover_periodes": 15
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T12:50:39Z",
+ "maj": "2026-11-26T12:52:41Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -160,7 +160,7 @@
   "2026-11-26": 495.75
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-26T12:46:45Z",
+ "chasseur_t": "2026-11-26T12:52:35Z",
  "tendance": [
   "XTZ",
   "ZYLO",
@@ -282,75 +282,77 @@
   }
  },
  "buzz_t": "2026-11-26T12:46:45Z",
- "sources_t": "2026-11-26T12:31:45Z",
+ "sources_t": "2026-11-26T12:52:39Z",
  "actus_tendance": [
+  {
+   "sujet": "AI",
+   "mentions": 11,
+   "sentiment": "bearish",
+   "titres": [
+    "South Korea’s AI boom faces an earnings reality check",
+    "BNB Chain 发布新 L1 网络白皮书：聚焦高频交易、支付及 AI 代理"
+   ]
+  },
   {
    "sujet": "Bitcoin",
    "mentions": 10,
    "sentiment": "bearish",
    "titres": [
-    "Spot bitcoin ETFs on track for worst month on record as bear market drags on",
-    "Why Crypto Markets React to Treasury Yields"
+    "Bitcoin (BTCUSDT) W time frame",
+    "瑞士首檔現貨比特幣 ETF 登陸 SIX！掛牌時持有 350 枚 BTC"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Scammers bait TRON users with frozen USDT, then drain their TRX deposits",
+    "Bitcoin’s Real Problem Is Cash Leaving Crypto, 21Shares Warns"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 5,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.075099451 | 🚶 0.075104878 | 🚀 0.076199451 Gwei",
-    "A Veteran Trader's $500 Ethereum Crash Call: What the ETH Chart Says Now"
+    "⛽ ETH Gas: 🐢 0.095336557 | 🚶 0.095376392 | 🚀 0.105336557 Gwei",
+    "数据：币安黑客转移价值 3552 万美元 ETH，仍持有价值约 18.95 亿美元 ETH 和 BTC"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 4,
-   "sentiment": "bearish",
+   "sujet": "Binance",
+   "mentions": 3,
+   "sentiment": "neutral",
    "titres": [
-    "Global stocks rally as investors shrug off U.S. tariffs and AI jitters",
-    "Arthur Hayes Sees BTC at $1 Million After an AI Bailout, but First a Drop to $50K"
+    "BNB Chain 发布新 L1 网络白皮书：聚焦高频交易、支付及 AI 代理",
+    "Bitcoin’s Real Problem Is Cash Leaving Crypto, 21Shares Warns"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "StanChart’s Zodia Custody hit by breach, no funds moved: report",
+    "Bitcoin’s Real Problem Is Cash Leaving Crypto, 21Shares Warns"
    ]
   },
   {
    "sujet": "ETF",
    "mentions": 2,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Spot bitcoin ETFs on track for worst month on record as bear market drags on",
-    "Hyperliquid Price Prediction: HYPE Edges Closer to a 9% Drop Before the Dec. 1 ETF Add"
+    "瑞士首檔現貨比特幣 ETF 登陸 SIX！掛牌時持有 350 枚 BTC",
+    "Bitcoin’s Real Problem Is Cash Leaving Crypto, 21Shares Warns"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "LTCUSDT - Short squeeze resistance before fall",
-    "Abraxas Capital 从 Binance 提取 1.1 万枚 ETH，约合 1855 万美元"
-   ]
-  },
-  {
-   "sujet": "Layer 2",
+   "sujet": "DeFi",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "ARB Drops 20% in a Week Even as Variational Pushes $59B of Perps Through Arbitrum"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Standard Chartered Puts a $12.60 Target on XRP for 2028 While the Chart Leans Bearish"
-   ]
-  },
-  {
-   "sujet": "Cardano",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Cardano Price Prediction: $0.14 Is ADA's Make-or-Break Level as Futures Bets Halve"
+    "BNB Chain unveils new L1 litepaper built for high-frequency trading and payments"
    ]
   }
  ],
