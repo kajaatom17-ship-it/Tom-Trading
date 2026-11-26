@@ -1,44 +1,49 @@
 {
- "t": "2026-11-26T23:22:32Z",
+ "t": "2026-11-26T23:28:21Z",
  "nb_analyses": 452,
- "nb_en_mouvement": 12,
+ "nb_en_mouvement": 11,
  "tendance": [
   "AAVE",
   "AERO",
+  "AXSM",
+  "BABA",
   "BTC",
   "C",
   "CRO",
   "DASH",
-  "DE",
   "DOGE",
-  "HBAR",
   "HYPE",
-  "KWEB",
+  "JD",
   "NTLA",
-  "NVAX",
-  "OUST",
   "PEARL",
   "PENGU",
+  "SE",
   "SEI",
-  "SHIB",
   "SOL",
   "TGT",
   "TRX",
+  "VTI",
   "VVV",
   "WFC",
   "WMT",
+  "XCN",
   "XMR",
   "XTZ",
   "ZEC",
   "ZYLO"
  ],
  "buzz_reseaux": {
-  "WFC": {
+  "DASH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DOGE": {
+  "C": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WFC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -53,27 +58,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "KWEB": {
+  "AXSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DASH": {
+  "SE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "C": {
+  "BABA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DE": {
+  "XCN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -83,7 +83,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHIB": {
+  "JD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -93,17 +98,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "HBAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OUST": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "TGT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VTI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -116,7 +116,7 @@
    "action": false,
    "variation_24h_pct": 35.2,
    "volume_24h_eur": 142331.17,
-   "spread_pct": 0.0749,
+   "spread_pct": 0.0856,
    "tendance": false,
    "impulsion": null
   },
@@ -124,9 +124,9 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": -11.58,
-   "volume_24h_eur": 3737344.14,
-   "spread_pct": 0.1081,
+   "variation_24h_pct": -11.9,
+   "volume_24h_eur": 3749690.06,
+   "spread_pct": 0.0494,
    "tendance": true,
    "impulsion": null
   },
@@ -136,7 +136,7 @@
    "action": false,
    "variation_24h_pct": -11.92,
    "volume_24h_eur": 418603.25,
-   "spread_pct": 0.1423,
+   "spread_pct": 0.4439,
    "tendance": true,
    "impulsion": null
   },
@@ -144,9 +144,9 @@
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": 9.87,
-   "volume_24h_eur": 167207.19,
-   "spread_pct": 0.1427,
+   "variation_24h_pct": 10.16,
+   "volume_24h_eur": 167779.17,
+   "spread_pct": 0.1423,
    "tendance": false,
    "impulsion": null
   },
@@ -154,9 +154,9 @@
    "sym": "B2",
    "pair": "B2EUR",
    "action": false,
-   "variation_24h_pct": 9.48,
-   "volume_24h_eur": 55282.23,
-   "spread_pct": 0.187,
+   "variation_24h_pct": 9.53,
+   "volume_24h_eur": 55383.5,
+   "spread_pct": 0.2403,
    "tendance": false,
    "impulsion": null
   },
@@ -166,7 +166,7 @@
    "action": false,
    "variation_24h_pct": 8.14,
    "volume_24h_eur": 144566.39,
-   "spread_pct": 0.2093,
+   "spread_pct": 0.2147,
    "tendance": false,
    "impulsion": null
   },
@@ -175,8 +175,8 @@
    "pair": "SYRUPEUR",
    "action": false,
    "variation_24h_pct": 6.42,
-   "volume_24h_eur": 214046.16,
-   "spread_pct": 0.1555,
+   "volume_24h_eur": 213594.2,
+   "spread_pct": 0.2488,
    "tendance": false,
    "impulsion": null
   },
@@ -186,7 +186,7 @@
    "action": false,
    "variation_24h_pct": 6.17,
    "volume_24h_eur": 190257.79,
-   "spread_pct": 0.125,
+   "spread_pct": 0.1875,
    "tendance": false,
    "impulsion": null
   }
