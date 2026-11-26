@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 96.85698826883402,
+ "cash": 96.78001376449447,
  "positions": [
   {
    "id": "P0022",
@@ -23,10 +23,10 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.4805186515789,
+   "dernier_prix": 558.3532371870841,
    "atr": 2.771652,
-   "rollover": 0.8087391231540523,
-   "rollover_periodes": 42
+   "rollover": 0.8279948165624821,
+   "rollover_periodes": 43
   },
   {
    "id": "P0023",
@@ -47,10 +47,10 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.92802888692339,
+   "dernier_prix": 96.9059383375572,
    "atr": 1.08547,
-   "rollover": 0.6414794947586687,
-   "rollover_periodes": 42
+   "rollover": 0.6567528160624465,
+   "rollover_periodes": 43
   },
   {
    "id": "P0024",
@@ -68,13 +68,13 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T18:15:00Z",
+   "verifie_jusqu_a": "2026-11-26T22:20:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.0089359800855,
+   "dernier_prix": 581.9461410833774,
    "atr": 3.304099,
-   "rollover": 0.807917325566314,
-   "rollover_periodes": 42
+   "rollover": 0.827153452365512,
+   "rollover_periodes": 43
   },
   {
    "id": "P0027",
@@ -92,13 +92,13 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T18:15:00Z",
+   "verifie_jusqu_a": "2026-11-26T22:20:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.332e-06,
+   "dernier_prix": 3.311e-06,
    "atr": 3.3103e-08,
-   "rollover": 0.09141849782956374,
-   "rollover_periodes": 16
+   "rollover": 0.09713215394391148,
+   "rollover_periodes": 17
   },
   {
    "id": "P0028",
@@ -116,16 +116,16 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T18:15:00Z",
+   "verifie_jusqu_a": "2026-11-26T22:20:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55082.0,
+   "dernier_prix": 55181.8,
    "atr": 640.9446,
-   "rollover": 0.2799313074205151,
-   "rollover_periodes": 16
+   "rollover": 0.2974270141342973,
+   "rollover_periodes": 17
   }
  ],
- "frais_cumules": 18.56136913152386,
+ "frais_cumules": 18.638343635863393,
  "pnl_realise": -14.49756920558815,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T18:15:57Z",
+ "maj": "2026-11-26T22:20:58Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -160,37 +160,57 @@
   "2026-11-26": 495.75
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-26T18:12:59Z",
+ "chasseur_t": "2026-11-26T22:20:52Z",
  "tendance": [
-  "PEJAK",
-  "FOCO",
-  "NPS",
-  "ZYLO",
-  "VVV",
   "PENGU",
-  "ZEC",
+  "XTZ",
+  "ZYLO",
   "XMR",
-  "LIT",
-  "SKY",
-  "BTC",
   "PEARL",
   "SOL",
-  "MON",
-  "CARDS"
+  "TAO",
+  "VVV",
+  "ZEC",
+  "HYPE",
+  "XRP",
+  "SSV",
+  "LIT",
+  "AAVE",
+  "KNTQ"
  ],
- "tendance_t": "2026-11-26T17:31:22Z",
+ "tendance_t": "2026-11-26T22:20:52Z",
  "buzz": {
-  "SHIB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "DE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRO": {
+  "DOGE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GBPAUD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CORZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BLK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WFC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -200,125 +220,114 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NET": {
+  "SHIB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "PYTH": {
+  "LTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XCN": {
+  "DASH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "FECCF": {
+  "C": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "XTZ": {
+  "ALGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "REPL": {
+  "LUNC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VRTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADBE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TXN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BONK": {
+  "PL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-26T18:07:04Z",
- "sources_t": "2026-11-26T18:14:58Z",
+ "buzz_t": "2026-11-26T22:20:53Z",
+ "sources_t": "2026-11-26T22:20:57Z",
  "actus_tendance": [
   {
-   "sujet": "ETF",
-   "mentions": 6,
-   "sentiment": "neutral",
-   "titres": [
-    "YieldMax™ GOOGL Option Income Strategy ETF declares $0.0648 dividend",
-    "YieldMax HIMS Option Income Strategy ETF declares $0.0823 dividend"
-   ]
-  },
-  {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "Bank of America’s Hartnett maps S&P 500 scenarios of 6,666, 7,777, and 8,888 for 2027",
-    "Dutch groups seek court order to halt Meta smart glasses sales over privacy concerns"
+    "JERA plans AI data centers beside its power plants with Dell and RHAELM",
+    "Japan’s JERA is in talks with Amazon, Microsoft and Google over the AI power crunch"
    ]
   },
   {
    "sujet": "Bitcoin",
+   "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "Here’s what happened in crypto today",
+    "Bitcoin Bounced 10.5%. Can Buyers Turn $62.2K Into Support?"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today",
+    "Parex Resources Secures Regulatory Approval for Colombian Dual Listing, Awaits Exchange Clearance"
+   ]
+  },
+  {
+   "sujet": "DeFi",
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin dormant supply climbs toward 69% as holders sit tight through the slump",
-    "JPMorgan flags Strategy’s record-low mNAV as a Bitcoin capitulation signal"
+    "Here’s what happened in crypto today",
+    "DeFi Giant Sky Proposes $25M Liquidity Lifeline for Stranded stUSDS Depositors"
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "sujet": "Binance",
+   "mentions": 3,
+   "sentiment": "bearish",
    "titres": [
-    "SOL's Holiday Rebound: Can Buyers Clear $71.83?",
-    "SOL Long Setup – Major Support Holding Strong"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "USDT.D Double Top? A Potential Breakout Opportunity for Altcoins",
-    "BIS chief Pablo Hernández de Cos set to become next ECB president: FT"
+    "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
+    "BNB Chain details new layer-1 for trading, private finance and AI"
    ]
   },
   {
    "sujet": "Security",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Zodia Custody Breach Exposes the Weak Spot in Bank Crypto",
-    "Standard Chartered Crypto Breach Raises Institutional Security Fears"
+    "Binance restores withdrawals across nearly all networks four weeks after record $6.3B hack",
+    "Binance completes withdrawal recovery four weeks after $6.3B hack"
    ]
   },
   {
    "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "ETHUSD: Bottom similar to 2022. Bull Cycle targets $5,800.",
+    "Ethereum ICO Whale Hits the Jackpot Turning $31K Into $87M"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Stellar adds $80.4 million in tokenized fund value in a single day"
+    "TRON leads stablecoin market cap growth with $195.5 million daily gain"
    ]
   }
  ],
