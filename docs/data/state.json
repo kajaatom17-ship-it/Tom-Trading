@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T07:40:00Z",
+   "verifie_jusqu_a": "2026-11-26T07:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.1649670558002,
+   "dernier_prix": 558.1700537683405,
    "atr": 2.771652,
    "rollover": 0.7509720429287629,
    "rollover_periodes": 39
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T07:40:00Z",
+   "verifie_jusqu_a": "2026-11-26T07:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.87326279720406,
+   "dernier_prix": 96.87414563018318,
    "atr": 1.08547,
    "rollover": 0.5956595308473354,
    "rollover_periodes": 39
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T07:40:00Z",
+   "verifie_jusqu_a": "2026-11-26T07:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.6198795235622,
+   "dernier_prix": 580.6251708739634,
    "atr": 3.304099,
    "rollover": 0.7502089451687202,
    "rollover_periodes": 39
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T07:40:00Z",
+   "verifie_jusqu_a": "2026-11-26T07:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.294e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T07:40:00Z",
+   "verifie_jusqu_a": "2026-11-26T07:41:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55189.2,
+   "dernier_prix": 55181.0,
    "atr": 640.9446,
    "rollover": 0.24493989399295069,
    "rollover_periodes": 14
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T07:40:39Z",
+ "maj": "2026-11-26T07:41:37Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -277,78 +277,75 @@
   }
  },
  "buzz_t": "2026-11-26T07:33:48Z",
- "sources_t": "2026-11-26T07:21:54Z",
+ "sources_t": "2026-11-26T07:41:36Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
+   "mentions": 10,
    "sentiment": "bearish",
    "titres": [
-    "Europe’s only spot bitcoin ETF starts trading in Switzerland, BIT says",
-    "Some Hopium. 4hrly BTC/USD Chart"
+    "Bitcoin: Bears Aren’t Done Yet",
+    "Bitcoin could double by 2032 and UniCredit investors would still make just 65%"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 5,
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "TDAQ Lift ETF declares $0.0905 dividend",
-    "T-Strive Digital Credit Preferred Income ETF declares $0.0531 dividend"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-11-27)",
-    "UK DeFi Rules Could Punish an Entire Industry for Binance’s Mistake"
+    "Hartford AAA CLO ETF declares $0.1385 dividend",
+    "Hartford Strategic Income ETF declares $0.1636 dividend"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "How Silicon Valley became central to Israel’s war on Palestinians",
-    "How Chinese companies circumvent chips sanctions in Southeast Asia"
+    "Pentagon renames AI office, but who is actually running Maven?",
+    "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing"
    ]
   },
   {
-   "sujet": "DeFi",
+   "sujet": "Ethereum",
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "UK DeFi Rules Could Punish an Entire Industry for Binance’s Mistake",
-    "Here’s what happened in crypto today"
+    "ETHUSD: The Rally Trapped, Sell Signal",
+    "ETH – Make or Break"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Coinbase",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "币安合约将上线多个 U 本位 TradFi 永续合约",
-    "HSBC Stablecoin Draws 100,000 Users a Month After Hong Kong Launch"
+    "SOLUSD - Another Lower High Before $61K?",
+    "UK DeFi Rules Could Punish an Entire Industry for Binance’s Mistake"
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 2,
+   "sujet": "XRP",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "UK DeFi Rules Could Punish an Entire Industry for Binance’s Mistake",
-    "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report"
+    "XRP/USD: EMA55 Reclaim Test Opens Path to 1.026 Swing"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
+   "sujet": "Institutions",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Here’s what happened in crypto today",
-    "Nvidia halts chip shipments to Southeast Asia amid US export controls: FT"
+    "BlackRock Opens a Tokenised HKD Money Fund in Hong Kong"
+   ]
+  },
+  {
+   "sujet": "Dogecoin",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Dogecoin price prediction 2026-2032: DOGE to the moon?"
    ]
   }
  ],
