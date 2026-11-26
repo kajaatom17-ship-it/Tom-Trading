@@ -1,12 +1,14 @@
 {
- "t": "2026-11-26T01:03:46Z",
+ "t": "2026-11-26T01:09:30Z",
  "nb_analyses": 454,
- "nb_en_mouvement": 2,
+ "nb_en_mouvement": 0,
  "tendance": [
   "AAVE",
   "AKT",
+  "AMGN",
+  "AMZN",
   "ASTS",
-  "BIDU",
+  "AXTI",
   "BP",
   "BTC",
   "CHTR",
@@ -17,11 +19,7 @@
   "DIS",
   "ETH",
   "HYPE",
-  "JD",
-  "KYMR",
   "LIT",
-  "MLTX",
-  "NASA",
   "NBIS",
   "NOW",
   "OTLY",
@@ -32,9 +30,12 @@
   "SGOV",
   "SKY",
   "SNDK",
+  "SOFI",
   "SOL",
   "SOXL",
   "TAC",
+  "USAR",
+  "UUUU",
   "VOO",
   "VVV",
   "WLFI",
@@ -44,28 +45,28 @@
  "buzz_reseaux": {
   "ETH": {
    "source": "Reddit",
-   "mentions": 66,
-   "x_vs_hier": 2.3
+   "mentions": 65,
+   "x_vs_hier": 2.2
   },
   "QQQ": {
    "source": "Reddit",
-   "mentions": 290,
+   "mentions": 288,
    "x_vs_hier": 2.1
   },
   "VOO": {
    "source": "Reddit",
-   "mentions": 91,
-   "x_vs_hier": 2.4
+   "mentions": 92,
+   "x_vs_hier": 2.5
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 56,
-   "x_vs_hier": 2.2
+   "mentions": 55,
+   "x_vs_hier": 2.1
   },
   "ASTS": {
    "source": "Reddit + StockTwits",
-   "mentions": 50,
-   "x_vs_hier": 8.3
+   "mentions": 49,
+   "x_vs_hier": 7.0
   },
   "CRWV": {
    "source": "Reddit",
@@ -74,13 +75,18 @@
   },
   "SGOV": {
    "source": "Reddit",
-   "mentions": 36,
-   "x_vs_hier": 4.0
+   "mentions": 37,
+   "x_vs_hier": 4.1
   },
   "COST": {
    "source": "Reddit",
    "mentions": 33,
    "x_vs_hier": 4.1
+  },
+  "AMZN": {
+   "source": "Reddit",
+   "mentions": 31,
+   "x_vs_hier": 2.1
   },
   "NOW": {
    "source": "Reddit",
@@ -88,26 +94,6 @@
    "x_vs_hier": 2.1
   },
   "DIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XERS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OTLY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WLFI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SNDK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -122,17 +108,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "WLFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OTLY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "CHTR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BIDU": {
+  "XERS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MLTX": {
+  "SNDK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -142,43 +138,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NASA": {
+  "UUUU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KYMR": {
+  "AMGN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JD": {
+  "SOFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "USAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AXTI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [
-  {
-   "sym": "VVV",
-   "pair": "VVVEUR",
-   "action": false,
-   "variation_24h_pct": 3.28,
-   "volume_24h_eur": 1035821.99,
-   "spread_pct": 0.1635,
-   "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "AKT",
-   "pair": "AKTEUR",
-   "action": false,
-   "variation_24h_pct": 3.08,
-   "volume_24h_eur": 150600.88,
-   "spread_pct": 0.2471,
-   "tendance": true,
-   "impulsion": null
-  }
- ],
+ "candidats": [],
  "ajoutes": []
 }
