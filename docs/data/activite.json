@@ -1,11 +1,5 @@
 [
  {
-  "t": "2026-11-25T16:29:12Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 2 signal(aux) : PEPE short (SWG-1, 80), META short (SWG-1, 70)"
- },
- {
   "t": "2026-11-25T16:30:10Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2748,5 +2742,11 @@
     "BTC"
    ]
   }
+ },
+ {
+  "t": "2026-11-26T13:28:04Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "454 actifs hors univers analysés, 7 en mouvement : SKY +12.1 %, B2 +11.3 %, SYRUP +8.6 %."
  }
 ]
