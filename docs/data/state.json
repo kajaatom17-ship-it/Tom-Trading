@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T00:36:00Z",
+   "verifie_jusqu_a": "2026-11-26T00:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.2207392009919,
+   "dernier_prix": 558.2309179096312,
    "atr": 2.771652,
    "rollover": 0.7124606561119032,
    "rollover_periodes": 37
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T00:36:00Z",
+   "verifie_jusqu_a": "2026-11-26T00:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.60589318600368,
+   "dernier_prix": 97.60767295138763,
    "atr": 1.08547,
    "rollover": 0.5651128882397798,
    "rollover_periodes": 37
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T00:36:00Z",
+   "verifie_jusqu_a": "2026-11-26T00:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.2136462265012,
+   "dernier_prix": 581.2242441924072,
    "atr": 3.304099,
    "rollover": 0.7117366915703243,
    "rollover_periodes": 37
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T00:36:00Z",
+   "verifie_jusqu_a": "2026-11-26T00:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.287e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T00:36:00Z",
+   "verifie_jusqu_a": "2026-11-26T00:37:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55272.4,
+   "dernier_prix": 55292.9,
    "atr": 640.9446,
    "rollover": 0.2099484805653863,
    "rollover_periodes": 12
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T00:36:52Z",
+ "maj": "2026-11-26T00:37:49Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -297,33 +297,41 @@
   }
  },
  "buzz_t": "2026-11-26T00:34:56Z",
- "sources_t": "2026-11-26T00:17:35Z",
+ "sources_t": "2026-11-26T00:37:48Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 5,
+   "sujet": "Bitcoin",
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "GDS Holdings tops expectations with Q3 revenue of about $477 million as AI bookings climb",
-    "Our Rate-Hike Economy: Sizzling Private-Sector Economic Growth, Hot Inflation."
+    "Canaan Expands Nordic Bitcoin Mining Heat Network to Nearly 8,000 Homes",
+    "Bitcoin Lightning operators could recover stuck payments even after losing channel data"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 6,
+   "sentiment": "neutral",
+   "titres": [
+    "Asia markets edge higher as investors assess fresh U.S. tariffs; South Korea rate decision in focus",
+    "US approves SpaceX plan to send a million data satellites to space"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 5,
+   "mentions": 3,
    "sentiment": "bullish",
    "titres": [
-    "SpaceX-Tesla merger likely by 2028, special committees formed",
-    "US chip restrictions stall billions in Asia data center deals amid Nvidia scandal"
+    "Empowered Democrats Aim at Weakened Regulation and Corporate Corruption",
+    "SpaceX-Tesla merger likely by 2028, special committees formed"
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 4,
+   "sujet": "Stablecoins",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Top 7 Signs to Watch That Could Signal a Bitcoin Price Reversal",
-    "Samson Mow Pitches Himself for NVIDIA Board in Bitcoin Meme Campaign"
+    "Sui 上线 Hashi，hBTC 可抵押借入 USDC"
    ]
   },
   {
@@ -332,22 +340,6 @@
    "sentiment": "neutral",
    "titres": [
     "LayerZero 开通 Canton Coin 至 BNB Chain 跨链桥"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Here’s what happened in crypto today"
-   ]
-  },
-  {
-   "sujet": "Layer 2",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Shiba Inu Developer Teases a Major Privacy Boost for Its Blockchain"
    ]
   }
  ],
