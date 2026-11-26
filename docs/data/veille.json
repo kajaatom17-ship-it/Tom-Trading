@@ -1587,6 +1587,13 @@
  ],
  "alertes": [
   {
+   "sym": "MSTR",
+   "horizon": "15 min",
+   "variation_pct": 1.56,
+   "prix": 75.6098005614905,
+   "t": "2026-11-26T00:14:41Z"
+  },
+  {
    "sym": "MON",
    "horizon": "15 min",
    "variation_pct": 2.5,
@@ -1599,13 +1606,6 @@
    "variation_pct": 1.63,
    "prix": 369.52797521414254,
    "t": "2026-11-25T21:07:53Z"
-  },
-  {
-   "sym": "MSTR",
-   "horizon": "15 min",
-   "variation_pct": 1.57,
-   "prix": 73.59078566091378,
-   "t": "2026-11-25T21:05:04Z"
   },
   {
    "sym": "INTC",
@@ -1670,18 +1670,11 @@
    "prix": 93.3071188662243,
    "t": "2026-11-25T18:19:40Z",
    "position": "contre nous"
-  },
-  {
-   "sym": "DRV",
-   "horizon": "15 min",
-   "variation_pct": 2.79,
-   "prix": 0.31972,
-   "t": "2026-11-25T18:13:50Z"
   }
  ],
  "t_actus": "2026-11-26T00:06:10Z",
  "erreurs_sources": [
   "Google (stock market today): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-26T00:13:45Z"
+ "t": "2026-11-26T00:14:41Z"
 }
