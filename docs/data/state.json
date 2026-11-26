@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 557.5958413371812,
+   "dernier_prix": 557.6009176817611,
    "atr": 2.771652,
    "rollover": 0.7894834297456225,
    "rollover_periodes": 41
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.77448722267235,
+   "dernier_prix": 96.77536825622258,
    "atr": 1.08547,
    "rollover": 0.6262061734548909,
    "rollover_periodes": 41
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T14:13:00Z",
+   "verifie_jusqu_a": "2026-11-26T14:15:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 580.3100789308376,
+   "dernier_prix": 580.3153620655123,
    "atr": 3.304099,
    "rollover": 0.7886811987671161,
    "rollover_periodes": 41
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T14:13:00Z",
+   "verifie_jusqu_a": "2026-11-26T14:15:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.314e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T14:13:00Z",
+   "verifie_jusqu_a": "2026-11-26T14:15:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55349.2,
+   "dernier_prix": 55335.5,
    "atr": 640.9446,
    "rollover": 0.2624356007067329,
    "rollover_periodes": 15
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T14:13:18Z",
+ "maj": "2026-11-26T14:15:24Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -160,7 +160,7 @@
   "2026-11-26": 495.75
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-26T14:09:19Z",
+ "chasseur_t": "2026-11-26T14:15:15Z",
  "tendance": [
   "PEI",
   "PEJAK",
@@ -183,7 +183,7 @@
   "VOO": {
    "source": "Reddit",
    "mentions": 88,
-   "x_vs_hier": 2.9
+   "x_vs_hier": 2.8
   },
   "ASTS": {
    "source": "Reddit",
@@ -192,18 +192,13 @@
   },
   "NOW": {
    "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 2.5
-  },
-  "CRWV": {
-   "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 2.0
+   "mentions": 31,
+   "x_vs_hier": 2.4
   },
   "SGOV": {
    "source": "Reddit",
    "mentions": 31,
-   "x_vs_hier": 2.4
+   "x_vs_hier": 2.2
   },
   "BB.TSX": {
    "source": "StockTwits",
@@ -215,12 +210,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "AC.TSX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ADI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WYNN": {
+  "ADUR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -230,27 +230,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "RTY_F": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SVIX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOGE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AC.TSX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ASML": {
+  "WYNN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -260,70 +240,105 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CHFJPY": {
+  "SVIX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BB": {
+  "B": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "MO": {
+  "HO_F": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RTX": {
+  "XRP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "C": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ALM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "FIG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-26T13:57:31Z",
- "sources_t": "2026-11-26T13:54:34Z",
+ "buzz_t": "2026-11-26T14:15:16Z",
+ "sources_t": "2026-11-26T14:15:22Z",
  "actus_tendance": [
   {
    "sujet": "AI",
    "mentions": 7,
-   "sentiment": "bullish",
+   "sentiment": "neutral",
    "titres": [
-    "社群用 AI 嘗試移植 GTA 6 上 PC！但涉法律與資安風險",
-    "Stoxx 600 rises 1.7% as global stocks rebound on AI trade"
+    "Anthropic and OpenAI post huge losses as AI pricing power erodes",
+    "Meta’s AI glasses draw legal challenge from Dutch consumer bodies"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin is 30.9% off its September high and 62,470 decides",
-    "Switzerland lists first spot Bitcoin ETF, BBIT, for non-US investors"
+    "Here’s what happened in crypto today",
+    "US government could be barred from selling its strategic Bitcoin holdings for 20 years"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
+   "sujet": "Polygon",
+   "mentions": 2,
+   "sentiment": "bearish",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.108883082 | 🚶 0.109449002 | 🚀 0.120992869 Gwei"
+    "Polygon Labs expands Open Money Stack to Coinbase’s Base network",
+    "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base"
    ]
   },
   {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "neutral",
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "bearish",
    "titres": [
-    "Switzerland lists first spot Bitcoin ETF, BBIT, for non-US investors"
+    "Polygon Labs expands Open Money Stack to Coinbase’s Base network",
+    "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Coinbase",
+   "mentions": 2,
+   "sentiment": "bearish",
+   "titres": [
+    "Polygon Labs expands Open Money Stack to Coinbase’s Base network",
+    "Polygon Brings Its Cross-Border Payments Stack to Coinbase’s Base"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Elizabeth Warren’s War on Crypto Reaches Tokenized Stocks",
+    "Here’s what happened in crypto today"
+   ]
+  },
+  {
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "BNB Faces a Deeper Correction as Price Approaches"
+    "Solana Reclaims $70 After a Major Deal With Japan’s $2.3 Trillion Banking Giants"
    ]
   },
   {
@@ -331,15 +346,7 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "VelocityDEX resumes trading after fixing insurance fund bug"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Nvidia’s Jay Puri tied to Super Micro through marriage as chip-smuggling case widens"
+    "Here’s what happened in crypto today"
    ]
   }
  ],
