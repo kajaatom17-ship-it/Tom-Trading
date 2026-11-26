@@ -1,9 +1,10 @@
 {
- "t": "2026-11-26T03:56:01Z",
+ "t": "2026-11-26T04:01:03Z",
  "nb_analyses": 453,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 1,
  "tendance": [
   "ASTS",
+  "B",
   "BTC",
   "CASHCAT",
   "COST",
@@ -13,15 +14,13 @@
   "DIS",
   "ETH",
   "FLUT",
-  "IBM",
+  "HPQ",
   "IBRX",
-  "JEPQ",
-  "KWEB",
   "LTC",
   "MON",
   "MOVE",
+  "NFLX",
   "NTLA",
-  "OTLY",
   "PEARL",
   "PENGU",
   "PI",
@@ -34,6 +33,7 @@
   "SURPLUS",
   "TSM",
   "VOO",
+  "VRTX",
   "VVV",
   "XERS",
   "XRP",
@@ -48,7 +48,7 @@
   "VOO": {
    "source": "Reddit",
    "mentions": 92,
-   "x_vs_hier": 2.5
+   "x_vs_hier": 2.6
   },
   "ASTS": {
    "source": "Reddit",
@@ -68,14 +68,9 @@
   "COST": {
    "source": "Reddit",
    "mentions": 31,
-   "x_vs_hier": 5.2
+   "x_vs_hier": 3.9
   },
   "TSM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SNOW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -85,37 +80,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DDOG": {
+  "CSIQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JEPQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "XERS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NTLA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FLUT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KWEB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "QXO": {
+  "SNOW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -125,27 +95,68 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "NTLA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XERS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "B": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DDOG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VRTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HPQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NFLX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "FLUT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "QXO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "DIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OTLY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CSIQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "SYRUP",
+   "pair": "SYRUPEUR",
+   "action": false,
+   "variation_24h_pct": 7.91,
+   "volume_24h_eur": 212650.44,
+   "spread_pct": 0.3067,
+   "tendance": false,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
