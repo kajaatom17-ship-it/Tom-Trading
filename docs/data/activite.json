@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-25T13:58:46Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "MU -3.08 % en 15 min"
- },
- {
-  "t": "2026-11-25T14:02:42Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
- },
- {
   "t": "2026-11-25T14:03:45Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2742,5 +2730,17 @@
    "lien": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUVBPbUFTb1h0MEdxOXBWX1N0V0V3MXFNSktwOTJKc25xOWdpczFIbHFSZ0JYalM1QUNGdUtnUVZRSkFOdURVLTROQndxYlZnZUJaaUdpdURidXRtYUF3VnJtS21yQ2ZQd1BzeE9DSjh3X0w4aWZOVFJ1ZVp0VFNyUkVuOHlkWFd5NUlCYmZUc3VXQkd6Rnp3U01kT1Z1cTlSZnhMZ1VFZkFTcm01MDI1TDNuc08zMk1JeDB4NTJiaEU5OEpBQWR2NllWUmxDenB2emFpR2Q5R3k5dno3ODBxVGs0UndyeU0?oc=5",
    "actifs": []
   }
+ },
+ {
+  "t": "2026-11-26T07:45:31Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : VVV, PENGU, BTC, MON, HYPE, PEARL, ZEC, PEPE"
+ },
+ {
+  "t": "2026-11-26T07:45:34Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "453 actifs hors univers analysés, 5 en mouvement : SYRUP +8.3 %, PROS -7.2 %, B2 +6.1 %."
  }
 ]
