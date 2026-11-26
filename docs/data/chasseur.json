@@ -1,7 +1,7 @@
 {
- "t": "2026-11-26T08:26:54Z",
+ "t": "2026-11-26T08:32:43Z",
  "nb_analyses": 453,
- "nb_en_mouvement": 4,
+ "nb_en_mouvement": 5,
  "tendance": [
   "ANET",
   "ASTS",
@@ -137,12 +137,22 @@
  },
  "candidats": [
   {
+   "sym": "SYRUP",
+   "pair": "SYRUPEUR",
+   "action": false,
+   "variation_24h_pct": 10.01,
+   "volume_24h_eur": 244949.11,
+   "spread_pct": 0.1654,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "PROS",
    "pair": "PROSEUR",
    "action": false,
    "variation_24h_pct": -6.45,
-   "volume_24h_eur": 80831.02,
-   "spread_pct": 0.2018,
+   "volume_24h_eur": 79621.6,
+   "spread_pct": 0.3027,
    "tendance": false,
    "impulsion": null
   },
@@ -150,9 +160,9 @@
    "sym": "SEI",
    "pair": "SEIEUR",
    "action": false,
-   "variation_24h_pct": 6.12,
-   "volume_24h_eur": 66310.52,
-   "spread_pct": 0.0931,
+   "variation_24h_pct": 5.63,
+   "volume_24h_eur": 67245.13,
+   "spread_pct": 0.1558,
    "tendance": false,
    "impulsion": null
   },
@@ -162,7 +172,7 @@
    "action": false,
    "variation_24h_pct": 5.79,
    "volume_24h_eur": 46872.83,
-   "spread_pct": 0.2488,
+   "spread_pct": 0.3871,
    "tendance": false,
    "impulsion": null
   },
@@ -171,8 +181,8 @@
    "pair": "ZECEUR",
    "action": false,
    "variation_24h_pct": -3.67,
-   "volume_24h_eur": 6401860.58,
-   "spread_pct": 0.0503,
+   "volume_24h_eur": 6384100.44,
+   "spread_pct": 0.0578,
    "tendance": true,
    "impulsion": null
   }
