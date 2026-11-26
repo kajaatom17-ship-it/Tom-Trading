@@ -1593,6 +1593,13 @@
  ],
  "alertes": [
   {
+   "sym": "AI",
+   "horizon": "15 min",
+   "variation_pct": 2.61,
+   "prix": 0.01532,
+   "t": "2026-11-26T00:38:46Z"
+  },
+  {
    "sym": "AMD",
    "horizon": "15 min",
    "variation_pct": 2.22,
@@ -1605,13 +1612,6 @@
    "variation_pct": -1.65,
    "prix": 75.41751750291716,
    "t": "2026-11-26T00:32:04Z"
-  },
-  {
-   "sym": "AI",
-   "horizon": "15 min",
-   "variation_pct": 2.56,
-   "prix": 0.0152,
-   "t": "2026-11-26T00:31:08Z"
   },
   {
    "sym": "HOOD",
@@ -1681,5 +1681,5 @@
  "erreurs_sources": [
   "Google (Federal Reserve): HTTP Error 429: Too Many Requests"
  ],
- "t": "2026-11-26T00:37:49Z"
+ "t": "2026-11-26T00:38:46Z"
 }
