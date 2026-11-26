@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-25T17:17:06Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, AMBA, AMZN, CRWV, DE, DELL, DIA, ETH, GOOG, HPQ, MSFT, MSTR"
- },
- {
-  "t": "2026-11-25T17:17:11Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "605 actifs hors univers analysés, 9 en mouvement : MOODENG +21.3 %, KNTQ -6.7 %, USELESS -6.1 %."
- },
- {
   "t": "2026-11-25T17:17:14Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2745,5 +2733,21 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "ZRO -2.52 % en 15 min"
+ },
+ {
+  "t": "2026-11-26T15:10:40Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[hausse, résultats] VIG 9M 2026 slides: profit jumps 15%, guidance raised to €1.4bn (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/company-news/vig-9m-2026-slides-profit-jumps-15-guidance-raised-to-14bn-93CH-5052565",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-26T15:10:40Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "CRCL -1.57 % en 15 min"
  }
 ]
