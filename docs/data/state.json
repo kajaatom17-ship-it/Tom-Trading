@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T01:17:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.2972517205231,
+   "dernier_prix": 558.276896152549,
    "atr": 2.771652,
    "rollover": 0.731716349520333,
    "rollover_periodes": 38
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T01:17:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.8962216854291,
+   "dernier_prix": 96.892688840478,
    "atr": 1.08547,
    "rollover": 0.5803862095435576,
    "rollover_periodes": 38
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-26T01:17:00Z",
+   "verifie_jusqu_a": "2026-11-26T01:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 581.6690214666605,
+   "dernier_prix": 581.647813761861,
    "atr": 3.304099,
    "rollover": 0.7309728183695222,
    "rollover_periodes": 38
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T01:17:00Z",
+   "verifie_jusqu_a": "2026-11-26T01:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.287e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-26T01:17:00Z",
+   "verifie_jusqu_a": "2026-11-26T01:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55310.3,
+   "dernier_prix": 55347.7,
    "atr": 640.9446,
    "rollover": 0.2099484805653863,
    "rollover_periodes": 12
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-26T01:17:07Z",
+ "maj": "2026-11-26T01:18:04Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -302,49 +302,57 @@
   }
  },
  "buzz_t": "2026-11-26T01:09:30Z",
- "sources_t": "2026-11-26T00:57:49Z",
+ "sources_t": "2026-11-26T01:18:03Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "Canaan Expands Nordic Bitcoin Mining Heat Network to Nearly 8,000 Homes",
-    "Bitcoin Lightning operators could recover stuck payments even after losing channel data"
+    "VanEck cuts Gemini from custody, clearing, and staking across three ETFs",
+    "Strategic Bitcoin Reserve bill moves closer to a House vote"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Asia markets edge higher as investors assess fresh U.S. tariffs; South Korea rate decision in focus",
+    "Apple Stock Defies AI Selloff: Is It the Market's Safe Haven?",
     "US approves SpaceX plan to send a million data satellites to space"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 3,
-   "sentiment": "bullish",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
-    "Empowered Democrats Aim at Weakened Regulation and Corporate Corruption",
-    "SpaceX-Tesla merger likely by 2028, special committees formed"
+    "VanEck cuts Gemini from custody, clearing, and staking across three ETFs",
+    "Judge Blocks F.C.C. From Targeting Disney’s Local ABC Licenses"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Sui 上线 Hashi，hBTC 可抵押借入 USDC"
+    "VanEck cuts Gemini from custody, clearing, and staking across three ETFs"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "LayerZero 开通 Canton Coin 至 BNB Chain 跨链桥"
+    "VanEck cuts Gemini from custody, clearing, and staking across three ETFs"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "VanEck cuts Gemini from custody, clearing, and staking across three ETFs"
    ]
   }
  ],
