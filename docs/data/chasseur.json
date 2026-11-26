@@ -1,5 +1,5 @@
 {
- "t": "2026-11-26T01:55:17Z",
+ "t": "2026-11-26T02:01:14Z",
  "nb_analyses": 454,
  "nb_en_mouvement": 0,
  "tendance": [
@@ -11,6 +11,7 @@
   "CHTR",
   "COHR",
   "COST",
+  "CRVS",
   "CRWV",
   "DIS",
   "DRV",
@@ -18,7 +19,6 @@
   "ETH",
   "GILD",
   "HYPE",
-  "IWM",
   "MANTRA",
   "MON",
   "MS",
@@ -31,37 +31,37 @@
   "REPL",
   "RETIRE",
   "SGOV",
+  "SNDQ",
   "SOL",
   "TAO",
   "TSM",
-  "UUUU",
   "VKTX",
   "VOO",
   "VRTX",
   "VVV",
-  "WLFI",
+  "WHR",
   "ZEC"
  ],
  "buzz_reseaux": {
   "ETH": {
    "source": "Reddit",
    "mentions": 65,
-   "x_vs_hier": 2.2
+   "x_vs_hier": 2.3
   },
   "QQQ": {
    "source": "Reddit",
    "mentions": 287,
-   "x_vs_hier": 2.1
+   "x_vs_hier": 2.2
   },
   "VOO": {
    "source": "Reddit",
-   "mentions": 92,
-   "x_vs_hier": 2.6
+   "mentions": 93,
+   "x_vs_hier": 2.7
   },
   "NBIS": {
    "source": "Reddit",
    "mentions": 55,
-   "x_vs_hier": 2.2
+   "x_vs_hier": 2.3
   },
   "ASTS": {
    "source": "Reddit",
@@ -75,30 +75,20 @@
   },
   "SGOV": {
    "source": "Reddit",
-   "mentions": 36,
-   "x_vs_hier": 3.6
+   "mentions": 37,
+   "x_vs_hier": 3.7
   },
   "COST": {
    "source": "Reddit",
    "mentions": 33,
-   "x_vs_hier": 4.1
+   "x_vs_hier": 5.5
   },
   "NOW": {
    "source": "Reddit",
-   "mentions": 30,
-   "x_vs_hier": 2.0
+   "mentions": 31,
+   "x_vs_hier": 2.1
   },
   "DIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "COHR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "B": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -108,12 +98,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "RETIRE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "COHR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "VRTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RETIRE": {
+  "B": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -123,7 +123,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UUUU": {
+  "SNDQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -133,7 +133,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IWM": {
+  "TSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -143,12 +143,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "C": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WLFI": {
+  "WHR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -158,7 +153,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TSM": {
+  "CRVS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "C": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
