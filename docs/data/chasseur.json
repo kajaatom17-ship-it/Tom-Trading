@@ -1,7 +1,7 @@
 {
- "t": "2026-11-26T16:38:16Z",
+ "t": "2026-11-26T16:44:10Z",
  "nb_analyses": 453,
- "nb_en_mouvement": 11,
+ "nb_en_mouvement": 13,
  "tendance": [
   "ALGO",
   "BB.TSX",
@@ -112,12 +112,26 @@
  },
  "candidats": [
   {
+   "sym": "TEL",
+   "pair": "TELEUR",
+   "action": false,
+   "variation_24h_pct": 28.7,
+   "volume_24h_eur": 43836.08,
+   "spread_pct": 0.3408,
+   "tendance": false,
+   "impulsion": {
+    "sens": "long",
+    "mouvement_pct": 4.1,
+    "volume_x": 7.7
+   }
+  },
+  {
    "sym": "XMR",
    "pair": "XMREUR",
    "action": false,
    "variation_24h_pct": -13.52,
-   "volume_24h_eur": 322352.0,
-   "spread_pct": 0.2015,
+   "volume_24h_eur": 325471.83,
+   "spread_pct": 0.1794,
    "tendance": true,
    "impulsion": null
   },
@@ -125,9 +139,9 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": -9.97,
-   "volume_24h_eur": 5175455.58,
-   "spread_pct": 0.1922,
+   "variation_24h_pct": -9.11,
+   "volume_24h_eur": 5206876.13,
+   "spread_pct": 0.1241,
    "tendance": true,
    "impulsion": null
   },
@@ -135,9 +149,9 @@
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": 9.82,
-   "volume_24h_eur": 174400.19,
-   "spread_pct": 0.0951,
+   "variation_24h_pct": 9.12,
+   "volume_24h_eur": 174198.84,
+   "spread_pct": 0.3591,
    "tendance": false,
    "impulsion": null
   },
@@ -145,19 +159,9 @@
    "sym": "STBL",
    "pair": "STBLEUR",
    "action": false,
-   "variation_24h_pct": 7.78,
-   "volume_24h_eur": 133738.76,
-   "spread_pct": 0.1669,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "SYRUP",
-   "pair": "SYRUPEUR",
-   "action": false,
-   "variation_24h_pct": 6.77,
-   "volume_24h_eur": 223325.8,
-   "spread_pct": 0.3409,
+   "variation_24h_pct": 7.86,
+   "volume_24h_eur": 133712.03,
+   "spread_pct": 0.156,
    "tendance": false,
    "impulsion": null
   },
@@ -165,9 +169,9 @@
    "sym": "2Z",
    "pair": "2ZEUR",
    "action": false,
-   "variation_24h_pct": 6.17,
-   "volume_24h_eur": 174369.47,
-   "spread_pct": 0.1875,
+   "variation_24h_pct": 6.24,
+   "volume_24h_eur": 177048.45,
+   "spread_pct": 0.1249,
    "tendance": false,
    "impulsion": null
   },
@@ -177,7 +181,7 @@
    "action": false,
    "variation_24h_pct": 6.18,
    "volume_24h_eur": 149867.96,
-   "spread_pct": 0.0613,
+   "spread_pct": 0.0545,
    "tendance": false,
    "impulsion": null
   },
@@ -187,10 +191,12 @@
    "action": false,
    "variation_24h_pct": 6.58,
    "volume_24h_eur": 48930.1,
-   "spread_pct": 0.247,
+   "spread_pct": 0.1921,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "TEL"
+ ]
 }
