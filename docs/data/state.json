@@ -20,10 +20,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T18:05:00Z",
+   "verifie_jusqu_a": "2026-11-27T18:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.342e-06,
+   "dernier_prix": 3.344e-06,
    "atr": 3.3103e-08,
    "rollover": 0.12570043451565016,
    "rollover_periodes": 22
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T18:05:00Z",
+   "verifie_jusqu_a": "2026-11-27T18:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54676.1,
+   "dernier_prix": 54735.3,
    "atr": 640.9446,
    "rollover": 0.3849055477032083,
    "rollover_periodes": 22
@@ -69,7 +69,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T18:05:32Z",
+ "maj": "2026-11-27T18:06:28Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -191,17 +191,8 @@
   }
  },
  "buzz_t": "2026-11-27T17:57:58Z",
- "sources_t": "2026-11-27T17:46:41Z",
+ "sources_t": "2026-11-27T18:06:26Z",
  "actus_tendance": [
-  {
-   "sujet": "AI",
-   "mentions": 5,
-   "sentiment": "bullish",
-   "titres": [
-    "UK's under-35s are surest they can spot AI scams, and least likely to check",
-    "Broadcom’s custom AI chips are becoming a real threat to Nvidia"
-   ]
-  },
   {
    "sujet": "Bitcoin",
    "mentions": 3,
@@ -212,12 +203,28 @@
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 2,
+   "sujet": "AI",
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Hackers breach US Air Force’s Cloud One platform, disrupting operations",
-    "Chainflip blames libzmq bug for $12.6M exploit, plans recovery fund"
+    "UK's under-35s are surest they can spot AI scams, and least likely to check",
+    "Broadcom’s custom AI chips are becoming a real threat to Nvidia"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "ETH Hits Major Support – Is a Reversal Coming?"
+   ]
+  },
+  {
+   "sujet": "Cardano",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Intersect Sets Q1 2027 for ADA's Dijkstra Hard Fork, but Only if Node 11.3 Is Ready"
    ]
   },
   {
@@ -229,19 +236,11 @@
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "COOKIE/USDT: +170% Base-Reclaim Squeeze Setup"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance Hackers Funnel Over $600M Through Thorchain Despite FBI Warning"
+    "Hackers breach US Air Force’s Cloud One platform, disrupting operations"
    ]
   }
  ],
