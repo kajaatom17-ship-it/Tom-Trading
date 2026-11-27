@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T06:24:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 571.0095286679907,
+   "dernier_prix": 570.9939240460207,
    "atr": 2.771652,
    "rollover": 0.8665062033793417,
    "rollover_periodes": 45
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T06:24:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.94874924845593,
+   "dernier_prix": 98.94604516428761,
    "atr": 1.08547,
    "rollover": 0.6872994586700021,
    "rollover_periodes": 45
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T06:24:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 594.8494178949478,
+   "dernier_prix": 594.8331617734134,
    "atr": 3.304099,
    "rollover": 0.8656257059639079,
    "rollover_periodes": 45
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T06:24:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.362e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T06:24:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:25:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 56139.0,
+   "dernier_prix": 56152.0,
    "atr": 640.9446,
    "rollover": 0.3324184275618617,
    "rollover_periodes": 19
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T06:24:17Z",
+ "maj": "2026-11-27T06:25:16Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -258,24 +258,24 @@
   }
  },
  "buzz_t": "2026-11-27T06:10:32Z",
- "sources_t": "2026-11-27T06:04:44Z",
+ "sources_t": "2026-11-27T06:25:14Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "BTCUSD Daily Market Watch: Back Near 62k With Supply Overhead",
-    "Bitcoin Tests a Major Resistance Zone: Is $48K Next?"
+    "Bitcoin Treasury Corporation GAAP EPS of $2.25, revenue of $0.08M",
+    "Here’s what happened in crypto today"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 5,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Los Angeles disables Google AI search features as school pushback grows",
-    "Fed faces AI, inflation challenges amid rate hike considerations"
+    "China’s factories are growing profits again, but the AI boom is picking the winners",
+    "Arthur Hayes：计划推出 FLOP Chat 网页应用，以提升使用率"
    ]
   },
   {
@@ -288,8 +288,17 @@
    ]
   },
   {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Here’s what happened in crypto today",
+    "Judge Blocks F.C.C. From Targeting Disney’s Local ABC Licenses"
+   ]
+  },
+  {
    "sujet": "Stablecoins",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
     "US Wins Forfeiture of $674K in Crypto Tied to an Investment Scam",
@@ -297,12 +306,11 @@
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "bearish",
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "ETH Back at the Level That Broke It – Rejection Toward 1,500?",
-    "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays"
+    "Here’s what happened in crypto today"
    ]
   },
   {
@@ -311,14 +319,6 @@
    "sentiment": "neutral",
    "titres": [
     "Dogecoin Price Analysis: $0.06 Confluence Zone ?"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Judge Blocks F.C.C. From Targeting Disney’s Local ABC Licenses"
    ]
   },
   {
