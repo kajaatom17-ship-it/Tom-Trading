@@ -1,26 +1,25 @@
 {
- "t": "2026-11-27T01:07:18Z",
+ "t": "2026-11-27T01:13:06Z",
  "nb_analyses": 605,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 1,
  "tendance": [
-  "ABBV",
   "ABVX",
+  "AMKR",
   "AZN",
   "BABA",
   "BP",
   "BTC",
-  "CDE",
   "CRO",
   "CRVS",
-  "DIS",
   "DOGE",
   "ENA",
   "ETH",
-  "LOW",
-  "LRCX",
+  "EWZ",
+  "JD",
   "LUNC",
   "MLTX",
   "MONTRA",
+  "NVO",
   "PEARL",
   "PEJAK",
   "PENGU",
@@ -29,18 +28,14 @@
   "SHIB",
   "SOXX",
   "SPOT",
-  "UPS",
+  "VRTX",
   "VVV",
   "XMR",
+  "ZEC",
   "ZYLO"
  ],
  "buzz_reseaux": {
   "MLTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOXX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -50,17 +45,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ABBV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BABA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CDE": {
+  "SOXX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -70,32 +55,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UPS": {
+  "BABA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRVS": {
+  "ZEC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPOT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LRCX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RTY_F": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LOW": {
+  "AMKR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -105,12 +75,53 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIS": {
+  "RTY_F": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRVS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VRTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EWZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SPOT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "ZEC",
+   "pair": "ZECEUR",
+   "action": false,
+   "variation_24h_pct": 3.32,
+   "volume_24h_eur": 3590253.11,
+   "spread_pct": 0.1383,
+   "tendance": true,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
