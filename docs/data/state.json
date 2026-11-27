@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T16:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 576.354094283729,
+   "dernier_prix": 576.3119400255988,
    "atr": 2.771652,
    "rollover": 0.9050175901962013,
    "rollover_periodes": 47
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T16:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 99.28500896024576,
+   "dernier_prix": 99.27774730298043,
    "atr": 1.08547,
    "rollover": 0.7178461012775577,
    "rollover_periodes": 47
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T16:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 591.1933584464031,
+   "dernier_prix": 591.1501188517096,
    "atr": 3.304099,
    "rollover": 0.9040979595623038,
    "rollover_periodes": 47
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T16:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.336e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T16:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55020.3,
+   "dernier_prix": 55082.6,
    "atr": 640.9446,
    "rollover": 0.3849055477032083,
    "rollover_periodes": 22
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T16:44:22Z",
+ "maj": "2026-11-27T16:45:22Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -263,51 +263,58 @@
   }
  },
  "buzz_t": "2026-11-27T16:31:24Z",
- "sources_t": "2026-11-27T16:25:11Z",
+ "sources_t": "2026-11-27T16:45:20Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
+   "sujet": "AI",
    "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "BTCUSDT Update: Buyers Face Another Test at Key Demand Zone",
-    "3,269 Bitcoin moves from Coinbase Institutional to an unknown wallet"
+    "Nvidia faces congressional scrutiny over sales to Chinese-linked firms",
+    "AI-Powered GTA 6 PC Ports Now Have Multiplayer as Modders Unlock 30 and 60 FPS"
    ]
   },
   {
-   "sujet": "AI",
+   "sujet": "Coinbase",
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "Yuval Harari on AI: Money, Stocks, and Bonds as Shared Trust (X, Harari)",
-    "UK parliamentary committee asks for the unredacted METR report on Anthropic"
+    "Coinbase’s tokenized stocks put 62.4% of market cap to work in DeFi",
+    "Coinbase tokenized stocks on Base hit $54M market cap in 3.5 months"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "UK parliamentary committee asks for the unredacted METR report on Anthropic",
-    "Binance hacker moves 11,989 ETH worth $20M to unknown wallet"
+    "Token Terminal Research arrives on FactSet, opening with tokenized stocks",
+    "Coinbase’s tokenized stocks put 62.4% of market cap to work in DeFi"
    ]
   },
   {
-   "sujet": "Stablecoins",
+   "sujet": "DeFi",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Brazil’s B3 Enlists Itaú, Santander and Four Other Firms for Open BRL Stablecoin",
-    "BOJ Wants Stablecoins Linked to Central Bank Money"
+    "Coinbase’s tokenized stocks put 62.4% of market cap to work in DeFi",
+    "Coinbase’s tokenized stocks on Base generate $4.4B in DEX volume"
    ]
   },
   {
-   "sujet": "Ethereum",
-   "mentions": 2,
+   "sujet": "Bitcoin",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Ethereum developers advance Glamsterdam upgrade, schedule Hoodi for Dec. 15",
-    "Binance hacker moves 11,989 ETH worth $20M to unknown wallet"
+    "Bitcoin dodged one risk from Japan and now faces a Monday reckoning"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Monero Price Bleeds 37% as KuCoin Joins the XMR Exodus"
    ]
   },
   {
@@ -316,22 +323,6 @@
    "sentiment": "neutral",
    "titres": [
     "Franklin Templeton to add Hyperliquid’s HYPE token to crypto ETF in December"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "3,269 Bitcoin moves from Coinbase Institutional to an unknown wallet"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Australia passes bill that would let people sue AI chatbot providers"
    ]
   }
  ],
