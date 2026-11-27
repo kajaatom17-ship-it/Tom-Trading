@@ -1,7 +1,7 @@
 {
- "t": "2026-11-27T18:15:12Z",
+ "t": "2026-11-27T18:20:58Z",
  "nb_analyses": 604,
- "nb_en_mouvement": 6,
+ "nb_en_mouvement": 7,
  "tendance": [
   "AKE",
   "B",
@@ -125,22 +125,12 @@
  },
  "candidats": [
   {
-   "sym": "ICNT",
-   "pair": "ICNTEUR",
-   "action": false,
-   "variation_24h_pct": 24.7,
-   "volume_24h_eur": 74269.41,
-   "spread_pct": 0.262,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 10.13,
-   "volume_24h_eur": 5080047.18,
-   "spread_pct": 0.0421,
+   "variation_24h_pct": 9.78,
+   "volume_24h_eur": 5083860.26,
+   "spread_pct": 0.0847,
    "tendance": false,
    "impulsion": null
   },
@@ -148,19 +138,29 @@
    "sym": "SPACE",
    "pair": "SPACEEUR",
    "action": false,
-   "variation_24h_pct": 9.54,
-   "volume_24h_eur": 117284.65,
-   "spread_pct": 0.1033,
+   "variation_24h_pct": 10.1,
+   "volume_24h_eur": 117301.34,
+   "spread_pct": 0.2827,
    "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "WLFI",
+   "pair": "WLFIEUR",
+   "action": false,
+   "variation_24h_pct": -9.4,
+   "volume_24h_eur": 70428.91,
+   "spread_pct": 0.2882,
+   "tendance": true,
    "impulsion": null
   },
   {
    "sym": "ZRO",
    "pair": "ZROEUR",
    "action": false,
-   "variation_24h_pct": -7.28,
-   "volume_24h_eur": 686837.44,
-   "spread_pct": 0.1047,
+   "variation_24h_pct": -7.09,
+   "volume_24h_eur": 686851.08,
+   "spread_pct": 0.209,
    "tendance": false,
    "impulsion": null
   },
@@ -169,7 +169,7 @@
    "pair": "MELANIAEUR",
    "action": false,
    "variation_24h_pct": 6.82,
-   "volume_24h_eur": 88266.68,
+   "volume_24h_eur": 88129.97,
    "spread_pct": 0.4405,
    "tendance": false,
    "impulsion": null
@@ -179,8 +179,18 @@
    "pair": "BLUAIEUR",
    "action": false,
    "variation_24h_pct": 6.04,
-   "volume_24h_eur": 70773.48,
+   "volume_24h_eur": 71075.7,
    "spread_pct": 0.2218,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "TQQQ",
+   "pair": "TQQQxUSD",
+   "action": true,
+   "variation_24h_pct": 2.6,
+   "volume_24h_eur": 88283.8,
+   "spread_pct": 0.3913,
    "tendance": false,
    "impulsion": null
   }
