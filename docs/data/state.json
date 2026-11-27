@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 565.1100727746356,
+   "dernier_prix": 565.0534598641191,
    "atr": 2.771652,
    "rollover": 0.8472505099709119,
    "rollover_periodes": 44
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.36491151369421,
+   "dernier_prix": 96.35525764558022,
    "atr": 1.08547,
    "rollover": 0.6720261373662243,
    "rollover_periodes": 44
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 589.9117413995683,
+   "dernier_prix": 589.8526438498387,
    "atr": 3.304099,
    "rollover": 0.8463895791647099,
    "rollover_periodes": 44
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.363e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T02:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55954.2,
+   "dernier_prix": 55857.0,
    "atr": 640.9446,
    "rollover": 0.3149227208480795,
    "rollover_periodes": 18
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T02:44:11Z",
+ "maj": "2026-11-27T02:46:14Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -161,7 +161,7 @@
   "2026-11-27": 492.0
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-27T02:40:20Z",
+ "chasseur_t": "2026-11-27T02:46:10Z",
  "tendance": [
   "PENGU",
   "PEJAK",
@@ -258,24 +258,33 @@
   }
  },
  "buzz_t": "2026-11-27T02:40:20Z",
- "sources_t": "2026-11-27T02:25:37Z",
+ "sources_t": "2026-11-27T02:46:13Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 10,
+   "mentions": 12,
    "sentiment": "neutral",
    "titres": [
-    "AI is driving a flood of crypto bug reports. Now it’s helping sort them",
-    "Bitcoin Could Rally Sharply if AI Stocks Recover, Devere CEO Says"
+    "Canada adds $700 million to its AI compute fund, with a nudge toward homegrown providers",
+    "UK government hires a private secretary to steer AI data center push"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
     "BTCUSD–Liquidity Sweep, & OB  Key Support Resistance Setup",
     "Bitcoin Could Rally Sharply if AI Stocks Recover, Devere CEO Says"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "OpenAI 下調 GPT-6.2 用量：Astra 更快 40% 達上限，Sol 快 25% 達上限",
+    "Nvidia study finds GPT-6.1 Sol performs better when it manages its own context"
    ]
   },
   {
@@ -297,20 +306,11 @@
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "The 72-Hour Clock: A Realistic GDPR Breach Emergency Plan for the Agentic AI Era",
-    "Is the Bitcoin Bear Market Repeating 2022? Key Gaps Remain"
-   ]
-  },
-  {
    "sujet": "Ethereum",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.043489768 | 🚶 0.043491101 | 🚀 0.047840211 Gwei"
+    "ETH 4H Update: Bands Squeezing Under 1,750, a Big Move Coming?"
    ]
   },
   {
@@ -322,11 +322,11 @@
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "Binance",
    "mentions": 1,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "Nvidia study finds GPT-6.1 Sol performs better when it manages its own context"
+    "BITCOIN - A short squeeze could trigger a decline"
    ]
   }
  ],
