@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T03:25:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 565.114414808337,
+   "dernier_prix": 565.124710769399,
    "atr": 2.771652,
    "rollover": 0.8472505099709119,
    "rollover_periodes": 44
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T03:25:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.37807899723072,
+   "dernier_prix": 96.37983493359083,
    "atr": 1.08547,
    "rollover": 0.6720261373662243,
    "rollover_periodes": 44
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T03:25:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 590.4387115580819,
+   "dernier_prix": 590.4494689088491,
    "atr": 3.304099,
    "rollover": 0.8463895791647099,
    "rollover_periodes": 44
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T03:25:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.353e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T03:25:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:26:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 56080.9,
+   "dernier_prix": 56034.9,
    "atr": 640.9446,
    "rollover": 0.3324184275618617,
    "rollover_periodes": 19
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T03:25:05Z",
+ "maj": "2026-11-27T03:27:05Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -161,7 +161,7 @@
   "2026-11-27": 492.0
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-27T03:21:10Z",
+ "chasseur_t": "2026-11-27T03:27:00Z",
  "tendance": [
   "PENGU",
   "PEJAK",
@@ -258,11 +258,11 @@
   }
  },
  "buzz_t": "2026-11-27T03:15:22Z",
- "sources_t": "2026-11-27T03:06:31Z",
+ "sources_t": "2026-11-27T03:27:05Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 12,
+   "mentions": 11,
    "sentiment": "neutral",
    "titres": [
     "歐洲最大軟體公司 SAP（思愛普）傳將裁員 1 萬人：主軸是 AI 轉型",
@@ -271,20 +271,28 @@
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 6,
-   "sentiment": "neutral",
+   "mentions": 7,
+   "sentiment": "bullish",
    "titres": [
-    "BTCUSD: Major Liquidity Hunt Before the Next Big Move",
-    "Saylor Says STRC Beat Bitcoin by 45 Points, but Strategy's MSTR Lost Nearly Half"
+    "不到 0.35 美元就能鎖定錢包 IP！Bitcoin Core 轉播機制爆隱私漏洞",
+    "UPBIT 上线 KGeN (KGEN) 和 Flare (FLR) 并支持 BTC、USDT 交易"
    ]
   },
   {
-   "sujet": "DeFi",
-   "mentions": 2,
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "bullish",
+   "titres": [
+    "Coinbase Wallet Returns $250K in Trading Fee Rebates to Users",
+    "UPBIT 上线 KGeN (KGEN) 和 Flare (FLR) 并支持 BTC、USDT 交易"
+   ]
+  },
+  {
+   "sujet": "Coinbase",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "DeFi 保險為何瀕臨滅絕？TVL 從 18.5 億暴跌至 1.32 億美元",
-    "Pendle leads tokenized stock deposit growth with $57 million in deposits"
+    "Coinbase Wallet Returns $250K in Trading Fee Rebates to Users"
    ]
   },
   {
@@ -301,14 +309,6 @@
    "sentiment": "neutral",
    "titres": [
     "Binance sees 40M XRP withdrawn days after its quietest week since 2019"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "USDT Dominance Near Record as Tether Shrinks $16B. Dry Powder?"
    ]
   },
   {
