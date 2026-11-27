@@ -1,20 +1,21 @@
 {
- "t": "2026-11-27T02:16:58Z",
+ "t": "2026-11-27T02:22:43Z",
  "nb_analyses": 604,
- "nb_en_mouvement": 2,
+ "nb_en_mouvement": 4,
  "tendance": [
-  "ADA",
-  "BABA",
+  "AMKR",
   "BTC",
-  "DELL",
   "DOGE",
+  "DOT",
   "EWZ",
   "EXK",
-  "HPQ",
+  "F",
   "HYPE",
+  "ICP",
   "INIT",
   "MLTX",
   "MONTRA",
+  "NFLX",
   "OXLC",
   "PEARL",
   "PENGU",
@@ -24,11 +25,8 @@
   "SHIB",
   "SNOW",
   "SOL",
-  "STRL",
-  "SVIX",
-  "TOSHI",
+  "TECL",
   "UNI",
-  "VRTX",
   "VVV",
   "XMR",
   "ZEC",
@@ -45,12 +43,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ZEC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TECL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "SNOW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
+  "AMKR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DOT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "EWZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "F": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -65,47 +88,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "VRTX": {
+  "DOGE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BABA": {
+  "NFLX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SVIX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DELL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "STRL": {
+  "ICP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "EXK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HPQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TOSHI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -116,22 +114,48 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 5.66,
-   "volume_24h_eur": 3638716.59,
-   "spread_pct": 0.1573,
+   "variation_24h_pct": 7.25,
+   "volume_24h_eur": 3740633.35,
+   "spread_pct": 0.1855,
    "tendance": true,
    "impulsion": null
+  },
+  {
+   "sym": "UNI",
+   "pair": "UNIEUR",
+   "action": false,
+   "variation_24h_pct": 4.55,
+   "volume_24h_eur": 326815.23,
+   "spread_pct": 0.0835,
+   "tendance": true,
+   "impulsion": {
+    "sens": "long",
+    "mouvement_pct": 2.67,
+    "volume_x": 50.3
+   }
   },
   {
    "sym": "SKHY",
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": 3.11,
-   "volume_24h_eur": 71710.64,
-   "spread_pct": 0.3416,
+   "volume_24h_eur": 71718.48,
+   "spread_pct": 0.254,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "ANT",
+   "pair": "ANTxUSD",
+   "action": true,
+   "variation_24h_pct": 2.77,
+   "volume_24h_eur": 221946.12,
+   "spread_pct": 0.1287,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "UNI"
+ ]
 }
