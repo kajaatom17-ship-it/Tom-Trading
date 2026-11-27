@@ -23,7 +23,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 558.7913291000657,
+   "dernier_prix": 558.7709374885961,
    "atr": 2.771652,
    "rollover": 0.8279948165624821,
    "rollover_periodes": 43
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-26T09:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.98197211882345,
+   "dernier_prix": 96.97843301828267,
    "atr": 1.08547,
    "rollover": 0.6567528160624465,
    "rollover_periodes": 43
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T00:42:00Z",
+   "verifie_jusqu_a": "2026-11-27T00:43:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 582.3115101087512,
+   "dernier_prix": 582.2081523920739,
    "atr": 3.304099,
    "rollover": 0.827153452365512,
    "rollover_periodes": 43
@@ -92,10 +92,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T00:42:00Z",
+   "verifie_jusqu_a": "2026-11-27T00:43:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.307e-06,
+   "dernier_prix": 3.306e-06,
    "atr": 3.3103e-08,
    "rollover": 0.10284581005825921,
    "rollover_periodes": 18
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T00:42:00Z",
+   "verifie_jusqu_a": "2026-11-27T00:43:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55273.8,
+   "dernier_prix": 55268.0,
    "atr": 640.9446,
    "rollover": 0.3149227208480795,
    "rollover_periodes": 18
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T00:42:04Z",
+ "maj": "2026-11-27T00:44:02Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -161,7 +161,7 @@
   "2026-11-27": 492.0
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-27T00:38:12Z",
+ "chasseur_t": "2026-11-27T00:44:00Z",
  "tendance": [
   "PENGU",
   "BTC",
@@ -258,42 +258,49 @@
   }
  },
  "buzz_t": "2026-11-27T00:38:12Z",
- "sources_t": "2026-11-27T00:23:31Z",
+ "sources_t": "2026-11-27T00:44:00Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 11,
+   "mentions": 10,
    "sentiment": "neutral",
    "titres": [
-    "Researchers show AI models can collude through a shared vLLM inference server",
-    "Zcash Developers Sound Alarm Over Privacy Pool Holding 400,000 ZEC"
+    "Dell Technologies raises fiscal 2027 guidance after record revenue",
+    "Researchers show AI models can collude through a shared vLLM inference server"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "bearish",
    "titres": [
-    "New Bitcoin Privacy Flaw Could Expose Your Location for Just $0.35",
-    "Galaxy Abandons BTC Bottom Call, Warns Bear Market Is Far From Over"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Goldman sees $17B to $25B in annual GPU rent at risk of re-letting from China-linked AI load",
-    "Here’s what happened in crypto today"
+    "数据：1000 枚 BTC 从 Kraken 转至 Abraxas Capital",
+    "Bitcoin , bottom is in"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "ETH Bearish Trend Line Meets Oversold RSI",
-    "Ethereum ICO whale turns $31,000 into $87.21 million over 12 years"
+    "⛽ ETH Gas: 🐢 0.045018248 | 🚶 0.045028248 | 🚀 0.045883801 Gwei",
+    "ETH Bearish Trend Line Meets Oversold RSI"
+   ]
+  },
+  {
+   "sujet": "Institutions",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Privacy coins face diverging fortunes as KuCoin moves to drop Monero"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Solana ready for the new bull run"
    ]
   },
   {
@@ -313,19 +320,11 @@
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Cryptio AI breach exposes risk across crypto's shared infrastructure"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Here’s what happened in crypto today"
+    "Goldman sees $17B to $25B in annual GPU rent at risk of re-letting from China-linked AI load"
    ]
   }
  ],
