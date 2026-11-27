@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 96.54909025147583,
+ "cash": 96.47211574713629,
  "positions": [
   {
    "id": "P0022",
@@ -20,13 +20,13 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T10:47:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 577.8971954090105,
+   "dernier_prix": 569.1937974579446,
    "atr": 2.771652,
-   "rollover": 0.8857618967877715,
-   "rollover_periodes": 46
+   "rollover": 0.9050175901962013,
+   "rollover_periodes": 47
   },
   {
    "id": "P0023",
@@ -44,13 +44,13 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T10:47:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 99.11866138715034,
+   "dernier_prix": 95.92558411535194,
    "atr": 1.08547,
-   "rollover": 0.7025727799737799,
-   "rollover_periodes": 46
+   "rollover": 0.7178461012775577,
+   "rollover_periodes": 47
   },
   {
    "id": "P0024",
@@ -68,13 +68,13 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T10:47:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 593.7904859223036,
+   "dernier_prix": 583.320388526942,
    "atr": 3.304099,
-   "rollover": 0.8848618327631058,
-   "rollover_periodes": 46
+   "rollover": 0.9040979595623038,
+   "rollover_periodes": 47
   },
   {
    "id": "P0027",
@@ -92,13 +92,13 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T10:47:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.39e-06,
+   "dernier_prix": 3.282e-06,
    "atr": 3.3103e-08,
-   "rollover": 0.11427312228695469,
-   "rollover_periodes": 20
+   "rollover": 0.11998677840130242,
+   "rollover_periodes": 21
   },
   {
    "id": "P0028",
@@ -116,16 +116,16 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T10:47:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 56135.5,
+   "dernier_prix": 53911.4,
    "atr": 640.9446,
-   "rollover": 0.3499141342756439,
-   "rollover_periodes": 20
+   "rollover": 0.3674098409894261,
+   "rollover_periodes": 21
   }
  ],
- "frais_cumules": 18.86926714888199,
+ "frais_cumules": 18.94624165322152,
  "pnl_realise": -14.49756920558815,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T10:47:20Z",
+ "maj": "2026-11-27T15:04:20Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -161,172 +161,175 @@
   "2026-11-27": 492.0
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-27T10:43:26Z",
+ "chasseur_t": "2026-11-27T15:04:13Z",
  "tendance": [
+  "PENGU",
+  "PORTAL",
   "BTC",
-  "PONS",
-  "XMR",
+  "ZYLO",
+  "HYPE",
   "PEARL",
-  "DRV",
+  "SOL",
+  "KNTQ",
+  "XMR",
+  "VVV",
+  "ZEC",
   "NEAR",
   "MON",
-  "CFG",
-  "ZYLO",
-  "KNTQ",
-  "ZEC",
-  "VVV",
-  "AKE",
-  "PI",
-  "LIT"
+  "QNT",
+  "ADA"
  ],
- "tendance_t": "2026-11-27T10:01:59Z",
+ "tendance_t": "2026-11-27T15:04:13Z",
  "buzz": {
-  "SOFI": {
+  "MO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VKTX": {
+  "VRTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBRX": {
+  "MLTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GDXU": {
+  "ETH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ELF": {
+  "FECCF": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "UBER": {
+  "FCEL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CROX": {
+  "EWZ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "META": {
+  "CRO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TLT": {
+  "OTLY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AXTI": {
+  "BTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "S": {
+  "PBR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RBRK": {
+  "MDB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WDC": {
+  "UNG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "IWM": {
+  "VALE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIA": {
+  "SRPT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-27T10:37:32Z",
- "sources_t": "2026-11-27T10:31:29Z",
+ "buzz_t": "2026-11-27T15:04:14Z",
+ "sources_t": "2026-11-27T15:04:18Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 9,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "MEXC Launches Golden Gratitude Gala With a 10M USDT Prize Pool, Including a Gold Bar and BTC",
-    "Elliptic tracks $389M in stolen Binance funds through Bitcoin CoinJoins"
+    "Stretch aims to become the three-month benchmark for Bitcoin-based digital credit",
+    "Bitcoin has reached the bottom and is poised for a reversal."
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 6,
+   "sentiment": "bullish",
+   "titres": [
+    "South Korea’s November exports projected to nearly double on AI chip demand",
+    "US tech stocks bounce back after a bruising week of selling"
    ]
   },
   {
    "sujet": "Stablecoins",
+   "mentions": 4,
+   "sentiment": "bullish",
+   "titres": [
+    "Coinbase shares trade at $106.23 USDC on Thanksgiving amid Nasdaq closure",
+    "What was Coinbase worth while Nasdaq was closed?"
+   ]
+  },
+  {
+   "sujet": "Binance",
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "MEXC Launches Golden Gratitude Gala With a 10M USDT Prize Pool, Including a Gold Bar and BTC",
-    "PORTAL/USDT: +200% Coiled Range Breakout Squeeze Setup"
+    "Binance partners with UK Internet Watch Foundation to track crypto payments linked to child abuse material",
+    "Binance’s He Yi bets on tokenized IPOs amid crypto confidence crisis"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Bitcoin and Ethereum supply growth stays below 1% through 2026",
+    "Ethereum ETFs bleed $523.3 million over eight straight trading days"
    ]
   },
   {
    "sujet": "SEC/Regulation",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "Elliptic tracks $389M in stolen Binance funds through Bitcoin CoinJoins",
-    "The SEC’s “Innovation Exemption” for Tokenized Stocks Explained"
+    "Coinbase shares trade at $106.23 USDC on Thanksgiving amid Nasdaq closure",
+    "Morpho now lets deSPXA holders borrow USDC against tokenized S&P 500 exposure"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Coinbase",
    "mentions": 2,
    "sentiment": "bullish",
    "titres": [
-    "Elliptic tracks $389M in stolen Binance funds through Bitcoin CoinJoins",
-    "XRP deposit transaction share on Binance reaches 91% — its highest level since 2019"
+    "Coinbase shares trade at $106.23 USDC on Thanksgiving amid Nasdaq closure",
+    "What was Coinbase worth while Nasdaq was closed?"
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "ETF",
    "mentions": 2,
-   "sentiment": "bearish",
-   "titres": [
-    "Ethereum Devs Lock In Glamsterdam’s Gas Repricing, Set Hoodi Testnet Fork for Dec. 15",
-    "ETH | Sellers Get Another Chance"
-   ]
-  },
-  {
-   "sujet": "Dogecoin",
-   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Dogecoin Price Down Nearly 25% in November: Here’s What History Says About December."
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "HOW-TO: read Plutus's +2 sigma breach on 4H, a BILL example"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "bullish",
-   "titres": [
-    "XRP deposit transaction share on Binance reaches 91% — its highest level since 2019"
+    "Malaysia approves its first spot Bitcoin ETF, and it’s Shariah-compliant",
+    "Ethereum ETFs bleed $523.3 million over eight straight trading days"
    ]
   }
  ],
