@@ -1538,6 +1538,13 @@
  "alertes": [
   {
    "sym": "BLUR",
+   "horizon": "15 min",
+   "variation_pct": -3.56,
+   "prix": 0.00839,
+   "t": "2026-11-27T05:29:32Z"
+  },
+  {
+   "sym": "BLUR",
    "horizon": "1 h",
    "variation_pct": -5.84,
    "prix": 0.0087,
@@ -1549,13 +1556,6 @@
    "variation_pct": 1.5,
    "prix": 154.39635535307517,
    "t": "2026-11-27T05:21:21Z"
-  },
-  {
-   "sym": "BLUR",
-   "horizon": "15 min",
-   "variation_pct": -5.84,
-   "prix": 0.0087,
-   "t": "2026-11-27T05:15:31Z"
   },
   {
    "sym": "ORCL",
@@ -1617,5 +1617,5 @@
  ],
  "t_actus": "2026-11-27T05:23:41Z",
  "erreurs_sources": [],
- "t": "2026-11-27T05:27:31Z"
+ "t": "2026-11-27T05:29:32Z"
 }
