@@ -1,5 +1,5 @@
 {
- "t": "2026-11-27T03:15:26Z",
+ "t": "2026-11-27T03:21:14Z",
  "nb_analyses": 604,
  "nb_en_mouvement": 7,
  "tendance": [
@@ -116,9 +116,9 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 10.19,
-   "volume_24h_eur": 4023735.14,
-   "spread_pct": 0.1343,
+   "variation_24h_pct": 9.9,
+   "volume_24h_eur": 4029620.58,
+   "spread_pct": 0.0824,
    "tendance": true,
    "impulsion": null
   },
@@ -126,9 +126,9 @@
    "sym": "W",
    "pair": "WEUR",
    "action": false,
-   "variation_24h_pct": 6.34,
-   "volume_24h_eur": 197764.38,
-   "spread_pct": 0.2336,
+   "variation_24h_pct": 7.45,
+   "volume_24h_eur": 200124.11,
+   "spread_pct": 0.2312,
    "tendance": false,
    "impulsion": null
   },
@@ -136,9 +136,19 @@
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": 5.93,
-   "volume_24h_eur": 180314.0,
-   "spread_pct": 0.1115,
+   "variation_24h_pct": 6.85,
+   "volume_24h_eur": 182340.8,
+   "spread_pct": 0.2653,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "SKHY",
+   "pair": "SKHYxUSD",
+   "action": true,
+   "variation_24h_pct": 5.46,
+   "volume_24h_eur": 72576.81,
+   "spread_pct": 0.2655,
    "tendance": false,
    "impulsion": null
   },
@@ -147,28 +157,8 @@
    "pair": "ENAEUR",
    "action": false,
    "variation_24h_pct": 3.93,
-   "volume_24h_eur": 261204.07,
+   "volume_24h_eur": 261005.45,
    "spread_pct": 0.1052,
-   "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "SKHY",
-   "pair": "SKHYxUSD",
-   "action": true,
-   "variation_24h_pct": 4.23,
-   "volume_24h_eur": 71967.85,
-   "spread_pct": 0.26,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "XMR",
-   "pair": "XMREUR",
-   "action": false,
-   "variation_24h_pct": 3.2,
-   "volume_24h_eur": 425965.89,
-   "spread_pct": 0.1164,
    "tendance": true,
    "impulsion": null
   },
@@ -176,10 +166,20 @@
    "sym": "ANT",
    "pair": "ANTxUSD",
    "action": true,
-   "variation_24h_pct": 3.17,
-   "volume_24h_eur": 261684.8,
-   "spread_pct": 0.1515,
+   "variation_24h_pct": 3.35,
+   "volume_24h_eur": 261931.03,
+   "spread_pct": 0.0931,
    "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "XMR",
+   "pair": "XMREUR",
+   "action": false,
+   "variation_24h_pct": 3.0,
+   "volume_24h_eur": 429175.2,
+   "spread_pct": 0.2402,
+   "tendance": true,
    "impulsion": null
   }
  ],
