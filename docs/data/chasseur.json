@@ -1,7 +1,7 @@
 {
- "t": "2026-11-27T18:09:26Z",
+ "t": "2026-11-27T18:15:12Z",
  "nb_analyses": 604,
- "nb_en_mouvement": 8,
+ "nb_en_mouvement": 6,
  "tendance": [
   "AKE",
   "B",
@@ -13,7 +13,8 @@
   "EROC",
   "EWZ",
   "EXK",
-  "GDXU",
+  "FUBO",
+  "HL",
   "HYPE",
   "ICP",
   "MON",
@@ -37,21 +38,16 @@
  ],
  "buzz_reseaux": {
   "TSLA": {
-   "source": "Reddit + StockTwits",
-   "mentions": 45,
+   "source": "Reddit",
+   "mentions": 46,
    "x_vs_hier": 3.8
   },
   "PS": {
    "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 6.8
+   "mentions": 36,
+   "x_vs_hier": 7.2
   },
-  "NN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VRTX": {
+  "BB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -61,32 +57,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CMG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "B": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CAVA": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NVDL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "PYTH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -96,12 +67,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "CMG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VRTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "EROC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WLFI": {
+  "CAVA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "PYTH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVDL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -111,7 +107,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "GDXU": {
+  "WLFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "FUBO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -122,9 +128,9 @@
    "sym": "ICNT",
    "pair": "ICNTEUR",
    "action": false,
-   "variation_24h_pct": 25.11,
-   "volume_24h_eur": 74119.65,
-   "spread_pct": 0.2611,
+   "variation_24h_pct": 24.7,
+   "volume_24h_eur": 74269.41,
+   "spread_pct": 0.262,
    "tendance": false,
    "impulsion": null
   },
@@ -132,19 +138,9 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 10.87,
-   "volume_24h_eur": 5084201.74,
-   "spread_pct": 0.1399,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "XMR",
-   "pair": "XMREUR",
-   "action": false,
-   "variation_24h_pct": -13.0,
-   "volume_24h_eur": 343734.43,
-   "spread_pct": 0.3396,
+   "variation_24h_pct": 10.13,
+   "volume_24h_eur": 5080047.18,
+   "spread_pct": 0.0421,
    "tendance": false,
    "impulsion": null
   },
@@ -152,9 +148,9 @@
    "sym": "SPACE",
    "pair": "SPACEEUR",
    "action": false,
-   "variation_24h_pct": 9.65,
-   "volume_24h_eur": 117274.91,
-   "spread_pct": 0.1032,
+   "variation_24h_pct": 9.54,
+   "volume_24h_eur": 117284.65,
+   "spread_pct": 0.1033,
    "tendance": false,
    "impulsion": null
   },
@@ -162,9 +158,9 @@
    "sym": "ZRO",
    "pair": "ZROEUR",
    "action": false,
-   "variation_24h_pct": -6.89,
-   "volume_24h_eur": 684605.71,
-   "spread_pct": 0.2086,
+   "variation_24h_pct": -7.28,
+   "volume_24h_eur": 686837.44,
+   "spread_pct": 0.1047,
    "tendance": false,
    "impulsion": null
   },
@@ -173,7 +169,7 @@
    "pair": "MELANIAEUR",
    "action": false,
    "variation_24h_pct": 6.82,
-   "volume_24h_eur": 87446.17,
+   "volume_24h_eur": 88266.68,
    "spread_pct": 0.4405,
    "tendance": false,
    "impulsion": null
@@ -184,17 +180,7 @@
    "action": false,
    "variation_24h_pct": 6.04,
    "volume_24h_eur": 70773.48,
-   "spread_pct": 0.2587,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "KAVA",
-   "pair": "KAVAEUR",
-   "action": false,
-   "variation_24h_pct": 5.29,
-   "volume_24h_eur": 59625.67,
-   "spread_pct": 0.4184,
+   "spread_pct": 0.2218,
    "tendance": false,
    "impulsion": null
   }
