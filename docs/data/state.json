@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T10:08:00Z",
+   "verifie_jusqu_a": "2026-11-27T10:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 572.3556902406075,
+   "dernier_prix": 572.3504659674873,
    "atr": 2.771652,
    "rollover": 0.8857618967877715,
    "rollover_periodes": 46
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T10:08:00Z",
+   "verifie_jusqu_a": "2026-11-27T10:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 99.16389791522143,
+   "dernier_prix": 99.16299278001406,
    "atr": 1.08547,
    "rollover": 0.7025727799737799,
    "rollover_periodes": 46
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T10:08:00Z",
+   "verifie_jusqu_a": "2026-11-27T10:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 593.3860308883128,
+   "dernier_prix": 593.3806146572105,
    "atr": 3.304099,
    "rollover": 0.8848618327631058,
    "rollover_periodes": 46
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T10:08:00Z",
+   "verifie_jusqu_a": "2026-11-27T10:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.387e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T10:08:00Z",
+   "verifie_jusqu_a": "2026-11-27T10:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 56252.8,
+   "dernier_prix": 56233.2,
    "atr": 640.9446,
    "rollover": 0.3499141342756439,
    "rollover_periodes": 20
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T10:08:52Z",
+ "maj": "2026-11-27T10:09:52Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -258,42 +258,33 @@
   }
  },
  "buzz_t": "2026-11-27T10:02:00Z",
- "sources_t": "2026-11-27T09:49:58Z",
+ "sources_t": "2026-11-27T10:09:51Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
-   "sentiment": "bearish",
+   "mentions": 9,
+   "sentiment": "neutral",
    "titres": [
-    "Bitcoin defends June low as key support, Glassnode says",
-    "BTCUSDT – Bull Trap Before the Next Major Drop to $55K?"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "⛽ ETH Gas: 🐢 0.093687501 | 🚶 0.093688434 | 🚀 0.095108082 Gwei",
-    "ETH | Sellers Get Another Chance"
+    "MEXC Launches Golden Gratitude Gala With a 10M USDT Prize Pool, Including a Gold Bar and BTC",
+    "Elliptic tracks $389M in stolen Binance funds through Bitcoin CoinJoins"
    ]
   },
   {
    "sujet": "Stablecoins",
    "mentions": 3,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "HAEDAL/USDT: +100% Oversold Mean-Reversion Squeeze Setup",
-    "PONS/USDT: +100% Oversold Mean-Reversion Squeeze Setup"
+    "MEXC Launches Golden Gratitude Gala With a 10M USDT Prize Pool, Including a Gold Bar and BTC",
+    "PORTAL/USDT: +200% Coiled Range Breakout Squeeze Setup"
    ]
   },
   {
-   "sujet": "XRP",
+   "sujet": "SEC/Regulation",
    "mentions": 2,
-   "sentiment": "bullish",
+   "sentiment": "neutral",
    "titres": [
-    "XRP deposit transaction share on Binance reaches 91% — its highest level since 2019",
-    "XRP ETFs Snap 17-Session Drought as Graniteshares Readies 3x XRP Funds"
+    "Elliptic tracks $389M in stolen Binance funds through Bitcoin CoinJoins",
+    "The SEC’s “Innovation Exemption” for Tokenized Stocks Explained"
    ]
   },
   {
@@ -301,33 +292,41 @@
    "mentions": 2,
    "sentiment": "bullish",
    "titres": [
-    "XRP deposit transaction share on Binance reaches 91% — its highest level since 2019",
-    "Binance job postings hint at plans for on-chain IPOs"
+    "Elliptic tracks $389M in stolen Binance funds through Bitcoin CoinJoins",
+    "XRP deposit transaction share on Binance reaches 91% — its highest level since 2019"
    ]
   },
   {
-   "sujet": "ETF",
+   "sujet": "Ethereum",
    "mentions": 2,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "LINK Gets Fidelity's ETF Bid as Chainlink Gains 7% While Bitcoin Stays Flat",
-    "XRP ETFs Snap 17-Session Drought as Graniteshares Readies 3x XRP Funds"
+    "Ethereum Devs Lock In Glamsterdam’s Gas Repricing, Set Hoodi Testnet Fork for Dec. 15",
+    "ETH | Sellers Get Another Chance"
    ]
   },
   {
-   "sujet": "Chainlink",
+   "sujet": "Dogecoin",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "LINK Gets Fidelity's ETF Bid as Chainlink Gains 7% While Bitcoin Stays Flat"
+    "Dogecoin Price Down Nearly 25% in November: Here’s What History Says About December."
    ]
   },
   {
-   "sujet": "Institutions",
+   "sujet": "Security",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "LINK Gets Fidelity's ETF Bid as Chainlink Gains 7% While Bitcoin Stays Flat"
+    "HOW-TO: read Plutus's +2 sigma breach on 4H, a BILL example"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "bullish",
+   "titres": [
+    "XRP deposit transaction share on Binance reaches 91% — its highest level since 2019"
    ]
   }
  ],
