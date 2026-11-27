@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T19:26:00Z",
+   "verifie_jusqu_a": "2026-11-27T19:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.373e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T19:26:00Z",
+   "verifie_jusqu_a": "2026-11-27T19:27:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54784.6,
+   "dernier_prix": 54796.0,
    "atr": 640.9446,
    "rollover": 0.4024012544169905,
    "rollover_periodes": 23
@@ -114,7 +114,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T19:27:03Z",
+ "maj": "2026-11-27T19:28:01Z",
  "seq": 30,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -241,24 +241,24 @@
   }
  },
  "buzz_t": "2026-11-27T19:26:01Z",
- "sources_t": "2026-11-27T19:08:12Z",
+ "sources_t": "2026-11-27T19:27:59Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
-   "mentions": 6,
+   "sujet": "Bitcoin",
+   "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "Taiwan expects 13.28% growth in 2026, its fastest pace since 1978, on AI demand",
-    "Liquid AI’s d1.3-ultra ties Bison 31B for top decision index score at a lower cost"
+    "Bitcoin -1.08% fades the bounce: 55,130 floor, 65,741 lid",
+    "$ETH - BULLISH, BUT ONE PROBLEM FIRST"
    ]
   },
   {
-   "sujet": "Bitcoin",
+   "sujet": "AI",
    "mentions": 5,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "Bitcoin falls below $60,000 after Nvidia chips found in China",
-    "BTC/USD Stalls Near $60k Amid Record ETF Outflows"
+    "Grok Build 1.0.92 targets headless agent reliability and remote workflows",
+    "Taiwan expects 13.28% growth in 2026, its fastest pace since 1978, on AI demand"
    ]
   },
   {
@@ -268,6 +268,32 @@
    "titres": [
     "Taiwan expects 13.28% growth in 2026, its fastest pace since 1978, on AI demand",
     "Binance Moves Into Tokenized IPOs After Anthropic Fiasco"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "THE/USDT: +150% Post-ATL Mean-Reversion Squeeze Setup",
+    "CryptoQuant says bitcoin price recovery needs USDT supply growth"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "$ETH - BULLISH, BUT ONE PROBLEM FIRST",
+    "ETH Hits Major Support – Is a Reversal Coming?"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "$ETH - BULLISH, BUT ONE PROBLEM FIRST"
    ]
   },
   {
@@ -284,22 +310,6 @@
    "sentiment": "neutral",
    "titres": [
     "BTC/USD Stalls Near $60k Amid Record ETF Outflows"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "CryptoQuant says bitcoin price recovery needs USDT supply growth"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH Hits Major Support – Is a Reversal Coming?"
    ]
   }
  ],
