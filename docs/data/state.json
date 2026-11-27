@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T16:04:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 578.4039362013463,
+   "dernier_prix": 578.3616211866267,
    "atr": 2.771652,
    "rollover": 0.9050175901962013,
    "rollover_periodes": 47
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T16:04:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.78314310798947,
+   "dernier_prix": 98.42526885653668,
    "atr": 1.08547,
    "rollover": 0.7178461012775577,
    "rollover_periodes": 47
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T16:04:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 590.3570383377231,
+   "dernier_prix": 590.3138488550735,
    "atr": 3.304099,
    "rollover": 0.9040979595623038,
    "rollover_periodes": 47
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T16:04:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.332e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T16:04:00Z",
+   "verifie_jusqu_a": "2026-11-27T16:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54837.2,
+   "dernier_prix": 54844.9,
    "atr": 640.9446,
    "rollover": 0.3849055477032083,
    "rollover_periodes": 22
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T16:04:11Z",
+ "maj": "2026-11-27T16:05:10Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -263,32 +263,41 @@
   }
  },
  "buzz_t": "2026-11-27T15:55:10Z",
- "sources_t": "2026-11-27T15:45:14Z",
+ "sources_t": "2026-11-27T16:05:08Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 7,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "数据：AguilaTrades 减持 1440 枚 BTC 多单，亏损约 177 万美元",
-    "Bitcoin drops below $59,000 as $213M in long positions liquidated"
+    "BTCUSDT Update: Buyers Face Another Test at Key Demand Zone",
+    "3,269 Bitcoin moves from Coinbase Institutional to an unknown wallet"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 3,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "AI data centers and US manufacturing compete for limited electricity resources",
-    "BTC 4H — Confluence short: +3.9% heat first, then -29%"
+    "Yuval Harari on AI: Money, Stocks, and Bonds as Shared Trust (X, Harari)",
+    "UK parliamentary committee asks for the unredacted METR report on Anthropic"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "UK parliamentary committee asks for the unredacted METR report on Anthropic",
+    "Binance hacker moves 11,989 ETH worth $20M to unknown wallet"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "bearish",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
-    "Brazil's biggest banks pick a shared stablecoin over rivals' tokens",
+    "Brazil’s B3 Enlists Itaú, Santander and Four Other Firms for Open BRL Stablecoin",
     "BOJ Wants Stablecoins Linked to Central Bank Money"
    ]
   },
@@ -297,24 +306,32 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 1.167032817 | 🚶 1.283736098 | 🚀 1.294736098 Gwei",
+    "Ethereum developers advance Glamsterdam upgrade, schedule Hoodi for Dec. 15",
     "Binance hacker moves 11,989 ETH worth $20M to unknown wallet"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
+   "sujet": "ETF",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Binance hacker moves 11,989 ETH worth $20M to unknown wallet"
+    "Franklin Templeton to add Hyperliquid’s HYPE token to crypto ETF in December"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "Coinbase",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Binance hacker moves 11,989 ETH worth $20M to unknown wallet"
+    "3,269 Bitcoin moves from Coinbase Institutional to an unknown wallet"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Australia passes bill that would let people sue AI chatbot providers"
    ]
   }
  ],
