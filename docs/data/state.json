@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T15:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 578.2558607321802,
+   "dernier_prix": 578.3193123628384,
    "atr": 2.771652,
    "rollover": 0.9050175901962013,
    "rollover_periodes": 47
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T15:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 97.91354277145888,
+   "dernier_prix": 97.924286759327,
    "atr": 1.08547,
    "rollover": 0.7178461012775577,
    "rollover_periodes": 47
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T15:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 590.3613356252058,
+   "dernier_prix": 590.5907095830286,
    "atr": 3.304099,
    "rollover": 0.9040979595623038,
    "rollover_periodes": 47
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T15:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.324e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T15:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T15:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54987.0,
+   "dernier_prix": 54934.6,
    "atr": 640.9446,
    "rollover": 0.3849055477032083,
    "rollover_periodes": 22
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T15:44:17Z",
+ "maj": "2026-11-27T15:45:15Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -263,24 +263,15 @@
   }
  },
  "buzz_t": "2026-11-27T15:37:20Z",
- "sources_t": "2026-11-27T15:25:22Z",
+ "sources_t": "2026-11-27T15:45:14Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
-   "sentiment": "neutral",
+   "mentions": 7,
+   "sentiment": "bearish",
    "titres": [
-    "BTCUSDT – Is Bitcoin Forming Its 2026 Bottom?",
-    "BSL Swept, Then Closed Through: One Line on BTCUSD 1H"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "BOJ Wants Stablecoins Linked to Central Bank Money",
-    "Tether buys $10 million of Bitdeer shares as stock hovers near all-time low"
+    "数据：AguilaTrades 减持 1440 枚 BTC 多单，亏损约 177 万美元",
+    "Bitcoin drops below $59,000 as $213M in long positions liquidated"
    ]
   },
   {
@@ -288,21 +279,30 @@
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "BTC 4H — Confluence short: +3.9% heat first, then -29%",
-    "AI bubble debate: Drawing parallels with the dot-com era"
+    "AI data centers and US manufacturing compete for limited electricity resources",
+    "BTC 4H — Confluence short: +3.9% heat first, then -29%"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "bearish",
    "titres": [
-    "Binance hacker moves 11,989 ETH worth $20M to unknown wallet",
-    "Coinbase shares trade at $106.23 USDC on Thanksgiving amid Nasdaq closure"
+    "Brazil's biggest banks pick a shared stablecoin over rivals' tokens",
+    "BOJ Wants Stablecoins Linked to Central Bank Money"
    ]
   },
   {
    "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "⛽ ETH Gas: 🐢 1.167032817 | 🚶 1.283736098 | 🚀 1.294736098 Gwei",
+    "Binance hacker moves 11,989 ETH worth $20M to unknown wallet"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
@@ -315,14 +315,6 @@
    "sentiment": "neutral",
    "titres": [
     "Binance hacker moves 11,989 ETH worth $20M to unknown wallet"
-   ]
-  },
-  {
-   "sujet": "Coinbase",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase shares trade at $106.23 USDC on Thanksgiving amid Nasdaq closure"
    ]
   }
  ],
