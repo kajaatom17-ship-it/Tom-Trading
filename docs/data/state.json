@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T06:02:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 570.132283808899,
+   "dernier_prix": 570.1167017409604,
    "atr": 2.771652,
    "rollover": 0.8665062033793417,
    "rollover_periodes": 45
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T06:02:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.95776392988594,
+   "dernier_prix": 98.95505935299317,
    "atr": 1.08547,
    "rollover": 0.6872994586700021,
    "rollover_periodes": 45
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T06:02:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 594.4571990816662,
+   "dernier_prix": 594.4409521987483,
    "atr": 3.304099,
    "rollover": 0.8656257059639079,
    "rollover_periodes": 45
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T06:02:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.355e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T06:02:00Z",
+   "verifie_jusqu_a": "2026-11-27T06:04:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 56212.7,
+   "dernier_prix": 56208.8,
    "atr": 640.9446,
    "rollover": 0.3324184275618617,
    "rollover_periodes": 19
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T06:02:40Z",
+ "maj": "2026-11-27T06:04:45Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -161,25 +161,25 @@
   "2026-11-27": 492.0
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-27T05:58:47Z",
+ "chasseur_t": "2026-11-27T06:04:40Z",
  "tendance": [
   "PENGU",
-  "BTC",
-  "HYPE",
-  "AKE",
   "XTZ",
+  "BTC",
+  "LIT",
+  "BTW",
   "KNTQ",
+  "XMR",
+  "HYPE",
   "VVV",
   "PEARL",
-  "MONTRA",
-  "XMR",
-  "RUNE",
-  "CC",
-  "DRV",
-  "AERO",
-  "ZEC"
+  "AKE",
+  "XRP",
+  "ICP",
+  "MON",
+  "TAO"
  ],
- "tendance_t": "2026-11-27T05:02:26Z",
+ "tendance_t": "2026-11-27T06:04:40Z",
  "buzz": {
   "VKTX": {
    "source": "StockTwits",
@@ -258,15 +258,15 @@
   }
  },
  "buzz_t": "2026-11-27T05:52:54Z",
- "sources_t": "2026-11-27T05:43:07Z",
+ "sources_t": "2026-11-27T06:04:44Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
    "mentions": 7,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin Tests a Major Resistance Zone: Is $48K Next?",
-    "BTC - Low Timeframe Idea"
+    "BTCUSD Daily Market Watch: Back Near 62k With Supply Overhead",
+    "Bitcoin Tests a Major Resistance Zone: Is $48K Next?"
    ]
   },
   {
@@ -274,13 +274,22 @@
    "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "Fed faces AI, inflation challenges amid rate hike considerations",
-    "China’s factories are growing profits again, but the AI boom is picking the winners"
+    "Los Angeles disables Google AI search features as school pushback grows",
+    "Fed faces AI, inflation challenges amid rate hike considerations"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "FIFA Hacked By 'Handsome Boy Hacking Club', Admits 'Criminal Cyber-Attack'",
+    "Japan’s crypto security group taps SEAL to speed up hack response"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
     "US Wins Forfeiture of $674K in Crypto Tied to an Investment Scam",
@@ -289,20 +298,11 @@
   },
   {
    "sujet": "Ethereum",
-   "mentions": 3,
+   "mentions": 2,
    "sentiment": "bearish",
    "titres": [
     "ETH Back at the Level That Broke It – Rejection Toward 1,500?",
     "Ethereum devs set Glamsterdam’s Hoodi rollout for mid-December after delays"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Japan’s crypto security group taps SEAL to speed up hack response",
-    "Tether Sought Up to 20% From Hack Victims to Return Frozen USDT"
    ]
   },
   {
