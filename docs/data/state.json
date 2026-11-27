@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 96.70303926015492,
+ "cash": 96.67982989732678,
  "positions": [
   {
    "id": "P0022",
@@ -20,7 +20,7 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T03:05:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
    "dernier_prix": 564.9291516409864,
@@ -44,7 +44,7 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T03:05:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
    "dernier_prix": 96.34648308017339,
@@ -68,7 +68,7 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T03:05:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
    "dernier_prix": 590.2178268313118,
@@ -92,13 +92,13 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T03:05:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.351e-06,
    "atr": 3.3103e-08,
-   "rollover": 0.10284581005825921,
-   "rollover_periodes": 18
+   "rollover": 0.10855946617260695,
+   "rollover_periodes": 19
   },
   {
    "id": "P0028",
@@ -116,16 +116,16 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T03:05:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:06:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55937.7,
+   "dernier_prix": 55887.9,
    "atr": 640.9446,
-   "rollover": 0.3149227208480795,
-   "rollover_periodes": 18
+   "rollover": 0.3324184275618617,
+   "rollover_periodes": 19
   }
  ],
- "frais_cumules": 18.715318140202925,
+ "frais_cumules": 18.738527503031055,
  "pnl_realise": -14.49756920558815,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T03:05:34Z",
+ "maj": "2026-11-27T03:06:40Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -258,33 +258,24 @@
   }
  },
  "buzz_t": "2026-11-27T02:57:47Z",
- "sources_t": "2026-11-27T02:46:13Z",
+ "sources_t": "2026-11-27T03:06:31Z",
  "actus_tendance": [
   {
    "sujet": "AI",
    "mentions": 12,
    "sentiment": "neutral",
    "titres": [
-    "Canada adds $700 million to its AI compute fund, with a nudge toward homegrown providers",
-    "UK government hires a private secretary to steer AI data center push"
+    "歐洲最大軟體公司 SAP（思愛普）傳將裁員 1 萬人：主軸是 AI 轉型",
+    "Canada adds $700 million to its AI compute fund, with a nudge toward homegrown providers"
    ]
   },
   {
    "sujet": "Bitcoin",
    "mentions": 6,
-   "sentiment": "bearish",
-   "titres": [
-    "BTCUSD–Liquidity Sweep, & OB  Key Support Resistance Setup",
-    "Bitcoin Could Rally Sharply if AI Stocks Recover, Devere CEO Says"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "OpenAI 下調 GPT-6.2 用量：Astra 更快 40% 達上限，Sol 快 25% 達上限",
-    "Nvidia study finds GPT-6.1 Sol performs better when it manages its own context"
+    "BTCUSD: Major Liquidity Hunt Before the Next Big Move",
+    "Saylor Says STRC Beat Bitcoin by 45 Points, but Strategy's MSTR Lost Nearly Half"
    ]
   },
   {
@@ -297,12 +288,35 @@
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 2,
+   "sujet": "XRP",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Bank of Japan executive stresses need for stablecoin backing rules",
-    "Morpho’s largest euro stablecoin vault is €13.8 million short of covering its biggest depositor’s exit"
+    "Binance sees 40M XRP withdrawn days after its quietest week since 2019"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance sees 40M XRP withdrawn days after its quietest week since 2019"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "USDT Dominance Near Record as Tether Shrinks $16B. Dry Powder?"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "OpenAI 下調 GPT-6.2 用量：Astra 更快 40% 達上限，Sol 快 25% 達上限"
    ]
   },
   {
@@ -311,22 +325,6 @@
    "sentiment": "neutral",
    "titres": [
     "ETH 4H Update: Bands Squeezing Under 1,750, a Big Move Coming?"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "Bitcoin in Extreme Fear: Historically a Buy Signal, But Potentially a Trap?"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "BITCOIN - A short squeeze could trigger a decline"
    ]
   }
  ],
