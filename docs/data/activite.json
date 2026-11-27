@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-26T09:37:56Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "453 actifs hors univers analysés, 6 en mouvement : B2 +9.1 %, POPCAT +7.3 %, SYRUP +6.7 %."
- },
- {
-  "t": "2026-11-26T09:43:47Z",
-  "agent": "Chasseur de mouvements",
-  "type": "tendance",
-  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : VVV, PENGU, BTC, PEARL, HYPE, SOL, MON, NEAR"
- },
- {
-  "t": "2026-11-26T09:43:50Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "453 actifs hors univers analysés, 5 en mouvement : B2 +9.1 %, SYRUP +6.7 %, SEI +6.8 %."
- },
- {
   "t": "2026-11-26T12:31:40Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -2646,5 +2628,32 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "604 actifs hors univers analysés, 9 en mouvement : PORTAL +172.4 %, ICNT +20.1 %, ZEC +10.8 %."
+ },
+ {
+  "t": "2026-11-27T16:53:13Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "META short fermé (durée maximale atteinte) à 577.4937 : -3.69 € net",
+  "data": {
+   "id": "P0022"
+  }
+ },
+ {
+  "t": "2026-11-27T16:53:15Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "COIN short fermé (durée maximale atteinte) à 98.73822 : +1.88 € net",
+  "data": {
+   "id": "P0023"
+  }
+ },
+ {
+  "t": "2026-11-27T16:53:16Z",
+  "agent": "Execution",
+  "type": "cloture",
+  "msg": "QQQ short fermé (durée maximale atteinte) à 593.2438 : +0.45 € net",
+  "data": {
+   "id": "P0024"
+  }
  }
 ]
