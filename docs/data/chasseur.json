@@ -1,7 +1,7 @@
 {
- "t": "2026-11-27T03:03:36Z",
+ "t": "2026-11-27T03:09:36Z",
  "nb_analyses": 604,
- "nb_en_mouvement": 6,
+ "nb_en_mouvement": 7,
  "tendance": [
   "AG",
   "B",
@@ -115,9 +115,9 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 9.82,
-   "volume_24h_eur": 3996125.57,
-   "spread_pct": 0.1063,
+   "variation_24h_pct": 10.14,
+   "volume_24h_eur": 4017173.21,
+   "spread_pct": 0.3083,
    "tendance": true,
    "impulsion": null
   },
@@ -125,9 +125,19 @@
    "sym": "W",
    "pair": "WEUR",
    "action": false,
-   "variation_24h_pct": 5.09,
-   "volume_24h_eur": 195109.63,
-   "spread_pct": 0.1182,
+   "variation_24h_pct": 5.96,
+   "volume_24h_eur": 196472.66,
+   "spread_pct": 0.1172,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "SKY",
+   "pair": "SKYEUR",
+   "action": false,
+   "variation_24h_pct": 5.76,
+   "volume_24h_eur": 178546.74,
+   "spread_pct": 0.067,
    "tendance": false,
    "impulsion": null
   },
@@ -136,8 +146,8 @@
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": 4.23,
-   "volume_24h_eur": 72111.23,
-   "spread_pct": 0.2686,
+   "volume_24h_eur": 71950.15,
+   "spread_pct": 0.3206,
    "tendance": false,
    "impulsion": null
   },
@@ -145,20 +155,10 @@
    "sym": "XMR",
    "pair": "XMREUR",
    "action": false,
-   "variation_24h_pct": 3.45,
-   "volume_24h_eur": 425890.12,
-   "spread_pct": 0.1649,
+   "variation_24h_pct": 3.47,
+   "volume_24h_eur": 425924.12,
+   "spread_pct": 0.1509,
    "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "ANT",
-   "pair": "ANTxUSD",
-   "action": true,
-   "variation_24h_pct": 3.29,
-   "volume_24h_eur": 260104.0,
-   "spread_pct": 0.1746,
-   "tendance": false,
    "impulsion": null
   },
   {
@@ -169,6 +169,16 @@
    "volume_24h_eur": 260192.8,
    "spread_pct": 0.1059,
    "tendance": true,
+   "impulsion": null
+  },
+  {
+   "sym": "ANT",
+   "pair": "ANTxUSD",
+   "action": true,
+   "variation_24h_pct": 3.15,
+   "volume_24h_eur": 260074.86,
+   "spread_pct": 0.1632,
+   "tendance": false,
    "impulsion": null
   }
  ],
