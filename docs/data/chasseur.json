@@ -1,7 +1,7 @@
 {
- "t": "2026-11-27T09:32:19Z",
+ "t": "2026-11-27T09:38:11Z",
  "nb_analyses": 604,
- "nb_en_mouvement": 7,
+ "nb_en_mouvement": 9,
  "tendance": [
   "AKE",
   "BABA",
@@ -116,19 +116,33 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 10.91,
-   "volume_24h_eur": 4782264.28,
-   "spread_pct": 0.0748,
+   "variation_24h_pct": 11.32,
+   "volume_24h_eur": 4787668.15,
+   "spread_pct": 0.0001,
    "tendance": true,
    "impulsion": null
+  },
+  {
+   "sym": "ICNT",
+   "pair": "ICNTEUR",
+   "action": false,
+   "variation_24h_pct": 12.45,
+   "volume_24h_eur": 59945.88,
+   "spread_pct": 0.2542,
+   "tendance": false,
+   "impulsion": {
+    "sens": "long",
+    "mouvement_pct": 2.95,
+    "volume_x": 3.6
+   }
   },
   {
    "sym": "ENA",
    "pair": "ENAEUR",
    "action": false,
-   "variation_24h_pct": 7.1,
-   "volume_24h_eur": 355138.74,
-   "spread_pct": 0.102,
+   "variation_24h_pct": 7.21,
+   "volume_24h_eur": 354936.62,
+   "spread_pct": 0.2039,
    "tendance": false,
    "impulsion": null
   },
@@ -136,9 +150,9 @@
    "sym": "SPACE",
    "pair": "SPACEEUR",
    "action": false,
-   "variation_24h_pct": 7.02,
-   "volume_24h_eur": 64075.27,
-   "spread_pct": 0.1058,
+   "variation_24h_pct": 7.39,
+   "volume_24h_eur": 64516.33,
+   "spread_pct": 0.1054,
    "tendance": false,
    "impulsion": null
   },
@@ -146,9 +160,9 @@
    "sym": "USELESS",
    "pair": "USELESSEUR",
    "action": false,
-   "variation_24h_pct": 6.04,
-   "volume_24h_eur": 238893.49,
-   "spread_pct": 0.1272,
+   "variation_24h_pct": 6.02,
+   "volume_24h_eur": 240732.13,
+   "spread_pct": 0.1413,
    "tendance": false,
    "impulsion": null
   },
@@ -156,9 +170,19 @@
    "sym": "W",
    "pair": "WEUR",
    "action": false,
-   "variation_24h_pct": 5.09,
-   "volume_24h_eur": 442504.37,
-   "spread_pct": 0.1182,
+   "variation_24h_pct": 5.22,
+   "volume_24h_eur": 446414.51,
+   "spread_pct": 0.1181,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "JUP",
+   "pair": "JUPEUR",
+   "action": false,
+   "variation_24h_pct": 5.17,
+   "volume_24h_eur": 304755.46,
+   "spread_pct": 0.1315,
    "tendance": false,
    "impulsion": null
   },
@@ -166,19 +190,9 @@
    "sym": "ANT",
    "pair": "ANTxUSD",
    "action": true,
-   "variation_24h_pct": 4.37,
-   "volume_24h_eur": 424027.34,
-   "spread_pct": 0.0922,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "TQQQ",
-   "pair": "TQQQxUSD",
-   "action": true,
-   "variation_24h_pct": 3.93,
-   "volume_24h_eur": 59766.49,
-   "spread_pct": 0.1628,
+   "variation_24h_pct": 4.5,
+   "volume_24h_eur": 431829.05,
+   "spread_pct": 0.069,
    "tendance": false,
    "impulsion": null
   }
