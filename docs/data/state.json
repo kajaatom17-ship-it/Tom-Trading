@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T07:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T07:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 567.9442191131568,
+   "dernier_prix": 567.8769320501603,
    "atr": 2.771652,
    "rollover": 0.8665062033793417,
    "rollover_periodes": 45
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T07:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T07:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 98.75586747482112,
+   "dernier_prix": 98.7441673957422,
    "atr": 1.08547,
    "rollover": 0.6872994586700021,
    "rollover_periodes": 45
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T07:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T07:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 590.1016269425328,
+   "dernier_prix": 590.0317147856517,
    "atr": 3.304099,
    "rollover": 0.8656257059639079,
    "rollover_periodes": 45
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T07:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T07:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.361e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T07:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T07:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 56043.4,
+   "dernier_prix": 56047.4,
    "atr": 640.9446,
    "rollover": 0.3499141342756439,
    "rollover_periodes": 20
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T07:46:21Z",
+ "maj": "2026-11-27T07:47:21Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -258,33 +258,24 @@
   }
  },
  "buzz_t": "2026-11-27T07:39:24Z",
- "sources_t": "2026-11-27T07:27:28Z",
+ "sources_t": "2026-11-27T07:47:18Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 8,
-   "sentiment": "bearish",
+   "mentions": 5,
+   "sentiment": "neutral",
    "titres": [
-    "What Happens When a Bitcoin Block Is Full, and Who Decides Who Gets In?",
-    "Bitcoin Treasury Corporation GAAP EPS of C$2.25, revenue of C$0.08M"
+    "Gold vs. Bitcoin: Mining CEO Explains Why the Rivalry Could Fade in 2027",
+    "Why Bitcoin Mining Difficulty Matters"
    ]
   },
   {
    "sujet": "AI",
    "mentions": 4,
-   "sentiment": "neutral",
+   "sentiment": "bullish",
    "titres": [
-    "German software major SAP weighs cutting at least 10,000 jobs in AI push: Bloomberg",
-    "China’s factories are growing profits again, but the AI boom is picking the winners"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Justin Sun puts tokenized stocks at the center of TRON’s quarter",
-    "Here’s what happened in crypto today"
+    "Tech German software major SAP is reportedly weighing cutting at least 10,000 jobs in AI push",
+    "AI market suffers a sharp setback; foreign capital's sell-off of Taiwan stocks in November may reach a record high"
    ]
   },
   {
@@ -292,17 +283,41 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Best Copy Trading App for Spot Crypto in 2026: Binance, OKX, BloFin, Bitget and Bybit Compared",
-    "US Wins Forfeiture of $674K in Crypto Tied to an Investment Scam"
+    "Gold vs. Bitcoin: Mining CEO Explains Why the Rivalry Could Fade in 2027",
+    "Best Copy Trading App for Spot Crypto in 2026: Binance, OKX, BloFin, Bitget and Bybit Compared"
    ]
   },
   {
-   "sujet": "Security",
+   "sujet": "XRP",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "FIFA Hacked By 'Handsome Boy Hacking Club', Admits 'Criminal Cyber-Attack'",
-    "Japan’s crypto security group taps SEAL to speed up hack response"
+    "XRP reclaim, Bulls keep $1.28 in play",
+    "XRP/USD: EMA55 Reclaim Puts Price Into Upper Band Toward 1.0260"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Pendle buybacks near $5 million as repurchases outpace emissions 4x"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "#SOL Trade Plan: Fib Level Rejection Ahead. 27.11.26"
+   ]
+  },
+  {
+   "sujet": "Layer 2",
+   "mentions": 1,
+   "sentiment": "bullish",
+   "titres": [
+    "Can SpaceX's AI ambitions drive further upside in its stock?"
    ]
   },
   {
@@ -311,22 +326,6 @@
    "sentiment": "neutral",
    "titres": [
     "Ethereum’s quantum defense plans could delay a major upgrade to stop transaction censorship"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Crypto Fund Manager Sets a $300B Market Cap Target for Solana on Tokenized Stocks"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Best Copy Trading App for Spot Crypto in 2026: Binance, OKX, BloFin, Bitget and Bybit Compared"
    ]
   }
  ],
