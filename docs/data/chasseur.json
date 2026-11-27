@@ -1,17 +1,18 @@
 {
- "t": "2026-11-27T01:42:11Z",
+ "t": "2026-11-27T01:48:02Z",
  "nb_analyses": 605,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 2,
  "tendance": [
   "AMKR",
   "BABA",
-  "BB.TSX",
+  "BIDU",
   "BTC",
-  "CRVS",
   "DOGE",
   "EWZ",
+  "EXK",
   "HYPE",
   "INIT",
+  "JD",
   "MLTX",
   "MONTRA",
   "NVO",
@@ -20,27 +21,31 @@
   "PONS",
   "PUMP",
   "RKLB",
-  "RTY_F",
   "SHIB",
+  "SNOW",
   "SOL",
   "SOXX",
-  "SPOT",
   "SVIX",
+  "TECL",
   "UNI",
   "VRTX",
   "VVV",
-  "XCN",
   "XMR",
   "ZEC",
   "ZYLO"
  ],
  "buzz_reseaux": {
+  "SHIB": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "MLTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "RKLB": {
+  "SNOW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -50,37 +55,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHIB": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VRTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RTY_F": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SOXX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "AMKR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CRVS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "EWZ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -90,7 +65,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XCN": {
+  "VRTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EWZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TECL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -100,12 +85,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SPOT": {
+  "SOXX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BB.TSX": {
+  "JD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BIDU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EXK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RKLB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -113,15 +113,31 @@
  },
  "candidats": [
   {
+   "sym": "KNTQ",
+   "pair": "KNTQEUR",
+   "action": false,
+   "variation_24h_pct": 5.54,
+   "volume_24h_eur": 126907.54,
+   "spread_pct": 0.1091,
+   "tendance": false,
+   "impulsion": {
+    "sens": "long",
+    "mouvement_pct": 6.11,
+    "volume_x": 6.4
+   }
+  },
+  {
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 3.48,
-   "volume_24h_eur": 3589851.33,
-   "spread_pct": 0.0667,
+   "variation_24h_pct": 3.56,
+   "volume_24h_eur": 3589952.11,
+   "spread_pct": 0.0385,
    "tendance": true,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "KNTQ"
+ ]
 }
