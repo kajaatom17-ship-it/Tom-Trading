@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T01:43:00Z",
+   "verifie_jusqu_a": "2026-11-27T01:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 562.87905733855,
+   "dernier_prix": 562.8533907270273,
    "atr": 2.771652,
    "rollover": 0.8472505099709119,
    "rollover_periodes": 44
@@ -47,7 +47,7 @@
    "verifie_jusqu_a": "2026-11-27T01:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.49146807482192,
+   "dernier_prix": 96.48706817933098,
    "atr": 1.08547,
    "rollover": 0.6720261373662243,
    "rollover_periodes": 44
@@ -71,7 +71,7 @@
    "verifie_jusqu_a": "2026-11-27T01:44:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 586.5185549992248,
+   "dernier_prix": 586.4918104548938,
    "atr": 3.304099,
    "rollover": 0.8463895791647099,
    "rollover_periodes": 44
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T01:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T01:45:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55266.4,
+   "dernier_prix": 55267.2,
    "atr": 640.9446,
    "rollover": 0.3149227208480795,
    "rollover_periodes": 18
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T01:44:04Z",
+ "maj": "2026-11-27T01:45:04Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -258,33 +258,67 @@
   }
  },
  "buzz_t": "2026-11-27T01:30:40Z",
- "sources_t": "2026-11-27T01:24:37Z",
+ "sources_t": "2026-11-27T01:45:01Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 10,
+   "mentions": 9,
    "sentiment": "neutral",
    "titres": [
-    "Dell Technologies raises fiscal 2027 guidance after record revenue",
-    "Researchers show AI models can collude through a shared vLLM inference server"
+    "China industrial profits growth surges to a 5-month high of 20.1% in October",
+    "Amazon study finds AI models can build agent harnesses but struggle to improve them"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 5,
+   "mentions": 7,
    "sentiment": "bearish",
    "titres": [
-    "数据：1000 枚 BTC 从 Kraken 转至 Abraxas Capital",
-    "Bitcoin , bottom is in"
+    "Bitcoin miners log longest block gap since July at 98 minutes",
+    "BTCUSDT 1H | Is Wave 4 Forming a Contracting Triangle?"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Nvidia study finds GPT-6.1 Sol performs better when it manages its own context",
+    "Solana ready for the new bull run"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Bank of Japan executive director stresses need for stablecoin frameworks",
+    "$1M in Philippine Retail Dollar Bonds Purchased Using Stablecoins on PDAX"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "The 72-Hour Clock: A Realistic GDPR Breach Emergency Plan for the Agentic AI Era",
+    "Is the Bitcoin Bear Market Repeating 2022? Key Gaps Remain"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 3,
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.045018248 | 🚶 0.045028248 | 🚀 0.045883801 Gwei",
-    "ETH Bearish Trend Line Meets Oversold RSI"
+    "⛽ ETH Gas: 🐢 0.04884564 | 🚶 0.04884664 | 🚀 0.053731304 Gwei"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "bearish",
+   "titres": [
+    "BITCOIN - A short squeeze could trigger a decline"
    ]
   },
   {
@@ -293,38 +327,6 @@
    "sentiment": "neutral",
    "titres": [
     "Privacy coins face diverging fortunes as KuCoin moves to drop Monero"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Solana ready for the new bull run"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "$1M in Philippine Retail Dollar Bonds Purchased Using Stablecoins on PDAX"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "XRP sellers could lose an extra $3,146 on a large trade if five accounts pull their buy orders"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Goldman sees $17B to $25B in annual GPU rent at risk of re-letting from China-linked AI load"
    ]
   }
  ],
