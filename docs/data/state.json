@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T03:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 566.6681849237075,
+   "dernier_prix": 566.673347058502,
    "atr": 2.771652,
    "rollover": 0.8472505099709119,
    "rollover_periodes": 44
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T03:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.37895695741288,
+   "dernier_prix": 96.37983493359083,
    "atr": 1.08547,
    "rollover": 0.6720261373662243,
    "rollover_periodes": 44
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T03:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 591.273058528809,
+   "dernier_prix": 591.2784448047809,
    "atr": 3.304099,
    "rollover": 0.8463895791647099,
    "rollover_periodes": 44
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T03:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.353e-06,
@@ -116,7 +116,7 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T03:46:00Z",
+   "verifie_jusqu_a": "2026-11-27T03:47:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
    "dernier_prix": 55930.3,
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T03:46:24Z",
+ "maj": "2026-11-27T03:47:23Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -258,24 +258,24 @@
   }
  },
  "buzz_t": "2026-11-27T03:32:50Z",
- "sources_t": "2026-11-27T03:27:05Z",
+ "sources_t": "2026-11-27T03:47:21Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 11,
-   "sentiment": "neutral",
+   "mentions": 10,
+   "sentiment": "bullish",
    "titres": [
-    "歐洲最大軟體公司 SAP（思愛普）傳將裁員 1 萬人：主軸是 AI 轉型",
-    "Canada adds $700 million to its AI compute fund, with a nudge toward homegrown providers"
+    "Solana launches AI-assisted Playground for building programs in the browser",
+    "Microsoft study finds AI coding agents write bigger patches, mostly by adding tests"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
-   "sentiment": "bullish",
+   "mentions": 6,
+   "sentiment": "neutral",
    "titres": [
-    "不到 0.35 美元就能鎖定錢包 IP！Bitcoin Core 轉播機制爆隱私漏洞",
-    "UPBIT 上线 KGeN (KGEN) 和 Flare (FLR) 并支持 BTC、USDT 交易"
+    "BTC Annual Range 2 cycles",
+    "Bitcoin's return to $59,000 sent much older coins to exchanges than in July"
    ]
   },
   {
@@ -285,6 +285,32 @@
    "titres": [
     "Coinbase Wallet Returns $250K in Trading Fee Rebates to Users",
     "UPBIT 上线 KGeN (KGEN) 和 Flare (FLR) 并支持 BTC、USDT 交易"
+   ]
+  },
+  {
+   "sujet": "Solana",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Solana launches AI-assisted Playground for building programs in the browser",
+    "OpenAI 下調 GPT-6.2 用量：Astra 更快 40% 達上限，Sol 快 25% 達上限"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "ETH/USD - Buyers face test After channel bounce",
+    "ETH 4H Update: Bands Squeezing Under 1,750, a Big Move Coming?"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "1.58 亿美元无法提款：Sky 困局，旧 DeFi 时代或走向落幕"
    ]
   },
   {
@@ -301,30 +327,6 @@
    "sentiment": "neutral",
    "titres": [
     "Binance sees 40M XRP withdrawn days after its quietest week since 2019"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance sees 40M XRP withdrawn days after its quietest week since 2019"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "OpenAI 下調 GPT-6.2 用量：Astra 更快 40% 達上限，Sol 快 25% 達上限"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "ETH 4H Update: Bands Squeezing Under 1,750, a Big Move Coming?"
    ]
   }
  ],
