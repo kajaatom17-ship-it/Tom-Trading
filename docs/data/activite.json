@@ -2,16 +2,6 @@
  {
   "t": "2026-11-26T08:51:39Z",
   "agent": "Veille",
-  "type": "actu",
-  "msg": "[hausse, géopolitique] European stocks rally as tech and banks rebound, tariff fears ease (Investing.com)",
-  "data": {
-   "lien": "https://www.investing.com/news/economy-news/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease-5052228",
-   "actifs": []
-  }
- },
- {
-  "t": "2026-11-26T08:51:39Z",
-  "agent": "Veille",
   "type": "alerte",
   "msg": "ICNT -2.56 % en 15 min"
  },
@@ -2654,5 +2644,11 @@
   "agent": "Scanner",
   "type": "scan",
   "msg": "47 actifs analysés, 5 signal(aux) : AMZN short (SWG-1, 80), ARB short (SWG-1, 80), OP short (SWG-1, 80)"
+ },
+ {
+  "t": "2026-11-27T16:01:17Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "604 actifs hors univers analysés, 6 en mouvement : ZEC +8.6 %, KAVA +8.8 %, MELANIA +8.5 %."
  }
 ]
