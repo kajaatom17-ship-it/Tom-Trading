@@ -20,10 +20,10 @@
    "risque_eur": 3.671305147764786,
    "rr_net": 2.78,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T02:03:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-META",
-   "dernier_prix": 564.0359512870998,
+   "dernier_prix": 563.6255924170616,
    "atr": 2.771652,
    "rollover": 0.8472505099709119,
    "rollover_periodes": 44
@@ -44,10 +44,10 @@
    "risque_eur": 4.8112224830182235,
    "rr_net": 2.83,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T02:03:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-COIN",
-   "dernier_prix": 96.44133304163931,
+   "dernier_prix": 96.4272694130514,
    "atr": 1.08547,
    "rollover": 0.6720261373662243,
    "rollover_periodes": 44
@@ -68,10 +68,10 @@
    "risque_eur": 4.393454401663354,
    "rr_net": 2.82,
    "ouvert_le": "2026-11-19T16:52:41Z",
-   "verifie_jusqu_a": "2026-11-27T02:03:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261119-165241-QQQ",
-   "dernier_prix": 587.0615474367388,
+   "dernier_prix": 586.8847976667881,
    "atr": 3.304099,
    "rollover": 0.8463895791647099,
    "rollover_periodes": 44
@@ -92,7 +92,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T02:03:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.316e-06,
@@ -116,10 +116,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T02:03:00Z",
+   "verifie_jusqu_a": "2026-11-27T02:05:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 55455.8,
+   "dernier_prix": 55335.6,
    "atr": 640.9446,
    "rollover": 0.3149227208480795,
    "rollover_periodes": 18
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T02:03:21Z",
+ "maj": "2026-11-27T02:05:20Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -161,7 +161,7 @@
   "2026-11-27": 492.0
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-27T01:59:31Z",
+ "chasseur_t": "2026-11-27T02:05:16Z",
  "tendance": [
   "PENGU",
   "ZYLO",
@@ -196,17 +196,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BABA": {
+  "EWZ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMKR": {
+  "RKLB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SVIX": {
+  "OXLC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -216,32 +216,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "EWZ": {
+  "BABA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TECL": {
+  "SVIX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVO": {
+  "DELL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOXX": {
+  "ADA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "JD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BIDU": {
+  "STRL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -251,40 +246,45 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "RKLB": {
+  "HPQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TOSHI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-27T01:48:00Z",
- "sources_t": "2026-11-27T01:45:01Z",
+ "buzz_t": "2026-11-27T02:05:16Z",
+ "sources_t": "2026-11-27T02:05:17Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 9,
+   "mentions": 10,
    "sentiment": "neutral",
    "titres": [
-    "China industrial profits growth surges to a 5-month high of 20.1% in October",
-    "Amazon study finds AI models can build agent harnesses but struggle to improve them"
+    "AI is driving a flood of crypto bug reports. Now it’s helping sort them",
+    "Bitcoin Could Rally Sharply if AI Stocks Recover, Devere CEO Says"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 7,
+   "mentions": 9,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin miners log longest block gap since July at 98 minutes",
-    "BTCUSDT 1H | Is Wave 4 Forming a Contracting Triangle?"
+    "BTCUSD–Liquidity Sweep, & OB  Key Support Resistance Setup",
+    "Bitcoin Could Rally Sharply if AI Stocks Recover, Devere CEO Says"
    ]
   },
   {
-   "sujet": "Solana",
+   "sujet": "DeFi",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Nvidia study finds GPT-6.1 Sol performs better when it manages its own context",
-    "Solana ready for the new bull run"
+    "DeFi 保險為何瀕臨滅絕？TVL 從 18.5 億暴跌至 1.32 億美元",
+    "Pendle leads tokenized stock deposit growth with $57 million in deposits"
    ]
   },
   {
@@ -292,8 +292,8 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Bank of Japan executive director stresses need for stablecoin frameworks",
-    "$1M in Philippine Retail Dollar Bonds Purchased Using Stablecoins on PDAX"
+    "Bank of Japan executive stresses need for stablecoin backing rules",
+    "Morpho’s largest euro stablecoin vault is €13.8 million short of covering its biggest depositor’s exit"
    ]
   },
   {
@@ -310,23 +310,23 @@
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "⛽ ETH Gas: 🐢 0.04884564 | 🚶 0.04884664 | 🚀 0.053731304 Gwei"
+    "⛽ ETH Gas: 🐢 0.043489768 | 🚶 0.043491101 | 🚀 0.047840211 Gwei"
    ]
   },
   {
-   "sujet": "Binance",
+   "sujet": "ETF",
    "mentions": 1,
    "sentiment": "bearish",
    "titres": [
-    "BITCOIN - A short squeeze could trigger a decline"
+    "Bitcoin in Extreme Fear: Historically a Buy Signal, But Potentially a Trap?"
    ]
   },
   {
-   "sujet": "Institutions",
+   "sujet": "Solana",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Privacy coins face diverging fortunes as KuCoin moves to drop Monero"
+    "Nvidia study finds GPT-6.1 Sol performs better when it manages its own context"
    ]
   }
  ],
