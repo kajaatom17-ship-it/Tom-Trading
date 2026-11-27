@@ -1,17 +1,5 @@
 [
  {
-  "t": "2026-11-26T14:02:30Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 1 signal(aux) : ARB short (SWG-1, 80)"
- },
- {
-  "t": "2026-11-26T14:03:32Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "454 actifs hors univers analysés, 9 en mouvement : SKY +10.9 %, SEI +11.4 %, B2 +11.3 %."
- },
- {
   "t": "2026-11-26T14:09:24Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2652,5 +2640,20 @@
   "agent": "Veille",
   "type": "alerte",
   "msg": "BLUR -2.6 % en 15 min"
+ },
+ {
+  "t": "2026-11-27T18:08:24Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "CRCL short ouvert à 45.22264 | 65.20 € engagés | stop 48.51102 | objectif 34.47775 | risque 4.85 EUR",
+  "data": {
+   "id": "P0029"
+  }
+ },
+ {
+  "t": "2026-11-27T18:08:24Z",
+  "agent": "Trader de garde",
+  "type": "entrée",
+  "msg": "Entrée SWG-1 : CRCL short, stop 48.51102, objectif 34.47775, risque 4.85 €."
  }
 ]
