@@ -1,5 +1,5 @@
 {
- "t": "2026-11-27T23:47:25Z",
+ "t": "2026-11-27T23:53:30Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 7,
  "tendance": [
@@ -149,12 +149,22 @@
  },
  "candidats": [
   {
+   "sym": "PORTAL",
+   "pair": "PORTALEUR",
+   "action": false,
+   "variation_24h_pct": 231.1,
+   "volume_24h_eur": 185605.44,
+   "spread_pct": 0.2401,
+   "tendance": true,
+   "impulsion": null
+  },
+  {
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": 11.17,
-   "volume_24h_eur": 171554.59,
-   "spread_pct": 0.1487,
+   "variation_24h_pct": 12.26,
+   "volume_24h_eur": 172312.39,
+   "spread_pct": 0.0842,
    "tendance": true,
    "impulsion": null
   },
@@ -163,38 +173,28 @@
    "pair": "XMREUR",
    "action": false,
    "variation_24h_pct": -10.16,
-   "volume_24h_eur": 276122.0,
-   "spread_pct": 0.377,
+   "volume_24h_eur": 276087.81,
+   "spread_pct": 0.2273,
    "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "ICNT",
-   "pair": "ICNTEUR",
-   "action": false,
-   "variation_24h_pct": 10.9,
-   "volume_24h_eur": 87597.46,
-   "spread_pct": 0.2209,
-   "tendance": false,
-   "impulsion": null
-  },
-  {
-   "sym": "KAVA",
-   "pair": "KAVAEUR",
-   "action": false,
-   "variation_24h_pct": 10.57,
-   "volume_24h_eur": 60191.33,
-   "spread_pct": 0.3984,
-   "tendance": false,
    "impulsion": null
   },
   {
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 7.48,
-   "volume_24h_eur": 4529898.8,
-   "spread_pct": 0.0263,
+   "variation_24h_pct": 7.86,
+   "volume_24h_eur": 4553108.28,
+   "spread_pct": 0.0591,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "ICNT",
+   "pair": "ICNTEUR",
+   "action": false,
+   "variation_24h_pct": 10.13,
+   "volume_24h_eur": 87874.23,
+   "spread_pct": 0.1483,
    "tendance": false,
    "impulsion": null
   },
@@ -202,8 +202,8 @@
    "sym": "SPACE",
    "pair": "SPACEEUR",
    "action": false,
-   "variation_24h_pct": 8.12,
-   "volume_24h_eur": 122074.46,
+   "variation_24h_pct": 8.06,
+   "volume_24h_eur": 122044.89,
    "spread_pct": 0.1047,
    "tendance": false,
    "impulsion": null
@@ -213,8 +213,8 @@
    "pair": "MELANIAEUR",
    "action": false,
    "variation_24h_pct": 5.41,
-   "volume_24h_eur": 75972.57,
-   "spread_pct": 0.2232,
+   "volume_24h_eur": 75975.74,
+   "spread_pct": 0.4464,
    "tendance": false,
    "impulsion": null
   }
