@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T17:55:00Z",
+   "verifie_jusqu_a": "2026-11-27T17:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.318e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T17:56:00Z",
+   "verifie_jusqu_a": "2026-11-27T17:57:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54554.6,
+   "dernier_prix": 54645.0,
    "atr": 640.9446,
    "rollover": 0.3849055477032083,
    "rollover_periodes": 22
@@ -69,7 +69,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T17:56:01Z",
+ "maj": "2026-11-27T17:58:03Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -89,7 +89,7 @@
   "2026-11-27": 492.0
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-27T17:52:16Z",
+ "chasseur_t": "2026-11-27T17:57:57Z",
  "tendance": [
   "PENGU",
   "PUMPCHAN",
@@ -111,13 +111,18 @@
  "buzz": {
   "TSLA": {
    "source": "Reddit + StockTwits",
-   "mentions": 43,
-   "x_vs_hier": 3.6
+   "mentions": 45,
+   "x_vs_hier": 3.8
   },
   "PS": {
    "source": "Reddit",
    "mentions": 34,
    "x_vs_hier": 6.8
+  },
+  "NN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   },
   "VRTX": {
    "source": "StockTwits",
@@ -129,22 +134,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "EWZ": {
+  "CMG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WDC": {
+  "B": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GDXU": {
+  "CAVA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -154,22 +154,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MPC": {
+  "BB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TGTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VRT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WLFI": {
+  "PYTH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -179,18 +169,28 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SNOW": {
+  "EROC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "QCOM": {
+  "WLFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EWZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GDXU": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-27T17:40:55Z",
+ "buzz_t": "2026-11-27T17:57:58Z",
  "sources_t": "2026-11-27T17:46:41Z",
  "actus_tendance": [
   {
