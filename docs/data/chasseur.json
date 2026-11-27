@@ -1,19 +1,19 @@
 {
- "t": "2026-11-27T02:52:00Z",
+ "t": "2026-11-27T02:57:50Z",
  "nb_analyses": 604,
  "nb_en_mouvement": 5,
  "tendance": [
-  "AMKR",
+  "AG",
+  "B",
   "BTC",
   "DOGE",
   "DOT",
   "ENA",
   "ETH",
   "EWZ",
-  "F",
+  "GLW",
   "KNTQ",
   "MLTX",
-  "NBIZ",
   "NEAR",
   "NFLX",
   "PEARL",
@@ -21,12 +21,12 @@
   "PENGU",
   "PEPE",
   "PI",
-  "QNT",
+  "RKLB",
   "SHIB",
   "SOL",
   "SOXL",
   "TECL",
-  "UCO",
+  "TQQQ",
   "VVV",
   "XMR",
   "XPEV",
@@ -39,42 +39,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MLTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "SHIB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ZEC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TECL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AMKR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NFLX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DOT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "EWZ": {
+  "MLTX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -84,27 +54,57 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "QNT": {
+  "RKLB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "F": {
+  "NFLX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ZEC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DOT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "B": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TECL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EWZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TQQQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GLW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "XPEV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NBIZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UCO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -115,19 +115,9 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 8.58,
-   "volume_24h_eur": 3811300.63,
-   "spread_pct": 0.1138,
-   "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "XMR",
-   "pair": "XMREUR",
-   "action": false,
-   "variation_24h_pct": 3.87,
-   "volume_24h_eur": 425840.31,
-   "spread_pct": 0.1457,
+   "variation_24h_pct": 8.51,
+   "volume_24h_eur": 3811021.53,
+   "spread_pct": 0.0525,
    "tendance": true,
    "impulsion": null
   },
@@ -136,18 +126,28 @@
    "pair": "SKHYxUSD",
    "action": true,
    "variation_24h_pct": 4.23,
-   "volume_24h_eur": 72113.86,
-   "spread_pct": 0.2513,
+   "volume_24h_eur": 72115.83,
+   "spread_pct": 0.2773,
    "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "XMR",
+   "pair": "XMREUR",
+   "action": false,
+   "variation_24h_pct": 3.45,
+   "volume_24h_eur": 425890.12,
+   "spread_pct": 0.1649,
+   "tendance": true,
    "impulsion": null
   },
   {
    "sym": "ANT",
    "pair": "ANTxUSD",
    "action": true,
-   "variation_24h_pct": 3.48,
-   "volume_24h_eur": 260009.17,
-   "spread_pct": 0.1278,
+   "variation_24h_pct": 3.29,
+   "volume_24h_eur": 260120.58,
+   "spread_pct": 0.1513,
    "tendance": false,
    "impulsion": null
   },
@@ -155,9 +155,9 @@
    "sym": "ENA",
    "pair": "ENAEUR",
    "action": false,
-   "variation_24h_pct": 3.39,
-   "volume_24h_eur": 253874.94,
-   "spread_pct": 0.2114,
+   "variation_24h_pct": 3.17,
+   "volume_24h_eur": 260749.07,
+   "spread_pct": 0.1059,
    "tendance": true,
    "impulsion": null
   }
