@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T17:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T17:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.316e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T17:44:00Z",
+   "verifie_jusqu_a": "2026-11-27T17:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54435.6,
+   "dernier_prix": 54417.4,
    "atr": 640.9446,
    "rollover": 0.3849055477032083,
    "rollover_periodes": 22
@@ -69,7 +69,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T17:44:41Z",
+ "maj": "2026-11-27T17:46:44Z",
  "seq": 28,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -89,7 +89,7 @@
   "2026-11-27": 492.0
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-27T17:40:54Z",
+ "chasseur_t": "2026-11-27T17:46:36Z",
  "tendance": [
   "PENGU",
   "PUMPCHAN",
@@ -191,15 +191,15 @@
   }
  },
  "buzz_t": "2026-11-27T17:40:55Z",
- "sources_t": "2026-11-27T17:26:29Z",
+ "sources_t": "2026-11-27T17:46:41Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 7,
+   "mentions": 5,
    "sentiment": "bullish",
    "titres": [
-    "Micron stock rebounds 6.5% as analysts forecast 45% profit growth",
-    "Anthropic Investor Paid NYT's New AI Columnist As She Covered Anthropic - With No Disclosure"
+    "UK's under-35s are surest they can spot AI scams, and least likely to check",
+    "Broadcom’s custom AI chips are becoming a real threat to Nvidia"
    ]
   },
   {
@@ -207,26 +207,25 @@
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin price drops below $59K as Anthropic joins tech stock rebound",
-    "Is Anthropic on the verge of cracking Bitcoin? - November 2026"
+    "Bitcoin’s Thanksgiving Rally Unravels as $7B Options Expiry Rocks Markets",
+    "Bitcoin's Post-Expiry Flush: Can $61,361 Be Reclaimed?"
    ]
   },
   {
-   "sujet": "Coinbase",
-   "mentions": 3,
+   "sujet": "Security",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase’s tokenized stocks put 62.4% of market cap to work in DeFi",
-    "Coinbase tokenized stocks on Base hit $54M market cap in 3.5 months"
+    "Hackers breach US Air Force’s Cloud One platform, disrupting operations",
+    "Chainflip blames libzmq bug for $12.6M exploit, plans recovery fund"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "bearish",
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
    "titres": [
-    "Binance Hackers Funnel Over $600M Through Thorchain Despite FBI Warning",
-    "Monero Price Bleeds 37% as KuCoin Joins the XMR Exodus"
+    "Bitcoin’s Thanksgiving Rally Unravels as $7B Options Expiry Rocks Markets"
    ]
   },
   {
@@ -238,27 +237,11 @@
    ]
   },
   {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "bearish",
-   "titres": [
-    "Chainflip blames libzmq bug for $12.6M exploit, plans recovery fund"
-   ]
-  },
-  {
-   "sujet": "DeFi",
+   "sujet": "Binance",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Coinbase’s tokenized stocks put 62.4% of market cap to work in DeFi"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Coinbase’s tokenized stocks put 62.4% of market cap to work in DeFi"
+    "Binance Hackers Funnel Over $600M Through Thorchain Despite FBI Warning"
    ]
   }
  ],
