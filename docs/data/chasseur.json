@@ -1,7 +1,7 @@
 {
- "t": "2026-11-27T02:22:43Z",
+ "t": "2026-11-27T02:28:47Z",
  "nb_analyses": 604,
- "nb_en_mouvement": 4,
+ "nb_en_mouvement": 3,
  "tendance": [
   "AMKR",
   "BTC",
@@ -114,48 +114,32 @@
    "sym": "ZEC",
    "pair": "ZECEUR",
    "action": false,
-   "variation_24h_pct": 7.25,
-   "volume_24h_eur": 3740633.35,
-   "spread_pct": 0.1855,
+   "variation_24h_pct": 8.09,
+   "volume_24h_eur": 3786867.46,
+   "spread_pct": 0.1991,
    "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "UNI",
-   "pair": "UNIEUR",
-   "action": false,
-   "variation_24h_pct": 4.55,
-   "volume_24h_eur": 326815.23,
-   "spread_pct": 0.0835,
-   "tendance": true,
-   "impulsion": {
-    "sens": "long",
-    "mouvement_pct": 2.67,
-    "volume_x": 50.3
-   }
-  },
-  {
-   "sym": "SKHY",
-   "pair": "SKHYxUSD",
-   "action": true,
-   "variation_24h_pct": 3.11,
-   "volume_24h_eur": 71718.48,
-   "spread_pct": 0.254,
-   "tendance": false,
    "impulsion": null
   },
   {
    "sym": "ANT",
    "pair": "ANTxUSD",
    "action": true,
-   "variation_24h_pct": 2.77,
-   "volume_24h_eur": 221946.12,
-   "spread_pct": 0.1287,
+   "variation_24h_pct": 2.86,
+   "volume_24h_eur": 229272.94,
+   "spread_pct": 0.0935,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "SKHY",
+   "pair": "SKHYxUSD",
+   "action": true,
+   "variation_24h_pct": 3.11,
+   "volume_24h_eur": 71721.75,
+   "spread_pct": 0.1402,
    "tendance": false,
    "impulsion": null
   }
  ],
- "ajoutes": [
-  "UNI"
- ]
+ "ajoutes": []
 }
