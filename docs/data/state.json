@@ -20,10 +20,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T18:45:00Z",
+   "verifie_jusqu_a": "2026-11-27T18:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.342e-06,
+   "dernier_prix": 3.346e-06,
    "atr": 3.3103e-08,
    "rollover": 0.12570043451565016,
    "rollover_periodes": 22
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T18:45:00Z",
+   "verifie_jusqu_a": "2026-11-27T18:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54652.4,
+   "dernier_prix": 54653.3,
    "atr": 640.9446,
    "rollover": 0.3849055477032083,
    "rollover_periodes": 22
@@ -68,10 +68,10 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-27T18:45:00Z",
+   "verifie_jusqu_a": "2026-11-27T18:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
-   "dernier_prix": 45.01051861337236,
+   "dernier_prix": 45.01257717813858,
    "atr": 0.4821303
   },
   {
@@ -90,10 +90,10 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-27T18:45:00Z",
+   "verifie_jusqu_a": "2026-11-27T18:46:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
-   "dernier_prix": 98.07006311168024,
+   "dernier_prix": 98.07454836496683,
    "atr": 0.5475606
   }
  ],
@@ -114,7 +114,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T18:45:40Z",
+ "maj": "2026-11-27T18:46:37Z",
  "seq": 30,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -241,24 +241,57 @@
   }
  },
  "buzz_t": "2026-11-27T18:32:56Z",
- "sources_t": "2026-11-27T18:26:50Z",
+ "sources_t": "2026-11-27T18:46:36Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 3,
+   "sujet": "AI",
+   "mentions": 6,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin’s Thanksgiving Rally Unravels as $7B Options Expiry Rocks Markets",
-    "Bitcoin's Post-Expiry Flush: Can $61,361 Be Reclaimed?"
+    "Taiwan expects 13.28% growth in 2026, its fastest pace since 1978, on AI demand",
+    "Liquid AI’s d1.3-ultra ties Bison 31B for top decision index score at a lower cost"
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 3,
+   "sujet": "Bitcoin",
+   "mentions": 5,
    "sentiment": "neutral",
    "titres": [
-    "UK's under-35s are surest they can spot AI scams, and least likely to check",
-    "Broadcom’s custom AI chips are becoming a real threat to Nvidia"
+    "Bitcoin falls below $60,000 after Nvidia chips found in China",
+    "BTC/USD Stalls Near $60k Amid Record ETF Outflows"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 4,
+   "sentiment": "bullish",
+   "titres": [
+    "Taiwan expects 13.28% growth in 2026, its fastest pace since 1978, on AI demand",
+    "Binance Moves Into Tokenized IPOs After Anthropic Fiasco"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance Moves Into Tokenized IPOs After Anthropic Fiasco"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "BTC/USD Stalls Near $60k Amid Record ETF Outflows"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "CryptoQuant says bitcoin price recovery needs USDT supply growth"
    ]
   },
   {
@@ -267,30 +300,6 @@
    "sentiment": "neutral",
    "titres": [
     "ETH Hits Major Support – Is a Reversal Coming?"
-   ]
-  },
-  {
-   "sujet": "Cardano",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Intersect Sets Q1 2027 for ADA's Dijkstra Hard Fork, but Only if Node 11.3 Is Ready"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Bitcoin’s Thanksgiving Rally Unravels as $7B Options Expiry Rocks Markets"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Hackers breach US Air Force’s Cloud One platform, disrupting operations"
    ]
   }
  ],
