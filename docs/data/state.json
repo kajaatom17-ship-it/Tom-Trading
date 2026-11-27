@@ -2,7 +2,7 @@
  "mode": "PAPER_ONLY",
  "devise": "EUR",
  "capital_initial": 500,
- "cash": 301.41404107189896,
+ "cash": 252.86135831362583,
  "positions": [
   {
    "id": "P0027",
@@ -20,10 +20,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T18:17:00Z",
+   "verifie_jusqu_a": "2026-11-27T18:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.341e-06,
+   "dernier_prix": 3.34e-06,
    "atr": 3.3103e-08,
    "rollover": 0.12570043451565016,
    "rollover_periodes": 22
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-27T18:17:00Z",
+   "verifie_jusqu_a": "2026-11-27T18:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54730.0,
+   "dernier_prix": 54752.4,
    "atr": 640.9446,
    "rollover": 0.3849055477032083,
    "rollover_periodes": 22
@@ -68,14 +68,36 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-27T18:17:00Z",
+   "verifie_jusqu_a": "2026-11-27T18:18:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
-   "dernier_prix": 45.00022861323213,
+   "dernier_prix": 45.00352090135075,
    "atr": 0.4821303
+  },
+  {
+   "id": "P0030",
+   "sym": "ORCL",
+   "pair": "ORCLxUSD",
+   "side": "short",
+   "strategie": "SWG-1",
+   "qty": 0.49489500081016646,
+   "entry": 98.02862,
+   "notionnel": 48.513871660944375,
+   "frais_entree": 0.038811097328755505,
+   "stop": 102.5169,
+   "stop_initial": 102.5169,
+   "tp": 83.71747,
+   "risque_eur": 2.3006288259869843,
+   "rr_net": 2.72,
+   "ouvert_le": "2026-11-27T18:19:56Z",
+   "verifie_jusqu_a": "2026-11-27T18:19:56Z",
+   "duree_max_h": 192.0,
+   "decision_id": "S-20261127-181956-ORCL",
+   "dernier_prix": 98.02861532552335,
+   "atr": 0.5475606
   }
  ],
- "frais_cumules": 19.28910943930914,
+ "frais_cumules": 19.327920536637894,
  "pnl_realise": -15.851976589443927,
  "pic_equity": 516.8047301078759,
  "entrees_par_jour": {
@@ -88,12 +110,12 @@
   "2026-11-19": 3,
   "2026-11-21": 1,
   "2026-11-24": 1,
-  "2026-11-27": 1
+  "2026-11-27": 2
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-27T18:17:59Z",
- "seq": 29,
+ "maj": "2026-11-27T18:18:54Z",
+ "seq": 30,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
   "2026-11-14": 500.18,
@@ -301,7 +323,7 @@
   "2026-11-19": 3,
   "2026-11-21": 2,
   "2026-11-24": 2,
-  "2026-11-27": 1
+  "2026-11-27": 2
  },
  "swing_vus": {
   "BTC": 1795471200,
@@ -315,6 +337,7 @@
   "QQQ": 1795100400,
   "FET": 1795276800,
   "PEPE": 1795284000,
-  "CRCL": 1795798800
+  "CRCL": 1795798800,
+  "ORCL": 1795798800
  }
 }

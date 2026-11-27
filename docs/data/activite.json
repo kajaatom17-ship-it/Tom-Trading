@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-26T14:27:10Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "454 actifs hors univers analysés, 9 en mouvement : SKY +11.7 %, SEI +12.3 %, XMR -10.0 %."
- },
- {
-  "t": "2026-11-26T14:31:09Z",
-  "agent": "Veille",
-  "type": "actu",
-  "msg": "[piratage] Bitcoin miners hit by hashrate hijacking attack exploiting unencrypted connections - The Block (The Block)",
-  "data": {
-   "lien": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRmdjMHoxUHhoUGR2c2x5YnlhSTYwWmFodVk2dWNzYkFJS25zYlM2d24zZ2xkbVFvMFl3RHJWWVJ3MTRDUmRsZVRuVk5qRmJHOFJZVFIzUjlQZUtZM0FfVnRLbjFaQ2tfdzhpa3pOazB2aG5WTXVUb0VfU1dORkJucUVLU3lobUcyVzhxZVlfbzhmc0w3aTdGNnloQ25BUFUydF9TbnctQjN5ZkZqSTM5bGFwX3p5QzRhWl9ZV29NT09wWmc0eXhfakk3RlBFNEt3aHIw?oc=5",
-   "actifs": [
-    "BTC"
-   ]
-  }
- },
- {
   "t": "2026-11-26T14:33:07Z",
   "agent": "Chasseur de mouvements",
   "type": "tendance",
@@ -2651,5 +2633,20 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "604 actifs hors univers analysés, 6 en mouvement : ICNT +24.7 %, ZEC +10.1 %, SPACE +9.5 %."
+ },
+ {
+  "t": "2026-11-27T18:19:56Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "ORCL short ouvert à 98.02862 | 48.51 € engagés | stop 102.5169 | objectif 83.71747 | risque 2.30 EUR",
+  "data": {
+   "id": "P0030"
+  }
+ },
+ {
+  "t": "2026-11-27T18:19:56Z",
+  "agent": "Trader de garde",
+  "type": "entrée",
+  "msg": "Entrée SWG-1 : ORCL short, stop 102.5169, objectif 83.71747, risque 2.30 €."
  }
 ]
