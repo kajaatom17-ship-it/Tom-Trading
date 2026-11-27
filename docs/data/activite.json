@@ -1,53 +1,5 @@
 [
  {
-  "t": "2026-11-26T16:32:21Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "453 actifs hors univers analysés, 13 en mouvement : TEL +25.6 %, XMR -13.3 %, ZEC -9.9 %."
- },
- {
-  "t": "2026-11-26T16:38:10Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ALGO, BB.TSX, BONK, CRO, DOGE, ETH, EURUSD, EWZ, GDXU, NTRA, PYTH, SHIB"
- },
- {
-  "t": "2026-11-26T16:38:16Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "453 actifs hors univers analysés, 11 en mouvement : XMR -13.5 %, ZEC -10.0 %, SKY +9.8 %."
- },
- {
-  "t": "2026-11-26T16:44:06Z",
-  "agent": "Spécialiste memecoins",
-  "type": "ajout actif",
-  "msg": "TEL ajouté à l'univers (catégorie Emergent, budget memecoin) : Impulsion +4.1 % en 15 min, volume x7.7, variation du jour +28.7 %"
- },
- {
-  "t": "2026-11-26T16:44:10Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "453 actifs hors univers analysés, 13 en mouvement : TEL +28.7 %, XMR -13.5 %, ZEC -9.1 %. Ajoutés : TEL."
- },
- {
-  "t": "2026-11-26T16:48:00Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "SEI +3.01 % en 15 min"
- },
- {
-  "t": "2026-11-26T16:50:02Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "452 actifs hors univers analysés, 10 en mouvement : XMR -13.8 %, ZEC -8.9 %, SKY +8.1 %."
- },
- {
-  "t": "2026-11-26T16:55:55Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : AXON, BB.TSX, BONK, CRO, ETH, EURUSD, EWZ, FCX, GHRS, NTRA, PYTH, SHIB"
- },
- {
   "t": "2026-11-26T16:56:00Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2656,5 +2608,66 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "603 actifs hors univers analysés, 11 en mouvement : PORTAL +223.1 %, ICNT +16.0 %, XMR -12.1 %."
+ },
+ {
+  "t": "2026-11-27T23:26:58Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : PENGU, BTC, ZYLO, PORTAL, HYPE, XMR, SKY, PEARL"
+ },
+ {
+  "t": "2026-11-27T23:26:59Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : ADBE, CAW, CRVS, ETH, FUBO, GOOG, GOOGL, HYMC, LTC, MLTX, MSTY, NBIS"
+ },
+ {
+  "t": "2026-11-27T23:27:04Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "450 actifs hors univers analysés, 7 en mouvement : XMR -11.0 %, SKY +11.1 %, KAVA +10.6 %."
+ },
+ {
+  "t": "2026-11-27T23:27:05Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de CoinDesk : Kenneth Tay explains how AI agents are giving his research team an edge",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=BNpCAvouoE8"
+  }
+ },
+ {
+  "t": "2026-11-27T23:27:05Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Unchained : Did The Altruists Make Caroline Ellison the Mastermind? FTX's Ex-COO Says Yes — Wrongly",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=o0YxunQzDpA"
+  }
+ },
+ {
+  "t": "2026-11-27T23:27:05Z",
+  "agent": "Chasseur de mouvements",
+  "type": "vidéo",
+  "msg": "Nouvelle vidéo de Unchained : Why FTX's Former COO Calls The Altruists' CZ Scenes 'Very, Very Racist'",
+  "data": {
+   "lien": "https://www.youtube.com/watch?v=P077bPYLcDY"
+  }
+ },
+ {
+  "t": "2026-11-27T23:27:09Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[banque centrale, géopolitique] Fed holds interest rates steady in 1st move since Iran war spiked oil prices - ABC News - Breaking News, Latest News and Videos (ABC News - Breaking News, Latest News and Videos)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWVgwU0l2bjYwREJ2NE9WVC1ObnpJa3Qxa2syS0lmUXphVm8zTWpnYVJ5NXpFZmxWYUZlVXpmc3ZFQzk2ZnZlYjNSUHRPb3F1emZhVDdPNEMxak1mM2wzOEZtYnA5dklfUFlfOUdVRU5lSXNmTlhqMy1pUElaMjNBTEFJbV9IRHNkRGt1NHJKVDVFd1Za0gGaAUFVX3lxTE9IOWFDX2MzMVhjUXl2VE1oTGNTTlowMmxkMUZnNEQ1TzhKemJ3TmlSTElmdzVPQ3VmR2E3OGdNLXN2dVBHQ2xiLXl0WWJfdjBUQktuSnNwbTNQV3puQzBJTUVZS295S2lHYU9iQVpFd05FQkw4WmhmZ2EyU3dCUWt0bHNCUy1xX0pHME5ZbVBlZ1RXSkxnSVZ1TWc?oc=5",
+   "actifs": []
+  }
+ },
+ {
+  "t": "2026-11-27T23:29:08Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : SUI short (SWG-1, 70), BONK short (SWG-1, 50)"
  }
 ]
