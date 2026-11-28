@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T00:47:00Z",
+   "verifie_jusqu_a": "2026-11-28T00:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.377e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T00:47:00Z",
+   "verifie_jusqu_a": "2026-11-28T00:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54786.5,
+   "dernier_prix": 54782.5,
    "atr": 640.9446,
    "rollover": 0.4198969611307727,
    "rollover_periodes": 24
@@ -68,7 +68,7 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T00:47:00Z",
+   "verifie_jusqu_a": "2026-11-28T00:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
    "dernier_prix": 45.316971919204846,
@@ -92,7 +92,7 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T00:47:00Z",
+   "verifie_jusqu_a": "2026-11-28T00:48:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
    "dernier_prix": 98.85427429752292,
@@ -118,7 +118,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T00:47:32Z",
+ "maj": "2026-11-28T00:48:38Z",
  "seq": 30,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -266,29 +266,38 @@
   }
  },
  "buzz_t": "2026-11-28T00:34:11Z",
- "sources_t": "2026-11-28T00:28:14Z",
+ "sources_t": "2026-11-28T00:48:28Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 18,
-   "sentiment": "bullish",
+   "mentions": 13,
+   "sentiment": "neutral",
    "titres": [
-    "OpenAI asked investors to steer clear of xAI, Anthropic and three other named rivals",
-    "Why Liquidity Matters When Trading AI and Semiconductor Stocks"
+    "Meta’s Muse hits a wall as retailers push back on AI shopping agents",
+    "Microsoft paper finds coding agents beat dedicated prompt optimizers at tuning other agents"
    ]
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 10,
+   "mentions": 6,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin – Bearish Market Structure | Downside Continuation",
-    "America Blacklisted VTB Over Iran. Now Russia's No. 2 Bank Sells Bitcoin"
+    "Vitalik Buterin’s Bitcoin Hardware Wallet Fix Wouldn’t Be Approved by Ledger CTO",
+    "Bitcoin – Bearish Market Structure | Downside Continuation"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "Unknown wallet sends 200M USDT back to Tether Treasury",
+    "Binance moves 210.2 million USDT to an unlabeled Solana wallet"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 2,
+   "mentions": 3,
    "sentiment": "neutral",
    "titres": [
     "Injective Urges SEC to Open Tokenized Stock Trading to Order Books",
@@ -296,29 +305,29 @@
    ]
   },
   {
-   "sujet": "Ethereum",
+   "sujet": "Solana",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Ethereum - Perfectly testing bullish structure!",
-    "Ethereum Developers Set December Glamsterdam Test Despite Smart Contract Concerns"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance Brasil lands foreign exchange license, its third from Brazil’s central bank",
-    "BNB Chain unveils litepaper for a second L1 built for traders, payments and AI agents"
+    "Binance moves 210.2 million USDT to an unlabeled Solana wallet",
+    "Anza 敦促 Solana 主网立即升级 Agave 客户端"
    ]
   },
   {
    "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "US disables ship attempting to breach Iran blockade",
+    "US military says it disabled merchant ship trying to breach Iran blockade"
+   ]
+  },
+  {
+   "sujet": "Binance",
    "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "Chainflip identifies who lost money in $12.6 million hack as recovery plan takes shape"
+    "Binance moves 210.2 million USDT to an unlabeled Solana wallet"
    ]
   },
   {
@@ -327,14 +336,6 @@
    "sentiment": "neutral",
    "titres": [
     "Anthropic shares close at $91.88, holding above $83 IPO price after a volatile first week"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Here’s what happened in crypto today"
    ]
   }
  ],
