@@ -1,12 +1,12 @@
 {
- "t": "2026-11-28T01:54:57Z",
+ "t": "2026-11-28T02:00:39Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 1,
  "tendance": [
   "AAVE",
-  "AMP",
-  "AZN",
+  "AGEN",
   "BTC",
+  "DCTH",
   "ETH",
   "EWZ",
   "GHRS",
@@ -15,12 +15,13 @@
   "GSAT",
   "HBAR",
   "HYPE",
-  "IONQ",
   "KOLD",
   "LINK",
+  "LTC",
   "MON",
   "NBIS",
-  "NTSK",
+  "NIGHT",
+  "OPEAZZX",
   "PENGU",
   "PONS",
   "PORTAL",
@@ -33,7 +34,6 @@
   "TDOC",
   "TSLA",
   "VSTM",
-  "WLFI",
   "WMT",
   "XMR",
   "XTZ",
@@ -43,7 +43,7 @@
  "buzz_reseaux": {
   "SPY": {
    "source": "Reddit",
-   "mentions": 211,
+   "mentions": 213,
    "x_vs_hier": 2.5
   },
   "TSLA": {
@@ -58,8 +58,8 @@
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 3.6
+   "mentions": 33,
+   "x_vs_hier": 3.7
   },
   "GOOGL": {
    "source": "Reddit",
@@ -76,11 +76,6 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "NTSK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "GSAT": {
    "source": "StockTwits",
    "mentions": null,
@@ -91,27 +86,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XTZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "TDOC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WLFI": {
+  "NIGHT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHOP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GHRS": {
+  "VSTM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -121,17 +106,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IONQ": {
+  "AGEN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AZN": {
+  "DCTH": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMP": {
+  "OPEAZZX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XTZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GHRS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SHOP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -140,13 +145,19 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
-  },
-  "VSTM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "ZEC",
+   "pair": "ZECEUR",
+   "action": false,
+   "variation_24h_pct": 3.07,
+   "volume_24h_eur": 4544377.13,
+   "spread_pct": 0.0674,
+   "tendance": true,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
