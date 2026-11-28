@@ -1,24 +1,26 @@
 {
- "t": "2026-11-28T01:02:54Z",
+ "t": "2026-11-28T01:08:39Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 0,
  "tendance": [
-  "ADBE",
   "ALGO",
   "ARKK",
+  "AZN",
   "BTC",
+  "EWZ",
   "GOOG",
   "GOOGL",
   "GSAT",
   "HBAR",
   "HYPE",
+  "INSM",
   "KOLD",
   "LINK",
   "LTC",
-  "MA",
-  "MLTX",
   "NBIS",
   "NEAR",
+  "NMAX",
+  "OXY",
   "PENGU",
   "PI",
   "PONS",
@@ -26,14 +28,13 @@
   "PS",
   "PUMP",
   "PUMPCHAN",
-  "SHOP",
   "SOL",
+  "SOXL",
   "SPY",
   "SUI",
   "SVIX",
+  "TDOC",
   "TSLA",
-  "UEC",
-  "VSTM",
   "WEN",
   "WMT",
   "XMR",
@@ -43,18 +44,23 @@
  "buzz_reseaux": {
   "SPY": {
    "source": "Reddit",
-   "mentions": 213,
+   "mentions": 212,
    "x_vs_hier": 2.5
   },
   "TSLA": {
    "source": "Reddit",
-   "mentions": 49,
-   "x_vs_hier": 4.9
+   "mentions": 50,
+   "x_vs_hier": 5.6
   },
   "PS": {
    "source": "Reddit",
    "mentions": 38,
    "x_vs_hier": 9.5
+  },
+  "SOXL": {
+   "source": "Reddit",
+   "mentions": 36,
+   "x_vs_hier": 2.0
   },
   "GOOGL": {
    "source": "Reddit",
@@ -64,7 +70,7 @@
   "NBIS": {
    "source": "Reddit",
    "mentions": 32,
-   "x_vs_hier": 3.2
+   "x_vs_hier": 3.6
   },
   "GOOG": {
    "source": "Reddit",
@@ -81,11 +87,6 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UEC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ALGO": {
    "source": "StockTwits",
    "mentions": null,
@@ -96,17 +97,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHOP": {
+  "NMAX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KOLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SVIX": {
+  "OXY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -116,12 +112,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MLTX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ARKK": {
+  "KOLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -131,17 +122,32 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MA": {
+  "TDOC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ADBE": {
+  "SVIX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VSTM": {
+  "ARKK": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AZN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EWZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "INSM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
