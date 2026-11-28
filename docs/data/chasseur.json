@@ -1,15 +1,15 @@
 {
- "t": "2026-11-28T05:05:13Z",
+ "t": "2026-11-28T05:10:59Z",
  "nb_analyses": 451,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 1,
  "tendance": [
-  "ABBV",
+  "AEHR",
   "ASML",
+  "BB.TSX",
   "BONK",
   "BTC",
   "C",
-  "CORZ",
-  "CVS",
+  "CEG",
   "DE",
   "ETH",
   "GOOG",
@@ -20,18 +20,18 @@
   "MON",
   "MSTY",
   "NEAR",
-  "NIGHT",
   "NVDA",
+  "OTLY",
+  "PEP",
   "PEPE",
   "PI",
   "PORTAL",
   "PS",
   "PUMP",
-  "S",
   "SHIB",
   "SPY",
-  "SQQQ",
   "SRPT",
+  "STWD",
   "TAO",
   "TSLA",
   "USDC",
@@ -42,18 +42,18 @@
  "buzz_reseaux": {
   "NVDA": {
    "source": "Reddit",
-   "mentions": 331,
+   "mentions": 329,
    "x_vs_hier": 2.1
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 199,
+   "mentions": 195,
    "x_vs_hier": 2.2
   },
   "TSLA": {
    "source": "Reddit",
    "mentions": 44,
-   "x_vs_hier": 2.9
+   "x_vs_hier": 3.1
   },
   "GOOG": {
    "source": "Reddit",
@@ -62,30 +62,10 @@
   },
   "PS": {
    "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 3.3
+   "mentions": 32,
+   "x_vs_hier": 3.2
   },
   "WLFI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "C": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NIGHT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CORZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SQQQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -100,12 +80,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DE": {
+  "V": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CVS": {
+  "AEHR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "BB.TSX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "KWEB": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -115,17 +105,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ABBV": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "S": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "V": {
+  "C": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -135,12 +115,49 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "KWEB": {
+  "PEP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OTLY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CEG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "STWD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [],
- "ajoutes": []
+ "candidats": [
+  {
+   "sym": "MELANIA",
+   "pair": "MELANIAEUR",
+   "action": false,
+   "variation_24h_pct": -9.05,
+   "volume_24h_eur": 78006.74,
+   "spread_pct": 0.2488,
+   "tendance": false,
+   "impulsion": {
+    "sens": "short",
+    "mouvement_pct": -4.86,
+    "volume_x": 4.1
+   }
+  }
+ ],
+ "ajoutes": [
+  "MELANIA"
+ ]
 }
