@@ -1,30 +1,31 @@
 {
- "t": "2026-11-28T08:31:33Z",
+ "t": "2026-11-28T08:37:19Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 4,
  "tendance": [
+  "ADMA",
   "ALGO",
-  "AMPX",
+  "ANET",
   "BTC",
   "CFG",
+  "DAL",
   "ENPH",
   "ETH",
-  "FCEL",
-  "FSLR",
+  "F",
   "GDX",
   "GOOG",
   "HIMS",
   "HYPE",
   "IBIT",
-  "ICP",
   "LIT",
-  "OUST",
+  "NIGHT",
+  "OPEAZZX",
   "PEARL",
   "PENGU",
   "PORTAL",
+  "QCOM",
   "RARE",
   "SKY",
-  "SOFI",
   "TAO",
   "TRUMP",
   "TSLA",
@@ -54,42 +55,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "ADMA": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "TAO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "GDX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "RARE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FCEL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OUST": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "FSLR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBIT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ALGO": {
+  "DAL": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -99,7 +75,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "AMPX": {
+  "OPEAZZX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NIGHT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "F": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -109,12 +95,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ICP": {
+  "GDX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOFI": {
+  "ANET": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "RARE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "QCOM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -125,9 +126,9 @@
    "sym": "GENIUS",
    "pair": "GENIUSEUR",
    "action": false,
-   "variation_24h_pct": -8.13,
-   "volume_24h_eur": 40993.59,
-   "spread_pct": 0.1735,
+   "variation_24h_pct": -7.89,
+   "volume_24h_eur": 41267.55,
+   "spread_pct": 0.173,
    "tendance": false,
    "impulsion": null
   },
@@ -135,9 +136,9 @@
    "sym": "SPACE",
    "pair": "SPACEEUR",
    "action": false,
-   "variation_24h_pct": 5.1,
-   "volume_24h_eur": 97780.81,
-   "spread_pct": 0.0996,
+   "variation_24h_pct": 5.29,
+   "volume_24h_eur": 97188.5,
+   "spread_pct": 0.0995,
    "tendance": false,
    "impulsion": null
   },
@@ -146,7 +147,7 @@
    "pair": "BILLEUR",
    "action": false,
    "variation_24h_pct": -5.44,
-   "volume_24h_eur": 41634.62,
+   "volume_24h_eur": 41848.11,
    "spread_pct": 0.274,
    "tendance": false,
    "impulsion": null
@@ -155,9 +156,9 @@
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": -3.83,
-   "volume_24h_eur": 175905.35,
-   "spread_pct": 0.1095,
+   "variation_24h_pct": -3.58,
+   "volume_24h_eur": 176197.37,
+   "spread_pct": 0.1092,
    "tendance": true,
    "impulsion": null
   }
