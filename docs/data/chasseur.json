@@ -1,5 +1,5 @@
 {
- "t": "2026-11-28T11:28:58Z",
+ "t": "2026-11-28T11:35:07Z",
  "nb_analyses": 449,
  "nb_en_mouvement": 3,
  "tendance": [
@@ -8,6 +8,7 @@
   "BDX",
   "BTC",
   "BTW",
+  "CART",
   "COST",
   "CRSP",
   "DE",
@@ -22,12 +23,12 @@
   "PENGU",
   "PUMPCHAN",
   "SOL",
-  "T",
   "TRUMP",
   "TSLA",
-  "UAL",
   "USD1",
+  "USDCAD",
   "WLFI",
+  "WYFI",
   "XAGUSD",
   "XMR",
   "ZYLO"
@@ -36,12 +37,12 @@
   "ETH": {
    "source": "Reddit",
    "mentions": 33,
-   "x_vs_hier": 2.1
+   "x_vs_hier": 2.2
   },
   "TSLA": {
    "source": "Reddit",
    "mentions": 45,
-   "x_vs_hier": 4.1
+   "x_vs_hier": 3.8
   },
   "GOOG": {
    "source": "Reddit",
@@ -49,11 +50,6 @@
    "x_vs_hier": 3.7
   },
   "WLFI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "B": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -68,32 +64,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "T": {
+  "B": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ORCL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UAL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TRUMP": {
+  "MCD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -103,7 +79,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "MCD": {
+  "KO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WYFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CART": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -118,7 +109,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SOL": {
+  "ORCL": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "USDCAD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TRUMP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -131,7 +132,7 @@
    "action": false,
    "variation_24h_pct": -9.08,
    "volume_24h_eur": 42630.16,
-   "spread_pct": 0.2191,
+   "spread_pct": 0.1753,
    "tendance": false,
    "impulsion": null
   },
@@ -139,9 +140,9 @@
    "sym": "AI",
    "pair": "AIEUR",
    "action": false,
-   "variation_24h_pct": -6.38,
-   "volume_24h_eur": 41630.79,
-   "spread_pct": 0.2271,
+   "variation_24h_pct": -6.45,
+   "volume_24h_eur": 41705.14,
+   "spread_pct": 0.0758,
    "tendance": false,
    "impulsion": null
   },
