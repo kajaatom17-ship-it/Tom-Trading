@@ -1,28 +1,26 @@
 {
- "t": "2026-11-28T03:38:39Z",
+ "t": "2026-11-28T03:44:23Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 0,
  "tendance": [
-  "ACAD",
-  "AGEN",
+  "AFRM",
   "AGNC",
   "AKE",
-  "BETR",
   "BTC",
-  "BWET",
   "C",
   "CAR",
   "CCJ",
   "CORE",
-  "CSIQ",
+  "CURLF",
   "ETH",
   "GOOG",
   "GOOGL",
   "GRASS",
+  "GS",
   "HBAR",
   "HYPE",
   "IBKR",
-  "KLAR",
+  "META",
   "MLYS",
   "NVDA",
   "ONDO",
@@ -30,10 +28,12 @@
   "PEPE",
   "PORTAL",
   "PS",
+  "SEDG",
   "SOL",
   "SPY",
   "TAO",
   "TSLA",
+  "UNG",
   "VOYG",
   "WLFI",
   "XMR",
@@ -43,45 +43,35 @@
  "buzz_reseaux": {
   "NVDA": {
    "source": "Reddit",
-   "mentions": 335,
+   "mentions": 334,
    "x_vs_hier": 2.1
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 203,
+   "mentions": 202,
    "x_vs_hier": 2.3
   },
   "TSLA": {
    "source": "Reddit",
-   "mentions": 50,
-   "x_vs_hier": 5.6
+   "mentions": 49,
+   "x_vs_hier": 5.4
   },
   "PS": {
    "source": "Reddit",
-   "mentions": 37,
-   "x_vs_hier": 9.2
+   "mentions": 34,
+   "x_vs_hier": 8.5
   },
   "GOOG": {
    "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 3.3
+   "mentions": 32,
+   "x_vs_hier": 3.2
   },
   "GOOGL": {
    "source": "Reddit",
    "mentions": 30,
-   "x_vs_hier": 2.1
+   "x_vs_hier": 2.0
   },
-  "ZBCN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KLAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ACAD": {
+  "CAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -91,42 +81,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAR": {
+  "ZBCN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "BETR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "IBKR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AGEN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CSIQ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "MLYS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VOYG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "BWET": {
+  "CURLF": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -136,12 +96,52 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "C": {
+  "AFRM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SEDG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VOYG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBKR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UNG": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MLYS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "CCJ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "C": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "META": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
