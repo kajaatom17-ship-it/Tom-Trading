@@ -20,10 +20,10 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T08:17:00Z",
+   "verifie_jusqu_a": "2026-11-28T08:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
-   "dernier_prix": 3.311e-06,
+   "dernier_prix": 3.312e-06,
    "atr": 3.3103e-08,
    "rollover": 0.1485550589730411,
    "rollover_periodes": 26
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T08:17:00Z",
+   "verifie_jusqu_a": "2026-11-28T08:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54468.0,
+   "dernier_prix": 54463.7,
    "atr": 640.9446,
    "rollover": 0.4548883745583371,
    "rollover_periodes": 26
@@ -68,10 +68,10 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T08:17:00Z",
+   "verifie_jusqu_a": "2026-11-28T08:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
-   "dernier_prix": 44.83074107959744,
+   "dernier_prix": 44.82910049037547,
    "atr": 0.4821303,
    "rollover": 0.039117618526776504,
    "rollover_periodes": 3
@@ -92,10 +92,10 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T08:17:00Z",
+   "verifie_jusqu_a": "2026-11-28T08:19:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
-   "dernier_prix": 98.91125343092406,
+   "dernier_prix": 98.90763375539778,
    "atr": 0.5475606,
    "rollover": 0.029108322996566623,
    "rollover_periodes": 3
@@ -118,7 +118,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T08:17:47Z",
+ "maj": "2026-11-28T08:19:50Z",
  "seq": 30,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -139,7 +139,7 @@
   "2026-11-28": 484.24
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-28T08:13:56Z",
+ "chasseur_t": "2026-11-28T08:19:47Z",
  "tendance": [
   "USD1",
   "WLFI",
@@ -184,22 +184,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DIS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WYFI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "GDX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ALGO": {
+  "RARE": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -209,12 +199,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "IBIT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AMPX": {
+  "OUST": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -224,7 +209,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "ICP": {
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ALGO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -234,18 +224,28 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XRP": {
+  "AMPX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NVAX": {
+  "ENPH": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ICP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SOFI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-28T08:02:05Z",
+ "buzz_t": "2026-11-28T08:19:48Z",
  "sources_t": "2026-11-28T08:07:53Z",
  "actus_tendance": [
   {
