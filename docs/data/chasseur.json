@@ -1,55 +1,54 @@
 {
- "t": "2026-11-28T02:29:30Z",
+ "t": "2026-11-28T02:35:16Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 1,
+ "nb_en_mouvement": 0,
  "tendance": [
   "AAVE",
   "ABSI",
   "AGEN",
+  "AGQ",
   "BTC",
   "CART",
-  "CRO",
+  "CRSP",
+  "DRV",
+  "ENA",
   "ETH",
-  "EWZ",
-  "GHRS",
   "GOOG",
   "GOOGL",
   "GSAT",
-  "HBAR",
-  "HYPE",
+  "KLAR",
+  "KNTQ",
   "KOLD",
-  "LINK",
-  "LTC",
-  "MON",
-  "NBIS",
+  "LYFT",
   "NVDA",
   "OPEAZZX",
-  "OXLC",
+  "PEARL",
   "PENGU",
-  "PONS",
+  "PI",
   "PORTAL",
   "PS",
-  "PUMPCHAN",
   "SOL",
   "SPY",
   "T",
   "TDOC",
   "TSLA",
+  "UNG",
   "VSTM",
-  "WMT",
+  "VVV",
+  "XCN",
   "XMR",
-  "ZEC",
-  "ZYLO"
+  "ZAMA",
+  "ZEC"
  ],
  "buzz_reseaux": {
   "NVDA": {
    "source": "Reddit",
-   "mentions": 343,
+   "mentions": 341,
    "x_vs_hier": 2.1
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 209,
+   "mentions": 206,
    "x_vs_hier": 2.5
   },
   "TSLA": {
@@ -62,20 +61,25 @@
    "mentions": 38,
    "x_vs_hier": 9.5
   },
-  "NBIS": {
+  "GOOGL": {
    "source": "Reddit",
-   "mentions": 34,
-   "x_vs_hier": 3.8
+   "mentions": 32,
+   "x_vs_hier": 2.3
   },
   "GOOG": {
    "source": "Reddit",
    "mentions": 32,
    "x_vs_hier": 3.2
   },
-  "GOOGL": {
-   "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 2.3
+  "ABSI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "XCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
   },
   "KOLD": {
    "source": "StockTwits",
@@ -87,27 +91,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TDOC": {
+  "KLAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "WMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ABSI": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OPEAZZX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OXLC": {
+  "CRSP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -117,7 +106,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "T": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "CART": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OPEAZZX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "UNG": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -127,43 +131,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "T": {
+  "AGQ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "EWZ": {
+  "LYFT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GHRS": {
+  "TDOC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "candidats": [
-  {
-   "sym": "ZEC",
-   "pair": "ZECEUR",
-   "action": false,
-   "variation_24h_pct": 3.09,
-   "volume_24h_eur": 4366441.84,
-   "spread_pct": 0.0416,
-   "tendance": true,
-   "impulsion": null
-  }
- ],
+ "candidats": [],
  "ajoutes": []
 }
