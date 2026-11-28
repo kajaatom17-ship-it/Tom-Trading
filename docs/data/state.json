@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T03:29:00Z",
+   "verifie_jusqu_a": "2026-11-28T03:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.353e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T03:29:00Z",
+   "verifie_jusqu_a": "2026-11-28T03:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54748.1,
+   "dernier_prix": 54760.3,
    "atr": 640.9446,
    "rollover": 0.4373926678445549,
    "rollover_periodes": 25
@@ -68,10 +68,10 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T03:29:00Z",
+   "verifie_jusqu_a": "2026-11-28T03:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
-   "dernier_prix": 45.603380467192274,
+   "dernier_prix": 45.60171212204357,
    "atr": 0.4821303,
    "rollover": 0.026078412351184337,
    "rollover_periodes": 2
@@ -92,10 +92,10 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T03:29:00Z",
+   "verifie_jusqu_a": "2026-11-28T03:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
-   "dernier_prix": 98.8804946311303,
+   "dernier_prix": 98.87687720646069,
    "atr": 0.5475606,
    "rollover": 0.01940554866437775,
    "rollover_periodes": 2
@@ -118,7 +118,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T03:29:06Z",
+ "maj": "2026-11-28T03:30:06Z",
  "seq": 30,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -266,11 +266,11 @@
   }
  },
  "buzz_t": "2026-11-28T03:27:14Z",
- "sources_t": "2026-11-28T03:09:48Z",
+ "sources_t": "2026-11-28T03:30:05Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 13,
+   "mentions": 16,
    "sentiment": "neutral",
    "titres": [
     "CryptoStar shareholders to vote on share consolidation of up to 30:1",
@@ -279,64 +279,65 @@
   },
   {
    "sujet": "Bitcoin",
-   "mentions": 9,
+   "mentions": 11,
    "sentiment": "bearish",
    "titres": [
-    "Bitcoin 1H: Weekend bounce under 61.2K FVG, 58.7K support",
-    "CryptoStar USA shuts down its last Bitcoin miners in Utah"
+    "Everyone Wanted Bitcoin at $60K. Now It's Here. Where Are They?",
+    "Bitcoin 1H: Weekend bounce under 61.2K FVG, 58.7K support"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 4,
+   "mentions": 5,
    "sentiment": "bullish",
    "titres": [
-    "Aave V4 USDC deposits hit a record $107.4 million on Ethereum Core Hub",
-    "PayPal’s PYUSD stablecoin goes live on Sei with sub-second settlement"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "DOGE buyers defend the lower trendline",
-    "Binance withdrawals are back after October’s hack and here’s why yours might still be blocked"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 3,
-   "sentiment": "neutral",
-   "titres": [
-    "Binance withdrawals are back after October’s hack and here’s why yours might still be blocked",
-    "US disables ship attempting to breach Iran blockade"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "Bullish expands equity tokenization services to Aptos and Ethereum",
+    "NEAR/USDT revisits base of September breakout",
     "Aave V4 USDC deposits hit a record $107.4 million on Ethereum Core Hub"
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 2,
+   "sujet": "Ethereum",
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "SOL 4H Update: BTC Lost 60K but Solana Held 70. Now What?",
-    "Binance moves 210.2 million USDT to an unlabeled Solana wallet"
+    "ETHUSDT (4H) – The 1,800 floor caps the rebound",
+    "ETHUSD: Bullish Recovery or Bearish Continuation?"
    ]
   },
   {
-   "sujet": "Dogecoin",
-   "mentions": 1,
+   "sujet": "Binance",
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
+    "NEAR/USDT revisits base of September breakout",
     "DOGE buyers defend the lower trendline"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance withdrawals are back after October’s hack and here’s why yours might still be blocked",
+    "Chainflip identifies who lost money in $12.6 million hack as recovery plan takes shape"
+   ]
+  },
+  {
+   "sujet": "DeFi",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "Aave V4 USDC deposits hit a record $107.4 million on Ethereum Core Hub",
+    "Here’s what happened in crypto today"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "CryptoStar USA shuts down its last Bitcoin miners in Utah",
+    "Here’s what happened in crypto today"
    ]
   }
  ],
