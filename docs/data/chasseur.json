@@ -1,7 +1,7 @@
 {
- "t": "2026-11-28T09:30:18Z",
+ "t": "2026-11-28T09:36:28Z",
  "nb_analyses": 449,
- "nb_en_mouvement": 4,
+ "nb_en_mouvement": 3,
  "tendance": [
   "ADMA",
   "AVAV",
@@ -129,7 +129,7 @@
    "action": false,
    "variation_24h_pct": -8.49,
    "volume_24h_eur": 41569.79,
-   "spread_pct": 0.1741,
+   "spread_pct": 0.1306,
    "tendance": false,
    "impulsion": null
   },
@@ -137,32 +137,28 @@
    "sym": "NIGHT",
    "pair": "NIGHTEUR",
    "action": false,
-   "variation_24h_pct": 4.96,
-   "volume_24h_eur": 922514.38,
-   "spread_pct": 0.0829,
+   "variation_24h_pct": 4.66,
+   "volume_24h_eur": 931453.94,
+   "spread_pct": 0.2287,
    "tendance": true,
-   "impulsion": null
-  },
-  {
-   "sym": "BILL",
-   "pair": "BILLEUR",
-   "action": false,
-   "variation_24h_pct": -5.44,
-   "volume_24h_eur": 41457.66,
-   "spread_pct": 0.274,
-   "tendance": false,
-   "impulsion": null
+   "impulsion": {
+    "sens": "long",
+    "mouvement_pct": 2.73,
+    "volume_x": 34.2
+   }
   },
   {
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": -4.06,
-   "volume_24h_eur": 175217.53,
-   "spread_pct": 0.1536,
+   "variation_24h_pct": -4.09,
+   "volume_24h_eur": 175061.45,
+   "spread_pct": 0.1537,
    "tendance": true,
    "impulsion": null
   }
  ],
- "ajoutes": []
+ "ajoutes": [
+  "NIGHT"
+ ]
 }
