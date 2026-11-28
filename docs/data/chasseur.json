@@ -1,12 +1,14 @@
 {
- "t": "2026-11-28T02:12:21Z",
+ "t": "2026-11-28T02:18:04Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 0,
+ "nb_en_mouvement": 1,
  "tendance": [
   "AAVE",
+  "ABSI",
   "AGEN",
   "BTC",
-  "DCTH",
+  "CART",
+  "CRO",
   "ETH",
   "EWZ",
   "GHRS",
@@ -20,30 +22,34 @@
   "LTC",
   "MON",
   "NBIS",
-  "NIGHT",
+  "NVDA",
   "OPEAZZX",
+  "OXLC",
   "PENGU",
   "PONS",
   "PORTAL",
   "PS",
   "PUMPCHAN",
-  "SHOP",
-  "SNOW",
   "SOL",
   "SPY",
+  "T",
   "TDOC",
   "TSLA",
   "VSTM",
   "WMT",
   "XMR",
-  "XTZ",
   "ZEC",
   "ZYLO"
  ],
  "buzz_reseaux": {
+  "NVDA": {
+   "source": "Reddit",
+   "mentions": 343,
+   "x_vs_hier": 2.1
+  },
   "SPY": {
    "source": "Reddit",
-   "mentions": 213,
+   "mentions": 209,
    "x_vs_hier": 2.5
   },
   "TSLA": {
@@ -58,20 +64,20 @@
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 3.7
+   "mentions": 34,
+   "x_vs_hier": 3.8
+  },
+  "GOOG": {
+   "source": "Reddit",
+   "mentions": 32,
+   "x_vs_hier": 3.2
   },
   "GOOGL": {
    "source": "Reddit",
    "mentions": 32,
    "x_vs_hier": 2.3
   },
-  "GOOG": {
-   "source": "Reddit",
-   "mentions": 31,
-   "x_vs_hier": 3.1
-  },
-  "WMT": {
+  "KOLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -81,37 +87,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "KOLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "TDOC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NIGHT": {
+  "WMT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VSTM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "EWZ": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AGEN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "DCTH": {
+  "ABSI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -121,7 +107,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "XTZ": {
+  "OXLC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VSTM": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CART": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AGEN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "T": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "EWZ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRO": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -135,18 +151,19 @@
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
-  },
-  "SHOP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SNOW": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
   }
  },
- "candidats": [],
+ "candidats": [
+  {
+   "sym": "ZEC",
+   "pair": "ZECEUR",
+   "action": false,
+   "variation_24h_pct": 3.43,
+   "volume_24h_eur": 4507230.22,
+   "spread_pct": 0.1408,
+   "tendance": true,
+   "impulsion": null
+  }
+ ],
  "ajoutes": []
 }
