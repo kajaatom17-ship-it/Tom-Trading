@@ -1,16 +1,14 @@
 {
- "t": "2026-11-28T08:43:08Z",
+ "t": "2026-11-28T08:48:58Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 3,
+ "nb_en_mouvement": 4,
  "tendance": [
   "ADMA",
-  "ALGO",
   "ANET",
   "BTC",
   "CFG",
   "DAL",
   "ENPH",
-  "ETH",
   "F",
   "GDX",
   "GOOG",
@@ -19,6 +17,7 @@
   "IBIT",
   "LIT",
   "NIGHT",
+  "ONDO",
   "OPEAZZX",
   "PEARL",
   "PENGU",
@@ -28,11 +27,12 @@
   "SKY",
   "TAO",
   "TRUMP",
+  "TRX",
   "TSLA",
   "USD1",
-  "VVV",
   "WLFI",
-  "XMR"
+  "XMR",
+  "XRP"
  ],
  "buzz_reseaux": {
   "TSLA": {
@@ -133,11 +133,21 @@
    "impulsion": null
   },
   {
+   "sym": "SPACE",
+   "pair": "SPACEEUR",
+   "action": false,
+   "variation_24h_pct": 6.99,
+   "volume_24h_eur": 96775.86,
+   "spread_pct": 0.2691,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "BILL",
    "pair": "BILLEUR",
    "action": false,
    "variation_24h_pct": -5.44,
-   "volume_24h_eur": 42206.98,
+   "volume_24h_eur": 42091.9,
    "spread_pct": 0.274,
    "tendance": false,
    "impulsion": null
@@ -146,9 +156,9 @@
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": -3.71,
-   "volume_24h_eur": 176341.43,
-   "spread_pct": 0.0875,
+   "variation_24h_pct": -3.81,
+   "volume_24h_eur": 176010.1,
+   "spread_pct": 0.1095,
    "tendance": true,
    "impulsion": null
   }
