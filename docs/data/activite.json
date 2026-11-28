@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-27T05:02:50Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "ORCL +2.15 % en 15 min"
- },
- {
-  "t": "2026-11-27T05:04:49Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 1 signal(aux) : BONK short (SWG-1, 80)"
- },
- {
-  "t": "2026-11-27T05:07:45Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "604 actifs hors univers analysés, 5 en mouvement : ZEC +11.6 %, W +10.6 %, SKHY +5.4 %."
- },
- {
   "t": "2026-11-27T05:09:39Z",
   "agent": "Veille",
   "type": "alerte",
@@ -2761,5 +2743,23 @@
   "data": {
    "lien": "https://www.youtube.com/watch?v=BtPKxWf8MEw"
   }
+ },
+ {
+  "t": "2026-11-28T11:17:08Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : B, BTC, COST, CRSP, DE, ETH, GOOG, KO, KSS, MCD, ORCL, SOL"
+ },
+ {
+  "t": "2026-11-28T11:17:11Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "449 actifs hors univers analysés, 3 en mouvement : GENIUS -9.1 %, AI -6.4 %, BILL -5.7 %."
+ },
+ {
+  "t": "2026-11-28T11:17:11Z",
+  "agent": "Veille",
+  "type": "alerte",
+  "msg": "KNTQ -2.89 % en 15 min"
  }
 ]
