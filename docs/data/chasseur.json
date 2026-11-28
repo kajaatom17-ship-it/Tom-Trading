@@ -1,25 +1,23 @@
 {
- "t": "2026-11-28T01:20:20Z",
+ "t": "2026-11-28T01:26:05Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 0,
  "tendance": [
   "ALGO",
-  "ARKK",
+  "AVEX",
   "AZN",
   "BTC",
   "EWZ",
   "GOOG",
   "GOOGL",
-  "GSAT",
-  "HBAR",
   "HYPE",
-  "INSM",
   "KOLD",
   "LINK",
   "LTC",
   "NBIS",
   "NEAR",
-  "NMAX",
+  "NIGHT",
+  "NTSK",
   "OXY",
   "PENGU",
   "PI",
@@ -29,13 +27,14 @@
   "PUMP",
   "PUMPCHAN",
   "SOL",
-  "SOXL",
   "SPY",
   "SUI",
-  "SVIX",
   "TDOC",
   "TSLA",
+  "VSTM",
   "WEN",
+  "WFC",
+  "WLFI",
   "WMT",
   "XMR",
   "ZEC",
@@ -44,7 +43,7 @@
  "buzz_reseaux": {
   "SPY": {
    "source": "Reddit",
-   "mentions": 212,
+   "mentions": 211,
    "x_vs_hier": 2.5
   },
   "TSLA": {
@@ -57,67 +56,22 @@
    "mentions": 38,
    "x_vs_hier": 9.5
   },
-  "SOXL": {
-   "source": "Reddit",
-   "mentions": 36,
-   "x_vs_hier": 2.0
-  },
-  "GOOGL": {
-   "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 2.5
-  },
   "NBIS": {
    "source": "Reddit",
    "mentions": 32,
    "x_vs_hier": 3.6
   },
+  "GOOGL": {
+   "source": "Reddit",
+   "mentions": 32,
+   "x_vs_hier": 2.5
+  },
   "GOOG": {
    "source": "Reddit",
    "mentions": 31,
-   "x_vs_hier": 2.6
+   "x_vs_hier": 2.8
   },
   "WMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ALGO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HBAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NMAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OXY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WEN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KOLD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "GSAT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -127,12 +81,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SVIX": {
+  "NTSK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "ARKK": {
+  "KOLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OXY": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVEX": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -142,12 +111,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "WFC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ALGO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WEN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WLFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "EWZ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "INSM": {
+  "NIGHT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VSTM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
