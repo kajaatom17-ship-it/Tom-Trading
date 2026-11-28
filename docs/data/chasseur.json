@@ -1,27 +1,29 @@
 {
- "t": "2026-11-28T02:46:41Z",
+ "t": "2026-11-28T02:52:44Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 0,
  "tendance": [
   "AAVE",
   "ABSI",
-  "AGEN",
-  "AGQ",
+  "ACAD",
   "BTC",
-  "CART",
   "CRSP",
+  "CVS",
   "DRV",
   "ENA",
   "ETH",
   "GOOG",
   "GOOGL",
   "GSAT",
+  "JEPQ",
   "KLAR",
   "KNTQ",
   "KOLD",
+  "LINK",
   "LYFT",
+  "META",
+  "MLYS",
   "NVDA",
-  "OPEAZZX",
   "PEARL",
   "PENGU",
   "PI",
@@ -29,12 +31,10 @@
   "PS",
   "SOL",
   "SPY",
-  "T",
   "TDOC",
   "TSLA",
-  "UNG",
-  "VSTM",
   "VVV",
+  "WLFI",
   "XCN",
   "XMR",
   "ZAMA",
@@ -43,13 +43,13 @@
  "buzz_reseaux": {
   "NVDA": {
    "source": "Reddit",
-   "mentions": 341,
+   "mentions": 340,
    "x_vs_hier": 2.1
   },
   "SPY": {
    "source": "Reddit",
-   "mentions": 206,
-   "x_vs_hier": 2.5
+   "mentions": 204,
+   "x_vs_hier": 2.4
   },
   "TSLA": {
    "source": "Reddit",
@@ -61,15 +61,15 @@
    "mentions": 38,
    "x_vs_hier": 9.5
   },
-  "GOOGL": {
-   "source": "Reddit",
-   "mentions": 32,
-   "x_vs_hier": 2.3
-  },
   "GOOG": {
    "source": "Reddit",
    "mentions": 32,
    "x_vs_hier": 3.2
+  },
+  "GOOGL": {
+   "source": "Reddit",
+   "mentions": 31,
+   "x_vs_hier": 2.2
   },
   "ABSI": {
    "source": "StockTwits",
@@ -77,6 +77,16 @@
    "x_vs_hier": null
   },
   "XCN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "META": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRSP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -91,47 +101,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "TDOC": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "ACAD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MLYS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JEPQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "KLAR": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRSP": {
+  "CVS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "VSTM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "T": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "CART": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "OPEAZZX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "UNG": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AGEN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AGQ": {
+  "WLFI": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -141,7 +141,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "TDOC": {
+  "LINK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
