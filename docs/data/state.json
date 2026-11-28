@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T11:50:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.301e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T11:50:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54142.6,
+   "dernier_prix": 54136.8,
    "atr": 640.9446,
    "rollover": 0.4723840812721193,
    "rollover_periodes": 27
@@ -68,10 +68,10 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T11:50:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
-   "dernier_prix": 45.10941159250585,
+   "dernier_prix": 45.11106231931789,
    "atr": 0.4821303,
    "rollover": 0.052156824702368675,
    "rollover_periodes": 4
@@ -92,10 +92,10 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T11:50:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
-   "dernier_prix": 98.90039519906323,
+   "dernier_prix": 98.9040143447872,
    "atr": 0.5475606,
    "rollover": 0.0388110973287555,
    "rollover_periodes": 4
@@ -116,10 +116,10 @@
    "risque_eur": 2.156046768855159,
    "rr_net": 2.38,
    "ouvert_le": "2026-11-28T09:05:38Z",
-   "verifie_jusqu_a": "2026-11-28T11:50:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:52:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261128-090538-GOOGL",
-   "dernier_prix": 251.1069233021077,
+   "dernier_prix": 251.1161122699162,
    "atr": 0.9690521
   }
  ],
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T11:50:49Z",
+ "maj": "2026-11-28T11:52:53Z",
  "seq": 31,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -162,7 +162,7 @@
   "2026-11-28": 484.24
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-28T11:46:54Z",
+ "chasseur_t": "2026-11-28T11:52:48Z",
  "tendance": [
   "WLFI",
   "PENGU",
@@ -184,8 +184,8 @@
  "buzz": {
   "ETH": {
    "source": "Reddit",
-   "mentions": 33,
-   "x_vs_hier": 2.2
+   "mentions": 35,
+   "x_vs_hier": 2.5
   },
   "TSLA": {
    "source": "Reddit",
@@ -202,17 +202,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CRSP": {
+  "COST": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "KSS": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "B": {
+  "RYTM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -222,17 +217,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "COST": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "KO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "WYFI": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "JNJ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -242,7 +232,7 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "DE": {
+  "MARA": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -252,98 +242,108 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "BTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ORCL": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "USDCAD": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "TRUMP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "TGT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NVTS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "NKE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LEU": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "DRAM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   }
  },
- "buzz_t": "2026-11-28T11:35:04Z",
- "sources_t": "2026-11-28T11:31:50Z",
+ "buzz_t": "2026-11-28T11:52:48Z",
+ "sources_t": "2026-11-28T11:52:51Z",
  "actus_tendance": [
   {
-   "sujet": "Bitcoin",
-   "mentions": 9,
-   "sentiment": "bearish",
-   "titres": [
-    "Fragile BTC.... Any jumps will be used for Sell!!!!",
-    "BTCUSD - BEARISH MARKET STRUCTURE"
-   ]
-  },
-  {
    "sujet": "Stablecoins",
-   "mentions": 6,
+   "mentions": 8,
    "sentiment": "neutral",
    "titres": [
-    "AKE/USDT: +200% Post-Capitulation Short-Squeeze Setup",
-    "TAG/USDT: +215% Rebound & Breakout Squeeze Setup"
+    "Ripple’s RLUSD stablecoin hits record supply as XRP slips below $1",
+    "Ripple’s stablecoin gains traction as XRP price falls below $1"
    ]
   },
   {
-   "sujet": "Binance",
-   "mentions": 4,
+   "sujet": "Bitcoin",
+   "mentions": 7,
    "sentiment": "bearish",
    "titres": [
-    "Changpeng Zhao seeks legal advice over his portrayal in Netflix’s The Altruists",
-    "Binance Blockchain Week explores future of 24/7 capital markets"
+    "Keel Infrastructure sells entire Bitcoin treasury worth $192M",
+    "BTC/WTI: A Potential Repeat of the 2022 Setup?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 4,
-   "sentiment": "neutral",
+   "mentions": 6,
+   "sentiment": "bearish",
    "titres": [
-    "SpaceX keeps its Buy ratings after first operating profit, powered by AI compute",
-    "DELL's AI Backlog Looks Massive, But Execution Is What Matters"
+    "Keel Infrastructure sells entire Bitcoin treasury worth $192M",
+    "Indonesia outlines three-part response to US AI chip export controls"
    ]
   },
   {
    "sujet": "Ethereum",
+   "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "Ethereum in the upcoming week??",
+    "Ethereum 1W — The Megaphone Pattern | Two Market Scenarios"
+   ]
+  },
+  {
+   "sujet": "Binance",
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "Vitalik Buterin warns against rushing Ethereum gas change that could break some contracts",
-    "Trump-Linked World Liberty Wallet Dumps 12,121 ETH, Locking in a $19M Loss"
-   ]
-  },
-  {
-   "sujet": "Solana",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Wallet linked to Kyle Samani sells 144K SOL for $10M",
-    "SOL acquires majority stake in French home care provider Vyana Medical"
-   ]
-  },
-  {
-   "sujet": "Dogecoin",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "Trader Tardigrade Warns DOGE Could Slide to $0.053 if $0.058 Rejects It a Fourth Time"
+    "CZ says crypto leaders are discussing a security alliance after Binance’s $6.3 billion hack",
+    "CFXUSDT (4H): Descending Trendline Break & Ascending Channel"
    ]
   },
   {
    "sujet": "XRP",
-   "mentions": 1,
-   "sentiment": "bullish",
+   "mentions": 2,
+   "sentiment": "neutral",
    "titres": [
-    "XRP: Diamond-Bottom-Formation Above 0.92, Potential +20% Bounce!"
+    "Ripple’s RLUSD stablecoin hits record supply as XRP slips below $1",
+    "Ripple’s stablecoin gains traction as XRP price falls below $1"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "CZ says crypto leaders are discussing a security alliance after Binance’s $6.3 billion hack"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "CZ says crypto leaders are discussing a security alliance after Binance’s $6.3 billion hack"
    ]
   }
  ],
