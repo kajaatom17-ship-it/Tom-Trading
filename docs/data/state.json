@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T11:09:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.308e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T11:09:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54117.0,
+   "dernier_prix": 54117.2,
    "atr": 640.9446,
    "rollover": 0.4723840812721193,
    "rollover_periodes": 27
@@ -68,10 +68,10 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T11:09:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
-   "dernier_prix": 45.108586274402185,
+   "dernier_prix": 45.11188772802957,
    "atr": 0.4821303,
    "rollover": 0.052156824702368675,
    "rollover_periodes": 4
@@ -92,10 +92,10 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T11:09:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
-   "dernier_prix": 98.89858572552464,
+   "dernier_prix": 98.90582401697986,
    "atr": 0.5475606,
    "rollover": 0.0388110973287555,
    "rollover_periodes": 4
@@ -116,10 +116,10 @@
    "risque_eur": 2.156046768855159,
    "rr_net": 2.38,
    "ouvert_le": "2026-11-28T09:05:38Z",
-   "verifie_jusqu_a": "2026-11-28T11:09:00Z",
+   "verifie_jusqu_a": "2026-11-28T11:11:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261128-090538-GOOGL",
-   "dernier_prix": 250.98340560221015,
+   "dernier_prix": 251.00177483395242,
    "atr": 0.9690521
   }
  ],
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T11:09:12Z",
+ "maj": "2026-11-28T11:11:16Z",
  "seq": 31,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -162,7 +162,7 @@
   "2026-11-28": 484.24
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-28T11:05:18Z",
+ "chasseur_t": "2026-11-28T11:11:11Z",
  "tendance": [
   "WLFI",
   "USD1",
@@ -274,20 +274,38 @@
   }
  },
  "buzz_t": "2026-11-28T10:59:25Z",
- "sources_t": "2026-11-28T10:49:33Z",
+ "sources_t": "2026-11-28T11:11:14Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 15,
+   "mentions": 9,
    "sentiment": "bearish",
    "titres": [
-    "BTCUSD - BEARISH MARKET STRUCTURE",
-    "Bitcoin(BTC/USD) Daily Chart Analysis For Week of Nov 27, 2026"
+    "Fragile BTC.... Any jumps will be used for Sell!!!!",
+    "BTCUSD - BEARISH MARKET STRUCTURE"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 6,
+   "sentiment": "neutral",
+   "titres": [
+    "AKE/USDT: +200% Post-Capitulation Short-Squeeze Setup",
+    "TAG/USDT: +215% Rebound & Breakout Squeeze Setup"
+   ]
+  },
+  {
+   "sujet": "Binance",
+   "mentions": 4,
+   "sentiment": "bearish",
+   "titres": [
+    "Changpeng Zhao seeks legal advice over his portrayal in Netflix’s The Altruists",
+    "Binance Blockchain Week explores future of 24/7 capital markets"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 4,
    "sentiment": "neutral",
    "titres": [
     "SpaceX keeps its Buy ratings after first operating profit, powered by AI compute",
@@ -296,47 +314,11 @@
   },
   {
    "sujet": "Ethereum",
-   "mentions": 5,
-   "sentiment": "bearish",
-   "titres": [
-    "Trump-Linked World Liberty Wallet Dumps 12,121 ETH, Locking in a $19M Loss",
-    "$ETH Approaching Oversold, But Reversal Not Confirmed"
-   ]
-  },
-  {
-   "sujet": "Binance",
-   "mentions": 5,
-   "sentiment": "bearish",
-   "titres": [
-    "Binance Blockchain Week explores future of 24/7 capital markets",
-    "DOGEUSDT - A short squeeze will send the price to the bottom"
-   ]
-  },
-  {
-   "sujet": "Stablecoins",
    "mentions": 3,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "EVAA/USDT: +450% High-Beta Reversal Squeeze Setup",
-    "XPIN/USDT: +81% Mean-Reversion Squeeze Setup"
-   ]
-  },
-  {
-   "sujet": "ETF",
-   "mentions": 3,
-   "sentiment": "bearish",
-   "titres": [
-    "Spot BTC ETFs Shed a Record $5.7B in November, Topping June's $4.51B Exodus",
-    "Hyperliquid Price Prediction: HYPE Bounce Risks a 6% Drop to $60 as ETF Entry Nears"
-   ]
-  },
-  {
-   "sujet": "XRP",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "XRP: Diamond-Bottom-Formation Above 0.92, Potential +20% Bounce!",
-    "XRP Holders Want to Burn 31 Billion Tokens, But Ripple CTO Pushes Back"
+    "Vitalik Buterin warns against rushing Ethereum gas change that could break some contracts",
+    "Trump-Linked World Liberty Wallet Dumps 12,121 ETH, Locking in a $19M Loss"
    ]
   },
   {
@@ -345,7 +327,23 @@
    "sentiment": "neutral",
    "titres": [
     "Wallet linked to Kyle Samani sells 144K SOL for $10M",
-    "Further Downside Continuation for Solana. Decent Short Trade."
+    "SOL acquires majority stake in French home care provider Vyana Medical"
+   ]
+  },
+  {
+   "sujet": "Dogecoin",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "Trader Tardigrade Warns DOGE Could Slide to $0.053 if $0.058 Rejects It a Fourth Time"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "bullish",
+   "titres": [
+    "XRP: Diamond-Bottom-Formation Above 0.92, Potential +20% Bounce!"
    ]
   }
  ],
