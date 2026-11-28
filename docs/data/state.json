@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T09:08:00Z",
+   "verifie_jusqu_a": "2026-11-28T09:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.318e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T09:08:00Z",
+   "verifie_jusqu_a": "2026-11-28T09:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54506.5,
+   "dernier_prix": 54500.0,
    "atr": 640.9446,
    "rollover": 0.4548883745583371,
    "rollover_periodes": 26
@@ -68,7 +68,7 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T09:08:00Z",
+   "verifie_jusqu_a": "2026-11-28T09:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
    "dernier_prix": 45.10652311126154,
@@ -92,7 +92,7 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T09:08:00Z",
+   "verifie_jusqu_a": "2026-11-28T09:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
    "dernier_prix": 98.89406233134221,
@@ -116,10 +116,10 @@
    "risque_eur": 2.156046768855159,
    "rr_net": 2.38,
    "ouvert_le": "2026-11-28T09:05:38Z",
-   "verifie_jusqu_a": "2026-11-28T09:08:00Z",
+   "verifie_jusqu_a": "2026-11-28T09:09:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261128-090538-GOOGL",
-   "dernier_prix": 251.4110081504587,
+   "dernier_prix": 251.38356552840767,
    "atr": 0.9690521
   }
  ],
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T09:08:37Z",
+ "maj": "2026-11-28T09:09:36Z",
  "seq": 31,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -269,76 +269,78 @@
   }
  },
  "buzz_t": "2026-11-28T08:54:59Z",
- "sources_t": "2026-11-28T08:48:58Z",
+ "sources_t": "2026-11-28T09:09:34Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 17,
-   "sentiment": "neutral",
+   "mentions": 12,
+   "sentiment": "bearish",
    "titres": [
-    "Chamath Palihapitiya Warns AI Could Crack Bitcoin as Leaders Push Back",
-    "Bitcoin’s Correlation With Gold Hits Record High, Galaxy Research Finds"
+    "#BTC Weekly Trade Plan: Pullback Into The Zone Next? 28.11.26",
+    "BTC/USD Plan: 60K Battle zone Breakout - Bull 69K or Bear 53K ?"
    ]
   },
   {
    "sujet": "AI",
-   "mentions": 6,
+   "mentions": 8,
    "sentiment": "bullish",
    "titres": [
-    "Chamath Palihapitiya Warns AI Could Crack Bitcoin as Leaders Push Back",
-    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more"
+    "Nvidia halts AI server shipments to Southeast Asia amid US export controls",
+    "Musk says Google wants to lease more compute capacity from SpaceX"
    ]
   },
   {
-   "sujet": "Stablecoins",
-   "mentions": 4,
-   "sentiment": "neutral",
+   "sujet": "Ethereum",
+   "mentions": 5,
+   "sentiment": "bearish",
    "titres": [
-    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
-    "CryptoQuant says bitcoin price recovery needs USDT supply growth"
+    "ETHUSDT (4H): Trendline Intersection Retest & $1,608–$1,635 Dema",
+    "Ethereum: Where Are We in the Current Structure? (4H)"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 2,
+   "mentions": 5,
    "sentiment": "bullish",
    "titres": [
     "Binance receives in-principle approval, plans Asia hub in Bhutan",
-    "XRP Deposits on Binance Outnumber Withdrawals More Than 11 to 1"
+    "Binance Blockchain Week kicks off with live Trading Master Tournament in Bangkok"
+   ]
+  },
+  {
+   "sujet": "ETF",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "Hyperliquid Price Prediction: HYPE Bounce Risks a 6% Drop to $60 as ETF Entry Nears",
+    "Fidelity’s spot Bitcoin ETF records $20.8 million in net outflows"
    ]
   },
   {
    "sujet": "SEC/Regulation",
-   "mentions": 2,
-   "sentiment": "neutral",
+   "mentions": 3,
+   "sentiment": "bullish",
    "titres": [
-    "Injective Urges SEC to Open Tokenized Stock Trading to Order Books",
-    "Here’s what happened in crypto today"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Den’s Jonah Erlich Says Its Onchain Rules Block Rogue Transfers Even if Den Is Hacked",
-    "Can a Crypto Wallet Keep Funds Safe Even If Its Provider Gets Hacked?"
+    "Justin Sun accuses World Liberty Financial of investor fraud, calls for WLFI and USD1 delisting",
+    "China’s DeepSeek raises concerns over AI control, assessment finds"
    ]
   },
   {
    "sujet": "Institutions",
-   "mentions": 1,
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "OCC shut down Indiana based United Fidelity Bank"
+    "Fidelity’s spot Bitcoin ETF records $20.8 million in net outflows",
+    "BlackRock leads $389M Bitcoin ETF exodus as November outflows hit a record"
    ]
   },
   {
-   "sujet": "XRP",
-   "mentions": 1,
+   "sujet": "DeFi",
+   "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "XRP Deposits on Binance Outnumber Withdrawals More Than 11 to 1"
+    "Justin Sun accuses World Liberty Financial of investor fraud, calls for WLFI and USD1 delisting",
+    "World Liberty Financial’s WLFI token plunges 59% in 24 hours"
    ]
   }
  ],
