@@ -1,42 +1,42 @@
 {
- "t": "2026-11-28T01:37:32Z",
+ "t": "2026-11-28T01:43:12Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 0,
  "tendance": [
   "AAVE",
-  "ALGO",
-  "AVEX",
+  "AMP",
   "AZN",
   "BTC",
   "ETH",
   "EWZ",
+  "GHRS",
   "GOOG",
   "GOOGL",
+  "GSAT",
   "HBAR",
   "HYPE",
+  "IONQ",
   "KOLD",
   "LINK",
-  "LTC",
   "MON",
   "NBIS",
-  "NIGHT",
   "NTSK",
-  "OXY",
   "PENGU",
   "PONS",
   "PORTAL",
   "PS",
   "PUMPCHAN",
+  "SHOP",
+  "SNOW",
   "SOL",
   "SPY",
   "TDOC",
   "TSLA",
   "VSTM",
-  "WEN",
-  "WFC",
   "WLFI",
   "WMT",
   "XMR",
+  "XTZ",
   "ZEC",
   "ZYLO"
  ],
@@ -64,19 +64,14 @@
   "GOOGL": {
    "source": "Reddit",
    "mentions": 32,
-   "x_vs_hier": 2.5
+   "x_vs_hier": 2.3
   },
   "GOOG": {
    "source": "Reddit",
    "mentions": 31,
-   "x_vs_hier": 2.8
+   "x_vs_hier": 3.1
   },
   "WMT": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TDOC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -86,42 +81,22 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "GSAT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "KOLD": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "OXY": {
+  "XTZ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "LTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AVEX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "AZN": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WFC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ALGO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "WEN": {
+  "TDOC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -131,12 +106,37 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SHOP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "GHRS": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "EWZ": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "NIGHT": {
+  "IONQ": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AZN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AMP": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SNOW": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
