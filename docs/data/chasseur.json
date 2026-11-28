@@ -1,7 +1,7 @@
 {
- "t": "2026-11-28T08:19:50Z",
+ "t": "2026-11-28T08:25:37Z",
  "nb_analyses": 450,
- "nb_en_mouvement": 2,
+ "nb_en_mouvement": 4,
  "tendance": [
   "ALGO",
   "AMPX",
@@ -122,11 +122,31 @@
  },
  "candidats": [
   {
+   "sym": "GENIUS",
+   "pair": "GENIUSEUR",
+   "action": false,
+   "variation_24h_pct": -9.08,
+   "volume_24h_eur": 40131.24,
+   "spread_pct": 0.2629,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "SPACE",
+   "pair": "SPACEEUR",
+   "action": false,
+   "variation_24h_pct": 5.29,
+   "volume_24h_eur": 98821.9,
+   "spread_pct": 0.0995,
+   "tendance": false,
+   "impulsion": null
+  },
+  {
    "sym": "BILL",
    "pair": "BILLEUR",
    "action": false,
    "variation_24h_pct": -5.44,
-   "volume_24h_eur": 41042.12,
+   "volume_24h_eur": 41597.25,
    "spread_pct": 0.274,
    "tendance": false,
    "impulsion": null
@@ -135,9 +155,9 @@
    "sym": "SKY",
    "pair": "SKYEUR",
    "action": false,
-   "variation_24h_pct": -3.68,
-   "volume_24h_eur": 174880.72,
-   "spread_pct": 0.0875,
+   "variation_24h_pct": -3.73,
+   "volume_24h_eur": 175455.86,
+   "spread_pct": 0.1094,
    "tendance": true,
    "impulsion": null
   }
