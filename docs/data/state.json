@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-28T10:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.3e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-28T10:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54143.3,
+   "dernier_prix": 54091.3,
    "atr": 640.9446,
    "rollover": 0.4548883745583371,
    "rollover_periodes": 26
@@ -68,7 +68,7 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-28T10:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
    "dernier_prix": 45.11064962628878,
@@ -92,7 +92,7 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-28T10:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
    "dernier_prix": 98.90310953352424,
@@ -116,7 +116,7 @@
    "risque_eur": 2.156046768855159,
    "rr_net": 2.38,
    "ouvert_le": "2026-11-28T09:05:38Z",
-   "verifie_jusqu_a": "2026-11-28T10:48:00Z",
+   "verifie_jusqu_a": "2026-11-28T10:49:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261128-090538-GOOGL",
    "dernier_prix": 251.6901627496364,
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T10:48:36Z",
+ "maj": "2026-11-28T10:49:34Z",
  "seq": 31,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -269,38 +269,56 @@
   }
  },
  "buzz_t": "2026-11-28T10:41:39Z",
- "sources_t": "2026-11-28T10:29:53Z",
+ "sources_t": "2026-11-28T10:49:33Z",
  "actus_tendance": [
   {
    "sujet": "Bitcoin",
-   "mentions": 17,
+   "mentions": 15,
    "sentiment": "bearish",
    "titres": [
-    "DOGEUSDT - A short squeeze will send the price to the bottom",
-    "BTCUSDT: Sideways | Cyan Wave B Correction & 62.2K Breaking"
+    "BTCUSD - BEARISH MARKET STRUCTURE",
+    "Bitcoin(BTC/USD) Daily Chart Analysis For Week of Nov 27, 2026"
+   ]
+  },
+  {
+   "sujet": "AI",
+   "mentions": 6,
+   "sentiment": "neutral",
+   "titres": [
+    "SpaceX keeps its Buy ratings after first operating profit, powered by AI compute",
+    "DELL's AI Backlog Looks Massive, But Execution Is What Matters"
    ]
   },
   {
    "sujet": "Ethereum",
-   "mentions": 6,
+   "mentions": 5,
    "sentiment": "bearish",
    "titres": [
-    "$ETH Approaching Oversold, But Reversal Not Confirmed",
-    "ETHUSDT (4H): Trendline Intersection Retest & $1,608–$1,635 Dema"
+    "Trump-Linked World Liberty Wallet Dumps 12,121 ETH, Locking in a $19M Loss",
+    "$ETH Approaching Oversold, But Reversal Not Confirmed"
    ]
   },
   {
    "sujet": "Binance",
    "mentions": 5,
-   "sentiment": "neutral",
+   "sentiment": "bearish",
    "titres": [
-    "DOGEUSDT - A short squeeze will send the price to the bottom",
-    "BNB -19.56% in 20d, coils 551.19: 596.34 lid, 503.75 floor"
+    "Binance Blockchain Week explores future of 24/7 capital markets",
+    "DOGEUSDT - A short squeeze will send the price to the bottom"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "EVAA/USDT: +450% High-Beta Reversal Squeeze Setup",
+    "XPIN/USDT: +81% Mean-Reversion Squeeze Setup"
    ]
   },
   {
    "sujet": "ETF",
-   "mentions": 4,
+   "mentions": 3,
    "sentiment": "bearish",
    "titres": [
     "Spot BTC ETFs Shed a Record $5.7B in November, Topping June's $4.51B Exodus",
@@ -308,39 +326,21 @@
    ]
   },
   {
-   "sujet": "AI",
-   "mentions": 4,
+   "sujet": "XRP",
+   "mentions": 2,
    "sentiment": "bullish",
    "titres": [
-    "Nvidia halts AI server shipments to Southeast Asia amid US export controls",
-    "Musk says Google wants to lease more compute capacity from SpaceX"
+    "XRP: Diamond-Bottom-Formation Above 0.92, Potential +20% Bounce!",
+    "XRP Holders Want to Burn 31 Billion Tokens, But Ripple CTO Pushes Back"
    ]
   },
   {
-   "sujet": "SEC/Regulation",
-   "mentions": 3,
-   "sentiment": "bullish",
-   "titres": [
-    "Justin Sun accuses World Liberty Financial of investor fraud, calls for WLFI and USD1 delisting",
-    "China’s DeepSeek raises concerns over AI control, assessment finds"
-   ]
-  },
-  {
-   "sujet": "Institutions",
+   "sujet": "Solana",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Fidelity’s spot Bitcoin ETF records $20.8 million in net outflows",
-    "BlackRock leads $389M Bitcoin ETF exodus as November outflows hit a record"
-   ]
-  },
-  {
-   "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "neutral",
-   "titres": [
-    "Justin Sun accuses World Liberty Financial of investor fraud, calls for WLFI and USD1 delisting",
-    "World Liberty Financial’s WLFI token plunges 59% in 24 hours"
+    "Wallet linked to Kyle Samani sells 144K SOL for $10M",
+    "Further Downside Continuation for Solana. Decent Short Trade."
    ]
   }
  ],
