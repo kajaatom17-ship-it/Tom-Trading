@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T04:28:00Z",
+   "verifie_jusqu_a": "2026-11-28T04:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.353e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T04:28:00Z",
+   "verifie_jusqu_a": "2026-11-28T04:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54853.3,
+   "dernier_prix": 54848.2,
    "atr": 640.9446,
    "rollover": 0.4373926678445549,
    "rollover_periodes": 25
@@ -68,10 +68,10 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T04:28:00Z",
+   "verifie_jusqu_a": "2026-11-28T04:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
-   "dernier_prix": 45.60755186418353,
+   "dernier_prix": 45.60630036496017,
    "atr": 0.4821303,
    "rollover": 0.026078412351184337,
    "rollover_periodes": 2
@@ -92,10 +92,10 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T04:28:00Z",
+   "verifie_jusqu_a": "2026-11-28T04:30:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
-   "dernier_prix": 98.8895393509202,
+   "dernier_prix": 98.88682576124837,
    "atr": 0.5475606,
    "rollover": 0.01940554866437775,
    "rollover_periodes": 2
@@ -118,7 +118,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T04:28:45Z",
+ "maj": "2026-11-28T04:30:43Z",
  "seq": 30,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -139,7 +139,7 @@
   "2026-11-28": 484.24
  },
  "ordres_attente": [],
- "chasseur_t": "2026-11-28T04:24:57Z",
+ "chasseur_t": "2026-11-28T04:30:41Z",
  "tendance": [
   "PORTAL",
   "BTC",
@@ -261,15 +261,15 @@
   }
  },
  "buzz_t": "2026-11-28T04:19:16Z",
- "sources_t": "2026-11-28T04:10:24Z",
+ "sources_t": "2026-11-28T04:30:41Z",
  "actus_tendance": [
   {
    "sujet": "AI",
-   "mentions": 16,
+   "mentions": 17,
    "sentiment": "neutral",
    "titres": [
-    "CryptoStar shareholders to vote on share consolidation of up to 30:1",
-    "CryptoStar USA shuts down its last Bitcoin miners in Utah"
+    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
+    "Citi’s Devin rollout could save the bank about $1.5 billion in 2026"
    ]
   },
   {
@@ -277,17 +277,17 @@
    "mentions": 11,
    "sentiment": "bearish",
    "titres": [
-    "Everyone Wanted Bitcoin at $60K. Now It's Here. Where Are They?",
-    "Bitcoin 1H: Weekend bounce under 61.2K FVG, 58.7K support"
+    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
+    "Bitcoin Needs More Pain Before a Bottom, Crypto Investment Firm Says After Scrapping Its Call"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 5,
+   "mentions": 6,
    "sentiment": "bullish",
    "titres": [
-    "NEAR/USDT revisits base of September breakout",
-    "Aave V4 USDC deposits hit a record $107.4 million on Ethereum Core Hub"
+    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
+    "NEAR/USDT revisits base of September breakout"
    ]
   },
   {
@@ -309,6 +309,15 @@
    ]
   },
   {
+   "sujet": "XRP",
+   "mentions": 2,
+   "sentiment": "bullish",
+   "titres": [
+    "Bitwise XRP ETF clients buy $5.4 million in a single day",
+    "XRP Ledger nears launch of native lending feature with final vote pending"
+   ]
+  },
+  {
    "sujet": "Security",
    "mentions": 2,
    "sentiment": "neutral",
@@ -318,21 +327,12 @@
    ]
   },
   {
-   "sujet": "DeFi",
-   "mentions": 2,
-   "sentiment": "bullish",
-   "titres": [
-    "Aave V4 USDC deposits hit a record $107.4 million on Ethereum Core Hub",
-    "Here’s what happened in crypto today"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
+   "sujet": "Solana",
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "CryptoStar USA shuts down its last Bitcoin miners in Utah",
-    "Here’s what happened in crypto today"
+    "SOL 4H Update: BTC Lost 60K but Solana Held 70. Now What?",
+    "Binance moves 210.2 million USDT to an unlabeled Solana wallet"
    ]
   }
  ],
