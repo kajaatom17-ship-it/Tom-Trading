@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T08:27:00Z",
+   "verifie_jusqu_a": "2026-11-28T08:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.32e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T08:27:00Z",
+   "verifie_jusqu_a": "2026-11-28T08:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54574.7,
+   "dernier_prix": 54543.0,
    "atr": 640.9446,
    "rollover": 0.4548883745583371,
    "rollover_periodes": 26
@@ -68,10 +68,10 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T08:27:00Z",
+   "verifie_jusqu_a": "2026-11-28T08:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
-   "dernier_prix": 44.827460021224425,
+   "dernier_prix": 44.82704992269621,
    "atr": 0.4821303,
    "rollover": 0.039117618526776504,
    "rollover_periodes": 3
@@ -92,10 +92,10 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T08:27:00Z",
+   "verifie_jusqu_a": "2026-11-28T08:28:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
-   "dernier_prix": 98.9040143447872,
+   "dernier_prix": 98.90310953352424,
    "atr": 0.5475606,
    "rollover": 0.029108322996566623,
    "rollover_periodes": 3
@@ -118,7 +118,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T08:27:29Z",
+ "maj": "2026-11-28T08:28:36Z",
  "seq": 30,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -246,60 +246,51 @@
   }
  },
  "buzz_t": "2026-11-28T08:19:48Z",
- "sources_t": "2026-11-28T08:07:53Z",
+ "sources_t": "2026-11-28T08:28:28Z",
  "actus_tendance": [
   {
-   "sujet": "AI",
+   "sujet": "Bitcoin",
    "mentions": 17,
    "sentiment": "neutral",
    "titres": [
-    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
-    "Citi’s Devin rollout could save the bank about $1.5 billion in 2026"
+    "Chamath Palihapitiya Warns AI Could Crack Bitcoin as Leaders Push Back",
+    "Bitcoin’s Correlation With Gold Hits Record High, Galaxy Research Finds"
    ]
   },
   {
-   "sujet": "Bitcoin",
-   "mentions": 11,
-   "sentiment": "bearish",
+   "sujet": "AI",
+   "mentions": 6,
+   "sentiment": "bullish",
    "titres": [
-    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
-    "Bitcoin Needs More Pain Before a Bottom, Crypto Investment Firm Says After Scrapping Its Call"
+    "Chamath Palihapitiya Warns AI Could Crack Bitcoin as Leaders Push Back",
+    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more"
    ]
   },
   {
    "sujet": "Stablecoins",
-   "mentions": 6,
-   "sentiment": "bullish",
-   "titres": [
-    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
-    "NEAR/USDT revisits base of September breakout"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
    "mentions": 4,
    "sentiment": "neutral",
    "titres": [
-    "ETHUSDT (4H) – The 1,800 floor caps the rebound",
-    "ETHUSD: Bullish Recovery or Bearish Continuation?"
+    "Bitcoin recovery needs USDT supply growth: CryptoQuant, K33 weighs AI threat to Bitcoin, and more",
+    "CryptoQuant says bitcoin price recovery needs USDT supply growth"
    ]
   },
   {
    "sujet": "Binance",
-   "mentions": 4,
-   "sentiment": "neutral",
-   "titres": [
-    "NEAR/USDT revisits base of September breakout",
-    "DOGE buyers defend the lower trendline"
-   ]
-  },
-  {
-   "sujet": "XRP",
    "mentions": 2,
    "sentiment": "bullish",
    "titres": [
-    "Bitwise XRP ETF clients buy $5.4 million in a single day",
-    "XRP Ledger nears launch of native lending feature with final vote pending"
+    "Binance receives in-principle approval, plans Asia hub in Bhutan",
+    "XRP Deposits on Binance Outnumber Withdrawals More Than 11 to 1"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Injective Urges SEC to Open Tokenized Stock Trading to Order Books",
+    "Here’s what happened in crypto today"
    ]
   },
   {
@@ -307,17 +298,24 @@
    "mentions": 2,
    "sentiment": "neutral",
    "titres": [
-    "Binance withdrawals are back after October’s hack and here’s why yours might still be blocked",
-    "Chainflip identifies who lost money in $12.6 million hack as recovery plan takes shape"
+    "Den’s Jonah Erlich Says Its Onchain Rules Block Rogue Transfers Even if Den Is Hacked",
+    "Can a Crypto Wallet Keep Funds Safe Even If Its Provider Gets Hacked?"
    ]
   },
   {
-   "sujet": "Solana",
-   "mentions": 2,
+   "sujet": "Institutions",
+   "mentions": 1,
    "sentiment": "neutral",
    "titres": [
-    "SOL 4H Update: BTC Lost 60K but Solana Held 70. Now What?",
-    "Binance moves 210.2 million USDT to an unlabeled Solana wallet"
+    "OCC shut down Indiana based United Fidelity Bank"
+   ]
+  },
+  {
+   "sujet": "XRP",
+   "mentions": 1,
+   "sentiment": "neutral",
+   "titres": [
+    "XRP Deposits on Binance Outnumber Withdrawals More Than 11 to 1"
    ]
   }
  ],
