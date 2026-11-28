@@ -14615,5 +14615,37 @@
   },
   "cree_le": "2026-11-27T18:19:56Z",
   "traite_le": "2026-11-27T18:19:56Z"
+ },
+ {
+  "id": "S-20261128-090538-GOOGL",
+  "action": "open",
+  "sym": "GOOGL",
+  "side": "short",
+  "strategie": "SWG-1",
+  "entry_ref": 251.3333,
+  "atr": 0.9690521,
+  "stop": 256.36,
+  "tp": 236.2533,
+  "duree_max_h": 192,
+  "risque_pct_override": 1.0,
+  "agents": {
+   "trader_de_garde": {
+    "avis": "favorable",
+    "resume": "Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute."
+   },
+   "risk_manager": {
+    "verdict": "valide",
+    "motif": "Règles automatiques SWG-1 testées sur l'historique (lab/RESULTATS.md)."
+   }
+  },
+  "synthese": "Entrée automatique SWG-1 sur GOOGL (vente à découvert) : Tendance de fond 20 jours baissière (actif et marché), tendance 4 h baissière, rebond sur l'EMA20 1 h puis rechute. RR net 2.47. Position prévue pour durer plusieurs jours.",
+  "resultat": {
+   "statut": "execute",
+   "position_id": "P0031",
+   "prix": 251.1825,
+   "risque_eur": 2.16
+  },
+  "cree_le": "2026-11-28T09:05:38Z",
+  "traite_le": "2026-11-28T09:05:38Z"
  }
 ]

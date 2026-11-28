@@ -1,23 +1,5 @@
 [
  {
-  "t": "2026-11-27T02:22:43Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "604 actifs hors univers analysés, 4 en mouvement : ZEC +7.2 %, UNI +4.5 %, SKHY +3.1 %. Ajoutés : UNI."
- },
- {
-  "t": "2026-11-27T02:25:54Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "INTC +1.52 % en 15 min"
- },
- {
-  "t": "2026-11-27T02:26:50Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "CRCL +1.95 % en 15 min"
- },
- {
   "t": "2026-11-27T02:28:47Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2762,5 +2744,26 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "450 actifs hors univers analysés, 3 en mouvement : SPACE +11.5 %, GENIUS -7.9 %, SKY -3.3 %."
+ },
+ {
+  "t": "2026-11-28T09:05:38Z",
+  "agent": "Execution",
+  "type": "ouverture",
+  "msg": "GOOGL short ouvert à 251.1825 | 96.99 € engagés | stop 256.36 | objectif 236.2533 | risque 2.16 EUR",
+  "data": {
+   "id": "P0031"
+  }
+ },
+ {
+  "t": "2026-11-28T09:05:38Z",
+  "agent": "Trader de garde",
+  "type": "entrée",
+  "msg": "Entrée SWG-1 : GOOGL short, stop 256.36, objectif 236.2533, risque 2.16 €."
+ },
+ {
+  "t": "2026-11-28T09:05:38Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 2 signal(aux) : GOOGL short (SWG-1, 70), TAO short (SWG-1, 70)"
  }
 ]
