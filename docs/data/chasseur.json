@@ -1,5 +1,5 @@
 {
- "t": "2026-11-28T00:45:37Z",
+ "t": "2026-11-28T00:51:31Z",
  "nb_analyses": 450,
  "nb_en_mouvement": 0,
  "tendance": [
@@ -9,16 +9,16 @@
   "BTC",
   "GOOG",
   "GOOGL",
+  "GSAT",
   "HBAR",
   "HYPE",
   "KOLD",
   "LINK",
-  "LOW",
   "LTC",
   "MA",
+  "MLTX",
   "NBIS",
   "NEAR",
-  "NMAX",
   "PENGU",
   "PI",
   "PONS",
@@ -26,15 +26,15 @@
   "PS",
   "PUMP",
   "PUMPCHAN",
-  "SHIB",
+  "SHOP",
   "SOL",
   "SPY",
   "SUI",
   "SVIX",
-  "TECL",
   "TSLA",
   "UEC",
   "VSTM",
+  "WEN",
   "WMT",
   "XMR",
   "ZEC",
@@ -44,12 +44,12 @@
   "SPY": {
    "source": "Reddit",
    "mentions": 213,
-   "x_vs_hier": 2.4
+   "x_vs_hier": 2.5
   },
   "TSLA": {
    "source": "Reddit",
-   "mentions": 48,
-   "x_vs_hier": 4.8
+   "mentions": 49,
+   "x_vs_hier": 4.9
   },
   "PS": {
    "source": "Reddit",
@@ -63,25 +63,20 @@
   },
   "NBIS": {
    "source": "Reddit",
-   "mentions": 31,
-   "x_vs_hier": 3.1
+   "mentions": 32,
+   "x_vs_hier": 3.2
   },
   "GOOG": {
    "source": "Reddit",
    "mentions": 31,
    "x_vs_hier": 2.6
   },
-  "LTC": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "HBAR": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "WMT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "LTC": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -91,32 +86,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SVIX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "NMAX": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "VSTM": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ADBE": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "LOW": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "ALGO": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "HBAR": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "SHOP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -126,12 +106,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
+  "SVIX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "WEN": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "MLTX": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
   "ARKK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "TECL": {
+  "GSAT": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -141,7 +136,12 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "SHIB": {
+  "ADBE": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "VSTM": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
