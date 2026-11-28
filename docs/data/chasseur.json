@@ -1,21 +1,25 @@
 {
- "t": "2026-11-28T10:00:20Z",
+ "t": "2026-11-28T10:06:13Z",
  "nb_analyses": 448,
- "nb_en_mouvement": 2,
+ "nb_en_mouvement": 3,
  "tendance": [
+  "AVAV",
   "B",
   "CAW",
   "CFG",
-  "COST",
-  "ENPH",
+  "CRVS",
+  "DIS",
+  "DVN",
   "EVAA",
-  "FUBO",
   "GLD",
   "GOOG",
+  "IBIT",
+  "ICP",
   "LINK",
   "LIT",
   "MONTRA",
   "NIGHT",
+  "NVDA",
   "OTLY",
   "OUST",
   "PEARL",
@@ -23,18 +27,21 @@
   "PONS",
   "PORTAL",
   "RBLX",
-  "SCO",
   "SEI",
   "TAO",
   "TRUMP",
   "TSLA",
-  "UCO",
   "USD1",
   "VVV",
   "WLFI",
   "XMR"
  ],
  "buzz_reseaux": {
+  "NVDA": {
+   "source": "Reddit",
+   "mentions": 317,
+   "x_vs_hier": 2.0
+  },
   "TSLA": {
    "source": "Reddit",
    "mentions": 46,
@@ -55,22 +62,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "LINK": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "SCO": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "COST": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
   "B": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "AVAV": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CRVS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -80,27 +82,17 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "UCO": {
+  "DVN": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "FUBO": {
+  "LINK": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
-  "OTLY": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "TRUMP": {
-   "source": "StockTwits",
-   "mentions": null,
-   "x_vs_hier": null
-  },
-  "ENPH": {
+  "ICP": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -110,12 +102,27 @@
    "mentions": null,
    "x_vs_hier": null
   },
-  "CAW": {
+  "DIS": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
   },
   "GLD": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "IBIT": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "CAW": {
+   "source": "StockTwits",
+   "mentions": null,
+   "x_vs_hier": null
+  },
+  "OTLY": {
    "source": "StockTwits",
    "mentions": null,
    "x_vs_hier": null
@@ -126,9 +133,9 @@
    "sym": "GENIUS",
    "pair": "GENIUSEUR",
    "action": false,
-   "variation_24h_pct": -8.61,
-   "volume_24h_eur": 41587.24,
-   "spread_pct": 0.1744,
+   "variation_24h_pct": -8.49,
+   "volume_24h_eur": 41907.48,
+   "spread_pct": 0.1741,
    "tendance": false,
    "impulsion": null
   },
@@ -140,6 +147,16 @@
    "volume_24h_eur": 40857.05,
    "spread_pct": 0.2732,
    "tendance": false,
+   "impulsion": null
+  },
+  {
+   "sym": "ICP",
+   "pair": "ICPEUR",
+   "action": false,
+   "variation_24h_pct": -3.67,
+   "volume_24h_eur": 165161.69,
+   "spread_pct": 0.1138,
+   "tendance": true,
    "impulsion": null
   }
  ],
