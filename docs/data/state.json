@@ -20,7 +20,7 @@
    "risque_eur": 2.442822114536317,
    "rr_net": 2.35,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T12:31:00Z",
+   "verifie_jusqu_a": "2026-11-28T12:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-SHIB",
    "dernier_prix": 3.303e-06,
@@ -44,10 +44,10 @@
    "risque_eur": 4.883674475466303,
    "rr_net": 2.01,
    "ouvert_le": "2026-11-23T23:05:57Z",
-   "verifie_jusqu_a": "2026-11-28T12:31:00Z",
+   "verifie_jusqu_a": "2026-11-28T12:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261123-230557-BTC",
-   "dernier_prix": 54214.0,
+   "dernier_prix": 54212.0,
    "atr": 640.9446,
    "rollover": 0.4723840812721193,
    "rollover_periodes": 27
@@ -68,10 +68,10 @@
    "risque_eur": 4.8488648473811296,
    "rr_net": 3.09,
    "ouvert_le": "2026-11-27T18:08:24Z",
-   "verifie_jusqu_a": "2026-11-28T12:31:00Z",
+   "verifie_jusqu_a": "2026-11-28T12:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-180824-CRCL",
-   "dernier_prix": 44.80916309876678,
+   "dernier_prix": 44.808753167625724,
    "atr": 0.4821303,
    "rollover": 0.052156824702368675,
    "rollover_periodes": 4
@@ -92,10 +92,10 @@
    "risque_eur": 2.3006288259869843,
    "rr_net": 2.72,
    "ouvert_le": "2026-11-27T18:19:56Z",
-   "verifie_jusqu_a": "2026-11-28T12:31:00Z",
+   "verifie_jusqu_a": "2026-11-28T12:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261127-181956-ORCL",
-   "dernier_prix": 98.9040143447872,
+   "dernier_prix": 98.90310953352424,
    "atr": 0.5475606,
    "rollover": 0.0388110973287555,
    "rollover_periodes": 4
@@ -116,10 +116,10 @@
    "risque_eur": 2.156046768855159,
    "rr_net": 2.38,
    "ouvert_le": "2026-11-28T09:05:38Z",
-   "verifie_jusqu_a": "2026-11-28T12:31:00Z",
+   "verifie_jusqu_a": "2026-11-28T12:32:00Z",
    "duree_max_h": 192.0,
    "decision_id": "S-20261128-090538-GOOGL",
-   "dernier_prix": 251.37226918432316,
+   "dernier_prix": 251.3699695359028,
    "atr": 0.9690521
   }
  ],
@@ -141,7 +141,7 @@
  },
  "coupe_circuit": false,
  "cree_le": "2026-11-13T14:05:39Z",
- "maj": "2026-11-28T12:31:33Z",
+ "maj": "2026-11-28T12:32:32Z",
  "seq": 31,
  "equity_debut_jour": {
   "2026-11-13": 500.0,
@@ -274,51 +274,69 @@
   }
  },
  "buzz_t": "2026-11-28T12:28:36Z",
- "sources_t": "2026-11-28T12:12:33Z",
+ "sources_t": "2026-11-28T12:32:30Z",
  "actus_tendance": [
-  {
-   "sujet": "Stablecoins",
-   "mentions": 8,
-   "sentiment": "neutral",
-   "titres": [
-    "Ripple’s RLUSD stablecoin hits record supply as XRP slips below $1",
-    "Ripple’s stablecoin gains traction as XRP price falls below $1"
-   ]
-  },
   {
    "sujet": "Bitcoin",
    "mentions": 7,
    "sentiment": "bearish",
    "titres": [
-    "Keel Infrastructure sells entire Bitcoin treasury worth $192M",
-    "BTC/WTI: A Potential Repeat of the 2022 Setup?"
+    "BTC slid under its value-area low at 59,400 and is pressing a",
+    "BTCUSD – Bearish Pressure Builds Within a Contracting Market"
    ]
   },
   {
    "sujet": "AI",
    "mentions": 6,
-   "sentiment": "bearish",
+   "sentiment": "neutral",
    "titres": [
-    "Keel Infrastructure sells entire Bitcoin treasury worth $192M",
-    "Indonesia outlines three-part response to US AI chip export controls"
-   ]
-  },
-  {
-   "sujet": "Ethereum",
-   "mentions": 4,
-   "sentiment": "bearish",
-   "titres": [
-    "Ethereum in the upcoming week??",
-    "Ethereum 1W — The Megaphone Pattern | Two Market Scenarios"
+    "CoreWeave revenue more than doubles as Nvidia props up the AI cloud",
+    "AI data centers in space: Millions of satellites and so many unknowns"
    ]
   },
   {
    "sujet": "Binance",
+   "mentions": 4,
+   "sentiment": "neutral",
+   "titres": [
+    "BNB Chain, Woori Bank and BPN reportedly plan cross-border stablecoin pilot",
+    "Binance taps SAFU and futures insurance fund after $6.3B hack"
+   ]
+  },
+  {
+   "sujet": "Ethereum",
+   "mentions": 3,
+   "sentiment": "bearish",
+   "titres": [
+    "⛽ ETH Gas: 🐢 0.051750493 | 🚶 0.052750493 | 🚀 0.057325493 Gwei",
+    "Ethereum in the upcoming week??"
+   ]
+  },
+  {
+   "sujet": "SEC/Regulation",
    "mentions": 3,
    "sentiment": "neutral",
    "titres": [
-    "CZ says crypto leaders are discussing a security alliance after Binance’s $6.3 billion hack",
-    "CFXUSDT (4H): Descending Trendline Break & Ascending Channel"
+    "BNB Chain, Woori Bank and BPN reportedly plan cross-border stablecoin pilot",
+    "Biggest US Bank Failure Since 2024 Will Cost the FDIC $1.83 Billion"
+   ]
+  },
+  {
+   "sujet": "Stablecoins",
+   "mentions": 3,
+   "sentiment": "neutral",
+   "titres": [
+    "BNB Chain, Woori Bank and BPN reportedly plan cross-border stablecoin pilot",
+    "Ripple’s RLUSD stablecoin hits record supply as XRP slips below $1"
+   ]
+  },
+  {
+   "sujet": "Security",
+   "mentions": 2,
+   "sentiment": "neutral",
+   "titres": [
+    "Binance taps SAFU and futures insurance fund after $6.3B hack",
+    "CZ says crypto leaders are discussing a security alliance after Binance’s $6.3 billion hack"
    ]
   },
   {
@@ -328,22 +346,6 @@
    "titres": [
     "Ripple’s RLUSD stablecoin hits record supply as XRP slips below $1",
     "Ripple’s stablecoin gains traction as XRP price falls below $1"
-   ]
-  },
-  {
-   "sujet": "SEC/Regulation",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "CZ says crypto leaders are discussing a security alliance after Binance’s $6.3 billion hack"
-   ]
-  },
-  {
-   "sujet": "Security",
-   "mentions": 1,
-   "sentiment": "neutral",
-   "titres": [
-    "CZ says crypto leaders are discussing a security alliance after Binance’s $6.3 billion hack"
    ]
   }
  ],
