@@ -1,47 +1,5 @@
 [
  {
-  "t": "2026-11-27T00:38:12Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABBV, ABVX, AXSM, BABA, BB.TSX, CAW, CDE, CRVS, DASH, KOLD, MLTX, MO"
- },
- {
-  "t": "2026-11-27T00:55:32Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABBV, ABVX, AZN, BABA, CDE, CRVS, DIS, LOW, LRCX, MLTX, RTY_F, SHIB"
- },
- {
-  "t": "2026-11-27T01:00:20Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 10 signal(aux) : BONK short (SWG-1, 80), GLD short (SWG-1, 70), ETH short (SWG-1, 70)"
- },
- {
-  "t": "2026-11-27T01:02:15Z",
-  "agent": "Veille",
-  "type": "alerte",
-  "msg": "AVGO +1.78 % en 15 min"
- },
- {
-  "t": "2026-11-27T01:06:21Z",
-  "agent": "Scanner",
-  "type": "scan",
-  "msg": "47 actifs analysés, 2 signal(aux) : GLD short (SWG-1, 70), PAXG short (SWG-1, 40)"
- },
- {
-  "t": "2026-11-27T01:13:05Z",
-  "agent": "Chasseur de mouvements",
-  "type": "réseaux sociaux",
-  "msg": "On en parle beaucoup (Reddit, StockTwits) : ABVX, AMKR, AZN, BABA, CRVS, EWZ, JD, MLTX, NVO, RTY_F, SHIB, SOXX"
- },
- {
-  "t": "2026-11-27T01:13:06Z",
-  "agent": "Chasseur de mouvements",
-  "type": "scan",
-  "msg": "605 actifs hors univers analysés, 1 en mouvement : ZEC +3.3 %."
- },
- {
   "t": "2026-11-27T01:18:53Z",
   "agent": "Chasseur de mouvements",
   "type": "scan",
@@ -2745,5 +2703,65 @@
   "agent": "Chasseur de mouvements",
   "type": "scan",
   "msg": "451 actifs hors univers analysés, 1 en mouvement : MELANIA -9.1 %. Ajoutés : MELANIA."
+ },
+ {
+  "t": "2026-11-28T07:47:08Z",
+  "agent": "Chasseur de mouvements",
+  "type": "tendance",
+  "msg": "Cryptos dont on parle le plus en ce moment (recherches CoinGecko) : USD1, WLFI, BTC, PORTAL, CFG, PENGU, XMR, PEARL"
+ },
+ {
+  "t": "2026-11-28T07:47:09Z",
+  "agent": "Chasseur de mouvements",
+  "type": "réseaux sociaux",
+  "msg": "On en parle beaucoup (Reddit, StockTwits) : AAPL, AMPX, BWET, CCL, CRM, DIS, FCEL, FSLR, GOOG, INFQ, MELANIA, NVAX"
+ },
+ {
+  "t": "2026-11-28T07:47:11Z",
+  "agent": "Chasseur de mouvements",
+  "type": "scan",
+  "msg": "450 actifs hors univers analysés, 2 en mouvement : XMR +4.0 %, SKY -4.0 %."
+ },
+ {
+  "t": "2026-11-28T07:47:31Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, baleines] Bitcoin price falls below $60,000 as whales buy dip, ETF outflows mount (Investing.com)",
+  "data": {
+   "lien": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-falls-below-60k-as-whales-buy-dip-etf-outflows-mount-5054180",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-28T07:47:31Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[ETF, baleines] Bitcoin price today falls below $60k as whales buy dip, ETF outflows mount - Investing.com (Investing.com)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVG5RbV9WdldtMjdNQUg3YlpJeHNjYmEzeVFyLXVQV1NkSW84TFRKMXQ0LVM3cG42WkZsYWtpRHMxZ0lnQ2RnRFAwc0NuU01FZmdSZ2dhNklrQzNLMkFjM2dzTU94MGlOMnVXczl6SVBsU1hwZmpEZEJlVXk3ZzBDZXVkSFg4cXhLem9lNFBrRWtNR0x3Y3pTRzZGODdxQTFuWWZpVi1peEdGdGhQZy0zNVJOSmRtaGVhS21qNERFTlhESHNMc3lIZWowYw?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-28T07:47:31Z",
+  "agent": "Veille",
+  "type": "actu",
+  "msg": "[piratage] Agent plagues may hack bitcoin and buy cloud compute, Situational Awareness Quarterly Letter writes - Traders Union (Traders Union)",
+  "data": {
+   "lien": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNXQxaG9ZMmxBQzJRRVlSYTJEZVJWRWJuRy1kdzRGUWRNS3h3d3pMbUFJSTVlSW5xZUZKLXlnb24yUS1lbElpUXM0Zmh3MmZIQnc2aFNMQXhONnJxTTZYbDdpZU1rNTZMWVJHUzNsS3F2eUtvT0NBbjk1QzVtX09JdEs3S1hkUm5ENFktZmlR?oc=5",
+   "actifs": [
+    "BTC"
+   ]
+  }
+ },
+ {
+  "t": "2026-11-28T07:49:34Z",
+  "agent": "Scanner",
+  "type": "scan",
+  "msg": "47 actifs analysés, 0 signal(aux). Rien qui respecte les règles."
  }
 ]
